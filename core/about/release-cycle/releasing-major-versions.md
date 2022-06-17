@@ -44,7 +44,7 @@ There are also a few responsibilities that release leads and deputies have over 
 *   **Reviewing and responding to feature ideas.** WordPress contributors and users will post feature ideas throughout the release cycle, especially on [wishlist](https://make.wordpress.org/core/tag/wishlists/) posts. While it is not the responsibility of the release lead (or deputy) to develop each feature, they should review each feature idea and see if it warrants inclusion in their release. Many of these ideas will come from [feature projects](https://make.wordpress.org/core/features/), but some may be tickets that need attention.
 *   **Tracking down contributors for help.** It is not the responsibility of the release lead to make every technical decision, or even the majority of them. The release lead should know how and when to track down and solicit contributors for assistance. The core team is large with varied availability and the release lead should have a good understanding of which contributors are the best to provide feedback and support for a variety of tickets.
 *   **Regularly chatting with contributors.** Keeping in close contact with regular contributors helps ensure that a given WordPress release is stable and ready for the public. Chatting with contributors on a regular basis ensures that the release lead knows both the availability of contributors and any potential blocking issues, among other things.
-*   **Coördinating marketing efforts.** There are a number of marketing efforts that need to be managed and the release lead or deputy should have an awareness of them. The [About page](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7) in WordPress core, the /news/ post, and the video are all part of this effort (more below on these specific efforts). [As learned on 4.7](https://core.trac.wordpress.org/ticket/39560), we should avoid having videos set to autoplay simultaneously. Note that these efforts should be conducted in conjunction with the [marketing team](https://make.wordpress.org/marketing/).
+*   **Coordinating marketing efforts.** There are a number of marketing efforts that need to be managed and the release lead or deputy should have an awareness of them. The [About page](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7) in WordPress core, the /news/ post, and the video are all part of this effort (more below on these specific efforts). [As learned on 4.7](https://core.trac.wordpress.org/ticket/39560), we should avoid having videos set to autoplay simultaneously. Note that these efforts should be conducted in conjunction with the [marketing team](https://make.wordpress.org/marketing/).
 
 #### Expectations
 
@@ -77,13 +77,15 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 ## Pre Release Candidate
 
 *   There should be no open tickets on the release milestone.
-*   The process for publishing the Field Guide is well-documented on a separate handbook page.
+*   The process for [publishing the Field Guide is documented on a separate handbook page](https://make.wordpress.org/core/handbook/tutorials/publishing-the-field-guide/).
 *   All Plugin Authors (in the wp.org repo) should be emailed, letting them know to test their plugins for compatibility with the release. The email should link them to the Field Guide. [Contact the Plugin Team Rep to coordinate](https://make.wordpress.org/updates/team-reps/) or publish the draft release email on the [Plugin Review Team’s make site](https://make.wordpress.org/pluginrepo) ([sample from 5.3 here](https://make.wordpress.org/pluginrepo/2019/10/18/5-3-release-email/)).
 *   Test the Classic Editor plugin to make sure it still works well.
 *   Remind the Akismet team about the release schedule, to ensure they get any pending plugin updates released before our final release.
+    *   Akismet is automatically checked for updates, and updated if required, on every WordPress commit
+    *   The plugin is updated in `trunk` , the current stable branch and the current development branch (if it differs from `trunk`).
 *   The Hosts Mailing List should be notified of an updated release date for the major version (handled by the [#hosting-community](https://wordpress.slack.com/messages/hosting-community/) team). Post a message in the [#hosting-community](https://wordpress.slack.com/messages/hosting-community/) Slack channel.
 *   An announcement should be made about the [string freeze](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze) on the Polyglots P2 ([example from 5.9](https://make.wordpress.org/polyglots/2021/12/16/wordpress-5-9-ready-to-be-translated/)).
-*   Committers should be reminded of [Release Candidate commit policy](https://make.wordpress.org/core/2018/10/05/wordpress-5-0-commit-management/), specifically that in the RC Phase all commits have to get double sign off from committers.
+*   Committers should be given a proactive reminder that the [Release Candidate com](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)[mit policy](https://make.wordpress.org/core/2018/10/05/wordpress-5-0-commit-management/) is coming up when RC 1 is released, specifically that in the RC Phase all commits have to get double sign off from committers. This begins *after* RC1 is released so, in the reminder, alert folks that the RC phase is coming up but has not yet begun.
 *   Run the private security unit test suite.
 
 ## Release Candidate
@@ -92,9 +94,10 @@ A Release Candidate version is released as the last stage of the release cycle
 
 *   A [hard string freeze](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze) takes effect at the Release Candidate stage, meaning text strings in the application can no longer be changed, including the About Page text.
 *   Multiple Release Candidate versions should be released (e.g. RC1, RC2) as bugs reported against it are fixed.
-*   All changes to `src/` at the Release Candidate stage must be reviewed by two committers. When choosing a second committer to review your patch, look for a veteran committer with extensive experience in that area of the codebase, so that the patch can receive a meaningful critique. Committers can commit to `tests/` at any time.
+*   Alert committers that all changes to `src/` at the Release Candidate stage must be reviewed by two committers. When choosing a second committer to review your patch, look for a veteran committer with extensive experience in that area of the codebase, so that the patch can receive a meaningful critique. Committers can commit to `tests/` at any time.
 *   The [process for an RC release](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) is well-documented on a separate handbook page.
 *   Following the first release candidate a [branch for the release](#branching-before-release) can be created so that early work on trunk can begin for the next release.
+*   An announcement should be made on Make Core about the release candidate phase ([example from 6.0](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) and the various above protocols in order to better amplify this specific part of the release cycle and prepare the community.
 
 ### translate.WordPress.org
 
@@ -138,7 +141,6 @@ This is your pre-release checklist. Do not skip it.
     *   Everyone in the first Noteworthy Contributors section (named `core-developers`, though not limited to developers) should get a Core Team badge.
 *   Make sure the tagline is synced in about.php, freedoms.php, and credits.php.
 *   Make sure the About page images use CDN URLs.
-*   Publish the [HelpHub release page](https://wordpress.org/support/wordpress-version/version-5-2/).
 *   Run the private security unit test suite.
 *   The announcement post should be drafted. **DO NOT PUBLISH.**
     *   This is based on the copy from the About Page, but will also include video (if applicable) and props at the end.
@@ -227,10 +229,11 @@ You’ve made it to release day!
     *   Bump `WP_CORE_NEW_BUNDLED_VERSION` if there is a new default theme. **Important.**
     *   Update `wporg_get_secure_versions()`, used by [an API endpoint used by Google Webmasters Tools](https://api.wordpress.org/core/stable-check/1.0/).
     *   Update `wporg_get_version_equivalents()`, used by the plugin directory.
-7.  Update the [relevant credits file](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits).
-8.  Build language packs for the release by bumping versions in [/home/wporg/public\_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh).
-9.  `deploy-dotorg.sh api` from a dotorg sandbox.
-10.  `deploy-dotorg.sh wporg` from a dotorg sandbox.
+7.  Publish the [HelpHub release page](https://wordpress.org/support/wordpress-version/version-5-2/).
+8.  Update the [relevant credits file](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits).
+9.  Build language packs for the release by bumping versions in [/home/wporg/public\_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh).
+10.  `deploy-dotorg.sh api` from a dotorg sandbox.
+11.  `deploy-dotorg.sh wporg` from a dotorg sandbox.
 
 ### Tell the World
 

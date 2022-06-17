@@ -17,9 +17,9 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 *   Announce in [#core](https://make.wordpress.org/core/tag/core/) so nobody tries to commit.
     *   Example ([archive](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers Please refrain from committing until we get 4.8-beta2 released.
 *   Remind those attending the release party to not share links to the release package until after it’s been tested.
-    *   Example ([archiv](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)[e](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): **Reminder: Please do not share links to the package publicly until the all-clear is given after testing and the announcement post is published on WordPress.org.**
+    *   Example ([archive](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **Reminder: Please do not share links to the package publicly until the all-clear is given after testing and the announcement post is published on WordPress.org.**
 *   Verify latest GitHub Action checks are passing (i.e., all show ✅).
-    *   Check the latest commit on https://github.com/WordPress/wordpress-develop/actions?query=event%3Apush+branch%3Amaster
+    *   Check the latest commit on https://github.com/WordPress/wordpress-develop/actions?query=event%3Apush+branch%3Atrunk
 *   For Minor releases, check out the release branch: `svn switch '^/branches/4.7'` and remind people to update their current install or make a fresh install.
 *   Ask a member of the Security team to run the private security unit test suite to make sure no regressions are introduced.
     *   If any are found, avoid discussing the details publicly, because some sites (like wordpress.org) run `trunk` or beta/RCs in production. Instead, notify the Security team privately.
