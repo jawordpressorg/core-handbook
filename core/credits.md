@@ -41,7 +41,9 @@ The following people have made contributions to the Core Contributor Handbook.
 *   **[@kpdesign](https://profiles.wordpress.org/kpdesign/)**
 *   **[@krogsgard](https://profiles.wordpress.org/krogsgard/)**
 *   **[@kurtpayne](https://profiles.wordpress.org/kurtpayne/)**
+*   [@marybaum](https://profiles.wordpress.org/marybaum/)
 *   **[@melchoyce](https://profiles.wordpress.org/melchoyce/)**
+*   **[@mikeschroder](https://profiles.wordpress.org/mikeschroder)**
 *   **[@nacin](https://profiles.wordpress.org/nacin/)**
 *   **[@netweb](https://profiles.wordpress.org/netweb/)**
 *   **[@nofearinc](https://profiles.wordpress.org/nofearinc/)**
@@ -57,5 +59,6 @@ The following people have made contributions to the Core Contributor Handbook.
 *   **[@stephcook22](https://profiles.wordpress.org/stephcook22/)**
 *   **[@valentinbora](https://profiles.wordpress.org/valentinbora)**
 *   **[@vinod-dalvi](https://profiles.wordpress.org/vinod-dalvi/)**
+*   [@webcommsat](https://profiles.wordpress.org/webcommsat/)
 *   **[@westonruter](https://profiles.wordpress.org/westonruter/)**
 *   **[@wpsmith](https://profiles.wordpress.org/wpsmith/)**

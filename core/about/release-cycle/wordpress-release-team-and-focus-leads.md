@@ -48,7 +48,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Give final review to and publishing News blog post announcing the release
 *   Coordinate with Matt to select release jazz musician
 
-### Release Co-ordinator
+### Release Coordinator
 
 **Responsibilities**
 
@@ -62,7 +62,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Facilitate inter-team discussions if needed
 *   Maintain a birds-eye view of the moving parts for any red flags, blockers, or additional help needed for teams
 
-### Triage Lead
+### Core Triage Lead
 
 **Responsibilities**
 
@@ -117,12 +117,6 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Work with leads to draft the About page seen in the WordPress Admin after upgrading
 *   Work with leads to draft the WordPress.org News blog announcement post
 
-### Editor Design Lead
-
-**Responsibilities**
-
-*   Provide design input, guidance, and mockups for key block editor tickets
-
 ### Editor Tech Lead 
 
 **Responsibilities**
@@ -139,6 +133,21 @@ These are tasks and responsibilities that may be documented for specific roles b
     *   highlight the important features and updates for the marketing team and for the About page.
     *   co-ordination with other leads
 *   Make sure Gutenberg updates get shipped in Core releases on time, with as few bugs as possible, and get communicated properly
+
+### Editor Triage Lead
+
+**Responsibilities**
+
+*   Run Bug Scrubs focused on Editor items.
+*   Review incoming tickets to the [Gutenberg GitHub repo](https://github.com/WordPress/gutenberg/issues) to ensure items are labeled appropriately for further review, including adding anything necessary to the appropriate release specific project board.
+*   Communicate with the Core Editor Tech leads to help gauge where more resources/attention is needed.
+*   Help prioritize any key issues throughout the release cycle to ensure time sensitive and urgent problems are resolved promptly.
+
+### Editor Design Lead
+
+**Responsibilities**
+
+*   Provide design input, guidance, and mockups for key block editor tickets
 
 ### Accessibility Lead
 

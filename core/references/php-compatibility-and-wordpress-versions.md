@@ -12,6 +12,7 @@ Past changes to supported PHP versions have been as followed:
 *   In WordPress 5.2: [Dropped support](https://core.trac.wordpress.org/ticket/46594) for PHP 5.2, 5.3, 5.4, 5.5.
 *   In WordPress 5.3: Added support for PHP 7.4 ([dev note](https://make.wordpress.org/core/2019/10/11/wordpress-and-php-7-4/)).
 *   In WordPress 5.6: Added “beta support” for PHP 8.0 ([dev note](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/)).
+*   In WordPress 5.9: Added “beta support” for PHP 8.1 ([dev note](https://make.wordpress.org/core/2022/01/10/wordpress-5-9-and-php-8-0-8-1/)).
 
 ## Supported Version Chart
 
@@ -39,6 +40,34 @@ WP Version
 
 [8.0](https://www.php.net/archive/2020.php#2020-11-26-3)
 
+[8.1](https://www.php.net/archive/2021.php#2021-11-25-1)
+
+[6.0](https://wordpress.org/news/2022/05/arturo/)
+
+N
+
+N
+
+N
+
+N
+
+**Y**
+
+**Y**
+
+**Y**
+
+**Y**
+
+**Y**
+
+**Y**
+
+**Y\***
+
+**Y\***
+
 [5.9](https://wordpress.org/news/2022/01/josephine/)
 
 N
@@ -62,6 +91,8 @@ N
 **Y**
 
 **Y**\*
+
+**Y\***
 
 [5.8](https://wordpress.org/news/2021/07/tatum/)
 
@@ -87,6 +118,8 @@ N
 
 **Y\***
 
+N
+
 [5.7](https://wordpress.org/news/2021/03/esperanza/)
 
 N
@@ -110,6 +143,8 @@ N
 **Y**
 
 **Y**\*
+
+N
 
 [5.6](https://wordpress.org/news/2020/12/simone/)
 
@@ -135,6 +170,8 @@ N
 
 **Y\***
 
+N
+
 [5.5](https://wordpress.org/news/2020/08/wordpress-5-5-eckstine/)
 
 N
@@ -156,6 +193,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
@@ -183,6 +222,8 @@ N
 
 N
 
+N
+
 [5.3](https://wordpress.org/news/2019/11/kirk/)
 
 N
@@ -207,6 +248,8 @@ N
 
 N
 
+N
+
 [5.2](https://wordpress.org/news/2019/05/jaco/)
 
 N
@@ -226,6 +269,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
@@ -255,6 +300,8 @@ N
 
 N
 
+N
+
 [5.0](https://wordpress.org/news/2018/12/bebo/)
 
 **Y**
@@ -274,6 +321,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
@@ -303,6 +352,8 @@ N
 
 N
 
+N
+
 [4.8](https://wordpress.org/news/2017/06/evans/)
 
 **Y**
@@ -318,6 +369,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
@@ -351,6 +404,8 @@ N
 
 N
 
+N
+
 [4.6](https://wordpress.org/news/2016/08/pepper/)
 
 **Y**
@@ -364,6 +419,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
@@ -399,6 +456,8 @@ N
 
 N
 
+N
+
 [4.4](https://wordpress.org/news/2015/12/clifford/)
 
 **Y**
@@ -423,6 +482,8 @@ N
 
 N
 
+N
+
 [4.3](https://wordpress.org/news/2015/08/billie/)
 
 **Y**
@@ -434,6 +495,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
@@ -471,6 +534,8 @@ N
 
 N
 
+N
+
 [4.1](https://wordpress.org/news/2014/12/dinah/)
 
 **Y**
@@ -495,6 +560,8 @@ N
 
 N
 
+N
+
 [4.0](https://wordpress.org/news/2014/09/benny/)
 
 **Y**
@@ -504,6 +571,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
@@ -543,6 +612,8 @@ N
 
 N
 
+N
+
 [3.8](https://wordpress.org/news/2013/12/parker/)
 
 **Y**
@@ -567,6 +638,8 @@ N
 
 N
 
+N
+
 [3.7](https://wordpress.org/news/2013/10/basie/)
 
 **Y**
@@ -576,6 +649,8 @@ N
 **Y**
 
 **Y**
+
+N
 
 N
 
