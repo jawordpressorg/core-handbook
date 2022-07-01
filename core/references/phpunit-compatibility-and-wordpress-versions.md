@@ -34,6 +34,30 @@ WP | PHP Unit Version
 
 [8.0](https://www.php.net/archive/2020.php#2020-11-26-3)
 
+[6.0](https://wordpress.org/news/2022/05/arturo/)
+
+x
+
+x
+
+x
+
+x
+
+5
+
+6
+
+7
+
+8
+
+9
+
+9
+
+9
+
 [5.9](https://wordpress.org/news/2022/01/josephine/)
 
 x

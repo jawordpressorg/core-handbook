@@ -10,11 +10,13 @@ See *[Explanations](#explanations)* on the bottom.
 
 **[WordPress 6.0 Development Cycle](https://make.wordpress.org/core/6-0/)**
 
-📗 [Devnotes WordPress 5.9](#devnotes-wordpress-5-9)
+📙 [DevNotes WordPress 6.0](https://make.wordpress.org/core/tag/dev-notes-6-0/)
 
-Previous year of **Gutenberg Index**: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)**
+Previous years of **Gutenberg Index**: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)**
 
 Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/) Core
+
+📗 [Devnotes WordPress 5.9](#devnotes-wordpress-5-9)
 
 * * *
 
@@ -22,7 +24,153 @@ Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/c
 
 [February](#feb)
 
+[March](#march)
+
+April
+
+[May](#may)
+
+**June 2022**
+
+2022-06-16 **[#meta](https://make.wordpress.org/core/tag/meta/)** [Gutenberg Landing Page Launched](https://make.wordpress.org/meta/2022/06/16/gutenberg-landing-page-launched/) (u)
+
+2022-06-16 **[#core](https://make.wordpress.org/core/tag/core/)** [Proposal: Editor Weekly Bug Scrubs](https://make.wordpress.org/core/2022/06/16/proposal-editor-weekly-bug-scrubs/) (u)
+
+2022-06-13 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Thinking Through the WordPress Admin Experience](https://make.wordpress.org/design/2022/06/13/thinking-through-the-wordpress-admin-experience/) (r)
+
+* * *
+
+2022-06-10 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 13.4? (8 June)](https://make.wordpress.org/core/2022/06/10/whats-new-in-gutenberg-13-4-8-june/) (u)
+
+2022-06-09 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: 8 June, 2022](https://make.wordpress.org/core/2022/06/09/editor-chat-summary-8-june-2022/) (m)
+
+2022-06-04 **[#core](https://make.wordpress.org/core/tag/core/)** [Roadmap to 6.1](https://make.wordpress.org/core/2022/06/04/roadmap-to-6-1/) (u)
+
+2022-06-01 **[#fse-outreach-experimen](https://make.wordpress.org/core/tag/fse-outreach-experimen/)**t [Hallway Hangout: Discussion on Full Site Editing Issues/PRs/Designs (1 June)](https://make.wordpress.org/test/2022/06/02/hallway-hangout-discussion-on-full-site-editing-issues-prs-designs-1-june/) (u)
+
+2022-06-01 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor Chat Summary: June 1st, 2022](https://make.wordpress.org/core/2022/06/01/editor-chat-summary-june-01-2022/) (m)
+
+2022-06-01 **[#core](https://make.wordpress.org/core/tag/core/)** [High-Level Feedback from the FSE Outreach Program (May 2022)](https://make.wordpress.org/core/2022/05/31/high-level-feedback-from-the-fse-outreach-program-may-2022/) (u)
+
+**May 2022**
+
+2022-05-30 **[#test](https://make.wordpress.org/core/tag/test/)** [FSE Program Rallying Recipe Reviewers Summary](https://make.wordpress.org/test/2022/05/30/fse-program-rallying-recipe-reviewers-summary/) (u)
+
+* * *
+
+2022-05-27 **[#core](https://make.wordpress.org/core/tag/core/)** [Block Font Sizes and Fluid typography](https://make.wordpress.org/core/2022/05/27/block-font-sizes-and-fluid-typography/) (u)
+
+2022-05-27 **[#core-edito](https://make.wordpress.org/core/tag/core-edito/)**r [Editor Chat Summary: May 25, 2022](https://make.wordpress.org/core/2022/05/27/editor-chat-summary-may-25-2022/) (m)
+
+2022-05-26 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s New in Gutenberg 13.3.0 ( May 25 )](https://make.wordpress.org/core/2022/05/26/whats-new-in-gutenberg-13-3-0-may-25/) (u)
+
+2022-05-26 **[#design](https://make.wordpress.org/core/tag/design/)** [Proposal: Creation of a @Gutenberg-Design team on GitHub](https://make.wordpress.org/design/2022/05/26/proposal-creation-of-a-gutenberg-design-team-on-github/) (u)
+
+2022-05-23 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: May 9–20](https://make.wordpress.org/design/2022/05/23/design-share-may-9-20/) (u)
+
+2022-05-25 **[#test](https://make.wordpress.org/core/tag/test/)** [Hallway Hangout: Discussion on Full Site Editing Issues/PRs/Designs (25 May)](https://make.wordpress.org/test/2022/05/25/hallway-hangout-discussion-on-full-site-editing-issues-prs-designs-25-may/) (m)
+
+* * *
+
+2022-05-20 **[#core](https://make.wordpress.org/core/tag/core/)** [Core Editor Improvement: Creating & containing containers](https://make.wordpress.org/core/2022/05/20/core-editor-improvement-creating-containing-containers/) (u)
+
+2022-05-20 **[#core](https://make.wordpress.org/core/tag/core/)** [WordPress 6.0 Release Candidate 4 (RC4) Now Available for Testing](https://make.wordpress.org/core/2022/05/20/wordpress-6-0-release-candidate-4-rc4-now-available-for-testing/) (u)
+
+2022-05-19 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor Chat Summary: 18th May 2022](https://make.wordpress.org/core/2022/05/19/editor-chat-summary-18th-may-2022/) (m)
+
+2022-05-16 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: 11 May, 2022](https://make.wordpress.org/core/2022/05/16/editor-chat-summary-11-may-2022/) (m)
+
+2022-05-12 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 13.2? (May 11)](https://make.wordpress.org/core/2022/05/12/whats-new-in-gutenberg-13-2-may-11/) (u)
+
+2022-05-11 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Team Show & Tell — May 2022](https://make.wordpress.org/design/2022/05/11/design-team-show-tell-may-2022/) (m)
+
+2022-05-09 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Apr 25–May 6](https://make.wordpress.org/design/2022/05/09/design-share-apr-25-may-6/) (u)
+
+* * *
+
+2022-05-05 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: Wednesday, 4 May 2022](https://make.wordpress.org/core/2022/05/05/editor-chat-summary-wednesday-4-may-2022/) (m)
+
+2022-05-05 **[#core](https://make.wordpress.org/core/tag/core/)** [Updates to the @wordpress/create-block templating system](https://make.wordpress.org/core/2022/05/05/updates-to-the-wordpress-create-block-templating-system/) 📙
+
+2022-05-05 **[#core](https://make.wordpress.org/core/tag/core/)** [Block Locking Settings in WordPress 6.0](https://make.wordpress.org/core/2022/05/05/block-locking-settings-in-wordpress-6-0/) 📙
+
+2022-05-03 **[#core](https://make.wordpress.org/core/tag/core/)** [WordPress 6.0 Field Guide](https://make.wordpress.org/core/2022/05/03/wordpress-6-0-field-guide/) 📙
+
+2022-05-03 **[#core](https://make.wordpress.org/core/tag/core/)** [Block Editor miscellaneous Dev Notes for WordPress 6.0](https://make.wordpress.org/core/2022/05/03/block-editor-miscellaneous-dev-notes-for-wordpress-6-0/) 📙
+
+2022-05-03 **[#core](https://make.wordpress.org/core/tag/core/)** [Page creation patterns in WordPress 6.0](https://make.wordpress.org/core/2022/05/03/page-creation-patterns-in-wordpress-6-0/) 📙
+
+2022-05-03 **[#core](https://make.wordpress.org/core/tag/core/)** [Global Styles variations in WordPress 6.0](https://make.wordpress.org/core/2022/05/03/global-styles-variations-in-wordpress-6-0/) 📙
+
+2022-05-03 **[#core](https://make.wordpress.org/core/tag/core/)** [Separator block: Updated to use block supports color settings](https://make.wordpress.org/core/2022/05/03/separator-block-updated-to-use-block-supports-color-settings/) 📙
+
+2022-05-03 **[#core](https://make.wordpress.org/core/tag/core/)** [Block markup updates for image, quote, list and group blocks](https://make.wordpress.org/core/2022/05/03/block-markup-updates-for-image-quote-list-and-group-blocks/) 📙
+
+2022-05-03 **[#core](https://make.wordpress.org/core/tag/core/)** [Support for handling resolution errors for Editor data module](https://make.wordpress.org/core/2022/05/03/support-for-handling-resolution-errors-for-editor-data-module/) 📙
+
+2022-05-02 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: Wednesday, 27 April 2022](https://make.wordpress.org/core/2022/05/02/editor-chat-summary-wednesday-20-april-2022-2/) (m)
+
+**April 2022**
+
+2022-04-28 **[#themereview](https://make.wordpress.org/core/tag/themereview/)** [Latest changes in Gutenberg + Themes: 13.0 release](https://make.wordpress.org/themes/2022/04/28/latest-changes-in-gutenberg-themes-13-0-release/) (u)
+
+2022-04-27 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 13.1? (27 April)](https://make.wordpress.org/core/2022/04/28/whats-new-in-gutenberg-13-1-27-april/) (u)
+
+2022-04-27 **[#core](https://make.wordpress.org/core/tag/core/)** [Exploration to enable better Developer and Visitor Experiences with blocks](https://make.wordpress.org/core/2022/04/27/exploration-to-enable-better-developer-and-visitor-experiences-with-blocks/) (u)
+
+2022-04-26 **[#fse-outreach-experiment](https://make.wordpress.org/core/tag/fse-outreach-experiment/)** [FSE Program Authoring an Author Template Summary](https://make.wordpress.org/test/2022/04/26/fse-program-authoring-an-author-template-summary/) (u)
+
+2022-04-25 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Apr 11–22](https://make.wordpress.org/design/2022/04/25/design-share-apr-11-22/) (u)
+
+* * *
+
+2022-04-24 **[#core-edito](https://make.wordpress.org/core/tag/core-edito/)**r [Editor chat summary: Wednesday, 20 April 2022](https://make.wordpress.org/core/2022/04/24/editor-chat-summary-wednesday-20-april-2022/) (u)
+
+2022-04-22 **[#core](https://make.wordpress.org/core/tag/core/)** [Status of Webfonts API for WordPress 6.0 Inclusion](https://make.wordpress.org/core/2022/04/22/status-of-webfonts-api-for-wordpress-6-0-inclusion/) (u)
+
+2022-04-20 **[#core](https://make.wordpress.org/core/tag/core/)** [WordPress 6.0 Accessibility Improvements](https://make.wordpress.org/core/2022/04/20/wordpress-6-0-accessibility-improvements/) (u)
+
+2022-04-19 **[#core-edito](https://make.wordpress.org/core/tag/core-edito/)**r [Editor chat summary: Wednesday, 13 April 2022](https://make.wordpress.org/core/2022/04/19/editor-chat-summary-wednesday-13-april-2022/) (m)
+
+* * *
+
+2022-04-14 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 13.0? (14 April)](https://make.wordpress.org/core/2022/04/14/whats-new-in-gutenberg-13-0-14-april/) (u)
+
+2022-04-13 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Team Show & Tell — April 2022](https://make.wordpress.org/design/2022/04/13/design-team-show-tell-april-2022/) (u)
+
+2022-04-13 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Core Styles and Theme Customization: the next steps](https://make.wordpress.org/core/2022/04/13/core-styles-and-theme-customization-the-next-steps/) (u)
+
+2022-04-12 **[#test](https://make.wordpress.org/core/tag/test/)** [Help Wanted: Test WordPress 6.0](https://make.wordpress.org/test/2022/04/12/help-wanted-test-wordpress-6-0/) (u)
+
+2022-04-11 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Mar 28–Apr 8](https://make.wordpress.org/design/2022/04/11/design-share-mar-28-apr-8/) (u)
+
+* * *
+
+2022-04-08 **[#test](https://make.wordpress.org/core/tag/test/)** [Help Test the Comments Blocks for WordPress 6.0](https://make.wordpress.org/test/2022/04/08/help-test-the-comments-blocks-for-wordpress-6-0/) (u)
+
+2022-04-07 **[#core](https://make.wordpress.org/core/tag/core/)** [6.0 Product Walk-Through Recap](https://make.wordpress.org/core/2022/04/07/6-0-product-walk-through-recap/) (u)
+
+2022-04-07 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor Chat Summary: April 6, 2022](https://make.wordpress.org/core/2022/04/07/editor-chat-summary-april-6-2022/) (m)
+
+2022-04-06 **[#themereview](https://make.wordpress.org/core/tag/themereview/)** [Gutenberg + Themes: Week of April 4th, 2022](https://make.wordpress.org/themes/2022/04/06/gutenberg-themes-week-of-april-4th-2022/) (u)
+
+2022-04-05 **[#fse-outreach-program](https://make.wordpress.org/core/tag/fse-outreach-program/)** [FSE Program Hyping Headers Summary](https://make.wordpress.org/test/2022/04/05/fse-program-hyping-headers-summary/) (u)
+
+2022-04-04 **[#fse-outreach-program](https://make.wordpress.org/core/tag/fse-outreach-program/)** [FSE Program: Answers from Round Four of Questions](https://make.wordpress.org/test/2022/04/04/fse-program-answers-from-round-four-of-questions/) (u)
+
 **March 2022**
+
+2022-03-31 **[#fse-outreach-program](https://make.wordpress.org/core/tag/fse-outreach-program/)** [FSE Program Testing Call #13: Authoring an Author Template](https://make.wordpress.org/test/2022/03/31/fse-program-testing-call-13-authoring-an-author-template/) (u)
+
+2022-03-30 **[#core](https://make.wordpress.org/core/tag/core/)** [6.0 Product Walk-Through](https://make.wordpress.org/core/2022/03/30/6-0-product-walk-through/) (u)
+
+2022-03-30 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 12.9? (30 March)](https://make.wordpress.org/core/2022/03/30/whats-new-in-gutenberg-12-9-30-march/) (u)
+
+2022-03-30 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: 30 March, 2022](https://make.wordpress.org/core/2022/03/30/editor-chat-summary-30-march-2022/) (m)
+
+2022-03-28 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Mar 14–25](https://make.wordpress.org/design/2022/03/28/design-share-mar-14-25/) (u)
+
+* * *
 
 2022-03-24 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: 23 March, 2022](https://make.wordpress.org/core/2022/03/24/editor-chat-summary-23-march-2022/) (m)
 
@@ -211,4 +359,4 @@ If you find a post missing or you would like to help with this effort, ping Birg
 
 Featured Image: Photo by [Raphael Schaller](https://unsplash.com/@raphaelphotoch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/block-type?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-[#announcements](https://make.wordpress.org/core/tag/announcements/), [#core-edito](https://make.wordpress.org/core/tag/core-edito/), [#core-edtior](https://make.wordpress.org/core/tag/core-edtior/), [#core-media](https://make.wordpress.org/core/tag/core-media/), [#core-privacy](https://make.wordpress.org/core/tag/core-privacy/), [#core-restapi](https://make.wordpress.org/core/tag/core-restapi/), [#core-themes](https://make.wordpress.org/core/tag/core-themes/), [#designer](https://make.wordpress.org/core/tag/designer/), [#forums](https://make.wordpress.org/core/tag/forums/), [#fse-outreach-experiments](https://make.wordpress.org/core/tag/fse-outreach-experiments/), [#mobile](https://make.wordpress.org/core/tag/mobile/), [#news](https://make.wordpress.org/core/tag/news/), [#plugins](https://make.wordpress.org/core/tag/plugins/), [#themes](https://make.wordpress.org/core/tag/themes/), [#themesreview](https://make.wordpress.org/core/tag/themesreview/), [#updates](https://make.wordpress.org/core/tag/updates/)
+[#announcements](https://make.wordpress.org/core/tag/announcements/), [#core-edtior](https://make.wordpress.org/core/tag/core-edtior/), [#core-media](https://make.wordpress.org/core/tag/core-media/), [#core-privacy](https://make.wordpress.org/core/tag/core-privacy/), [#core-restapi](https://make.wordpress.org/core/tag/core-restapi/), [#core-themes](https://make.wordpress.org/core/tag/core-themes/), [#designer](https://make.wordpress.org/core/tag/designer/), [#forums](https://make.wordpress.org/core/tag/forums/), [#fse-outreach-experiments](https://make.wordpress.org/core/tag/fse-outreach-experiments/), [#mobile](https://make.wordpress.org/core/tag/mobile/), [#news](https://make.wordpress.org/core/tag/news/), [#plugins](https://make.wordpress.org/core/tag/plugins/), [#themes](https://make.wordpress.org/core/tag/themes/), [#themesreview](https://make.wordpress.org/core/tag/themesreview/), [#updates](https://make.wordpress.org/core/tag/updates/)

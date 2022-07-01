@@ -4,6 +4,10 @@ There are a number of **keywords** with a defined meaning. These are commonly us
 
 ## Status-based Keywords
 
+**changes-requested**
+
+Feedback has been provided, and the attached patch needs to be updated.
+
 **close**
 
 The ticket is a candidate for closure with a disposition other than fixed (i.e. **wontfix**, **worksforme**, **invalid**, or **duplicate**). Often seen with **reporter-feedback** or **2nd-opinion**; otherwise, the ticket would have been closed in lieu of adding the **close** keyword.

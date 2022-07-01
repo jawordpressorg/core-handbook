@@ -287,10 +287,15 @@ Once tasks on the “Must Haves” board are completed they need to be backporte
 *   After merging the cherry picking PR switch to the `wp/trunk` branch and run `git pull`.
 *   Follow the normal process to update packages for a production release documented at [https://github.com/WordPress/gutenberg/blob/master/packages/README.md#production-release](https://github.com/WordPress/gutenberg/blob/master/packages/README.md#production-release).
 *   Update the packages using the automated script by running `npm run wp-packages-update` on the wordpress-develop folder.
+*   If the release includes any new blocks:
+    *   Include them in:
+        *   [tools/webpack/blocks.js](https://github.com/WordPress/wordpress-develop/blob/trunk/tools/webpack/blocks.js)
+        *   [wp-includes/blocks/index.php](https://github.com/WordPress/wordpress-develop/blob/trunk/src/wp-includes/blocks/index.php)
+    *   Unregistered their init hooks in `_unhook_block_registration` in [tests/phpunit/includes/functions.php](https://github.com/WordPress/wordpress-develop/blob/trunk/tests/phpunit/includes/functions.php)
 *   Create a new WordPress build by running `npm install && npm run build:dev`.
 *   Verify the issues that were supposed to be resolved are in fact resolved on the WordPress trunk.
 *   Create a [Trac](https://core.trac.wordpress.org/) ticket for the package updates in Core.
-*   Submit a PR against wordpress-develop to make sure the continuous integration tests pass, and add the Trac ticket number to the description. This ensures the PR gets linked to the ticket, and the patch will then be created automatically.
+*   Submit a PR against wordpress-develop to make sure the continuous integration tests pass, and add the Trac ticket number to the description. This ensures the PR gets linked to the ticket, and the patch will then be created automatically. For example, here’s the PR from WordPress 6.0 release cycle: [#2564](https://github.com/WordPress/wordpress-develop/pull/2564)
 *   Ask for reviews. During the beta stage a review is recommended but not mandatory; during the RC process a double signoff by two different committers is required. If you are a committer and are confident with the changes you can be one of the approvers add add the “dev-feedback keyword.
 *   When approved, commit the patch or coordinate with a committer to make sure it is committed in case you are not a committer.
 *   If a branch for the WordPress release already exists backporting the commit from trunk to the release branch is required.
