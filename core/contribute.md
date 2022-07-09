@@ -58,7 +58,7 @@ WordPress の将来の成功のためには、健全な貢献者のグループ�
 When contributing to WordPress, it’s important to remember that everyone is human. We all come from varying backgrounds and speak a variety of languages. There are a number of roles within the core contributor community, ranging from bug gardeners to committers, and each helps move the development process forward. Contributors are easily accessible and, as a result, expect a high level of respect, which they in turn provide to the community-at-large.
 -->
 
-WordPressに貢献するとき、誰もが人間であることを忘れないようにすることが重要です。私たちはさまざまな経歴を持ち、さまざまな言語を話します。コア貢献者のコミュニティには、バグを修正する人からコミッターまで、さまざまな役割があり、それぞれが開発プロセスを前進させるのに役立っています。貢献者は簡単に参加でき、その結果として高いレベルの敬意が求められ、コミュニティ全体に提供します。
+WordPress に貢献するとき、誰もが人間であることを忘れないようにすることが重要です。私たちはさまざまな経歴を持ち、さまざまな言語を話します。コア貢献者のコミュニティには、バグを修正する人からコミッターまで、さまざまな役割があり、それぞれが開発プロセスを前進させるのに役立っています。貢献者は簡単に参加でき、その結果として高いレベルの敬意が求められ、コミュニティ全体に提供します。
 
 <!--
 As mentioned, one big difference between WordPress and other communities is that WordPress contributors are very accessible. Looking for a lead developer or committer? Ask them a question in a public channel on Slack. Don’t be afraid to approach folks, but keep in mind that contacting people is better through public channels than unsolicited DMs. In Slack, the best place to ask a question about core is [#core](https://make.wordpress.org/core/tag/core/), however there are several sub-channels that discuss specific parts of core. Don’t worry if you’re directed to another channel; we’re here to help!
@@ -100,7 +100,7 @@ Committers are a type of WordPress contributor who has earned the trust of the c
 WordPress is organized into a few dozen well-defined, functional areas called [components](https://make.wordpress.org/core/components/). Many contributors take a particular interest in certain areas, whether it is maintaining the [HTTP API](https://make.wordpress.org/core/components/http-api/), improving the [Editor](https://make.wordpress.org/core/components/editor/), or advancing the [Customizer](https://make.wordpress.org/core/components/customize/), among many others.
 -->
 
-WordPressは、[コンポーネント](https://make.wordpress.org/core/components/)と呼ばれる、明確に定義された数十の機能エリアで構成されています。[HTTP API](https://make.wordpress.org/core/components/http-api/) のメンテナンス、[エディター](https://make.wordpress.org/core/components/editor/)の改善、[カスタマイザー](https://make.wordpress.org/core/components/customize/)の進化など、多くのコントリビューターが特定の分野に関心を持っています。
+WordPress は、[コンポーネント](https://make.wordpress.org/core/components/)と呼ばれる、明確に定義された数十の機能エリアで構成されています。[HTTP API](https://make.wordpress.org/core/components/http-api/) のメンテナンス、[エディター](https://make.wordpress.org/core/components/editor/)の改善、[カスタマイザー](https://make.wordpress.org/core/components/customize/)の進化など、多くのコントリビューターが特定の分野に関心を持っています。
 
 <!--
 Contributors that help maintain components are called, logically, component maintainers. These maintainers are vital to keeping WordPress development running as smoothly as possible. Maintainers can take on a number of tasks, including: triaging new tickets, furthering existing tickets, mentoring tasks, pitching new ideas, curating roadmaps, and providing feedback to other contributors. Longtime maintainers have a deep understanding of their area of core and are always seeking to mentor others to impart their knowledge.
@@ -124,7 +124,7 @@ Want to help? Get started by following a component you’re interested in. [Adju
 WordPress primarily uses [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn), a version control system managed by the Apache project, to manage changes to its codebase.
 -->
 
-WordPressは、コードベースの変更を管理するために、Apache プロジェクトが管理するバージョン管理システムである [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn) を使用しています。
+WordPress は、コードベースの変更を管理するために、Apache プロジェクトが管理するバージョン管理システムである [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn) を使用しています。
 
 <!--
 The [develop repository](https://develop.svn.wordpress.org/trunk/) is available for download. This repository includes core unit tests, build scripts, and by default uses the unminified and unconcatenated Javascript. Everyone has read privileges to these repos.  For more information on the structure of this repository, see the [The Code Repository (SVN)](https://make.wordpress.org/core/handbook/contribute/svn/).
