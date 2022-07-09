@@ -144,7 +144,9 @@ Please note: pull requests submitted to GitHub will not be reviewed or merged th
 
 注: GitHub に提出されたプルリクエストは、そこでレビューやマージされることはありません。Trac を使ってパッチを投稿してください。
 
-<!-- ## Patches -->
+<!--
+## Patches
+-->
 
 ## パッチ
 
@@ -336,7 +338,9 @@ As an example, look at [/wp-admin/media.php](https://core.trac.wordpress.org/bro
 
 ### ユニットテスト
 
-<!-- Alert: This section needs to be created.  -->
+<!--
+Alert: This section needs to be created.
+-->
 
 注: このセクションの作成はまだ作成されていません。
 
@@ -412,7 +416,9 @@ Sometimes, tickets and patches don’t get the attention they need and linger in
 
 時々、チケットやパッチが注意されず、trac に残ってしまうことがあります。このような場合は、コンポーネントのメンテナーやコミッターに ping を送り、フィードバックを求めてください。
 
-<!-- ## Meetings -->
+<!--
+## Meetings
+-->
 
 ## ミーティング
 
