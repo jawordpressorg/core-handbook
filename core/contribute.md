@@ -112,7 +112,7 @@ Contributors that help maintain components are called, logically, component main
 Want to help? Get started by following a component you’re interested in. [Adjust your notifications here](https://make.wordpress.org/core/notifications/).
 -->
 
-手伝ってみませんか ? 興味のあるコンポーネントをフォローすることから始めましょう。[通知を設定する](https://make.wordpress.org/core/notifications/).
+手伝ってみませんか ? 興味のあるコンポーネントをフォローすることから始めましょう。[通知を設定する](https://make.wordpress.org/core/notifications/)
 
 <!--
 ## The Repositories
@@ -212,7 +212,7 @@ If you’re not sure which to choose, we recommend the [VVV (sometimes referred 
 Trac tickets are organized into components (see “Component Maintainers” above), and use keywords to identify further details of the ticket. If your ticket is ever labeled with a keyword you’re unfamiliar with, reference the complete list of [Trac Workflow Keywords](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
 -->
 
-Trac のチケットはコンポーネントに分類され (上記の 「コンポーネントメンテナー」 を参照)、チケットの詳細を特定するためにキーワードが使用されます。もし、あなたのチケットに見慣れないキーワードでラベル付けされた場合、[Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)の完全なリストを参照してください。
+Trac のチケットはコンポーネントに分類され (上記の 「コンポーネントメンテナー」 を参照)、チケットの詳細を特定するためにキーワードが使用されます。もし、あなたのチケットが見慣れないキーワードでラベル付けされた場合、[Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)の完全なリストを参照してください。
 
 <!--
 ### Good First Bugs
@@ -249,7 +249,7 @@ Everyone is encouraged to submit bug reports and feature requests directly to tr
 *   要約 – 報告または要求している内容の要約をわかりやすく書きます。要約を書くと、関連するチケットのリストが表示されます。もし、あなたの課題や機能と重複するチケットがあった場合、新しいチケットを提出する必要はありません。現在のチケットを読み、提供できる追加 情報がないことを確認します。もし何か思い当たることがあれば、コメントを追加してください。
     *   悪い要約: 「メディアモーダルが壊れた !」
     *   良い要約: 「\_\_\_ をクリックしたときにメディアモーダルが壊れる」
-*   説明 – バグを報告するときは、できるだけ詳しく書いてください。詳しければ詳しいほど、コア貢献者があなたを支援することが容易になります。可能であれば、エラーを再現するために必要なステップをリストアップしてください。機能要望を提出する場合は、使用例やユーザーエクスペリエンスの改善など、あなたのアイデアに関する詳細な説明を含めてください。
+*   説明 – バグを報告するときは、できるだけ詳しく書いてください。詳しければ詳しいほど、コア貢献者があなたを支援することが容易になります。可能であれば、エラーを再現するために必要な手順をリストアップしてください。機能要望を提出する場合は、使用例やユーザーエクスペリエンスの改善など、あなたのアイデアに関する詳細な説明を含めてください。
 *   キーワード – チケットを提出する前に、キーワード 「needs-patch」または「needs-feedback」(詳しくは Trac ワークフローキーワード [link] を参照してください) を使い、チケットが適用される適切なコンポーネントを設定したことを確認してください。これは、コンポーネントメンテナーがチケットを管理することに役立ちます。
 
 <!--
@@ -268,13 +268,13 @@ WordPress の開発者は、セキュリティ上の問題を防ぐために最�
 It is standard practice to responsibly and privately disclose security issues to the vendor – in this case, the WordPress core development team. WordPress contributors practice responsible disclosure when reporting issues to other vendors as well. Reporting issues responsibly, prior to publishing, gives the vendor time to fix a security vulnerability and minimize damage to users.
 -->
 
-セキュリティ上の問題は、責任を持ってベンダーに非公開で開示するのが標準的な方法です。この場合、WordPress のコア開発チームです。WordPress のコントリビューターは、他のベンダーに問題を報告する際にも、責任をもって情報を開示します。公開前に責任を持って問題を報告することで、ベンダーはセキュリティの脆弱性を修正し、ユーザーへの被害を最小限に抑える時間をもつことができます。
+セキュリティ上の問題は、責任を持ってベンダーに非公開で開示することが標準的な方法です。この場合、WordPress のコア開発チームです。WordPress のコントリビューターは、他のベンダーに問題を報告する際にも、責任をもって情報を開示します。公開前に責任を持って問題を報告することで、ベンダーはセキュリティの脆弱性を修正し、ユーザーへの被害を最小限に抑える時間をもつことができます。
 
 <!--
 In short, be courteous and aware before you file a ticket that might include a security vulnerability. Refer to the [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/) page of this handbook for instructions on how to responsibly report issues to the WordPress Security Team.
 -->
 
-つまり、セキュリティ脆弱性を含む可能性のあるチケットを提出する前に、丁寧な対応を心がけ注意することです。WordPress セキュリティチームに責任を持って問題を報告する方法については、ハンドブックの [セキュリティ脆弱性の報告](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)ページを参照してください。
+つまり、セキュリティ脆弱性を含む可能性のあるチケットを提出する前に、丁寧な対応を心がけて注意することです。WordPress セキュリティチームに責任を持って問題を報告する方法については、ハンドブックの [セキュリティ脆弱性の報告](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)ページを参照してください。
 
 <!--
 ## Your First Patch
@@ -322,13 +322,13 @@ Alert: We need to add information on creating a GitGit Git is a free and open so
 Sometimes you may find yourself in a ticket that has been open for many years. More often than not these tickets have patches that need a refresh. It’s important to know why code has changed and how the refresh needs to be handled. If you [browse trunk](https://core.trac.wordpress.org/browser/trunk/src/) you will see that you can view the code of each file that makes up WordPress.
 -->
 
-ときには、何年も前から開かれているチケットを発見することもあります。多くの場合、これらのチケットにはリフレッシュが必要なパッチが含まれています。なぜコードが変更されたのか、そしてリフレッシュがどのように処理される必要があるのかを知ることが重要です。[trunk を閲覧](https://core.trac.wordpress.org/browser/trunk/src/)すると、WordPress を構成する各ファイルのコードを見ることができるのがわかるでしょう。
+ときには、何年も前から開かれているチケットを発見することもあります。多くの場合、これらのチケットには更新が必要なパッチが含まれています。なぜコードが変更されたのか、そして更新がどのように処理される必要があるのかを知ることが重要です。[trunk を閲覧](https://core.trac.wordpress.org/browser/trunk/src/)すると、WordPress を構成する各ファイルのコードを見ることができるのがわかるでしょう。
 
 <!--
 As an example, look at [/wp-admin/media.php](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php). If you follow the link you will see the url at the top of your browser looks similar to the file structure of WordPress. If you append [?annotate=blame](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php?annotate=blame) to the url, the page will load with a new colored sidebar on the left. These are the changesets that have been made to the file. This will help you identify the reasoning the code has changed and allows you to find the ticket associated to better understand the conversation that resulted in the changes. (Usually looks like Fixes:xxxxx)
 -->
 
-たとえば、[/wp-admin/media.php](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php) を見てください。リンクをたどると、ブラウザの上部に表示される url が WordPress のファイル構造に似ていることが分かると思います。URL に[?annotate=blame](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php?annotate=blame) を追加すると、左側のサイドバーに色が付いたページが読み込まれます。これらは、ファイルに加えられたチェンジセットです。これはコードが変更された理由を特定することに役立ち、変更にいたった議論をよりよく理解するために関連するチケットを見つけることを可能にします。(通常は Fixes:xxxxx のように表示されます)
+たとえば、[/wp-admin/media.php](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php) を見てください。リンクをたどると、ブラウザの上部に表示される url が WordPress のファイル構造に似ていることが分かると思います。URL に [?annotate=blame](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php?annotate=blame) を追加すると、左側のサイドバーに色が付いたページが読み込まれます。これらは、ファイルに加えられたチェンジセットです。これはコードが変更された理由を特定することに役立ち、変更にいたった議論をよりよく理解するために関連するチケットを見つけることを可能にします。(通常は Fixes:xxxxx のように表示されます)
 
 <!--
 ### Unit Testing
@@ -380,7 +380,7 @@ As mentioned earlier, older tickets often have attached patches that no longer a
 Over time, code shifts around and sometimes these patches only need a bit of reorganization to apply. Other times, you may find code that has been refactored and needs an alternative solution for the proposed bug/enhancement. Once this has been done, create a new patch with the clean code and submit it to the ticket.
 -->
 
-時間が経つにつれて、コードが移動し、ときにはこれらのパッチを適用するために少し再構成することが必要になる場合があります。また、リファクタリングされたコードが見つかり、提案されたバグや機能強化のための代わりの解決策が必要になることもあります。これが終わったら、きれいなコードで新しいパッチを作成し、チケットに投稿してください。
+時間が経つにつれて、コードが移動し、ときにはこれらのパッチを適用するために少し再構成することが必要になる場合があります。また、リファクタリングされたコードが見つかり、提案されたバグや機能強化のために代わりの解決策が必要になることもあります。これが終わったら、きれいなコードで新しいパッチを作成し、チケットに投稿してください。
 
 <!--
 (Speaking of refactoring code, the core team almost never takes patches that only refactor code. See the [Code Refactoring](https://make.wordpress.org/core/handbook/contribute/code-refactoring/) page for more information..)
@@ -398,7 +398,7 @@ Over time, code shifts around and sometimes these patches only need a bit of reo
 Once you think your patch is ready for commit, it’s time to find a committer to review it and commit it to WordPress core. The most appropriate reviewer for your code is usually the component maintainer \[link\] (see above), however any committer can review your patch and commit it.
 -->
 
-パッチがコミットできる状態になったら、今度はそれをレビューして WordPress コアにコミットしてくれるコミッターを探します。あなたのコードに最も適したレビュアーは、通常、コンポーネントメンテナー \[link\] (上記参照) ですが、どんなコミッターでもあなたのパッチをレビューし、コミットできます。
+パッチがコミットできる状態になったら、今度はそれをレビューして WordPress コアにコミットしてくれるコミッターを探します。あなたのコードに最も適したレビュアーは、通常はコンポーネントメンテナー \[link\] (上記参照) ですが、どんなコミッターでもあなたのパッチをレビューし、コミットできます。
 
 <!--
 Another way to get feedback on your patch is to ask for feedback during the “open floor” at the end of the [weekly core developer chat](https://make.wordpress.org/core/tag/agenda/) (see below). If you go this route, be sure to wait until the end of the meeting and not during the chat.
