@@ -32,7 +32,7 @@ For more information on getting started installing the test suites and running a
 <!--
 Note: If writing a test requiring a YouTube or Vimeo URL/embed, please use the WP 5.0 release YouTube video and the official Vimeo test video:
 -->
-注意: YouTube や Vimeo の URL または埋め込みが必要なテストを書く場合は、WP 5.0 のリリース YouTube 動画と Vimeo の公式テスト動画を使用してください。
+備考: YouTube や Vimeo の URL または埋め込みが必要なテストを書く場合は、WP 5.0 のリリース YouTube 動画と Vimeo の公式テスト動画を使用してください。
 
 <!--
 *   YouTube: [https://www.youtube.com/watch?v=72xdCU\_\_XCk](https://www.youtube.com/watch?v=72xdCU__XCk)
