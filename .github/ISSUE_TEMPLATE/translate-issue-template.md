@@ -14,11 +14,11 @@ ex. 翻訳：get-involved/first-steps -->
 
 **翻訳するページのURL**
 <!-- 翻訳するページのURLを書いてください -->
-https://make.wordpress.org/design/handbook/
+https://make.wordpress.org/core/handbook/
 
 **翻訳するページのリポジトリ内のパス**
 <!-- 翻訳するページのリポジトリ内のパスを書いてください -->
-design-handbook/design/
+core-handbook/core/
 
 **原文との差分チェック**
 <!-- 翻訳するページとリポジトリ内の内容を確認したらチェックを入れてください -->
