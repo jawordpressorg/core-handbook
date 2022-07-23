@@ -66,6 +66,8 @@ rules:
   # 半角英字と全角文字の間には、半角スペースを入れる
   - pattern: /([^\x01-\x7E])([a-zA-Z]+)([^\x01-\x7E])/
     expected: $1 $2 $3
+  - pattern: /^([a-zA-Z]+)([^\x01-\x7E])/
+    expected: $1 $2
   # 疑問符、感嘆符の前に半角スペースを入れる
   - pattern: /([^ ])([!?])/
     expected: $1 $2
@@ -2175,7 +2177,7 @@ rules:
   - expected: マネージャー$1
     pattern:  /マネージャ([^ー])/
   - expected: メンテナー$1
-    pattern:  /メンテナ(?!ンス)([^ー]|)/
+    pattern:  /メンテナ([^ーンス])/
   - expected: メンバー
     pattern:  /メンバ(?!ー)/
   - expected: メール
