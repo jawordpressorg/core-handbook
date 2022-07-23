@@ -41,4 +41,4 @@ If your locally setup domain is `http://wp-test.dev` then `http://wp-test.dev/te
 <!--
 You can also run the tests directly in the browser without setting up a web server, append `/tests/qunit/index.html` to the the file path of your repo check out, for example `file:///Users/myusername/dev/develop.svn.wordpress.org/trunk/tests/qunit/index.html`
 -->
-ウェブサーバーを立ち上げずに、ブラウザ上で直接テストを実行することもできます。レポジトリをチェックアウトする際のファイルパスに `/tests/qunit/index.html` を追加してください。例えば、`file:///Users/musername/dev/develop.svn.wordpress.org/trunk/tests/qunit/index.html` というようにします。
+ウェブサーバーを立ち上げずに、ブラウザ上で直接テストを実行することもできます。チェックアウトしたレポジトリのファイルパスに `/tests/qunit/index.html` を追加してください。例えば、`file:///Users/musername/dev/develop.svn.wordpress.org/trunk/tests/qunit/index.html` というようにします。
