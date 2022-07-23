@@ -24,7 +24,7 @@ WordPress は何千人ものコントリビューターが関わる巨大なプ�
  -->
 *   [コミットメッセージ](https://make.wordpress.org/core/handbook/best-practices/commit-messages/)
 *   [WordPress コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/) 
-    *   [アクセシビリティーコーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/accessibility/)
+    *   [アクセシビリティコーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/accessibility/)
     *   [CSS コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/css/)
     *   [HTML コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/html/)
     *   [JavaScript コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/javascript/)
