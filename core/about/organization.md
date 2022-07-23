@@ -1,14 +1,40 @@
+<!--  
 # Project Organization
+-->
+# 企画運営
 
+<!--
 Alert: This page is out of date. Let someone in [#core](https://wordpress.slack.com/messages/C02RQBWTW) know if you want to help update it!
+-->
+警告：このページは古いものとなります。
+もしあなたがこのページをアップデートするのを助けたいと思うのなら、その人にこのページ[#core](https://wordpress.slack.com/messages/C02RQBWTW)を知らせてください。
 
+<!--
 ## About the Project
+-->
+## この企画について
 
+<!--
 The WordPress project is run by a core leadership team and led by co-founder and lead developer **Matt Mullenweg**. The team governs all aspects of the project, including core development, WordPress.org, and community initiatives.
+-->
+このWordPressの企画は、共同創設者・**Matt Mullenweg**に導かれ、一つの核となる統率の取れたチームによって動かされています。
+そのチームはその企画のあらゆる面を管理し、その企画は中心となる開発、WordPress.org、またコミュニティの主導権も含みます。
 
+<!--
 Trusted contributors and core developers earn their stripes on more than their abilities and actions. Leadership roles are earned on the basis of professionalism, personality, attitude, and respect among peers.
+-->
+信頼された貢献者たちや核となる開発者たちは彼らの特技や行動によって業績を上げます。
+リーダーの役割は、専門性、人格、態度、また同僚たちからの尊敬によって与えられます。
 
+<!--
 The best contributors naturally respect and subscribe to the project’s core philosophies. A lack of a personal agenda is paramount: we’re all a part of the same community and we all share common goals. This doesn’t mean you can’t have an opinion – far from it. The best contributors can balance their opinions with the goals of the project and the perspectives of both users and developers. Offering consistently good suggestions, demonstrating a strong ability to collaborate with others, and being able to accept (and provide) feedback are all important.
+-->
+最も貢献した者はそのプロジェクトの核になる哲学に自然に同意し、尊敬します。
+個人的な予定がないことは最高である。私たちすべては同じコミュニティの一端であり、私達すべては同じ目的を共有している。
+これはあなたは意見を持てないという意味ではないどころか、その事態とはかけ離れています。
+最も貢献した者は、そのプロジェクトの目的に関するそれぞれの意見、そして使う者と開発する者のの両方の見方のバランスを取ることができます。
+提供することは矛盾なく良い提案をし、他人と力を合わせるために強い能力を論証し、また受け入れること、供給することを可能にし続けるフィードバックは全てが重要です。
+
 
 You can identify these standards in some of our best core contributors, and that’s why they have strong influence over the project. Final decisions are made by the core team, which has evolved over the life of the project based on merit.
 
