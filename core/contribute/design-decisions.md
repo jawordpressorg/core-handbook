@@ -24,14 +24,14 @@ Many load balancers and proxy servers forward HTTP headers for HTTPS, IP address
 
 If WordPress blindly listened to these headers – especially for protocols – there is a risk of infinite redirects and general breakage. To make matters worse, these are not formal standards, and are rather freeform. As a result, many web server and  configurations do this differently. For example, one configuration might prepend “HTTP\_”, resulting in HTTP\_HTTPS. What should be done instead is a server should either pass properly mapped headers to PHP, or some code can do the mapping in `wp-config.php`. For example:
 
-</p>
+```php
 if (
-	isset( $\_SERVER\['HTTP\_X\_FORWARDED\_PROTO'\] ) && 
-	'https' === $\_SERVER\['HTTP\_X\_FORWARDED\_PROTO'\] 
+	isset( $_SERVER['HTTP_X_FORWARDED_PROTO'] ) && 
+	'https' === $_SERVER['HTTP_X_FORWARDED_PROTO'] 
 ) {
-	$\_SERVER\['HTTPS'\] = 'on';
+	$_SERVER['HTTPS'] = 'on';
 }
-<p>
+```
 
 See also: [#9235](https://core.trac.wordpress.org/ticket/9235), [#15009](https://core.trac.wordpress.org/ticket/15009), [#15733](https://core.trac.wordpress.org/ticket/15733), [#19337](https://core.trac.wordpress.org/ticket/19337), [#24394](https://core.trac.wordpress.org/ticket/24394), etc.
 

@@ -35,7 +35,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Communicating publicly as much as possible (on tickets, in component chats, Make/Core posts, etc.)
 *   Identifying blockers to progress and asking for help from buddies, team leads, and/or the Release Lead
 *   Being mindful of deadlines
-*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase., marketing, etc.)
+*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notes, marketing, etc.)
 *   Leading bug scrubs focused on your team’s tickets and tasks
 *   Facilitating and participating in inter-team discussions
 
@@ -96,7 +96,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Keep track of changes within the release that require dev notes
 *   Coordinate with the participants of those tickets with the best understanding of the changes (the committer, component maintainers, contributors owned a ticket, and lead the charge) to draft dev notes
 *   Ensure all dev notes are written with enough time to proofread, reviewed, and published prior to the field guide (which publishes at the same time as release candidate 1)
-*   If a ticket participant is not available to write a dev notedev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase., finding someone to write one, or writing one yourself
+*   If a ticket participant is not available to write a dev note, finding someone to write one, or writing one yourself
 *   Ensure any documentation pages required for new features are created before the release
 *   Write and publish the release changelog on HelpHub
 *   Update WordPress versions page on the Codex

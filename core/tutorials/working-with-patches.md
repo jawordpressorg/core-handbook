@@ -142,13 +142,17 @@ Next you will create the patch file, which records the differences between your 
 
 To do so, ensure that you are in the root directory created by your SVN checkout (**wordpress-svn**), then run the following command, where `00000` is replaced with the ticket number from Trac:
 
+```bash
 svn diff > 00000.diff
+```
 
 If you also like to automatically submit the created patch to an existing ticket, there is an easy-to-use [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) command available that can take care of both creating the patch and uploading it. In order to use the command, you need to have [Node.js](https://nodejs.org/) and Grunt-CLI globally installed, and you need to ensure that the WordPress development dependencies are installed locally, which you can do by running `npm install`.
 
 The actual command to create and upload a patch works as follows:
 
-grunt upload\_patch:00000
+```bash
+grunt upload_patch:00000
+```
 
 Make sure to replace `00000` with the ticket number from Trac. During execution of the command, you may be asked for your wordpress.org user name and password.
 
@@ -164,23 +168,29 @@ On a Mac, this will save it to your default downloads folder, from where you can
 
 You can also download a patch via command line. Make sure that you are in the **wordpress-svn** directory, then download the patch into the **patches** folder.
 
+```bash
 curl -O https://core.trac.wordpress.org/raw-attachment/ticket/00000/00000.diff
+```
 
-Note: If you download the patchpatch A special text file that describes changes to code, by identifying the files and lines which are added, removed, and altered. It may also be referred to as a **diff**. A patch can be *applied* to a codebase for testing. this way, make sure that it is coming from the **raw-attachment** directory on the TracTrac An open source project by Edgewall Software that serves as a bug tracker and project management tool for WordPress. server. You can get this URLURL A specific web address of a website or web page on the Internet, such as a website’s URL www.wordpress.org by clicking on the patch in Trac, then grabbing the URL linked to by **Original Format** at the bottom of the page.
+Note: If you download the patch this way, make sure that it is coming from the **raw-attachment** directory on the Trac server. You can get this URL by clicking on the patch in Trac, then grabbing the URL linked to by **Original Format** at the bottom of the page.
 
 You will need to apply the patch from the **wordpress-svn** directory, where you have downloaded the patch file. Use the following command to apply the patch:
 
+```
 patch -p 0 < 00000.diff
+```
 
 Now, the **wordpress-svn** code has been patched with the file you downloaded, giving you the version of the code that the developer who submitted that patch was working with.
 
-Note: If the patchpatch A special text file that describes changes to code, by identifying the files and lines which are added, removed, and altered. It may also be referred to as a **diff**. A patch can be *applied* to a codebase for testing. fails to apply cleanly, you will need to leave a note on the TracTrac An open source project by Edgewall Software that serves as a bug tracker and project management tool for WordPress. ticketticket Created for both bug reports and feature development on the bug tracker. that the patch needs to be refreshed, and add the **needs-refresh** keyword to the ticket.
+Note: If the patch fails to apply cleanly, you will need to leave a note on the Trac ticket that the patch needs to be refreshed, and add the **needs-refresh** keyword to the ticket.
 
 To make this process a little easier for you, there is another [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) command available that takes care of both downloading a patch from an existing ticket and applying it. As mentioned before, in order to use it, you need to have both [Node.js](https://nodejs.org/) and Grunt-CLI globally installed, and you also need to have the local dependencies set up, which you can do by using the command `npm install`.
 
 You can then use the following command:
 
+```bash
 grunt patch:00000
+```
 
 Make sure to replace `00000` with the ticket number from Trac. The command will automatically download the patch file from the ticket if there is only a single patch available. Otherwise, you can select which patch to download from a list, using the arrow keys on your keyboard.
 
@@ -188,7 +198,9 @@ Make sure to replace `00000` with the ticket number from Trac. The command will 
 
 When you have finished testing, it is best to revert your SVN install back to the latest version of trunk, removing all applied patches and any changes you have made. You will use the following command to revert all patches/changes:
 
-svn revert -R \*
+```bash
+svn revert -R *
+```
 
 ## Download a GitHub pull request
 

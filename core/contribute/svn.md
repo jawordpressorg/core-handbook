@@ -1,6 +1,6 @@
 # The Code Repository (SVN)
 
-Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVNSVN Subversion, the popular version control system (VCS) by the Apache project, used by WordPress to manage changes to its codebase.. This documentation focuses on the SVN option.
+Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
 
 ## What is SVN?
 

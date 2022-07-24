@@ -10,7 +10,7 @@ A security issue is a type of bug that can affect the security of WordPress inst
 
 Specifically, it is a report of a bug that you have found in the WordPress core code, and that you have determined can be used to gain some level of access to a site running WordPress that you should not have.
 
-Your site being “hacked” is **not** a security issue. The security issue will involve knowing how the attacker got in and hacked the site. If you have details on the attack, then contact us. If not, then the [Support Forums](https://wordpress.org/support/) are the most appropriate place to report such an issue.
+Your site being “hacked ” is **not** a security issue. The security issue will involve knowing how the attacker got in and hacked the site. If you have details on the attack, then contact us. If not, then the [Support Forums](https://wordpress.org/support/) are the most appropriate place to report such an issue.
 
 You forgetting your password or losing access to your site is **not** a security issue. If you lost access through a bug in the WordPress code, then that might be a security issue.
 

@@ -17,21 +17,25 @@ There are plenty of different methods for structuring a stylesheet. With the CSS
 
 Correct:
 
+```css
 #selector-1,
 #selector-2,
 #selector-3 {
 	background: #fff;
 	color: #000;
 }
+```
 
 Incorrect:
 
+```css
 #selector-1, #selector-2, #selector-3 {
 	background: #fff;
 	color: #000;
 	}
 
 #selector-1 { background: #fff; color: #000; }
+```
 
 ## Selectors
 
@@ -44,35 +48,39 @@ With specificity, comes great responsibility. Broad selectors allow us to be eff
 
 Correct:
 
+```css
 #comment-form {
 	margin: 1em 0;
 }
 
-input\[type="text"\] {
+input[type="text"] {
 	line-height: 1.1;
 }
+```
 
 Incorrect:
 
-#commentForm { /\* Avoid camelcase. \*/
+```css
+#commentForm { /* Avoid camelcase. */
 	margin: 0;
 }
 
-#comment\_form { /\* Avoid underscores. \*/
+#comment_form { /* Avoid underscores. */
 	margin: 0;
 }
 
-div#comment\_form { /\* Avoid over-qualification. \*/
+div#comment_form { /* Avoid over-qualification. */
 	margin: 0;
 }
 
-#c1-xr { /\* What is a c1-xr?! Use a better name. \*/
+#c1-xr { /* What is a c1-xr?! Use a better name. */
 	margin: 0;
 }
 
-input\[type=text\] { /\* Should be \[type="text"\] \*/
-	line-height: 110% /\* Also doubly incorrect \*/
+input[type=text] { /* Should be [type="text"] */
+	line-height: 110% /* Also doubly incorrect */
 }
+```
 
 ## Properties
 
@@ -85,21 +93,25 @@ Similar to selectors, properties that are too specific will hinder the flexibili
 
 Correct:
 
+```css
 #selector-1 {
 	background: #fff;
 	display: block;
 	margin: 0;
 	margin-left: 20px;
 }
+```
 
 Incorrect:
 
+```css
 #selector-1 {
 	background:#FFFFFF;
 	display: BLOCK;
 	margin-left: 20PX;
 	margin: 0;
 }
+```
 
 ### Property Ordering
 
@@ -121,6 +133,7 @@ Top/Right/Bottom/Left (TRBL/trouble) should be the order for any relevant proper
 
 Example:
 
+```css
 #overlay {
 	position: absolute;
 	z-index: 1;
@@ -128,11 +141,13 @@ Example:
 	background: #fff;
 	color: #777;
 }
+```
 
 Another method that is often used, including by the Automattic/WordPress.com Themes Team, is to order properties alphabetically, with or without certain exceptions.
 
 Example:
 
+```css
 #overlay {
 	background: #fff;
 	color: #777;
@@ -140,6 +155,7 @@ Example:
 	position: absolute;
 	z-index: 1;
 }
+```
 
 ### Vendor Prefixes
 
@@ -147,11 +163,13 @@ Updated on 2/13/2014, after [\[27174\]](https://core.trac.wordpress.org/changese
 
 We use [Autoprefixer](https://github.com/postcss/autoprefixer) as a pre-commit tool to easily manage necessary browser prefixes, thus making the majority of this section moot. For those interested in following that output without using Grunt, vendor prefixes should go longest (-webkit-) to shortest (unprefixed). All other spacing remains as per the rest of standards.
 
+```css
 .sample-output {
 	-webkit-box-shadow: inset 0 0 1px 1px #eee;
 	-moz-box-shadow: inset 0 0 1px 1px #eee;
 	box-shadow: inset 0 0 1px 1px #eee;
 }
+```
 
 ## Values
 
@@ -170,13 +188,14 @@ There are numerous ways to input values for properties. Follow the guidelines be
 
 Correct:
 
-.class { /\* Correct usage of quotes \*/
+```css
+.class { /* Correct usage of quotes */
 	background-image: url(images/bg.png);
 	font-family: "Helvetica Neue", sans-serif;
 	font-weight: 700;
 }
 
-.class { /\* Correct usage of zero values \*/
+.class { /* Correct usage of zero values */
 	font-family: Georgia, serif;
 	line-height: 1.4;
 	text-shadow:
@@ -184,37 +203,40 @@ Correct:
 		0 1px 0 #fff;
 }
 
-.class { /\* Correct usage of short and lengthier multi-part values \*/
+.class { /* Correct usage of short and lengthier multi-part values */
 	font-family: Consolas, Monaco, monospace;
 	transition-property: opacity, background, color;
 	box-shadow:
 		0 0 0 1px #5b9dd9,
 		0 0 2px 1px rgba(30, 140, 190, 0.8);
 }
+```
 
 Incorrect:
 
-.class { /\* Avoid missing space and semicolon \*/
+```css
+.class { /* Avoid missing space and semicolon */
 	background:#fff
 }
 
-.class { /\* Avoid adding a unit on a zero value \*/
+.class { /* Avoid adding a unit on a zero value */
 	margin: 0px 0px 20px 0px;
 }
 
 .class {
-	font-family: Times New Roman, serif; /\* Quote font names when required \*/
-	font-weight: bold; /\* Avoid named font weights \*/
+	font-family: Times New Roman, serif; /* Quote font names when required */
+	font-weight: bold; /* Avoid named font weights */
 	line-height: 1.4em;
 }
 
-.class { /\* Incorrect usage of multi-part values \*/
+.class { /* Incorrect usage of multi-part values */
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5),
                  0 1px 0 #fff;
 	box-shadow: 0 1px 0 rgba(0, 0,
 		0, 0.5),
 		0 1px 0 rgba(0,0,0,0.5);
 }
+```
 
 ## Media Queries
 
@@ -226,10 +248,12 @@ Media queries allow us to gracefully degrade the DOM for different screen sizes.
 
 Example:
 
+```css
 @media all and (max-width: 699px) and (min-width: 520px) {
 
-		/\* Your selectors \*/
+		/* Your selectors */
 }
+```
 
 ## Commenting
 
@@ -239,23 +263,27 @@ Example:
 
 For sections and subsections:
 
-/\*\*
- \* #.# Section title
- \*
- \* Description of section, whether or not it has media queries, etc.
- \*/
+```css
+/**
+ * #.# Section title
+ *
+ * Description of section, whether or not it has media queries, etc.
+ */
 
 .selector {
 	float: left;
 }
+```
 
 For inline:
 
-/\* This is a comment about this selector \*/
+```css
+/* This is a comment about this selector */
 .another-selector {
 	position: absolute;
-	top: 0 !important; /\* I should explain why this is so !important \*/
+	top: 0 !important; /* I should explain why this is so !important */
 }
+```
 
 ## Best Practices
 

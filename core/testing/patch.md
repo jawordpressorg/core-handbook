@@ -1,6 +1,6 @@
 # Testing a Patch
 
-Alert: This page is under construction and may contain inaccurate information. Want to help fix it? PingPing The act of sending a very small amount of data to an end point. Ping is used in computer science to illicit a response from a target server to test it’s connection. Ping is also a term used by Slack users to @ someone or send them a direct message (DM). Users might say something along the lines of “Ping me when the meeting starts.” the [#docs](https://make.wordpress.org/core/tag/docs/) channel in WordPress SlackSlack Slack is a Collaborative Group Chat Platform [https://slack.com/](https://slack.com/). The WordPress community has its own Slack Channel at [https://make.wordpress.org/chat/](https://make.wordpress.org/chat/)..
+Alert: This page is under construction and may contain inaccurate information. Want to help fix it? Ping the [#docs](https://make.wordpress.org/core/tag/docs/) channel in WordPress Slack.
 
 Testing patches is an important part of ensuring the quality of WordPress releases.
 
@@ -24,26 +24,26 @@ VVV includes support for [WP Core Development](https://github.com/Varying-Vagran
 
 If you use VVV, a site can be added that contains a full [WP Core development build](https://github.com/Varying-Vagrant-Vagrants/custom-site-template-develop/). If you open `config/config.yml` there is a site pre-pepared for this, but disabled out of the box. Look for `wordpress-trunk` and change `skip_provisioning` from `true` to `false`, it should look like this:
 
-</p>
+```yaml
   wordpress-trunk:
-    skip\_provisioning: true
+    skip_provisioning: true
     description: "An git based WP Core trunk dev setup, useful for contributor days, Trac tickets, patches"
     repo: https://github.com/Varying-Vagrant-Vagrants/custom-site-template-develop.git
     hosts:
       - trunk.wordpress.test
     custom:
       vcs: git # using 'svn' will force this vcs
-<p>
+```
 
 Once saved, reprovision with `vagrant up --provision`. VVV will download and prepare a developer environment for working on core and testing. This new site will be located in the `www/wordpress-trunk/public_html` folder.
 
 Inside the site there will be 2 folders, `src` and `build`. Changes made in the `src` folder are processed by a tool called `grunt` and put in the `build` folder. This happens automatically by running the command `npm run grunt watch` in the `www/wordpress-trunk/public_html` folder. For example:
 
-</p>
+```bash
 vagrant ssh
-cd /srv/www/wordpress-trunk/public\_html
+cd /srv/www/wordpress-trunk/public_html
 npm run grunt watch
-<p>
+```
 
 ## Testing with Grunt
 

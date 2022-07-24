@@ -26,34 +26,14 @@ Controls with a native keyboard interaction (buttons or links) are always prefer
 If you’re updating an existing control:
 
 Button or link decision logic
-
-Scenario
-
-Choice
-
-Anchors with null or meaningless HREF values: href=’#’, no href, href=’#something’ where #something does not exist
-
-`button`
-
-Anchors with meaningful on-page HREF values href=’#something’ where #something does exist
-
-`button` or `a href='#target'`
-
-Anchors with meaningful off-page HREF values that are renderable (but actual behavior is AJAX)
-
-Link when JS not available, button the rest of the time.
-
-Anchors with meaningful off-page HREF values that are \*not\* renderable
-
-Should be a button, but perhaps the target should be made renderable
-
-Buttons that direct to new locations on the same page
-
-Could be either a button or a link.
-
-Buttons that direct to new locations on different pages.
-
-Should be a link.
+| Scenario | Choice |
+| --- | --- |
+| Anchors with null or meaningless HREF values: href=’#’, no href, href=’#something’ where #something does not exist | `button` |
+| Anchors with meaningful on-page HREF values href=’#something’ where #something does exist | `button` or `a href='#target'` |
+| Anchors with meaningful off-page HREF values that are renderable (but actual behavior is AJAX) | Link when JS not available, button the rest of the time. |
+| Anchors with meaningful off-page HREF values that are \*not\* renderable | Should be a button, but perhaps the target should be made renderable |
+| Buttons that direct to new locations on the same page | Could be either a button or a link. |
+| Buttons that direct to new locations on different pages. | Should be a link. |
 
 ### Dynamic Content
 
@@ -88,14 +68,14 @@ For `<img>` elements, the accessible name should be in the alt attribute. If the
 
 For icon fonts, the font icon itself should have the aria-hidden attribute, with screen-reader-text in a neighbor element. If the icon is ornamental, the font icon should still have the `aria-hidden` attribute, but the screen reader text should be omitted.
 
-</p>
+```
 <a href="this.html">
 <span class="dashicons dashicon-thumbs-up" aria-hidden="true"></span>
 <span class="screen-reader-text">Something</span>
 </a>
-<p>
+```
 
-For SVG, the SVG should be inline, so that accessible information isn’t hidden from assistive technologyAssistive technology **Assistive technology** is an [umbrella term](https://en.wikipedia.org/wiki/Umbrella_term "Umbrella term") that includes assistive, adaptive, and rehabilitative devices for [people with disabilities](https://en.wikipedia.org/wiki/Disability "Disability") and also includes the process used in selecting, locating, and using them. Assistive technology promotes greater independence by enabling people to perform tasks that they were formerly unable to accomplish, or had great difficulty accomplishing, by providing enhancements to, or changing methods of interacting with, the [technology](https://en.wikipedia.org/wiki/Technology "Technology") needed to accomplish such tasks. https://en.wikipedia.org/wiki/Assistive\_technology. SVG elements should contain a `<title>` element with the accessible name of the image. For cross-technology support, the title element should be associated with the svg element via `aria-labelledby`. For maximum compatibility, all SVG elements used to represent an image should carry the role attribute with a value of ‘img’.
+For SVG, the SVG should be inline, so that accessible information isn’t hidden from assistive technology. SVG elements should contain a `<title>` element with the accessible name of the image. For cross-technology support, the title element should be associated with the svg element via `aria-labelledby`. For maximum compatibility, all SVG elements used to represent an image should carry the role attribute with a value of ‘img’.
 
 If the SVG element is ornamental, then the title element should be omitted and no aria-labelledby attribute should be present. The SVG element should also carry the `aria-hidden` attribute.
 

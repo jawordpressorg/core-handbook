@@ -8,13 +8,17 @@ PHPUnit is the official testing framework chosen by the core team to test our PH
 
 The WordPress tests live in the core development repository, available via SVN at:
 
+```bash
 svn co https://develop.svn.wordpress.org/trunk/ wordpress-develop
 cd wordpress-develop
+```
 
 Or Git:
 
+```bash
 git clone git://develop.git.wordpress.org/ wordpress-develop
 cd wordpress-develop
+```
 
 **Step 2: Set up a config file.**
 
@@ -35,7 +39,7 @@ Note:
 
 **Pre-requisite for non-Docker workflows:**
 
-For non-Docker workflows, you need to make sure that PHPPHP The web scripting language in which WordPress is primarily architected. WordPress requires PHP 5.6.20 or higher and MySQLMySQL MySQL is a relational database management system. A database is a structured collection of data where content, configuration and other options are stored. [https://www.mysql.com/](https://www.mysql.com/)./MariaDB are available.
+For non-Docker workflows, you need to make sure that PHP and MySQL/MariaDB are available.
 
 For more information on setting up PHP and a database locally, please see the [Installing a local server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/) handbook pages.
 
@@ -55,10 +59,12 @@ Optionally, the PHP external extensions Xdebug, MemCache and Imagick should also
 
 **Step 4**: Run from the command-line:
 
+```bash
 npm install
 npm run build:dev
 npm run env:start
 npm run env:install
+```
 
 **Running the tests**
 
@@ -108,7 +114,9 @@ Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/
 
 Typically, you would clone the GitHub repository:
 
-git clone git@github.com:Yoast/PHPUnit-Polyfills.git \[target/path\]
+```bash
+git clone git@github.com:Yoast/PHPUnit-Polyfills.git [target/path]
+```
 
 **Step 3**: Define path to Polyfills
 
@@ -116,9 +124,12 @@ Once the Polyfills are installed, tell the WordPress test bootstrap where to fin
 
 This constant can be declared in the `phpunit.xml[.dist]` file like this:
 
+```php
 <php>
-     <const name="WP\_TESTS\_PHPUNIT\_POLYFILLS\_PATH" value="path/to/yoast/phpunit-polyfills"/>
+     <const name="WP_TESTS_PHPUNIT_POLYFILLS_PATH" value="path/to/yoast/phpunit-polyfills"/>
 </php>
+
+```
 
 or can be declared as a PHP constant in the `wp-tests-config.php` file.
 
@@ -138,6 +149,7 @@ All examples below will use `phpunit`. Replace this with your workflow specific 
 
 You should see output that looks roughly like the following:
 
+```bash
 ...........................................................    59 / 12524 (  0%)
 ...........................................................   118 / 12524 (  0%)
 ...........................................................   177 / 12524 (  1%)
@@ -153,6 +165,8 @@ Time: 01:46.744, Memory: 235.10 MB
 
 OK, but incomplete or skipped tests! 
 Tests: 12524, Assertions: 57712, Skipped: 56.
+
+```
 
 What each symbol means:
 
@@ -171,7 +185,9 @@ Note: On Windows and seeing weird codes in your command-line screen output? Try 
 
 To run an **individual class**, use `--filter` with the name of the class:
 
-phpunit --filter Tests\_Formatting\_wpParseStr
+```bash
+phpunit --filter Tests_Formatting_wpParseStr
+```
 
 The `--filter` option in PHPUnit is very flexible and has lots of supported options. Please see the [PHPUnit Manual](https://phpunit.readthedocs.io/en/stable/textui.html#textui-examples-filter-patterns) for more examples.
 
@@ -179,44 +195,60 @@ The `--filter` option in PHPUnit is very flexible and has lots of supported opti
 
 To run a **group of tests** – defined by `@group` in code comments:
 
+```bash
 phpunit --group dependencies
 phpunit --group themes
+```
 
 You may also combine groups: (Depending on your platform you may have to wrap the groups in double quotes)
 
+```bash
 phpunit --group shortcode,17657,6562,14050
+```
 
+```bash
 ...
 OK (229 tests, 417 assertions)
+```
 
 Note:
 
-Many tests are marked with a `@ticket` annotation, which indicates they were the result of that WordPress TracTrac An open source project by Edgewall Software that serves as a bug tracker and project management tool for WordPress. ticketticket Created for both bug reports and feature development on the bug tracker..
+Many tests are marked with a `@ticket` annotation, which indicates they were the result of that WordPress Trac ticket.
 
 The `@ticket` annotation is an alias for the `@group` annotation, so any tests linked to any individual Trac ticket can be run by passing the Trac ticket number as the “group”.
 
 To view all groups:
 
+```bash
 phpunit --list-groups
+```
 
 To see information about skipped and incomplete tests, use `--verbose`:
 
+```bash
 phpunit --group wpdb --verbose
+```
 
+```bash
  
 There was 1 skipped test: 
-1) Tests\_DB::test\_charset\_switched\_to\_utf8
+1) Tests_DB::test_charset_switched_to_utf8
 This test requires utf8mb4 to not be supported.
 
 tests/phpunit/tests/db.php:1332
+```
 
 By default, the **AJAX tests** (tests written for core’s use of `wp-admin/admin-ajax.php`) are not run. To run these:
 
+```bash
 phpunit --group ajax
+```
 
 To run the tests under **multisite**, you must switch to the `multisite.xml` configuration file:
 
+```bash
 phpunit -c tests/phpunit/multisite.xml
+```
 
 #### With Grunt
 
@@ -228,21 +260,29 @@ Rather than having to switch to a terminal and manually run a test group repeate
 
 To run PHPUnit tests *and* all other watch tasks, use:
 
+```bash
 npm run grunt watch -- --phpunit --group={testgroup}
+```
 
 To run *only* the PHPUnit watch task, use:
 
+```bash
 npm run grunt watch:phpunit -- --group={testgroup}
+```
 
 Run multiple groups by comma-separating them:
 
+```bash
 ﻿npm run grunt watch:phpunit -- --group=community-events,privacy
+```
 
 #### Optimizing
 
 You can speed up the suite in some cases by defining the `WP_TESTS_SKIP_INSTALL` environment variable to `1`, so that the suite will skip the install step. While this shouldn’t be used for full test runs, it’s useful for saving time when running small groups of tests.
 
-WP\_TESTS\_SKIP\_INSTALL=1 phpunit --group=privacy
+```bash
+WP_TESTS_SKIP_INSTALL=1 phpunit --group=privacy
+```
 
 ## Writing Tests
 

@@ -34,7 +34,7 @@ The first line of a commit message is a brief summary of the changeset. The brie
 
 ### Description
 
-The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and why.
+The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notes and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and why.
 
 #### Guidelines
 

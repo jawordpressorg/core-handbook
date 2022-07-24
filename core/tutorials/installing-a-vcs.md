@@ -24,10 +24,13 @@ Install the package.
 
 You can verify the installation by typing:
 
+```bash
 $  svn --version
+```
 
 You should see something like this:
 
+```bash
 svn, version 1.7.10 (r1485443)
    compiled Aug 13 2013, 15:31:22
 
@@ -38,16 +41,17 @@ Subversion is open source software, see http://subversion.apache.org/
 
 The following repository access (RA) modules are available:
 
-\* ra\_neon : Module for accessing a repository via WebDAV protocol using Neon.
+* ra_neon : Module for accessing a repository via WebDAV protocol using Neon.
   - handles 'http' scheme
   - handles 'https' scheme
-\* ra\_svn : Module for accessing a repository using the svn network protocol.
+* ra_svn : Module for accessing a repository using the svn network protocol.
   - handles 'svn' scheme
-\* ra\_local : Module for accessing a repository on local disk.
+* ra_local : Module for accessing a repository on local disk.
   - handles 'file' scheme
-\* ra\_serf : Module for accessing a repository via WebDAV protocol using serf.
+* ra_serf : Module for accessing a repository via WebDAV protocol using serf.
   - handles 'http' scheme
   - handles 'https' scheme
+```
 
 Subversion is now installed and ready to use.
 
