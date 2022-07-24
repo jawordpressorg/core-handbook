@@ -6,7 +6,7 @@
 <!--
 > QUnit is a JavaScript unit testing framework.
 -->
-> QUnit　は JavaScript のユニットテストのフレームワークです。
+> QUnit は JavaScript のユニットテストのフレームワークです。
 
 <!--
 ## Installation
