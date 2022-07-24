@@ -36,7 +36,7 @@ WordPress をインストールし、設定したテスト環境から `/tests/q
 <!--
 If your locally setup domain is `http://wp-test.dev` then `http://wp-test.dev/tests/qunit/index.html` is the URL you want.
 -->
-ローカルに設定したドメインが `http://wp-test.dev` であれば、`http://wp-test.dev/tests/qunit/index.html` が必要なURLです。
+ローカルに設定したドメインが `http://wp-test.dev` であれば、`http://wp-test.dev/tests/qunit/index.html` が必要な URL です。
 
 <!--
 You can also run the tests directly in the browser without setting up a web server, append `/tests/qunit/index.html` to the the file path of your repo check out, for example `file:///Users/myusername/dev/develop.svn.wordpress.org/trunk/tests/qunit/index.html`
