@@ -26,7 +26,7 @@
 <!--
 ## Running the QUnit Test Suite
 -->
-## QUnit　テストスイートを実行
+## QUnit テストスイートを実行
 
 <!--
 From your now installed and configured WordPress testing installation navigate to `/tests/qunit/index.html`.
