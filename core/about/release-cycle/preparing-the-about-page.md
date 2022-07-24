@@ -18,7 +18,7 @@ If you want to create a page like this, here are the steps to follow:
         *   Check-in with release leads about headline features
         *   Check-in with any feature leads if you’re unclear about details
         *   Go through Beta posts on /news/ to populate features and find copy inspiration
-        *   Go through dev notesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. on make/core to populate developer happiness section
+        *   Go through dev notes on make/core to populate developer happiness section
         *   Make sure to go through the features of Gutenberg and create a section to call it out with “new editor feature this release.”
     *   Create images — could be illustrations, icons, or screenshots
     *   Finalize copy (after release lead last review)

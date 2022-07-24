@@ -7,7 +7,7 @@ This guide will clarify how to handle the block editor portion of a major WordPr
 *   **Timeline planner:** this involves mapping out key milestones for the editor release squad to be aware of, making sure Gutenberg releases line up well, and helping remind/wrangle work around those dates. 
 *   **Project Board Manager:** this includes setting up the board, adding automations, keeping the board up to date with priority issues, triage of incoming GitHub issues, and reporting to teams any major blockers. 
 *   **Release Wrangler:** this role involves managing the actual packaging of the release and working with the wider release squad. 
-*   **Communication Wrangler:** this includes helping wrangle dev notesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase., attending meetings to share important information, and reporting back updates to the release squad. 
+*   **Communication Wrangler:** this includes helping wrangle dev notes, attending meetings to share important information, and reporting back updates to the release squad. 
 
 ## Quick Reference Timeline
 
@@ -148,36 +148,37 @@ Generally speaking, the process is as follows:
 
 To get started, here’s a script to use to begin auditing the experimental APIs:
 
+```
 ( () => {
 	const reportExperimental = (
 		objectToReport = window.wp,
 		returnObject = {},
-		path = \[\],
+		path = [],
 		depth = 0
 	) => {
-		const MAXIMUM\_DEPTH\_TO\_SEARCH = 6;
+		const MAXIMUM_DEPTH_TO_SEARCH = 6;
 		const { lodash } = window;
 		if (
-			depth > MAXIMUM\_DEPTH\_TO\_SEARCH ||
+			depth > MAXIMUM_DEPTH_TO_SEARCH ||
 			! lodash.isObject( objectToReport )
 		) {
 			return;
 		}
 		for ( const key of Object.keys( objectToReport ) ) {
 			if (
-				key.startsWith( '\_\_experimental' ) ||
-				key.startsWith( '\_\_unstable' )
+				key.startsWith( '__experimental' ) ||
+				key.startsWith( '__unstable' )
 			) {
 				lodash.set(
 					returnObject,
-					\[ ...path, key \],
-					typeof objectToReport\[ key \]
+					[ ...path, key ],
+					typeof objectToReport[ key ]
 				);
 			}
 			reportExperimental(
-				objectToReport\[ key \],
+				objectToReport[ key ],
 				returnObject,
-				\[ ...path, key \],
+				[ ...path, key ],
 				depth + 1
 			);
 		}
@@ -185,6 +186,8 @@ To get started, here’s a script to use to begin auditing the experimental APIs
 	};
 	return reportExperimental();
 } )();
+
+```
 
 This script takes advantage of the fact that most of the block editor API’s are exposed as part of the wp global and recursively iterates on that variable, trying to find experimental keys in the object. This report allows you to see some experimental Actions, Selectors, Components, Functions, and some settings. However, this script does not cover experimental props in components or experimental flags in settings objects. For those aspects, you’ll need to search the codebase and talk with those familiar enough with the code to know what is likely still experimental. If you don’t know where to start, it’s recommended that you ask in the next [#core-editor](https://make.wordpress.org/core/tag/core-editor/) meeting. 
 
@@ -209,7 +212,7 @@ If you have gone through the process of deciding which features to include in th
 
 **Planning and Writing Dev Notes**
 
-*For more context on Dev Notedev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. best practices, check out* [*this handbook page*](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)*.*
+*For more context on Dev Note best practices, check out* [*this handbook page*](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)*.*
 
 In order to know what needs a Dev Note, you can check all PRs [labeled with  “Needs Dev Note”.](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Needs+Dev+Note%22.) You might find that there are more PRs than you can feasible write individual posts for without overwhelming the community with information. The best thing to do if you find too many PRs with that label is to group related changes and propose a dev note for each group.
 

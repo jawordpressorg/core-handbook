@@ -36,4 +36,4 @@ Completely new to WordPress development? In this section, we include a number of
 
 We all start somewhere. If you’re having trouble getting involved with contributing to WordPress core, come find us on [Slack](https://chat.wordpress.org/) in [#core](https://make.wordpress.org/core/tag/core/). We don’t bite. 😊
 
-Note: If you’re interested in improving this handbook, leave a message in #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress.\-docs.
+Note: If you’re interested in improving this handbook, leave a message in #core\-docs.

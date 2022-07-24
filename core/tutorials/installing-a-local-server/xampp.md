@@ -148,17 +148,19 @@ You will see a success message once the database has been created.
 
 The default phpMyAdmin user, **root**, is automatically assigned to the database upon creation, and has the unique password you created in the previous step. The database connection info you will need to use when installing WordPress locally is:
 
-/\*\* The name of the database for WordPress \*/
-define('DB\_NAME', 'root\_databasename');
+```php
+/** The name of the database for WordPress */
+define('DB_NAME', 'root_databasename');
 
-/\*\* MySQL database username \*/
-define('DB\_USER', 'root');
+/** MySQL database username */
+define('DB_USER', 'root');
 
-/\*\* MySQL database password \*/
-define('DB\_PASSWORD', 'yourmysqlpassword');
+/** MySQL database password */
+define('DB_PASSWORD', 'yourmysqlpassword');
 
-/\*\* MySQL hostname \*/
-define('DB\_HOST', 'localhost');
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+```
 
 ### 7\. Shutting Down XAMPP
 

@@ -12,7 +12,7 @@ See *[Explanations](#explanations)* on the bottom.
 
 [WordPress 5.9 Revised Release Schedule](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)
 
-📗 Devnotesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. WordPress 5.9
+📗 Devnotes WordPress 5.9
 
 [Gutenberg Index 2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/)
 

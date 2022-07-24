@@ -50,29 +50,37 @@ Tip: you can use the **cd** command to change directories, and the **pwd** comma
 
 Create a directory in your local web server’s public folder called **wordpress-svn** using your command line client:
 
+```bash
 $ mkdir ~/wordpress-svn
+```
 
 Now switch to the directory you just created:
 
+```bash
 $ cd ~/wordpress-svn
+```
 
 Next you will check out a copy of WordPress trunk from SVN:
 
+```bash
 $ svn co https://develop.svn.wordpress.org/trunk/ .
+```
 
 The trailing slash on the URL, and the period at the end of the command, are both important – they make sure that downloaded files from the repository end up in the current directory. If you leave off that dot, you’ll end up creating a new installation directory called “trunk”, which is not what you want.
 
 The following message may appear asking you to accept WordPress’ security certificate:
 
+```bash
 Error validating server certificate for 'https://plugins.svn.wordpress.org:443':
  - The certificate is not issued by a trusted authority. Use the
    fingerprint to validate the certificate manually!
 Certificate information:
- - Hostname: \*.svn.wordpress.org
+ - Hostname: *.svn.wordpress.org
  - Valid: from Thu, 21 Jun 2012 16:07:30 GMT until Wed, 15 Jul 2015 19:04:26 GMT
  - Issuer: 07969287, http://certificates.godaddy.com/repository, GoDaddy.com, Inc., Scottsdale, Arizona, US
  - Fingerprint: bf:08:a3:de:ab:e4:76:fd:d0:5d:10:d1:c8:de:19:12:5f:bf:71:25
 (R)eject, accept (t)emporarily or accept (p)ermanently?
+```
 
 Type **p** to accept it permanently.
 
@@ -103,14 +111,16 @@ You will then do the “5 minute install”, complete all the fields, and **clic
 
 Your local install will be used for beta testing, fixing bugs, creating/testing patches, and running unit tests, so it is important for you to see error messages and notices. Open `wordpress-svn/wp-config.php` in your plain text editor, and set `WP_DEBUG` to **true**:
 
-/\*\*
- \* For developers: WordPress debugging mode.
- \*
- \* Change this to true to enable the display of notices during development.
- \* It is strongly recommended that plugin and theme developers use WP\_DEBUG
- \* in their development environments.
- \*/
-define('WP\_DEBUG', true);
+```php
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ */
+define('WP_DEBUG', true);
+```
 
 ### 5\. Updating Your Subversion Install
 
@@ -134,11 +144,15 @@ Once the update is complete, you will see a message at the bottom of the window 
 
 To update your local WordPress SVN install using the command line, **open your command line client** and change the directory to your WordPress SVN install:
 
+```bash
 $ cd ~/wordpress-svn
+```
 
 You will then use the SVN update command to download any changed files from the WordPress Subversion repository:
 
+```bash
 $ svn up
+```
 
 ## Next Steps
 
