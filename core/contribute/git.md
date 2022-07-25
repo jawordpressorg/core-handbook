@@ -122,7 +122,7 @@ svn co \\
 † If your `master` branch has changed since you last worked on your patch (for example, if you’ve pulled down the latest code), you’ll need to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) your branch against the latest code. This is a great way to keep your patches up to date, and it’s much easier with Git than with svn. Here is an example sequence of commands to update your `master` branch then refresh your patch on top of the latest code (make sure you have [no uncommitted changes in your repository](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) first):
 -->
 
-† 前回パッチを作成したときから `master` ブランチが変更された場合 (たとえば最新のコードを取り込んだ場合)、最新のコードに対してブランチの [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) を行う必要があります。これは、パッチを最新の状態に保つためのすばらしい方法であり、svn よりも Git の方がずっと簡単です。以下は、`master` ブランチを更新してパッチを最新のコードに更新するためのコマンドの例です (最初に [あなたのリポジトリにコミットされていない変更がないこと](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) を確認しましょう)。
+脚注: 前回パッチを作成したときから `master` ブランチが変更された場合 (たとえば最新のコードを取り込んだ場合)、最新のコードに対してブランチの [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) を行う必要があります。これは、パッチを最新の状態に保つためのすばらしい方法であり、svn よりも Git の方がずっと簡単です。以下は、`master` ブランチを更新してパッチを最新のコードに更新するためのコマンドの例です (最初に [あなたのリポジトリにコミットされていない変更がないこと](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) を確認しましょう)。
 
 git fetch origin
 git checkout origin/master -B master
