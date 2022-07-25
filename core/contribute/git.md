@@ -84,7 +84,7 @@ Using the `git` cli client, you can create a patch file as follows:
 1.  リポジトリをローカルマシンにクローンします: `$ git clone git://develop.git.wordpress.org/ /path/to/wordpress-develop`
 2.  作業用ブランチを作成します (`master` は常に公式コードの最新バージョンであるべきですので、変更しないほうが良いでしょう)。ローカルでのチェックアウトを整理するために、ブランチ名の一部として Trac チケット番号を使用することを推奨します。例: `$ git checkout -b 30000-add-more-alots `
 3.  コードベースに変更を加えます。変更をステージ (`git add`) して、コミット (`git commit`) してください。[公式の git ドキュメント](https://git-scm.com/docs/gittutorial)には、これに関するチュートリアルがあります。
-4.  ローカルブランチと master ブランチの差分を確認するには、`git diff` を使用します: `$ git diff master 30000-add-more-alots` †
+4.  ローカルブランチと master ブランチの差分を確認するには、`git diff` を使用します: `$ git diff master 30000-add-more-alots` (脚注)
 5.  Trac にパッチを提出する準備ができたら、 `git diff` を使用してパッチファイルを生成しますが、 `.diff` ファイルとして保存するように指定します。一般的に、ファイル名はあなたが作業しているチケット番号で、拡張子は `.diff` にしてください (すでにパッチがあるチケットでは `.2.diff` や `.3.diff` などになります)。コマンドの例: `$ git diff master 30000-add-more-alots > 30000.diff`
 6.  パッチを適切な Trac チケットにアップロードしてください。
 
