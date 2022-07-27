@@ -43,10 +43,10 @@ When you click on the changeset, a new dialog appears with the following informa
 -->
 
 *   チェンジセット番号 (リビジョン番号とも呼ばれます) – タイトルの数字をクリックすると、そのチェンジセットへのリンクが表示されます。
-*   Timestamp – WordPress コアに、その変更がいつコミットされたか。
-*   Author – 誰がコードをコミットしたのか。
-*   Message – なぜその変更が行われたのか。多くの場合、これには関連する trac チケット (例: [#12345](https://core.trac.wordpress.org/ticket/12345)) や関連するユニットテストチケット (例: #UT12345)、受け入れられたパッチを書いたユーザー (例: props ユーザー名) が含まれます。
-*   Changed files – 追加・削除されたファイルのリストと、変更されたファイルのインラインでの差分表示です。
+*   タイムスタンプ – WordPress コアに、その変更がいつコミットされたか。
+*   作成者 – 誰がコードをコミットしたのか。
+*   メッセージ – なぜその変更が行われたのか。多くの場合、これには関連する trac チケット (例: [#12345](https://core.trac.wordpress.org/ticket/12345)) や関連するユニットテストチケット (例: #UT12345)、受け入れられたパッチを書いたユーザー (例: props ユーザー名) が含まれます。
+*   変更されたファイル – 追加・削除されたファイルのリストと、変更されたファイルのインラインでの差分表示です。
 
 <!--
 ## Associating Code With A WordPress Release
