@@ -36,7 +36,7 @@ In addition, code refactoring can cause existing, more important patches to unne
 There’s a document on contributing to the Linux kernel with [a section on pitfalls](https://dri.freedesktop.org/docs/drm/development-process/4.Coding.html#coding-style) when handling coding standards. I believe this can apply to the wider picture of refactoring as well (emphasis added):
 -->
 
-Linux カーネルへの貢献に関する文書に、コーディング標準を扱う際の[落とし穴に関するセクション](https://dri.freedesktop.org/docs/drm/development-process/4.Coding.html#coding-style)があります。これは、リファクタリングという広い視野にも適用されると思います (重要)。
+Linux カーネルへの貢献に関する文書に、コーディング標準を扱う際の[落とし穴に関するセクション](https://dri.freedesktop.org/docs/drm/development-process/4.Coding.html#coding-style)があります。これは、リファクタリングという広い視野にも適用されると思います (強調は引用者)。
 
 <!--
 > The kernel has long had a standard coding style, described in Documentation/CodingStyle. For much of that time, the policies described in that file were taken as being, at most, advisory. As a result, there is a substantial amount of code in the kernel which does not meet the coding style guidelines. The presence of that code leads to two independent hazards for kernel developers.
