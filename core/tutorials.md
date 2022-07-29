@@ -6,4 +6,4 @@
 <!-- 
 \[Introduction to the tutorials and guides section.\]
  -->
-\[このセクションではチュートリアルとガイドを紹介します\]
+\[このセクションではチュートリアルとガイドを紹介します。\]
