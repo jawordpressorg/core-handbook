@@ -1,7 +1,7 @@
 <!--
 # Contribute with Docs
 -->
-# Docs への貢献
+# ドキュメントへの貢献
 
 <!--
 There are many ways in which it is possible to contribute to the Documentation team.
