@@ -8,9 +8,15 @@ Welcome to the Core Contributor Handbook, the place to learn how to get involved
  -->
 コアコントリビューターハンドブックへようこそ。ここはコア開発コミュニティに参加し、WordPress コアへの貢献を開始する方法を学ぶ場です。
 
+<!-- 
 Whether you are a beta tester, casual contributor, or serious contributor, this handbook will provide the information you need to get started.
+ -->
+あなたがベータテスターであっても、カジュアルな貢献者であっても、本格的な貢献者であっても、このハンドブックは、あなたが始めるために必要な情報を提供します。
 
+<!-- 
 Here you can learn about how the WordPress project is organized, communication channels, best practices, the Trac workflow process, and more. There are also guides to help you set up the tools you’ll need to start contributing to WordPress core.
+ -->
+ここでは、WordPress プロジェクトがどのように組織されているか、コミュニケーションチャネル、ベストプラクティス、Trac のワークフロープロセスなどについて学ぶことができます。また、WordPress コアへの貢献を開始するために必要なツールのセットアップを支援するガイドもあります。
 
 ## Contribute with Testing
 
