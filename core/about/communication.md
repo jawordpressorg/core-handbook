@@ -16,6 +16,7 @@
 *   [make/docs](https://make.wordpress.org/docs/): The blog for the documentation team.
 *   [make/meta](https://make.wordpress.org/meta/): The blog for the developers of the WordPress.org website.
 *   [make/mobile](https://make.wordpress.org/mobile/): The blog for all things mobile (iOS/Android).
+*   [make/performance](https://make.wordpress.org/performance/): The blog for all things performance-related.
 *   [make/plugins](https://make.wordpress.org/plugins/): The blog for plugin developers.
 *   [make/polyglots](https://make.wordpress.org/polyglots/): The blog for translators.
 *   [make/support](https://make.wordpress.org/support/): The blog for the support team (forums, IRC, etc).
