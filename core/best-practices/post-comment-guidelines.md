@@ -30,7 +30,7 @@ Keep in mind that feedback on make/core will almost always be greater than that 
 
 Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps makes sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
 
-Feature plugin merge proposals should *always* be read by the release lead (or designee) before posting. Release devnotesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. should be read by the release lead (or designee) before publishing.
+Feature plugin merge proposals should *always* be read by the release lead (or designee) before posting. Release devnotes should be read by the release lead (or designee) before publishing.
 
 See the Giving Proper Credit (Props) section below for information on how to make sure the proofreaders/peer reviewers are recognized.
 
@@ -63,6 +63,10 @@ For each of the following types of post, there are some things to keep in mind:
 *   **Release announcements.** All posts related to a specific release – including agendas, meeting summaries, API changes, week in core, etc – should be tagged with the related release.
 *   **Feature plugins and other projects.** Each of these type of post should be consistently tagged with a project name. For example, if you’re working on a redesign of the admin called “MP6,” tag all related posts with MP6.
 *   **Meeting announcements.** When posting about a meeting ahead of time (aka, not summary notes), use the [time shortcode](https://make.wordpress.org/meta/2013/04/03/time-shortcode-for-make-p2s/) so that readers know exactly when the meeting will take place in their local time.
+
+### Proposals
+
+When writing up an idea aimed at generating feedback and assessing a potential change from the core contributor community it is important that it is clear that what is being written is a proposal and not a final decision. To help achieve that, proposals must include the word “Proposal” at the start of the title and include text in the body explaining that a final decision has not yet been made.
 
 ## Comments
 

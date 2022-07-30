@@ -1,6 +1,6 @@
 # The Code Repository (Git)
 
-Alert: Contributors to WordPress may submit patches created via either **GitGit Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. Most modern plugin and theme development is being done with this version control system. [https://git-scm.com/](https://git-scm.com/).** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
+Alert: Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
 
 ## Summary
 
@@ -37,18 +37,22 @@ We strongly recommend [running the PHPUnit test suite](https://make.wordpress.or
 
 When downloading the repository from `git`, a few of the PHPUnit tests related to the importer plugin will fail because the `tests/phpunit/data/plugins/wordpress-importer` directory is not contained in the `git` repositories. Here’s how to fix that:
 
+```
 cd /path/to/wordpress-develop
 cd tests/phpunit/data/plugins/
-svn co \\
-    https://plugins.svn.wordpress.org/wordpress-importer/trunk/ \\
+svn co \
+    https://plugins.svn.wordpress.org/wordpress-importer/trunk/ \
     wordpress-importer
+```
 
 ### Usage Notes for Git
 
 † If your `master` branch has changed since you last worked on your patch (for example, if you’ve pulled down the latest code), you’ll need to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) your branch against the latest code. This is a great way to keep your patches up to date, and it’s much easier with Git than with svn. Here is an example sequence of commands to update your `master` branch then refresh your patch on top of the latest code (make sure you have [no uncommitted changes in your repository](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) first):
 
+```
 git fetch origin
 git checkout origin/master -B master
 git checkout 30000-add-more-alots
 git rebase master
 git diff master 30000-add-more-alots > 30000.x.diff
+```

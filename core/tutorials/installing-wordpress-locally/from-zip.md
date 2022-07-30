@@ -8,7 +8,7 @@ This article will walk you through installing the latest WordPress development v
 
 *   Create a new database in your local web server using phpMyAdmin. \[[MAMP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-mamp/#5-creating-a-mysql-database-with-mamp)\] \[[WampServer](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-wampserver/#5-creating-a-mysql-database-with-wampserver)\] \[[XAMPP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/#6-creating-a-mysql-database-with-xampp)\]
 
-**Note:** If you are using DesktopServer as your local server, you’ll need to follow those [instructions for creating a new local development site](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-desktopserver/#5-creating-a-new-local-site) instead of the instructions listed below.
+**Note:** If you are using DesktopServer as your local server, you’ll need to follow those [instructions for creating a new local development site](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) instead of the instructions listed below.
 
 ## Installing WordPress Trunk from a Zip File
 
@@ -47,14 +47,16 @@ You will then do the “5 minute install”, complete all the fields, and **clic
 
 Your local install will be used for beta testing and reporting bugs, so it is important for you to see error messages and notices. Open `wordpress-svn/wp-config.php` in your plain text editor, and set `WP_DEBUG` to **true**:
 
-/\*\*
- \* For developers: WordPress debugging mode.
- \*
- \* Change this to true to enable the display of notices during development.
- \* It is strongly recommended that plugin and theme developers use WP\_DEBUG
- \* in their development environments.
- \*/
-define('WP\_DEBUG', true);
+```php
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ */
+define('WP_DEBUG', true);
+```
 
 ### 5\. Updating Your Local Install
 

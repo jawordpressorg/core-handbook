@@ -88,7 +88,8 @@ If the WampServer homepage does not display, you will want to check that your [h
 
 You also need to check that phpMyAdmin is working by going to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) in your browser. If you get the **Cannot connect: invalid settings** error message, then you’ll need to edit the **C:\\wamp\\apps\\phpmyadmin3.5.1\\config.inc.php** file in a plain text editor (your version number may be different), and ensure this option is set to **true**:
 
-$cfg\['Servers'\]\[$i\]\['AllowNoPassword'\] = true;
+```php
+$cfg['Servers'][$i]['AllowNoPassword'] = true;```
 
 ### 4\. Configuring WampServer
 
@@ -135,17 +136,19 @@ You will see a success message once the database has been created, and your new 
 
 The default phpMyAdmin user, **root**, is automatically assigned to the database upon creation, and has no password. The database connection info you will need to use when installing WordPress locally will be:
 
-/\*\* The name of the database for WordPress \*/
-define('DB\_NAME', 'root\_databasename');
+```php
+/** The name of the database for WordPress */
+define('DB_NAME', 'root_databasename');
 
-/\*\* MySQL database username \*/
-define('DB\_USER', 'root');
+/** MySQL database username */
+define('DB_USER', 'root');
 
-/\*\* MySQL database password \*/
-define('DB\_PASSWORD', '');
+/** MySQL database password */
+define('DB_PASSWORD', '');
 
-/\*\* MySQL hostname \*/
-define('DB\_HOST', 'localhost');
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+```
 
 ### 6\. Shutting Down WampServer
 

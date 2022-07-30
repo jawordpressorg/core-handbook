@@ -13,11 +13,13 @@ All HTML pages should be verified against [the W3C validator](http://validator.w
 
 All tags must be properly closed. For tags that can wrap nodes such as text or other elements, termination is a trivial enough task. For tags that are self-closing, the forward slash should have exactly one space preceding it:
 
-<br />
+```xml
+<br />```
 
 rather than the compact but incorrect:
 
-<br/>
+```xml
+<br/>```
 
 The W3C specifies that a single space should precede the self-closing slash ([source](http://w3.org/TR/xhtml1/#C_2)).
 
@@ -27,13 +29,17 @@ All tags and attributes must be written in lowercase. Additionally, attribute va
 
 For machines:
 
+```xml
 <br>
-&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" /><br>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /><br>
+```
 
 For humans:
 
+```xml
 <br>
-&lt;a href="http://example.com/" title="Description Here">Example.com&lt;/a><br>
+<a href="http://example.com/" title="Description Here">Example.com</a><br>
+```
 
 ### Quotes
 
@@ -41,14 +47,18 @@ According to the W3C specifications for XHTML, all attributes must have a value,
 
 Correct:
 
+```xml
 <br>
-&lt;input type="text" name="email" disabled="disabled" /><br>
-&lt;input type='text' name='email' disabled='disabled' /><br>
+<input type="text" name="email" disabled="disabled" /><br>
+<input type='text' name='email' disabled='disabled' /><br>
+```
 
 Incorrect:
 
+```xml
 <br>
-&lt;input type=text name=email disabled><br>
+<input type=text name=email disabled><br>
+```
 
 In HTML, attributes do not all have to have values, and attribute values do not always have to be quoted. While all of the examples above are valid HTML, **failing to quote attributes can lead to security vulnerabilities**. Always quote attributes.
 
@@ -60,29 +70,33 @@ When mixing PHP and HTML together, indent PHP blocks to match the surrounding HT
 
 Correct:
 
+```php
 <br>
-&lt;?php if ( ! have\_posts() ) : ?><br>
-&lt;div id="post-1" class="post"><br>
-&lt;h1 class="entry-title">Not Found&lt;/h1><br>
-&lt;div class="entry-content"><br>
-&lt;p>Apologies, but no results were found.&lt;/p><br>
-&lt;?php get\_search\_form(); ?><br>
-&lt;/div><br>
-&lt;/div><br>
-&lt;?php endif; ?><br>
+<?php if ( ! have_posts() ) : ?><br>
+<div id="post-1" class="post"><br>
+<h1 class="entry-title">Not Found</h1><br>
+<div class="entry-content"><br>
+<p>Apologies, but no results were found.</p><br>
+<?php get_search_form(); ?><br>
+</div><br>
+</div><br>
+<?php endif; ?><br>
+```
 
 Incorrect:
 
+```php
 <br>
-&lt;?php if ( ! have\_posts() ) : ?><br>
-&lt;div id="post-0" class="post error404 not-found"><br>
-&lt;h1 class="entry-title">Not Found&lt;/h1><br>
-&lt;div class="entry-content"><br>
-&lt;p>Apologies, but no results were found.&lt;/p><br>
-&lt;?php get\_search\_form(); ?><br>
-&lt;/div><br>
-&lt;/div><br>
-&lt;?php endif; ?><br>
+<?php if ( ! have_posts() ) : ?><br>
+<div id="post-0" class="post error404 not-found"><br>
+<h1 class="entry-title">Not Found</h1><br>
+<div class="entry-content"><br>
+<p>Apologies, but no results were found.</p><br>
+<?php get_search_form(); ?><br>
+</div><br>
+</div><br>
+<?php endif; ?><br>
+```
 
 ## Credits
 
