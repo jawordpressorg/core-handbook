@@ -1,6 +1,12 @@
+<!-- 
 # Core Contributor Handbook
+ -->
+# コアコントリビューターハンドブック
 
+<!-- 
 Welcome to the Core Contributor Handbook, the place to learn how to get involved with the WordPress core development community, and start contributing to WordPress core.
+ -->
+コアコントリビューターハンドブックへようこそ。ここはコア開発コミュニティに参加し、WordPress コアへの貢献を開始する方法を学ぶ場です。
 
 Whether you are a beta tester, casual contributor, or serious contributor, this handbook will provide the information you need to get started.
 
