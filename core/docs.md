@@ -24,4 +24,4 @@ Most of the Documentation Team work ends up in one of these two sites:
 <!--
 If you want to contribute to WordPress Docs, check out the [Documentation Team’s handbook](https://make.wordpress.org/docs/handbook/).
 -->
-WordPress Docs に貢献したい場合は、[Documentation Team's handbook] (https://make.wordpress.org/docs/handbook/) をチェックしてください。
+WordPress ドキュメントに貢献したい場合は、[Documentation Team's handbook] (https://make.wordpress.org/docs/handbook/) をチェックしてください。
