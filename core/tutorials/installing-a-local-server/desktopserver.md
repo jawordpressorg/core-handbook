@@ -106,14 +106,16 @@ You will be able to access your WordPress install at the URL listed on the next 
 
 *   It is important that you to set `WP_DEBUG` to **true** in your `wp-config.php` file to display errors, warnings, etc. during testing:
     
-    /\*\*
-     \* For developers: WordPress debugging mode.
-     \*
-     \* Change this to true to enable the display of notices during development.
-     \* It is strongly recommended that plugin and theme developers use WP\_DEBUG
-     \* in their development environments.
-     \*/
-    define('WP\_DEBUG', true);
+    ```php
+    /**
+     * For developers: WordPress debugging mode.
+     *
+     * Change this to true to enable the display of notices during development.
+     * It is strongly recommended that plugin and theme developers use WP_DEBUG
+     * in their development environments.
+     */
+    define('WP_DEBUG', true);
+    ```
     
 *   You will need to install and activate the [WordPress Beta Tester plugin](https://wordpress.org/extend/plugins/wordpress-beta-tester/) to upgrade the install from the latest beta release to the latest bleeding-edge version of WordPress trunk. Once installed, **follow the directions** for [configuring the plugin](https://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-from-a-zip-file/#4-install-the-beta-tester-plugin) to update to the bleeding edge nightlies.
 
