@@ -30,7 +30,10 @@ Here you can learn about how the WordPress project is organized, communication c
 <!-- Found a security vulnerability? WordPress believes in responsible and private disclosure. [Report it directly to our security team.](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/) -->
 セキュリティの脆弱性を発見されましたか ?WordPress は、責任ある非公開の情報公開を信条としています。[私たちのセキュリティチームに直接報告してください](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
 
+<!-- 
 ## Contribute with Code
+ -->
+## コードで貢献する
 
 Whether you need to report one bug and provide a patch to fix it, or wish to become involved in maintaining one or more WordPress components, contributing code is a great way to improve WordPress. This section walks through [the WordPress codebase](https://make.wordpress.org/core/handbook/contribute/codebase/) and how it’s laid out, then teaches you more about [the code repository](https://make.wordpress.org/core/handbook/contribute/svn/) and [our bug tracker (Trac)](https://make.wordpress.org/core/handbook/contribute/trac/).
 
