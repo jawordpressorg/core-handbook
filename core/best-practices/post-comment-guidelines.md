@@ -40,7 +40,7 @@ Most make/core posts must serve one of two goals:
 In order to ensure the best experience possible for the developer community, the guidelines on this page are written with unexperienced readers in mind.
 -->
 
-このガイドラインは、開発者コミュニティに最適な環境を提供するため、未経験者を想定して書かれています。
+このガイドラインは、開発者コミュニティ内のできるだけ大勢のメンバーに有益なものとなるように、未経験者を想定して書かれています。
 
 <!--
 ## Posting
@@ -100,7 +100,7 @@ Feature plugin merge proposals should *always* be read by the release lead (or d
 See the Giving Proper Credit (Props) section below for information on how to make sure the proofreaders/peer reviewers are recognized.
 -->
 
-校正者や査読者が承認されていることを確認する方法については、以下の「適切なクレジット (称賛) を与える」のセクションを参照してください。
+校正者や査読者の貢献を認知する方法については、以下の「適切なクレジット (props) を与える」のセクションを参照してください。
 
 <!--
 ### Style and Substance
@@ -141,7 +141,7 @@ make/core を読んでいる人の多くは、英語を第一言語としてい�
 ### Giving Proper Credit (Props)
 -->
 
-### 適切なクレジット (称賛) を与える
+### 適切なクレジット (Props) を与える
 
 <!--
 When a post is finally published, it goes out under one person’s name. However, posts are often the combined efforts of several contributors who deserve to be recognized. Noting who helped bring a post to a publishable state can also provide important context to readers and helps them understand who they would be addressing in discussion.
