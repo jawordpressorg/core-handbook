@@ -102,8 +102,11 @@ See the Giving Proper Credit (Props) section below for information on how to mak
 
 校正者や査読者が承認されていることを確認する方法については、以下の「適切なクレジット (称賛) を与える」のセクションを参照してください。
 
+<!--
 ### Style and Substance
+-->
 
+### スタイルと内容
 <!--
 The make/core blog is the official voice of the core team. As a result, you should keep your personal thoughts out of the body of the post, leaving them for the comments. Furthermore, **first person pronouns should be avoided**.
 -->
