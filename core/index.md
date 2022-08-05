@@ -35,13 +35,26 @@ Here you can learn about how the WordPress project is organized, communication c
  -->
 ## コードで貢献する
 
+<!--
 Whether you need to report one bug and provide a patch to fix it, or wish to become involved in maintaining one or more WordPress components, contributing code is a great way to improve WordPress. This section walks through [the WordPress codebase](https://make.wordpress.org/core/handbook/contribute/codebase/) and how it’s laid out, then teaches you more about [the code repository](https://make.wordpress.org/core/handbook/contribute/svn/) and [our bug tracker (Trac)](https://make.wordpress.org/core/handbook/contribute/trac/).
+ -->
+バグを報告して修正パッチを提供する必要がある場合でも、1つ以上の WordPress コンポーネントのメンテナンスに関与したい場合でも、コードの貢献は WordPress を改善する素晴らしい方法です。
+このセクションでは、[WordPress のコードベース](https://make.wordpress.org/core/handbook/contribute/codebase/) とそのレイアウトについて説明し、[コードリポジトリ](https://make.wordpress.org/core/handbook/contribute/svn/) と [Trac](https://make.wordpress.org/core/handbook/contribute/trac/) について詳しく説明します。
 
+<!-- 
 [Design decisions](https://make.wordpress.org/core/handbook/contribute/design-decisions/) made within WordPress are often a consideration when contributing code and are outlined in this section as well. Finally, if you’re interested in [fixing bugs](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/), our walkthrough is made to get you quickly started.
+ -->
+WordPress の[デザインの決定](https://make.wordpress.org/core/handbook/contribute/design-decisions/) は、コードを提供する際にしばしば考慮されることであり、このセクションでも説明されています。最後に、もしあなたが [バグ修正](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/) に興味があるなら、私たちのウォークスルーはあなたがすぐに始められるように作られています。
 
+<!-- 
 ## Best Practices
+ -->
+## ベストプラクティス
 
+<!-- 
 Over time, the WordPress community has developed some [best practices](https://make.wordpress.org/core/handbook/best-practices/), which keep the code base consistent and understandable by the community.
+ -->
+時間をかけて、WordPress コミュニティはいくつかの[ベストプラクティス](https://make.wordpress.org/core/handbook/best-practices/)を開発し、コードベースの一貫性とコミュニティの理解力を維持しています。
 
 In the best practices section, we outline the [coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/) for [CSS](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/), [HTML](https://make.wordpress.org/core/handbook/best-practices/coding-standards/html/), [JavaScript](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/), and [PHP](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/). Additionally, [inline documentation standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/) for both [JavaScript](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/) and [PHP](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/) are documented in-depth.
 
