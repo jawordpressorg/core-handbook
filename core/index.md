@@ -61,14 +61,32 @@ In the best practices section, we outline the [coding standards](https://make.wo
 --> 
 ベストプラクティスでは、[CSS](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/), [HTML](https://make.wordpress.org/core/handbook/best-practices/coding-standards/html/), [JavaScript](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/), [PHP](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) の [コーディング規約](https://make.wordpress.org/core/handbook/best-practices/coding-standards/) について概説しています。さらに、[JavaScript](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/)と[PHP](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/)の両方の[インラインドキュメント標準](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/)について詳しく説明しています。
 
+<!-- 
 Finally, the section walks through the [Core APIs](https://make.wordpress.org/core/handbook/best-practices/core-apis/) and the best practices to follow when [writing patches](https://make.wordpress.org/core/handbook/best-practices/writing-patches/).
+--> 
+最後に、[コアAPI](https://make.wordpress.org/core/handbook/best-practices/core-apis/)と[パッチを書く](https://make.wordpress.org/core/handbook/best-practices/writing-patches/)際に従うべきベストプラクティスを説明します。
 
+<!-- 
 ## Tutorials & Guides
+ -->
+## チュートリアル & ガイド
 
+<!-- 
 Completely new to WordPress development? In this section, we include a number of [tutorials and guides](https://make.wordpress.org/core/handbook/tutorials/) to help get you setup. Whether you want to [setup WordPress for local development](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/), [install a local server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/), [install a version control system (VCS)](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/), understand how to [work with patches](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/), or better understand how to [work with Trac](https://make.wordpress.org/core/handbook/tutorials/trac/), we have you covered.
+ -->
+WordPress の開発は初めてですか？このセクションでは、セットアップに役立つ [チュートリアルとガイド](https://make.wordpress.org/core/handbook/tutorials/) を多数掲載しています。WordPress をローカルで開発するためのセットアップ](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/)、[ローカルサーバーのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/)、[バージョン管理システム (VCS) のインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)、[パッチの扱い](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)、または [Trac](https://make.wordpress.org/core/handbook/tutorials/trac/) について理解したいのかをカバーしています。
 
+<!-- 
 ## Need help?
+ -->
+## ヘルプが必要ですか ?
 
+<!-- 
 We all start somewhere. If you’re having trouble getting involved with contributing to WordPress core, come find us on [Slack](https://chat.wordpress.org/) in [#core](https://make.wordpress.org/core/tag/core/). We don’t bite. 😊
+ -->
+わたしたちは皆、どこかから始めています。もしあなたが WordPress のコアへの貢献について悩んでいるなら、[#core](https://make.wordpress.org/core/tag/core/) の [Slack](https://chat.wordpress.org/) で私たちを見つけに来てください。噛みついたりしませんよ😊
 
+<!-- 
 Note: If you’re interested in improving this handbook, leave a message in #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress.\-docs.
+ -->
+注意: このハンドブックの改善に興味がある方は、#coreCore にメッセージを残してください。 Core は WordPress を動作させるために必要なソフトウェア一式を指します。コア開発チームは WordPress.\-docs を構築しています。
