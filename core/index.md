@@ -84,9 +84,9 @@ WordPress の開発は初めてですか？このセクションでは、セッ�
 <!-- 
 We all start somewhere. If you’re having trouble getting involved with contributing to WordPress core, come find us on [Slack](https://chat.wordpress.org/) in [#core](https://make.wordpress.org/core/tag/core/). We don’t bite. 😊
  -->
-皆、どこかから始めています。もし WordPress のコアへの貢献について悩んでいるなら、[#core](https://make.wordpress.org/core/tag/core/) の [Slack](https://chat.wordpress.org/) へ来てください。噛みついたりしませんよ😊
+皆、どこかしらから始めています。もし WordPress のコアへの貢献について悩んでいるなら、[Slack](https://chat.wordpress.org/) の[#core](https://make.wordpress.org/core/tag/core/) へ来てください。噛みついたりしませんよ😊
 
 <!-- 
 Note: If you’re interested in improving this handbook, leave a message in #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress.\-docs.
  -->
-注意: このハンドブックの改善に興味がある方は、#coreCore にメッセージを残してください。 Core は WordPress を動作させるために必要なソフトウェア一式を指します。コア開発チームは WordPress.\-docs を構築しています。
+注意: このハンドブックの改善に興味がある方は、#core にメッセージを残してください。 コアは WordPress を動作させるために必要なソフトウェア一式を指します。コア開発チームは WordPress.\-docs を構築しています。
