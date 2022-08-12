@@ -11,7 +11,7 @@ Welcome to the Core Contributor Handbook, the place to learn how to get involved
 <!-- 
 Whether you are a beta tester, casual contributor, or serious contributor, this handbook will provide the information you need to get started.
  -->
-あなたがベータテスターであっても、カジュアルな貢献者であっても、本格的な貢献者であっても、このハンドブックは、あなたが始めるために必要な情報を提供します。
+ベータテスターであっても、カジュアルな貢献者であっても、本格的な貢献者であっても、このハンドブックは必要な情報を提供します。
 
 <!-- 
 Here you can learn about how the WordPress project is organized, communication channels, best practices, the Trac workflow process, and more. There are also guides to help you set up the tools you’ll need to start contributing to WordPress core.
@@ -28,7 +28,7 @@ Here you can learn about how the WordPress project is organized, communication c
 コーディングやパッチの作成方法を知っている必要はありません。問題の詳細と再現手順を記載した [well-written bug report](https://make.wordpress.org/core/handbook/testing/reporting-bugs/) を提供してください。パッチがコミットされ、新しい最先端のナイトリーバージョンがリリースされた時点で、問題が修正されたことを確認できます。
 
 <!-- Found a security vulnerability? WordPress believes in responsible and private disclosure. [Report it directly to our security team.](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/) -->
-セキュリティの脆弱性を発見されましたか ?WordPress は、責任ある非公開の情報公開を信条としています。[私たちのセキュリティチームに直接報告してください](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
+セキュリティの脆弱性を発見されましたか ?WordPress は、責任ある非公開の情報公開を信条としています。[セキュリティチームに直接報告してください](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
 
 <!-- 
 ## Contribute with Code
@@ -44,7 +44,7 @@ Whether you need to report one bug and provide a patch to fix it, or wish to bec
 <!-- 
 [Design decisions](https://make.wordpress.org/core/handbook/contribute/design-decisions/) made within WordPress are often a consideration when contributing code and are outlined in this section as well. Finally, if you’re interested in [fixing bugs](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/), our walkthrough is made to get you quickly started.
  -->
-WordPress の[デザインの決定](https://make.wordpress.org/core/handbook/contribute/design-decisions/) は、コードを提供する際にしばしば考慮されることであり、このセクションでも説明されています。最後に、もしあなたが [バグ修正](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/) に興味があるなら、私たちのウォークスルーはあなたがすぐに始められるように作られています。
+WordPress の[デザインの決定](https://make.wordpress.org/core/handbook/contribute/design-decisions/) は、コードを提供する際にしばしば考慮されることであり、このセクションでも説明されています。最後に、もし [バグ修正](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/) に興味があるなら、ウォークスルーはすぐに始められるように作られています。
 
 <!-- 
 ## Best Practices
@@ -84,7 +84,7 @@ WordPress の開発は初めてですか？このセクションでは、セッ�
 <!-- 
 We all start somewhere. If you’re having trouble getting involved with contributing to WordPress core, come find us on [Slack](https://chat.wordpress.org/) in [#core](https://make.wordpress.org/core/tag/core/). We don’t bite. 😊
  -->
-わたしたちは皆、どこかから始めています。もしあなたが WordPress のコアへの貢献について悩んでいるなら、[#core](https://make.wordpress.org/core/tag/core/) の [Slack](https://chat.wordpress.org/) で私たちを見つけに来てください。噛みついたりしませんよ😊
+皆、どこかから始めています。もし WordPress のコアへの貢献について悩んでいるなら、[#core](https://make.wordpress.org/core/tag/core/) の [Slack](https://chat.wordpress.org/) へ来てください。噛みついたりしませんよ😊
 
 <!-- 
 Note: If you’re interested in improving this handbook, leave a message in #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress.\-docs.
