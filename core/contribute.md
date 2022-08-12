@@ -19,7 +19,7 @@ Note: Interested in contributing to another part of WordPress? Visit [make.wordp
 備考: WordPress の別のパートに貢献することに興味がありますか ? [make.wordpress.org](https://make.wordpress.org) で、WordPress に貢献できるさまざまな方法をご覧ください。
 
 <!--
-This guide is geared toward new contributors, giving you quick access to resources and answering some of the more common questions new contributors have when diving in. As a collaboration between new and veteran contributors, this guide has been developed to better identify the pain points in getting started and will be continuously updated with improvements.
+Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
 -->
 
 このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しいコントリビューターとベテランのコントリビューターのコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
@@ -309,7 +309,7 @@ WordPress development happens through our official SVN and GIT repositories. As 
 WordPress の開発は、私たちの公式な SVN および Git リポジトリで行われます。そのため、GitHub からのプルリクエスト (PR) を監視したり、受け入れたりすることはありません。しかし、Git リポジトリからパッチを作成し、チケットに添付することはできます。そのためには、
 
 <!--
-Alert: We need to add information on creating a GitGit Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. Most modern plugin and theme development is being done with this version control system. [https://git-scm.com/](https://git-scm.com/). patchpatch A special text file that describes changes to code, by identifying the files and lines which are added, removed, and altered. It may also be referred to as a **diff**. A patch can be *applied* to a codebase for testing. here.
+Alert: We need to add information on creating a Git patch here.
 -->
 
 注: ここに Git パッチを作成するための情報を追加する必要があります。

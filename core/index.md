@@ -87,6 +87,6 @@ We all start somewhere. If you’re having trouble getting involved with contrib
 皆、どこかしらから始めています。もし WordPress のコアへの貢献について悩んでいるなら、[Slack](https://chat.wordpress.org/) の [#core](https://make.wordpress.org/core/tag/core/) へ来てください。噛みついたりしませんよ😊
 
 <!-- 
-Note: If you’re interested in improving this handbook, leave a message in #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress.\-docs.
+Note: If you’re interested in improving this handbook, leave a message in #core\-docs.
  -->
-注意: このハンドブックの改善に興味がある方は、#core にメッセージを残してください。 コアは WordPress を動作させるために必要なソフトウェア一式を指します。コア開発チームは WordPress.\-docs を構築しています。
+注意: このハンドブックの改善に興味がある方は、#core\-docs. にメッセージを残してください。 

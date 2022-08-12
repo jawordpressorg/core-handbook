@@ -5,7 +5,7 @@
 # コードリポジトリ (Git)
 
 <!--
-Alert: Contributors to WordPress may submit patches created via either **GitGit Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. Most modern plugin and theme development is being done with this version control system. [https://git-scm.com/](https://git-scm.com/).** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
+Alert: Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
 -->
 
 注:  WordPress のコントリビューターは、**Git** または [SVN](https://make.wordpress.org/core/handbook/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。
@@ -108,11 +108,13 @@ When downloading the repository from `git`, a few of the PHPUnit tests related t
 
 `git` からリポジトリをダウンロードすると、importer プラグインに関連するいくつかの PHPUnit テストが失敗します。これを修正する方法は次のとおりです。これは `tests/phpunit/data/plugins/wordpress-importer` ディレクトリが `git` リポジトリに含まれていないことが原因です。
 
+```
 cd /path/to/wordpress-develop
 cd tests/phpunit/data/plugins/
-svn co \\
-    https://plugins.svn.wordpress.org/wordpress-importer/trunk/ \\
+svn co \
+    https://plugins.svn.wordpress.org/wordpress-importer/trunk/ \
     wordpress-importer
+```
 
 <!--
 ### Usage Notes for Git
@@ -126,8 +128,10 @@ svn co \\
 
 脚注: 前回パッチを作成したときから `master` ブランチが変更された場合 (たとえば最新のコードを取り込んだ場合)、最新のコードに対してブランチの [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) を行う必要があります。これは、パッチを最新の状態に保つためのすばらしい方法であり、svn よりも Git の方がずっと簡単です。以下は、`master` ブランチを更新してパッチを最新のコードに更新するためのコマンドの例です (最初に [あなたのリポジトリにコミットされていない変更がないこと](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) を確認しましょう)。
 
+```
 git fetch origin
 git checkout origin/master -B master
 git checkout 30000-add-more-alots
 git rebase master
 git diff master 30000-add-more-alots > 30000.x.diff
+```
