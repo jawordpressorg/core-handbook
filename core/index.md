@@ -19,7 +19,7 @@ Here you can learn about how the WordPress project is organized, communication c
 ここでは、WordPress プロジェクトがどのように組織されているか、コミュニケーションチャネル、ベストプラクティス、Trac のワークフロープロセスなどについて学ぶことができます。また、WordPress コアへの貢献を開始するために必要なツールのセットアップを支援するガイドもあります。
 
 <!-- ## Contribute with Testing -->
-## テストでコントビュートする
+## テストで貢献する
 
 <!-- Testing is a very important part of the release cycle. You can install the latest development version locally to test new features, and how the changes work with your site setup (theme/plugins/etc.). You can [start testing](https://make.wordpress.org/core/handbook/testing/) as soon as a new development version is available (alpha), and continue throughout the release cycle to ensure the next version of WordPress is as bug\-free as possible. -->
 テストは、リリースサイクルの非常に重要な部分です。最新の開発版をローカルにインストールし、新機能や、サイトの設定 (テーマ/プラグイン/その他) での変更点の動作をテストすることができます。新しい開発版 (アルファ版) が利用可能になるとすぐに [テストを開始](https://make.wordpress.org/core/handbook/testing/) することができ、次のバージョンの WordPress ができるだけバグがないことを保証するためにリリースサイクル全体を通して継続します。
