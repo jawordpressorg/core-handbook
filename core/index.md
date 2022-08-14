@@ -38,7 +38,7 @@ Here you can learn about how the WordPress project is organized, communication c
 <!--
 Whether you need to report one bug and provide a patch to fix it, or wish to become involved in maintaining one or more WordPress components, contributing code is a great way to improve WordPress. This section walks through [the WordPress codebase](https://make.wordpress.org/core/handbook/contribute/codebase/) and how it’s laid out, then teaches you more about [the code repository](https://make.wordpress.org/core/handbook/contribute/svn/) and [our bug tracker (Trac)](https://make.wordpress.org/core/handbook/contribute/trac/).
  -->
-バグを報告して修正パッチを提供する必要がある場合でも、1つ以上の WordPress コンポーネントのメンテナンスに関与したい場合でも、コードの貢献は WordPress を改善する素晴らしい方法です。
+バグを報告して修正パッチを提供する必要がある場合でも、1つ以上の WordPress コンポーネントのメンテナンスに関与したい場合でも、コードの貢献は WordPress を改善するすばらしい方法です。
 このセクションでは、[WordPress のコードベース](https://make.wordpress.org/core/handbook/contribute/codebase/) とそのレイアウトについて説明し、[コードリポジトリ](https://make.wordpress.org/core/handbook/contribute/svn/) と [Trac](https://make.wordpress.org/core/handbook/contribute/trac/) について詳しく説明します。
 
 <!-- 
