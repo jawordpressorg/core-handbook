@@ -36,7 +36,7 @@ You don’t need to know how to code or create a patch, just provide a [well-wri
 <!--
 Found a security vulnerability? WordPress believes in responsible and private disclosure. [Report it directly to our security team.](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
 -->
-セキュリティの脆弱性を発見されましたか ?WordPress は、責任ある非公開の情報公開を信条としています。[セキュリティチームに直接報告してください](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
+セキュリティの脆弱性を発見されましたか ? WordPress は、責任ある非公開の情報公開を信条としています。[セキュリティチームに直接報告してください](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
 
 <!-- 
 ## Contribute with Code
