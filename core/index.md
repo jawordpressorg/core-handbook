@@ -72,7 +72,7 @@ In the best practices section, we outline the [coding standards](https://make.wo
 <!-- 
 Finally, the section walks through the [Core APIs](https://make.wordpress.org/core/handbook/best-practices/core-apis/) and the best practices to follow when [writing patches](https://make.wordpress.org/core/handbook/best-practices/writing-patches/).
 --> 
-最後に、[コアAPI](https://make.wordpress.org/core/handbook/best-practices/core-apis/)と[パッチを書く](https://make.wordpress.org/core/handbook/best-practices/writing-patches/)際に従うべきベストプラクティスを説明します。
+最後に、[コア API](https://make.wordpress.org/core/handbook/best-practices/core-apis/)と[パッチを書く](https://make.wordpress.org/core/handbook/best-practices/writing-patches/)際に従うべきベストプラクティスを説明します。
 
 <!-- 
 ## Tutorials & Guides
