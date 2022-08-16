@@ -26,12 +26,12 @@ Here you can learn about how the WordPress project is organized, communication c
 <!--
 Testing is a very important part of the release cycle. You can install the latest development version locally to test new features, and how the changes work with your site setup (theme/plugins/etc.). You can [start testing](https://make.wordpress.org/core/handbook/testing/) as soon as a new development version is available (alpha), and continue throughout the release cycle to ensure the next version of WordPress is as bug\-free as possible.
 -->
-テストは、リリースサイクルの非常に重要な部分です。最新の開発版をローカルにインストールし、新機能や、サイトの設定 (テーマ/プラグイン/その他) での変更点の動作をテストできます。新しい開発版 (アルファ版) が利用可能になるとすぐに [テストを開始](https://make.wordpress.org/core/handbook/testing/) でき、次のバージョンの WordPress ができるだけバグがないことを保証するためにリリースサイクル全体を通して継続します。
+テストは、リリースサイクルの非常に重要な部分です。最新の開発版をローカルにインストールし、新機能や、サイトの設定 (テーマやプラグインなど) での変更点の動作をテストできます。新しい開発版 (アルファ版) が利用可能になるとすぐに [テストを開始](https://make.wordpress.org/core/handbook/testing/) でき、次のバージョンの WordPress ができるだけバグがないことを保証するためにリリースサイクル全体を通して継続します。
 
 <!--
 You don’t need to know how to code or create a patch, just provide a [well-written bug report](https://make.wordpress.org/core/handbook/testing/reporting-bugs/), with details of the issue and steps to reproduce. You can confirm the issue is fixed once a patch is committed and a new bleeding edge nightly version released.
 -->
-コーディングやパッチの作成方法を知っている必要はありません。問題の詳細と再現手順を記載した [well-written bug report](https://make.wordpress.org/core/handbook/testing/reporting-bugs/) を提供してください。パッチがコミットされ、新しい最先端のナイトリーバージョンがリリースされた時点で、問題が修正されたことを確認できます。
+コーディングやパッチの作成方法を知っている必要はありません。問題の詳細と再現手順を記載した [バグレポート](https://make.wordpress.org/core/handbook/testing/reporting-bugs/) を提供してください。パッチがコミットされ、新しい最先端のナイトリーバージョンがリリースされた時点で、問題が修正されたことを確認できます。
 
 <!--
 Found a security vulnerability? WordPress believes in responsible and private disclosure. [Report it directly to our security team.](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
