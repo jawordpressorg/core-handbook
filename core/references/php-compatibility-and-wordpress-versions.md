@@ -1,6 +1,12 @@
+<!--
 # PHP Compatibility and WordPress Versions
+-->
+# PHPの互換性とWordPressのバージョン
 
+<!--
 WordPress aims to support new versions of PHP on the day they are released as much as possible. As a project, the process of supporting these new versions begins after each new PHP version has hit feature freeze and are tagging beta versions. This prevents having to revert or make additional changes to WordPress if a planned feature is removed or the implementation changes.
+-->
+WordPressはPHPの新しいバージョンがリリースされた当日に可能なかぎりサポートすることを目指しています。プロジェクトとして、これらの新しいバージョンをサポートする工程は、各新しいPHPバージョンが機能停止し、ベータ版にタグ付けされたあとに開始されます。これにより、計画した機能が削除されたり実装が変更されると、WordPressを元に戻したり追加の機能を加える必要がなくなります。
 
 Past changes to supported PHP versions have been as followed:
 
