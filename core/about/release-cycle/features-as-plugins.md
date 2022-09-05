@@ -145,7 +145,7 @@ Below is a list of some of the requirements a feature plugin team should meet w
 *   [キックオフに関する投稿](https://make.wordpress.org/core/tag/feature-plugins+kickoff/)と[定期的な更新に関する投稿](https://make.wordpress.org/core/tag/feature-plugins+updates/)が公開され、機能プラグインの進捗と主要な決定事項を追跡している。
 *   機能は、[WordPress が公式にサポートしているブラウザ](http://browsehappy.com/)のすべてで動作する。
 *   タッチデバイスに関しては、すべての機能を支障なく使用でき、[Make/Flow](https://make.wordpress.org/flow/) に投稿されたすべてのデバイスにおいて、新しいインターフェースを通じた主要なフローについての視覚的な記録を持っている。[Flow チーム](https://make.wordpress.org/flow/)にレビューを依頼し、モバイルで正しく機能することを確認してください。
-*   既存のインターフェースを変更したり置き換えたりする機能については、[旧フローと新フローを比較する視覚的な記録](https://make.wordpress.org/flow/tag/visual-comparison,flow-comparison/)を提供しすること。
+*   既存のインターフェースを変更したり置き換えたりする機能については、[旧フローと新フローを比較する視覚的な記録](https://make.wordpress.org/flow/tag/visual-comparison,flow-comparison/)を提供すること。
 *   [WordPress コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に準拠したコード。
 *   同様に、コードがよくテストされ、[ユニットテスト](https://make.wordpress.org/core/handbook/automated-testing/)を備えている。
 *   コードは十分に文書化されている (必ず [インラインドキュメントチーム](https://make.wordpress.org/docs/handbook/core/inline-docs/) にレビューしてもらいましょう)。
