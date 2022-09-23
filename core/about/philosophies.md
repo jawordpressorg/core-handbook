@@ -1,14 +1,74 @@
+<!--
 # Our Philosophies
+-->
 
+# 私たちの哲学
+
+<!--
 ## Out of the Box
+-->
 
-Great software should work with little configuration and setup. WordPress is designed to get you up and running and fully functional in no longer than five minutes. You shouldn’t have to battle to use the standard functionality of WordPress.
+## 箱から出して
 
-We work hard to make sure that every release is in keeping with this philosophy. We ask for as few technical details as possible during the setup process, as well as providing full explanations of anything we do ask.
+<!--
+Great software should work with little configuration and setup.  
+--> 
 
+優れたソフトウェアは、わずかな設定とセットアップで動作するはずです。
+
+<!--
+WordPress is designed to get you up and running and fully functional in no longer than five minutes. 
+-->
+
+WordPress は、5分もかからずに起動し、完全に機能するように設計されています。
+
+<!--
+You shouldn't have to battle to use the standard functionality of WordPress.
+-->
+
+WordPress の標準機能を使用するために苦労する必要はありません。
+
+<!--
+We work hard to make sure that every release is in keeping with this philosophy.
+--> 
+
+私たちは、すべてのリリースがこの哲学に沿ったものであるよう、努力しています。
+
+<!--
+We ask for as few technical details as possible during the setup process, as well as providing full explanations of anything we do ask.
+-->
+
+私たちは、セットアップ中に技術的な詳細をできるだけ尋ねないようにし、尋ねた内容については十分に説明するようにしています。
+
+<!--
 ## Design for the Majority
+-->
 
-Many end users of WordPress are non-technically minded. They don’t know what AJAX is, nor do they care about which version of PHP they are using. The average WordPress user simply wants to be able to write without problems or interruption. These are the users that we design the software for, as they are ultimately the ones who are going to spend the most time using it for what it was built for.
+## 大多数のためのデザイン
+
+<!--
+Many end users of WordPress are non-technically minded.
+-->
+
+WordPress のエンドユーザーの多くは、技術に詳しくない人たちです。
+
+<!--
+They don't know what AJAX is, nor do they care about which version of PHP they are using.
+-->
+
+AJAX が何であるかも知らないし、どのバージョンの PHP を使っているかも気にしない。
+
+<!--
+The average WordPress user simply wants to be able to write without problems or interruption.
+-->
+
+平均的な WordPress ユーザーは、単に問題なくまた中断することなく書きたいと思っています。
+
+<!--
+These are the users that we design the software for, as they are ultimately the ones who are going to spend the most time using it for what it was built for.
+-->
+
+このようなユーザーが、最終的にはソフトウェアが構築された目的のために最も多くの時間を費やすことになるため、私たちはそういうユーザーのためにソフトウェアを設計します。
 
 ## Decisions not Options
 
