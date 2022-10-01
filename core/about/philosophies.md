@@ -88,7 +88,11 @@ In past releases, we’ve taken major steps to improve ease of use and ultimatel
 
 We love to challenge ourselves and simplify tasks in ways that are positive for the overall WordPress user experience. Every version of WordPress should be easier and more enjoyable to use than the last.
 
+<!--
 ## Deadlines Are Not Arbitrary
+-->
+
+## 締め切りは恣意的なものではありません
 
 Deadlines are not arbitrary, they’re a promise we make to ourselves and our users that helps us rein in the endless possibilities of things that could be a part of every release. We aspire to release three major versions a year because, through trial and error, we’ve found that to be a good balance between getting cool stuff in each release, but not too much that we end up breaking more than we add.
 
