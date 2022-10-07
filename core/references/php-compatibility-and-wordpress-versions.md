@@ -6,12 +6,12 @@
 <!--
 WordPress aims to support new versions of PHP on the day they are released as much as possible. As a project, the process of supporting these new versions begins after each new PHP version has hit feature freeze and are tagging beta versions. This prevents having to revert or make additional changes to WordPress if a planned feature is removed or the implementation changes.
 -->
-WordPress は PHP の新しいバージョンがリリースされた当日に可能なかぎりサポートすることを目指しています。プロジェクトとして、これらの新しいバージョンをサポートするプロセスは、各新しい PHP バージョンが機能停止し、ベータ版にタグ付けされたあとに開始されます。これにより、計画した機能が削除されたり実装が変更されたりしても、WordPress を元に戻したり追加の機能を加える必要がなくなります。
+WordPress は PHP の新しいバージョンがリリースされた当日に可能なかぎりサポートすることを目指しています。プロジェクトとして、これらの新しいバージョンをサポートするプロセスは、それぞれの新しい PHP バージョンが機能フリーズを迎え、ベータ版にタグ付けされたあとに開始されます。これにより、計画した機能が削除されたり実装が変更されたりしても、WordPress を元に戻したり追加の機能を加える必要がなくなります。
 
 <!--
 Past changes to supported PHP versions have been as followed:
 -->
-サポートされているPHPバージョンの過去の変更は以下のとおりです:
+サポートされているPHPバージョンの過去の変更は以下のとおりです。
 
 <!--
 *   In WordPress version 4.1: Added support for PHP 5.6.
@@ -25,19 +25,19 @@ Past changes to supported PHP versions have been as followed:
 *   In WordPress 5.9: Added “beta support” for PHP 8.1 ([dev note](https://make.wordpress.org/core/2022/01/10/wordpress-5-9-and-php-8-0-8-1/)).
 -->
 *   WordPress 4.1: PHP 5.6をサポート。
-*   WordPress 4.4: PHP 7.0をサポート ([dev note](https://make.wordpress.org/core/2015/09/10/wordpress-and-php7/)).
+*   WordPress 4.4: PHP 7.0をサポート ([dev note](https://make.wordpress.org/core/2015/09/10/wordpress-and-php7/))。
 *   WordPress 4.7: PHP 7.1をサポート。
 *   WordPress 4.9: PHP 7.2をサポート。
-*   WordPress 5.0: PHP 7.3をサポート ([dev note](https://make.wordpress.org/core/2018/10/15/wordpress-and-php-7-3/)).
-*   WordPress 5.2: [Dropped support](https://core.trac.wordpress.org/ticket/46594) PHP 5.2、5.3、5.4、5.5をサポート廃止。
-*   WordPress 5.3: PHP 7.4をサポート ([dev note](https://make.wordpress.org/core/2019/10/11/wordpress-and-php-7-4/)).
-*   WordPress 5.6: PHP 8.0を「ベータサポート」 ([dev note](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/)).
-*   WordPress 5.9: PHP 8.1を「ベータサポート」 ([dev note](https://make.wordpress.org/core/2022/01/10/wordpress-5-9-and-php-8-0-8-1/)).
+*   WordPress 5.0: PHP 7.3をサポート ([dev note](https://make.wordpress.org/core/2018/10/15/wordpress-and-php-7-3/))。
+*   WordPress 5.2: PHP 5.2、5.3、5.4、5.5を[サポート廃止](https://core.trac.wordpress.org/ticket/46594)。
+*   WordPress 5.3: PHP 7.4をサポート ([dev note](https://make.wordpress.org/core/2019/10/11/wordpress-and-php-7-4/))。
+*   WordPress 5.6: PHP 8.0を「ベータサポート」 ([dev note](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/))。
+*   WordPress 5.9: PHP 8.1を「ベータサポート」 ([dev note](https://make.wordpress.org/core/2022/01/10/wordpress-5-9-and-php-8-0-8-1/))。
 
 <!--
 ## Supported Version Chart
 -->
-## バージョンサポートのチャート
+## 対応バージョン一覧
 
 <!--
 | WP Version | [5.2](https://www.php.net/archive/2006.php) | [5.3](https://www.php.net/archive/2009.php#id2009-06-30-1) | [5.4](https://www.php.net/archive/2012.php#id2012-03-01-1) | [5.5](https://www.php.net/archive/2013.php#id2013-06-20-1) | [5.6](https://www.php.net/archive/2014.php#id2014-08-28-1) | [7.0](https://www.php.net/archive/2015.php#id2015-12-03-1) | [7.1](https://www.php.net/archive/2016.php#id2016-12-01-3) | [7.2](https://www.php.net/archive/2017.php#id2017-11-30-1) | [7.3](https://www.php.net/archive/2018.php#id2018-12-06-1) | [7.4](https://www.php.net/archive/2019.php#2019-11-28-1) | [8.0](https://www.php.net/archive/2020.php#2020-11-26-3) | [8.1](https://www.php.net/archive/2021.php#2021-11-25-1) |
