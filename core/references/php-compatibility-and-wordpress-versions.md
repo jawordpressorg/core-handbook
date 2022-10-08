@@ -11,7 +11,7 @@ WordPress は PHP の新しいバージョンがリリースされた当日に�
 <!--
 Past changes to supported PHP versions have been as followed:
 -->
-サポートされているPHPバージョンの過去の変更は以下のとおりです。
+サポートされている PHP バージョンの過去の変更は以下のとおりです。
 
 <!--
 *   In WordPress version 4.1: Added support for PHP 5.6.
