@@ -140,7 +140,7 @@ It's designed to be lean and fast, and will always stay that way.
 We are constantly asked "when will X feature be built" or "why isn't X plugin integrated into the core". The rule of thumb is that the core should provide features that 80% or more of end users will actually appreciate and use.
 --> 
 
-「X 機能はいつビルドされるのですか」または「X プラグインがコアに統合されないのはなぜですか」という質問が常に寄せられます。経験則では、コアはエンドユーザーの80%  以上が実際に評価して使用する機能を提供する必要があります。
+「X 機能はいつビルドされるのですか」または「X プラグインがコアに統合されないのはなぜですか」という質問が常に寄せられます。経験則では、コアはエンドユーザーの80% 以上が実際に評価して使用する機能を提供する必要があります。
 
 <!--
 If the next version of WordPress comes with a feature that the majority of users immediately want to turn off, or think they'll never use, then we've blown it.
