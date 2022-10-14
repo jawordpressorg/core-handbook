@@ -246,33 +246,167 @@ WordPress は、どのバージョンも前のバージョンより使いやす�
 ## Deadlines Are Not Arbitrary
 -->
 
-## 締め切りは恣意的なものではありません
+## 締め切りは気ままに決めたものではありません
 
-Deadlines are not arbitrary, they’re a promise we make to ourselves and our users that helps us rein in the endless possibilities of things that could be a part of every release. We aspire to release three major versions a year because, through trial and error, we’ve found that to be a good balance between getting cool stuff in each release, but not too much that we end up breaking more than we add.
+<!--
+Deadlines are not arbitrary,they're a promise we make to ourselves and our users that helps us rein in the endless possibilities of things that could be a part of every release.
+-->
 
-Good deadlines almost always make you trim something from a release. This is not a bad thing, it’s what they’re supposed to do.
+締め切りは気ままに決めたものではなく、私たちが自身とユーザーに対してする約束であり、すべてのリリースの一部になる可能性のあるものの無限の可能性を抑えるのに役立ちます.
 
-The route of delaying a release for that one-more-feature is, literally, a rabbit hole. We did that for over a year once, and it wasn’t pleasant for anybody.
+<!-- 
+We aspire to release three major versions a year because, through trial and error,  we've found that to be a good balance between getting cool stuff in each release,  but not too much that we end up breaking more than we add.
+ -->
+ 
+私たちは年に3つのメジャーバージョンをリリースすることを目指しています。試行錯誤の結果、追加したものよりも壊してしまうものが多すぎず、リリースごとに優れた機能を提供するというバランスが適切であることがわかったためです。
 
-The more frequent and regular releases are, the less important it is for any particular feature to be in this release. If it doesn’t make it for this one, it’ll just be a few months before the next one. When releases become unpredictable or few and far between, there’s more pressure to try and squeeze in that one more thing because it’s going to be so long before the next one. Delay begets delay.
+<!--
+Good deadlines almost always make you trim something from a release.
+ -->
+ 
+良い締め切りは、ほとんどの場合、リリースから何かを削ることになります。
 
+<!--
+This is not a bad thing, it's what they're supposed to do.
+-->
+
+これは悪いことではなく、本来あるべき姿なのです。
+
+<!--
+The route of delaying a release for that one-more-feature is, literally, a rabbit hole.
+-->
+
+そのもう1つの機能のためにリリースを遅らせるルートは、文字通り、うさぎの穴に落ちて別世界に行くようなものです。
+
+<!--
+We did that for over a year once, and it wasn't pleasant for anybody.
+-->
+
+以前、1年以上そうしていたことがありますが、誰にとっても楽しいことではありませんでした。
+
+<!--
+The more frequent and regular releases are, the less important it is for any particular feature to be in this release. 
+-->
+
+リリースが頻繁で定期的であればあるほど、特定の機能がこのリリースに含まれることの重要性は低くなります。
+
+<!--
+If it doesn't make it for this one, it'll just be a few months before the next one. 
+-->
+
+今回間に合わなかったとしても、次回まで数カ月かかるだけですからね。
+
+<!--
+When releases become unpredictable or few and far between, there's more pressure to try and squeeze in that one more thing because it's going to be so long before the next one. 
+-->
+
+リリースが予測できないまたは少ない場合、次のリリースまでにかなりの時間がかかるため、もう1つ何かを詰め込まなければならないというプレッシャーがあります。
+
+<!--
+Delay begets delay.
+-->
+
+遅れが遅れを生むのです。
+
+
+<!--
 ## The Vocal Minority
+-->
 
-There’s a good rule of thumb within internet culture called the 1% rule. It states that “the number of people who create content on the internet represents approximately 1% (or less) of the people actually viewing that content”.
+## 少数者の声
 
-So while we consider it really important to listen and respond to those who post feedback and voice their opinions on forums, they only represent a tiny fraction of our end users. When making decisions on how to move forward with future versions of WordPress, we look to engage more of those users who are not so vocal online. We do this by meeting and talking to users at WordCamps across the globe. This gives us a better balance of understanding, and ultimately allows us to make better decisions for everyone moving forward.
+<!--
+There's a good rule of thumb within internet culture called the 1% rule. 
+-->
 
+インターネット文化には、1% ルールという経験則があります。
+
+<!--
+It states that "the number of people who create content on the internet represents approximately 1% (or less) of the people actually viewing that content".
+-->
+
+「インターネット上でコンテンツを作成する人の数は、実際にそのコンテンツを閲覧する人の約1% (またはそれ以下) である」と言われています。
+
+<!--
+So while we consider it really important to listen and respond to those who post feedback and voice their opinions on forums, they only represent a tiny fraction of our end users. 
+-->
+
+ですから、フォーラムにフィードバックを投稿したり意見を表明する人たちに耳を傾け、それに応えることはとても重要だと考えていますが、彼らはエンドユーザーのごく一部に過ぎません。
+
+<!--
+When making decisions on how to move forward with future versions of WordPress, we look to engage more of those users who are not so vocal online. 
+-->
+
+WordPress の将来のバージョンをどのように進めていくかを決定する際、私たちはオンラインであまり声を上げないユーザーにもっと関与してもらいたいと考えています。
+
+<!--
+We do this by meeting and talking to users at WordCamps across the globe. 
+-->
+
+そのために、世界中の WordCamp でユーザーと会い、話をします。
+
+<!--
+This gives us a better balance of understanding, and ultimately allows us to make better decisions for everyone moving forward.
+-->
+
+そうすることで、よりバランスのとれた理解を得ることができ、最終的には前を進もうとするすべての人のためにより良い決断を下すことができるのです。
+
+<!--
 ## Our Bill of Rights
+-->
 
-WordPress is licensed under the General Public License (GPLv2 or later) which provides four core freedoms, consider this as the WordPress “bill of rights”:
+## 私たちの権利章典
 
+<!--
+WordPress is licensed under the General Public License (GPLv2 or later) which provides four core freedoms, consider this as the WordPress "bill of rights":
+-->
+
+WordPress は、一般公衆利用許諾契約書 (GPLv2以降) に基づいてライセンスされており、4つの基本的な自由が提供されています。これを WordPress の「権利章典」と考えてください。
+
+<!--
 0.  The freedom to run the program, for any purpose.
+-->
+
+0.  目的を問わず、プログラムを実行する自由。
+
+<!--
 1.  The freedom to study how the program works, and change it to make it do what you wish.
+-->
+
+1.  プログラムのどのように機能するのかを研究し、自分の思い通りにプログラムを変更する自由。
+
+<!--
 2.  The freedom to redistribute.
+-->
+
+2.  再配布の自由。
+
+<!--
 3.  The freedom to distribute copies of your modified versions to others.
+-->
 
+3.  改変したバージョンのコピーを他の人に配布する自由。
+
+<!--
 Part of those licensing requirements include licensing derivative works or things that link core WordPress functions (like themes, plugins, etc.) under the GPL as well, thereby passing on the freedom of use for these works as well.
+-->
 
-Obviously there are those who will try to get around these ideals, and restrict the freedom of their users by trying to find loopholes or somehow circumvent the intention of the WordPress licensing, which is to ensure freedom of use. We believe that the community, as a whole, will reward those who focus on supporting these licensing freedoms instead of trying to avoid them.
+これらのライセンス要件の一部には、GPL に基づいて2次的著作物または WordPress のコア機能 (テーマ、プラグインなど) をリンクするものをライセンスすることも含まれ、これらの著作物の使用の自由も同様に譲渡されます。
 
+<!--
+Obviously there are those who will try to get around these ideals, and restrict the freedom of their users by trying to find loopholes or somehow circumvent the intention of the WordPress licensing, which is to ensure freedom of use. 
+-->
+
+明らかに、これらの理想を回避し抜け穴を見つけようとするか、使用の自由を確保するという WordPress ライセンスの意図を何らかの方法で回避して、ユーザーの自由を制限しようとする人がいます.
+
+<!--
+We believe that the community, as a whole, will reward those who focus on supporting these licensing freedoms instead of trying to avoid them.
+-->
+
+私たちは、コミュニティ全体として、これらのライセンスの自由を回避しようとするのではなく、サポートすることに重点を置いている人々に報いることができると信じています.
+
+<!--
 The most responsible use of WordPress community resources would therefore be put to best use by emphasizing high quality contributions that embrace the freedoms provided by the GPL.
+-->
+
+したがって、WordPress コミュニティリソースの最も責任ある使用は、GPL によって提供される自由を受け入れる良質の貢献を強調することによって、最大限に活用されます。
