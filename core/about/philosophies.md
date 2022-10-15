@@ -8,7 +8,7 @@
 ## Out of the Box
 -->
 
-## 箱から出して
+## 自由な発想で
 
 <!--
 Great software should work with little configuration and setup.  
@@ -74,7 +74,7 @@ These are the users that we design the software for, as they are ultimately the 
 ## Decisions not Options
 -->
 
-## オプションではなく、決断
+## オプションではなく、決定
 
 <!--
 When making decisions, these are the users we consider first.
@@ -122,7 +122,7 @@ It's our duty as developers to make smart design decisions, and avoid putting th
 ## Clean, Lean, and Mean
 -->
 
-## きれい、無駄がない、平均的
+## きれい、無駄がない、そしてやばい
 
 <!--
 The core of WordPress will always provide a solid array of basic features.
