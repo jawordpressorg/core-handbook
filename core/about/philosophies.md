@@ -44,7 +44,7 @@ We ask for as few technical details as possible during the setup process, as wel
 ## Design for the Majority
 -->
 
-## 大多数のためのデザイン
+## 多数派のためのデザイン
 
 <!--
 Many end users of WordPress are non-technically minded.
@@ -313,7 +313,7 @@ Delay begets delay.
 ## The Vocal Minority
 -->
 
-## 少数者の声
+## 少数派の声
 
 <!--
 There's a good rule of thumb within internet culture called the 1% rule. 
