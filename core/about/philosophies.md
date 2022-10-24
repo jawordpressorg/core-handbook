@@ -11,34 +11,17 @@
 ## 自由な発想で
 
 <!--
-Great software should work with little configuration and setup.  
---> 
-
-優れたソフトウェアは、わずかな設定とセットアップで動作するはずです。
-
-<!--
-WordPress is designed to get you up and running and fully functional in no longer than five minutes. 
+Great software should work with little configuration and setup. WordPress is designed to get you up and running and fully functional in no longer than five minutes. You shouldn't have to battle to use the standard functionality of WordPress.
 -->
 
-WordPress は、5分もかからずに起動し、完全に機能するように設計されています。
+優れたソフトウェアは、わずかな設定とセットアップで動作するはずです。WordPress は、5分もかからずに起動し、完全に機能するように設計されています。WordPress の標準機能を使用するために苦労する必要はありません。
 
 <!--
-You shouldn't have to battle to use the standard functionality of WordPress.
+We work hard to make sure that every release is in keeping with this philosophy. We ask for as few technical details as possible during the setup process, as well as providing full explanations of anything we do ask.
 -->
 
-WordPress の標準機能を使用するために苦労する必要はありません。
+私たちは、すべてのリリースがこの哲学に沿ったものであるよう、努力しています。セットアップ中に技術的な詳細をできるだけ尋ねないようにし、尋ねた内容については十分に説明するようにしています。
 
-<!--
-We work hard to make sure that every release is in keeping with this philosophy.
---> 
-
-私たちは、すべてのリリースがこの哲学に沿ったものであるよう、努力しています。
-
-<!--
-We ask for as few technical details as possible during the setup process, as well as providing full explanations of anything we do ask.
--->
-
-私たちは、セットアップ中に技術的な詳細をできるだけ尋ねないようにし、尋ねた内容については十分に説明するようにしています。
 
 <!--
 ## Design for the Majority
