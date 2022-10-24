@@ -122,7 +122,7 @@ It's our duty as developers to make smart design decisions, and avoid putting th
 ## Clean, Lean, and Mean
 -->
 
-## きれい、無駄がない、そしてやばい
+## 無駄がなく強靱
 
 <!--
 The core of WordPress will always provide a solid array of basic features.
