@@ -38,49 +38,13 @@ WordPress のエンドユーザーの多くは、技術に詳しくない人た�
 ## Decisions not Options
 -->
 
-## オプションではなく、決定
+## オプションではなく決定
 
 <!--
-When making decisions, these are the users we consider first.
+When making decisions, these are the users we consider first. A great example of this consideration is software options. Every time you give a user an option, you are asking them to make a decision. When a user doesn't care or understand the option, this ultimately leads to frustration. As developers, we sometimes feel that providing options for everything is a good thing, you can never have too many choices, right? Ultimately these choices end up being technical ones, choices that the average end user has no interest in. It's our duty as developers to make smart design decisions, and avoid putting the weight of technical choices on our end users.
 -->
 
-意思決定を行う際、これらのユーザーを最初に検討します。
-
-<!--
-A great example of this consideration is software options. 
--->
-
-この配慮の良い例は、ソフトウェアのオプションです。
-
-<!--
-Every time you give a user an option, you are asking them to make a decision. 
--->
-
-ユーザーにオプションを与えるたびに、ユーザーに決定を求めることになります。
-
-<!--
-When a user doesn't care or understand the option, this ultimately leads to frustration.
---> 
-
-ユーザーがオプションを気にかけたり理解しなかったりすると、最終的に不満につながります。
-
-<!--
-As developers, we sometimes feel that providing options for everything is a good thing, you can never have too many choices, right? 
--->
-
-開発者としては、何にでもオプションを用意することが良いことだと思うことがあります。選択肢は多いに越したことはありませんから。
-
-<!--
-Ultimately these choices end up being technical ones, choices that the average end user has no interest in. 
--->
-
-最終的にはこれらの選択は技術的なものになり、一般のエンドユーザーには興味のない選択になってしまいます。
-
-<!--
-It's our duty as developers to make smart design decisions, and avoid putting the weight of technical choices on our end users.
--->
-
-開発者としての私たちの義務は、賢明な設計上の決定をして、エンドユーザーに技術的な選択の重荷を負わせないようにすることです。
+意思決定を行う際、これらのユーザーを最初に検討します。この配慮の良い例は、ソフトウェアのオプションです。ユーザーにオプションを与えるたびに、ユーザーに決定を求めることになります。ユーザーがオプションを気にかけたり理解しなかったりすると、最終的に不満につながります。開発者としては、何にでもオプションを用意することが良いことだと思うことがあります。選択肢は多いに越したことはありませんから。最終的にはこれらの選択は技術的なものになり、一般のエンドユーザーには興味のない選択になってしまいます。開発者としての私たちの義務は、賢明な設計上の決定をして、エンドユーザーに技術的な選択の重荷を負わせないようにすることです。
 
 <!--
 ## Clean, Lean, and Mean
@@ -89,53 +53,16 @@ It's our duty as developers to make smart design decisions, and avoid putting th
 ## 無駄がなく強靱
 
 <!--
-The core of WordPress will always provide a solid array of basic features.
+The core of WordPress will always provide a solid array of basic features. It's designed to be lean and fast, and will always stay that way. We are constantly asked "when will X feature be built" or "why isn't X plugin integrated into the core". The rule of thumb is that the core should provide features that 80% or more of end users will actually appreciate and use. If the next version of WordPress comes with a feature that the majority of users immediately want to turn off, or think they'll never use, then we've blown it. If we stick to the 80% principle, then this should never happen.
 -->
 
-WordPress のコアは常に基本的な機能をしっかりと提供します。
+WordPress のコアは常に基本的な機能をしっかりと提供します。無駄なく速くそして常にその状態を維持するように設計されています。「X 機能はいつビルドされるのですか」または「X プラグインがコアに統合されないのはなぜですか」という質問が常に寄せられます。経験則では、コアはエンドユーザーの80% 以上が実際に評価して使用する機能を提供する必要があります。もし次のバージョンの WordPress に、大多数のユーザーがすぐに無効にしたい機能または今後使用しないと考える機能が搭載されている場合、私たちの失敗だと思ってください。80% の原則を守れば、こんなことは起こらないはずです。
 
-<!-- 
-It's designed to be lean and fast, and will always stay that way.
+<!--
+We are able to do this because we have a very capable theme and plugin system, and a fantastic developer community. Different people have different needs, and having the sheer number of quality WordPress plugins and themes allows users to customize their installations to their taste. That should allow all users to find the remaining 20% and make all WordPress features those they appreciate and use.
 -->
 
-無駄なく速くそして常にその状態を維持するように設計されています。
-
-<!--
-We are constantly asked "when will X feature be built" or "why isn't X plugin integrated into the core". The rule of thumb is that the core should provide features that 80% or more of end users will actually appreciate and use.
---> 
-
-「X 機能はいつビルドされるのですか」または「X プラグインがコアに統合されないのはなぜですか」という質問が常に寄せられます。経験則では、コアはエンドユーザーの80% 以上が実際に評価して使用する機能を提供する必要があります。
-
-<!--
-If the next version of WordPress comes with a feature that the majority of users immediately want to turn off, or think they'll never use, then we've blown it.
---> 
-  
-もし次のバージョンの WordPress に、大多数のユーザーがすぐに無効にしたい機能または今後使用しないと考える機能が搭載されている場合、私たちの失敗だと思ってください。
-
-<!--
-If we stick to the 80% principle, then this should never happen.
--->
-  
-80% の原則を守れば、こんなことは起こらないはずです。
-
-
-<!--
-We are able to do this because we have a very capable theme and plugin system, and a fantastic developer community.
--->
-
-これが可能になったのは、非常に有能なテーマとプラグインのシステム、そして素晴らしい開発者コミュニティがあるからです。
-
-<!--
-Different people have different needs, and having the sheer number of quality WordPress plugins and themes allows users to customize their installations to their taste.
--->
- 
-ニーズは人によって異なりますが、高品質の WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。
- 
-<!--
-That should allow all users to find the remaining 20% and make all WordPress features those they appreciate and use.
--->
-  
-これにより、すべてのユーザーが残りの20% を見つけて、すべての WordPress 機能を高く評価して使用できるようになります。
+これが可能になったのは、非常に有能なテーマとプラグインのシステム、そして素晴らしい開発者コミュニティがあるからです。ニーズは人によって異なりますが、高品質の WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。これにより、すべてのユーザーが残りの20% を見つけて、すべての WordPress 機能を高く評価して使用できるようになります。
 
 <!--
 ## Striving for Simplicity
