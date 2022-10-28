@@ -88,72 +88,33 @@ We love to challenge ourselves and simplify tasks in ways that are positive for 
 
 私たちは自分自身に挑戦し、WordPress の全体的なユーザー体験にプラスになるような方法でタスクを簡素化することが大好きです。WordPress は、どのバージョンも前のバージョンより使いやすく、楽しくなっているはずです。
 
+<!--## Deadlines Are Not Arbitrary-->
+
+## 恣意的ではない締め切り
+
 <!--
-## Deadlines Are Not Arbitrary
+Deadlines are not arbitrary, they're a promise we make to ourselves and our users that helps us rein in the endless possibilities of things that could be a part of every release. We aspire to release three major versions a year because, through trial and error, we've found that to be a good balance between getting cool stuff in each release, but not too much that we end up breaking more than we add.
 -->
 
-## 締め切りは気ままに決めたものではありません
+締め切りは恣意的なものではなく、私たち自身とユーザーとの約束であり、各リリースに含まれる可能性にある際限のない可能性を抑制するためのものです。私たちは年に3つのメジャーバージョンをリリースすることを目指しています。試行錯誤の結果、追加したものよりも壊してしまうものが多すぎず、リリースごとに優れた機能を提供するという良いバランスであることがわかってきたからです。
 
 <!--
-Deadlines are not arbitrary,they're a promise we make to ourselves and our users that helps us rein in the endless possibilities of things that could be a part of every release.
+Good deadlines almost always make you trim something from a release. This is not a bad thing, it's what they're supposed to do.
 -->
 
-締め切りは気ままに決めたものではなく、私たちが自身とユーザーに対してする約束であり、すべてのリリースの一部になる可能性のあるものの無限の可能性を抑えるのに役立ちます.
-
-<!-- 
-We aspire to release three major versions a year because, through trial and error,  we've found that to be a good balance between getting cool stuff in each release,  but not too much that we end up breaking more than we add.
- -->
- 
-私たちは年に3つのメジャーバージョンをリリースすることを目指しています。試行錯誤の結果、追加したものよりも壊してしまうものが多すぎず、リリースごとに優れた機能を提供するというバランスが適切であることがわかったためです。
+良い締め切りは、ほとんどの場合、リリースから何かを削ることになります。これは悪いことではなく、本来あるべき姿なのです。
 
 <!--
-Good deadlines almost always make you trim something from a release.
- -->
- 
-良い締め切りは、ほとんどの場合、リリースから何かを削ることになります。
-
-<!--
-This is not a bad thing, it's what they're supposed to do.
+The route of delaying a release for that one-more-feature is, literally, a rabbit hole. We did that for over a year once, and it wasn't pleasant for anybody.
 -->
 
-これは悪いことではなく、本来あるべき姿なのです。
+そのもう1つの機能のためにリリースを遅らせるルートは、文字通りうさぎの穴に落ちて別世界に行くようなものです。以前、1年以上そうしていたことがありますが、誰にとっても楽しいことではありませんでした。
 
 <!--
-The route of delaying a release for that one-more-feature is, literally, a rabbit hole.
+The more frequent and regular releases are, the less important it is for any particular feature to be in this release. If it doesn't make it for this one, it'll just be a few months before the next one. When releases become unpredictable or few and far between, there's more pressure to try and squeeze in that one more thing because it's going to be so long before the next one. Delay begets delay.
 -->
 
-そのもう1つの機能のためにリリースを遅らせるルートは、文字通り、うさぎの穴に落ちて別世界に行くようなものです。
-
-<!--
-We did that for over a year once, and it wasn't pleasant for anybody.
--->
-
-以前、1年以上そうしていたことがありますが、誰にとっても楽しいことではありませんでした。
-
-<!--
-The more frequent and regular releases are, the less important it is for any particular feature to be in this release. 
--->
-
-リリースが頻繁で定期的であればあるほど、特定の機能がこのリリースに含まれることの重要性は低くなります。
-
-<!--
-If it doesn't make it for this one, it'll just be a few months before the next one. 
--->
-
-今回間に合わなかったとしても、次回まで数カ月かかるだけですからね。
-
-<!--
-When releases become unpredictable or few and far between, there's more pressure to try and squeeze in that one more thing because it's going to be so long before the next one. 
--->
-
-リリースが予測できないまたは少ない場合、次のリリースまでにかなりの時間がかかるため、もう1つ何かを詰め込まなければならないというプレッシャーがあります。
-
-<!--
-Delay begets delay.
--->
-
-遅れが遅れを生むのです。
-
+リリースが頻繁で定期的であればあるほど、特定の機能が今回のリリースに含まれることの重要性は低くなります。今回間に合わなかったとしても、次回まで数カ月かかるだけですから。リリースが予測不可能になったり、頻度が少なくなったりすると、次のリリースまでにかなりの時間がかかるため、もう1つ何かを詰め込まなければならないというプレッシャーが強くなります。遅れが遅れを生むのです。
 
 <!--
 ## The Vocal Minority
