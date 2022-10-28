@@ -90,7 +90,7 @@ We love to challenge ourselves and simplify tasks in ways that are positive for 
 
 <!--## Deadlines Are Not Arbitrary-->
 
-## 恣意的ではない締め切り
+## 締め切りは恣意的ではない
 
 <!--
 Deadlines are not arbitrary, they're a promise we make to ourselves and our users that helps us rein in the endless possibilities of things that could be a part of every release. We aspire to release three major versions a year because, through trial and error, we've found that to be a good balance between getting cool stuff in each release, but not too much that we end up breaking more than we add.
@@ -148,26 +148,14 @@ WordPress は、一般公衆利用許諾契約書 (GPLv2以降) に基づいて�
 
 <!--
 0.  The freedom to run the program, for any purpose.
--->
-
-0.  目的を問わず、プログラムを実行する自由。
-
-<!--
 1.  The freedom to study how the program works, and change it to make it do what you wish.
--->
-
-1.  プログラムのどのように機能するのかを研究し、自分の思い通りにプログラムを変更する自由。
-
-<!--
 2.  The freedom to redistribute.
--->
-
-2.  再配布の自由。
-
-<!--
 3.  The freedom to distribute copies of your modified versions to others.
 -->
 
+0.  目的を問わず、プログラムを実行する自由。
+1.  プログラムのどのように機能するのかを研究し、自分の思い通りにプログラムを変更する自由。
+2.  再配布の自由。
 3.  改変したバージョンのコピーを他の人に配布する自由。
 
 <!--
@@ -177,19 +165,13 @@ Part of those licensing requirements include licensing derivative works or thing
 これらのライセンス要件の一部には、GPL に基づいて2次的著作物または WordPress のコア機能 (テーマ、プラグインなど) をリンクするものをライセンスすることも含まれ、これらの著作物の使用の自由も同様に譲渡されます。
 
 <!--
-Obviously there are those who will try to get around these ideals, and restrict the freedom of their users by trying to find loopholes or somehow circumvent the intention of the WordPress licensing, which is to ensure freedom of use. 
+Obviously there are those who will try to get around these ideals, and restrict the freedom of their users by trying to find loopholes or somehow circumvent the intention of the WordPress licensing, which is to ensure freedom of use. We believe that the community, as a whole, will reward those who focus on supporting these licensing freedoms instead of trying to avoid them.
 -->
 
-明らかに、これらの理想を回避し抜け穴を見つけようとするか、使用の自由を確保するという WordPress ライセンスの意図を何らかの方法で回避して、ユーザーの自由を制限しようとする人がいます.
-
-<!--
-We believe that the community, as a whole, will reward those who focus on supporting these licensing freedoms instead of trying to avoid them.
--->
-
-私たちは、コミュニティ全体として、これらのライセンスの自由を回避しようとするのではなく、サポートすることに重点を置いている人々に報いることができると信じています.
+明らかに、これらの理想を回避し抜け穴を見つけようとするか、使用の自由を確保するという WordPress ライセンスの意図を何らかの方法で回避して、ユーザーの自由を制限しようとする人がいます.私たちは、コミュニティ全体として、これらのライセンスの自由を回避しようとするのではなく、サポートすることに重点を置いている人々に報いることができると信じています.
 
 <!--
 The most responsible use of WordPress community resources would therefore be put to best use by emphasizing high quality contributions that embrace the freedoms provided by the GPL.
 -->
 
-したがって、WordPress コミュニティのリソースを最も責任を持って使用するには、GPL によって提供される自由を受け入れる高品質の貢献をすることを重要と考えることが最も効果的でしょう。
+したがって、WordPress コミュニティのリソースを最も責任を持って使用するには、GPL によって提供される自由を受け入れる高品質の貢献を重視することが最も効果的でしょう。
