@@ -122,41 +122,13 @@ The more frequent and regular releases are, the less important it is for any par
 
 ## 少数派の声
 
-<!--
-There's a good rule of thumb within internet culture called the 1% rule. 
--->
+<!--There's a good rule of thumb within internet culture called the 1% rule. It states that "the number of people who create content on the internet represents approximately 1% (or less) of the people actually viewing that content".-->
 
-インターネット文化には、1% ルールという経験則があります。
+インターネット文化には、1% ルールという経験則があります。「インターネット上でコンテンツを作成する人の数は、実際にそのコンテンツを閲覧する人の約1% (またはそれ以下) である」と言われています。
 
-<!--
-It states that "the number of people who create content on the internet represents approximately 1% (or less) of the people actually viewing that content".
--->
+<!--So while we consider it really important to listen and respond to those who post feedback and voice their opinions on forums, they only represent a tiny fraction of our end users. When making decisions on how to move forward with future versions of WordPress, we look to engage more of those users who are not so vocal online. We do this by meeting and talking to users at WordCamps across the globe. This gives us a better balance of understanding, and ultimately allows us to make better decisions for everyone moving forward.-->
 
-「インターネット上でコンテンツを作成する人の数は、実際にそのコンテンツを閲覧する人の約1% (またはそれ以下) である」と言われています。
-
-<!--
-So while we consider it really important to listen and respond to those who post feedback and voice their opinions on forums, they only represent a tiny fraction of our end users. 
--->
-
-ですから、フォーラムにフィードバックを投稿したり意見を表明する人たちに耳を傾け、それに応えることはとても重要だと考えていますが、彼らはエンドユーザーのごく一部に過ぎません。
-
-<!--
-When making decisions on how to move forward with future versions of WordPress, we look to engage more of those users who are not so vocal online. 
--->
-
-WordPress の将来のバージョンをどのように進めていくかを決定する際、私たちはオンラインであまり声を上げないユーザーにもっと関与してもらいたいと考えています。
-
-<!--
-We do this by meeting and talking to users at WordCamps across the globe. 
--->
-
-そのために、世界中の WordCamp でユーザーと会い、話をします。
-
-<!--
-This gives us a better balance of understanding, and ultimately allows us to make better decisions for everyone moving forward.
--->
-
-そうすることで、よりバランスのとれた理解を得ることができ、最終的には前を進もうとするすべての人のためにより良い決断を下すことができるのです。
+ですから、フォーラムにフィードバックを投稿したり意見を表明する人たちに耳を傾け、それに応えることはとても重要だと考えていますが、彼らはエンドユーザーのごく一部に過ぎません。WordPress の将来のバージョンをどのように進めていくかを決定する際、私たちはオンラインであまり声を上げないユーザーにもっと関与してもらいたいと考えています。そのために、世界中の WordCamp でユーザーと会い、話をします。そうすることで、よりバランスのとれた理解を得ることができ、最終的には前を進もうとするすべての人のためにより良い決断を下すことができるのです。
 
 <!--
 ## Our Bill of Rights
