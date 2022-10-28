@@ -68,14 +68,13 @@ We are able to do this because we have a very capable theme and plugin system, a
 ## Striving for Simplicity
 -->
 
-##シンプルさを追及する
+## シンプルさを追及する
 
 <!--
 We're never done with simplicity. We want to make WordPress easier to use with every single release. We've got a good track record of this; if you don't believe us, then just take a look back at some older versions of WordPress!
 -->
 
 シンプルさだけでは終わりません。私たちは、リリースするたびに、WordPress をより使いやすくしていきたいと考えています。これについては優れた実績があります。信じられないなら、古いバージョンの WordPress を振り返ってみてください !
-
 
 <!--
 In past releases, we've taken major steps to improve ease of use and ultimately make things simpler to understand. One great example of this is core software updates. Updating used to be a painful, manual task that was too tricky for a lot of our users. We decided to focus on this, and simplified it down to a single click. Now anyone with a WordPress install can perform one click upgrades on both the core of WordPress, and plugins and themes.
