@@ -68,70 +68,26 @@ We are able to do this because we have a very capable theme and plugin system, a
 ## Striving for Simplicity
 -->
 
-## シンプルさの追求
+##シンプルさを追及する
 
 <!--
-We're never done with simplicity.
+We're never done with simplicity. We want to make WordPress easier to use with every single release. We've got a good track record of this; if you don't believe us, then just take a look back at some older versions of WordPress!
 -->
 
-シンプルさだけでは終わりません。
+シンプルさだけでは終わりません。私たちは、リリースするたびに、WordPress をより使いやすくしていきたいと考えています。これについては優れた実績があります。信じられないなら、古いバージョンの WordPress を振り返ってみてください !
+
 
 <!--
-We want to make WordPress easier to use with every single release.
+In past releases, we've taken major steps to improve ease of use and ultimately make things simpler to understand. One great example of this is core software updates. Updating used to be a painful, manual task that was too tricky for a lot of our users. We decided to focus on this, and simplified it down to a single click. Now anyone with a WordPress install can perform one click upgrades on both the core of WordPress, and plugins and themes.
 -->
 
-私たちは、リリースするたびに、WordPress をより使いやすくしていきたいと考えています。
+これまでのリリースでは、使い勝手を向上させ最終的にはよりシンプルに理解できるような工夫をしてきました。その良い例が、コアソフトウェアの更新です。以前の更新は、多くのユーザーにとって手がかかりすぎる面倒な手作業でした。私たちはこれに焦点を当てることにし、ワンクリックで済むように簡略化しました。WordPress をインストールしている人なら誰でも、WordPress のコア、プラグインとテーマの両方をワンクリックでアップグレードできるようになりました。
 
 <!--
-We've got a good track record of this; if you don't believe us, then just take a look back at some older versions of WordPress!
+We love to challenge ourselves and simplify tasks in ways that are positive for the overall WordPress user experience. Every version of WordPress should be easier and more enjoyable to use than the last.
 -->
 
-これについては良い実績があります。信じられない場合は、古いバージョンの WordPress を振り返ってみてください !
-
-
-<!--
-In past releases, we've taken major steps to improve ease of use and ultimately make things simpler to understand.
--->
-
-これまでのリリースでは、使い勝手を向上させ最終的にはよりシンプルに理解できるような工夫をしてきました。
-
-<!--
-One great example of this is core software updates.
--->
-
-その良い例が、コアソフトウェアの更新です。
-
-<!--
-Updating used to be a painful, manual task that was too tricky for a lot of our users. 
--->
-
-以前の更新は、多くのユーザーにとって手がかかりすぎて厄介な手作業でした。
-
-<!--
-We decided to focus on this, and simplified it down to a single click.
---> 
-
-私たちはこれに焦点を当てることにし、ワンクリックで済むように簡素化しました。
-
-<!--
-Now anyone with a WordPress install can perform one click upgrades on both the core of WordPress, and plugins and themes.
--->
-
-WordPress をインストールしている人なら誰でも、WordPress のコア、プラグインとテーマの両方をワンクリックでアップグレードできるようになりました。
-
-
-<!--
-We love to challenge ourselves and simplify tasks in ways that are positive for the overall WordPress user experience.
--->
-
-私たちは自分自身に挑戦し、WordPress の全体的なユーザー体験にプラスになるような方法でタスクを簡素化することが大好きです。
-
-<!--
-Every version of WordPress should be easier and more enjoyable to use than the last.
--->
-
-WordPress は、どのバージョンも前のバージョンより使いやすく、楽しくなっているはずです。
-
+私たちは自分自身に挑戦し、WordPress の全体的なユーザー体験にプラスになるような方法でタスクを簡素化することが大好きです。WordPress は、どのバージョンも前のバージョンより使いやすく、楽しくなっているはずです。
 
 <!--
 ## Deadlines Are Not Arbitrary
