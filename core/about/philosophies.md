@@ -56,7 +56,7 @@ When making decisions, these are the users we consider first. A great example of
 The core of WordPress will always provide a solid array of basic features. It's designed to be lean and fast, and will always stay that way. We are constantly asked "when will X feature be built" or "why isn't X plugin integrated into the core". The rule of thumb is that the core should provide features that 80% or more of end users will actually appreciate and use. If the next version of WordPress comes with a feature that the majority of users immediately want to turn off, or think they'll never use, then we've blown it. If we stick to the 80% principle, then this should never happen.
 -->
 
-WordPress のコアは常に基本的な機能をしっかりと提供します。無駄なく速くそして常にその状態を維持するように設計されています。「X 機能はいつビルドされるのですか」または「X プラグインがコアに統合されないのはなぜですか」という質問が常に寄せられます。経験則では、コアはエンドユーザーの80% 以上が実際に評価して使用する機能を提供する必要があります。もし次のバージョンの WordPress に、大多数のユーザーがすぐに無効にしたい機能または今後使用しないと考える機能が搭載されている場合、私たちの失敗だと思ってください。80% の原則を守れば、こんなことは起こらないはずです。
+WordPress のコアは常に基本的な機能をしっかりと提供します。無駄なく速く、そして常にその状態を維持するように設計されています。「X 機能はいつビルドされるのですか」または「X プラグインがコアに統合されないのはなぜですか」という質問が常に寄せられます。経験則では、コアはエンドユーザーの80% 以上が実際に評価して使用する機能を提供する必要があります。もし次のバージョンの WordPress に、大多数のユーザーがすぐに無効にしたい機能または今後使用しないと考える機能が搭載されている場合、私たちの失敗だと思ってください。80% の原則を守れば、こんなことは起こらないはずです。
 
 <!--
 We are able to do this because we have a very capable theme and plugin system, and a fantastic developer community. Different people have different needs, and having the sheer number of quality WordPress plugins and themes allows users to customize their installations to their taste. That should allow all users to find the remaining 20% and make all WordPress features those they appreciate and use.
