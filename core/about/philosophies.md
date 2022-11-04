@@ -44,7 +44,7 @@ WordPress のエンドユーザーの多くは、技術に詳しくない人た�
 When making decisions, these are the users we consider first. A great example of this consideration is software options. Every time you give a user an option, you are asking them to make a decision. When a user doesn't care or understand the option, this ultimately leads to frustration. As developers, we sometimes feel that providing options for everything is a good thing, you can never have too many choices, right? Ultimately these choices end up being technical ones, choices that the average end user has no interest in. It's our duty as developers to make smart design decisions, and avoid putting the weight of technical choices on our end users.
 -->
 
-意思決定を行う際、これらのユーザーを最初に検討します。この配慮の良い例は、ソフトウェアのオプションです。ユーザーにオプションを与えるたびに、ユーザーに決定を求めることになります。ユーザーがオプションを気にかけたり理解しなかったりすると、最終的に不満につながります。開発者としては、何にでもオプションを用意することが良いことだと思うことがあります。選択肢は多いに越したことはありませんから。最終的にはこれらの選択は技術的なものになり、一般のエンドユーザーには興味のない選択になってしまいます。開発者としての私たちの義務は、賢明な設計上の決定をして、エンドユーザーに技術的な選択の重荷を負わせないようにすることです。
+意思決定を行う際、これらのユーザーを最初に検討します。この配慮の良い例は、ソフトウェアのオプションです。ユーザーにオプションを与えるたびに、ユーザーに決定を求めることになります。ユーザーがオプションを気にしていなかったり理解していなかったりすると、最終的に不満につながります。開発者としては、何にでもオプションを用意することが良いことだと思うことがあります。選択肢は多いに越したことはありませんから。最終的にはこれらの選択は技術的なものになり、一般のエンドユーザーには興味のない選択になってしまいます。エンドユーザーに技術的な選択の重荷を負わせないように、スマートな設計をすることが開発者の務めです。
 
 <!--
 ## Clean, Lean, and Mean
