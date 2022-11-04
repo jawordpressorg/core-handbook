@@ -32,7 +32,7 @@ We work hard to make sure that every release is in keeping with this philosophy.
 Many end users of WordPress are non-technically minded. They don't know what AJAX is, nor do they care about which version of PHP they are using. The average WordPress user simply wants to be able to write without problems or interruption. These are the users that we design the software for, as they are ultimately the ones who are going to spend the most time using it for what it was built for.
 -->
 
-WordPress のエンドユーザーの多くは、技術に詳しくない人たちです。AJAX が何であるかも知らないし、どのバージョンの PHP を使っているかも気にしない。平均的な WordPress ユーザーは、単に問題なくまた中断することなく書きたいと思っています。このようなユーザーが、最終的にはソフトウェアが構築された目的のために最も多くの時間を費やすことになるため、私たちはそういうユーザーのためにソフトウェアを設計します。
+WordPress のエンドユーザーの多くは、技術に詳しくない人たちです。AJAX が何であるかも知らないし、どのバージョンの PHP を使っているかも気にしません。平均的な WordPress ユーザーは、単に問題なくまた中断することなく書きたいと思っています。このようなユーザーが、最終的にはソフトウェアが構築された目的のために最も多くの時間を費やすことになるため、私たちはそのようなユーザーのためにソフトウェアを設計します。
 
 <!--
 ## Decisions not Options
