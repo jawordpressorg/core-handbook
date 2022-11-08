@@ -2,37 +2,37 @@
 # Writing developer notes
 -->
 
-# 開発者ノートを書く
+# 開発ノートを書く
 
 <!--
 A Developer note (or “dev note” for short) is a blog post on the [Making WordPress Core](https://make.wordpress.org/core/) blog that details a technical change in an upcoming release and what developers need to know about that change.
 -->
 
-開発者ノート (略して「dev note」) とは、[Making WordPress Core](https://make.wordpress.org/core/) ブログにおいて、次のリリースにおける技術的な変更と、その変更について開発者が知っておくべきことを詳細に説明するブログ記事のことです。
+開発ノート (略して「dev note」) とは、[Making WordPress Core](https://make.wordpress.org/core/) ブログにおいて、次のリリースにおける技術的な変更と、その変更について開発者が知っておくべきことを詳細に説明するブログ記事のことです。
 
 <!--
 Dev notes are an important part of the WordPress Core release cycle. They keep the developer community informed by calling out changes that could impact how they build on WordPress, and supplements inline documentation by explaining the problems, solutions, best practices, and edge cases related to the change.
 -->
 
-開発者ノートは、WordPress コアのリリースサイクルにおいて重要です。WordPress の構築方法に影響を与える可能性のある変更について開発者コミュニティに情報を提供し、問題点、解決策、ベストプラクティス、エッジケースを説明することでインラインドキュメントを補完します。
+開発ノートは、WordPress コアのリリースサイクルにおいて重要です。WordPress の構築方法に影響を与える可能性のある変更について開発者コミュニティに情報を提供し、問題点、解決策、ベストプラクティス、エッジケースを説明することでインラインドキュメントを補完します。
 
 <!--
 The best dev notes are clear, concise, and complete.
 -->
 
-最高の開発者ノートとは、明確で、簡潔で、完全なものです。
+最高の開発ノートとは、明確で、簡潔で、完全なものです。
 
 <!--
 ## How do you know what needs a dev note?
 -->
 
-## 開発者ノートが必要なものは、どのように判断しますか ?
+## 開発ノートが必要なものは、どのように判断しますか ?
 
 <!--
 For each release, tickets that may need developer notes are given the `needs-dev-note` keyword on Trac. When a note has been published for a ticket, that keyword is replaced with the `has-dev-note` keyword and a link to the note is included in a comment.
 -->
 
-各リリースにおいて、開発者ノートが必要なチケットは Trac 上で `needs-dev-note` キーワードが与えられます。チケットにノートが投稿されると、そのキーワードは `has-dev-note` キーワードに置き換えられ、コメントにノートへのリンクが含まれます。
+各リリースにおいて、開発ノートが必要なチケットは Trac 上で `needs-dev-note` キーワードが与えられます。チケットにノートが投稿されると、そのキーワードは `has-dev-note` キーワードに置き換えられ、コメントにノートへのリンクが含まれます。
 
 <!--
 **It’s important to remember that not all tickets in a milestone marked `needs-dev-note` on Trac end up being committed and included in that release.**
@@ -56,7 +56,7 @@ For that reason, care should be taken to only write notes for tickets and change
 The hierarchy for who should author a dev note is as follows:
 -->
 
-開発者ノートを作成する人の優先順位は、以下の通りです。
+開発ノートを作成する人の優先順位は、以下の通りです。
 
 <!--
 *   Someone with deep, working knowledge of the changes. This is usually the committer that made the change, a component maintainer that helped craft/test the changes, or any other contributor that helped push that change forward.
@@ -64,7 +64,7 @@ The hierarchy for who should author a dev note is as follows:
 *   Someone that is less technical, but is comfortable interviewing or asking someone in the above groups questions about the changes in order to have the information needed to write the note.
 -->
 
-*   その変更について、深く実用的な知識を持っている人。これは通常、その変更を行ったコミッター、その変更の作成とテストを手伝ったコンポーネントのメンテナー、またはその変更を前進させることを手伝ったその他の貢献者です。
+*   その変更について、深く実用的な知識を持っている人。これは通常、その変更を行ったコミッター、その変更の作成とテストを手伝ったコンポーネントのメンテナー、またはその変更を前進させることを手伝ったその他のコントリビューターです。
 *   その変更に関わっていないが、技術的な基礎があり、正しいメッセージを伝えるためにコードの変更を詳細にレビューできる人。
 *   技術的なことはあまり詳しくないが、ノートを書くうえで必要な情報を得るために、変更点について上記のグループの誰かにインタビューしたり質問したりすることができる人。
 
@@ -72,7 +72,7 @@ The hierarchy for who should author a dev note is as follows:
 ## What should a dev note include?
 -->
 
-## 開発者ノートには何を書くべきですか ?
+## 開発ノートには何を書くべきですか ?
 
 <!--
 Each note will be unique, but every dev note should clearly define a problem that is being solved, how that problem was solved, and what developers need to know about the related changes. It usually contains a mix of the following:
@@ -172,7 +172,7 @@ A dev note can be published any time during the release cycle. If a change to th
 A handful of WordPress contributors run `trunk` on their websites in order to test every change after it’s made. On occasion, an issue does come up requiring adjustments to be made. Waiting to publish the dev note ensures that only one note is required for a change, avoiding the potential for confusion and making more work for developers.
 -->
 
-WordPress のコントリビューターの中には、自分のサイトで `trunk` を運用し、変更箇所をすべてテストしている人も少なくありません。ときには、調整が必要な問題が発生することもあります。開発者ノートの公開を待つことで、1つの変更に対して1つのノートしか必要ないことが保証され、混乱の可能性や開発者の仕事を増やすことを避けることができます。
+WordPress のコントリビューターの中には、自分のサイトで `trunk` を運用し、変更箇所をすべてテストしている人も少なくありません。ときには、調整が必要な問題が発生することもあります。開発ノートの公開を待つことで、1つの変更に対して1つのノートしか必要ないことが保証され、混乱の可能性や開発者の仕事を増やすことを避けることができます。
 
 <!--
 **However, all dev notes for a changes in a specific release should be published before the first release candidate for that release.**
@@ -226,7 +226,7 @@ When writing or reviewing any post on the [Making WordPress Core blog,](https://
 After writing a developer note, it is also important to make sure it is tagged correctly. The tags that every dev note should have are `dev-notes`, and a specific version tag (`5.5`, for example). Additional tags can be added as necessary, and usually include specific component tags.
 -->
 
-開発者ノートを書いた後は、それが正しくタグ付けされていることを確認することも重要です。すべての開発者ノートには `dev-notes` というタグと、特定のバージョンタグ (たとえば `5.5`) が必要です。必要に応じてタグを追加でき、通常、特定のコンポーネントに関するタグを含みます。
+開発ノートを書いた後は、それが正しくタグ付けされていることを確認することも重要です。すべての開発ノートには `dev-notes` というタグと、特定のバージョンタグ (たとえば `5.5`) が必要です。必要に応じてタグを追加でき、通常、特定のコンポーネントに関するタグを含みます。
 
 <!--
 Properly tagging notes is important to make them easier to find and revisit later.
