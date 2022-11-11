@@ -80,7 +80,7 @@ We're never done with simplicity. We want to make WordPress easier to use with e
 In past releases, we've taken major steps to improve ease of use and ultimately make things simpler to understand. One great example of this is core software updates. Updating used to be a painful, manual task that was too tricky for a lot of our users. We decided to focus on this, and simplified it down to a single click. Now anyone with a WordPress install can perform one click upgrades on both the core of WordPress, and plugins and themes.
 -->
 
-これまでのリリースでは、使い勝手を向上させ最終的にはよりシンプルに理解できるような工夫をしてきました。その良い例が、コアソフトウェアのアップデートです。以前の更新は、多くのユーザーにとって手がかかりすぎる面倒な手作業でした。私たちはこれに焦点を当てることにし、ワンクリックで済むように簡略化しました。WordPress をインストールしている人なら誰でも、WordPress のコア、プラグインとテーマの両方をワンクリックでアップグレードできるようになりました。
+これまでのリリースでは、使い勝手を向上させ最終的にはよりシンプルに理解できるような工夫をしてきました。その良い例が、コアソフトウェアのアップデートです。以前のアップデートは、多くのユーザーにとって手がかかりすぎる面倒な手作業でした。私たちはこれに焦点を当てることにし、ワンクリックで済むように簡略化しました。WordPress をインストールしている人なら誰でも、WordPress のコア、プラグインとテーマの両方をワンクリックでアップグレードできるようになりました。
 
 <!--
 We love to challenge ourselves and simplify tasks in ways that are positive for the overall WordPress user experience. Every version of WordPress should be easier and more enjoyable to use than the last.
