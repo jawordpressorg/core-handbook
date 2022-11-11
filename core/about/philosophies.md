@@ -62,7 +62,7 @@ WordPress のコアは常に基本的な機能をしっかりと提供します�
 We are able to do this because we have a very capable theme and plugin system, and a fantastic developer community. Different people have different needs, and having the sheer number of quality WordPress plugins and themes allows users to customize their installations to their taste. That should allow all users to find the remaining 20% and make all WordPress features those they appreciate and use.
 -->
 
-これが可能になったのは、非常に有能なテーマとプラグインのシステム、そして素晴らしい開発者コミュニティがあるからです。ニーズは人によって異なりますが、高品質の WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。これにより、すべてのユーザーが残りの20% を見つけて、すべての WordPress 機能を高く評価して使用できるようになります。
+これが可能になったのは、非常に有能なテーマとプラグインのシステム、そして素晴らしい開発者コミュニティがあるからです。ニーズは人によって異なりますが、高品質な WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。これにより、すべてのユーザーが残りの20% を見つけて、WordPress のすべての機能を高く評価して使用できるようになります。
 
 <!--
 ## Striving for Simplicity
