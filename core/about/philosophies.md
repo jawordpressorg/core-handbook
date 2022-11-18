@@ -62,7 +62,7 @@ WordPress のコアは常に基本的な機能をしっかりと提供します�
 We are able to do this because we have a very capable theme and plugin system, and a fantastic developer community. Different people have different needs, and having the sheer number of quality WordPress plugins and themes allows users to customize their installations to their taste. That should allow all users to find the remaining 20% and make all WordPress features those they appreciate and use.
 -->
 
-これが可能になったのは、非常に有能なテーマとプラグインのシステム、そして素晴らしい開発者コミュニティがあるからです。ニーズは人によって異なりますが、高品質な WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。これにより、すべてのユーザーが残りの20% を見つけて、WordPress のすべての機能を高く評価して使用できるようになります。
+これが可能になったのは、非常に有能なテーマとプラグインのシステム、そしてすばらしい開発者コミュニティがあるからです。ニーズは人によって異なりますが、高品質な WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。これにより、すべてのユーザーが残りの20% を見つけて、WordPress のすべての機能を高く評価して使用できるようになります。
 
 <!--
 ## Striving for Simplicity
@@ -90,19 +90,19 @@ We love to challenge ourselves and simplify tasks in ways that are positive for 
 
 <!--## Deadlines Are Not Arbitrary-->
 
-## 締め切りは恣意的ではない
+## 期限を守ること
 
 <!--
 Deadlines are not arbitrary, they're a promise we make to ourselves and our users that helps us rein in the endless possibilities of things that could be a part of every release. We aspire to release three major versions a year because, through trial and error, we've found that to be a good balance between getting cool stuff in each release, but not too much that we end up breaking more than we add.
 -->
 
-締め切りは恣意的なものではなく、私たち自身とユーザーとの約束であり、各リリースに含まれる可能性にある際限のない可能性を抑制するためのものです。私たちは年に3つのメジャーバージョンをリリースすることを目指しています。試行錯誤の結果、追加したものよりも壊してしまうものが多すぎず、リリースごとに優れた機能を提供するという良いバランスであることがわかってきたからです。
+期限は私たち自身とユーザーとの約束であり、各リリースに含まれる無限のない可能性を抑制するために守られます。私たちは年に3つのメジャーバージョンをリリースすることを目指しています。試行錯誤の結果、追加したものよりも壊してしまうものが多すぎず、リリースごとに優れた機能を提供するという良いバランスであることがわかってきたからです。
 
 <!--
 Good deadlines almost always make you trim something from a release. This is not a bad thing, it's what they're supposed to do.
 -->
 
-良い締め切りは、ほとんどの場合、リリースから何かを削ることになります。これは悪いことではなく、本来あるべき姿なのです。
+良い期限は、ほとんどの場合、リリースから何かを削ることになります。これは悪いことではなく、本来あるべき姿なのです。
 
 <!--
 The route of delaying a release for that one-more-feature is, literally, a rabbit hole. We did that for over a year once, and it wasn't pleasant for anybody.
