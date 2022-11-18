@@ -132,7 +132,7 @@ There's a good rule of thumb within internet culture called the 1% rule. It stat
 So while we consider it really important to listen and respond to those who post feedback and voice their opinions on forums, they only represent a tiny fraction of our end users. When making decisions on how to move forward with future versions of WordPress, we look to engage more of those users who are not so vocal online. We do this by meeting and talking to users at WordCamps across the globe. This gives us a better balance of understanding, and ultimately allows us to make better decisions for everyone moving forward.
 -->
 
-ですから、フォーラムにフィードバックを投稿したり意見を表明する人たちに耳を傾け、それに応えることはとても重要だと考えていますが、彼らはエンドユーザーのごく一部に過ぎません。WordPress の将来のバージョンをどのように進めていくかを決定する際、私たちはオンラインであまり声を上げないユーザーにもっと関与してもらいたいと考えています。そのために、世界中の WordCamp でユーザーと会い、話をします。そうすることで、よりバランスのとれた理解を得ることができ、最終的には前を進もうとするすべての人のためにより良い決断を下すことができるのです。
+ですから、フォーラムにフィードバックを投稿したり意見を表明する人たちに耳を傾け、それに応えることはとても重要だと考えていますが、彼らはエンドユーザーのごく一部に過ぎません。WordPress の将来のバージョンをどのように進めていくかを決定する際、私たちはオンラインであまり声を上げないユーザーにもっと関与してもらいたいと考えています。そのために、世界中の WordCamp でユーザーと会い、話をします。そうすることで、よりバランスのとれた理解を得ることができ、最終的にはすべての人のためにより良い決断を下すことができるのです。
 
 <!--
 ## Our Bill of Rights
@@ -144,7 +144,7 @@ So while we consider it really important to listen and respond to those who post
 WordPress is licensed under the General Public License (GPLv2 or later) which provides four core freedoms, consider this as the WordPress "bill of rights":
 -->
 
-WordPress は、一般公衆利用許諾契約書 (GPLv2以降) に基づいてライセンスされており、4つの基本的な自由が提供されています。これを WordPress の「権利章典」と考えてください。
+WordPress は、一般公的使用許諾 (GPLv2以降) に基づいてライセンスされており、4つの基本的な自由が提供されています。これを WordPress の「権利章典」と考えてください。
 
 <!--
 0.  The freedom to run the program, for any purpose.
@@ -162,7 +162,7 @@ WordPress は、一般公衆利用許諾契約書 (GPLv2以降) に基づいて�
 Part of those licensing requirements include licensing derivative works or things that link core WordPress functions (like themes, plugins, etc.) under the GPL as well, thereby passing on the freedom of use for these works as well.
 -->
 
-これらのライセンス要件の一部には、GPL に基づいて2次的著作物または WordPress のコア機能 (テーマ、プラグインなど) をリンクするものをライセンスすることも含まれ、これらの著作物の使用の自由も同様に譲渡されます。
+これらのライセンス要件の一部には、GPL にもとづいて2次的著作物または WordPress のコア機能 (テーマ、プラグインなど) をリンクするものをライセンスすることも含まれ、これらの著作物の使用の自由も同様に譲渡されます。
 
 <!--
 Obviously there are those who will try to get around these ideals, and restrict the freedom of their users by trying to find loopholes or somehow circumvent the intention of the WordPress licensing, which is to ensure freedom of use. We believe that the community, as a whole, will reward those who focus on supporting these licensing freedoms instead of trying to avoid them.
