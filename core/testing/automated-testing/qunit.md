@@ -21,7 +21,8 @@
 <!--
 **2. Install WordPress via SVN** Install WordPress via SVN or Git [https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/).
 -->
-**2. SVN経由でWordPressをインストールする**　SVN か Git　で WordPress をインストールします[https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)。
+**2. SVN 経由で WordPress をインストールする** SVN か Git で WordPress をインストールします。
+[https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 
 <!--
 ## Running the QUnit Test Suite
