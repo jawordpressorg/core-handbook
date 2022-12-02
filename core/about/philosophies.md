@@ -108,7 +108,7 @@ Good deadlines almost always make you trim something from a release. This is not
 The route of delaying a release for that one-more-feature is, literally, a rabbit hole. We did that for over a year once, and it wasn't pleasant for anybody.
 -->
 
-そのもう1つの機能のためにリリースを遅らせるルートは、文字通りうさぎの穴に落ちて別世界に行くようなものです。以前、1年以上そうしていたことがありますが、誰にとっても楽しいことではありませんでした。
+そのもう1つの機能のためにリリースを遅らせるルートは、抜け出せない道に進むようなものです。以前、1年以上そうしていたことがありますが、誰にとっても楽しいことではありませんでした。
 
 <!--
 The more frequent and regular releases are, the less important it is for any particular feature to be in this release. If it doesn't make it for this one, it'll just be a few months before the next one. When releases become unpredictable or few and far between, there's more pressure to try and squeeze in that one more thing because it's going to be so long before the next one. Delay begets delay.
