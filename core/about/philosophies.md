@@ -168,7 +168,7 @@ Part of those licensing requirements include licensing derivative works or thing
 Obviously there are those who will try to get around these ideals, and restrict the freedom of their users by trying to find loopholes or somehow circumvent the intention of the WordPress licensing, which is to ensure freedom of use. We believe that the community, as a whole, will reward those who focus on supporting these licensing freedoms instead of trying to avoid them.
 -->
 
-明らかに、これらの理想を回避し抜け穴を見つけようとするか、使用の自由を確保するという WordPress ライセンスの意図を何らかの方法で回避して、ユーザーの自由を制限しようとする人がいます.私たちは、コミュニティ全体として、これらのライセンスの自由を回避しようとするのではなく、サポートすることに重点を置いている人々に報いることができると信じています.
+明らかに、これらの理想を回避し抜け穴を見つけようとするか、使用の自由を保証するという WordPress ライセンスの意図を何らかの方法で回避して、ユーザーの自由を制限しようとする人がいます。私たちは、コミュニティ全体として、これらのライセンスの自由を回避しようとするのではなく、サポートすることに重点を置いている人々に応えることができると信じています.
 
 <!--
 The most responsible use of WordPress community resources would therefore be put to best use by emphasizing high quality contributions that embrace the freedoms provided by the GPL.
