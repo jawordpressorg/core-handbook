@@ -174,4 +174,4 @@ Obviously there are those who will try to get around these ideals, and restrict 
 The most responsible use of WordPress community resources would therefore be put to best use by emphasizing high quality contributions that embrace the freedoms provided by the GPL.
 -->
 
-したがって、WordPress コミュニティのリソースを最も責任を持って使用するには、GPL によって提供される自由を受け入れる高品質の貢献を重視することが最も効果的でしょう。
+したがって、WordPress コミュニティのリソースを最も責任を持って使用するには、GPL によって提供される自由を受け入れる高品質な貢献を重視することが最も効果的でしょう。
