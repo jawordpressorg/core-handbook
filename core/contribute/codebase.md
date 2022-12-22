@@ -190,7 +190,7 @@ Once this is done, you’ll be taken to `wp-admin/install.php`. At this point, t
 Database upgrade instructions are included in `wp-admin/includes/upgrade.php`. Whenever a database change is needed with a new version of WordPress – whether that means altering the database structure, or updating some database content – an upgrade routine can be triggered. Indeed, you can safely update from WordPress 0.70 to the latest version and the database will keep up with the more than a decade of changes.
 -->
 
-データベースのアップグレード方法は `wp-admin/includes/upgrade.php` に記載されています。データベース構造の変更でもデータベースの一部のコンテンツの更新でも、WordPress の新しいバージョンでデータベースの変更が必要なときは、いつでもアップグレードルーチンを起動できます。実際に、WordPress 0.70から最新バージョンに安全にアップデートでき、データベースは10年以上の変化にも対応します。
+データベースのアップグレード方法は `wp-admin/includes/upgrade.php` に記載されています。データベース構造の変更でもデータベースの一部のコンテンツの更新でも、WordPress の新しいバージョンでデータベースの変更が必要なときは、いつでもアップグレードルーチンを起動できます。実際に、WordPress 0.70から最新バージョンに安全に更新でき、データベースは10年以上の変化にも対応します。
 
 <!--
 Knowing *when* to upgrade is handled by a number in `wp-includes/version.php`, the WordPress database version. This number corresponds to a revision number of the codebase, generally the revision that last introduced a database upgrade routine. When the number in the code differs from the number stored in the database, the routines in `wp-admin/includes/upgrade.php` are run.
@@ -214,7 +214,7 @@ Changes to the database structure are handled by a function called `dbDelta()`, 
 ## File Updates
 -->
 
-## ファイルのアップデート
+## ファイルの更新
 
 <!--
 Core developers generally distinguish between database “upgrades” and version “updates.” Updating WordPress to the newest codebase (via the user interface) triggers a complex series of actions.
@@ -226,7 +226,7 @@ Core developers generally distinguish between database “upgrades” and versio
 Prior to any update, WordPress has already polled **api.wordpress.org** to determine whether it needs to update, and if so, where to find the new version. Once the update is triggered, WordPress will download the ZIP archive and unzip it into a temporary directory in **wp-content/upgrade**. A single file, `wp-admin/includes/update-core.php`, will be copied out of the temporary directory and over the existing `wp-admin/includes/update-core.php`, at which point it will be executed. Thus, the newly downloaded code handles the main process of copying over the new files. This allows us to provide instructions specific to the new version, such as which files are old and can be removed.
 -->
 
-アップデートに先立ち、WordPress は **api.wordpress.org** に問い合わせ、アップデートが必要かどうか、必要な場合は新しいバージョンをどこで入手できるかを判断しています。アップデートが開始されると、WordPress は ZIP アーカイブをダウンロードし、**wp-content/upgrade** にある一時ディレクトリに解凍されます。一つのファイルである `wp-admin/includes/update-core.php` が一時ディレクトリからコピーされ、既存の `wp-admin/includes/update-core.php` を上書きし、その時点でそれが実行されます。このように、新しくダウンロードされたコードは、新しいファイルをコピーする主要な処理を行います。これにより、どのファイルが古くて削除できるのかといった、新しいバージョンに特有の指示を出すことができます。
+更新に先立ち、WordPress は **api.wordpress.org** に問い合わせ、更新が必要かどうか、必要な場合は新しいバージョンをどこで入手できるかを判断しています。更新が開始されると、WordPress は ZIP アーカイブをダウンロードし、**wp-content/upgrade** にある一時ディレクトリに解凍されます。一つのファイルである `wp-admin/includes/update-core.php` が一時ディレクトリからコピーされ、既存の `wp-admin/includes/update-core.php` を上書きし、その時点でそれが実行されます。このように、新しくダウンロードされたコードは、新しいファイルをコピーする主要な処理を行います。これにより、どのファイルが古くて削除できるのかといった、新しいバージョンに特有の指示を出すことができます。
 
 <!--
 ## Exploring The Code
