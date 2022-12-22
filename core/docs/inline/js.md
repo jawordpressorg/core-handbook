@@ -108,7 +108,6 @@ Inline documentation is considered to be “technical” documentation, so some 
 
 *   Core Trac で、ファイルに対する [新しいチケット](https://core.trac.wordpress.org/newticket) を作成します。
     *   提案される *Title* の形式は、"JSDoc correction for path/to/file.js" または "Improve documentation for path/to/file.js" のようになります。
-    *   The *Type* should be **defect (bug)**.
     *   「タイプ」は、**defect (bug)** でなければなりません。
     *   ファイルが関連付けられている「コンポーネント」にチケットを割り当てます。
     *   「バージョン」は空欄にしてください。
