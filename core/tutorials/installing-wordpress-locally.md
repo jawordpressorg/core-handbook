@@ -31,10 +31,10 @@ There are two steps to installing WordPress on your computer for contributing to
 <!--
 1.  Choose and install a local server
 2.  Install WordPress trunk
-3.  -->
+-->
 
-4.  ローカルサーバーの選択とインストール
-5.  WordPress trunk のインストール
+3.  ローカルサーバーの選択とインストール
+4.  WordPress trunk のインストール
 
 <!--
 If you haven’t [installed a local server](https://make.wordpress.org/core/handbook/installing-a-local-server/) yet, you’ll need to do that before continuing.
