@@ -84,15 +84,12 @@ The default phpMyAdmin user, **root**, is automatically assigned to the database
 
 ```php
 /** The name of the database for WordPress */
-define('DB_NAME', 'root_databasename');
-
-/** MySQL database username */
-define('DB_USER', 'root');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
-
-/** MySQL hostname */
+define('DB_NAME', 'root_databasename');</p>
+<p>/** MySQL database username */
+define('DB_USER', 'root');</p>
+<p>/** MySQL database password */
+define('DB_PASSWORD', 'root');</p>
+<p>/** MySQL hostname */
 define('DB_HOST', 'localhost');
 ```
 

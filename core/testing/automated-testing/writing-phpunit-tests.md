@@ -20,7 +20,7 @@ public function test_trailingslashit_should_add_slash_when_none_is_present() {
 
 The `assertSame()` method accepts two parameters: the *expected value* (in this case, the hardcoded string `'foo/'`), and the *actual value* (the value returned by `trailingslashit()`).
 
-An [annotated list of common assertions](#assertions-2) can be found below.
+An [annotated list of common assertions](#using-assertions) can be found below.
 
 ### Fixtures and Factories
 
@@ -210,7 +210,7 @@ Some notes about shared fixtures:
 
 Whenever you have the inclination to copy and paste the code of a test method to test the same WordPress functionality with only slightly different arguments, please consider using a data provider instead.
 
-A [data provider](https://phpunit.readthedocs.io/en/stable/writing-tests-for-phpunit.html#data-providers) is a secondary function which is linked to a test using a `@dataProvider` annotation in the docblock of the test method and is generally named after the test, replacing the `test` prefix in the method name with `data`.
+A [data provider](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#data-providers) is a secondary function which is linked to a test using a `@dataProvider` annotation in the docblock of the test method and is generally named after the test, replacing the `test` prefix in the method name with `data`.
 
 This second function must return an array of arrays, where each entry in this array is called a *data set* and passed to the test function as input parameters.
 

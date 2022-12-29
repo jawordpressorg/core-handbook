@@ -46,7 +46,7 @@ The [develop repository](https://develop.svn.wordpress.org/trunk/) is available 
 
 It’s also possible to contribute to WordPress core using `git`. For more information about this process, see [The Code Repository (Git)](https://make.wordpress.org/core/handbook/contribute/git/).
 
-Please note: pull requests submitted to GitHub will not be reviewed or merged there. Please use Trac to submit your patches.
+If you would like to use Github, please see the handbook page on [using github pull requests](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) for more information.
 
 ## Patches
 

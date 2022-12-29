@@ -116,6 +116,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 
 *   Work with leads to draft the About page seen in the WordPress Admin after upgrading
 *   Work with leads to draft the WordPress.org News blog announcement post
+*   [View a comprehensive guide for this role’s tasks here.](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)
 
 ### Editor Tech Lead 
 

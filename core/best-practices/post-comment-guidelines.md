@@ -28,7 +28,7 @@ Keep in mind that feedback on make/core will almost always be greater than that 
 
 ### Peer Review
 
-Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps makes sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
+Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps make sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
 
 Feature plugin merge proposals should *always* be read by the release lead (or designee) before posting. Release devnotes should be read by the release lead (or designee) before publishing.
 
@@ -70,7 +70,7 @@ When writing up an idea aimed at generating feedback and assessing a potential c
 
 ## Comments
 
-Discussion and criticism of ideas is important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.
+Discussion and criticism of ideas are important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.
 
 If a comment is disrespectful and/or unprofessional, it may be edited at the discretion of the core team.
 

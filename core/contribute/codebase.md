@@ -5,7 +5,7 @@ WordPress is managed by a centralized version control system called [Subversion]
 The WordPress codebase can be accessed in a number of ways: using Subversion, using Git, through Trac (the bug tracker), and via direct download:
 
 *   **Subversion:** The repository is located at [https://develop.svn.wordpress.org/](https://develop.svn.wordpress.org/). The main development branch – called trunk– is [https://develop.svn.wordpress.org/trunk](https://develop.svn.wordpress.org/trunk).
-*   **Git:** The repository is located at git://develop.git.wordpress.org/. There is also a [mirror of the WordPress repository on Github](https://github.com/wordpress/wordpress), though issues and pull requests on Github are not currently accepted.
+*   **Git:** The repository is located at git://develop.git.wordpress.org/. There is also a [mirror of the WordPress repository on Github](https://github.com/wordpress/wordpress). Pull requests are welcomed on GitHub but please follow the [GitHub for code review guide](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) to ensure pull requests are seen by other contributors.
 *   **Trac:** The repository can be viewed through the browser at [https://core.trac.wordpress.org/browser/](https://core.trac.wordpress.org/browser/). A log of changesets can be viewed at [https://core.trac.wordpress.org/log/](https://core.trac.wordpress.org/log/).
 *   **Download:** The latest stable version of WordPress can be downloaded at [https://wordpress.org/latest.zip](https://wordpress.org/latest.zip). The latest nightly build (2300 GMT) can be found at [https://wordpress.org/nightly-builds/wordpress-latest.zip](https://wordpress.org/nightly-builds/wordpress-latest.zip).
 
