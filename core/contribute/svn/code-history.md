@@ -64,7 +64,7 @@ To find out when a piece of code was released, look at the associated revision n
 ## Using The Command Line
 -->
 
-<!-- コマンドラインの使用 -->
+## コマンドラインの使用
 
 <!--
 If you prefer using the command line, you can use the **svn blame** (or **svn annotate**, **svn ann**, or **svn praise**) command. The syntax is: `svn blame [filename]`. Since the output can be verbose, you probably want to pipe it to less. For example: `svn blame wp-includes/formatting.php | less`.

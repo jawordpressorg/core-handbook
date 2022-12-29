@@ -50,7 +50,7 @@ WordPress の Git ミラーは、コードベースの完全な履歴を含ん�
 *   The **master** branch, which corresponds to SVN **trunk**. This is the bleeding-edge branch, containing the alpha version of the next major release. Except in special cases, contributors should prepare their patches against the master branch.
 *   A branch exists corresponding to each major release series, named using the first two digits of versions in that series. For example, 4.5.1 was released from the `4.5` branch. Use `git branch -r` to view a complete list of branches in the remote repository, and use commands like `git checkout -b 4.5.x origin/4.5` to create local branches that track remote branches.
 *   All WP releases (starting with 1.5.0) are represented by Git tags. Use `git tag` to see the list.
-*   -->
+-->
 
 *   SVN の **trunk** に相当する **master** ブランチです。これは最先端のブランチで、次のメジャーリリースのアルファ版を含んでいます。特別な場合を除き、コントリビューターは master ブランチに対してパッチを準備すべきです。
 *   各メジャーリリースシリーズに対応するブランチが存在し、そのシリーズのバージョンの最初の2桁の数字を使って名前が付けられています。たとえば、4.5.1は `4.5` ブランチからリリースされています。

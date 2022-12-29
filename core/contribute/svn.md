@@ -28,7 +28,6 @@ The WordPress repository of code is organized into three main directories: [tags
 
 WordPress のコードのリポジトリは、主に3つのディレクトリで構成されています。[tag](https://make.wordpress.org/core/glossary/#tag)、[branches](https://make.wordpress.org/core/glossary/#branch)、[trunk](https://make.wordpress.org/core/glossary/#trunk) です。
 
-
 <!--
 *   The **trunk** directory contains the latest development code in preparation for the next major release cycle. The latest revision may be unstable or broken at times. The latest development code may be referred to as *trunk*.
 *   The **tags** directory contains individual snapshots of each official release, such as the 3.4.0 or 3.5.1 tags. Once created, these are unmodified, and these are used to build the download packages.

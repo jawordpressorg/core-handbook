@@ -76,13 +76,7 @@ Cascading Style Sheets. [#](https://make.wordpress.org/core/handbook/glossary/#c
 
 **dev note**
 
-Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include:
-
-*   a description of the change;
-*   the decision that led to this change
-*   a description of how developers are supposed to work with that change.
-
-Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. [#](https://make.wordpress.org/core/handbook/glossary/#dev-note)
+Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include a description of the change, the decision that led to this change, and a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. [#](https://make.wordpress.org/core/handbook/glossary/#dev-note)
 
 **docblock**
 

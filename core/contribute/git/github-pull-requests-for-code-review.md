@@ -22,7 +22,6 @@ Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git �
 
 **備考**: GitHub上のプルリクエストはマージ**されません。** コードの変更は、コミット権限が付与された信頼できる長期的な貢献者によって、SVN リポジトリに行われる必要があります。
 
-
 <!--
 ## In GitHub
 -->
@@ -107,7 +106,7 @@ Pull requests show between Attachments and Change History.
 **Pull requests on GitHub are not monitored.** No one will be checking for new pull requests regularly. Pull requests **must** be attached to a Trac ticket to be considered for inclusion in WordPress Core.
 -->
 
-**GitHub上のプルリクエストは監視されません。** 新しいプルリクエストを定期的にチェックする人はいないでしょう。WordPress コアに含めることを検討するために、プルリクエストは Trac チケットに添付されなければなりません。
+**GitHub 上のプルリクエストは監視されません。** 新しいプルリクエストを定期的にチェックする人はいないでしょう。WordPress コアに含めることを検討するために、プルリクエストは Trac チケットに添付されなければなりません。
 
 <!--
 **Clean up after yourself occasionally.** Right now, PRs are not automatically closed when the associated Trac ticket is resolved. If you open a PR, do your best to close PRs that have been merged into Core whenever you are able to.

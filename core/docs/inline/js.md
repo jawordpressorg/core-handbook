@@ -16,7 +16,6 @@ If you’re not familiar with what inline documentation is, read our page [on in
 
 インラインドキュメントとは何かをよく知らない人は、私たちのページである[インラインドキュメントの規格について](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/)を読んでみてください。
 
-
 <!--
 ## Which JS files should be documented?
 -->

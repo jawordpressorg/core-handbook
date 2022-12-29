@@ -141,8 +141,8 @@ During the RC stage, [all patches must be reviewed by a second committer](https:
 *   If you have any doubts about whether or not a patch is acceptable, ask a few other committers for a second opinion.
 *   Make sure the changed lines conform to [the coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
     *   PHP
-        *   To check all lines in all changed files, run `phpcs $(git diff master --name-only)` or `phpcs $(svn stat | grep "\(M \|A \)" | grep -v "external item" | cut -c8-)` .
-        *   To check only the changed lines, clone [wp-dev-lib](https://github.com/xwp/wp-dev-lib/) and [run](https://github.com/xwp/wp-dev-lib/#manually-invoking-pre-commit) `DIFF_BASE=master DEV_LIB_ONLY=phpsyntax,phpcs /path/to/wp-dev-lib/pre-commit`. Note that you need to be on a local branch other than `master`, and the changed need to be either committed, or staged for commit. Unstaged changes will not be scanned.
+        *   To check all lines in all changed files, run `phpcs $(git diff trunk --name-only)` or `phpcs $(svn stat | grep "\(M \|A \)" | grep -v "external item" | cut -c8-)` .
+        *   To check only the changed lines, clone [wp-dev-lib](https://github.com/xwp/wp-dev-lib/) and [run](https://github.com/xwp/wp-dev-lib/#manually-invoking-pre-commit) `DIFF_BASE=trunk DEV_LIB_ONLY=phpsyntax,phpcs /path/to/wp-dev-lib/pre-commit`. Note that you need to be on a local branch other than `trunk`, and the changes need to be either committed, or staged for commit. Unstaged changes will not be scanned.
         *   Creating Bash aliases for the above commands is recommended for convenience.
     *   JavaScript
         *   [Run](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/#jshint) `npm run grunt jshint`. This will be done automatically by `npm run grunt precommit` as well.

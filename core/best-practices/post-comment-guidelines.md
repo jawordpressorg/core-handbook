@@ -85,7 +85,7 @@ make/core でのフィードバックは、 Trac チケットでのフィード�
 ### 査読
 
 <!--
-Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps makes sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
+Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps make sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
 -->
 
 初めての投稿でも100万回目の投稿でも、投稿を公開する前にコミッターに校正を依頼することが強く推奨されます。査読 (コードレビューのようなもの) は、あなたの言葉が明確で意図したとおりに書かれているか確認することに役立ち、また、うまく翻訳されないかもしれないフレーズを特定することに役立ちます。いくつかの投稿 (毎週のアジェンダなど) は必ずしも査読を必要としませんが、もしあなたが make/core に投稿するのが初めてなら、お願いしても損はないでしょう。
@@ -107,6 +107,7 @@ See the Giving Proper Credit (Props) section below for information on how to mak
 -->
 
 ### スタイルと内容
+
 <!--
 The make/core blog is the official voice of the core team. As a result, you should keep your personal thoughts out of the body of the post, leaving them for the comments. Furthermore, **first person pronouns should be avoided**.
 -->
@@ -206,7 +207,7 @@ When writing up an idea aimed at generating feedback and assessing a potential c
 ## コメント
 
 <!--
-Discussion and criticism of ideas is important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.
+Discussion and criticism of ideas are important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.
 -->
 
 アイデアに関する議論や批判は、WordPress の長期的な成功のために重要です。これを支持するため、すべての make/core の投稿はコメントがオープンな状態になっています。そのため、他のコメント投稿者や読者の多くが英語を母国語としていないことを理解した上で、**コメント投稿者は敬意とプロ意識を持って**投稿する必要があります。時には、誤解が生じないように、過剰なコミュニケーションや丁寧な対応をすることも意味があるかもしれません。

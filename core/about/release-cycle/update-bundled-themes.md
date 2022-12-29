@@ -5,6 +5,7 @@
 Every release, if there have been any changes in a bundled theme, we ship a new version to the WordPress.org theme directory. What follows are detailed steps to update the themes.
 
 1.  Read each theme’s changelog in Trac, and create a changelog file with the highlights (used in Trac tickets, both core and theme review). The changelog should start at the last version of the theme released.
+    *   [Twenty Twenty-Two](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
     *   [Twenty Twenty-One](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
     *   [Twenty Twenty](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwenty/)
     *   [Twenty Nineteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentynineteen/)
@@ -18,7 +19,8 @@ Every release, if there have been any changes in a bundled theme, we ship a new
     *   [Twenty Ten](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyten/)
 2.  Create a new core Trac ticket (like [#54783](https://core.trac.wordpress.org/ticket/54783)) to bump the POT and versions for each theme.
 3.  Locally, check out the current version of the theme from the WordPress.org theme directory, e.g., the largest number in each of these directories:
-    *   [](https://themes.svn.wordpress.org/twentytwenty/)[Twenty Twenty-One](https://themes.svn.wordpress.org/twentytwenty/)
+    *   [Twenty Twenty-Two](https://themes.svn.wordpress.org/twentytwentytwo/)
+    *   [Twenty Twenty-One](https://themes.svn.wordpress.org/twentytwentyone/)
     *   [Twenty Twenty](https://themes.svn.wordpress.org/twentytwenty/)
     *   [Twenty Nineteen](https://themes.svn.wordpress.org/twentynineteen/)
     *   [Twenty Seventeen](https://themes.svn.wordpress.org/twentyseventeen/)

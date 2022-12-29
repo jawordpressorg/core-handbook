@@ -76,7 +76,6 @@ The release lead will look for a number of things (see the checklist below), inc
 
 リリースリードは、強力で十分にテストされたユーザー体験、完成したデザイン、コミュニティからのポジティブなフィードバック、コア品質のコード、大きなバグや問題がないこと、その機能が WordPress コアに取り込まれるべきかどうかなど、さまざまなことを確認します (以下のチェックリストを参照してください)。すべての機能は異なるため、「準備完了」の意味は特定の機能によって異なります。最終的には、リリースリードがその機能について主要な責任を引き受けられること、そしてコアチームが長期的な責任を引き受けられることが必要です。
 
-
 <!--
 If the core developers decide a feature isn’t ready for core, they’ll let the feature lead know why, and what can be done to prepare the feature for a future release.
 -->
