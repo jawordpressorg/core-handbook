@@ -200,7 +200,7 @@ You can also setup additional sites, [to learn how to do that click here](https:
 Pull requests on GitHub provide a convenient way to receive feedback and also to share the patch for your contributions. You can add “`.diff`” to any pull request URL and GitHub will return a diff file which you can then attach to a Trac ticket. You can also just add a link to the pull request in a Trac ticket comment. There is currently no Git repo clone for `develop.git.wordpress.org` located on GitHub, so you have to set this up yourself:
 -->
 
-GitHub でのプルリクエストはフィードバックを受けたり、パッチを共有したりするのに便利な方法です。プルリクエストの URL に "`.diff`" を追加すると、GitHub が diff ファイルを返してくれるので、それを Trac チケットに添付できます。Trac のチケットのコメントにプルリクエストへのリンクを追加することもできます。現在、 `develop.git.wordpress.org` の Git リポジトリのクローンは GitHub に存在しないので、自分でセットアップする必要があります。
+GitHub でのプルリクエストはフィードバックを受けたり、パッチを共有したりするのに便利な方法です。プルリクエストの URL に「`.diff`」を追加すると、GitHub が diff ファイルを返してくれるので、それを Trac チケットに添付できます。Trac のチケットのコメントにプルリクエストへのリンクを追加することもできます。現在、 `develop.git.wordpress.org` の Git リポジトリのクローンは GitHub に存在しないので、自分でセットアップする必要があります。
 
 <!--
 1.  Have VVV set up (above).
@@ -220,6 +220,6 @@ GitHub でのプルリクエストはフィードバックを受けたり、パ�
 4.  次のコマンドを実行して、この新しいリポジトリをオリジンリモートとして設定します。`cd ...vvv/www/wordpress-trunk/public_html && git remote set-url origin https://github.com/YOURNAME/wordpress-develop.git && git remote add upstream git://develop.git.wordpress.org/`.
 5.  master ブランチをチェックアウトします。`git checkout master`
 6.  作業したい Trac チケット (例: 12345) にもとづいて、feature ブランチを作成します。`git checkout -b trac-12345`
-7.  修正のコミットを追加して、 `git push` します (GitHub のパスワードを再入力することを防ぐために、[Git で GitHubパスワードをキャッシュする](https://help.github.com/articles/caching-your-github-password-in-git/) も参照してください)。
+7.  修正のコミットを追加して、 `git push` します (GitHub のパスワードを再入力することを防ぐために、[Git で GitHub パスワードをキャッシュする](https://help.github.com/articles/caching-your-github-password-in-git/) も参照してください)。
 8.  GitHub にアクセスし、`master` ブランチへのプルリクエストをオープンします。
 9.  作成したプルリクエストの URL をコピーして WordPress Trac の新しいコメントに貼り付けて、フィードバックを求めます。パッチの diff を添付するのが理想的ですが、これはプルリクエストの URL に 「`.diff`」 を追加するだけです。例: [https://github.com/xwp/wordpress-develop/pull/61.diff](https://github.com/xwp/wordpress-develop/pull/61.diff)
