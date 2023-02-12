@@ -86,7 +86,7 @@ Once the download is complete, **double-click the zip file** and extract the con
 ### 3\. Starting MAMP
 -->
 
-### 3\. Starting MAMP の実行
+### 3\. MAMP の実行
 
 <!--
 The MAMP Welcome page should automatically open in your browser after installation, which indicates that MAMP has been installed correctly. This page contains links to your PHP configuration (phpinfo), phpMyAdmin, as well as the standard MAMP configurations.
@@ -158,7 +158,7 @@ During installation, MAMP sets the default ports for both Apache (port 8888) and
 In MAMP, you have to append the port number to **localhost** in order to access web pages, i.e. [http://localhost:8888/wordpress-trunk/](http://localhost:8888/wordpress-trunk/).
 -->
 
-MAMP では、Web ページにアクセスするために**localhost** にポート番号を付加する必要があります。たとえば、[http://localhost:8888/wordpress-trunk/](http://localhost:8888/wordpress-trunk/) です。
+MAMP では、Web ページにアクセスするために **localhost** にポート番号を付加する必要があります。たとえば、[http://localhost:8888/wordpress-trunk/](http://localhost:8888/wordpress-trunk/) です。
 
 <!--
 You can change the ports to the normal Apache/MySQL ports by **clicking Preferences** in the control panel, then **clicking Ports**. You must have administrator privileges for your computer to do this.
@@ -244,6 +244,7 @@ The default phpMyAdmin user, **root**, is automatically assigned to the database
 
 データベースを作成すると、デフォルトの phpMyAdmin ユーザーである **root** が自動的に割り当てられ、パスワードは **root** になります。WordPress をローカルにインストールする際に必要なデータベース接続情報は以下の通りです。
 
+<!--
 ```php
 /** The name of the database for WordPress */
 define('DB_NAME', 'root_databasename');</p>
@@ -252,6 +253,18 @@ define('DB_USER', 'root');</p>
 <p>/** MySQL database password */
 define('DB_PASSWORD', 'root');</p>
 <p>/** MySQL hostname */
+define('DB_HOST', 'localhost');
+```
+-->
+
+```php
+/** The name of the database for WordPress */
+define('DB_NAME', 'root_databasename');
+/** MySQL database username */
+define('DB_USER', 'root');
+/** MySQL database password */
+define('DB_PASSWORD', 'root');
+/** MySQL hostname */
 define('DB_HOST', 'localhost');
 ```
 
