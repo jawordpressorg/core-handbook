@@ -38,7 +38,7 @@ This article will walk you through the steps to install MAMP on your computer.
 Download the installer package for the [latest free version of MAMP](http://www.mamp.info/en/) by **clicking on the gray elephant icon on the left**, and save the file to your computer. There is also a MAMP Pro version available which has more advanced options, but most users will find the free version works fine for their needs.
 -->
 
-[MAMP の 最新無料版](http://www.mamp.info/en/)のインストーラパッケージを、**左の灰色の象のアイコンをクリックして**ダウンロードし、ファイルをコンピューターに保存してください。より高度な機能を持つ MAMP Pro 版もありますが、ほとんどのユーザーは、無料版で問題なく使用できると思います。
+[MAMP の 最新無料版](http://www.mamp.info/en/)のインストーラパッケージを、**左の灰色の象のアイコンをクリックして**ダウンロードし、ファイルをコンピューターに保存してください。より高度な機能を持つ MAMP Pro 版もありますが、ほとんどのユーザーは、無料版で問題なく使用できます。
 
 <!--
 ![Download MAMP Screen](https://make.wordpress.org/core/files/2013/06/download-mamp.png)
@@ -62,7 +62,7 @@ The installer package is around 140mb, so it will take a few minutes for the dow
 Once the download is complete, **double-click the zip file** and extract the contents to your desktop. You will see an installer file called **MAMP\_2.1.4.pkg** (your version may be different) – **double-click that file** to run the installer. There are 7 steps in the MAMP install process:
 -->
 
-ダウンロードが完了したら、**zip ファイルをダブルクリック**して、デスクトップに解凍してください。インストーラファイルの名前は **MAMP_2.1.4.pkg** (あなたのバージョンとは異なるかもしれません) です。**そのファイルをダブルクリック** してインストーラを実行してください。MAMP のインストールは7つのステップで行われます。
+ダウンロードが完了したら、**zip ファイルをダブルクリック**して、デスクトップに解凍してください。インストーラファイルの名前は **MAMP_2.1.4.pkg** (あなたのバージョンとは異なるかもしれません) です。**そのファイルをダブルクリック**してインストーラを実行してください。MAMP のインストールは7つのステップで行われます。
 
 <!--
 *   **Introduction – Welcome to the MAMP Installer Screen**: MAMP will guide you through the steps necessary to install the application. **Click Continue** to go to the next step.
@@ -78,7 +78,7 @@ Once the download is complete, **double-click the zip file** and extract the con
 * **Read Me - 重要なお知らせ画面**: インストーラは MAMP と MAMP PRO の両方のアプリケーションをインストールします。MAMP フォルダーを削除したり、名前を変更したりしないでください。**Continue をクリックして** 次のステップに進みます。
 * **ライセンス - ソフトウェア使用許諾画面**: MAMP で使用したい言語を選択します。使用許諾を読み、小さなドロップダウンで **Agree をクリック** して同意し、**Continue をクリック**します。
 * **インストール先の選択**: MAMP が正常に動作するためには、アプリケーションフォルダーにインストールされる必要があります。次のステップで **Continue をクリック**してください。
-* **インストールの種類 - "Macintosh HD" 画面での標準インストール**: この画面では、MAMP がハードディスクで使用するディスク容量を表示します。**インストールをクリック**すると、お使いのコンピューターのすべてのユーザーに対して MAMP の標準インストールが実行されます。**カスタマイズボタンをクリック**すると、MAMP PRO のインストールをオプトアウトできます。**インストールをクリック**して続行します。インストーラは、管理者ユーザー名とパスワードで認証するよう促します。要求された情報を入力し、**ソフトウェアのインストールをクリック**します。
+* **インストールの種類 - 「Macintosh HD」 画面での標準インストール**: この画面では、MAMP がハードディスクで使用するディスク容量を表示します。**インストールをクリック**すると、お使いのコンピューターのすべてのユーザーに対して MAMP の標準インストールが実行されます。**カスタマイズボタンをクリック**すると、MAMP PRO のインストールをオプトアウトできます。**インストールをクリック**して続行します。インストーラは、管理者ユーザー名とパスワードで認証するよう促します。要求された情報を入力し、**ソフトウェアのインストールをクリック**します。
 * **インストール - MAMP のインストール画面**: インストールには数分かかります。この画面では、インストールが完了するまでの残り時間とともに、プロセスのどの部分が実行されているかが表示されます。
 * **概要 - インストールに成功した画面**: MAMP は正常にインストールされました。**Close をクリックします**。
 
