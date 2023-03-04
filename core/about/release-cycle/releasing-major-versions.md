@@ -205,8 +205,8 @@ You’ve made it to release day!
 7.  Run unit tests.
 8.  Run `npm run grunt prerelease`. This will also run the unit tests. Check for result of GitHub Actions (e.g., [https://github.com/WordPress/wordpress-develop/actions?query=branch%3A5.8](https://github.com/WordPress/wordpress-develop/actions?query=branch%3A5.8)).
 9.  Update version in `src/wp-includes/version.php` to remove the RC identifier and changeset – eg. `5.3-src`.
-10.  Tag the release. From branch:  
-    `svn copy https://develop.svn.wordpress.org/branches/4.7 https://develop.svn.wordpress.org/tags/4.7 -m "Tag 4.7"`  
+10.  Tag the release. From branch:
+    `svn copy https://develop.svn.wordpress.org/branches/4.7 https://develop.svn.wordpress.org/tags/4.7 -m "Tag 4.7"`
     If this command line fails, then attempt the same tag via a GUI interface such as TortoiseSVN.
 11.  Create release packages via the form at mc.wordpress.org.
 12.  Share in Slack: “Just a reminder: Do not tweet or share on any social media any of the links for the release. Sometimes things go wrong and packages need to be rebuilt. The release is not official until the post is published on the official news blog.”
@@ -234,9 +234,9 @@ You’ve made it to release day!
         5.  If you’re a plugin developer, or if there are complex plugins you depend upon, test that they’re working correctly.
 4.  Take a final screenshot of [the downloads counter](https://wordpress.org/download/counter/).
 5.  Bump versions in `.config/versions.php`. (Do this on a WordPress.org sandbox so you can test update notifications before deploying.)
-    
+
     *   Switch `WP_CORE_DEV_BRANCH` back to `trunk` if it was set to the branch during RC.Bump `WP_CORE_STABLE_BRANCH` if this is a major release.
-    
+
     *   Bump `WP_CORE_LATEST_RELEASE`.
     *   Bump `WP_CORE_NEW_BUNDLED_VERSION` if there is a new default theme. **Important.**
     *   Update `wporg_get_secure_versions()` with the previous secure stable release, used by [an API endpoint used by Google Webmasters Tools](https://api.wordpress.org/core/stable-check/1.0/).
@@ -256,7 +256,7 @@ You’ve made it to release day!
     1.  Finalize Version Page in the Codex.
     2.  Update [CurrentVersion Template](https://codex.wordpress.org/Template:CurrentVersion) with the new version.
     3.  Update [WordPress Versions](https://codex.wordpress.org/WordPress_Versions) page.
-        1.  Add:  
+        1.  Add:
             `{{ ReleaseTableMajor | version = 4.4  | date = December 8, 2015 | musician = Clifford Brown | blog = https://wordpress.org/news/2015/12/clifford/  | db = 35700 }}`
         2.  Remove the version from the “Planned Versions” section.
     4.  Update [PHP Compatibility and WordPress Versions](https://make.wordpress.org/core/handbook/contribute/php-compatibility-and-wordpress-versions/) table.
@@ -269,14 +269,14 @@ You’ve made it to release day!
 2.  Force nightly builds. (Note: Checksums aren’t available for the nightly. WP-CLI grabs the checksums for both the installed version and the version you’re upgrading to, so it can remove old files.)
 3.  In Trac, rename the `trunk` version to `X.Y` and create a new one for trunk. Complete the `X.Y` milestone and create new milestones for the new cycle and `X.Y.1`. This must be done by a Trac admin.
 4.  Update various parts of the documentation:
-    
+
     *   The current release sidebar on [make.wordpress.org/core](https://make.wordpress.org/core/).
-    *   Update [make.wordpress.org/core/reports](https://make.wordpress.org/core/reports/) to modify the ‘Next Major Release’ version.  
+    *   Update [make.wordpress.org/core/reports](https://make.wordpress.org/core/reports/) to modify the ‘Next Major Release’ version.
         ***Note**: Edit using the Gutenberg Code editor, otherwise Dashicons will be stripped.*
     *   Update [wordpress.org/about/roadmap](https://wordpress.org/about/roadmap/) and [wordpress.org/about/history](https://wordpress.org/about/history/), removing the new release from the list of upcoming releases, adding the jazzer, and adding the release date. Note: the page content is in the [Meta SVN repository](https://meta.trac.wordpress.org/browser/sites/trunk/wordpress.org/public_html/wp-content/themes/pub/wporg-main/page-about-roadmap.php).
     *   Update [wordpress.org/support/article/history](https://wordpress.org/support/article/history/).
     *   Update [wordpress.org/support/article/wordpress-versions](https://wordpress.org/support/article/wordpress-versions/).
-    
+
     *   The dev cycle docs (ex. https://make.wordpress.org/core/x-x/).
     *   Update the latest release under “Getting Started” on the front-page of [https://wordpress.org/support/](https://wordpress.org/support/).
     *   Update the sticky thread at the top of [https://wordpress.org/support/forum/how-to-and-troubleshooting/](https://wordpress.org/support/forum/how-to-and-troubleshooting/).

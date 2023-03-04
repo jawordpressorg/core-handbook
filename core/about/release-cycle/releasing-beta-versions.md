@@ -27,22 +27,22 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 *   Ask a member of the Security team to run the private security unit test suite to make sure no regressions are introduced.
     *   If any are found, avoid discussing the details publicly, because some sites (like wordpress.org) run `trunk` or beta/RCs in production. Instead, notify the Security team privately.
 *   Bump version.
-    
+
     *   Update the `$wp_version` in `trunk/src/wp-includes/version.php` (e.g., $wp\_version = ‘5.8-beta1-src’;).
     *   Update the `version` in the `package.json` if it hasn’t been updated yet.
     *   If the `$wp_version` is `4.8.1-beta1` then the `version` in `package.json` should be just `4.8.1`.
     *   If you are releasing an RC, then the `$wp_version` would be `4.8.1-RC1-src`.
     *   Update `$wp_version` to add the appropriate version identifier and remove the SVN changeset number:![](https://make.wordpress.org/core/files/2017/06/pasted-image-0-1024x470.png)
-    
+
     *   Ensure version bump appears on https://build.trac.wordpress.org/. *This only needs to be verified by the person releasing via Mission Control*.
 *   Build the packages.
-    
+
     *   The release package needs to be built in [Mission Control](https://mc.wordpress.org/release/). Once it’s packaged, it needs to be tested well, including manually testing updates. (How do you do that? Checkout the [docs](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/#testing-packages).)
-    
+
     *   Enter build name?
     *   Click button?
 *   Test the packages.
-    
+
     *   Ask people to [test](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/#testing-packages) by sharing the URL (e.g., [https://wordpress.org/wordpress-4.9-beta2.zip](https://wordpress.org/wordpress-4.9-beta2.zip)).
     *   There are three ways to help test the package:
         *   Install and activate the [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/) plugin
@@ -50,7 +50,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
             *   For a minor RC release, select the Point Release channel and the Nightlies stream (note that it is no longer possible to use beta tester to test the minor Beta/RC packages until after the nightlies have been built).
         *   Use WP-CLI to test: `wp core update https://wordpress.org/wordpress-4.9-beta2.zip`
         *   Directly download the Beta/RC version (e.g., https://wordpress.org/wordpress-5.8-RC4.zip)
-    
+
     *   Note: If anyone reports files removed when updating via WP-CLI, make sure you verify that those files exist in the `$_old_files` variable.
     *   Note: Folks testing packages using the WP-CLI may report warnings related to checksums. This is expected because checksums are not available for nightlies.
     *   Ideal tests to run:
@@ -71,9 +71,9 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   Example: /here WordPress 5.8 Beta 1 is now available. Please help test! There’s a *lot* to test this release.
     *   As a reminder, only tickets related to functionality added in 5.8, test changes, and documentation updates will be considered during beta this release.
 *   Announce to Committers that SVN committing in [#core](https://make.wordpress.org/core/tag/core/) is open.
-    
+
     *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing.
-    
+
     *   For RC releases, note the `dev-feedback` and `dev-reviewed` workflow is required prior to committing, where each commit must get double-signoff.
         *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
 *   Write a message in the [#props](https://wordpress.slack.com/messages/C0FRG66LR) channel thanking and giving props to everyone who tested or otherwise helped with the beta release process
