@@ -255,7 +255,7 @@ WampServer のホームページが表示されない場合は、[hosts ファ�
 You also need to check that phpMyAdmin is working by going to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) in your browser. If you get the **Cannot connect: invalid settings** error message, then you’ll need to edit the **C:\\wamp\\apps\\phpmyadmin3.5.1\\config.inc.php** file in a plain text editor (your version number may be different), and ensure this option is set to **true**:
 -->
 
-また、ブラウザーで [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) にアクセスし、phpMyAdmin が動作していることを確認する必要があります。もし、**接続できません。設定が無効です。**というエラーメッセージが表示されたら、プレーンテキストエディターで **C:\\u0026\\apps\\phpmyadmin3.5.1\\config.inc.php** ファイルを編集し (バージョン番号は異なる場合があります)、このオプションを **true** に設定していることを確認する必要があります。
+また、ブラウザーで [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) にアクセスし、phpMyAdmin が動作していることを確認する必要があります。もし、**接続できません。設定が無効です。** というエラーメッセージが表示されたら、プレーンテキストエディターで **C:\\u0026\\apps\\phpmyadmin3.5.1\\config.inc.php** ファイルを編集し (バージョン番号は異なる場合があります)、このオプションを **true** に設定していることを確認する必要があります。
 
 ```php
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
