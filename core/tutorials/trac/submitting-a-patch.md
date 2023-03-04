@@ -8,7 +8,7 @@ When using an IDE or a Subversion client a patch can be created directly by the 
 
 ### Windows
 
-**If you are on Windows,** consider using [Tortoise SVN](http://tortoisesvn.net/). You can [read our tutorial on creating a patch with Tortoise SVN.](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn).
+**If you are on Windows,** consider using [Tortoise SVN](http://tortoisesvn.net/). You can [read our tutorial on creating a patch with Tortoise SVN](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn).
 
 ### Mac/Linux Command Line
 

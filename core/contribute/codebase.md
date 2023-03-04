@@ -35,10 +35,10 @@ WordPress のコードベースには、Subversion、Git、Trac (バグトラッ
 ## WordPress コードの構成
 
 <!--
-If you are using the “develop” repository, as mentioned above, the core codebase is in the `src` directory. A downloaded package serves a “built” version of this directory, thus placing these files in the root. The codebase consists of around 1000 files and directories.
+If you are using either of the Git or Subversion repositories mentioned above, the core codebase is in the `src` directory. A downloaded package serves a “built” version of this directory, thus placing these files in the root. The codebase consists of around 1000 files and directories.
 -->
 
-「develop」リポジトリを使用している場合、コアのコードベースは前述の通り `src` ディレクトリにあります。ダウンロードされるパッケージはこのディレクトリの「ビルド」バージョンを提供し、そのためこれらのファイルはルートに配置されます。コードベースは、約1000のファイルやディレクトリから構成されています。
+上記の Git または Subversion のいずれかのリポジトリを使用している場合、コアのコードベースは前述の通り `src` ディレクトリにあります。ダウンロードされるパッケージはこのディレクトリの「ビルド」バージョンを提供し、そのためこれらのファイルはルートに配置されます。コードベースは、約1000のファイルやディレクトリから構成されています。
 
 <!--
 Initial bootstrap files, such as `index.php`, `wp-load.php`, `wp-blog-header.php`, and `wp-settings.php`, appear in this `src` directory. Special handlers such as the XML-RPC, trackback, and comment submission endpoints, are also in the root.

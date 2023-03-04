@@ -499,7 +499,7 @@ You can shut down XAMPP from the main control panel by **clicking Stop** next to
 ## 次のステップ
 
 <!--
-*   [Installing WordPress From A Zip File](https://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-from-a-zip-file/)
+*   [Installing WordPress From A Zip File](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-zip/)
 *   [Installing WordPress Via SVN](https://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-via-svn/)
 -->
 

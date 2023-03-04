@@ -19,7 +19,7 @@ The general format for a commit message is as follows:
 > Props person, another.  
 > Fixes [#30000](https://core.trac.wordpress.org/ticket/30000). See [#20202](https://core.trac.wordpress.org/ticket/20202), #105.
 
-Generally, each line in a commit message should begin with a capital letter and end with a full stop. Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack. Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
+Generally, each line in a commit message should begin with a capital letter and end with a full stop/period. Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack. Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
 
 ### Brief summary
 
