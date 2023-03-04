@@ -68,7 +68,7 @@ Next, you need to open the folder where you saved the file, and double-click the
 You will be prompted to select the language you wish to use in XAMPP. **Click the arrow** in the dropdown box, **select your language** in the list, then **click OK** to continue the installation process.
 -->
 
-XAMPP で使用する言語を選択するようプロンプトが表示されます。ドロップダウンボックスの**矢印をクリック**し、リストで**言語を選択**し、**OK をクリック**してインストール作業を続行してください。
+XAMPP で使用する言語を選択するプロンプトが表示されます。ドロップダウンボックスの**矢印をクリック**し、リストで**言語を選択**し、**OK をクリック**してインストール作業を続行してください。
 
 <!--
 ![Installing XAMPP: Select Your Language Screen](https://make.wordpress.org/core/files/2013/03/installing-xampp-1.png)
@@ -484,7 +484,7 @@ You can shut down XAMPP from the main control panel by **clicking Stop** next to
 **Helpful tip:** You can also shut down XAMPP from the systray icon. **Right-click the XAMPP icon**, and a context menu will appear. Hover over the first service running, then **click Stop**. The green light will turn red once it has stopped. Repeat for the other services running, then **click Quit** to exit the program.
 -->
 
-**Helpful tip:** システムトレイのアイコンからも XAMPP をシャットダウンできます。**XAMPP のアイコンを右クリック**すると、コンテキストメニューが表示されます。最初に起動しているサービスにカーソルを合わせ、**停止をクリック**してください。停止すると、緑のランプが赤に変わります。他のサービスも同様に実行し、**終了をクリック**してプログラムを終了してください。
+**役立つヒント:** システムトレイのアイコンからも XAMPP をシャットダウンできます。**XAMPP のアイコンを右クリック**すると、コンテキストメニューが表示されます。最初に起動しているサービスにカーソルを合わせ、**停止をクリック**してください。停止すると、緑のランプが赤に変わります。他のサービスも同様に実行し、**終了をクリック**してプログラムを終了してください。
 
 <!--
 ![XAMPP Shutdown: Context Menu Screen](https://make.wordpress.org/core/files/2013/03/stopping-xampp-2.png)
