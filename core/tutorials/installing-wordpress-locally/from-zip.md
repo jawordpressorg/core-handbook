@@ -6,7 +6,7 @@ This article will walk you through installing the latest WordPress development v
 
 ### What You Will Need Before Starting
 
-*   Create a new database in your local web server using phpMyAdmin. \[[MAMP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-mamp/#5-creating-a-mysql-database-with-mamp)\] \[[WampServer](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-wampserver/#5-creating-a-mysql-database-with-wampserver)\] \[[XAMPP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/#6-creating-a-mysql-database-with-xampp)\]
+Create a new database in your local web server using phpMyAdmin. \[[MAMP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-mamp/#5-creating-a-mysql-database-with-mamp)\] \[[WampServer](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-wampserver/#5-creating-a-mysql-database-with-wampserver)\] \[[XAMPP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/#6-creating-a-mysql-database-with-xampp)\]
 
 **Note:** If you are using DesktopServer as your local server, you’ll need to follow those [instructions for creating a new local development site](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) instead of the instructions listed below.
 
@@ -45,7 +45,7 @@ You will then do the “5 minute install”, complete all the fields, and **clic
 
 ### 4\. Edit wp-config.php
 
-Your local install will be used for beta testing and reporting bugs, so it is important for you to see error messages and notices. Open `wordpress-svn/wp-config.php` in your plain text editor, and set `WP_DEBUG` to **true**:
+Your local install will be used for beta testing and reporting bugs, so it is important for you to see error messages and notices. Open `wordpress-trunk/wp-config.php` in your plain text editor, and set `WP_DEBUG` to **true**:
 
 ```php
 /**

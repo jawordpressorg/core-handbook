@@ -14,7 +14,7 @@ The canonical WordPress repository is managed using Subversion. To better suppor
 
 The WordPress Git mirror contains a complete history of the codebase. Each Subversion commit is represented by a Git changeset. Use the `git log` utility to browse the history of the project. The layout of the repository is as follows:
 
-*   The **master** branch, which corresponds to SVN **trunk**. This is the bleeding-edge branch, containing the alpha version of the next major release. Except in special cases, contributors should prepare their patches against the master branch.
+*   The **trunk** branch, which corresponds to SVN **trunk**. This is the bleeding-edge branch, containing the alpha version of the next major release. Except in special cases, contributors should prepare their patches against the trunk branch.
 *   A branch exists corresponding to each major release series, named using the first two digits of versions in that series. For example, 4.5.1 was released from the `4.5` branch. Use `git branch -r` to view a complete list of branches in the remote repository, and use commands like `git checkout -b 4.5.x origin/4.5` to create local branches that track remote branches.
 *   All WP releases (starting with 1.5.0) are represented by Git tags. Use `git tag` to see the list.
 
@@ -25,10 +25,10 @@ Suggested improvements and bugfixes for WordPress should be submitted as **patc
 Using the `git` cli client, you can create a patch file as follows:
 
 1.  Clone the repository to your local machine: `$ git clone git://develop.git.wordpress.org/ /path/to/wordpress-develop`
-2.  Create a working branch (it’s better not to modify `master` because this should always be the latest version of the official code). To keep your local checkout organized, it’s suggested that you use the Trac ticket number as part of your branch name, eg: `$ git checkout -b 30000-add-more-alots   `
+2.  Create a working branch (it’s better not to modify `trunk` because this should always be the latest version of the official code). To keep your local checkout organized, it’s suggested that you use the Trac ticket number as part of your branch name, eg: `$ git checkout -b 30000-add-more-alots   `
 3.  Make your modifications to the codebase. Stage the changes (`git add`), and commit (`git commit`).  [The official git documentation](https://git-scm.com/docs/gittutorial) includes a tutorial on this.
-4.  Use `git diff` to review the differences between your local branch and the master branch: `$ git diff master 30000-add-more-alots` †
-5.  Once you’re ready to submit your patch to Trac, generate a patch file using `git diff`, specifying that the output should be saved in a `.diff` file. In general, the file name should be the ticket number you are working on with `.diff` as the extension (or `.2.diff`, `.3.diff`, etc. if there are already patches on the ticket). Example command: `$ git diff master 30000-add-more-alots > 30000.diff`
+4.  Use `git diff` to review the differences between your local branch and the trunk branch: `$ git diff trunk 30000-add-more-alots` †
+5.  Once you’re ready to submit your patch to Trac, generate a patch file using `git diff`, specifying that the output should be saved in a `.diff` file. In general, the file name should be the ticket number you are working on with `.diff` as the extension (or `.2.diff`, `.3.diff`, etc. if there are already patches on the ticket). Example command: `$ git diff trunk 30000-add-more-alots > 30000.diff`
 6.  Upload the patch to the appropriate Trac ticket.
 
 ### Unit Tests
@@ -47,12 +47,12 @@ svn co \
 
 ### Usage Notes for Git
 
-† If your `master` branch has changed since you last worked on your patch (for example, if you’ve pulled down the latest code), you’ll need to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) your branch against the latest code. This is a great way to keep your patches up to date, and it’s much easier with Git than with svn. Here is an example sequence of commands to update your `master` branch then refresh your patch on top of the latest code (make sure you have [no uncommitted changes in your repository](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) first):
+† If your `trunk` branch has changed since you last worked on your patch (for example, if you’ve pulled down the latest code), you’ll need to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) your branch against the latest code. This is a great way to keep your patches up to date, and it’s much easier with Git than with svn. Here is an example sequence of commands to update your `trunk` branch then refresh your patch on top of the latest code (make sure you have [no uncommitted changes in your repository](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) first):
 
 ```
 git fetch origin
-git checkout origin/master -B master
+git checkout origin/trunk -B trunk
 git checkout 30000-add-more-alots
-git rebase master
-git diff master 30000-add-more-alots > 30000.x.diff
+git rebase trunk
+git diff trunk 30000-add-more-alots > 30000.x.diff
 ```

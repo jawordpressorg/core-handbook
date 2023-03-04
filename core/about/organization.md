@@ -26,7 +26,7 @@ The lead developers are **Helen Hou-Sandi**, **Dion Hulse**, **Mark Jaquith**, 
 
 Current committers include:
 
-**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, and **Grzegorz Ziółkowski**.
+**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, and **Grzegorz Ziółkowski**.
 
 Other contributing developers include **Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, and **Samuel Wood**.
 
@@ -38,13 +38,11 @@ The core and contributing developers serve as guides for WordPress development.
 
 Since anyone who is an active contributor on a team can be elected as team rep, team reps will often have different levels of familiarity with other areas of the project, communication protocols, and general processes. To get everyone’s expectations in the same place, the [“job description” for team reps is located on Make/Updates](https://make.wordpress.org/updates/team-reps/).
 
-**@marybaum** and **@audrasjb** are the current Core Team Reps for 2021. Team Rep elections happen every 1-2 years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
+@hellofromtonya and @webcommsat are the current Core Team Reps for 2023. Team Rep elections happen every years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
 
 ### UX and Design
 
 The [design team](https://make.wordpress.org/ui/) is made up of core contributors who work on the design and user interface of WordPress.
-
-**Ryan Boren** leads user experience for 2015. **Matt Thomas** is the style lead for WordPress. **Ben Dunkle** is the icon designer.
 
 ### Support
 
@@ -52,9 +50,9 @@ The [support forums](https://wordpress.org/support/) are run by a team of volunt
 
 ### Documentation
 
-The Documentation team is responsible for all things documentation, including the [Codex](http://codex.wordpress.org), handbooks, developer.wordpress.org, admin help, inline docs, and other general wordsmithing across the WordPress project.
+The Documentation team is responsible for all things documentation, including [HelpHub](https://wordpress.org/support) (end-users documentation), [DevHub](https://developer.wordpress.org) (developer-oriented documentation), handbooks, admin help, inline docs, and other general wordsmithing across the WordPress project.
 
-This handbook and the Codex are the primary sources of information for learning how to develop, improve, and troubleshoot WordPress. The handbook is curated by a small group of volunteers, while the Codex is open for anyone with a wordpress.org user account to edit.
+This handbook and HelpHub/DevHub are the primary sources of information for learning how to develop, improve, and troubleshoot WordPress. These resources are curated by a group of volunteers. Everyone is welcome to contribute.
 
 ### Mobile
 
