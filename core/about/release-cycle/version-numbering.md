@@ -8,11 +8,7 @@
 A **major** WordPress version is dictated by the first two sequences. For example, **3.5** is a major release. So is **3.6**, **3.7**, all the way up to **4.0**. Version **4.0** is no different than **3.9** and **4.1**. There isn’t a “WordPress 3” or “WordPress 4” – we’re weird like that for historical reasons.
 -->
 
-<<<<<<< HEAD
-Major releases add new user features and developer APIs. Though typically a “major” version means you can break backward compatibility (and indeed, it normally means that you have), WordPress strives to *never* break backward compatibility. It’s one of our most important philosophies, and makes updates much easier on users and developers alike.
-=======
 WordPress の**メジャー**バージョンは、最初の2つのシーケンスによって決定されます。たとえば、**3.5**はメジャーリリースです。**3.6**、**3.7**、そして**4.0**までがそうです。バージョン**4.0**は、**3.9**や**4.1**と何ら変わりません。「WordPress3」や「WordPress4」は存在しませんが、歴史的な理由からそうなっているのです。
->>>>>>> main
 
 <!--
 Major releases add new user features and developer APIs. Though typically a “major” version means you can break backward compatibility (and indeed, it normally means that you have), WordPress strives to *never* break backward compatibility. It’s one of our most important philosophies, and makes updates much easier on users and developers alike.
