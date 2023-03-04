@@ -279,7 +279,9 @@ WampServer のインストールとテストが完了したら、いくつかの
 
 #### 4.1 PHP の設定
 
+<!--
 Click on the WampServer icon, go to the **php menu**, and **click on the php.ini** option. This will open the **php.ini** file in your plain text editor. Adjust the following settings:
+-->
 
 WampServer のアイコンをクリックし、**php メニュー**に移動し、**php.ini オプションをクリック**します。これにより、プレーンテキストエディターで **php.ini** ファイルを開くことができます。以下の設定を調整してください。
 
