@@ -445,4 +445,4 @@ Next you will **right-click on the WampServer systray icon** and **click Exit** 
 -->
 
 *   [Zip ファイルからのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-zip/)
-*   [SVN を使ってのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
+*   [SVN によるインストール](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)

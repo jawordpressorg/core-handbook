@@ -2,7 +2,7 @@
 # Installing via SVN
 -->
 
-# SVN を使ってのインストール
+# SVN によるインストール
 
 <!--
 ## Overview
