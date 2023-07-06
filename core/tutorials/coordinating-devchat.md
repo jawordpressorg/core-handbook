@@ -23,7 +23,7 @@ The general flow of preparing for, hosting, and summarizing devchats is as follo
 -->
 
 1.  アジェンダ ([例](https://make.wordpress.org/core/2019/08/14/dev-chat-agenda-august-14/)) を、予定されている開発チャットの時間の24時間前までに公開し、関連するリリース番号、「devchat」、「agenda」タグを含めて、Make/Core の他の場所で関連する検索/フィルターに表示されるようにします。
-2.  アジェンダのトピックをスクリプト化し、開発chat にコピー/ペーストできるようにします ([例](https://make.wordpress.org/core/files/2020/08/devchat_script.txt))。
+2.  アジェンダのトピックをスクリプト化し、開発チャットにコピー/ペーストできるようにします ([例](https://make.wordpress.org/core/files/2020/08/devchat_script.txt))。
 3.  ミーティングのサマリー ([例](https://make.wordpress.org/core/2018/10/10/dev-chat-summary-october-10-5-0-week-2/)) は、理想的には開発チャット終了後24時間以内に公開し、関連リリース番号、「devchat」、「summary」タグを含めて、Make/Core の他の関連する検索/フィルターに表示されるようにします。
 
 <!--
@@ -72,4 +72,4 @@ Devchat’s timing doesn’t change with DST and it operates regularly at [05:00
 Devchat used to be once a week and its time would adjust as Daylight Saving Time (DST) adjusted around the world. This was originally desired as a way to keep the devchat meeting at the same time across timezones to allow folks to regularly plan on when to attend. However, the process for updating the meeting time as DST changed became more time-intensive than desired and with the addition of a second devchat each week there are now two conversations that folks can attend. With that, the change was made.
 -->
 
-かつて開発チャットは、世界中のサマータイム (DST) の調整に合わせて、週に一度時間を調整していました。これはもともと、タイムゾーンに関係なく同じ時間に開発チャットのミーティングを行うことで、参加する時間を定期的に計画できるようにするためでした。しかし、サマータイムの変更に伴う会議時間の更新に手間がかかるようになり、また、毎週2回目の開発チャットが追加されたことで、参加できる会話が2つになってしまいました。そのため変更されました。
+かつて開発チャットは、世界中のサマータイム (DST) の調整に合わせて、週に一度時間を調整していました。これはもともと、タイムゾーンに関係なく同じ時間に開発チャットのミーティングを行うことで、参加する時間を定期的に計画できるようにするためでした。しかし、サマータイムの変更に伴う会議時間の更新に手間がかかるようになり、また、毎週2回目の開発チャットが追加されたことで、開発者が参加できる会話は2つになりました。そのため変更されました。
