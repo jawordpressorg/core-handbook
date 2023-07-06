@@ -104,7 +104,7 @@ Once the deadline has passed for nominating, a comment will be added and pinned 
 *Nominations are now closed and voting is open until <voting deadline>. Voting details and link here:* [](https://make.wordpress.org/core/)*[https://make.wordpress.org/core/](https://make.wordpress.org/core/)**<voting-link>/*
 -->
 
-「推薦を締め切りましたので、<投票締め切り> まで投票を受け付けます。投票の詳細とリンクはこちら: https://make.wordpress.org/core/`<voting-link>`/」
+「推薦を締め切りましたので、<投票締め切り> まで投票を受け付けます。投票の詳細とリンクはこちら: [https://make.wordpress.org/core/](https://make.wordpress.org/core/)`<voting-link>`/」
 
 <!--
 ## Voting
@@ -140,7 +140,7 @@ Once the results have been finalized and announced, a comment will be added and 
 *Selected Core Team reps are announced here: <a href="https://make.wordpress.org/core//”>https://make.wordpress.org/core/<results-link>/*
 -->
 
-「選出されたコアチームの代表者はこちらで発表しています: https://make.wordpress.org/core/`<results-link>`/」
+「選出されたコアチームの代表者はこちらで発表しています: [https://make.wordpress.org/core/](https://make.wordpress.org/core/)`<results-link>`/」
 
 <!--
 ## Announcing
