@@ -46,7 +46,7 @@ From [Mark Jaquith’s Tutorial](http://markjaquith.wordpress.com/2005/11/02/my-
 Make a patch, for filename.php:
 -->
 
-filename.phpのパッチを作成する:
+filename.php のパッチを作成する:
 
 `$ svn diff filename.php > filename.diff`
 
@@ -78,13 +78,17 @@ Also: [creating SVN patches using Git](http://scribu.net/wordpress/svn-patches-f
 
 もしくは、Cristi Burca の [Git を使用して SVN パッチを作成する](http://scribu.net/wordpress/svn-patches-from-git.html)。
 
+<!--
 ## Adding your GitHub fork to your WP trunk copy
+-->
+
+## GitHub のフォークを WP trunk のコピーに追加する
 
 <!--
 First of all you need your own WordPress fork somewhere, usually on GitHub (also because there is the [mirror](http://github.com/wordpress/wordpress-develop)). After creating a fork, a branch (is important to not work on the master/trunk branch to avoid conflicts) you need to add this new remote to your git instance.
 -->
 
-まず最初に、どこかに自分の WordPres sフォークが必要です。通常は GitHub にあります ([ミラー](http://github.com/wordpress/wordpress-develop)があるためです)。フォークとブランチを作成したら (競合を避けるために master/trunk ブランチでは作業しないことが重要です)、この新しいリモートをあなたの git インスタンスに追加する必要があります。
+まず最初に、どこかに自分の WordPress フォークが必要です。通常は GitHub にあります ([ミラー](http://github.com/wordpress/wordpress-develop)があるためです)。フォークとブランチを作成したら (競合を避けるために master/trunk ブランチでは作業しないことが重要です)、この新しいリモートをあなたの git インスタンスに追加する必要があります。
 
 `git remote add fork git@github.com:WordPress/wordpress-develop.git`
 
