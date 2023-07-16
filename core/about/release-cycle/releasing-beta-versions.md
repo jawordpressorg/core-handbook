@@ -97,7 +97,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 *   アナウンス記事を下書きする。
     *   以前の [wordpress.org/news/](https://wordpress.org/news/) の投稿をコピーし、そこから編集をはじめます (例: [ベータ1](https://wordpress.org/news/2021/06/wordpress-5-8-beta-1/)、[ベータ2](https://wordpress.org/news/2021/06/wordpress-5-8-beta-2/)、[RC 1](https://wordpress.org/news/2021/06/wordpress-5-8-release-candidate/)、[RC 2](https://wordpress.org/news/2021/07/wordpress-5-8-release-candidate-2/))。
     *   下書きを作成する際、サイドバーの「ステータスと公開」パネルにある「パブリックプレビューの有効化」オプションにチェックを入れ、プレビューの URL をコピーして他の人と共有し、公開前にレビューやフィードバックを提供できるようにしてください。
-    *   リンク、チケット数、その他の面が特定のベータリリース用に更新されていることを確認してください。クロスロケールの互換性のために、Trac クエリーのリンクで URL の日付が `YYYY-MM-DD` フォーマットであることを確認してください。
+    *   リンク、チケット数、その他の要素が特定のベータリリース用に更新されていることを確認してください。ロケール間の互換性のために、Trac クエリーのリンクで URL の日付が `YYYY-MM-DD` フォーマットであることを確認してください。
     *   リリースのリードから正確さのレビューを受け、マーケティングやドキュメントの担当者からコピー編集を受けます。これらの人々は、投稿の最後に @ で言及されるようにします。
     *   この Beta/RC リリースが元々計画されていなかった場合 (たとえば、RC の前に追加の Beta をリリースしたり、最終リリースの前に追加の RC をリリースしたりした場合)、これらのアナウンス投稿は [wordpress.org/news/](https://wordpress.org/news/) では公開されず、代わりに [make.wordpress.org/core](https://make.wordpress.org/core/) で公開されるという意味で、歴史的に「サイレント」であることに注意してください (例: [5.7 RC 3](https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3/)) 。
 *   ベータ1リリースの場合、[#fse-outreach-experiment](https://make.wordpress.org/core/tag/fse-outreach-experiment/)の FSE Outreach Experiment の参加者と調整し、「Help Test WordPress X.Y」の投稿を公開・宣伝することを強く推奨します (例: [6.1の投稿](https://make.wordpress.org/test/2022/09/21/help-test-wordpress-6-1/)、[6.1の Slack メッセージ](https://wordpress.slack.com/archives/C015GUFFC00/p1663781207569069))。
@@ -111,13 +111,13 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 *   [マイナーリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/)では、そのマイルストーンでクローズされたチケットがすべてリリースにマージされていることを確認してください (`fixed-major` がないチケットを探すことで絞り込めます)。マイナーリリースには、オプションでベータリリースを含めることができます。その判断はリリースリードの裁量に任されています。
 *   誰もコミットしようとしないように、[#core](https://make.wordpress.org/core/tag/core/)でアナウンスします。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers 4.8-beta2 がリリースされるまで、コミットは控えてください。
-*   リリースパーティに参加する人たちに、テストが終わるまでリリースパッケージへのリンクを共有しないよう注意を促す。
+*   リリースパーティに参加する人たちに、テストが終わるまでリリースパッケージへのリンクを共有しないよう注意を促してください。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **注意: テストが完了し、WordPress.org でアナウンス記事が公開されるまで、パッケージへのリンクを公開しないでください。**
 *   最新の GitHub Action チェックがパスしていることを確認します (つまり、すべて ✅ が表示されます)。
     *   https://github.com/WordPress/wordpress-develop/actions?query=event%3Apush+branch%3Atrunk の最新コミットをチェックします。
 *   マイナーリリースについては、リリースブランチをチェックしてください: `svn switch '^/branches/4.7'` を実行し、現在インストールされているものをアップデートするか、新たにインストールするよう人々に呼びかけます。
 *   セキュリティチームのメンバーに、プライベート・セキュリティ・ユニットテストスイートを実行してもらって、リグレッションが発生しないことを確認してください。
-    *   何か問題が見つかった場合は、その詳細について公の場でに議論することは避けてください。一部のサイト (wordpress.org など) では、本番環境で `trunk` またはベータ/RC が実行されているためです。代わりに、セキュリティチームに非公開で通知してください。
+    *   何か問題が見つかった場合は、その詳細について公の場で議論することは避けてください。一部のサイト (wordpress.org など) では、本番環境で `trunk` またはベータ/RC が実行されているためです。代わりに、セキュリティチームに非公開で通知してください。
 *   バージョンを上げます。
     *   `trunk/src/wp-includes/version.php` の `$wp_version` を更新します (例: $wp_version = '5.8-beta1-src';)。
     *   `package.json` の `version` がまだ更新されていなければ更新します。
