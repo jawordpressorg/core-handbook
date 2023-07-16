@@ -49,7 +49,7 @@ Once you’ve been appointed lead for a given release, here are some things you 
 
 * **リード、コミッター、コンポーネントメンテナーと話す。** 初日には、リリースに何が含まれるのか見当もつかないかもしれません。さまざまな WordPress のリード、コミッター、コンポーネントメンテナーと時間をかけて、彼らが何を考えているのかを確認しましょう。このような話し合いは、リリースのスケジュールにもよりますが、数日、数週間、あるいは数ヵ月に渡って行われることもあります。
 * **スケジュールを設定する。** メジャーリリースの良いサイクルは4ヵ月ごとです。多くの場合、4月、8月、12月です。とはいえ、明確に決まっているわけではありません。スケジュールを設定する最良の方法のひとつは、リリース日を決め、その日から逆算することです。いくつかのヒントについては、以下のスケジューリングセクションをチェックしてください !
-* **リリースの代理人を選ぶ。** リリースの代理人を立てる必要はありませんが、立てることを*強くおすすめします*。いくつかのリリースのリードは2人以上の代理人を持っていますが、それはまったく問題ありません ! ここでのコツは、あなたの才能を補強し、サイクル全体を通してアシストしてくれる代理人を選ぶことです。ミーティングノートを書いたり、ミーティングを運営したりするのが苦手ですか ? そのようなことができる代理人を選びましょう ! トリアージが苦手ですか ? 手伝ってくれるコミュニティメンバーがいるはずです。誰が代理人になることに興味があるかわからない場合は、[make/core にボランティア募集の投稿](https://make.wordpress.org/core/tag/deputy/)をしてください。(投稿には必ずタグをつけてください !)
+* **リリースのサブリードを選ぶ。** リリースのサブリードを立てる必要はありませんが、立てることを*強くおすすめします*。いくつかのリリースのリードは2人以上のサブリードを持っていますが、それはまったく問題ありません ! ここでのコツは、あなたの才能を補強し、サイクル全体を通してアシストしてくれるサブリードを選ぶことです。ミーティングノートを書いたり、ミーティングを運営したりするのが苦手ですか ? そのようなことができるサブリードを選びましょう ! トリアージが苦手ですか ? 手伝ってくれるコミュニティメンバーがいるはずです。誰がサブリードになることに興味があるかわからない場合は、[make/core にボランティア募集の投稿](https://make.wordpress.org/core/tag/deputy/)をしてください。(投稿には必ずタグをつけてください !)
 * **アイデアを募集する。** WordPress はボランティアによる大きなコミュニティによって構築されていますが、そのうち一部のみがコミッターやコンポーネントメンテナーです。リリースサイクルの早い段階で、[make/core にリリースのアイデアを募集する投稿](https://make.wordpress.org/core/tag/wishlists/)をしてください。その投稿から、個別のチケットや大きな機能のアイデアが得られます。それらをすべて整理するのは時間がかかりますが、リリースのために調査すべきことのすばらしいリストを得ることができます。
 
 <!--
@@ -84,7 +84,7 @@ WordPress プロジェクトがグローバルになるにつれ、完璧なリ�
 There are a [number of roles and responsibilities](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/) over the course of a release. In practice, if there’s not a release coordinator for a cycle, a release lead and their deputies act as project managers (and technical project managers) for the entire release cycle. Otherwise, a release coordinator takes on ensuring the various pieces are properly covered by the cohesive release squad.
 -->
 
-リリースの間には[いくつもの役割と責任](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/)があります。実際には、そのサイクルのリリースコーディネーターがいない場合、リリースリードとその代理人がリリースサイクル全体のプロジェクトマネージャー (およびテクニカルプロジェクトマネージャー) として活動します。そうでない場合は、リリースコーディネーターが、結束力のあるリリースチームによってさまざまな部分が適切にカバーされるようにします。
+リリースの間には[いくつもの役割と責任](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/)があります。実際には、そのサイクルのリリースコーディネーターがいない場合、リリースリードとそのサブリードがリリースサイクル全体のプロジェクトマネージャー (およびテクニカルプロジェクトマネージャー) として活動します。そうでない場合は、リリースコーディネーターが、結束力のあるリリースチームによってさまざまな部分が適切にカバーされるようにします。
 
 <!--
 **Important note:** Much of the tasks listed in this handbook page are done by those who act as “mission control” or MC. These are a very specific set of folks with a particular ability to perform larger meta\-tasks for the project. If you’re not sure how to do something or don’t have access, it’s likely a task for those folks to handle.
@@ -96,7 +96,7 @@ There are a [number of roles and responsibilities](https://make.wordpress.org/co
 Prior to considering the responsibilities of release leads and deputies, it’s important to understand a few qualities of effective release leads:
 -->
 
-リリースリードと代理人の責任を考える前に、有効なリリースリードの資質をいくつか理解しておくことが重要です:
+リリースリードとサブリードの責任を考える前に、有効なリリースリードの資質をいくつか理解しておくことが重要です:
 
 <!--
 *   **An understanding of how WordPress – both the software and the community – works.** WordPress, the software, is vast. No single contributor understands the entire codebase. However, release leads and deputies should have a good understanding of how WordPress works and how the core community functions. Knowing who to ask about various tickets is an important skill for leading a release!
@@ -104,15 +104,15 @@ Prior to considering the responsibilities of release leads and deputies, it’s 
 *   **The ability to communicate well with the community.** Communication is incredibly important across every part of the WordPress community, so good communication is valued and expected. The core community communicates in English, on this site, and in Slack, even though many contributors speak English as a second language. As a result of the varying backgrounds in this global community, release leads and deputies should take care when communicating in official and unofficial channels. See also: [Post & Comment Guidelines](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/).
 -->
 
-* **WordPress のしくみ (ソフトウェアとコミュニティの両方) を理解していること。** WordPress というソフトウェアは巨大なものです。一人の貢献者がコードベース全体を理解しているわけではありません。しかし、リリースリードと代理人は、WordPress がどのように動作し、どのようにコアコミュニティが機能するかをよく理解している必要があります。さまざまなチケットについて誰に尋ねるべきかを知ることは、リリースをリードするための重要なスキルです !
-* **オープンソースがどのように機能するかについての知識。** オープンソースプロジェクトは、ほとんどのソフトウェアプロジェクトとはかなり異なっています。リリースリードや代理人になるためには、オープンソースでグローバルな分散型プロジェクトの一員として働く能力があることが期待されます。
-* **コミュニティとの良好なコミュニケーション能力。** コミュニケーションは WordPress コミュニティのあらゆる部分で非常に重要であるため、良好なコミュニケーションが評価され、期待されます。中心的なコミュニティは、多くの貢献者が第二言語として英語を話しているにもかかわらず、このサイトや Slack では英語でコミュニケーションをとっています。このグローバルコミュニティにはさまざまなバックグラウンドがあるため、リリースリードや代理人は公式・非公式チャンネルでコミュニケーションをとる際には注意が必要です。こちらもご覧ください: [投稿とコメントのガイドライン](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/)。
+* **WordPress のしくみ (ソフトウェアとコミュニティの両方) を理解していること。** WordPress というソフトウェアは巨大なものです。一人の貢献者がコードベース全体を理解しているわけではありません。しかし、リリースリードとサブリードは、WordPress がどのように動作し、どのようにコアコミュニティが機能するかをよく理解している必要があります。さまざまなチケットについて誰に尋ねるべきかを知ることは、リリースをリードするための重要なスキルです !
+* **オープンソースがどのように機能するかについての知識。** オープンソースプロジェクトは、ほとんどのソフトウェアプロジェクトとはかなり異なっています。リリースリードやサブリードになるためには、オープンソースでグローバルな分散型プロジェクトの一員として働く能力があることが期待されます。
+* **コミュニティとの良好なコミュニケーション能力。** コミュニケーションは WordPress コミュニティのあらゆる部分で非常に重要であるため、良好なコミュニケーションが評価され、期待されます。中心的なコミュニティは、多くの貢献者が第二言語として英語を話しているにもかかわらず、このサイトや Slack では英語でコミュニケーションをとっています。このグローバルコミュニティにはさまざまなバックグラウンドがあるため、リリースリードやサブリードは公式・非公式チャンネルでコミュニケーションをとる際には注意が必要です。こちらもご覧ください: [投稿とコメントのガイドライン](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/)。
 
 <!--
 There are also a few responsibilities that release leads and deputies have over the course of a release cycle:
 -->
 
-またリリースサイクルの中で、リリースリードと代理人が持つ責任もいくつかあります:
+またリリースサイクルの中で、リリースリードとサブリードが持つ責任もいくつかあります:
 
 <!--
 *   **Posting agendas, running weekly developer chats, and posting chat summaries.** The overall WordPress developer community should be kept informed throughout the release cycle. Not every community member can attend the weekly developer chats, so posting [agendas](https://make.wordpress.org/core/tag/agenda/) and [chat summaries](https://make.wordpress.org/core/tag/summary/) is a necessity.
@@ -127,13 +127,13 @@ There are also a few responsibilities that release leads and deputies have over 
 -->
 
 *   **議題の投稿、毎週の開発者チャットの運営、チャットの要約の投稿。** リリースサイクル全体を通して、情報は WordPress 開発者コミュニティ全体に提供されるべきです。すべてのコミュニティメンバーが毎週の開発者チャットに参加できるわけではないので、[議題](https://make.wordpress.org/core/tag/agenda/)と[要約](https://make.wordpress.org/core/tag/summary/)を投稿する必要があります。
-*   **チケットのトリアージとチケットレポートのモニタリング。** リリースには多くの重要な要素があります。リリースリードと代理人は、新しく提出される trunk チケットを注意深く見守り、関連する[チケットレポート](https://make.wordpress.org/core/reports/)を監視する必要があります。これには、(特に未所有のコンポーネントの) 新しいチケットレポートをトリアージして、ブロックする問題がないかチェックすることも含まれます。
-*   **リリースを予定通りに進める。** [期限を守ること。](https://make.wordpress.org/core/handbook/about/philosophies/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードと代理人がこのスケジュールに責任を持ちます。(上記の「スケジュールについて」を参照してください。) リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
-*   **バグスクラブの開催。** バグスクラブを毎週開催することは、あらゆる種類の貢献者からの貢献を促す有用な活動です。この活動は、リリースリード、代理人、その他の貢献者によってうまく運営できます。コンポーネントメンテナーもバグスクラブを行うことができます。
-*   **機能に関するアイデアを検討し、対応する。** WordPress の貢献者やユーザーは、リリースサイクル中、特に[ウィッシュリスト](https://make.wordpress.org/core/tag/wishlists/)の投稿に機能のアイデアを投稿します。各機能を開発することはリリースリード (またはその代理人) の責任ではありませんが、各機能のアイデアをレビューし、リリースに含める価値があるかどうかを確認する必要があります。これらのアイデアの多くは、[機能に関するプロジェクト](https://make.wordpress.org/core/features/)から出てくるものですが、中には注意が必要なチケットもあるでしょう。
+*   **チケットのトリアージとチケットレポートのモニタリング。** リリースには多くの重要な要素があります。リリースリードとサブリードは、新しく提出される trunk チケットを注意深く見守り、関連する[チケットレポート](https://make.wordpress.org/core/reports/)を監視する必要があります。これには、(特に未所有のコンポーネントの) 新しいチケットレポートをトリアージして、ブロックする問題がないかチェックすることも含まれます。
+*   **リリースを予定通りに進める。** [期限を守ること。](https://make.wordpress.org/core/handbook/about/philosophies/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードとサブリードがこのスケジュールに責任を持ちます。(上記の「スケジュールについて」を参照してください。) リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
+*   **バグスクラブの開催。** バグスクラブを毎週開催することは、あらゆる種類の貢献者からの貢献を促す有用な活動です。この活動は、リリースリード、サブリード、その他の貢献者によってうまく運営できます。コンポーネントメンテナーもバグスクラブを行うことができます。
+*   **機能に関するアイデアを検討し、対応する。** WordPress の貢献者やユーザーは、リリースサイクル中、特に[ウィッシュリスト](https://make.wordpress.org/core/tag/wishlists/)の投稿に機能のアイデアを投稿します。各機能を開発することはリリースリード (またはそのサブリード) の責任ではありませんが、各機能のアイデアをレビューし、リリースに含める価値があるかどうかを確認する必要があります。これらのアイデアの多くは、[機能に関するプロジェクト](https://make.wordpress.org/core/features/)から出てくるものですが、中には注意が必要なチケットもあるでしょう。
 *   **助けてくれる貢献者を見つける。** すべての技術的な決定、あるいはその大部分を行うことは、リリースリードの責任ではありません。リリースリードは、いつどのように貢献者を探し出し、支援を求めるべきかを知っておくべきです。コアチームは大規模で、リソースの状況もさまざまであるため、リリースリードはさまざまなチケットに対してフィードバックやサポートを提供するために、どの貢献者が最適であるかをよく理解している必要があります。
 *   **貢献者と定期的にチャットする。** 定期的に貢献者と連絡を取り合うことは、WordPress のリリースが安定し、公開の準備が整っていることを保証するために役立ちます。定期的に貢献者とチャットすることで、リリースリードは貢献者の稼働状況やブロックの可能性のある問題などを把握できます。
-*   **マーケティング活動の調整。** 管理するべきマーケティング活動がいくつかあり、リリースリードや代理人はそれらを認識している必要があります。WordPress コアの [About ページ](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)、/news/ の投稿、ビデオはすべてこの取り組みの一部です (これらの具体的な取り組みについては後述します)。[4.7で学んだように](https://core.trac.wordpress.org/ticket/39560)、動画を同時に自動再生するように設定することは避けるべきです。これらの活動は、[マーケティングチーム](https://make.wordpress.org/marketing/)と関連するコンポーネントのメンテナーと連携して行うべきであることに注意してください。リリースコミュニケーションに関する詳細なハンドブックについては、この[リリースサイクルのマーケティングとコミュニケーションガイド](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)を参照してください。
+*   **マーケティング活動の調整。** 管理するべきマーケティング活動がいくつかあり、リリースリードやサブリードはそれらを認識している必要があります。WordPress コアの [About ページ](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)、/news/ の投稿、ビデオはすべてこの取り組みの一部です (これらの具体的な取り組みについては後述します)。[4.7で学んだように](https://core.trac.wordpress.org/ticket/39560)、動画を同時に自動再生するように設定することは避けるべきです。これらの活動は、[マーケティングチーム](https://make.wordpress.org/marketing/)と関連するコンポーネントのメンテナーと連携して行うべきであることに注意してください。リリースコミュニケーションに関する詳細なハンドブックについては、この[リリースサイクルのマーケティングとコミュニケーションガイド](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)を参照してください。
 *   **リリースや機能に対するあらゆる変更を伝える。** リリースが進むにつれて、大きな決断が必要になり、リリースチームによって適切に伝えられなければならないときがあります。そのためには、時にはプロジェクトのリーダーを巻き込みながら、一緒になって進むべき道を見つけることと、変更点を適切に伝えるために作業することの両方が必要です。あなたが所属するリリースチームが同じような状況に陥ったときのために、2つの例を挙げます。[WordPress 5.9のリリーススケジュール変更のアナウンス](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)と[WordPress 6.0におけるウェブフォント API の変更点](https://make.wordpress.org/core/2022/04/22/status-of-webfonts-api-for-wordpress-6-0-inclusion/)です。
 
 <!--
@@ -152,7 +152,7 @@ Focus leads should be available for at least 5-6 hours a week to perform their t
 There are no limitations to where you come from. We are a global community, open 24/7 so you will schedule scrubs, if needed, according to your availability and potentially find a deputy to cover other time zones.
 -->
 
-出身地の制限はありません。私たちは24時間365日休みのないグローバルコミュニティですので、必要であればあなたの都合に合わせてスクラブのスケジュールを組み、他のタイムゾーンをカバーする代理人を見つけられるかもしれません。
+出身地の制限はありません。私たちは24時間365日休みのないグローバルコミュニティですので、必要であればあなたの都合に合わせてスクラブのスケジュールを組み、他のタイムゾーンをカバーするサブリードを見つけられるかもしれません。
 
 <!--
 ### Helpful Hints
@@ -171,7 +171,7 @@ There are no limitations to where you come from. We are a global community, open
 
 *   **コミュニケーションのために slack チャンネルを公開し、ベータ1の直前から毎週アップデートを行う。** これによって、将来の貢献者のためにリリースチームがオープンに活動できるようになり、また人々がフォローできます。[#meta](https://make.wordpress.org/core/tag/meta/) チームはこれを促進する手助けができます。
 *   **リリースチームとリリースパーティ中には冗長性を確保する。** プロジェクトの規模に伴い、重要な役割に複数の人を配置し、リリースパーティ中にタスクを達成できる人が複数いるようにすることは、とても大切です。たとえば、複数の MC がいることで、事前に予定されていた MC が遅刻などにより参加できなくなった場合に、誰かが確実に対応できます。
-*   **前回のリリースでに人々が何をしたかを調べる。** これはオープンソースのプロジェクトですので、あなたがすべきことの多くは、先人たちから学ぶことができます。slack でリリースパーティについて調べたり、前のリリースリードに質問したり、Make で前の決定がどのように行われたかを調べたりしてください。
+*   **前回のリリースで人々が何をしたかを調べる。** これはオープンソースのプロジェクトですので、あなたがすべきことの多くは、先人たちから学ぶことができます。slack でリリースパーティについて調べたり、前のリリースリードに質問したり、Make で前の決定がどのように行われたかを調べたりしてください。
 *   **サイクルの各パートには、それぞれ異なる制限とフォーカスがあることを認識する。** リリースサイクルが進むにつれてフォーカスは移り変わるので、それに合わせてシフトすることが重要です。たとえば、RC では コアコミットに対し二重チェックが必要ですので、その変数を念頭に置いて重要な作業を計画することが大切です。
 *   **リリースパーティのスクリプトを作成し、リリース日のかなり前に調整する。** リリースパーティのスクリプトを作成したり、特定のステップを確実にこなせるよう関係者に確認したりなど、前もって十分に調整しておくことは当然です。必要かつ既知のストレス要因に対処しておくことで、予期せぬストレス要因が出てきたときに対応できます。
 *   **特に懸念事項がある場合は、早めに頻繁に共有すること。** 自分にとっては当たり前のことでも、それを表現しなければ、グループ内では簡単に見過ごされてしまいます。
@@ -252,7 +252,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 *   Run the private security unit test suite.
 -->
 
-*   リリースのマイルストーンにオープンチケットはないはずです。
+*   リリースのマイルストーン時点で、オープンチケットが残っていてはなりません。
 *   フィールドガイドの公開プロセスは、[別のハンドブックページ](https://make.wordpress.org/core/handbook/tutorials/publishing-the-field-guide/)に文書化されています。
 *   (wp.org のリポジトリにある) すべてのプラグイン作者に、リリースとの互換性をテストするように知らせるメールを送るべきです。そのメールはフィールドガイドにリンクされるべきです。[プラグインチームに連絡して調整する](https://make.wordpress.org/updates/team-reps/)か、[プラグインレビューチームが作るサイト](https://make.wordpress.org/pluginrepo)でリリースメールの下書きを公開します ([5.3のサンプルはこちら](https://make.wordpress.org/pluginrepo/2019/10/18/5-3-release-email/))。
 *   Classic Editor プラグインがまだうまく動作するかテストしてください。
