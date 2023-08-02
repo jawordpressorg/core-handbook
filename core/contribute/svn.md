@@ -5,7 +5,7 @@
 # コードリポジトリ (SVN)
 
 <!--
-Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVNSVN Subversion, the popular version control system (VCS) by the Apache project, used by WordPress to manage changes to its codebase.. This documentation focuses on the SVN option.
+Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
 -->
 
 注: WordPress は、 [GIT](https://make.wordpress.org/core/handbook/contribute/git/) と SVN の両方から作成されるパッチをサポートしています。このドキュメントは、Git オプションにフォーカスしています。
@@ -27,7 +27,6 @@ The WordPress repository of code is organized into three main directories: [tags
 -->
 
 WordPress のコードのリポジトリは、主に3つのディレクトリで構成されています。[tag](https://make.wordpress.org/core/glossary/#tag)、[branches](https://make.wordpress.org/core/glossary/#branch)、[trunk](https://make.wordpress.org/core/glossary/#trunk) です。
-
 
 <!--
 *   The **trunk** directory contains the latest development code in preparation for the next major release cycle. The latest revision may be unstable or broken at times. The latest development code may be referred to as *trunk*.

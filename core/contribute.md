@@ -1,25 +1,29 @@
 <!--
 # Contribute with Code
 -->
+
 # コードによる貢献
 
 <!--
 Alert: This page is being actively worked on, expanded, and improved.
 -->
+
 注: このページはまだ下書きで、執筆中です。
 
 <!--
 Thank you for your interest in contributing to WordPress! This Quick Start Guide to contributing code to WordPress Core is a central hub where you can find all resources needed to take you through the process of submitting your first patch.
 -->
+
 WordPress への貢献に興味を持っていただきありがとうございます。WordPress コアへのコード貢献のためのこのクイックスタートガイドは、最初のパッチを提出するために必要なすべてのリソースを見つけることができる、中心的なハブとなっています。
 
 <!--
 Note: Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
 -->
+
 備考: WordPress の別のパートに貢献することに興味がありますか ? [make.wordpress.org](https://make.wordpress.org) で、WordPress に貢献できるさまざまな方法をご覧ください。
 
 <!--
-This guide is geared toward new contributors, giving you quick access to resources and answering some of the more common questions new contributors have when diving in. As a collaboration between new and veteran contributors, this guide has been developed to better identify the pain points in getting started and will be continuously updated with improvements.
+Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
 -->
 
 このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しいコントリビューターとベテランのコントリビューターのコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
@@ -139,10 +143,10 @@ It’s also possible to contribute to WordPress core using `git`. For more infor
 また、`git` を使用して WordPress コアに貢献することもできます。このプロセスについては、[コードリポジトリ (Git)](https://make.wordpress.org/core/handbook/contribute/git/) を参照してください。
 
 <!--
-Please note: pull requests submitted to GitHub will not be reviewed or merged there. Please use Trac to submit your patches.
+If you would like to use Github, please see the handbook page on [using github pull requests](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) for more information.
 -->
 
-注: GitHub に提出されたプルリクエストは、そこでレビューやマージされることはありません。Trac を使ってパッチを投稿してください。
+Github を利用したい場合は、ハンドブックの[github のプルリクエストを使用](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)のページで詳細を確認してください。
 
 <!--
 ## Patches
@@ -246,7 +250,7 @@ Everyone is encouraged to submit bug reports and feature requests directly to tr
     *   Good summary: “Media modal errors when \_\_\_ is clicked”
 *   Description – When reporting a bug be as descriptive as possible. The more descriptive you are, the easier it will be for core contributors to assist you. If applicable, list the steps needed to reproduce the error. If you are submitting a feature request, include a thorough description of your idea, stating use cases and/or user experience improvements.
 *   Keywords – Before submitting your ticket, ensure that you have used the keyword “needs-patch” or “needs-feedback” (see Trac Workflow Keywords \[link\] for more information) and set the appropriate component that your ticket applies to. This will help component maintainers as they garden tickets.
-*   -->
+-->
 
 *   要約 – 報告または要求している内容の要約をわかりやすく書きます。要約を書くと、関連するチケットのリストが表示されます。もし、あなたの課題や機能と重複するチケットがあった場合、新しいチケットを提出する必要はありません。現在のチケットを読み、提供できる追加 情報がないことを確認します。もし何か思い当たることがあれば、コメントを追加してください。
     *   悪い要約: 「メディアモーダルが壊れた !」
@@ -309,7 +313,7 @@ WordPress development happens through our official SVN and GIT repositories. As 
 WordPress の開発は、私たちの公式な SVN および Git リポジトリで行われます。そのため、GitHub からのプルリクエスト (PR) を監視したり、受け入れたりすることはありません。しかし、Git リポジトリからパッチを作成し、チケットに添付することはできます。そのためには、
 
 <!--
-Alert: We need to add information on creating a GitGit Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance. Most modern plugin and theme development is being done with this version control system. [https://git-scm.com/](https://git-scm.com/). patchpatch A special text file that describes changes to code, by identifying the files and lines which are added, removed, and altered. It may also be referred to as a **diff**. A patch can be *applied* to a codebase for testing. here.
+Alert: We need to add information on creating a Git patch here.
 -->
 
 注: ここに Git パッチを作成するための情報を追加する必要があります。

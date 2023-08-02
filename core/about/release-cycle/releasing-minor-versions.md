@@ -38,8 +38,8 @@ Ideally, all patches land at least 48 hours before release and a release candida
 
 Regardless of which kind of release you’re planning, there are a number of things you need to do.
 
-*   Check for breaking changes that would require a dev notedev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase.. Ensure that those are published ahead of the release and tagged with the minor release number, related major release number, and the dev notesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. tag (e.g., “4.9, 4.9.2, dev notes”).
-*   Notify the Akismet team a few days ahead of time. If they have a plugin release coming soon, it’s good for us to be able to include an updated version, so users aren’t being prompted to updated Akismet as soon as they install WordPress. [Here’s an example](https://build.trac.wordpress.org/changeset/38478) of a commit to build.svn that bumps the Akismet external to the latest version.
+*   Check for breaking changes that would require a dev note. Ensure that those are published ahead of the release and tagged with the minor release number, related major release number, and the dev notes tag (e.g., “4.9, 4.9.2, dev notes”).
+*   Verify that the latest version of Akismet is included in WordPress builds. You no longer need to reach out to the Akismet team to see if there is a plugin release coming soon to include in the update. This is is important and prevents a user from seeing an update prompt immediately after creating a new site. This has been automated ([related discussion](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647)). [Here’s an example](https://build.trac.wordpress.org/changeset/38478) of a commit to build.svn that bumps the Akismet external to the latest version (this is the old, manually method).
 *   Ask a member of the Security team to run the private security unit test suite, to make sure no regressions are introduced. If any are found, avoid discussing the details publicly, because some sites (like wordpress.org) run `trunk` or beta/RCs in production. Instead, notify the Security team privately.
 *   You’ll want to notify hosts that a release is coming a couple of days ahead of time. Three days is the recommended time frame, but is not always possible depending on release timeline. The security team can assist you with the message to hosts. This message **should not go out until all security patches are ready** (if a security release).
 *   If there will be **string changes in your release, notify the Polyglots team ahead of time**.
@@ -54,7 +54,7 @@ Now that you’ve done all of that, it’s on to release day.
 
 You’ve made it. Release day can be stressful. The best way to survive release day is to *stay calm*. Things will go wrong. It’s okay, just regroup and keep moving forward. Here’s a list of things that need to get done on release day:
 
-*   The relevant credits file needs to be updated to list any new contributors. That files lives [in the meta repository](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits).
+*   The relevant credits file needs to be updated to list any new contributors. That file lives [in the meta repository](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits).
 *   If you’re running a security release, security patches need to be committed to all relevant branches.
 *   Once any security patches are committed, move the release process to the [#core](https://make.wordpress.org/core/tag/core/) channel.
     *   start by making an announcement (using the `/here` Slack command) welcoming people to the release party
@@ -66,8 +66,10 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   Prepare these changes well in advance and ask for a review. This will help avoid hold-ups during the release process. The version bump and about page can be committed together, they do not need to be separate.
 *   On all branches, the release [needs to be tagged](https://build.trac.wordpress.org/browser/tags/). Many people run releases from SVN and rely on the tags to do that. Tagging can be completed by using following commands (be sure to update with your relevant branch and release): `svn cp https://develop.svn.wordpress.org/branches/5.7 https://develop.svn.wordpress.org/tags/5.7.2 -m "Tag 5.7.2"` If you’ve double- and triple-checked to ensure that `https://develop.svn.wordpress.org` is the repository root for your checkout, you can use the `^` shortcut, which would result in this command: `svn cp ^/branches/5.7 ^/tags/5.7.2 -m "Tag 5.7.2"`
 *   The release packages need to be built in mission control, from the tag of each version being released. Once it’s packaged, it needs to be tested well, including manually testing updates. (How do you do that? Checkout the [docs](#testing-packages).)
-*   Autoupdates need to be enabled in the `versions.php` file, located in the dotorg repository. (This file requires access to a dotorg sandbox, so one of them must be on hand for this.) To enable autoupdates, set the `WP_CORE_LATEST_RELEASE` constant to be the new version number. You should also update the array `wporg_get_version_equivalents()` to match all of the new versions, and the corresponding old version should be added to the array of old versions.
-    *   The percentage on offer can be lowered in this file as well, if our systems are having trouble serving so many updates. Generally, they’ll ask us to lower it to 50% and raise it from there after 30-45 minutes. To alter the percentage, change the `WP_CORE_AUTOUPDATE_PERCENT` constant.
+*   Autoupdates need to be enabled in the `versions.php` file, located in the dotorg repository. (This file requires access to a dotorg sandbox, so one of them must be on hand for this.) To enable autoupdates, set the `WP_CORE_LATEST_RELEASE` constant to be the new version number, and set the time that autoupdates should start in `WP_CORE_AUTOUPDATE_RAMP_START`, this should be a few minutes after the anticipated deploy. You should also update the array `wporg_get_version_equivalents()` to match all of the new versions, and the corresponding old version should be added to the array of old versions.
+    
+    *   The percentage on offer will ramp up from 50% to 100% availability over the course of a specified time. This is controlled by the `WP_CORE_AUTOUPDATE_RAMP_START` and `WP_CORE_AUTOUPDATE_RAMP_PERIOD` constants. These work in conjunction with the previous `WP_CORE_AUTOUPDATE_PERCENT` constant to automate and remove the need for us to manually alter `WP_CORE_AUTOUPDATE_PERCENT` to a lower value during some releases.
+    
     *   If it’s a security release, you should also bump `wporg_get_secure_versions()` to match the legacy versions within each branch that is not insecure.
     *   Deploy
 *   Verify that everything is working as expected, then bump `WP_CORE_AUTOUPDATE_RELEASE` and deploy.
@@ -78,7 +80,9 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   thank attendees for their assistance testing during the release
     *   let committers know they can commit again: `@committers feel free to commit as usual, thank you for your patience during the release`
 *   Alert make/polyglots that you have released. Some locales produce their own builds instead of relying on the automatic builds and need to package things on their own. [Here’s an example](https://make.wordpress.org/polyglots/2021/04/15/35197/).
-*   Update all [HelpHub Version pages](https://wordpress.org/support/wordpress-version/version-5-7-1/) with the [file diff list](https://codex.wordpress.org/Template:Release) and the link to the news post.
+*   Update all HelpHub Version pages:
+    *   Add [minor release version page](https://wordpress.org/support/wordpress-version/version-5-7-1/) with the [file diff list](https://codex.wordpress.org/Template:Release) and the link to the news post.
+    *   Add version info and link to version page on [WordPress Versions](https://wordpress.org/support/article/wordpress-versions/).
 *   Update the Codex [CurrentVersion Template](https://codex.wordpress.org/Template:CurrentVersion) with the new version.
 *   Add new versions to the Codex [WordPress Versions](https://codex.wordpress.org/WordPress_Versions) page.
 *   If there were any changes to the REST API, update the [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) over at dev hub.
@@ -91,69 +95,23 @@ You’ve made it. Release day can be stressful. The best way to survive release 
 
 Assuming you’re following the instructions above and have an ideal schedule (all the time in the world), you’ll want to use the following schedule:
 
-**When?**
-
-**What?**
-
-T-7:00:00
-
-Triage all [targeted tickets](https://core.trac.wordpress.org/tickets/minor).
-
-T-5:00:00
-
-All security patches created, tested, and cleared by the WordPress Security team.
-
-T-4:00:00
-
-Commit all non-security patches to the relevant branch(es).
-
-T-4:00:00
-
-Run the private security unit test suite
-
-T-3:00:00
-
-Notify hosts that a release is coming.
-
-T-1:00:00
-
-Create the WordPress.org/news/ blog post (as draft).
-
-T-0:12:00
-
-If there are security fixes, lower the TTL in the `version-check` API to 60 minutes. (`WP_CORE_SHORT_API_TTL_VERSION` constant in `version.php`.)
-
-T-0:05:00
-
-Commit security patches and run unit tests and security tests.
-
-T-0:00:31
-
-Version bumps on all relevant branches.
-
-T-0:00:30
-
-Build the release package in mission control. Test package and manually test updates.
-
-T-0:00:00
-
-Turn on autoupdates. (`WP_CORE_LATEST_RELEASE` constant, and the `wporg_get_versions()` and `wporg_get_version_equivalents()` functions in `version.php`.)
-
-T+0:00:01
-
-Post the WordPress.org/news/ blog post.
-
-T+0:00:15
-
-Update credits (before or after release).
-
-T+0:01:00
-
-Autoupdates complete (for the most part).
-
-T+0:01:00
-
-Tag the releases. Many people run WordPress from SVN and need a tagged release to deploy.
+| **When?** | **What?** |
+| --- | --- |
+| T-7:00:00 | Triage all [targeted tickets](https://core.trac.wordpress.org/tickets/minor). |
+| T-5:00:00 | All security patches created, tested, and cleared by the WordPress Security team. |
+| T-4:00:00 | Commit all non-security patches to the relevant branch(es). |
+| T-4:00:00 | Run the private security unit test suite |
+| T-3:00:00 | Notify hosts that a release is coming. |
+| T-1:00:00 | Create the WordPress.org/news/ blog post (as draft). |
+| T-0:12:00 | If there are security fixes, lower the TTL in the `version-check` API to 60 minutes. (`WP_CORE_SHORT_API_TTL_VERSION` constant in `version.php`.) |
+| T-0:05:00 | Commit security patches and run unit tests and security tests. |
+| T-0:00:31 | Version bumps on all relevant branches. |
+| T-0:00:30 | Build the release package in mission control. Test package and manually test updates. |
+| T-0:00:00 | Turn on autoupdates. (`WP_CORE_LATEST_RELEASE` constant, and the `wporg_get_versions()` and `wporg_get_version_equivalents()` functions in `version.php`.) |
+| T+0:00:01 | Post the WordPress.org/news/ blog post. |
+| T+0:00:15 | Update credits (before or after release). |
+| T+0:01:00 | Autoupdates complete (for the most part). |
+| T+0:01:00 | Tag the releases. Many people run WordPress from SVN and need a tagged release to deploy. |
 
 ## Extras
 

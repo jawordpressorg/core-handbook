@@ -67,9 +67,9 @@ Current committers include:
 現在のコミッターです。
 
 <!-- 
-**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, and **Grzegorz Ziółkowski**.
+**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, and **Grzegorz Ziółkowski**.
  -->
-**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Grzegorz Ziółkowski**.
+**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, **Grzegorz Ziółkowski**.
 
 <!-- 
 Other contributing developers include **Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, and **Samuel Wood**.
@@ -97,9 +97,9 @@ Since anyone who is an active contributor on a team can be elected as team rep, 
 チームのアクティブな貢献者であれば誰でも、チーム代表に選ばれる可能性があるため、チーム代表はプロジェクトの他の領域、コミュニケーションプロトコル、一般的なプロセスについて、しばしば異なるレベルの知識を持ちます。全員の期待を同じ場所に集めるため、[チーム代表のための者のための仕事の定義が Make/Updates にあります](https://make.wordpress.org/updates/team-reps/)。
 
 <!-- 
-**@marybaum** and **@audrasjb** are the current Core Team Reps for 2021. Team Rep elections happen every 1-2 years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
+@hellofromtonya and @webcommsat are the current Core Team Reps for 2023. Team Rep elections happen every years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
  -->
-**@marybaum** と **@audrasjb** が、2021年のコアチーム代表です。チーム代表の選挙は1-2年ごとに行われ、[特定のプロセス](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/)に従います。これには新しい代表の[指名](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/)、[投票](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/)、[新代表の発表](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/)が含まれます。
+@hellofromtonya と @webcommsat が、2023年のコアチーム代表です。チーム代表の選挙は毎年行われ、[特定のプロセス](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/)に従います。これには新しい代表の [指名](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/)、[投票](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/)、[発表](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) が含まれます。
 
 <!-- 
 ### UX and Design
@@ -108,14 +108,7 @@ Since anyone who is an active contributor on a team can be elected as team rep, 
 
 <!-- 
 The [design team](https://make.wordpress.org/ui/) is made up of core contributors who work on the design and user interface of WordPress.
- -->
-[デザインチーム](https://make.wordpress.org/ui/)は、WordPress のデザインとユーザーインターフェイスに携わるコア貢献者で構成されています。
-<!-- 
-**Ryan Boren** leads user experience for 2015. **Matt Thomas** is the style lead for WordPress. **Ben Dunkle** is the icon designer.
- -->
-**Ryan Boren** が2015年のユーザー体験をリードします。**Matt Thomas** は WordPressのスタイルのリード、**Ben Dunkle** はアイコンデザイナーです。
 
-<!-- 
 ### Support
  -->
 ### サポート
@@ -129,14 +122,15 @@ The [support forums](https://wordpress.org/support/) are run by a team of volunt
 ### Documentation
  -->
 ### ドキュメンテーション
+
 <!-- 
-The Documentation team is responsible for all things documentation, including the [Codex](http://codex.wordpress.org), handbooks, developer.wordpress.org, admin help, inline docs, and other general wordsmithing across the WordPress project.
+The Documentation team is responsible for all things documentation, including [HelpHub](https://wordpress.org/support) (end-users documentation), [DevHub](https://developer.wordpress.org) (developer-oriented documentation), handbooks, admin help, inline docs, and other general wordsmithing across the WordPress project.
 
-This handbook and the Codex are the primary sources of information for learning how to develop, improve, and troubleshoot WordPress. The handbook is curated by a small group of volunteers, while the Codex is open for anyone with a wordpress.org user account to edit.
+This handbook and HelpHub/DevHub are the primary sources of information for learning how to develop, improve, and troubleshoot WordPress. These resources are curated by a group of volunteers. Everyone is welcome to contribute.
  -->
-ドキュメンテーションチームは、[Codex](http://codex.wordpress.org)、ハンドブック、developer.wordpress.org、管理者向けのヘルプ、インラインドキュメント、その他 WordPress プロジェクト全体にわたる一般的な文書作成などドキュメンテーション全般を担当しています。
+ドキュメンテーションチームはドキュメントに関するすべてに責任を持ちます。これには [HelpHub](https://wordpress.org/support) (エンドユーザードキュメント), [DevHub](https://developer.wordpress.org) (開発者向けドキュメント)、ハンドブック、管理者向けのヘルプ、インラインドキュメント、その他 WordPress プロジェクト全体にわたる一般的な文書作成が含まれます。
 
-ハンドブックと Codex は、WordPress の開発、改良、トラブルシューティングの方法を学ぶための最初の情報源です。ハンドブックは少人数のボランティアグループによって管理されますが、Codex は wordpress.org のユーザーアカウントを持っている人なら誰でも編集できます。
+ハンドブックと HelpHub/DevHub は、WordPress の開発、改良、トラブルシューティングの方法を学ぶための最初の情報源です。これらのリソースはボランティアのグループによって整備されています。みなさんのコントリビューションを歓迎します。
 
 <!-- 
 ### Mobile
@@ -173,4 +167,3 @@ WordPress プラグインディレクトリに申請されたプラグインは�
 WordPress core development updates and discussion from the teams above happen on the [Make WordPress blogs.](http://make.wordpress.org) You can also follow core development by joining the **[#core](https://make.wordpress.org/core/tag/core/)** channel on the project’s [Slack team](https://make.wordpress.org/chat/), which is open for anyone to join. Dedicated channels are set up for various WordPress core components and community initiatives. A more specific breakdown of the WordPress project’s communication channels is available in the [Communication](https://make.wordpress.org/core/handbook/about/communication/) section of the Core Handbook.
  -->
 WordPress のコア開発のアップデートや上述のチームからのディスカッションは、[Make WordPress blogs](http://make.wordpress.org) で行われます。またコア開発をフォローするには、プロジェクトの [Slack team](https://make.wordpress.org/chat/) の **[#core](https://make.wordpress.org/core/tag/core/)** チャンネルに参加してください。こちらは誰でも参加できます。 WordPress のさまざまなコアコンポーネントやコミュニティの取り組みについては、専用のチャンネルが設定されています。WordPress プロジェクトのコミュニケーションチャンネルのより具体的な詳細は、コアハンドブックの [Communication](https://make.wordpress.org/core/handbook/about/communication/) セクションにあります。
-

@@ -19,7 +19,7 @@ The general format for a commit message is as follows:
 > Props person, another.  
 > Fixes [#30000](https://core.trac.wordpress.org/ticket/30000). See [#20202](https://core.trac.wordpress.org/ticket/20202), #105.
 
-Generally, each line in a commit message should begin with a capital letter and end with a full stop. Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack. Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
+Generally, each line in a commit message should begin with a capital letter and end with a full stop/period. Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack. Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
 
 ### Brief summary
 
@@ -34,7 +34,7 @@ The first line of a commit message is a brief summary of the changeset. The brie
 
 ### Description
 
-The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and why.
+The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notes and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and why.
 
 #### Guidelines
 
@@ -141,8 +141,8 @@ During the RC stage, [all patches must be reviewed by a second committer](https:
 *   If you have any doubts about whether or not a patch is acceptable, ask a few other committers for a second opinion.
 *   Make sure the changed lines conform to [the coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
     *   PHP
-        *   To check all lines in all changed files, run `phpcs $(git diff master --name-only)` or `phpcs $(svn stat | grep "\(M \|A \)" | grep -v "external item" | cut -c8-)` .
-        *   To check only the changed lines, clone [wp-dev-lib](https://github.com/xwp/wp-dev-lib/) and [run](https://github.com/xwp/wp-dev-lib/#manually-invoking-pre-commit) `DIFF_BASE=master DEV_LIB_ONLY=phpsyntax,phpcs /path/to/wp-dev-lib/pre-commit`. Note that you need to be on a local branch other than `master`, and the changed need to be either committed, or staged for commit. Unstaged changes will not be scanned.
+        *   To check all lines in all changed files, run `phpcs $(git diff trunk --name-only)` or `phpcs $(svn stat | grep "\(M \|A \)" | grep -v "external item" | cut -c8-)` .
+        *   To check only the changed lines, clone [wp-dev-lib](https://github.com/xwp/wp-dev-lib/) and [run](https://github.com/xwp/wp-dev-lib/#manually-invoking-pre-commit) `DIFF_BASE=trunk DEV_LIB_ONLY=phpsyntax,phpcs /path/to/wp-dev-lib/pre-commit`. Note that you need to be on a local branch other than `trunk`, and the changes need to be either committed, or staged for commit. Unstaged changes will not be scanned.
         *   Creating Bash aliases for the above commands is recommended for convenience.
     *   JavaScript
         *   [Run](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/#jshint) `npm run grunt jshint`. This will be done automatically by `npm run grunt precommit` as well.

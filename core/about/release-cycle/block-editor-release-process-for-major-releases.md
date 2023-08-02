@@ -7,7 +7,7 @@ This guide will clarify how to handle the block editor portion of a major WordPr
 *   **Timeline planner:** this involves mapping out key milestones for the editor release squad to be aware of, making sure Gutenberg releases line up well, and helping remind/wrangle work around those dates. 
 *   **Project Board Manager:** this includes setting up the board, adding automations, keeping the board up to date with priority issues, triage of incoming GitHub issues, and reporting to teams any major blockers. 
 *   **Release Wrangler:** this role involves managing the actual packaging of the release and working with the wider release squad. 
-*   **Communication Wrangler:** this includes helping wrangle dev notesdev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase., attending meetings to share important information, and reporting back updates to the release squad. 
+*   **Communication Wrangler:** this includes helping wrangle dev notes, attending meetings to share important information, and reporting back updates to the release squad. 
 
 ## Quick Reference Timeline
 
@@ -148,36 +148,37 @@ Generally speaking, the process is as follows:
 
 To get started, here’s a script to use to begin auditing the experimental APIs:
 
+```
 ( () => {
 	const reportExperimental = (
 		objectToReport = window.wp,
 		returnObject = {},
-		path = \[\],
+		path = [],
 		depth = 0
 	) => {
-		const MAXIMUM\_DEPTH\_TO\_SEARCH = 6;
+		const MAXIMUM_DEPTH_TO_SEARCH = 6;
 		const { lodash } = window;
 		if (
-			depth > MAXIMUM\_DEPTH\_TO\_SEARCH ||
+			depth > MAXIMUM_DEPTH_TO_SEARCH ||
 			! lodash.isObject( objectToReport )
 		) {
 			return;
 		}
 		for ( const key of Object.keys( objectToReport ) ) {
 			if (
-				key.startsWith( '\_\_experimental' ) ||
-				key.startsWith( '\_\_unstable' )
+				key.startsWith( '__experimental' ) ||
+				key.startsWith( '__unstable' )
 			) {
 				lodash.set(
 					returnObject,
-					\[ ...path, key \],
-					typeof objectToReport\[ key \]
+					[ ...path, key ],
+					typeof objectToReport[ key ]
 				);
 			}
 			reportExperimental(
-				objectToReport\[ key \],
+				objectToReport[ key ],
 				returnObject,
-				\[ ...path, key \],
+				[ ...path, key ],
 				depth + 1
 			);
 		}
@@ -185,6 +186,8 @@ To get started, here’s a script to use to begin auditing the experimental APIs
 	};
 	return reportExperimental();
 } )();
+
+```
 
 This script takes advantage of the fact that most of the block editor API’s are exposed as part of the wp global and recursively iterates on that variable, trying to find experimental keys in the object. This report allows you to see some experimental Actions, Selectors, Components, Functions, and some settings. However, this script does not cover experimental props in components or experimental flags in settings objects. For those aspects, you’ll need to search the codebase and talk with those familiar enough with the code to know what is likely still experimental. If you don’t know where to start, it’s recommended that you ask in the next [#core-editor](https://make.wordpress.org/core/tag/core-editor/) meeting. 
 
@@ -209,7 +212,7 @@ If you have gone through the process of deciding which features to include in th
 
 **Planning and Writing Dev Notes**
 
-*For more context on Dev Notedev note Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include: a description of the change; the decision that led to this change a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. best practices, check out* [*this handbook page*](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)*.*
+*For more context on Dev Note best practices, check out* [*this handbook page*](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)*.*
 
 In order to know what needs a Dev Note, you can check all PRs [labeled with  “Needs Dev Note”.](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Needs+Dev+Note%22.) You might find that there are more PRs than you can feasible write individual posts for without overwhelming the community with information. The best thing to do if you find too many PRs with that label is to group related changes and propose a dev note for each group.
 
@@ -273,9 +276,13 @@ Once tasks on the “Must Haves” board are completed they need to be backporte
 
 *   Review all PRs with the label [“Backport to WP Beta/RC”](https://github.com/WordPress/gutenberg/pulls?q=label%3A%22Backport+to+WP+Core%22+sort%3Acreated-desc+). Verify if everything is expected, and that the PRs are not “risky” to go into a core release.
 *   Create a branch based on wp/trunk and named in accordance with the release being prepared e.g: wp/trunk-5-4-0-rc-1.
-*   Cherry-pick each PR into the newly created branch. The hash of the commit can be extracted from the GitHub pull request page. In order to avoid merge conflicts, it is important to make sure the commits are cherry-picked in the same order they were made in the master branch. This will likely not be the same order that appears in the label view, so double-check the merge date and if necessary refer to the [commit history](https://github.com/WordPress/gutenberg/commits/master). You can combine multiple commits in a single command, like so: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
+*   Cherry-pick each PR into the newly created branch.
+    
+    *   There is [a convenient cherry-picking automation](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/) available via `npm run cherry-pick`. It finds all merged Pull Requests with the “Backport to WP Beta/RC” label, cherry-picks them, and asks whether to automatically comment on the relevant PRs and push the branch to Github. You can also pass another label as the first argument.
+    
+    *   You can also do it manually. The hash of the commit can be extracted from the GitHub pull request page. In order to avoid merge conflicts, it is important to make sure the commits are cherry-picked in the same order they were made in the master branch. This will likely not be the same order that appears in the label view, so double-check the merge date and if necessary refer to the [commit history](https://github.com/WordPress/gutenberg/commits/master). You can combine multiple commits in a single command, like so: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
 *   Merge conflicts may still happen. If they do, you will have to resolve them, and if you are unsure how, message the PR author for assistance. Take notes about what steps were taken to resolve the conflict.
-*   After solving a conflict execute the cherry-pick command with the remaining commits to merge.
+*   After solving a conflict execute the cherry-pick command (or the cherry-pick automation) with the remaining commits to merge.
 *   Push the branch to GitHub.
 *   Create a pull request on GitHub from the branch you created into the wp-trunk branch. The PR description should include a table that lists all the PRs that were cherry-picked, the authors (pinging the authors with a mention so the authors are aware that the PR will be part of the next WordPress release) and specify the changes that were made to solve the conflicts (in case there was a conflict). A sample PR can be checked at  [https://github.com/WordPress/gutenberg/pull/21083](https://href.li/?https://github.com/WordPress/gutenberg/pull/21083).
 *   Verify that continuous integration executed with success for the PR.
@@ -285,14 +292,9 @@ Once tasks on the “Must Haves” board are completed they need to be backporte
 **Package update and core patch**
 
 *   After merging the cherry picking PR switch to the `wp/trunk` branch and run `git pull`.
-*   Follow the normal process to update packages for a production release documented at [https://github.com/WordPress/gutenberg/blob/master/packages/README.md#production-release](https://github.com/WordPress/gutenberg/blob/master/packages/README.md#production-release).
-*   Update the packages using the automated script by running `npm run wp-packages-update` on the wordpress-develop folder.
-*   If the release includes any new blocks:
-    *   Include them in:
-        *   [tools/webpack/blocks.js](https://github.com/WordPress/wordpress-develop/blob/trunk/tools/webpack/blocks.js)
-        *   [wp-includes/blocks/index.php](https://github.com/WordPress/wordpress-develop/blob/trunk/src/wp-includes/blocks/index.php)
-    *   Unregistered their init hooks in `_unhook_block_registration` in [tests/phpunit/includes/functions.php](https://github.com/WordPress/wordpress-develop/blob/trunk/tests/phpunit/includes/functions.php)
-*   Create a new WordPress build by running `npm install && npm run build:dev`.
+*   Run the relevant Github action to update the `@wordpress` npm packages for a WordPress release as documented at [https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases](https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases)
+*   Update the packages using the automated script by running `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>` in the wordpress-develop folder. Remember to use the same dist-tag as the newly released `@wordpress` packages, e.g. `wp-6.2` for the 6.2 major version.
+*   Then run `npm run postsync-gutenberg-packages` in the wordpress-develop folder. It includes any new Gutenberg blocks in core and runs the required builds.
 *   Verify the issues that were supposed to be resolved are in fact resolved on the WordPress trunk.
 *   Create a [Trac](https://core.trac.wordpress.org/) ticket for the package updates in Core.
 *   Submit a PR against wordpress-develop to make sure the continuous integration tests pass, and add the Trac ticket number to the description. This ensures the PR gets linked to the ticket, and the patch will then be created automatically. For example, here’s the PR from WordPress 6.0 release cycle: [#2564](https://github.com/WordPress/wordpress-develop/pull/2564)

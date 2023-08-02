@@ -101,7 +101,9 @@ Some easy tasks for a first time contributor to get started at a contributor day
 
 If you are unsure if you are on the latest npm version, run the following command:
 
+```bash
  npm install npm@latest -g 
+```
 
 *    Docker – https://docs.docker.com/install/
 
@@ -109,13 +111,17 @@ A handy guide to setting up your local environment can be found in [**Contributi
 
 Largely, the setup process can be finished end to end by running the following command from the Gutenberg directory (Powershell works well if you are on Windows.):
 
+```bash
 ./bin/setup-local-env.sh
+```
 
 The script will go step by step through the process of validating prerequisites are met. If there is something missing, the script will report what needs to be done to complete the setup. Re running the script a few times after making the suggested changes will complete setup.  
 
 Once you have the development version of Gutenberg running on your local environment you will need to run the following from within the Gutenberg directory:
 
+```bash
 npm run dev
+```
 
 This will monitor/update changes you make.  
 
@@ -133,7 +139,9 @@ If you are looking for some unassigned first issues to get familiar with contrib
 4.  Make an initial commit 
 5.  Publish your branch using: 
 
+```bash
 git push -u origin <branch name>
+```
 
 Now you are ready to make your changes locally to fix the issue. When finished, commit your changes and push them to your branch.  
 
