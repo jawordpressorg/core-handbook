@@ -94,7 +94,7 @@ The core and contributing developers serve as guides for WordPress development.
 <!-- 
 Since anyone who is an active contributor on a team can be elected as team rep, team reps will often have different levels of familiarity with other areas of the project, communication protocols, and general processes. To get everyone’s expectations in the same place, the [“job description” for team reps is located on Make/Updates](https://make.wordpress.org/updates/team-reps/).
  -->
-チームのアクティブな貢献者であれば誰でも、チーム代表に選ばれる可能性があるため、チーム代表はプロジェクトの他の領域、コミュニケーションプロトコル、一般的なプロセスについて、しばしば異なるレベルの知識を持ちます。全員の期待を同じ場所に集めるため、[チーム代表のための者のための仕事の定義が Make/Updates にあります](https://make.wordpress.org/updates/team-reps/)。
+チームのアクティブな貢献者であれば誰でも、チーム代表に選ばれる可能性があるため、チーム代表はプロジェクトの他の領域、コミュニケーションプロトコル、一般的なプロセスについて、しばしば異なるレベルの知識を持ちます。全員の期待を同じ場所に集めるため、[チーム代表のための仕事の定義が Make/Updates にあります](https://make.wordpress.org/updates/team-reps/)。
 
 <!-- 
 @hellofromtonya and @webcommsat are the current Core Team Reps for 2023. Team Rep elections happen every years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
