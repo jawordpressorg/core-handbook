@@ -6,7 +6,7 @@
 <!--
 Alert: This page is out of date. Let someone in [#core](https://wordpress.slack.com/messages/C02RQBWTW) know if you want to help update it!
 -->
-警告: このページは古くなっています。更新を手伝いたい方は、[#core](https://wordpress.slack.com/messages/C02RQBWTW) の誰かに知らせてください !
+注: このページは古くなっています。更新を手伝いたい方は、[#core](https://wordpress.slack.com/messages/C02RQBWTW) の誰かに知らせてください !
 
 <!--
 ## About the Project
