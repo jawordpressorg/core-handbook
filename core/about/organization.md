@@ -110,7 +110,7 @@ Since anyone who is an active contributor on a team can be elected as team rep, 
 <!-- 
 The [design team](https://make.wordpress.org/ui/) is made up of core contributors who work on the design and user interface of WordPress.
  -->
-[デザインチーム](https://make.wordpress.org/ui/)は、WordPress のデザインとユーザーインターフェイスに携わる中心的な貢献者で構成されています。
+[デザインチーム](https://make.wordpress.org/ui/)は、WordPress のデザインとユーザーインターフェースに携わる中心的な貢献者で構成されています。
 
 <!-- 
 ### Support
