@@ -82,7 +82,7 @@ Just because an error message points to a core file, doesn’t mean that’s whe
 Another key strategy is to try and replicate the bug in a fresh WordPress install with no extra plugins or themes. While this may not always be possible, if you can find it in a fresh install, the issue is much more likely to be in core.
 -->
 
-もう一つの重要な戦略は、プラグインやテーマを追加していない、新しい WordPress インストールでバグを再現してみることです。これは常に可能ではないかもしれませんが、新しいインストールでもバグが見つかれば、問題はコアにある可能性が高いです。バ
+もう一つの重要な戦略は、プラグインやテーマを追加していない、新しい WordPress インストールでバグを再現してみることです。これは常に可能ではないかもしれませんが、新しいインストールでもバグが見つかれば、問題はコアにある可能性が高いです。
 
 <!--
 **2\. [Search](https://core.trac.wordpress.org/search) for your bug or enhancement request.**
@@ -152,7 +152,7 @@ Your involvement doesn’t end after you’ve submitted a ticket. Developers may
 You can also help by verifying that proposed fixes solve the problem you were experiencing. The processing of your bug may require your participation, so please be willing and prepared to aid the developers in resolving the issue. If you’d like to help fix the bug, see the section on [Fixing Bugs](https://make.wordpress.org/core/handbook/fixing-bugs/).
 -->
 
-また、提案された修正によってあなたが遭遇した問題が解決されるかどうかをかくにんすることも役立ちます。バグの処理にはあなたの協力が必要な場合がありますので、開発者が問題を解決することを手助けできるよう準備してください。バグの修正にご協力いただける場合は、[バグの修正](https://make.wordpress.org/core/handbook/fixing-bugs/)セクションをご覧ください。
+また、提案された修正によってあなたが遭遇した問題が解決されるかどうかを確認することも役立ちます。バグの処理にはあなたの協力が必要な場合がありますので、開発者が問題を解決することを手助けできるよう準備してください。バグの修正にご協力いただける場合は、[バグの修正](https://make.wordpress.org/core/handbook/fixing-bugs/)セクションをご覧ください。
 
 <!--
 You will be automatically emailed when your tickets are updated if you’ve entered your email address in [your Trac preferences](https://core.trac.wordpress.org/prefs).
