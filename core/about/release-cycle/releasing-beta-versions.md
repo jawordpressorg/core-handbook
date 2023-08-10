@@ -88,7 +88,6 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 
         *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
 
-        *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
 *   Write a message in the [#props](https://wordpress.slack.com/messages/C0FRG66LR) channel thanking and giving props to everyone who tested or otherwise helped with the beta release process
     *   Example: Props to @mention, @mention2, …, @mentionN for helping test today’s 5.8 Beta 1 release!
 *   For first Beta in the release cycle:
@@ -114,7 +113,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   `phpunit -c tests/phpunit/multisite.xml --stop-on-failure`
 *   [マイナーリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/)では、そのマイルストーンでクローズされたチケットがすべてリリースにマージされていることを確認してください (`fixed-major` がないチケットを探すことで絞り込めます)。マイナーリリースには、オプションでベータリリースを含めることができます。その判断はリリースリードの裁量に任されています。
 *   誰もコミットしようとしないように、[#core](https://make.wordpress.org/core/tag/core/)でアナウンスします。
-    *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers 4.8-beta2 がリリースされるまで、コミットは控えてください。
+    *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers Please refrain from committing until we get 4.8-beta2 released.
 *   リリースパーティに参加する人たちに、テストが終わるまでリリースパッケージへのリンクを共有しないよう注意を促してください。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **注意: テストが完了し、WordPress.org でアナウンス記事が公開されるまで、パッケージへのリンクを公開しないでください。**
 *   リリースパーティに参加する人たちに、関係のないチャットは控えるよう注意すること。
