@@ -259,7 +259,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 *   Akismet チームにリリースのスケジュールを伝え、最終リリースの前に保留中のプラグインのアップデートがリリースされるようにします。
     *   Akismet は WordPress のコミットごとに自動的に更新がチェックされ、必要であれば更新されます。
     *   プラグインは trunk、現在の安定版ブランチ、(trunk と異なる場合は) 現在の開発版ブランチで更新されます。
-*   ホスティングコミュニティには、メジャーバージョンの更新リリース日を通知する必要があります。リマインダーとして、[#hosting](https://wordpress.slack.com/messages/hosting/) Slack チャンネルに Slack メッセージを投稿してください。
+*   ホスティングコミュニティには、メジャーバージョンの更新リリース日を通知する必要があります。リマインダーとして、[#hosting](https://wordpress.slack.com/messages/hosting/) Slack チャンネルにメッセージを投稿してください。
 *   [翻訳文字列のフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)について、Polyglots P2 でアナウンスしてください ([5.9の例](https://make.wordpress.org/polyglots/2021/12/16/wordpress-5-9-ready-to-be-translated/))。
 *   コミッターには、RC 1がリリースされるときに[リリース候補コミットポリシー](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)が適用されること、特に RC フェーズでは、すべてのコミットがコミッターから二重チェックを得なければならないことを積極的に知らせるべきです。これは RC1 がリリースされた*後*に始まるので、リマインダーでは、RC フェーズが近付いているが、まだ始まっていないことをみんなに知らせてください。
 *   プライベートセキュリティのユニットテスト・スイートを実行してください。
@@ -453,8 +453,11 @@ This is your pre-release checklist. Do not skip it. To help with coordination, i
 *   `src/wp-admin/includes/update-core.php` を更新します。
     *   古いファイルをチェックし、それらが `$_old_files` にあるかどうかを確認します:
         *   `svn diff --summarize [https://core.svn.wordpress.org/tags/4.4](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/trunk](https://core.svn.wordpress.org/trunk) | grep '^D'`
+        *   現在のメジャーがすでに `trunk` からブランチされている場合は、`svn diff --summarize [https://core.svn.wordpress.org/tags/6.1.1](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/branches/6.2](https://core.svn.wordpress.org/trunk) | grep '^D'` を使ってください。
+        *   **注意**: Requests ライブラリから削除されたファイルは `$_old_files` には記録されません。代わりに `$_old_requests_files` グローバルに追加する必要があります。
     *   `$_old_files` 名前のあるファイルが追加されていないかチェックします。追加されたファイルが `$_old_files` にある場合は、追加されたバージョンと一緒にコメントアウトします。履歴のために、その行は削除しないでください。
         *   `svn diff --summarize [https://core.svn.wordpress.org/tags/4.4](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/trunk](https://core.svn.wordpress.org/trunk) | grep '^A'`
+        *   現在のメジャーがすでに `trunk` からブランチされている場合は、`svn diff --summarize [https://core.svn.wordpress.org/tags/6.1.1](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/branches/6.2](https://core.svn.wordpress.org/trunk) | grep '^A'` を使ってください。
     *   `$_new_bundled_files` が最新かどうかをチェックします。これは新しいデフォルトテーマごとに更新する必要があります。
     *   **注意:** デフォルトテーマから削除されたファイルは `$_old_files` にリストされるべきではありません。これらはコアのアップデートとは別に更新されるので、含める必要はありません。
 *   `npm run grunt prerelease` を実行して、すべてのテストがパスし、CSS と JS ファイルが標準に準拠していることを確認する。(これには時間がかかります)
@@ -675,7 +678,7 @@ You’ve made it to release day!
     *   Kick off the next cycle with the next lead.
 -->
 
-1.  ブランチのバージョンを `X.Y.1-alpha-$REVNUM-src` に、trunk のバージョンを `X.Y+1-alpha-$REVNUM-src` に更新し、対応する `package.json` と readme の変更も一緒に更新します。次のリリースのリードがコミット権限を持っている場合は、trunk を更新する栄誉が与えられるべきです。6.3リリースのコミット例: [https://core.trac.wordpress.org/changeset/55611](https://core.trac.wordpress.org/changeset/55611)。
+1.  ブランチのバージョンを `X.Y.1-alpha-$REVNUM-src` に、trunk のバージョンを `X.Y+1-alpha-$REVNUM-src` に更新し、対応する `package.json` と `package-lock.json` の変更も一緒に更新します。次のリリースのリードがコミット権限を持っている場合は、trunk を更新する栄誉が与えられるべきです。6.3リリースのコミット例: [https://core.trac.wordpress.org/changeset/55611](https://core.trac.wordpress.org/changeset/55611)。
 2.  ナイトリービルドを強制します。(注意: ナイトリービルドではチェックサムは利用できません。WP-CLI は、インストールされているバージョンとアップグレード先のバージョンの両方のチェックサムを取得するので、古いファイルを削除できます)。
 3.  Trac で `trunk` バージョンの名前を `X.Y` に変更し、trunk 用の新しいバージョンを作成します。`X.Y` のマイルストーンを完成させ、新しいサイクルと `X.Y.1` の新しいマイルストーンを作成します。これは Trac の管理者が行う必要があります。
 4.  Trac では、前のメジャーに対して未リリースのマイナーマイルストーンがある場合、マイルストーンを新しい `X.Y` (既に解決され `X.Y` ブランチに含まれるチケットの場合) または `X.Y.1` (まだ調査や議論が必要なチケットの場合) に更新します。Trac 管理者は未リリースのマイナーマイルストーンを削除してください。
@@ -692,9 +695,9 @@ You’ve made it to release day!
     *   [https://wordpress.org/support/](https://wordpress.org/support/) のトップページにある「Getting Started」の最新リリースを更新します。
     *   [https://wordpress.org/support/forum/how-to-and-troubleshooting/](https://wordpress.org/support/forum/how-to-and-troubleshooting/) のトップにある固定スレッドを更新します。
     *   wordpress.org のサンドボックスで `wp devhub parse --url=developer.wordpress.org` を実行します。これで [DevHub コードリファレンス](https://developer.wordpress.org/reference/)のドキュメントが最新の安定版コアリリースを解析するように更新されます。
-5.  Polyglots チームを忘れないでください ! リリース投稿のコードバージョンを [#polyglots](https://make.wordpress.org/core/tag/polyglots/) チャンネルで共有し、彼らが簡単に翻訳できるようにしましょう。リリース投稿をエディターで開き、設定 > すべてのコンテンツをコピーに進みます。Slack の [#polyglots](https://make.wordpress.org/core/tag/polyglots/) チャンネルにスニペットとして貼り付けます。
-6.  リリースの過程で重要なテストを手伝ってくれた人たちを特定し、まだクレジットされていない場合はクレジット API に追加するために登録してください。これは Meta Trac チケットで行うことができます。
-7.  リリースの翌週に:
+6.  Polyglots チームを忘れないでください ! リリース投稿のコードバージョンを [#polyglots](https://make.wordpress.org/core/tag/polyglots/) チャンネルで共有し、彼らが簡単に翻訳できるようにしましょう。リリース投稿をエディターで開き、設定 > すべてのコンテンツをコピーに進みます。Slack の [#polyglots](https://make.wordpress.org/core/tag/polyglots/) チャンネルにスニペットとして貼り付けます。
+7.  リリースの過程で重要なテストを手伝ってくれた人たちを特定し、まだクレジットされていない場合はクレジット API に追加するために登録してください。これは Meta Trac チケットで行うことができます。
+8.  リリースの翌週に:
     *   必要であれば、ふりかえりの記事を掲載します。
     *   [サポートチーム](https://make.wordpress.org/support/)に、目立った問題がないか確認します。
     *   [コミュニティチーム](https://make.wordpress.org/community/)に、コミュニティからのフィードバックを確認します。
