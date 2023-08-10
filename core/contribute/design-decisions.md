@@ -128,7 +128,7 @@ With regards to establishment and popularity, there are a number of things that 
 <!--
 *   Is the service is popular enough for core developers to have heard of it before? Is it “mainstream?”
 *   If similar services are already supported, how does this service compare in terms of size, features, and backing?
-*   Does this service have a large following on Twitter, Facebook, or other social media?  Is its Twitter account verified?
+*   Does this service have an established social media presence?
 *   Is its oEmbed endpoint clearly established and properly documented? (Sometimes, they are just a developer’s pet project that may not be supported.)
 *   Does the oEmbed endpoint work with WordPress’ oEmbed auto-discovery? If not, could it be made to work with additional HTML tags or attributes being added to the allow-list?
 *   Does the service make an effort to build relationships with developers, such as through robust APIs?
@@ -140,7 +140,7 @@ With regards to establishment and popularity, there are a number of things that 
 
 *   コア開発者が聞いたことがあるような人気のあるサービスですか ?「主流」ですか ?
 *   同様のサービスがすでにサポートされている場合、このサービスは規模、機能、支持者の面ではどのように比較されますか ?
-*   このサービスは、Twitter や Facebook などのソーシャルメディアで多くのフォロワーを抱えていますか ? Twitter のアカウントは認証されていますか ?
+*   このサービスは、ソーシャルメディアにおいて確立された存在感を示していますか？
 *   その oEmbed エンドポイントは明確に確立され、適切に文書化されていますか ? (時には、開発者の趣味であるプロジェクトに過ぎず、サポートされていない場合もあります)。
 *   oEmbed エンドポイントは、WordPress の oEmbed 自動検出で機能しますか ? そうでない場合、HTML タグや属性を許可リストに追加して動作させることは可能ですか ?
 *   APIを充実させるなど、開発者との関係作りに力を入れていますか ?

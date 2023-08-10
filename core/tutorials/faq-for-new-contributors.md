@@ -22,7 +22,7 @@ You also will want to go through the posts on [Make WordPress Core](https://make
 
 ## Are there specific people who can help me get started?
 
-There are. [@desrosj](https://profiles.wordpress.org/desrosj/), [@flixos90](https://profiles.wordpress.org/flixos90/), [@stevenkword](https://profiles.wordpress.org/stevenkword/), [@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/), [@welcher](https://profiles.wordpress.org/welcher/), [@audrasjb](https://profiles.wordpress.org/audrasjb) and [@SergeyBiryukov](https://profiles.wordpress.org/SergeyBiryukov/) run the New Core Contributors Bimonthly Chats on Slack; plan to start going to a few. The schedule is on [Make/Meetings](https://make.wordpress.org/meetings/), and they’ll welcome your questions.
+There are. [@desrosj](https://profiles.wordpress.org/desrosj/), [@flixos90](https://profiles.wordpress.org/flixos90/), [@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/), [@welcher](https://profiles.wordpress.org/welcher/), [@audrasjb](https://profiles.wordpress.org/audrasjb/), [@costdev](https://profiles.wordpress.org/costdev/), [@mike](https://profiles.wordpress.org/mike/), [@oglekler](https://profiles.wordpress.org/oglekler/), and [@SergeyBiryukov](https://profiles.wordpress.org/SergeyBiryukov/) run the New Core Contributors Bimonthly Chats on Slack; plan to start going to a few. The schedule is on [Make/Meetings](https://make.wordpress.org/meetings/), and they’ll welcome your questions.
 
 You can also ping them on Slack. If you have questions after a meeting, or you have a question you’d rather not ask publicly, you’re more than welcome to ping them throughout the week.
 
@@ -80,7 +80,7 @@ Also, in the earliest weeks, there’s an [open call for tickets](https://make.w
 
 ## What do all those keywords on the tickets mean? What are they for?
 
-See [Trac workflow keywords glossary](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).  
+See [Trac workflow keywords glossary](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
 
 ## How do I make patches with Git?
 

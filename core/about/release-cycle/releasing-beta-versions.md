@@ -30,6 +30,8 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   Example ([archive](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers Please refrain from committing until we get 4.8-beta2 released.
 *   Remind those attending the release party to not share links to the release package until after it’s been tested.
     *   Example ([archive](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **Reminder: Please do not share links to the package publicly until the all-clear is given after testing and the announcement post is published on WordPress.org.**
+*   Remind those attending the release party to refrain from non-relevant chatting.
+    *   Example: **Reminder: Please refrain from non-relevant chatting.  This is an important process, and a lower signal-to-noise ratio isn’t helpful if something goes wrong**.
 *   Verify latest GitHub Action checks are passing (i.e., all show ✅).
     *   Check the latest commit on https://github.com/WordPress/wordpress-develop/actions?query=event%3Apush+branch%3Atrunk
 *   For Minor releases, check out the release branch: `svn switch '^/branches/4.7'` and remind people to update their current install or make a fresh install.
@@ -42,7 +44,6 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   If the `$wp_version` is `4.8.1-beta1` then the `version` in `package.json` should be just `4.8.1`.
     *   If you are releasing an RC, then the `$wp_version` would be `4.8.1-RC1-src`.
     *   Update `$wp_version` to add the appropriate version identifier and remove the SVN changeset number:![](https://make.wordpress.org/core/files/2017/06/pasted-image-0-1024x470.png)
-
     *   Ensure version bump appears on https://build.trac.wordpress.org/. *This only needs to be verified by the person releasing via Mission Control*.
 *   Build the packages.
 
@@ -84,7 +85,9 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing.
 
     *   For RC releases, note the `dev-feedback` and `dev-reviewed` workflow is required prior to committing, where each commit must get double-signoff.
+
         *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
+
 *   Write a message in the [#props](https://wordpress.slack.com/messages/C0FRG66LR) channel thanking and giving props to everyone who tested or otherwise helped with the beta release process
     *   Example: Props to @mention, @mention2, …, @mentionN for helping test today’s 5.8 Beta 1 release!
 *   For first Beta in the release cycle:
@@ -110,9 +113,11 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   `phpunit -c tests/phpunit/multisite.xml --stop-on-failure`
 *   [マイナーリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/)では、そのマイルストーンでクローズされたチケットがすべてリリースにマージされていることを確認してください (`fixed-major` がないチケットを探すことで絞り込めます)。マイナーリリースには、オプションでベータリリースを含めることができます。その判断はリリースリードの裁量に任されています。
 *   誰もコミットしようとしないように、[#core](https://make.wordpress.org/core/tag/core/)でアナウンスします。
-    *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers 4.8-beta2 がリリースされるまで、コミットは控えてください。
+    *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers Please refrain from committing until we get 4.8-beta2 released.
 *   リリースパーティに参加する人たちに、テストが終わるまでリリースパッケージへのリンクを共有しないよう注意を促してください。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **注意: テストが完了し、WordPress.org でアナウンス記事が公開されるまで、パッケージへのリンクを公開しないでください。**
+*   リリースパーティに参加する人たちに、関係のないチャットは控えるよう注意すること。
+    *   例: **Reminder: Please refrain from non-relevant chatting.  This is an important process, and a lower signal-to-noise ratio isn’t helpful if something goes wrong**.
 *   最新の GitHub Action チェックがパスしていることを確認します (つまり、すべて ✅ が表示されます)。
     *   https://github.com/WordPress/wordpress-develop/actions?query=event%3Apush+branch%3Atrunk の最新コミットをチェックします。
 *   マイナーリリースについては、リリースブランチをチェックしてください: `svn switch '^/branches/4.7'` を実行し、現在インストールされているものをアップデートするか、新たにインストールするよう人々に呼びかけます。

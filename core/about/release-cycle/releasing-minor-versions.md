@@ -14,7 +14,7 @@ Depending on the focus of the minor release (security, maintenance, or both), t
 
 ### Security
 
-**Security patches should be created well ahead of time**. Different patches may be necessary for trunk and stable branches. Currently, we make an effort to back port patches to all versions of WordPress that support autoupdates (3.7+). However, back porting patches is not always possible and those versions of WordPress are not officially supported as a result.
+**Security patches should be created well ahead of time**. Different patches may be necessary for trunk and stable branches. Currently, we make an effort to back port patches to all versions of WordPress that support autoupdates (4.1+). However, back porting patches is not always possible and those versions of WordPress are not officially supported as a result.
 
 Follow the process in the Security team handbook to make sure that patches are adequately tested for back-compat, bypasses, and real-world cases.
 

@@ -122,7 +122,6 @@ svn co \
 
 ### Gitを使用するときの注意点
 
-
 <!--
 † If your `trunk` branch has changed since you last worked on your patch (for example, if you’ve pulled down the latest code), you’ll need to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) your branch against the latest code. This is a great way to keep your patches up to date, and it’s much easier with Git than with svn. Here is an example sequence of commands to update your `trunk` branch then refresh your patch on top of the latest code (make sure you have [no uncommitted changes in your repository](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) first):
 -->

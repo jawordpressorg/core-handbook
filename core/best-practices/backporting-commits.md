@@ -23,7 +23,7 @@ A basic SVN flow to backport a commit could look like this:
 コミットをバックポートする基本的な SVN のフローは次のようになります:
 
 1.  `$ svn switch '^/branches/5.9'`
-2.  `$ svn merge -c 12345 '^/trunk'`
+2.  `$ svn merge -c 12345 '^/trunk'` where `12345` is the changeset ID.
 3.  `$ svn ci`
 
 <!--

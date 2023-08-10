@@ -70,7 +70,7 @@ Factory `create*()` methods accept an array of arguments, specific to that objec
 
 When all tests within a test class need the same fixtures to be available, it is common practice to abstract the creation of these fixtures out to a “set up” method. It is also good practice, to clean up after your test and remove any fixtures you have created.
 
-[PHPUnit offers four methods](https://phpunit.readthedocs.io/en/stable/fixtures.html) which are automatically called to help with this: `setUpBeforeClass()`, `setUp()`, `tearDown()` and `tearDownAfterClass()`.
+[PHPUnit offers four methods](https://docs.phpunit.de/en/9.6/fixtures.html) which are automatically called to help with this: `setUpBeforeClass()`, `setUp()`, `tearDown()` and `tearDownAfterClass()`.
 
 In the context of the WordPress test suite, `snake_case` versions of these methods **MUST** be used. These *snake\_case* methods provide PHPUnit cross-version compatibility.
 
@@ -105,13 +105,13 @@ class Tests_Subset_functionName {
 }
 ```
 
-For more information about when to use which method, please read through the [Fixtures chapter in the PHPUnit manual](https://phpunit.readthedocs.io/en/stable/fixtures.html).
+For more information about when to use which method, please read through the [Fixtures chapter in the PHPUnit manual](https://docs.phpunit.de/en/9.6/fixtures.html).
 
 ## Using Assertions
 
 The most basic assertion available in PHPUnit is `assertSame()`, which performs a strict equality check `===` between the `$expected` and `$actual` parameters. Nearly any test can be written using this assertion.
 
-For convenience, PHPUnit makes many more assertion methods available. It is strongly recommended to use the most specific assertion available. See [the official documentation](https://phpunit.readthedocs.io/en/stable/assertions.html) for information. As of WP 5.9, all assertions as available in PHPUnit 9.x can be used in the WordPress test suite and will work PHPUnit cross-version.
+For convenience, PHPUnit makes many more assertion methods available. It is strongly recommended to use the most specific assertion available. See [the official documentation](https://docs.phpunit.de/en/9.6/assertions.html) for information. As of WP 5.9, all assertions as available in PHPUnit 9.x can be used in the WordPress test suite and will work PHPUnit cross-version.
 
 Some of the more common assertion methods:
 
@@ -151,13 +151,13 @@ class Tests_Foo {
 
 ## Annotations
 
-[PHPUnit annotations](https://phpunit.readthedocs.io/en/stable/annotations.html) are pieces of metadata, indicated by a `@`, placed in the docblock of a test method or class. WordPress’s tests use a number of PHPUnit annotations, as well as a few custom ones, to organize its tests. Note that annotations belonging to a class are automatically inherited by all member test methods, and should not be appended with a full stop.
+[PHPUnit annotations](https://docs.phpunit.de/en/9.6/annotations.html) are pieces of metadata, indicated by a `@`, placed in the docblock of a test method or class. WordPress’s tests use a number of PHPUnit annotations, as well as a few custom ones, to organize its tests. Note that annotations belonging to a class are automatically inherited by all member test methods, and should not be appended with a full stop.
 
 Some of the more commonly used annotations:
 
 *   `@group` – Used to sort tests and test classes by functionality, into groups that can be run separately (eg `$ phpunit --group comment`). All test classes should have at least one `@group` annotation, and individual tests should have additional `@group` annotations as necessary.
 *   `@covers` – Used to annotate which function, method or class is actually being tested by a particular test. It is **strongly recommended** to add a `@covers` tag for every test.
-*   `@requires` – This annotation is used to indicate that a test has a dependency on, for instance, a specific PHP (minimum) version, a PHP extension or a particular function being available. If a test can only succeed if such a dependency exists and is fulfilled, the `@requires` tag should be added to the test docblock. The [PHPUnit manual](https://phpunit.readthedocs.io/en/stable/incomplete-and-skipped-tests.html#incomplete-and-skipped-tests-requires-tables-api) has some great examples of how to use this tag.
+*   `@requires` – This annotation is used to indicate that a test has a dependency on, for instance, a specific PHP (minimum) version, a PHP extension or a particular function being available. If a test can only succeed if such a dependency exists and is fulfilled, the `@requires` tag should be added to the test docblock. The [PHPUnit manual](https://docs.phpunit.de/en/9.6/incomplete-and-skipped-tests.html#incomplete-and-skipped-tests-requires-tables-api) has some great examples of how to use this tag.
 *   `@ticket` – A custom WordPress annotation. Use `@ticket 12345` to indicate that a test addresses the bug described in ticket [#12345](https://core.trac.wordpress.org/ticket/12345). Internally, `@ticket` annotations are translated to `@group`, so that you can limit test runs to those associated with a specific ticket: `$ phpunit --group 12345`.
 *   `@expectedDeprecated` – Custom to WordPress. Indicates that a `_deprecated_*()` notice is expected to be thrown by the specified function/method/class. Without this annotation, tests that trigger a deprecation notice will fail; similarly, if you include this annotatation but the test does not trigger a deprecation notice, the test will fail. For example, tests for the deprecated `like_escape()` contain the annotation `@expectedDeprecated like_escape`.
 *   `@expectedIncorrectUsage` – Similar to `@expectedDeprecated`, but for `_doing_it_wrong()` notices.
@@ -214,7 +214,7 @@ A [data provider](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpuni
 
 This second function must return an array of arrays, where each entry in this array is called a *data set* and passed to the test function as input parameters.
 
-It is highly recommended to use [named data sets](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest1-php) in a data provider.
+It is highly recommended to use [named data sets](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest1-php) in a data provider.
 
 ### One-off Functions for Hooks
 

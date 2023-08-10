@@ -7,11 +7,14 @@ Changes to supported [PHPUnit](https://phpunit.de/index.html) versions have been
 *   In WordPress 5.1: Added support for PHPUnit 7 on PHP 7.1, 7.2, and 7.3. PHP 7.0 remains at PHPUnit 6.
 *   In WordPress 5.2: Added support for PHPUnit 7 on PHP 7.0, and PHPUnit 5 on PHP 5.6.
 *   In WordPress 5.9: Added a dependency on the external [PHPUnit Polyfills](https://github.com/Yoast/PHPUnit-Polyfills/), which enabled support for PHPUnit 8 and 9, making it so the tests can now run on the most appropriate PHPUnit version for each PHP version.
+*   In WordPress 6.3: [Dropped support for PHP 5.6](https://make.wordpress.org/core/2023/07/05/dropping-support-for-php-5/) and thus PHPUnit 5.
 
 ## Supported Version Chart
 
-| WP | PHP Unit Version | [5.2](https://www.php.net/archive/2006.php) | [5.3](https://www.php.net/archive/2009.php#id2009-06-30-1) | [5.4](https://www.php.net/archive/2012.php#id2012-03-01-1) | [5.5](https://www.php.net/archive/2013.php#id2013-06-20-1) | [5.6](https://www.php.net/archive/2014.php#id2014-08-28-1) | [7.0](https://www.php.net/archive/2015.php#id2015-12-03-1) | [7.1](https://www.php.net/archive/2016.php#id2016-12-01-3) | [7.2](https://www.php.net/archive/2017.php#id2017-11-30-1) | [7.3](https://www.php.net/archive/2018.php#id2018-12-06-1) | [7.4](https://www.php.net/archive/2019.php#2019-11-28-1) | [8.0](https://www.php.net/archive/2020.php#2020-11-26-3) | [8.1](https://www.php.net/archive/2021.php#2021-11-25-1) | 8.2 |
+| WP | PHP Unit Version | [5.2](https://www.php.net/archive/2006.php) | [5.3](https://www.php.net/archive/2009.php#id2009-06-30-1) | [5.4](https://www.php.net/archive/2012.php#id2012-03-01-1) | [5.5](https://www.php.net/archive/2013.php#id2013-06-20-1) | [5.6](https://www.php.net/archive/2014.php#id2014-08-28-1) | [7.0](https://www.php.net/archive/2015.php#id2015-12-03-1) | [7.1](https://www.php.net/archive/2016.php#id2016-12-01-3) | [7.2](https://www.php.net/archive/2017.php#id2017-11-30-1) | [7.3](https://www.php.net/archive/2018.php#id2018-12-06-1) | [7.4](https://www.php.net/archive/2019.php#2019-11-28-1) | [8.0](https://www.php.net/archive/2020.php#2020-11-26-3) | [8.1](https://www.php.net/archive/2021.php#2021-11-25-1) | [8.2](https://www.php.net/archive/2022.php#2022-12-08-1) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [6.3](https://wordpress.org/news/2023/08/lionel/) | x | x | x | x | x | 6 | 7 | 8 | 9 | 9 | 9 | 9 | 9 |
+| [6.2](https://wordpress.org/news/2023/03/dolphy/) | x | x | x | x | 5 | 6 | 7 | 8 | 9 | 9 | 9 | 9 | 9 |
 | [6.1](https://wordpress.org/news/2022/11/misha/) | x | x | x | x | 5 | 6 | 7 | 8 | 9 | 9 | 9 | 9 | 9 |
 | [6.0](https://wordpress.org/news/2022/05/arturo/) | x | x | x | x | 5 | 6 | 7 | 8 | 9 | 9 | 9 | 9 | x |
 | [5.9](https://wordpress.org/news/2022/01/josephine/) | x | x | x | x | 5 | 6 | 7 | 8 | 9 | 9 | 9 | 9 | x |

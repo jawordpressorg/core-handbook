@@ -137,7 +137,6 @@ Your local install will be used for beta testing and reporting bugs, so it is im
 
 ローカルインストールはベータテストやバグ報告に使用されるため、エラーメッセージや通知を見ることができるのは重要です。プレーンテキストエディターで `wordpress-trunk/wp-config.php` を開き、`WP_DEBUG` を **true** に設定します。
 
-
 ```php
 /**
  * For developers: WordPress debugging mode.

@@ -120,6 +120,14 @@ The ticket has been reviewed, found to be desirable to solve, and we would like 
 
 このチケットはレビューされ、解決することが望ましいと判断されました。そして、他の問題を引き起こすリスクが高いため、機能および存在する可能性のあるパッチをテストするために、変更をコミットする前にいくつかのユニットテストを書くことが推奨されています。
 
+**phpNN**
+
+<!--
+When paired with the `php-compatibility` focus, this manually added keyword identifies the specific PHP version (i.e. `NN`) that first introduced a compatibility issue or task. For example, `php80` keyword identifies that PHP 8.0 is the version that first introduced the incompatibility.
+-->
+
+このキーワードは `php-compatibility` フォーカスと組み合わせると、 互換性の問題やタスクを最初に導入した PHP のバージョン (つまり `NN`) を特定します。例えば、`php80` キーワードは PHP 8.0 が最初に非互換性を導入したバージョンであることを示します。
+
 <!--
 ## Action-based Keywords
 -->

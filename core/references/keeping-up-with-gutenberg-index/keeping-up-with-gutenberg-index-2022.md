@@ -760,7 +760,7 @@ April
 **DevNotes WordPress 5.9**
 -->
 
-**WordPress 6.0の開発者ノート**
+**WordPress 5.9の開発者ノート**
 
 *   [Cover Block Refactor Dev Note](https://make.wordpress.org/core/2022/02/09/cover-block-refactor-dev-note/)
 *   [Theme-focused changes and filters in WordPress 5.9](https://make.wordpress.org/core/2022/01/07/theme-focused-changes-and-filters-in-wordpress-5-9/)

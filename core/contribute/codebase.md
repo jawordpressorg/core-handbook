@@ -5,10 +5,10 @@
 # WordPress のコードベース
 
 <!--
-WordPress is managed by a centralized version control system called [Subversion](http://subversion.tigris.org/). A mirror of this repository is also available via [Git](http://git-scm.com/), a distributed VCS.
+WordPress is managed by a centralized version control system called [Subversion](https://subversion.apache.org/). A mirror of this repository is also available via [Git](https://git-scm.com/), a distributed VCS.
 -->
 
-WordPress は、[Subversion](http://subversion.tigris.org/) という集中型バージョン管理システムで管理されています。このリポジトリのミラーは、分散型 VCS である [Git](http://git-scm.com/) を介して利用することもできます。
+WordPress は、[Subversion](https://subversion.apache.org/) という集中型バージョン管理システムで管理されています。このリポジトリのミラーは、分散型 VCS である [Git](http://git-scm.com/) を介して利用することもできます。
 
 <!--
 The WordPress codebase can be accessed in a number of ways: using Subversion, using Git, through Trac (the bug tracker), and via direct download:
