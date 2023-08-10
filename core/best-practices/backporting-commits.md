@@ -74,7 +74,7 @@ Make sure to run the above commands from the branch root, and not from a sub dir
 At the bottom of https://core.trac.wordpress.org/browser/branches/5.9 you see two links, ‘merged’ and ‘eligible’. The second one shouldn’t list commits which are already merged.
 -->
 
-https://core.trac.wordpress.org/browser/branches/5.9 の一番下に、「'merged」と「eligible」という2つのリンクがあります。2番目のリンクは、すでにマージされたコミットをリストすべきではありません。
+https://core.trac.wordpress.org/browser/branches/5.9 の一番下に、「'merged」と「eligible」という2つのリンクがあります。2番目のリンクは、すでにマージされたコミットでは表示されないはずです。
 
 <!--
 ### Security Backports
