@@ -636,6 +636,8 @@ You’ve made it to release day!
 3.  [HelpHub リリースページ](https://wordpress.org/support/wordpress-version/version-5-2/)を公開します。
 4.  Codex を更新します。
     1.  Codex のバージョンページを確定します。
+        1.  追加:
+            `{{#dotorgredirect:https://wordpress.org/support/wordpress-version/version-6-2/}`
     2.  新しいバージョンで [CurrentVersion テンプレート](https://codex.wordpress.org/Template:CurrentVersion)を更新します。
     3.  [WordPress バージョン](https://codex.wordpress.org/WordPress_Versions)ページを更新します。
         1.  以下を追加します:

@@ -1,5 +1,3 @@
-# Running New Contributor Meetings
-
 <!--
 # Running New Contributor Meetings
 -->
