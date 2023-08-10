@@ -117,6 +117,8 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers 4.8-beta2 がリリースされるまで、コミットは控えてください。
 *   リリースパーティに参加する人たちに、テストが終わるまでリリースパッケージへのリンクを共有しないよう注意を促してください。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **注意: テストが完了し、WordPress.org でアナウンス記事が公開されるまで、パッケージへのリンクを公開しないでください。**
+*   リリースパーティに参加する人たちに、関係のないチャットは控えるよう注意すること。
+    *   例: **Reminder: Please refrain from non-relevant chatting.  This is an important process, and a lower signal-to-noise ratio isn’t helpful if something goes wrong**.
 *   最新の GitHub Action チェックがパスしていることを確認します (つまり、すべて ✅ が表示されます)。
     *   https://github.com/WordPress/wordpress-develop/actions?query=event%3Apush+branch%3Atrunk の最新コミットをチェックします。
 *   マイナーリリースについては、リリースブランチをチェックしてください: `svn switch '^/branches/4.7'` を実行し、現在インストールされているものをアップデートするか、新たにインストールするよう人々に呼びかけます。
