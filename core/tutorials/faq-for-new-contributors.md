@@ -80,7 +80,7 @@ Also, in the earliest weeks, there’s an [open call for tickets](https://make.w
 
 ## What do all those keywords on the tickets mean? What are they for?
 
-See [Trac workflow keywords glossary](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).  
+See [Trac workflow keywords glossary](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
 
 ## How do I make patches with Git?
 

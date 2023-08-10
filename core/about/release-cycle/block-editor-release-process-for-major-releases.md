@@ -211,15 +211,16 @@ Once tasks on the “Must Haves” board are completed they need to be backporte
 
 *   If a wp/x.x (should have the correct WP release number) hasn’t been created yet, create it and push it to the remote repo.
 *   Review all PRs with the label [“Backport to WP Beta/RC”](https://github.com/WordPress/gutenberg/pulls?q=label%3A%22Backport+to+WP+Core%22+sort%3Acreated-desc+). Verify if everything is expected, and that the PRs are not “risky” to go into a core release.
-*   Remove the label from any PRs that were closed without merging, otherwise they’ll mess with the automated cherry-pick script.
-*   Create a branch based on wp/x.x
+*   Create a branch based on wp/trunk and named in accordance with the release being prepared e.g: wp/trunk-5-4-0-rc-1.
 *   Cherry-pick each PR into the newly created branch.
-    *   There is [a convenient cherry-picking automation](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/) available via `npm run other:cherry-pick`. It finds all merged Pull Requests with the “Backport to WP Beta/RC” label, cherry-picks them, and asks whether to automatically comment on the relevant PRs and push the branch to Github. You can also pass another label as the first argument.
-    *   You can also do it manually. The hash of the commit can be extracted from the GitHub pull request page. In order to avoid merge conflicts, it is important to make sure the commits are cherry-picked in the same order they were made in trunk. This will likely not be the same order that appears in the label view, so double-check the merge date and if necessary refer to the [commit history](https://github.com/WordPress/gutenberg/commits/master). You can combine multiple commits in a single command, like so: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
-*   Merge conflicts may still happen. If they do, you will have to resolve them, and if you are unsure how, message the PR author for assistance.
-*   Sometimes a conflict happens because the cherry-picked commit is dependent on another commit that wasn’t included in the release branch. This may be an accidental omission, so it’s good to double-check by pinging the authors of the PRs.
-*   After manually solving a conflict, make sure to go back to the original PR and remove the “Backport to WP Beta/RC” label from it.
-*   Create a pull request on GitHub from the branch you created into the wp/x.x branch.
+
+    *   There is [a convenient cherry-picking automation](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/) available via `npm run cherry-pick`. It finds all merged Pull Requests with the “Backport to WP Beta/RC” label, cherry-picks them, and asks whether to automatically comment on the relevant PRs and push the branch to Github. You can also pass another label as the first argument.
+
+    *   You can also do it manually. The hash of the commit can be extracted from the GitHub pull request page. In order to avoid merge conflicts, it is important to make sure the commits are cherry-picked in the same order they were made in the master branch. This will likely not be the same order that appears in the label view, so double-check the merge date and if necessary refer to the [commit history](https://github.com/WordPress/gutenberg/commits/master). You can combine multiple commits in a single command, like so: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
+*   Merge conflicts may still happen. If they do, you will have to resolve them, and if you are unsure how, message the PR author for assistance. Take notes about what steps were taken to resolve the conflict.
+*   After solving a conflict execute the cherry-pick command (or the cherry-pick automation) with the remaining commits to merge.
+*   Push the branch to GitHub.
+*   Create a pull request on GitHub from the branch you created into the wp-trunk branch. The PR description should include a table that lists all the PRs that were cherry-picked, the authors (pinging the authors with a mention so the authors are aware that the PR will be part of the next WordPress release) and specify the changes that were made to solve the conflicts (in case there was a conflict). A sample PR can be checked at  [https://github.com/WordPress/gutenberg/pull/21083](https://href.li/?https://github.com/WordPress/gutenberg/pull/21083).
 *   Verify that continuous integration executed with success for the PR.
 *   If there were merge conflicts to solve, you might want to ping the authors of the conflicting commits to double-check they were solved correctly. Otherwise, if all tests pass on CI, it’s fine to go ahead and merge the PR to the release branch.
 *   After merging, run the package publish task from the release branch:
@@ -229,11 +230,11 @@ Once tasks on the “Must Haves” board are completed they need to be backporte
 
 **Package updates and core patch**es
 
-*   Once the npm packages are published, they can be updated in the `wp-develop` repo using the automated script: `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>`. Remember to use the same dist-tag as the newly released `@wordpress` packages, e.g. `wp-6.2` for the 6.2 major version.
+*   After merging the cherry picking PR switch to the `wp/trunk` branch and run `git pull`.
+*   Run the relevant Github action to update the `@wordpress` npm packages for a WordPress release as documented at [https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases](https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases)
+*   Update the packages using the automated script by running `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>` in the wordpress-develop folder. Remember to use the same dist-tag as the newly released `@wordpress` packages, e.g. `wp-6.2` for the 6.2 major version.
 *   Then run `npm run postsync-gutenberg-packages` in the wordpress-develop folder. It includes any new Gutenberg blocks in core and runs the required builds.
-*   If any new front end scripts have been added to dynamic blocks, these need to be referenced manually in the [webpack block config](https://github.com/WordPress/wordpress-develop/blob/trunk/tools/webpack/blocks.js#L67).
-*   After running both sync and postsync tasks, verify that the correct files have been updated for any blocks with changes to their PHP or block.json files, and also that files have been generated for any brand new blocks.
-*   In your WP local development environment, check that the issues that were supposed to be resolved are in fact resolved.
+*   Verify the issues that were supposed to be resolved are in fact resolved on the WordPress trunk.
 *   Create a [Trac](https://core.trac.wordpress.org/) ticket for the package updates in Core.
 *   Submit a PR against wordpress-develop to make sure the continuous integration tests pass, and add the Trac ticket number to the description. This ensures the PR gets linked to the ticket, and the patch will then be created automatically. For example, here’s the PR from WordPress 6.0 release cycle: [#2564](https://github.com/WordPress/wordpress-develop/pull/2564)
 *   Ask for reviews. During the beta stage a review is recommended but not mandatory; during the RC process a double signoff by two different committers is required. If you are a committer and are confident with the changes you can be one of the approvers and add the “dev-feedback” keyword.
