@@ -43,7 +43,7 @@ For non-Docker workflows, you need to make sure that PHP and MySQL/MariaDB are a
 
 For more information on setting up PHP and a database locally, please see the [Installing a local server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/) handbook pages.
 
-Please note that both [PHPUnit](https://phpunit.readthedocs.io/en/latest/installation.html#requirements), as well as the WordPress test suite have requirements for [certain PHP extensions](https://make.wordpress.org/hosting/handbook/server-environment/#php-extensions) to be enabled in your install to be able to run the full test suite.
+Please note that both [PHPUnit](https://docs.phpunit.de/en/9.6/installation.html#requirements), as well as the WordPress test suite have requirements for [certain PHP extensions](https://make.wordpress.org/hosting/handbook/server-environment/#php-extensions) to be enabled in your install to be able to run the full test suite.
 
 Typical extensions which should be enabled are: `gd`, `mysql[i]`, `zip`, `exif`, `intl`, `mbstring`, `xml`, `xsl`.
 
@@ -88,7 +88,7 @@ Once the Composer dependencies are installed, you can run the tests from the com
 
 **Step 1**: Install PHPUnit Phar
 
-Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://phpunit.readthedocs.io/en/stable/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
+Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://docs.phpunit.de/en/9.6/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
 
 **Step 2**: Install [Composer](https://getcomposer.org/download/)
 
@@ -108,7 +108,7 @@ This method is most suitable if you want to install PHPUnit and the PHPUnit Poly
 
 **Step 1**: Install PHPUnit PHAR
 
-Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://phpunit.readthedocs.io/en/stable/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
+Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://docs.phpunit.de/en/9.6/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
 
 **Step 2**: Install [PHPUnit Polyfills](https://github.com/Yoast/PHPUnit-Polyfills/)
 
@@ -189,7 +189,7 @@ To run an **individual class**, use `--filter` with the name of the class:
 phpunit --filter Tests_Formatting_wpParseStr
 ```
 
-The `--filter` option in PHPUnit is very flexible and has lots of supported options. Please see the [PHPUnit Manual](https://phpunit.readthedocs.io/en/stable/textui.html#textui-examples-filter-patterns) for more examples.
+The `--filter` option in PHPUnit is very flexible and has lots of supported options. Please see the [PHPUnit Manual](https://docs.phpunit.de/en/9.6/textui.html#textui-examples-filter-patterns) for more examples.
 
 #### Groups
 
@@ -296,7 +296,7 @@ There are three primary ways to contribute:
 
 **Write new tests to improve our code coverage.** Many areas of WordPress do not have adequate test coverage. Pick a function, class, or component and write tests for it. You can submit these tests on [the WordPress Trac](https://core.trac.wordpress.org/).
 
-**Fix or improve our existing test cases.** There are many opportunities for improvement in the existing tests. Some of them are ancient and others are slow or fragile. Some do not tests well in multisite or under certain conditions. Some individual tests try to test too much, and [could be improved by using](https://phpunit.readthedocs.io/en/latest/writing-tests-for-phpunit.html) data providers, dependencies, and more narrow assertions.
+**Fix or improve our existing test cases.** There are many opportunities for improvement in the existing tests. Some of them are ancient and others are slow or fragile. Some do not tests well in multisite or under certain conditions. Some individual tests try to test too much, and [could be improved by using](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html) data providers, dependencies, and more narrow assertions.
 
 ## JavaScript Unit Tests
 
@@ -304,5 +304,5 @@ Unit tests for JavaScript code are currently much more limited in WordPress Core
 
 ## Further Reading
 
-*   [PHPUnit Manual](https://phpunit.readthedocs.io)
+*   [PHPUnit Manual](https://docs.phpunit.de/)
 *   [PHPUnit on Github](https://github.com/sebastianbergmann/phpunit)

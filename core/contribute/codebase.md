@@ -1,6 +1,6 @@
 # The WordPress Codebase
 
-WordPress is managed by a centralized version control system called [Subversion](http://subversion.tigris.org/). A mirror of this repository is also available via [Git](http://git-scm.com/), a distributed VCS.
+WordPress is managed by a centralized version control system called [Subversion](https://subversion.apache.org/). A mirror of this repository is also available via [Git](https://git-scm.com/), a distributed VCS.
 
 The WordPress codebase can be accessed in a number of ways: using Subversion, using Git, through Trac (the bug tracker), and via direct download:
 

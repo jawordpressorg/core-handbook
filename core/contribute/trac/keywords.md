@@ -56,6 +56,10 @@ Patches and commits that change UI need screenshots. Document visual iterations
 
 The ticket has been reviewed, found to be desirable to solve, and we would like some unit tests written to test the functionality and any patch that may exist before committing a change, as the risk of causing other issues is high.
 
+**phpNN**
+
+When paired with the `php-compatibility` focus, this manually added keyword identifies the specific PHP version (i.e. `NN`) that first introduced a compatibility issue or task. For example, `php80` keyword identifies that PHP 8.0 is the version that first introduced the incompatibility.
+
 ## Action-based Keywords
 
 **2nd-opinion**

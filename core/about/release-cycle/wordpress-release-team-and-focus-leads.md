@@ -28,6 +28,8 @@ Historically, not all releases have included representatives from every area of 
 
 ## Release team roles
 
+To cover all situations, ideally each lead role in a release should have at least two people.
+
 ### Shared Responsibilities
 
 These are tasks and responsibilities that may be documented for specific roles below but can be taken on by anyone throughout the release cycle.
@@ -166,6 +168,26 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Contribute to ticket patches with code, tests, screenshots, code, and design reviews, etc
 *   Provide accessibility-related reviews and contributions to ensure accessibility standards are met
 
+### Performance Lead
+
+**Responsibilities**
+
+*   Set up priorities for the release and define a general scope for the [performance focus](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&focuses=~performance) by estimating both horizontal impact (“how many sites does this apply to?”) and vertical impact (“how much does this improve performance for sites where it applies?”)
+*   Regularly triage tickets in the milestone that fall outside of the main priorities, following up with the reporter and other contributors involved
+*   Assess feasibility of committing a fix for specific tickets in the current release cycle, based on priority, severity, effort and time needed, contributor availability, time left in the cycle
+*   Join or lead regular performance bug scrubs and other [performance related meetings](https://make.wordpress.org/performance/#block-3)
+*   Benchmark performance of relevant pull requests / patches from various components (in both [Trac](https://core.trac.wordpress.org/) and [Gutenberg](https://github.com/WordPress/gutenberg/issues)), both proactively and on demand, focusing primarily on tickets that are one of the following:
+    *   A new feature or API planned for the release
+    *   A performance enhancement or fix that is intended to improve performance
+    *   Another change that suggests to have a measurable performance impact (whether positive or negative)
+*   Work with team members to ensure [performance measurement best practices](https://make.wordpress.org/performance/handbook/measuring-performance/) are followed and clearly communicated
+*   Monitor the [WordPress core performance dashboard](https://www.codevitals.run/project/wordpress) regularly to identify potential performance regressions and report them back to the relevant ticket for which the underlying change was committed
+*   Coordinate with other release leads, primarily the Core Tech and Editor Tech Leads to support their priorities with performance guidance
+*   Communicate about the release scope and progress updates in the release leads Slack channel and during core dev chats
+*   Work with the Documentation Lead to ensure timely publishing of performance related dev note posts prior to or early in the beta phase
+*   Support team members contributing to tickets in the performance focus, e.g. through triaging, coordinating team members to help with feedback, code review, and benchmarking, as well as guidance on communication and documentation related tasks such as enhancing WordPress core documentation or writing dev notes
+*   Coordinate the contributions to tickets, pull requests/patches, tests, performance benchmarks, code reviews, etc.
+
 ### Default Theme
 
 A new default theme will be bundled together with the last release of the year. This task needs a number of roles. 
@@ -201,7 +223,7 @@ A new default theme will be bundled together with the last release of the year. 
 
 **Responsibilities**
 
-*   Guarantee that all default themes fully support any new features added in the current release
+*   Guarantee that all default themes fully support any new features added in the current release (as deemed appropriate).
 *   Triage tickets in the Bundled Theme component in Trac
 *   Manage tickets and decide what is ready, what is not, and what should not be included
 *   Mark tickets for \`commit\` when they are tested and confirmed to be ready

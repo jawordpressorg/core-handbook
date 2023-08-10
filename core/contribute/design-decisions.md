@@ -49,7 +49,7 @@ With regards to establishment and popularity, there are a number of things that 
 
 *   Is the service is popular enough for core developers to have heard of it before? Is it “mainstream?”
 *   If similar services are already supported, how does this service compare in terms of size, features, and backing?
-*   Does this service have a large following on Twitter, Facebook, or other social media?  Is its Twitter account verified?
+*   Does this service have an established social media presence?
 *   Is its oEmbed endpoint clearly established and properly documented? (Sometimes, they are just a developer’s pet project that may not be supported.)
 *   Does the oEmbed endpoint work with WordPress’ oEmbed auto-discovery? If not, could it be made to work with additional HTML tags or attributes being added to the allow-list?
 *   Does the service make an effort to build relationships with developers, such as through robust APIs?

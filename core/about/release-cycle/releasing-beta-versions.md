@@ -21,6 +21,8 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   Example ([archive](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers Please refrain from committing until we get 4.8-beta2 released.
 *   Remind those attending the release party to not share links to the release package until after it’s been tested.
     *   Example ([archive](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **Reminder: Please do not share links to the package publicly until the all-clear is given after testing and the announcement post is published on WordPress.org.**
+*   Remind those attending the release party to refrain from non-relevant chatting.
+    *   Example: **Reminder: Please refrain from non-relevant chatting.  This is an important process, and a lower signal-to-noise ratio isn’t helpful if something goes wrong**.
 *   Verify latest GitHub Action checks are passing (i.e., all show ✅).
     *   Check the latest commit on https://github.com/WordPress/wordpress-develop/actions?query=event%3Apush+branch%3Atrunk
 *   For Minor releases, check out the release branch: `svn switch '^/branches/4.7'` and remind people to update their current install or make a fresh install.
@@ -75,6 +77,9 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing.
     
     *   For RC releases, note the `dev-feedback` and `dev-reviewed` workflow is required prior to committing, where each commit must get double-signoff.
+        
+        *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
+        
         *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
 *   Write a message in the [#props](https://wordpress.slack.com/messages/C0FRG66LR) channel thanking and giving props to everyone who tested or otherwise helped with the beta release process
     *   Example: Props to @mention, @mention2, …, @mentionN for helping test today’s 5.8 Beta 1 release!

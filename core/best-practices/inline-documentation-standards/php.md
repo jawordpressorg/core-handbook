@@ -482,67 +482,110 @@ Common PHPDoc tags used in WordPress include `@since`, `@see`, `@global` `@param
 
 For the most part, tags are used correctly, but not all the time. For instance, sometimes you’ll see an `@link` tag inline, linking to a separate function or method. “Linking” to known classes, methods, or functions is not necessary, as the Code Reference automatically links these elements. For “linking” hooks inline, the proper tag to use is `@see` – see the *Other Descriptions* section.
 
-<table><tbody><tr><th>Tag</th>
+<table>
+<tbody>
+<tr>
+<th>Tag</th>
 <th>Usage</th>
 <th>Description</th>
-</tr><tr><td><strong>access</strong></td>
+</tr>
+<tr>
+<td><strong>access</strong></td>
 <td>private</td>
 <td>Only used in limited circumstances, and only when private, such as for core-only functions or core classes implementing “private” APIs. Used directly below the <strong>since</strong> line in block.</td>
-</tr><tr><td><strong>deprecated</strong></td>
+</tr>
+<tr>
+<td><strong>deprecated</strong></td>
 <td>version x.x.x<br>replacement function name</td>
 <td>What version of WordPress the function/method was deprecated. Use 3-digit version number. Should be accompanied by a matching <code>@see</code> tag.</td>
-</tr><tr><td><strong>global</strong></td>
+</tr>
+<tr>
+<td><strong>global</strong></td>
 <td>datatype $variable<br>description</td>
 <td>Document global(s) used in the function/method. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr><tr><td><strong>internal</strong></td>
+</tr>
+<tr>
+<td><strong>internal</strong></td>
 <td>information string</td>
 <td>Typically used for adding notes for internal use only.</td>
-</tr><tr><td><strong>ignore</strong></td>
+</tr>
+<tr>
+<td><strong>ignore</strong></td>
 <td>(standalone)</td>
 <td>Used to skip parsing of the entire element.</td>
-</tr><tr><td><strong>link</strong></td>
+</tr>
+<tr>
+<td><strong>link</strong></td>
 <td>URL</td>
 <td>Link to additional information for the function/method.<br>For an external script/library, links to source.<br>Not to be used for related functions/methods; use <strong>see</strong> instead.</td>
-</tr><tr><td><strong>method</strong></td>
+</tr>
+<tr>
+<td><strong>method</strong></td>
 <td>returntype<br>description</td>
 <td>Shows a “magic” method found inside the class.</td>
-</tr><tr><td><strong>package</strong></td>
+</tr>
+<tr>
+<td><strong>package</strong></td>
 <td>packagename</td>
 <td>Specifies package that all functions, includes, and defines in the file belong to. Found in DocBlock at top of the file. For core (and bundled themes), this is always <strong>WordPress</strong>.</td>
-</tr><tr><td><strong>param</strong></td>
+</tr>
+<tr>
+<td><strong>param</strong></td>
 <td>datatype $variable<br>description</td>
 <td>Function/method parameter of the format: parameter type, variable name, description, default behavior. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr><tr><td><strong>return</strong></td>
+</tr>
+<tr>
+<td><strong>return</strong></td>
 <td>datatype description</td>
 <td>Document the return value of functions or methods. <code>@return void</code> should not be used outside of the default bundled themes. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr><tr><td><strong>see</strong></td>
+</tr>
+<tr>
+<td><strong>see</strong></td>
 <td>elementname</td>
 <td>References another function/method/class the function/method relies on. Should only be used inline for “linking” hooks.</td>
-</tr><tr><td><strong>since</strong></td>
+</tr>
+<tr>
+<td><strong>since</strong></td>
 <td>version x.x.x</td>
 <td>Documents release version function/method was added. Use 3-digit version number – this is to aid with version searches, and for use when comparing versions in code. Exception is <code>@since MU (3.0.0)</code>.</td>
-</tr><tr><td><strong>@static</strong></td>
+</tr>
+<tr>
+<td><strong>@static</strong></td>
 <td>(standalone)</td>
 <td>Note: This tag has been used in the past, but should no longer be used.<br>Just using the static keyword in your code is enough for PhpDocumentor on PHP5 to recognize static variables and methods, and PhpDocumentor will mark them as static.</td>
-</tr><tr><td><strong>@staticvar</strong></td>
+</tr>
+<tr>
+<td><strong>@staticvar</strong></td>
 <td>datatype $variable<br>description</td>
 <td>Note: This tag has been used in the past, but should no longer be used.<br>Document a static variable’s use in a function/method. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr><tr><td><strong>subpackage</strong></td>
+</tr>
+<tr>
+<td><strong>subpackage</strong></td>
 <td>subpackagename</td>
 <td>For page-level DocBlock, specifies the Component that all functions and defines in file belong to. For class-level DocBlock, specifies the subpackage/component the class belongs to.</td>
-</tr><tr><td><strong>todo</strong></td>
+</tr>
+<tr>
+<td><strong>todo</strong></td>
 <td>information string</td>
 <td>Documents planned changes to an element that have not been implemented.</td>
-</tr><tr><td><strong>type</strong></td>
+</tr>
+<tr>
+<td><strong>type</strong></td>
 <td>datatype description for an argument array value</td>
 <td>Used to denote argument array value types. See the <strong>Hooks</strong> or <strong>Parameters That Are Arrays</strong> sections for example syntax.</td>
-</tr><tr><td><strong>uses</strong></td>
+</tr>
+<tr>
+<td><strong>uses</strong></td>
 <td>class::methodname()<br>class::$variablename<br>functionname()</td>
 <td><strong>Note:</strong> This tag has been used in the past, but should no longer be used.<br>References a key function/method used. May include a short description.</td>
-</tr><tr><td><strong>var</strong></td>
+</tr>
+<tr>
+<td><strong>var</strong></td>
 <td>datatype description</td>
 <td>Data type for a class variable and short description. Callbacks are marked <strong>callback</strong>.</td>
-</tr></tbody></table>
+</tr>
+</tbody>
+</table>
 
 Note:  PHPDoc tags work with some text editors/IDEs to display more information about a piece of code. It is useful to developers using those editors to understand what the purpose is, and where they would use it in their code. PhpStorm and Netbeans already support PHPDoc.
 

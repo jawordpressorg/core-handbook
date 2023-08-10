@@ -100,7 +100,7 @@ Remember that you will need to **create a MySQL database** to install WordPress 
 In your web browser, navigate to [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) to run the installation process.
 
 **For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install nodejs from here: [https://nodejs.org/download/release/latest-v14.x/](https://nodejs.org/download/release/latest-v14.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
-`npm install grunt –save-dev`  
+`npm install grunt --save-dev`  
 `npm run dev` should now complete the process of unpacking the WordPress install.
 
 Upon browser refresh you should get the response as described below. These directions are described in more detail at [https://gruntjs.com/getting-started](https://gruntjs.com/getting-started).

@@ -7,7 +7,7 @@ Do not commit to multiple branches in the same commit. This will, at a minimum, 
 A basic SVN flow to backport a commit could look like this:
 
 1.  `$ svn switch '^/branches/5.9'`
-2.  `$ svn merge -c 12345 '^/trunk'`
+2.  `$ svn merge -c 12345 '^/trunk'` where `12345` is the changeset ID.
 3.  `$ svn ci`
 
 If the fix in `trunk` required multiple separate commits, you can backport them all in a single command like this:

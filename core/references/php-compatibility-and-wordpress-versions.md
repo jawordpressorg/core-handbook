@@ -14,11 +14,24 @@ Past changes to supported PHP versions have been as followed:
 *   In WordPress 5.6: Added “beta support” for PHP 8.0 ([dev note](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/)).
 *   In WordPress 5.9: Added “beta support” for PHP 8.1 ([dev note](https://make.wordpress.org/core/2022/01/10/wordpress-5-9-and-php-8-0-8-1/)).
 *   In WordPress 6.1: Added “beta support” for PHP 8.2 (dev note pending).
+*   In WordPress 6.3:
+    *   [Dropped support for PHP 5.6](https://make.wordpress.org/core/2023/07/05/dropping-support-for-php-5/).
+    *   Raised PHP 8.0 to compatible with exceptions (dev note pending).
+        *   Exceptions:
+            *   Named parameters. WordPress does not support named parameters.
+            *   [Filesystem `WP_Filesystem_FTPext` and `WP_Filesystem_SSH2` when connect fails](https://core.trac.wordpress.org/ticket/48689).
+    *   Raised PHP 8.1 to compatible with exceptions (dev note pending).
+        *   Exceptions:
+            *   [`htmlentities()` et al needs the default value of the flags parameter explicitly set](https://core.trac.wordpress.org/ticket/53465).
+            *   [Replace most `strip_tags()` with `wp_strip_tags()`](https://core.trac.wordpress.org/ticket/57579)
+            *   [`unregister_setting()` for unknown setting](https://core.trac.wordpress.org/ticket/57674).
 
 ## Supported Version Chart
 
-| WP Version | [5.2](https://www.php.net/archive/2006.php) | [5.3](https://www.php.net/archive/2009.php#id2009-06-30-1) | [5.4](https://www.php.net/archive/2012.php#id2012-03-01-1) | [5.5](https://www.php.net/archive/2013.php#id2013-06-20-1) | [5.6](https://www.php.net/archive/2014.php#id2014-08-28-1) | [7.0](https://www.php.net/archive/2015.php#id2015-12-03-1) | [7.1](https://www.php.net/archive/2016.php#id2016-12-01-3) | [7.2](https://www.php.net/archive/2017.php#id2017-11-30-1) | [7.3](https://www.php.net/archive/2018.php#id2018-12-06-1) | [7.4](https://www.php.net/archive/2019.php#2019-11-28-1) | [8.0](https://www.php.net/archive/2020.php#2020-11-26-3) | [8.1](https://www.php.net/archive/2021.php#2021-11-25-1) | 8.2 |
+| WP Version | [5.2](https://www.php.net/archive/2006.php) | [5.3](https://www.php.net/archive/2009.php#id2009-06-30-1) | [5.4](https://www.php.net/archive/2012.php#id2012-03-01-1) | [5.5](https://www.php.net/archive/2013.php#id2013-06-20-1) | [5.6](https://www.php.net/archive/2014.php#id2014-08-28-1) | [7.0](https://www.php.net/archive/2015.php#id2015-12-03-1) | [7.1](https://www.php.net/archive/2016.php#id2016-12-01-3) | [7.2](https://www.php.net/archive/2017.php#id2017-11-30-1) | [7.3](https://www.php.net/archive/2018.php#id2018-12-06-1) | [7.4](https://www.php.net/archive/2019.php#2019-11-28-1) | [8.0](https://www.php.net/archive/2020.php#2020-11-26-3) | [8.1](https://www.php.net/archive/2021.php#2021-11-25-1) | [8.2](https://www.php.net/archive/2022.php#2022-12-08-1) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [6.3](https://wordpress.org/news/2023/08/lionel/) | N | N | N | N | N | **Y** | **Y** | **Y** | **Y** | **Y** | **Y****e** | **Y****e** | **Y\*** |
+| [6.2](https://wordpress.org/news/2023/03/dolphy/) | N | N | N | N | Y | Y | Y | Y | Y | Y | **Y\*** | **Y\*** | **Y\*** |
 | [6.1](https://wordpress.org/news/2022/11/misha/) | N | N | N | N | **Y** | **Y** | **Y** | Y | **Y** | **Y** | **Y\*** | **Y\*** | **Y\*** |
 | [6.0](https://wordpress.org/news/2022/05/arturo/) | N | N | N | N | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y\*** | **Y\*** | N |
 | [5.9](https://wordpress.org/news/2022/01/josephine/) | N | N | N | N | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y**\* | **Y\*** | N |
@@ -45,4 +58,5 @@ Past changes to supported PHP versions have been as followed:
 | [3.8](https://wordpress.org/news/2013/12/parker/) | **Y** | **Y** | **Y** | **Y** | N | N | N | N | N | N | N | N | N |
 | [3.7](https://wordpress.org/news/2013/10/basie/) | **Y** | **Y** | **Y** | **Y** | N | N | N | N | N | N | N | N | N |
 
-**\* indicates “beta support”**
+**\* indicates “beta support”**  
+**e indicates “compatible with exceptions”**

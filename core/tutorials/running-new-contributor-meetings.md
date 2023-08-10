@@ -12,7 +12,7 @@ Awesome, welcome everyone!
   
 Let’s do an open floor section for general questions for the first 20-30 minutes, and then switch to questions on specific tickets for the remainder of the meeting. We usually end 10-15 minutes before the top of the hour to leave a little breathing room for the weekly dev chat.  
   
-@desrosj, @flixos90, @mauteri, @adamsilverstein, @welcher, @audrasjb, @costdev, and @sergey are facilitators for these meetings. If you have any questions after the meeting, or anything that you are uncomfortable asking here, you are more than welcome to ping us throughout the week.  
+@desrosj, @flixos90, @adamsilverstein, @welcher, @audrasjb, @costdev, @mike, @OGlekler, and @sergey are facilitators for these meetings. If you have any questions after the meeting, or anything that you are uncomfortable asking here, you are more than welcome to ping us throughout the week.  
   
 If you have any feedback or ideas on making these meetings more helpful, please do suggest 🙂  
   

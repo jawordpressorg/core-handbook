@@ -15,7 +15,7 @@ Once you’ve been appointed lead for a given release, here are some things you 
 *   **Talk to leads, committers, and component maintainers.** On day one, you might have no idea what your release will contain. Spend some time with each of the various WordPress leads, committers, and component maintainers to see what they have in mind. These discussions can happen over days, weeks, or even months depending on when your release is scheduled.
 *   **Set a schedule.** A good cadence for major releases is every four months —often April, August, and December—though that’s not set in stone. One of the best ways to set your schedule: pick a release date and work backward from that date. Check out the scheduling section below for some tips!
 *   **Pick release deputies.** You don’t have to have a release deputy, but it’s *strongly encouraged*. Some release leads have two or more deputies, which is perfectly fine! The trick here is to pick deputies who can augment your talents and assist throughout the cycle. Don’t enjoy writing meeting notes or running meetings? Pick a deputy who does! Not a fan of triage? There’s a community member out there who would love to help. If you’re unsure who might be interested in being a deputy, [post on make/core with a call for volunteers](https://make.wordpress.org/core/tag/deputy/). (Be sure to tag your post!)
-*   **Post a call for ideas.** WordPress is built by a large community of volunteers, only some of which are committers and component maintainers. Early on in the release cycle, [post on make/core asking for ideas for the release](https://make.wordpress.org/core/tag/wishlists/). From that post, you will get individual tickets and bigger feature ideas. Sorting through them all will take some time, but will give you a great list of things to investigate for your release.
+*   **Post a call for ideas.** WordPress is built by a large community of volunteers, only some of which are committers and component maintainers. Early on in the release cycle, [post on make/core asking for ideas for the release](https://make.wordpress.org/core/tag/wishlist/). From that post, you will get individual tickets and bigger feature ideas. Sorting through them all will take some time, but will give you a great list of things to investigate for your release.
 
 ### On Scheduling
 
@@ -95,7 +95,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 *   Remind the Akismet team about the release schedule, to ensure they get any pending plugin updates released before our final release.
     *   Akismet is automatically checked for updates, and updated if required, on every WordPress commit
     *   The plugin is updated in trunk , the current stable branch and the current development branch (if it differs from trunk).
-*   The Hosts Mailing List should be notified of an updated release date for the major version (handled by the [#hosting-community](https://wordpress.slack.com/messages/hosting-community/) team). Post a message in the [#hosting-community](https://wordpress.slack.com/messages/hosting-community/) Slack channel.
+*   The Hosting community should be notified of an updated release date for the major version. Post a Slack message in the [#hosting](https://wordpress.slack.com/messages/hosting/) Slack channel as a reminder.
 *   An announcement should be made about the [string freeze](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze) on the Polyglots P2 ([example from 5.9](https://make.wordpress.org/polyglots/2021/12/16/wordpress-5-9-ready-to-be-translated/)).
 *   Committers should be given a proactive reminder that the [Release Candidate com](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)[mit policy](https://make.wordpress.org/core/2018/10/05/wordpress-5-0-commit-management/) is coming up when RC 1 is released, specifically that in the RC Phase all commits have to get double sign-off from committers. This begins *after* RC1 is released so, in the reminder, alert folks that the RC phase is coming up but has not yet begun.
 *   Run the private security unit test suite.
@@ -173,9 +173,12 @@ This is your pre-release checklist. Do not skip it. To help with coordination, i
 *   Triage any bugs reported against trunk, most easily found at the top of [report 40](https://core.trac.wordpress.org/report/40).
 *   Update `src/wp-admin/includes/update-core.php`
     *   Check for old files and see if they are in `$_old_files`:
-        *   `svn diff --summarize [https://core.svn.wordpress.org/tags/4.4](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/trunk](https://core.svn.wordpress.org/trunk) | grep '^D'`
+        *   `svn diff --summarize [https://core.svn.wordpress.org/tags/6.1.1](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/trunk](https://core.svn.wordpress.org/trunk) | grep '^D'`
+        *   If the current major has already been branched from `trunk` use `svn diff --summarize [https://core.svn.wordpress.org/tags/6.1.1](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/branches/6.2](https://core.svn.wordpress.org/trunk) | grep '^D'`
+        *   **Note**: Any deleted files from the Requests library should not be noted in `$_old_files`. Instead, they should be added to the `$_old_requests_files` global.
     *   Check for added files with names that are in `$_old_files`. Comment any out in `$_old_files` with the version where it was added back. Do not delete the lines, for the sake of history.
         *   `svn diff --summarize [https://core.svn.wordpress.org/tags/4.4](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/trunk](https://core.svn.wordpress.org/trunk) | grep '^A'`
+        *   If the current major has already been branched from `trunk` use `svn diff --summarize [https://core.svn.wordpress.org/tags/6.1.1](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/branches/6.2](https://core.svn.wordpress.org/trunk) | grep '^A'`
     *   Check that `$_new_bundled_files` is up to date. This needs to be updated with every new default theme.
     *   **Note:** files removed from default themes should not be listed in `$_old_files`. Those are updated separately from Core updates, so including them is not necessary.
 *   Run `npm run grunt prerelease`, to ensure all tests pass, and CSS and JS files conform to standards. (this takes a while)
@@ -242,18 +245,20 @@ You’ve made it to release day!
     *   Update `wporg_get_secure_versions()` with the previous secure stable release, used by [an API endpoint used by Google Webmasters Tools](https://api.wordpress.org/core/stable-check/1.0/).
     *   Update `wporg_get_version_equivalents()` if required, used by the plugin directory.
     *   Automatic updates will commence once these changes are deployed – See the final step #9.
-6.  Publish the [HelpHub release page](https://wordpress.org/support/wordpress-version/version-5-2/).
-7.  Update the [relevant credits file](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits), and deploy the changes.
-8.  Build language packs for the release by bumping versions in `translate/bin/update-all-core-packs.sh`.
-9.  Deploy WordPress.org, `deploy-dotorg.sh wporg` from a sandbox.
+6.  Update the [relevant credits file](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits), and deploy the changes.
+7.  Build language packs for the release by bumping versions in `translate/bin/update-all-core-packs.sh`.
+8.  Deploy WordPress.org, `deploy-dotorg.sh wporg` from a sandbox.
 
 ### Tell the World
 
 1.  (Publish the release video on WordPress.TV. **DO NOT Publicize**. Un-check the publicize button so the release video does not go out on Twitter/Facebook.)
 2.  Publish announcement on wordpress.org/news. This will auto-publish to Twitter.
     1.  Update the slug to include only the name of the release jazzer, not the release number.
-3.  Update the Codex.
+3.  Publish the [HelpHub release page](https://wordpress.org/support/wordpress-version/version-5-2/).
+4.  Update the Codex.
     1.  Finalize Version Page in the Codex.
+        1.  Add:  
+            `{{#dotorgredirect:https://wordpress.org/support/wordpress-version/version-6-2/}`
     2.  Update [CurrentVersion Template](https://codex.wordpress.org/Template:CurrentVersion) with the new version.
     3.  Update [WordPress Versions](https://codex.wordpress.org/WordPress_Versions) page.
         1.  Add:  
@@ -261,14 +266,15 @@ You’ve made it to release day!
         2.  Remove the version from the “Planned Versions” section.
     4.  Update [PHP Compatibility and WordPress Versions](https://make.wordpress.org/core/handbook/contribute/php-compatibility-and-wordpress-versions/) table.
     5.  Update [PHPUnit Compatibility and WordPress Versions](https://make.wordpress.org/core/handbook/references/phpunit-compatibility-and-wordpress-versions/) table.
-4.  Stare at [download counter](https://wordpress.org/download/counter/) and rejoice.
+5.  Stare at [download counter](https://wordpress.org/download/counter/) and rejoice.
 
 ## Post Release
 
-1.  Bump the branch version to `X.Y.1-alpha-$REVNUM-src` and trunk to `X.Y+1-alpha-$REVNUM-src` along with the corresponding `package.json` and readme changes for both. Assuming the next release lead has commit privileges, they should be given the honors of the trunk bump.
+1.  Bump the branch version to `X.Y.1-alpha-$REVNUM-src` and trunk to `X.Y+1-alpha-$REVNUM-src` along with the corresponding `package.json` and `package-lock.json` changes for both. Assuming the next release lead has commit privileges, they should be given the honors of the trunk bump. Example commit from the 6.3 release: [https://core.trac.wordpress.org/changeset/55611](https://core.trac.wordpress.org/changeset/55611).
 2.  Force nightly builds. (Note: Checksums aren’t available for the nightly. WP-CLI grabs the checksums for both the installed version and the version you’re upgrading to, so it can remove old files.)
 3.  In Trac, rename the `trunk` version to `X.Y` and create a new one for trunk. Complete the `X.Y` milestone and create new milestones for the new cycle and `X.Y.1`. This must be done by a Trac admin.
-4.  Update various parts of the documentation:
+4.  In Trac, if there is an unreleased minor milestone for the previous major, update the milestone to the new `X.Y` (for tickets already resolved and included in the `X.Y` branch) or `X.Y.1` (for tickets that still need investigation or discussion). A Trac admin should then remove the unreleased minor milestone.
+5.  Update various parts of the documentation:
     
     *   The current release sidebar on [make.wordpress.org/core](https://make.wordpress.org/core/).
     *   Update [make.wordpress.org/core/reports](https://make.wordpress.org/core/reports/) to modify the ‘Next Major Release’ version.  
@@ -281,9 +287,9 @@ You’ve made it to release day!
     *   Update the latest release under “Getting Started” on the front-page of [https://wordpress.org/support/](https://wordpress.org/support/).
     *   Update the sticky thread at the top of [https://wordpress.org/support/forum/how-to-and-troubleshooting/](https://wordpress.org/support/forum/how-to-and-troubleshooting/).
     *   Run `wp devhub parse --url=developer.wordpress.org` on a wordpress.org sandbox. That will update [the DevHub code reference](https://developer.wordpress.org/reference/) docs to parse the latest stable Core release.
-5.  Don’t forget the polyglots team! Share the code version of the release post on the [#polyglots](https://make.wordpress.org/core/tag/polyglots/) channel so they can translate it easily. Open the release post in the editor, then go to Settings > Copy all content. Paste it as a snippet in the [#polyglots](https://make.wordpress.org/core/tag/polyglots/) channel on Slack.
-6.  Identify folks who helped with significant testing during the release process and submit them for additions to the Credits API if they were not already credited in the release. This can be done via a Meta Trac ticket.
-7.  During the week following the release:
+6.  Don’t forget the polyglots team! Share the code version of the release post on the [#polyglots](https://make.wordpress.org/core/tag/polyglots/) channel so they can translate it easily. Open the release post in the editor, then go to Settings > Copy all content. Paste it as a snippet in the [#polyglots](https://make.wordpress.org/core/tag/polyglots/) channel on Slack.
+7.  Identify folks who helped with significant testing during the release process and submit them for additions to the Credits API if they were not already credited in the release. This can be done via a Meta Trac ticket.
+8.  During the week following the release:
     *   Publish a retrospective post if desired.
     *   Check in with the [Support Team](https://make.wordpress.org/support/) for any notable issues.
     *   Check in with the [Community Team](https://make.wordpress.org/community/) for any community feedback.
@@ -291,4 +297,4 @@ You’ve made it to release day!
 
 **Congratulations! You did it!**
 
-[#core](https://make.wordpress.org/core/tag/core/), [#hosting-community](https://make.wordpress.org/core/tag/hosting-community/)
+[#core](https://make.wordpress.org/core/tag/core/)

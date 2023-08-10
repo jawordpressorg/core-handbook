@@ -1,51 +1,53 @@
 # Block Editor Release Process for Major Releases
 
-This guide will clarify how to handle the block editor portion of a major WordPress release. This is a living document and feedback is welcomed as the hope is this can be continually improved as more people get experience managing this side of a release cycle. 
+This guide will clarify how to handle the block editor portion of a major WordPress release. This is a living document, and feedback is welcomed as the hope is this can be continually improved as more people get experience managing this side of a release cycle. 
 
-## Release Process Roles
+## Release Team Roles Involved
 
-*   **Timeline planner:** this involves mapping out key milestones for the editor release squad to be aware of, making sure Gutenberg releases line up well, and helping remind/wrangle work around those dates. 
-*   **Project Board Manager:** this includes setting up the board, adding automations, keeping the board up to date with priority issues, triage of incoming GitHub issues, and reporting to teams any major blockers. 
-*   **Release Wrangler:** this role involves managing the actual packaging of the release and working with the wider release squad. 
-*   **Communication Wrangler:** this includes helping wrangle dev notes, attending meetings to share important information, and reporting back updates to the release squad. 
+### Editor tech leads
+
+Coordinate merging of new features from Gutenberg plugin into core. This involves making sure all relevant feature work is merged and stable in the plugin before updating the npm packages and then updating the package versions in core. It also involves making sure any relevant PHP changes are manually added to the core codebase.
+
+### Editor triage leads
+
+Set up and manage the release project board on GitHub and triage incoming bug reports for issues that need fixing during the release cycle. Run regular triage sessions in WordPress Slack, both synchronously and async. Ping Editor tech leads and feature developers as needed about any urgent bugs.
+
+### Documentation leads
+
+Wrangle dev notes for any new features or changes that impact the developer/extender community.
 
 ## Quick Reference Timeline
 
 This is a list of the major time-critical tasks, sorted by when they should be done:
 
-**1 month before Beta 1**
+**2 months before Beta 1**
 
 *   Set up the release project board on GitHub.
-*   Audit experimental APIs.
+*   Audit experimental APIs in Gutenberg
+*   Create an overview issue of PHP changes that need to be manually added in core.
 
-**2 weeks before Beta 1**
+**1 month before Beta 1**
 
 *   Update Trunk with the latest Gutenberg packages and PHP changes.
-
-**1 week before Beta 1**
-
-*   Compile a list of the main editor features for the release (this list is needed for the Beta 1 release post).
 *   Create tracking issue for dev notes (dev notes should be published by RC1 and need plenty of time to wrangle).
 
 **Between Beta 1 and last RC**
 
 *   Triage recent bug reports and unlabelled issues for critical regressions.
 
-**2 days before each Beta/RC release**
+**The week before each Beta/RC release**
 
-*   Go through all merged Pull Requests labelled [Backport to WP Beta/RC](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Backport+to+WP+Beta%2FRC%22+is%3Aclosed) and check that they are OK to include.
+*   Go through all merged Pull Requests labeled [Backport to WP Beta/RC](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Backport+to+WP+Beta%2FRC%22+is%3Aclosed) and check that they are OK to include.
 *   Review any open Pull Requests with the same label.
 *   Start package update/core patch process (described below).
 
 ## Planning before the first Major Release Beta
 
-**Planning the editor releases and communicating the deadlines**
+**Planning the last editor release and communicating deadlines**
 
-At the start of each release cycle, a planning post is published ([example from 5.6](https://make.wordpress.org/core/2020/08/13/wordpress-5-6-release-planning/)) that shows key milestones leading up to a major WordPress release. With Gutenberg releases happening biweekly, you can then map out the releases of Gutenberg that will align with those key milestones.   
-  
-Based on those mapped out Gutenberg releases, you can then make changes to release cycles as needed whether making releases longer or shorter. For example, you might want to have a shorter release cycle so it aligns with the same week as the first beta to maximize the number of features included from the core editor. 
+At the start of each release cycle, a planning post is published ([example from 5.6](https://make.wordpress.org/core/2020/08/13/wordpress-5-6-release-planning/)) that shows key milestones leading up to a major WordPress release. With Gutenberg releases happening biweekly, you can then determine which Gutenberg release is scheduled closest to Beta 1 and, if necessary, rearrange the plugin release date so it aligns better with the Beta 1 date. Ideally, the Gutenberg RC should be cut 4-5 days before Beta 1 to give plenty of time for any bugs to be identified and fixed, as well as publishing the npm packages and updating their versions in core.
 
-As part of this planning, be sure to include a communication plan with deadlines that features in core editor need to make in order to be included in a major release. The best place to share these deadlines is on Make Core and in [#core-editor](https://make.wordpress.org/core/tag/core-editor/) slack channel as a pinned post. You may also want to give a heads up for specific deadlines as they get closer in the core editor meetings. 
+As part of this planning, be sure to include a communication plan with deadlines that features need to be merged by in order to be included in a major release. The best place to share these deadlines is on Make Core and in [#core-editor](https://make.wordpress.org/core/tag/core-editor/) slack channel as a pinned post. You may also want to give a heads up for specific deadlines as they get closer in the core editor meetings. 
 
 **Project Board Management**
 
@@ -61,7 +63,7 @@ Generally speaking, the following columns are recommended:
 *   Research/Discussions in progress: An area to record issues that may be a must for a release but where there was no conclusion. Some possible reasons for not having a conclusion are:
     *   The problem was critical but was impossible to replicate, so it’s a matter of waiting for more information to understand the specific conditions where the problem happens.
     *   It is not clear yet if the issue is a regression or not, or it is not clear if the issue is a bug or desired behavior.
-    *   The issue required a very complex testing setup or trying to replicate it takes a lot of time. In that case, it’s recommended that you write a comment upon finding the issue saying what needed to be done to test it. This helps make it easier for others to jump in to help with testing. If needed, you may need to add the “needs-testing” label as well. From there, make sure to include it in the issue part of the board so you don’t lose track. As soon as things were tested, you can then move the issue to the “To do” column if it was something that should be fixed or archive/close the issue if it was not something needing a fix. 
+    *   The issue required a very complex testing setup or trying to replicate it takes a lot of time. In that case, it’s recommended that you write a comment upon finding the issue saying what needed to be done to test it. This helps make it easier for others to jump in to help with testing. If needed, you may need to add the “needs-testing” label as well. From there, make sure to include it in the issue part of the board so you don’t lose track. As soon as things are tested, you can move the issue to the “To do” column if it should be fixed or archive/close the issue if it does not need a fix. 
 *   Approved: Tasks that were ready to merge (reviewed and approved). This is helpful to see at a glance any issues that might be approved but that the PR author hasn’t merged yet and can enable you to keep PRs moving. 
 *   Done: Tasks that were finished, merged, etc. and didn’t require any additional work.
 *   Notes, Useful Links, Etc: this is a helpful column to add relevant information like:
@@ -70,7 +72,7 @@ Generally speaking, the following columns are recommended:
     *   Link to the WordPress Planning Roundup post that included the most relevant editor features.
     *   During the release, you’ll find many people will ask questions. If a question was repeated multiple times, that was a signal to include the information people were asking in this column.
 
-After creating the board, it’s recommended that you [configure GitHub automation](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/configuring-automation-for-project-boards) to move tasks to “Done” when the relevant PR’s are merged, or issues are closed, and to move PR’s to needs review when they are pending approval. This will lessen the amount of meta work that needs to be done.
+After creating the board, it’s recommended that you [configure GitHub automation](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/configuring-automation-for-project-boards) to move tasks to “Done” when the relevant PRs are merged or issues are closed and to move PRs to needs review when they are pending approval. This will lessen the amount of meta work that needs to be done.
 
 **How to keep the project board useful for others**
 
@@ -88,25 +90,15 @@ To help others discover the project board, it’s recommended that you share the
 
 For items in the “To Do” column, it’s recommended that you find someone assigned in time before the release milestones. The easiest way to do this is to ask in the [#core-editor](https://make.wordpress.org/core/tag/core-editor/) channel for volunteers to pick tasks from that column. If no one volunteers, you will need to do some research to find the people familiar with the items needing help (checking previous Gutenberg PRs can be helpful here) and asking them if they can take on that work or help another person do so. 
 
-## Deciding on features for the release
+## Knowing which features to include in the release
 
-**Important Note:**
+**Review [release roadmap post](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/) and recent** [**“What’s New”**](https://make.wordpress.org/core/tag/gutenberg-new/) **release posts to determine important features**
 
-This might not be a part of the process you need to do particularly if the release squad that you’re on inherited previous features that didn’t make it into the last major release. This is quite common so don’t be panicked if that’s the case!
+The release roadmap post lists the features considered top priority for each release. Special attention should be given to these to make sure they land in core in a timely and stable manner.
 
-**Step 1: Review recent** [**“What’s New”**](https://make.wordpress.org/core/tag/gutenberg-new/) **&** [**“What’s Next”**](https://make.wordpress.org/core/tag/gutenberg-next) **Posts to determine important features**
+To get a sense of all the features currently being worked on, as well as smaller enhancements and bug fixes, it’s good to review plugin release posts too.
 
-To get a sense of the major features currently being worked on, it’s helpful to review what’s been released recently and what’s currently being planned for in the coming month. As you do so, take note of what those big themes are of each release and monthly plan. With some documented ideas in mind, chat with the design editor release lead to make sure you’re on the same page about the main features to include from the core editor in the core release. It’s okay if this list is long to start as this overall process should help you refine what’s there. 
-
-**Step 2: Share and gather feedback on main features for inclusion in the next [#core-editor](https://make.wordpress.org/core/tag/core-editor/) meeting**
-
-From there, bring these items to the [next #core-editor meeting](https://make.wordpress.org/core/tag/core-editor-agenda/) so a vision can be agreed upon by others in the core editor project. Once feedback is collected, it is then much easier to set priorities and refine the list you have in mind. At this point, you should be able to narrow down the options quite a bit and begin to dig into where those main features stand.
-
-**Step 3: Test & Create Overview GitHub Issues for main features**
-
-Working with the design lead, test the remaining features on your list and, where applicable, add tasks to the Major Release Project board to help document what needs to be enhanced or addressed for inclusion in the release. These overview issues are incredibly helpful both for anyone following along and to make sure that work proceeds as expected for inclusion in the major release. 
-
-Once this has been done, report back in the next [#core-editor](https://make.wordpress.org/core/tag/core-editor/) meeting so everyone is aware of what the plan is and these features can be included in future [“What’s Next”](https://make.wordpress.org/core/tag/gutenberg-next) Posts. 
+For experimental features in particular, it helps to ping the developers working on them and discuss whether they are ready to be included in core or not.
 
 **Deciding on additional features to include**
 
@@ -119,7 +111,7 @@ Outside of the main features of a release, there are often in progress additiona
 
 For any feature you do decide to add, remember to add it to the release “Must Haves” Project Board in GitHub. As you can, do your best to help move these features along whether through helping with PRs, unblocking the original authors, etc. 
 
-If there’s an additional feature you want to include that you don’t have anyone actively working on, please ask for volunteers in the [#core-editor](https://make.wordpress.org/core/tag/core-editor/) meetings during the Open Floor time. 
+If there’s an additional feature you want to include that you don’t have anyone actively working on, please ask for volunteers in the [#core-editor](https://make.wordpress.org/core/tag/core-editor/) meetings during the Open Floor time. If you know of any developer who may be a good person to work on a given feature, it’s often best to ping them directly and ask if they are able to do so. Even if they can’t, they may be able to point you to someone who can!
 
 **How to handle removing features**
 
@@ -133,82 +125,27 @@ The key in all of this is clear, timely communication so all involved (contribut
 
 ## Experimental API Management
 
-Because the core editor work often includes various experimental APIs, it’s important that the APIs ready for broader usage are stabilized before the first beta 1 release (ideally at least two weeks beforehand) as renames during the beta phase are not possible. Unfortunately, there’s not a tool that automatically collects which API’s are experimental so auditing the experimental APIs requires a manual process currently. 
+Since the [private-apis](https://github.com/WordPress/gutenberg/tree/trunk/packages/private-apis) system was created in early 2023, the system for managing experimental APIs changed, and everything that is not stable or not meant to be available as a public API is kept private.
 
-**High Level Overview**
+However, there are still many older experimental APIs in Gutenberg, which can be recognised by their `__experimental` prefix. These can be functions, properties or variables and they can be found throughout the codebase. Every release it’s customary to do an audit of these and check if any are ready for stabilisation. It’s important that stabilisation be done before the first beta 1 release (ideally at least two weeks beforehand) as renames during the beta phase are not possible.
+
+**How to run the audit**
 
 Generally speaking, the process is as follows:
 
 *   Use the script below to audit experimental APIs
-*   Manually search the codebase to find additional experimental APIs
 *   [Use git blame](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/tracking-changes-in-a-file) to identify who was involved with each API
-*   Create an overview issue in GitHub tracking each experimental API pinging those involved to decide whether an API needs to be stabilized ([example from 5.4](https://github.com/WordPress/gutenberg/issues/20116)).
+*   Create an overview issue in GitHub tracking each experimental API pinging those involved to decide whether an API needs to be stabilized ([example from 6.2](https://github.com/WordPress/gutenberg/issues/47196)).
 
 **Task Breakdown**
 
 To get started, here’s a script to use to begin auditing the experimental APIs:
 
-```
-( () => {
-	const reportExperimental = (
-		objectToReport = window.wp,
-		returnObject = {},
-		path = [],
-		depth = 0
-	) => {
-		const MAXIMUM_DEPTH_TO_SEARCH = 6;
-		const { lodash } = window;
-		if (
-			depth > MAXIMUM_DEPTH_TO_SEARCH ||
-			! lodash.isObject( objectToReport )
-		) {
-			return;
-		}
-		for ( const key of Object.keys( objectToReport ) ) {
-			if (
-				key.startsWith( '__experimental' ) ||
-				key.startsWith( '__unstable' )
-			) {
-				lodash.set(
-					returnObject,
-					[ ...path, key ],
-					typeof objectToReport[ key ]
-				);
-			}
-			reportExperimental(
-				objectToReport[ key ],
-				returnObject,
-				[ ...path, key ],
-				depth + 1
-			);
-		}
-		return returnObject;
-	};
-	return reportExperimental();
-} )();
-
-```
-
-This script takes advantage of the fact that most of the block editor API’s are exposed as part of the wp global and recursively iterates on that variable, trying to find experimental keys in the object. This report allows you to see some experimental Actions, Selectors, Components, Functions, and some settings. However, this script does not cover experimental props in components or experimental flags in settings objects. For those aspects, you’ll need to search the codebase and talk with those familiar enough with the code to know what is likely still experimental. If you don’t know where to start, it’s recommended that you ask in the next [#core-editor](https://make.wordpress.org/core/tag/core-editor/) meeting. 
+[https://raw.githubusercontent.com/WordPress/gutenberg/trunk/bin/list-experimental-api-matches.sh](https://raw.githubusercontent.com/WordPress/gutenberg/trunk/bin/list-experimental-api-matches.sh)
 
 With the information from the report and any information manually collected, it can help to then group related experimental APIs to get a sense of what’s in place currently. From there, use git blame to know who was involved in each API in order to ping them. You can then create a new overview issue in GitHub that lists out a checkbox for each API where one can see at a glance the status of whether a decision has been made around the API being stabilized or not. 
 
 ## Communication Management
-
-**Attending** [**Core Editor and Core Meetings**](https://make.wordpress.org/meetings/)
-
-Attending Core Editor meetings can be especially helpful after each Gutenberg release as it gives the chance to provide a high level update of what’s new in the last release (share highlights, thank you’s, and stats like the number of issues fixed). 
-
-Because Core meetings tend to involve more people in the community, the discussions tend towards more significant discussions that impact the major release. As a result, it’s a great place to both answer questions raised by the community and share updates to a wider audience. Of note, it can be helpful to coordinate with the wider release squad during this time as the meeting unfolds. 
-
-If you’re unable to make these meetings for whatever reason, it’s still incredibly valuable to leave comments on the agenda posts with relevant updates that the meeting facilitator can then share to the group. Alternatively, you can always delegate having someone up to speed fill in for you. 
-
-**Compiling a list of new editor features**
-
-If you have gone through the process of deciding which features to include in the release, part of this work may already be done. But it’s still important to go through the [What’s New](https://make.wordpress.org/core/tag/gutenberg-new/) posts to get a full list of new features. A couple of things to bear in mind when reviewing these posts:
-
-*   Some of the features described in these posts may be experimental, or they may belong to packages that are not used in Core at all. It’s good to double-check that the feature is actually relevant to Core.
-*   If you’re counting how many bugs were fixed based on the changelogs from these posts, bear in mind that any bugs fixed during the Beta and RC stages of the previous major release may have been included in that release. Unless you require a precise bug count (which will be a manual and time-consuming process), it’s best to estimate based only on the Gutenberg versions release *after* RC stage of the previous release.
 
 **Planning and Writing Dev Notes**
 
@@ -230,7 +167,7 @@ Because months pass between core releases, it’s important to regularly check i
 
 **High Level Triage**
 
-Outside of reviewing unlabeled issues, it’s important to take time to review all reported issues since a major release occurred to spot any key critical issues to resolve. This is a great task to divide up amongst others. The easiest way to do this is to divide the work into month long increments ([example link for all bugs reported in October 2019](https://github.com/WordPress/gutenberg/issues?page=2&q=is%3Aissue+is%3Aopen+label%3A%22%5BType%5D+Bug%22+created%3A2019-10-01..2019-10-31+sort%3Acreated-asc&utf8=%E2%9C%93)).
+Outside of reviewing unlabeled issues, it’s important to take time to review all reported issues since a major release occurred to spot any key critical issues to resolve. This is a great task to divide up among others. The easiest way to do this is to divide the work into month-long increments ([example link for all bugs reported in October 2019](https://github.com/WordPress/gutenberg/issues?page=2&q=is%3Aissue+is%3Aopen+label%3A%22%5BType%5D+Bug%22+created%3A2019-10-01..2019-10-31+sort%3Acreated-asc&utf8=%E2%9C%93)).
 
 **Important Note For Determining How Critical A Bug Is**
 
@@ -240,23 +177,21 @@ When reviewing bug reports and trying to determine how critical they are, it bec
 
 **Important Context**
 
-The first beta is a very significant deadline since no additional features or enhancements can be included after this milestone. This is important to keep in mind when leading up to this work so you can best prepare and communicate appropriately. 
+The first beta is a very significant deadline since no additional features or enhancements can be included after this milestone. Exceptions for enhancements to new features can be made: these must be discussed with the release team, and if approved a Trac ticket should be created for each feature with the type “task (blessed)”. All enhancements to these tasks must be finished before RC1.
 
-**Step 1: Define individual roles for the release**
+**To make the process easier, start updating trunk as early as possible before Beta 1**
 
-This is very helpful to do early on at least 1 week before the release. Generally speaking, you’ll want to decide who is going to do the package update, create the core update patch, review etc.
+As the volume of changes for each release is quite high, it helps to start adding new features to core trunk as early as possible in the cycle. This means both updating the `@wordpress` npm packages used by core, and manually syncing any PHP changes from the `lib` and `phpunit` folders in Gutenberg.
 
-**Step 2: Update Trunk 2 weeks before Beta 1**
+**Make sure any experimental features are behind feature flags in Gutenberg so they don’t accidentally get included in core**
 
-Two weeks before, you’ll want to update the trunk to have the editor of that release. It is important to do that to avoid having a more complex patch close to the first beta. 
+In order to safely update the npm packages in core, experimental Gutenberg features that aren’t slated for inclusion in core must be safely behind feature flags. `IS_GUTENBERG_PLUGIN` flag is commonly used for this purpose, or a specific feature filter may be used, such as in [this example](https://github.com/WordPress/gutenberg/pull/52579) for the interactivity API.
 
-**Step 3: Review “Must Haves” Project Board**
+**List PHP changes to be manually synced**
 
-Before the final Gutenberg release, be sure to review the “Must Haves” project board to make sure there aren’t remaining bugs to take care of.
+Create an overview issue of all the changes from the `lib` and `phpunit` folders that need to be manually synced. Using git blame, find the authors of those changes and ping them to create core PRs for them.
 
-**Step 4: Run the release**
-
-After the Gutenberg release that will be part of the first Release Candidate, one should do the regular package publish and update the packages in core. Even though this should happen two weeks before the beta trunk is updated, some unexpected things may arise that will make the patch more complex. For example, a new block may have been included in the last two weeks, or there is a block that is part of the plugin but should not be part of the release. The last patch before the beta should update the packages and also adapt core to items that are in fact being shipped in that release.
+The PHP files in `block-library` package don’t need to be manually synced, as they are auto-generated in core based on the npm package.
 
 ## Managing Weekly Beta and RC releases
 
@@ -274,32 +209,33 @@ Outside of triaging these issues for inclusion in the “Must Haves” project b
 
 Once tasks on the “Must Haves” board are completed they need to be backported into the core to be available on the next beta or RC version. This is the process to do it:
 
+*   If a wp/x.x (should have the correct WP release number) hasn’t been created yet, create it and push it to the remote repo.
 *   Review all PRs with the label [“Backport to WP Beta/RC”](https://github.com/WordPress/gutenberg/pulls?q=label%3A%22Backport+to+WP+Core%22+sort%3Acreated-desc+). Verify if everything is expected, and that the PRs are not “risky” to go into a core release.
-*   Create a branch based on wp/trunk and named in accordance with the release being prepared e.g: wp/trunk-5-4-0-rc-1.
+*   Remove the label from any PRs that were closed without merging, otherwise they’ll mess with the automated cherry-pick script.
+*   Create a branch based on wp/x.x
 *   Cherry-pick each PR into the newly created branch.
-    
-    *   There is [a convenient cherry-picking automation](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/) available via `npm run cherry-pick`. It finds all merged Pull Requests with the “Backport to WP Beta/RC” label, cherry-picks them, and asks whether to automatically comment on the relevant PRs and push the branch to Github. You can also pass another label as the first argument.
-    
-    *   You can also do it manually. The hash of the commit can be extracted from the GitHub pull request page. In order to avoid merge conflicts, it is important to make sure the commits are cherry-picked in the same order they were made in the master branch. This will likely not be the same order that appears in the label view, so double-check the merge date and if necessary refer to the [commit history](https://github.com/WordPress/gutenberg/commits/master). You can combine multiple commits in a single command, like so: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
-*   Merge conflicts may still happen. If they do, you will have to resolve them, and if you are unsure how, message the PR author for assistance. Take notes about what steps were taken to resolve the conflict.
-*   After solving a conflict execute the cherry-pick command (or the cherry-pick automation) with the remaining commits to merge.
-*   Push the branch to GitHub.
-*   Create a pull request on GitHub from the branch you created into the wp-trunk branch. The PR description should include a table that lists all the PRs that were cherry-picked, the authors (pinging the authors with a mention so the authors are aware that the PR will be part of the next WordPress release) and specify the changes that were made to solve the conflicts (in case there was a conflict). A sample PR can be checked at  [https://github.com/WordPress/gutenberg/pull/21083](https://href.li/?https://github.com/WordPress/gutenberg/pull/21083).
+    *   There is [a convenient cherry-picking automation](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/) available via `npm run other:cherry-pick`. It finds all merged Pull Requests with the “Backport to WP Beta/RC” label, cherry-picks them, and asks whether to automatically comment on the relevant PRs and push the branch to Github. You can also pass another label as the first argument.
+    *   You can also do it manually. The hash of the commit can be extracted from the GitHub pull request page. In order to avoid merge conflicts, it is important to make sure the commits are cherry-picked in the same order they were made in trunk. This will likely not be the same order that appears in the label view, so double-check the merge date and if necessary refer to the [commit history](https://github.com/WordPress/gutenberg/commits/master). You can combine multiple commits in a single command, like so: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
+*   Merge conflicts may still happen. If they do, you will have to resolve them, and if you are unsure how, message the PR author for assistance.
+*   Sometimes a conflict happens because the cherry-picked commit is dependent on another commit that wasn’t included in the release branch. This may be an accidental omission, so it’s good to double-check by pinging the authors of the PRs.
+*   After manually solving a conflict, make sure to go back to the original PR and remove the “Backport to WP Beta/RC” label from it.
+*   Create a pull request on GitHub from the branch you created into the wp/x.x branch.
 *   Verify that continuous integration executed with success for the PR.
-*   Ask for reviews to the PR e.g: in the core-editor channel. Ideally the reviewer is someone that is a member of the Gutenberg core team (can write to the Gutenberg repository) and a core committer (can write to the WordPress repository).
-*   Merge the PR using the “Rebase and merge” option.
+*   If there were merge conflicts to solve, you might want to ping the authors of the conflicting commits to double-check they were solved correctly. Otherwise, if all tests pass on CI, it’s fine to go ahead and merge the PR to the release branch.
+*   After merging, run the package publish task from the release branch:
+    *   On [this page](https://github.com/WordPress/gutenberg/actions/workflows/publish-npm-packages.yml), click on the “Run workflow” button, choose the release branch, release type should be “wp” and the release version should be added underneath.
+    *   Once the workflow appears in the list below, click through to authorise it. If you don’t have `gutenberg-core` access, ask someone who does to approve it for you.
+    *   This workflow will publish the npm packages with a dist tag corresponding to the release, which can then be used to select the correct package versions in core.
 
-**Package update and core patch**
+**Package updates and core patch**es
 
-*   After merging the cherry picking PR switch to the `wp/trunk` branch and run `git pull`.
-*   Run the relevant Github action to update the `@wordpress` npm packages for a WordPress release as documented at [https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases](https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases)
-*   Update the packages using the automated script by running `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>` in the wordpress-develop folder. Remember to use the same dist-tag as the newly released `@wordpress` packages, e.g. `wp-6.2` for the 6.2 major version.
+*   Once the npm packages are published, they can be updated in the `wp-develop` repo using the automated script: `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>`. Remember to use the same dist-tag as the newly released `@wordpress` packages, e.g. `wp-6.2` for the 6.2 major version.
 *   Then run `npm run postsync-gutenberg-packages` in the wordpress-develop folder. It includes any new Gutenberg blocks in core and runs the required builds.
-*   Verify the issues that were supposed to be resolved are in fact resolved on the WordPress trunk.
+*   If any new front end scripts have been added to dynamic blocks, these need to be referenced manually in the [webpack block config](https://github.com/WordPress/wordpress-develop/blob/trunk/tools/webpack/blocks.js#L67).
+*   After running both sync and postsync tasks, verify that the correct files have been updated for any blocks with changes to their PHP or block.json files, and also that files have been generated for any brand new blocks.
+*   In your WP local development environment, check that the issues that were supposed to be resolved are in fact resolved.
 *   Create a [Trac](https://core.trac.wordpress.org/) ticket for the package updates in Core.
 *   Submit a PR against wordpress-develop to make sure the continuous integration tests pass, and add the Trac ticket number to the description. This ensures the PR gets linked to the ticket, and the patch will then be created automatically. For example, here’s the PR from WordPress 6.0 release cycle: [#2564](https://github.com/WordPress/wordpress-develop/pull/2564)
-*   Ask for reviews. During the beta stage a review is recommended but not mandatory; during the RC process a double signoff by two different committers is required. If you are a committer and are confident with the changes you can be one of the approvers add add the “dev-feedback keyword.
+*   Ask for reviews. During the beta stage a review is recommended but not mandatory; during the RC process a double signoff by two different committers is required. If you are a committer and are confident with the changes you can be one of the approvers and add the “dev-feedback” keyword.
 *   When approved, commit the patch or coordinate with a committer to make sure it is committed in case you are not a committer.
-*   If a branch for the WordPress release already exists backporting the commit from trunk to the release branch is required.
-*   Try to have the packages updated and ready at least one day before the release date.
-*   Once the backports have been committed, go back and remove the [Backport to WP Beta/RC](https://github.com/WordPress/gutenberg/pulls?q=label%3A%22Backport+to+WP+Core%22+sort%3Acreated-desc+) label from the backported PRs to avoid confusion.
+*   If a branch for the WordPress release already exists, backporting the commit from trunk to the release branch is required.
