@@ -62,7 +62,7 @@ Grunt は、Trac にアップロードされたパッチをテストするため
 VVV includes support for [WP Core Development](https://github.com/Varying-Vagrant-Vagrants/custom-site-template-develop/), and you can find the settings on the [config.yml](https://github.com/Varying-Vagrant-Vagrants/VVV/blob/develop/config/default-config.yml) file.
 -->
 
-VVV には[WP コア開発](https://github.com/Varying-Vagrant-Vagrants/custom-site-template-develop/)をサポートしており、[config.yml](https://github.com/Varying-Vagrant-Vagrants/VVV/blob/develop/config/default-config.yml) ファイルに設定があります。
+VVV は [WP コア開発](https://github.com/Varying-Vagrant-Vagrants/custom-site-template-develop/)をサポートしており、[config.yml](https://github.com/Varying-Vagrant-Vagrants/VVV/blob/develop/config/default-config.yml) ファイルに設定があります。
 
 <!--
 If you use VVV, a site can be added that contains a full [WP Core development build](https://github.com/Varying-Vagrant-Vagrants/custom-site-template-develop/). If you open `config/config.yml` there is a site pre-pepared for this, but disabled out of the box. Look for `wordpress-trunk` and change `skip_provisioning` from `true` to `false`, it should look like this:
