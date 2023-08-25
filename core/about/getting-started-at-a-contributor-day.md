@@ -51,7 +51,7 @@ The responsibilities of the core group are:
 
 *   コードのメンテナンスと、将来に向けての開発
 *   WordPress の新機能の開発
-*   デザインと UX の維持とか改善
+*   デザインと UX の維持と改善
 *   デフォルトのテーマの設計、開発、保守
 *   コアの開発に使用されるユーティリティのメンテナンス
 *   デフォルトのプラグインのバンドルパッケージのメンテナンス
@@ -293,7 +293,7 @@ Largely, the setup process can be finished end to end by running the following c
 The script will go step by step through the process of validating prerequisites are met. If there is something missing, the script will report what needs to be done to complete the setup. Re running the script a few times after making the suggested changes will complete setup.
 -->
 
-スクリプトは、前提条件が満たされていることを確認するプロセスを段階的で実行します。何かが不足している場合、スクリプトはセットアップを完了するために何をする必要があるかを報告します。提案された変更を行った後、スクリプトを数回再実行するとセットアップが完了します。
+スクリプトは、前提条件が満たされていることを確認するプロセスを段階的に実行します。何かが不足している場合、スクリプトはセットアップを完了するために何をする必要があるかを報告します。提案された変更を行った後、スクリプトを数回再実行するとセットアップが完了します。
 
 <!--
 Once you have the development version of Gutenberg running on your local environment you will need to run the following from within the Gutenberg directory:
@@ -329,7 +329,11 @@ If you are looking for some unassigned first issues to get familiar with contrib
 
 Gutenberg への貢献に慣れるために、割り当てられていない最初の issue を探している場合は、[こちらをご覧ください](https://github.com/WordPress/gutenberg/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22+label%3A%22%5BStatus%5D+In+Progress%22+no%3Aassignee)。
 
+<!--
 ### **Gutenberg First issue steps**
+-->
+
+### Gutenberg 最初の issue の手順
 
 <!--
 1.  Fork the Gutenberg repository to your own account.
