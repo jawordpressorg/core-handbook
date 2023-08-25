@@ -14,7 +14,7 @@ Ensuring tickets move towards a resolution is one of the most important aspects 
 Bug Scrubs can have a general focus, focus on a specific component, or focus on a specific report (such as ancient tickets).
 -->
 
-バグスクラブには、一般的なもの、特定のコンポーネントに焦点を当てたもの、特定のレポート (古いのチケットなど) に焦点を当てたものなどがあります。
+バグスクラブには、一般的なもの、特定のコンポーネントに焦点を当てたもの、特定のレポート (古いチケットなど) に焦点を当てたものなどがあります。
 
 <!--
 Want to learn more? Here is a list of “Potentially Asked Questions”.
@@ -44,7 +44,7 @@ You! Leading a Bug Scrub is something any interested community member can do.
 Bug Scrubs are set and announced meetings where the goal is to go through a list of tickets and move them towards a resolution. They are also something where anyone is welcome to run them!
 -->
 
-バグ・スクラブとは、チケットのリストに目を通し、解決に向けて進めることを目的として設定・告知されたミーティングです。また、誰でも開催できるミーティングでもあります !
+バグスクラブとは、チケットのリストに目を通し、解決に向けて進めることを目的として設定・告知されたミーティングです。また、誰でも開催できるミーティングでもあります !
 
 <!--
 ### Where do I get a list of tickets for my Bug Scrub?
@@ -242,13 +242,13 @@ If you are new to leading bug scrubs, you can be paired up with an experience sc
 ### What should I do if a ticket won’t realistically get completed in its “milestoned” release?
 -->
 
-### チケットが「マイルストーン」リリースが現実的に完了しない場合はどうすればよいですか ?
+### チケットが「マイルストーン」リリース内に現実的に完了しない場合はどうすればよいですか ?
 
 <!--
 If a ticket will not likely be completed in a timely manner for a given release, you will want to “punt” it from the milestone. The best approach is to change the milestone to `Future Release` and not the next major or minor release as this typically ends up with a large amount of open tickets rolling over from release to release. “Punting” them to `Future Release` allows component maintainers and people particularly passionate about the issue to purposefully, intentionally milestone it for a release.
 -->
 
-チケットが特定リリースでタイムリーに完了しない可能性が高い場合は、マイルストーンから「punt」したくなるでしょう。最良の方法は、マイルストーンを次のメジャーリリースやマイナーリリースではなく `Future Release` に変更することです。これにより、通常、大量のオープンチケットがリリース間で引き継がれていくことになります。それらを `Future Release` に「Punting」することで、コンポーネントのメンテナーやこの問題に特に熱心な人々が、リリースに向けて意図的にマイルストーンを設定できます。
+チケットが特定リリースでタイムリーに完了しない可能性が高い場合は、マイルストーンから「punt (次のリリースに持ち越す)」したくなるでしょう。最良の方法は、マイルストーンを次のメジャーリリースやマイナーリリースではなく `Future Release` に変更することです。これにより、通常、大量のオープンチケットがリリース間で引き継がれていくことになります。それらを `Future Release` に「Punting」することで、コンポーネントのメンテナーやこの問題に特に熱心な人々が、リリースに向けて意図的にマイルストーンを設定できます。
 
 <!--
 ### What if no one else shows up?
