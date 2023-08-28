@@ -23,7 +23,7 @@ There have been many before you, and there will be many after you. While this pa
 あなたの前にも沢山の人がいて、あなたの後にも沢山の人がいるでしょう。このページがあなたをゴールまで導いてくれるかもしれませんが、リリースリードはそれぞれ、リリースに独自のタッチをもたらします。迷ったときは、[以前のリリースリード](https://make.wordpress.org/core/tag/release-lead/)に相談し、指示を仰いでください。
 
 <!--
-## Getting Started
+#
 -->
 
 ## はじめに
