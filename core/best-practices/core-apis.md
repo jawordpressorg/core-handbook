@@ -44,7 +44,7 @@ WordPress おいて開発する場合は、次の理由からコア API を使�
 The following is an overview of the individual APIs that make up the WordPress Core API. More information on each API can be found on their respective Codex pages.
 -->
 
-以下は WordPress Core API を構成する個々の API の概要です。各 API の詳細については、それぞれの Codex ページを参照してください。
+以下は WordPress コア API を構成する個々の API の概要です。各 API の詳細については、それぞれの Codex ページを参照してください。
 
 ### Dashboard Widgets API
 
