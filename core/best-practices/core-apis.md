@@ -68,7 +68,7 @@ WordPress 0.71で追加された [Database API](https://developer.wordpress.org/
 The [File Header API](https://codex.wordpress.org/File_Header_API "File Header API"), added in WordPress 1.5 and extended in WordPress 2.9 and 3.0, consists of functions and hooks regarding the use of file headers in themes and plugins, and provides the ability to pull meta\-information (Name, Version, Author, URI, Description, etc.) from those files.
 -->
 
-WordPress 1.5で追加され、WordPress2.9と3.0で拡張された [File Header API](https://codex.wordpress.org/File_Header_API "File Header API") は、テーマとプラグインのファイルヘッダーの使用に関する関数とフックで構成され、それらのファイルからメタ情報 (名前、バージョン、作者、URI、説明など) を取得する機能を提供します。
+WordPress 1.5で追加され、WordPress 2.9と3.0で拡張された [File Header API](https://codex.wordpress.org/File_Header_API "File Header API") は、テーマとプラグインのファイルヘッダーの使用に関する関数とフックで構成され、それらのファイルからメタ情報 (名前、バージョン、作者、URI、説明など) を取得する機能を提供します。
 
 ### Filesystem API
 
@@ -84,7 +84,7 @@ WordPress 2.6で追加された [Filesystem API](https://codex.wordpress.org/Fil
 The [HTTP API](https://developer.wordpress.org/plugins/http-api/ "HTTP API"), added in WordPress 2.7 and extended further in WordPress 2.8, standardizes the HTTP requests for WordPress. The API handles cookies, gzip encoding and decoding, chunk decoding (if HTTP 1.1), and various other HTTP protocol implementations. The API standardizes requests, tests each method prior to sending, and, based on your server configuration, uses the appropriate method to make the request.
 -->
 
-WordPress 2.7で追加され、WordPress2.8でさらに拡張された [HTTP API](https://developer.wordpress.org/plugins/http-api/ "HTTP API") は、WordPress の HTTP リクエストを標準化します。この API は Cookie、gzip エンコードとデコード、チャンクデコード (HTTP 1.1 の場合)、その他さまざまな HTTP プロトコルの実装を扱います。API はリクエストを標準化し、送信前に各メソッドをテストし、サーバーの設定にもとづいて適切なメソッドを使用してリクエストを行います。
+WordPress 2.7で追加され、WordPress 2.8でさらに拡張された [HTTP API](https://developer.wordpress.org/plugins/http-api/ "HTTP API") は、WordPress の HTTP リクエストを標準化します。この API は Cookie、gzip エンコードとデコード、チャンクデコード (HTTP 1.1 の場合)、その他さまざまな HTTP プロトコルの実装を扱います。API はリクエストを標準化し、送信前に各メソッドをテストし、サーバーの設定にもとづいて適切なメソッドを使用してリクエストを行います。
 
 ### Metadata API
 
