@@ -120,7 +120,7 @@ The About Page has a set framework and it is not meant to be redesigned from scr
 The layout should be considered a stack of containers, which can be 1-4 columns. The content in the columns can be anything — text, video, images, embeds, etc. These containers can have no background color, a “subtle” background color, or “accent” background color (these change with each About page using colors from the header feature). Columns can also have one of these background colors. Containers are stacked on top of each other to create the page.
 -->
 
-レイアウトは、1-4カラムのコンテナの積み重ねと考えるべきです。カラム内のコンテンツは、テキスト、ビデオ、画像、埋め込みなど何でもかまいません。これらのコンテナは、背景色なし、「わずかな」背景色、または「"アクセント」背景色を持つことができます (これらは、ヘッダー機能からの色を使用して、各アバウトページで変更されます)。カラムもこれらの背景色のいずれかを持つことができます。コンテナはを積み重ねて、ページを作成します。
+レイアウトは、1-4カラムのコンテナの積み重ねと考えるべきです。カラム内のコンテンツは、テキスト、ビデオ、画像、埋め込みなど何でもかまいません。これらのコンテナは、背景色なし、「わずかな」背景色、または「アクセント」背景色を持つことができます (これらは、ヘッダー機能からの色を使用して、各アバウトページで変更されます)。カラムもこれらの背景色のいずれかを持つことができます。コンテナはを積み重ねて、ページを作成します。
 
 <!--
 Wondering why the About Page is not done in the block editor? The biggest blocker is translations. Every string on the page is wrapped in a translation function, with additional translation notes as needed. We’d need to find a way to do that with Gutenberg as well. 
@@ -183,7 +183,7 @@ For better understanding see the image above. Some things to consider:
 *   画像は端から端まで表示することも、4辺すべてに3ピクセルのパディングを付けることもできます。
 *   モバイルでは、画像や動画のサイズが少し変わります。
 *   画像は、隣にあるコンテンツを示すだけの装飾的なものである必要があります。画像が意味を伝える場合は、代替テキストが必要です。
-*   [スクリーンショットを翻訳する](https://core.trac.wordpress.org/ticket/58354) 方法が現在ないので、画像は UI テキストを含む英語のテキストを制限するか避けるべきです。
+*   [スクリーンショットを翻訳する](https://core.trac.wordpress.org/ticket/58354)方法が現在ないので、画像は UI テキストを含む英語のテキストを制限するか避けるべきです。
 *   アイコンを使用して小さなカラム/コンテンツを強調します
 
 <!--
@@ -196,7 +196,7 @@ For better understanding see the image above. Some things to consider:
 **For accessibility,** if the video has voice audio, a text equivalent needs to be provided. If the video shows a flow or action being performed, then the process needs to be described in the text. The key thing is remembering the audience for the text description need to get the same level of information as a sighted audience gets from watching.
 -->
 
-**アクセシビリティのため、**ビデオに音声が含まれる場合は、同等のテキストを提供する必要があります。ビデオでフローやアクションの実行が示されている場合は、そのプロセスをテキストで説明する必要があります。重要なことは、テキストによる説明を読む人は、視聴者が観るものと同じレベルの情報を得る必要があることを覚えておくことです。
+**アクセシビリティのため、** ビデオに音声が含まれる場合は、同等のテキストを提供する必要があります。ビデオでフローやアクションの実行が示されている場合は、そのプロセスをテキストで説明する必要があります。重要なことは、テキストによる説明を読む人は、視聴者が観るものと同じレベルの情報を得る必要があることを覚えておくことです。
 
 <!--
 What matters is that it’s clear that the video’s description is associated with the video, use figure and figcaption for this.
@@ -264,7 +264,7 @@ Lay the content out in sections & columns to match the design. Make sure to wrap
 If the colors have changed, update these in `/css/about.css`. Sometimes some color properties are not used, you can leave them alone — some are used on other pages (for example, contribute uses `has-subtle-background-color`). Use the [about-patterns plugin](https://github.com/ryelle/about-patterns) to help test out your CSS changes.
 -->
 
-色が変わった場合は、`/css/about.css` で更新します。いくつかの色のプロパティは使用されない場合がありますが、そのままにしておくことができます。一部は他のページで使用されます (たとえば、contribute は `has-subtle-background-color` を使用します)。[about-patterns プラグイン](https://github.com/ryelle/about-patterns) を使用すると、CSS の変更をテストできます。
+色が変わった場合は、`/css/about.css` で更新します。いくつかの色のプロパティは使用されない場合がありますが、そのままにしておくことができます。一部は他のページで使用されます (たとえば、contribute は `has-subtle-background-color` を使用します)。[about-patterns プラグイン](https://github.com/ryelle/about-patterns)を使用すると、CSS の変更をテストできます。
 
 <!--
 ### Export assets from Figma
@@ -296,7 +296,7 @@ The icons in the About page content are SVGs used inline, so export those and ma
 The feature screenshots are raster images, export these at 2x and convert to webp. They’re added to the page from external links, so use make.w.org if they’re still in flux. When finalized, upload to the s.w.org CDN (needs dotorg committer).
 -->
 
-機能のスクリーンショットはラスターイメージですので、2倍でエクスポートして WebP に変換します。 これらは外部リンクからページに追加されるため、まだ流動的な場合は make.w.org を使用してください。 完成したら、s.w.org CDN にアップロードします (dotorg コミッターが必要です)。
+機能のスクリーンショットはラスターイメージですので、2倍でエクスポートして WebP に変換します。 これらは外部リンクからページに追加されるため、まだ流動的な場合は make.w.org を使用してください。完成したら、s.w.org CDN にアップロードします (dotorg コミッターが必要です)。
 
 <!--
 ### Update URLs in the content
@@ -362,4 +362,4 @@ The props (or credits) within a release are collected by the Release Squad, and 
 When working to match GitHub usernames to WordPress.org usernames you can use [`https://profiles.wordpress.org/github:username`](https://profiles.wordpress.org/github:noisysocks) where putting the GitHub username at the end of that URL will translate to the respective WordPress.org profile. This will work for any user who has [associated their GitHub account with their WordPress.org profile](https://make.wordpress.org/core/2020/03/19/associating-github-accounts-with-wordpress-org-profiles/). There is a similar method for converting a Slack username to a WordPress.org username by using [`https://profiles.wordpress.org/$slack_id`](https://profiles.wordpress.org/%24slack_id) where the Slack ID comes from a Slack user’s details (Click and avatar > View full profile > More \[…\] > Copy ID).
 -->
 
-GitHu bのユーザー名と WordPress.org のユーザー名を一致させるには、[`https://profiles.wordpress.org/github:username`](https://profiles.wordpress.org/github:noisysocks) を使います。URL の末尾に GitHub のユーザー名をつけると、それぞれの WordPress.org のプロフィールに変換されます。これは、[GitHub アカウントと WordPress.org プロフィールを関連付けている](https://make.wordpress.org/core/2020/03/19/associating-github-accounts-with-wordpress-org-profiles/)ユーザーであれば誰でも機能します。[`https://profiles.wordpress.org/$slack_id`](https://profiles.wordpress.org/%24slack_id) を使用して Slack ユーザー名を WordPress.org ユーザー名に変換する同様の方法もあります。Slack ID は Slack ユーザーの詳細 (クリックしてアバター > プロフィールをすべて表示 > もっと見る[...] > ID をコピー) から取得します。
+GitHub のユーザー名と WordPress.org のユーザー名を一致させるには、[`https://profiles.wordpress.org/github:username`](https://profiles.wordpress.org/github:noisysocks) を使います。URL の末尾に GitHub のユーザー名をつけると、それぞれの WordPress.org のプロフィールに変換されます。これは、[GitHub アカウントと WordPress.org プロフィールを関連付けている](https://make.wordpress.org/core/2020/03/19/associating-github-accounts-with-wordpress-org-profiles/)ユーザーであれば誰でも機能します。[`https://profiles.wordpress.org/$slack_id`](https://profiles.wordpress.org/%24slack_id) を使用して Slack ユーザー名を WordPress.org ユーザー名に変換する同様の方法もあります。Slack ID は Slack ユーザーの詳細 (クリックしてアバター > プロフィールをすべて表示 > もっと見る[...] > ID をコピー) から取得します。
