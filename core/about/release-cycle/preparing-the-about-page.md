@@ -1,4 +1,8 @@
+<!--
 # Preparing the About Page
+-->
+
+# About ページの準備
 
 Every WordPress release has an About page. It is shown to users after they finish updating to the new version and includes what the new features are and who contributed to making them.
 
@@ -8,7 +12,11 @@ This trend started with WordPress 4.7, you can view the previous designs on Figm
 
 If you want to create a page like this, here are the steps to follow:
 
+<!--
 ## Steps
+-->
+
+## 手順
 
 *   **Know your deadline**: Work on the About page starts once the release reaches Beta 1 and should be complete by RC1.
 *   Create a ticket for the About page kick-off, like this: [https://core.trac.wordpress.org/ticket/46901](https://core.trac.wordpress.org/ticket/46901)
@@ -34,7 +42,11 @@ If you want to create a page like this, here are the steps to follow:
     *   Post slug should be wp.org/news/yyyy/mm/musician.
     *   Keep the post with an “album cover” feel.
 
+<!--
 ## Copy
+-->
+
+## コピー
 
 *   **Audience**: WordPress users and practitioners who are not active in contributing. Assume non-technical.
 *   **Purpose**: To highlight the immediately interesting things and inspire people to experiment and/or learn more. Assume no need to sell WordPress to them.
@@ -42,7 +54,11 @@ If you want to create a page like this, here are the steps to follow:
 *   **Assets**: Assume that the copy flow will follow the design flow.
 *   **Voice**: Aim for the positive side of neutral, though you can go all the way to cheerfully American Southern. Not a sales-y voice, since these are people already using WordPress.
 
-## Design 
+<!--
+## Design
+-->
+
+## デザイン
 
 The About Page has a set framework and it is not meant to be redesigned from scratch each release.
 
@@ -68,7 +84,11 @@ Examples of how the boxes can look like:
 
 [![](https://make.wordpress.org/core/files/2023/07/Screen-Shot-2023-07-18-at-14.40.20-1024x296.png)](https://make.wordpress.org/core/files/2023/07/Screen-Shot-2023-07-18-at-14.40.20.png)
 
+<!--
 ### Images
+-->
+
+### 画像
 
 For better understanding see the image above. Some things to consider:
 
@@ -78,7 +98,11 @@ For better understanding see the image above. Some things to consider:
 *   Images should limit or avoid English text, including UI text, because we don’t currently have a method for [translating screenshots](https://core.trac.wordpress.org/ticket/58354).
 *   Use icons to accent smaller columns/content
 
+<!--
 ### Videos
+-->
+
+### ビデオ
 
 **For accessibility,** if the video has voice audio, a text equivalent needs to be provided. If the video shows a flow or action being performed, then the process needs to be described in the text. The key thing is remembering the audience for the text description need to get the same level of information as a sighted audience gets from watching.
 
@@ -92,21 +116,37 @@ What matters is that it’s clear that the video’s description is associated w
 *   Convert .mov files to .mp4 using FFMPEG. Kap does appear to have the ability to export as MP4 and WebM though. Using that is preferable to converting if it works well.
 *   [How to: Good UI demo videos](https://automattic.design/2019/11/12/good-ui-demo-videos/)
 
+<!--
 ## Development
+-->
+
+## 開発
 
 While the “About page” typically means `/wp-admin/about.php`, the updates in this ticket usually also apply to the whole section, `/wp-admin/contribute.php`, `/wp-admin/credits.php`, `/wp-admin/freedoms.php`, and `/wp-admin/privacy.php`. The content on the other pages rarely changes.
 
 Once a content draft & layout have been signed off by the marketing & design teams, the page can begin in code.
 
+<!--
 ### Copy content from the doc
+-->
+
+### ドキュメントからコンテンツをコピーする
 
 Lay the content out in sections & columns to match the design. Make sure to wrap content in translation functions. If there are links, use `printf` and placeholders, and maybe translate the destination link too.
 
+<!--
 ### Update the color custom properties
+-->
+
+### カラーカスタムプロパティを更新する
 
 If the colors have changed, update these in `/css/about.css`. Sometimes some color properties are not used, you can leave them alone — some are used on other pages (for example, contribute uses `has-subtle-background-color`). Use the [about-patterns plugin](https://github.com/ryelle/about-patterns) to help test out your CSS changes.
 
+<!--
 ### Export assets from Figma
+-->
+
+### Figmaからアセットをエクスポートする
 
 The following are exported as SVG and saved locally. Use something like [svgomgui](https://jakearchibald.github.io/svgomg/) to optimize SVGs before saving them in `/wp-admin/images/`.
 
@@ -118,7 +158,11 @@ The icons in the About page content are SVGs used inline, so export those and ma
 
 The feature screenshots are raster images, export these at 2x and convert to webp. They’re added to the page from external links, so use make.w.org if they’re still in flux. When finalized, upload to the s.w.org CDN (needs dotorg committer).
 
+<!--
 ### Update URLs in the content
+-->
+
+### コンテンツ内のURLを更新する
 
 Local images usually use a query string to break caching, so update the version before release. For example, [see this line in freedoms.php](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/freedoms.php#L61). This is not necessary for CDN images since those URLs change each release.
 
@@ -126,7 +170,11 @@ The [field guide URL in `about.php`](https://github.com/WordPress/wordpress-deve
 
 If any content in the page had links using placeholders, update those.
 
+<!--
 ### Development timeline
+-->
+
+### 開発スケジュール
 
 The timeline for this page depends on multiple teams, and there are a lot of things to wrangle, so the timeline needs to be flexible.
 
