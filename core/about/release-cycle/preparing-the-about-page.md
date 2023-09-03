@@ -98,11 +98,11 @@ If you want to create a page like this, here are the steps to follow:
 *   **Voice**: Aim for the positive side of neutral, though you can go all the way to cheerfully American Southern. Not a sales-y voice, since these are people already using WordPress.
 -->
 
-*   **対象者**: 積極的に貢献していない WordPress ユーザーおよび実践者。技術的ではないことを想定します。
+*   **対象者**: 積極的に貢献していない WordPress ユーザー。技術的ではないことを想定します。
 *   **目的**: すぐに興味をひかれるものを強調し、人々に実験や学習を促すこと。彼らに WordPress を売り込む必要はありません。
 *   **プロパティ**: WordPress ソフトウェア
 *   **アセット**: コピーの流れはデザインの流れに従うと想定します。
-*   **声**: 陽気な感じでも良いですが、ニュートラルでポジティブであることを目指します。すでに WordPress を使っている人たちですので、営業的な口調ではありません。
+*   **トーン**: 陽気な感じでも良いですが、ニュートラルでポジティブであることを目指します。すでに WordPress を使っている人たちですので、営業的な口調ではありません。
 
 <!--
 ## Design
