@@ -26,7 +26,7 @@ Look for the list to grow over time as more questions get asked and answered.
 There’s a lot of documentation out there. You’ll want to get a sense of what it covers and where the various parts and pieces live, start by going through it with an eye toward figuring out where things are, how they’re structured and what the topics are that particularly appeal to you.
 -->
 
-ここにはたくさんのドキュメントがあります。このドキュメントが何をカバーしているのか、さまざまな部分や部分がどこにあるのかを把握する必要があります。まず、どこに何があるのか、どのように構成されているのか、特に興味を引くトピックは何なのかを把握することを目的として、このドキュメントを読み進めることからはじめてください。
+ここにはたくさんのドキュメントがあります。各ドキュメントが何をカバーしているのか、さまざまな項目がどこに記述されているのかを知るには、まずドキュメント全体を閲覧し、どこにあるのか、どのように構成されているのか、特に興味を引くトピックは何かを把握することからはじめてください。
 
 <!--
 You’ll probably forget the details, but you’ll know you can find things again with a search. Go ahead and bookmark those pages for further reference.
@@ -38,7 +38,7 @@ You’ll probably forget the details, but you’ll know you can find things agai
 You’ll also want to set up Slack and join a few channels.
 -->
 
-また、Slack を立ち上げ、いくつかのチャンネルに参加できます。
+また、Slack アカウントを取得し、いくつかのチャンネルに参加できます。
 
 <!--
 Start going to the [scheduled meetings](https://make.wordpress.org/meetings/) just to get an idea of how things get done:
@@ -72,7 +72,7 @@ You also will want to go through the posts on [Make WordPress Core](https://make
 There are. [@desrosj](https://profiles.wordpress.org/desrosj/), [@flixos90](https://profiles.wordpress.org/flixos90/), [@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/), [@welcher](https://profiles.wordpress.org/welcher/), [@audrasjb](https://profiles.wordpress.org/audrasjb/), [@costdev](https://profiles.wordpress.org/costdev/), [@mike](https://profiles.wordpress.org/mike/), [@oglekler](https://profiles.wordpress.org/oglekler/), and [@SergeyBiryukov](https://profiles.wordpress.org/SergeyBiryukov/) run the New Core Contributors Bimonthly Chats on Slack; plan to start going to a few. The schedule is on [Make/Meetings](https://make.wordpress.org/meetings/), and they’ll welcome your questions.
 -->
 
-はい。[desrosj](https://profiles.wordpress.org/desrosj/)、[@flixos90](https://profiles.wordpress.org/flixos90/)、[@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/)、[@welcher](https://profiles.wordpress.org/welcher/)、[@audrasjb](https://profiles.wordpress.org/audrasjb/)、[@costdev](https://profiles.wordpress.org/costdev/)、[@mike](https://profiles.wordpress.org/mike/)、[@goglekler](https://profiles.wordpress.org/oglekler/)、[@SergeyBiryukov](https://profiles.wordpress.org/SergeyBiryukov/) は、Slack 上で隔月の新しいコア貢献者チャットを運営しています。スケジュールは [Make/Meetings](https://make.wordpress.org/meetings/) にあります。彼らはあなたの質問を歓迎します。
+はい。[@desrosj](https://profiles.wordpress.org/desrosj/)、[@flixos90](https://profiles.wordpress.org/flixos90/)、[@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/)、[@welcher](https://profiles.wordpress.org/welcher/)、[@audrasjb](https://profiles.wordpress.org/audrasjb/)、[@costdev](https://profiles.wordpress.org/costdev/)、[@mike](https://profiles.wordpress.org/mike/)、[@goglekler](https://profiles.wordpress.org/oglekler/)、[@SergeyBiryukov](https://profiles.wordpress.org/SergeyBiryukov/) は、Slack 上で隔月の新しいコア貢献者チャットを運営しています。スケジュールは [Make/Meetings](https://make.wordpress.org/meetings/) にあります。彼らはあなたの質問を歓迎します。
 
 <!--
 You can also ping them on Slack. If you have questions after a meeting, or you have a question you’d rather not ask publicly, you’re more than welcome to ping them throughout the week.
@@ -102,7 +102,7 @@ But patched rarely means finished. Generally, patches need review and feedback f
 Sometimes a first patch takes significant edits. Sometimes you might see multiple patches at the same time, iterating on a solution or exploring a variety of approaches.
 -->
 
-場合によっては、最初のパッチに大幅な編集が必要になることもあります。時には、解決策が繰り返されたり、さまざまなアプローチが検討されたりするため、同時に複数のパッチを目にするかもしれません。
+場合によっては、最初のパッチに大幅な編集が必要になることもあります。時には、反復的な解決策の試行や、さまざまなアプローチ検討のため、同時に複数のパッチを目にするかもしれません。
 
 <!--
 That’s why you see tickets that already have a patch, and why we don’t just automatically commit them. They still need testing, plus all those reviews and feedback we just mentioned. In fact, testing an existing patch and giving feedback is an excellent way for you to get involved, and a critical step in the process that moves them forward.
@@ -120,7 +120,7 @@ So once you’ve done your thing, whether patching or testing or reviewing, how 
 The ticket comments are your best friend. When you leave a comment, the ticket automatically pings everyone on the ticket: its owner, people who are watching the ticket and, best of all, one or more relevant component maintainers. And they have every interest in the world in getting that ticket committed and merged – it’s what we do as contributors to WordPress.
 -->
 
-チケットのコメントはあなたの強い味方です。コメントを残すと、自動的にチケットに関するすべての人 (チケットの所有者、チケットを見ている人たち、そして何よりも、関連するコンポーネントメンテナーの一人または複数に) に通知が送られます。彼らはそのチケットをコミットしてマージすることにあらゆる関心を持っています。それが、私たちが WordPress のコントリビューターとして行っていることなのです。
+チケットのコメントはあなたの強い味方です。コメントを残すと、自動的にチケットに関するすべての人 (チケットの所有者、チケットを見ている人たち、そして何よりも、関連するコンポーネントメンテナーの一人または複数に) 通知が送られます。彼らはそのチケットをコミットしてマージすることにあらゆる関心を持っています。それが、私たちが WordPress のコントリビューターとして行っていることなのです。
 
 <!--
 You can also bring it up in [#core](https://wordpress.slack.com/archives/C02RQBWTW) on Slack any time outside of any ongoing meeting (or in the open floor section of the weekly dev meeting).
