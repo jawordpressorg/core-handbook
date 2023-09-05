@@ -126,7 +126,7 @@ The layout should be considered a stack of containers, which can be 1-4 columns.
 Wondering why the About Page is not done in the block editor? The biggest blocker is translations. Every string on the page is wrapped in a translation function, with additional translation notes as needed. We’d need to find a way to do that with Gutenberg as well. 
 -->
 
-なぜブロックエディターでアバウトページが作成されないのか疑問に思いませんか ? 最大の障害は翻訳です。ページ上のすべての文字列は翻訳関数で囲まれ、必要に応じて翻訳メモが追加されます。GGutenberg ではまだそのようなことができません。
+なぜブロックエディターでアバウトページが作成されないのか疑問に思いませんか ? 最大の障害は翻訳です。ページ上のすべての文字列は翻訳関数で囲まれ、必要に応じて翻訳メモが追加されます。Gutenberg ではまだそのようなことができません。
 
 <!--
 Some items to watch for:
