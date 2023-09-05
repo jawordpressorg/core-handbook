@@ -120,13 +120,13 @@ The About Page has a set framework and it is not meant to be redesigned from scr
 The layout should be considered a stack of containers, which can be 1-4 columns. The content in the columns can be anything — text, video, images, embeds, etc. These containers can have no background color, a “subtle” background color, or “accent” background color (these change with each About page using colors from the header feature). Columns can also have one of these background colors. Containers are stacked on top of each other to create the page.
 -->
 
-レイアウトは、1-4カラムのコンテナの積み重ねと考えるべきです。カラム内のコンテンツは、テキスト、ビデオ、画像、埋め込みなど何でもかまいません。これらのコンテナは、背景色なし、「わずかな」背景色、または「アクセント」背景色を持つことができます (これらは、ヘッダー機能からの色を使用して、各アバウトページで変更されます)。カラムもこれらの背景色のいずれかを持つことができます。コンテナはを積み重ねて、ページを作成します。
+レイアウトは、1-4カラムのコンテナの積み重ねと考えるべきです。カラム内のコンテンツは、テキスト、ビデオ、画像、埋め込みなど何でもかまいません。これらのコンテナは、背景色なし、「わずかな」背景色、または「アクセント」背景色を持つことができます (これらは、ヘッダー機能からの色を使用して、各アバウトページで変更されます)。カラムもこれらの背景色のいずれかを持つことができます。コンテナを積み重ねて、ページを作成します。
 
 <!--
 Wondering why the About Page is not done in the block editor? The biggest blocker is translations. Every string on the page is wrapped in a translation function, with additional translation notes as needed. We’d need to find a way to do that with Gutenberg as well. 
 -->
 
-なぜブロックエディターでアバウトページが作成されないのか疑問に思いませんか ? 最大の障害は翻訳です。ページ上のすべての文字列は翻訳関数で囲まれ、必要に応じて追加の翻訳メモが追加されます。Gutenberg でもそれを行う方法を見つける必要があります。
+なぜブロックエディターでアバウトページが作成されないのか疑問に思いませんか ? 最大の障害は翻訳です。ページ上のすべての文字列は翻訳関数で囲まれ、必要に応じて翻訳メモが追加されます。GGutenberg ではまだそのようなことができません。
 
 <!--
 Some items to watch for:
@@ -221,9 +221,9 @@ What matters is that it’s clear that the video’s description is associated w
 -->
 
 *   動画は480px 幅でなければなりません (一般的に、ほとんどのユーザーは436px 幅でこのビデオを見るでしょう、大きな携帯電話のサイズでは最大488ピクセルで表示される場合があります)。
-*   全幅ビデオのスペースは幅1000ピクセルで、より広い2カラムレイアウトの場合は536ピクセルです。
+*   全幅ビデオのスペースは幅1000ピクセルで、ワイドな2カラムレイアウトの場合は536ピクセルです。
 *   Kap を使って録画します (これは投稿の推奨とは異なりますが、@joen は Screeny の代わりにこれを推奨しています)。
-*   FFMPEG を使用して使って .mov ファイルを .mp4 に変換します。Kap には MP4 や WebM としてエクスポートする機能があるようです。うまく機能する場合は、変換するよりもそれを使用することをおすすめします。
+*   FFMPEG を使用して .mov ファイルを .mp4 に変換します。Kap には MP4 や WebM としてエクスポートする機能があるようです。うまく機能する場合は、変換するよりもそれを使用することをおすすめします。
 *   [ハウツー: 優れた UI を持つデモビデオ](https://automattic.design/2019/11/12/good-ui-demo-videos/)
 
 <!--
@@ -344,7 +344,7 @@ The timeline for this page depends on multiple teams, and there are a lot of thi
 *   During RC: Upload and commit the feature screenshots, update any URLs, update finalized assets.
 -->
 
-*   ベータ3 (またはリリース前の最後のベータ) : ページの最初の最終案、基本的なレイアウトとデザインをコミットすします
+*   ベータ3 (またはリリース前の最後のベータ) : ページの最初の最終案、基本的なレイアウトとデザインをコミットします
 *   RC1: ページの最終的な下書きをコミットし、完成したアセットを更新します。
 *   RC 中: 機能のスクリーンショットをアップロードしてコミットし、URL を更新し、完成したなアセットを更新します。
 
