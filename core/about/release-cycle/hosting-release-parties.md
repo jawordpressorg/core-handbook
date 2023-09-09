@@ -14,7 +14,7 @@ The [WordPress release cycle](https://make.wordpress.org/core/handbook/about/rel
 A more technical Handbook page about the process for [Releasing Beta Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) has technical instructions for committers and Mission Control. This page exists as a guide for the host, or “emcee”, of release parties, and it omits most of the technical detail that’s not needed to facilitate the release process itself.
 -->
 
-[ベータ版のリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) のプロセスについてのより技術的なハンドブックページには、コミッターとミッションコントロールのための技術的な手順が記載されています。このページはリリースパーティのホスト、つまり「司会者」のためのガイドとして存在しており、リリースプロセスそのものを促進するために必要でない技術的な詳細のほとんどは省略されています。
+[ベータ版のリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/)のプロセスについてのより技術的なハンドブックページには、コミッターとミッションコントロールのための技術的な手順が記載されています。このページはリリースパーティのホスト、つまり「司会者」のためのガイドとして存在しており、リリースプロセスそのものを促進するために必要でない技術的な詳細のほとんどは省略されています。
 
 <!--
 This page should be updated as processes are improved after receiving feedback from contributors.
@@ -154,7 +154,7 @@ Thanks, everyone, for joining in and helping make WordPress! Hope to see you at 
 | **ステップ8:** テスト | I**t’s testing time**! There are several ways to test, so pick whatever feels most comfortable and report back as you go: 1\. Install and activate the [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/) plugin. Select the Bleeding edge channel and then Beta/RC Only stream. 2\. Use WP-CLI to test: wp core update –version=`X.Y-Z` 3\. Directly download the Beta/RC version from https://wordpress.org/wordpress-`X.Y-Z`.zip **Here are a few scenarios to test:** – Test from latest in 4.0.\* release series (e.g., 4.0.35 > `X.Y-Z`) – Test from latest in 4.9.\* release series (e.g., 4.9.21 > `X.Y-Z`) – Test from the latest version in the current major release series (e.g., 6.1.1 > `X.Y-Z`) – Test from the most recent Beta/RC release (e.g., Beta 4 > `X.Y-Z`) – Test fresh installation – Remove `wp-config.php` file and test a fresh installation – Test single site and multisite/network (both subdirectory and subdomain) installations You can report back by sharing how you tested and what the result was with an emoji. For example: – 6.2-beta1 > `X.Y-Z` via beta tester If it works, add :white\_check\_mark: If any issues happen, add :red\_circle: so we can investigate. | Everyone |
 | **Optional**: 見つかった問題点をまとめる | **\[テスト中に問題が見つかった場合は、このセクションを参照してください。\]** Thanks, everyone, for testing! For now, we’re tracking the following issues: | Emcee |
 | **ステップ9:** 2番目のバージョンアップ | Please, @corecommitter, proceed with the second version bump. **\[コミットされるのを待つ\]** | Core Committer |
-| **ステップ10:** Rebuild the Nightly Package in Mission Control | @mcpilot, can you please refresh the nightly build? **\[確認を待つ\]** | Mission Control |
+| **ステップ10:** ミッション・コントローでナイトリーパッケージを再ビルドする | @mcpilot, can you please refresh the nightly build? **\[確認を待つ\]** | Mission Control |
 | **ステップ11**: アナウンス記事を投稿する | The release post can now be published! @marketingteammember, please proceed. | Marketing Team Member |
 | **ステップ12**: [#core](https://make.wordpress.org/core/tag/core/)でリリースをアナウンスする | @here WordPress `X.Y-Z` is now available: **アナウンス記事のリンクを挿入する** Please help test and give feedback! | Emcee |
 | **ステップ13:** コミッター再開について知らせる | @committers, you can now resume committing. If this is a Release Candidate release, also remind committers that the `dev-feedback` and `dev-reviewed` workflow is required for all commits to the X.X branch. | Emcee |
@@ -189,6 +189,6 @@ Before we go, here are a few reminders:
 
 *   リリース日の前に知っておくべきことをすべてカバーした投稿は次のとおりです: https://make.wordpress.org/core/2022/10/25/wordpress-6-0-release-day-process-2/ (WP 6.0の例で、現在のリリースに合わせることができます)。
 *   24時間コードフリーズ前のドライランは、**(公開日の1日前の日付が入る)** の日付に計画されています。
-*   公開リリースは、**(現在のサイクルのリリース日が入ります)**に予定されています。正確な時間はドライラン終了後に発表されます。このリリースシーズン最大のイベントに、再びご招待します !
+*   公開リリースは、**(現在のサイクルのリリース日が入ります)** に予定されています。正確な時間はドライラン終了後に発表されます。このリリースシーズン最大のイベントに、再びご招待します !
 *   バグスクラブスケジュール **(Make/Core にピン留めされた投稿へのリンクを挿入)** によると、安定版リリースパーティまでに残っているバグスクラブは以下の通りです:
     *   **日程一覧**
