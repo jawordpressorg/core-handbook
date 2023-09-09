@@ -8,7 +8,7 @@
 So, you wanna ship a minor version of WordPress? Okay, maybe you don’t *want* to. Perhaps you *need* to ship a minor version of WordPress. A minor release is intended for bugfixes and enhancements that do not add new deployed files and are at the discretion of the release lead with suggestions/input from component maintainers and committers. There’s a lot involved with shipping these releases, as documented below. If you’ve been through the release process before and see something missing *please add it*.
 -->
 
-WordPress のマイナーバージョンをリリースしたいですか ? おそらくそう**したくない**かもしれませんし、WordPress のマイナーバージョンをリリースする**必要がある**かもしれません。マイナーリリースは、新しくデプロイされるファイルを追加しないバグ修正や機能拡張を目的としており、コンポーネントのメンテナーやコミッターからの提案やアドバイスを受け、リリースリードの裁量によって決定されます。以下に記載されているように、これらのリリースには多くのことが関係します。以前にリリースプロセスを実行したことがあり、何か不足しているものがある場合は**追加してください**。
+WordPress のマイナーバージョンをリリースしたいですか ? リリース**したくない**かもしれませんが、リリース**せざるを得ない**かもしれません。マイナーリリースは、新しくデプロイされるファイルを追加しないバグ修正や機能拡張を目的としており、コンポーネントのメンテナーやコミッターからの提案やアドバイスを受け、リリースリードの裁量によって決定されます。以下に記載されているように、これらのリリースには多くのことが関係します。以前にリリースプロセスを実行したことがあり、何か不足しているものがある場合は**追加してください**。
 
 <!--
 ## Before Release
@@ -48,7 +48,7 @@ Depending on the focus of the minor release (security, maintenance, or both), t
 **Security patches should be created well ahead of time**. Different patches may be necessary for trunk and stable branches. Currently, we make an effort to back port patches to all versions of WordPress that support autoupdates (4.1+). However, back porting patches is not always possible and those versions of WordPress are not officially supported as a result.
 -->
 
-**セキュリティパッチは、前もって十分に作成しておくこと**。trunk ブランチと安定版ブランチでは異なるパッチが必要になるかもしれません。現在、自動更新をサポートしている WordPress のすべてのバージョン (4.1 以降) にパッチをバックポートするよう努めています。しかし、パッチのバックポートが常に可能であるとは限らず、そのため、これらのバージョンの WordPress は公式にはサポートされません。
+**セキュリティパッチは、時間に余裕をもって作成すること**。trunk ブランチと安定版ブランチでは異なるパッチが必要になるかもしれません。現在、自動更新をサポートしている WordPress のすべてのバージョン (4.1 以降) にパッチをバックポートするよう努めています。しかし、パッチのバックポートが常に可能であるとは限らず、そのため、これらのバージョンの WordPress は公式にはサポートされません。
 
 <!--
 Follow the process in the Security team handbook to make sure that patches are adequately tested for back-compat, bypasses, and real-world cases.
@@ -60,7 +60,7 @@ Follow the process in the Security team handbook to make sure that patches are a
 All patches should be well-tested and receive sign-off from the WordPress Security Team at least five days ahead of the scheduled release date. It’s incredibly important to get this feedback early on as security fixes do not have a lot of time to bake on trunk.
 -->
 
-すべてのパッチは十分にテストされ、リリース予定日の少なくとも5日前には WordPress セキュリティチームの承認を受ける必要があります。セキュリティ修正を trunk に適用することにはそれほど時間がかからないため、このフィードバックを早い段階で得ることが非常に重要です。
+すべてのパッチは十分にテストされ、リリース予定日の少なくとも5日前には WordPress セキュリティチームの承認を受ける必要があります。セキュリティの修正には tunk で仕上げる十分な時間がないため、早期にこのフィードバックを得ることは非常に重要です。
 
 <!--
 For security fixes reported by third-parties, get information on how they would like to be credited. The announcement post on [wordpress.org/news/](https://wordpress.org/news/) credits third-parties as requested.
@@ -84,7 +84,7 @@ On release day, if a test fails or a security fix is no longer working properly,
 Are your security fixes ready? Awesome. Got maintenance fixes? Keep reading. If not, skip the next section.
 -->
 
-セキュリティ修正の準備はできていますか ? メンテナンスの修正はできていますか ? その場合は続けて読んでください。そうでなければ、次のセクションはスキップしてください。
+セキュリティ修正は準備できましたか ? よいでしょう。メンテナンスの修正がありますか ? あるなら、続けて読んでください。なければ、次のセクションはスキップしてください。
 
 <!--
 ### Maintenance
@@ -129,7 +129,7 @@ Regardless of which kind of release you’re planning, there are a number of thi
 -->
 
 *   開発ノートを必要とする重要な変更がないか確認します。これらはリリース前に公開され、マイナーリリース番号、関連するメジャーリリース番号、開発ノートタグ (例: 「4.9、4.9.2、dev notes」) がタグ付けされていることを確認してください。
-*   最新バージョンの Akismet が WordPress のビルドに含まれていることを確認します。Akismet チームに連絡して、アップデートに含めるプラグインのリリースが近いかどうかを確認する必要はありません。これは、ユーザーが新しいサイトを作成した直後にアップデートのプロンプトが表示されることを防ぐために重要なことです。これは自動化されています ([関連する議論](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647))。build.svn にコミットして Akismet external を最新バージョンに更新する例は[こちら](https://build.trac.wordpress.org/changeset/38478)です (これは手作業による古い方法です)。
+*   最新バージョンの Akismet が WordPress のビルドに含まれていることを確認します。現在では、Akismet チームに連絡して、アップデートに含めるプラグインのリリースが近いかどうかを確認する必要はありません。これは、ユーザーが新しいサイトを作成した直後にアップデートのプロンプトが表示されることを防ぐために重要なことです。これは自動化されています ([関連する議論](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647))。build.svn にコミットして Akismet external を最新バージョンに更新する例は[こちら](https://build.trac.wordpress.org/changeset/38478)です (これは手作業による古い方法です)。
 *   セキュリティチームのメンバーにプライベート・セキュリティ・ユニットテストスイートを実行してもらい、リグレッションが発生しないことを確認します。一部のサイト (wordpress.org など) では本番環境で `trunk` またはベータ/RC が稼働しているため、見つかった場合はその詳細について公の場で議論することは避けてください。代わりに、セキュリティ・チームに個人的に通知してください。
 *   数日前に、リリースが予定されていることをホストに通知するとよいでしょう。3日前が推奨されますが、リリースのスケジュールによっては不可能な場合もあります。セキュリティチームがホストへのメッセージについてお手伝いします。このメッセージは、(セキュリティリリースの場合) **すべてのセキュリティパッチが準備できるまで出してはいけません**。
 *   リリースに **文字列の変更がある場合は、事前に Polyglots チームに知らせてください** 。
@@ -154,7 +154,7 @@ Now that you’ve done all of that, it’s on to release day.
 You’ve made it. Release day can be stressful. The best way to survive release day is to *stay calm*. Things will go wrong. It’s okay, just regroup and keep moving forward. Here’s a list of things that need to get done on release day:
 -->
 
-やりました。リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。リリース日に行う必要があることのリストは次のとおりです:
+リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。リリース日に行う必要があることのリストは次のとおりです:
 
 <!--
 *   The relevant credits file needs to be updated to list any new contributors. That file lives [in the meta repository](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits).
