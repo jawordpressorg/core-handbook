@@ -439,7 +439,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   アクセシビリティのバグスクラブの計画し実行する (アクセシビリティに焦点を当てたスクラブを週に1回行う)
 *   さまざまなコンポーネントのチケットに貢献し、Trac と Gutenberg GitHub リポジトリの両方でアクセシビリティフィードバックを行う
 *   アクセシビリティ関連のドキュメントを作成し、必要に応じて Make/Core (開発ノート) や HelpHub で公開する
-*   リリース範囲を計画通りに進めるために、デザインチームやメディア チームと調整する
+*   リリース範囲を計画通りに進めるために、デザインチームやメディアチームと調整する
 *   リリースプロセス全体を通じて、すべてのコンポーネントのアクセシビリティに関する潜在的なリグレッションに対処するために、Trac/GitHub 上でチケット/issue を開く
 *   Make/Accessibility やコア開発者チャットで、リリースの範囲や進捗状況を伝える
 *   パッチが確実で、レビューされ、期限内にコミットされるようにする
@@ -486,7 +486,7 @@ These are tasks and responsibilities that may be documented for specific roles b
     *   パフォーマンスの向上を目的とした機能強化や修正
     *   測定可能なパフォーマンスへの影響 (ポジティブかネガティブかにかかわらず) を示唆する別の変更
 *   チームメンバーと協力して、[パフォーマンス測定のベストプラクティス](https://make.wordpress.org/performance/handbook/measuring-performance/)が守られ、明確に伝達されるようにする
-*   [WordPress コアパフォーマンスダッシュボード](https://www.codevitals.run/project/wordpress) を定期的に監視し、潜在的なパフォーマンス低下を特定し、根本的な変更がコミットされた関連チケットに報告する
+*   [WordPress コアパフォーマンスダッシュボード](https://www.codevitals.run/project/wordpress)を定期的に監視し、潜在的なパフォーマンス低下を特定し、根本的な変更がコミットされた関連チケットに報告する
 *   他のリリースリード、主にコアテックリードとエディターテックリードと調整し、パフォーマンスガイダンスで優先事項をサポートする
 *   リリースリードの Slack チャンネルやコア開発者チャットで、リリースの範囲や進捗状況を伝える
 *   ドキュメンテーションリードと協力して、ベータフェーズの前または初期に、パフォーマンス関連の開発ノートの投稿をタイムリーに公開する
@@ -562,7 +562,7 @@ A new default theme will be bundled together with the last release of the year. 
 
 *   デフォルトテーマのデザインリードによって作成された主要なデザインの実装をリードする
 *   デフォルトテーマのデザインリードからのデザインの実装を支援する他のユーザーに技術的なガイダンスとレビューを提供する
-*   テーマ内のバグを見つけたときは issue や プルリクエストを作成する
+*   テーマ内のバグを見つけたときは issue やプルリクエストを作成する
 *   issue や プルリクエストをラベルで整理する
 *   [#core-themes](https://make.wordpress.org/core/tag/core-themes/) で毎週新しいデフォルトテーマのミーティングを行う
 *   重複する issue や、タイムラインの範囲外であったり、[#core-themes](https://make.wordpress.org/core/tag/core-themes/) チームによって却下された issue をクローズする
@@ -617,10 +617,10 @@ A new default theme will be bundled together with the last release of the year. 
 *   If there are common questions appearing in the forums, bring it to the attention of the release team so that new user documentation pages can be created.
 -->
 
-*   リリースサイクルのフェーズ2～4の間は、WordPress.org のサポートフォーラムに参加し、[Alpha/Beta/RC フォーラム](https://wordpress.org/support/forum/alphabeta/) に注目する
+*   リリースサイクルのフェーズ2～4の間は、WordPress.org のサポートフォーラムに参加し、[Alpha/Beta/RC フォーラム](https://wordpress.org/support/forum/alphabeta/)に注目する
 *   そこで報告された潜在的な問題を、適切なリリースチームメンバーに知らせる
-*   [返信のない投稿](https://wordpress.org/support/view/no-replies/) への返信を手伝う
-*   英語以外の言語を話す場合は、[英語以外のサポートフォーラムのリスト](https://make.wordpress.org/support/handbook/contributing-to-the-wordpress-forums/support-forums-in-your-language/) をチェックして、サポートを提供する
+*   [返信のない投稿](https://wordpress.org/support/view/no-replies/)への返信を手伝う
+*   英語以外の言語を話す場合は、[英語以外のサポートフォーラムのリスト](https://make.wordpress.org/support/handbook/contributing-to-the-wordpress-forums/support-forums-in-your-language/)をチェックして、サポートを提供する
 *   フォーラムによくある質問がある場合は、新しいユーザードキュメントページを作成できるように、リリースチームに知らせる
 
 <!--
