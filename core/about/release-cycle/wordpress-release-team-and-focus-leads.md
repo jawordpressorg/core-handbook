@@ -20,7 +20,7 @@ The work can span many months and involves all areas of the global project. Each
 Members of each Release Team come from a variety of backgrounds and skillsets. They should have a thorough understanding of the WordPress software and the community, but also of open source web development. In addition, they have good communication and project management skills.
 -->
 
-各リリースチームのメンバーは、さまざまな経歴やスキルを持っています。彼らは WordPress ソフトウェアとコミュニティだけでなく、オープンソースの Web 開発についても十分に理解している必要があります。さらに、コミュニケーションとプロジェクト管理スキルも持っています。
+各リリースチームのメンバーは、さまざまな経歴やスキルを持っています。彼らは WordPress ソフトウェアとコミュニティだけでなく、オープンソースの Web 開発についても十分に理解している必要があります。さらに、コミュニケーションスキルとプロジェクト管理スキルも持っています。
 
 <!--
 This page explains the various roles involved with a given release and the type of tasks involved. 
@@ -116,7 +116,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   可能な限り公の場でコミュニケーションをとる (チケット、コンポーネントチャット、Make/Core 投稿など)
 *   進捗を妨げるものを特定し、仲間、チームリード、リリースリードに助けを求める
 *   期限を守る
-*   ドキュメント、HelpHub の記事、コミュニティ全体へのコミュニケーション (開発ノート、マーケティングなどを通じて) が必要な変更を特定する
+*   ドキュメント、HelpHub の記事への必要な変更や、(開発ノート、マーケティングなどを通じた) コミュニティ全体へのコミュニケーションを特定する
 *   自分のチームのチケットやタスクに焦点を当てたバグスクラブの実施
 *   チーム間のディスカッションを促進し参加する
 
@@ -663,14 +663,11 @@ The section above outlines the roles for the Release Team rather than the work o
 
 <!--
 > [How the Release Cycle Works](https://make.wordpress.org/core/handbook/about/release-cycle/)
--->
 
-> [リリースサイクルの仕組み](https://make.wordpress.org/core/handbook/about/release-cycle/)
-
-<!--
 > [Releasing Major Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
 -->
 
-> [メジャーバージョンのリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
+*   [リリースサイクルの仕組み](https://make.wordpress.org/core/handbook/about/release-cycle/)
+*   [メジャーバージョンのリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
 
 
