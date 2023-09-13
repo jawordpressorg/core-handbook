@@ -14,7 +14,7 @@
 The work can span many months and involves all areas of the global project. Each release is managed by a changing group of active contributors who take ownership of its various aspects. This group is known as the ‘Release Team’ for the particular software version. It coordinates across all the teams to connect ideas and solutions and make the release as effective as possible.
 -->
 
-その作業は何ヵ月にも及ぶこともあり、グローバルプロジェクトのあらゆる分野に関わります。各リリースは、さまざまな側面のオーナーシップを持つ活動的な貢献者の流動的なグループによって管理されます。このグループは、特定のソフトウェアバージョンの「リリースチーム」として知られています。リリースチームは、アイデアや解決策を結び付け、リリースを可能な限り効果的なものにするために、すべてのチームを横断して調整します。
+その作業は何ヵ月にも及ぶこともあり、グローバルプロジェクトのあらゆる分野に関わります。各リリースは、さまざまな側面のオーナーシップを持つ活動的な貢献者のグループによって管理されます。このグループは、特定のソフトウェアバージョンの「リリースチーム」として知られています。リリースチームは、アイデアや解決策を結び付け、リリースを可能な限り効果的なものにするために、すべてのチームを横断して調整します。
 
 <!--
 Members of each Release Team come from a variety of backgrounds and skillsets. They should have a thorough understanding of the WordPress software and the community, but also of open source web development. In addition, they have good communication and project management skills.
@@ -44,7 +44,7 @@ The main focus of the release team is to lead the release from its beginning thr
 A new release affects all the moving parts of the software. Any newly introduced, or amended feature could potentially:
 -->
 
-新しいリリースは、ソフトウェアのすべての可動部分に影響を与えます。新しく導入された、または修正された機能は、潜在的に以下の可能性があります:
+新しいリリースは、ソフトウェアのすべての部品に影響を与えます。新しく導入された、または修正された機能は、潜在的に以下の可能性があります:
 
 <!--
 *   affect existing plugins
@@ -116,7 +116,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   可能な限り公の場でコミュニケーションをとる (チケット、コンポーネントチャット、Make/Core 投稿など)
 *   進捗を妨げるものを特定し、仲間、チームリード、リリースリードに助けを求める
 *   期限を守る
-*   ドキュメント、HelpHub の記事への必要な変更や、(開発ノート、マーケティングなどを通じた) コミュニティ全体へのコミュニケーションを特定する
+*   ドキュメント、HelpHub の記事、複数のコミュニティとの調整が必要な開発ノート、マーケティングなど、他のコミュニティとの連携が必要な変更を特定する
 *   自分のチームのチケットやタスクに焦点を当てたバグスクラブの実施
 *   チーム間のディスカッションを促進し参加する
 
@@ -436,7 +436,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 
 *   リリースの優先順位を設定し、アクセシビリティに関する一般的な範囲を定義する
 *   リリースの主な優先順位にない他のすべてのチケットをトリアージし、優先度や重要度にもとづいて選択する
-*   アクセシビリティのバグスクラブの計画し実行する (アクセシビリティに焦点を当てたスクラブを週に1回行う)
+*   アクセシビリティのバグスクラブを計画し実行する (アクセシビリティに焦点を当てたスクラブを週に1回行う)
 *   さまざまなコンポーネントのチケットに貢献し、Trac と Gutenberg GitHub リポジトリの両方でアクセシビリティフィードバックを行う
 *   アクセシビリティ関連のドキュメントを作成し、必要に応じて Make/Core (開発ノート) や HelpHub で公開する
 *   リリースの範囲を計画通りに進めるために、デザインチームやメディアチームと調整する
@@ -481,7 +481,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   優先度、重要度、必要な労力と時間、貢献者の可用性、サイクルの残り時間にもとづいて、現在のリリースサイクルで特定のチケットの修正をコミットすることの実現可能性を評価する
 *   定期的なパフォーマンスバグスクラブやその他の[パフォーマンス関連ミーティング](https://make.wordpress.org/performance/#block-3)に参加またはリードする
 *   さまざまなコンポーネント ([Trac](https://core.trac.wordpress.org/)と[Gutenberg](https://github.com/WordPress/gutenberg/issues)の両方) からの関連するプルリクエスト/パッチのパフォーマンスベンチマークを、積極的かつオンデマンドで行う:
-*   さまざまなコンポーネントからの関連するプル リクエスト/パッチのパフォーマンスのベンチマーク ([Trac](https://core.trac.wordpress.org/) と [Gutenberg](https://github.com/WordPress/gutenberg/issues) の両方) を、あらかじめまたは必要に応じて行い、主に次のいずれかのチケットに焦点を当てる:
+*   以下に挙げる項目を主な対象として、[Trac](https://core.trac.wordpress.org/) や [Gutenberg](https://github.com/WordPress/gutenberg/issues) 内の、さまざまコンポーネントの関連するプルリクエストやパッチのパフォーマンスを、事前に、そして必要に応じてベンチマークする:
     *   リリース予定の新機能または API
     *   パフォーマンスの向上を目的とした機能強化や修正
     *   測定可能なパフォーマンスへの影響 (ポジティブかネガティブかにかかわらず) を示唆する別の変更
@@ -490,7 +490,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   他のリリースリード、主にコアテックリードとエディターテックリードと調整し、パフォーマンスガイダンスで優先事項をサポートする
 *   リリースリードの Slack チャンネルやコア開発者チャットで、リリースの範囲や進捗状況を伝える
 *   ドキュメンテーションリードと協力して、ベータフェーズの前または初期に、パフォーマンス関連の開発ノートの投稿をタイムリーに公開する
-*   たとえば、WordPress のコアドキュメントの強化や開発ノートの執筆など、コミュニケーションやドキュメント関連のタスクのガイダンスなどと同様に、トリアージ、フィードバック、コードレビュー、ベンチマーキングを支援するチームメンバーの調整を通じて、パフォーマンスに関するのチケットに貢献するチームメンバーをサポートする
+*   パフォーマンス関連のチケットに貢献しているチームメンバーをサポートする。例えば、トリアージ、フィードバック、コードレビュー、ベンチマーキングを支援するチームメンバーの調整や、コミュニケーションやドキュメント関連タスク (WordPress のコアドキュメントの強化や開発ノートの執筆) のガイダンスなど
 *   チケット、プルリクエスト/パッチ、テスト、パフォーマンスベンチマーク、コードレビューなどへの貢献を調整する
 
 <!--
