@@ -467,7 +467,7 @@ Used to describe a WordPress installation with a network of multiple blogs, grou
 (versus site, blog) [#](https://make.wordpress.org/core/handbook/glossary/#network)
 -->
 
-「サイト」や「ブログ」に対する、マルチサイトネットワークを指す
+「サイト」や「ブログ」に対する、マルチサイトネットワークを指す。
 
 <!--
 **P2**
@@ -503,7 +503,7 @@ A special text file that describes changes to code, by identifying the files and
 The web scripting language in which WordPress is primarily architected. WordPress requires PHP 5.6.20 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php)
 -->
 
-WordPress が主に設計されている Web スクリプト言語。WordPress には PHP 5.6.20以上が必要です。
+WordPress が主に設計されている Web スクリプト言語。WordPress には PHP 7.0以上が必要です。
 
 <!--
 **PHPDoc**
