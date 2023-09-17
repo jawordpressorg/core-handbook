@@ -18,7 +18,7 @@ dl.glossary-list dd { margin-top: -50px; padding-top: 50px; }
 Accessibility, or the act of ensuring a high quality experience for all users regardless of blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity and combinations of these. [#](https://make.wordpress.org/core/handbook/glossary/#a11y)
 -->
 
-アクセシビリティ、つまり、視覚障害や弱視、聴覚障害や難聴、学習障害、認知障害、運動障害、言語障害、光線過敏症、およびこれらの組み合わせにかかわらず、すべての利用者に質の高い体験を保証する行為。
+Accessibility の短縮形。アクセシビリティ。視覚障害や弱視、聴覚障害や難聴、学習障害、認知障害、運動障害、言語障害、光線過敏症、およびこれらの組み合わせにかかわらず、すべての利用者に質の高い体験を保証する行為。
 
 <!--
 **admin**
@@ -30,7 +30,7 @@ Accessibility, or the act of ensuring a high quality experience for all users re
 (and super admin) [#](https://make.wordpress.org/core/handbook/glossary/#admin)
 -->
 
-(そして super admin)
+管理者。なおマルチサイトネットワークの特権管理者は Super Admin。
 
 <!--
 **alpha (beta)**
@@ -54,7 +54,7 @@ Pre-release version of software intended to signal desire for compatibility, fun
 Backward compatibility – a desire to ensure that plugins and themes do not break under new releases – is a driving philosophy of WordPress. While it is a commonly accepted software development practice to break compatibility in major releases, WordPress strives to avoid this at all costs. Any backward incompatible change is carefully considered by the entire core development team and announced, with affected plugins often contacted. It should be noted that external libraries, such as jQuery, do have backward incompatible changes between major releases, which is often going to be a greater concern for developers. [#](https://make.wordpress.org/core/handbook/glossary/#back-compat)
 -->
 
-後方互換性 (プラグインやテーマが新しいリリースで壊れないようにしたいという願望) は、WordPress の原動力となっている理念です。メジャーリリースで互換性を壊すことはソフトウェア開発の慣行として一般的に受け入れられていますが、WordPress はこれを何としても回避するよう努めています。後方互換性のない変更はすべて、コア開発チーム全体によって慎重に検討され、影響を受けるプラグインに頻繁に連絡をとりながら発表されます。jQuery などの外部ライブラリには、メジャーリリース間で後方互換性のない変更があり、これが開発者にとって大きな懸念となることが多いことに注意してください。
+Backward compatibility の省略形。後方互換性 (プラグインやテーマが新しいリリースで壊れないようにしたいという願望) は、WordPress の原動力となっている理念です。メジャーリリースで互換性を壊すことはソフトウェア開発の慣行として一般的に受け入れられていますが、WordPress はこれを何としても回避するよう努めています。後方互換性のない変更はすべて、コア開発チーム全体によって慎重に検討され、影響を受けるプラグインに頻繁に連絡をとりながら発表されます。jQuery などの外部ライブラリには、メジャーリリース間で後方互換性のない変更があり、これが開発者にとって大きな懸念となることが多いことに注意してください。
 <!--
 **backport**
 -->
@@ -99,7 +99,7 @@ A bug which is so severe that it blocks a release. [#](https://make.wordpress.or
 (versus network, site) [#](https://make.wordpress.org/core/handbook/glossary/#blog)
 -->
 
-(ネットワーク、サイトに対して)
+マルチサイトの「ネットワーク」や「サイト」に対する、単一の WordPress 環境を指します。
 
 <!--
 **branch**
@@ -207,7 +207,7 @@ Copyright holders may grant a license with various allowances including the abil
 Create, read, update and delete, the four basic functions of storing data. (More on [Wikipedia](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete).) [#](https://make.wordpress.org/core/handbook/glossary/#crud)
 -->
 
-データを保存する4つの基本機能である作成、読み取り、更新、削除。 (詳細については、[Wikipedia](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) を参照してください。)
+データを保存する4つの基本機能である、作成 (Create)、読み取り (Read)、更新 (Update)、削除 (Delete) の先頭文字を取ったもの。(詳細については、[Wikipedia](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) を参照してください。)
 
 <!--
 **CSS**
@@ -225,13 +225,13 @@ Cascading Style Sheets. [#](https://make.wordpress.org/core/handbook/glossary/#c
 **dev note**
 -->
 
-## dev note / 開発ノート
+## dev note / 開発者ノート
 
 <!--
 Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include a description of the change, the decision that led to this change, and a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. [#](https://make.wordpress.org/core/handbook/glossary/#dev-note)
 -->
 
-WordPress コアの重要な変更点はすべて、(通常 dev note と呼ばれる) 開発者ノートにドキュメント化されます。優れた開発ノートには一般的に、変更点、その変更に至った決定、開発者がその変更点をどのように取り組むべきかについての説明が書かれています。開発ノートは WordPress のリリースサイクルのベータフェーズで Make/Core ブログで公開されます。開発ノートの公開は、プラグイン/テーマの作者や WordPress の開発者がそれらの変更を認識する必要がある場合に特に重要です。一般的に、すべての開発ノートはリリース候補フェーズの最初にフィールドガイドにまとめられます。
+Developer Note の省略形。開発者ノート。WordPress コアの重要な変更点はすべて、開発者ノートにドキュメント化されます。優れた開発者ノートには一般的に、変更点、その変更に至った決定、開発者がその変更点をどのように取り組むべきかについての説明が書かれています。開発者ノートは WordPress のリリースサイクルのベータフェーズで Make/Core ブログで公開されます。開発者ノートの公開は、プラグイン/テーマの作者や WordPress の開発者がそれらの変更を認識する必要がある場合に特に重要です。一般的に、すべての開発者ノートはリリース候補フェーズの最初にフィールドガイドにまとめられます。
 
 <!--
 **docblock**
@@ -243,7 +243,7 @@ WordPress コアの重要な変更点はすべて、(通常 dev note と呼ば�
 (phpdoc, xref, inline docs) [#](https://make.wordpress.org/core/handbook/glossary/#docblock)
 -->
 
-(phpdoc, xref, インラインドキュメント)
+(phpdoc, xref, インラインドキュメントとも)
 
 <!--
 **dogfood**
@@ -291,7 +291,7 @@ A feature request should generally begin the process in the ideas forum, on a ma
 The field guide is a type of blogpost published on Make/Core during the release candidate phase of the [WordPress release cycle](https://make.wordpress.org/core/handbook/about/release-cycle/). The field guide generally lists all the dev notes published during the beta cycle. This guide is linked in the about page of the corresponding version of WordPress, in the release post and in the HelpHub version page. [#](https://make.wordpress.org/core/handbook/glossary/#field-guide)
 -->
 
-フィールドガイドは、[WordPress リリースサイクル](https://make.wordpress.org/core/handbook/about/release-cycle/) のリリース候補フェーズに Make/Core で公開されるブログ記事の一種です。フィールドガイドには通常、ベータサイクル中に公開されたすべての開発ノートが含まれています。このガイドは、WordPress の対応するバージョンのアバウトページ、リリース投稿、HelpHub のバージョンページにリンクされています。
+フィールドガイドは、[WordPress リリースサイクル](https://make.wordpress.org/core/handbook/about/release-cycle/) のリリース候補フェーズに Make/Core で公開されるブログ記事の一種です。フィールドガイドには通常、ベータサイクル中に公開されたすべての開発者ノートが含まれています。このガイドは、WordPress の対応するバージョンのアバウトページ、リリース投稿、HelpHub のバージョンページにリンクされています。
 
 <!--
 **GPL**
@@ -303,7 +303,7 @@ The field guide is a type of blogpost published on Make/Core during the release 
 GNU General Public License. Also see [copyright license](#copyright-license). [#](https://make.wordpress.org/core/handbook/glossary/#gpl)
 -->
 
-GNU 一般公的使用許諾。[copyright license](#copyright-license) も参照してください。
+GNU General Public License の略語。GNU 一般公的使用許諾。[copyright license](#copyright-license) も参照してください。
 
 <!--
 **hacked**
@@ -335,7 +335,7 @@ HyperText Markup Language. The semantic scripting language primarily used for ou
 Internationalization, or the act of writing and preparing code to be fully translatable into other languages. Also see [localization](#l10n). Often written with a lowercase i so it is not confused with a lowercase L or the numeral 1. Often an acquired skill. [#](https://make.wordpress.org/core/handbook/glossary/#i18n)
 -->
 
-国際化。他の言語に完全に翻訳できるようにコードを書いたり準備したりする行為のこと。[localization](#l10n) も参照してください。小文字の L や数字の1と混同しないように、小文字の i で表記されます。後天的に習得するスキルであることが多いものです。
+Internationalization の短縮形。国際化。他の言語に完全に翻訳できるようにコードを書いたり準備したりする行為のこと。[localization](#l10n) も参照してください。小文字の L や数字の1と混同しないように、小文字の i で表記されます。一般に獲得するスキルです。
 
 <!--
 **IDE**
@@ -347,7 +347,7 @@ Internationalization, or the act of writing and preparing code to be fully trans
 Integrated Development Environment. A software package that provides a full suite of functionality to software developers/programmers. Normally an IDE includes a source code editor, code-build tools and debugging functionality. [#](https://make.wordpress.org/core/handbook/glossary/#ide)
 -->
 
-統合開発環境。ソフトウェア開発者やプログラマーに一連の機能を提供するソフトウェアパッケージ。通常、IDE にはソースコードエディター、コード構築ツール、デバッグ機能が含まれます。
+Integrated Development Environment の略語。統合開発環境。ソフトウェア開発者やプログラマーに一連の機能を提供するソフトウェアパッケージ。通常、IDE にはソースコードエディター、コード構築ツール、デバッグ機能が含まれます。
 
 <!--
 **inline docs**
@@ -359,7 +359,7 @@ Integrated Development Environment. A software package that provides a full suit
 (phpdoc, docblock, xref) [#](https://make.wordpress.org/core/handbook/glossary/#inline-docs)
 -->
 
-(phpdoc, docblock, xref)
+(phpdoc, docblock, xref とも)
 
 <!--
 **invalid**
@@ -395,7 +395,7 @@ Internet Relay Chat, a network where users can have conversations online. IRC ch
 JavaScript, a web scripting language typically executed in the browser. Often used for advanced user interfaces and behaviors. [#](https://make.wordpress.org/core/handbook/glossary/#js)
 -->
 
-JavaScript は、通常ブラウザで実行される Web スクリプト言語です。高度なユーザーインターフェースや動作によく使用されます。
+JavaScript の略語。通常はブラウザで実行される Web スクリプト言語。高度なユーザーインターフェースや動作によく使用されます。
 
 <!--
 **L10n**
@@ -407,7 +407,7 @@ JavaScript は、通常ブラウザで実行される Web スクリプト言語�
 Localization, or the act of translating code into one’s own language. Also see [internationalization](#i18n). Often written with an uppercase L so it is not confused with the capital letter i or the numeral 1. WordPress has a capable and dynamic group of polyglots who take WordPress to more than 70 different locales. [#](https://make.wordpress.org/core/handbook/glossary/#l10n)
 -->
 
-ローカライゼーション。コードを自分の言語に翻訳する行為。[internationalization](#i18n)も参照してください。大文字の i や数字の1と混同しないように、しばしば大文字の L で表記されます。WordPress には、WordPress を70以上の異なるロケールに対応させている、有能でダイナミックな多言語対応グループがいます。
+Localization の省略形。ローカライゼーション。コードを自分の言語に翻訳する行為。[internationalization](#i18n)も参照してください。大文字の i や数字の1と混同しないように、しばしば大文字の L で表記されます。WordPress には、WordPress を70以上の異なるロケールに対応させている、有能でダイナミックな多言語対応グループがいます。
 
 <!--
 **Locale**
@@ -431,7 +431,7 @@ A locale is a combination of language and regional dialect. Usually locales corr
 A release, identified by the first two numbers (3.6), which is the focus of a full release cycle and feature development. WordPress uses decimaling count for major release versions, so 2.8, 2.9, 3.0, and 3.1 are sequential and comparable in scope. [#](https://make.wordpress.org/core/handbook/glossary/#major-release)
 -->
 
-最初の2つの数字 (3.6) で識別されるリリースで、完全なリリースサイクルと機能開発の焦点となります。WordPress ではメジャーリリースバージョンに小数点以下のカウントを使用するため、2.8、2.9、3.0、および3.1は連続しており、範囲も同じです。
+最初の2つの数字 (3.6) で識別されるリリースで、完全なリリースサイクルと機能開発に焦点を当てます。WordPress ではメジャーリリースバージョンに小数点以下のカウントを使用するため、2.8、2.9、3.0、および3.1は連続しており、範囲も同じです。
 
 <!--
 **mu-plugins, must-use plugins**
@@ -443,7 +443,7 @@ A release, identified by the first two numbers (3.6), which is the focus of a fu
 (include old history as “multi-user”; x-ref with drop-ins) [#](https://make.wordpress.org/core/handbook/glossary/#mu-plugins-must-use-plugins)
 -->
 
-(「マルチユーザー」の背景を含める。ドロップインと相互参照)
+(TODO: mu が must use (必須) でなく multi user (マルチユーザー) だった時代背景を加えること。ドロップインと相互参照)
 
 <!--
 **multisite**
@@ -467,7 +467,7 @@ Used to describe a WordPress installation with a network of multiple blogs, grou
 (versus site, blog) [#](https://make.wordpress.org/core/handbook/glossary/#network)
 -->
 
-(サイト、ブログに対して)
+「サイト」や「ブログ」に対する、マルチサイトネットワークを指す
 
 <!--
 **P2**
@@ -563,7 +563,7 @@ The seriousness of a bug report or ticket in the eyes of the project. Generally,
 Contributors sometimes use the verb “punt” when talking about a ticket. This means it is being pushed out to a future release. This typically occurs for lower priority tickets near the end of the release cycle that don’t “make the cut.” In this is colloquial usage of the word, it means to delay or equivocate. (It also describes a play in American football where a team essentially passes up on an opportunity, hoping to put themselves in a better position later to try again.) [#](https://make.wordpress.org/core/handbook/glossary/#punt)
 -->
 
-チケットについて話すとき、コントリビューターは「punt」という動詞を使うことがあります。これは、将来のリリースにプッシュされることを意味します。これは一般的に、リリースサイクルの終わりに近い優先度の低いチケットで、「基準を満たさなかった」場合に起こります。これは口語的な用法で、「遅らせる」「あいまいにする」という意味です。(また、チームが後でもう一度挑戦するためにより良い立場に立つことを望み、基本的に機会を逃すアメリカンフットボールのプレーについても表します)。
+チケットについて話すとき、コントリビューターは「punt」という動詞を使うことがあります。これは、将来のリリースにプッシュされることを意味します。これは一般的に、リリースサイクルの終わりに近い優先度の低いチケットで、「基準を満たさなかった」場合に起こります。これは口語的な用法で、「遅らせる」「あいまいにする」という意味です。(またアメリカンフットボールでは、攻撃の機会をあきらめ、次のディフェンスのために陣地を挽回するプレイも意味します)。
 
 <!--
 **RC**
@@ -659,7 +659,7 @@ Secure Sockets Layer. Provides a secure means of sending data over the internet.
 Subversion, the popular version control system (VCS) by the Apache project, used by WordPress to manage changes to its codebase. [#](https://make.wordpress.org/core/handbook/glossary/#svn)
 -->
 
-Subversion は、Apache プロジェクトによる一般的なバージョン管理システム (VCS) で、WordPress がコードベースの変更を管理するために使用されています。
+Subversion の省略形。Apache プロジェクトによる一般的なバージョン管理システム (VCS) で、WordPress がコードベースの変更を管理するために使用されています。
 
 <!--
 **tag**
@@ -791,7 +791,7 @@ A commit that removes code gone awry may include *unprops* as a sign of respect 
 User experience [#](https://make.wordpress.org/core/handbook/glossary/#ux)
 -->
 
-ユーザー体験
+User Experience の省略形。ユーザー体験。
 
 <!--
 **version control**
@@ -851,4 +851,4 @@ Formerly the development updates P2 blog at wpdevel.wordpress.com. It is now **m
 (php-xref, phpdoc, inline docs) [#](https://make.wordpress.org/core/handbook/glossary/#xref)
 -->
 
-(php-xref, phpdoc, インラインドキュメント)
+(php-xref, phpdoc, インラインドキュメントとも)
