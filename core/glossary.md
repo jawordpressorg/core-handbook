@@ -515,7 +515,7 @@ WordPress が主に設計されている Web スクリプト言語。WordPress �
 (**docblock**, **inline docs**) [#](https://make.wordpress.org/core/handbook/glossary/#phpdoc)
 -->
 
-(**docblock**, **インラインドキュメント**)
+(**docblock**, **インラインドキュメントとも**)
 
 <!--
 **point release**
