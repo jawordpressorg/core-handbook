@@ -47,7 +47,7 @@ The general format for a commit message is as follows:
 Generally, each line in a commit message should begin with a capital letter and end with a full stop/period. Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack. Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
 -->
 
-一般的に、コミットメッセージの各行は大文字で始まり、フルストップまたはピリオドで終わります。関数名やフックのようなコードは、Trac や Slack で適切な書式になるように、バッククオートの内側に記述する必要があります。チケット番号の前に数字記号[#20202](https://core.trac.wordpress.org/ticket/20202)がつき、角括弧内のリビジョン番号[\[30000\]](https://core.trac.wordpress.org/changeset/30000) は、Trac、Slack、そしてここ make/core で自動リンクされます。
+一般的に、コミットメッセージの各行は大文字で始まり、ピリオドで終わります。関数名やフックのようなコードは、Trac や Slack で適切な書式になるように、バッククオートの内側に記述する必要があります。チケット番号の前に数字記号[#20202](https://core.trac.wordpress.org/ticket/20202)がつき、角括弧内のリビジョン番号[\[30000\]](https://core.trac.wordpress.org/changeset/30000) は、Trac、Slack、そしてここ make/core で自動リンクされます。
 
 <!--
 ### Brief summary
@@ -76,7 +76,7 @@ The first line of a commit message is a brief summary of the changeset. The brie
 
 *   1行であり、改行を入れてはいけません。
 *   およそ50文字以内、長くても70文字までにします。ログ閲覧ツールはほぼすべて、コミットメッセージの最初の行がこの制限内に収まることを期待しているので、これは重要です。この厳しい制限は、コミットの本質について批判的に考えさせることになるかもしれません。短い文章で変更を説明できない場合、コミットが必要以上に大きなものであるかもしれません。
-*   変更のコンポーネントまたは焦点を要約の前に付けることができます。このような接頭辞をつけることで、貢献者が興味のあるコミットを変更履歴から探しやすくなるかもしれません。例として、[\[33901\]](https://core.trac.wordpress.org/changeset/33901)、[\[33883\]](https://core.trac.wordpress.org/changeset/33883)、[\[33848\]](https://core.trac.wordpress.org/changeset/33848)を参照してください。接頭辞も50/70文字にカウントされることに注意してください。
+*   接頭辞としてコンポーネント名付きの要約、または変更の要点を付けられます。このような接頭辞をつけることで、貢献者が興味のあるコミットを変更履歴から探しやすくなるかもしれません。例として、[\[33901\]](https://core.trac.wordpress.org/changeset/33901)、[\[33883\]](https://core.trac.wordpress.org/changeset/33883)、[\[33848\]](https://core.trac.wordpress.org/changeset/33848)を参照してください。接頭辞も50/70文字にカウントされることに注意してください。
 *   可能であれば、「Relaxes term ID comparisons…」の代わりに「Relax term ID comparisons…」という命令形を使用します。
 
 <!--
@@ -89,7 +89,7 @@ The first line of a commit message is a brief summary of the changeset. The brie
 The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notes and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and why.
 -->
 
-コミットに関するより長い説明には、そのコミットの詳細と開発者への影響を含めるべきです。これには、新しいフック、「gotchas (見落としやすい点)」、検討された他の解決策、背景などが含まれるかもしれません。コミットメーリングリストをフォローしている開発者、各リリースの開発者ノートや WordPress Core Weekly のために情報をまとめているボランティア、そして誰が何をなぜ行ったのかを解明しようとしている人などです。
+コミットに関するより長い説明には、そのコミットの詳細と開発者への影響を含めるべきです。これには、新しいフック、「gotchas (見落としやすい点)」、検討された他の解決策、背景などが含まれるかもしれません。説明に何を書くかを決める際には、読み手を意識してください。読み手はたとえば、コミットメーリングリストをフォローしている開発者、各リリースの開発者ノートや WordPress Core Weekly のために情報をまとめているボランティア、そして、誰が、何を、なぜ、行ったのかを解明しようとしている未来のコード開発者などです。
 
 <!--
 #### Guidelines
@@ -103,9 +103,9 @@ The longer description of a commit should include more details about the commit 
 *   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves, if they need to.
 -->
 
-*   要約と空白行で区切らなければなりません。
-*   必要であれば、空行で区切って複数の段落にできます。コミットメッセージが最終的な変更セットそのものよりも冗長である場合もあります。
-*   要約とは異なり、行を手動で折り返す必要はありません。必要に応じて、ログビューア自身が説明を折り返すことができます。
+*   要約と説明の間は空白行で区切ってください。
+*   必要であれば、空白行で区切って複数の段落にできます。コミットメッセージが最終的な変更セットそのものよりも冗長である場合もあります。
+*   要約とは異なり、行を手動で折り返す必要はありません。必要に応じて、ログビューアが自動で説明を折り返します。
 
 <!--
 ### Props
@@ -117,7 +117,7 @@ The longer description of a commit should include more details about the commit 
 Props should be given to all those who contributed to the final commit, whether through patches, refreshed patches, code suggested otherwise, design, writing, user testing, or other significant investments of time and effort. Usernames are parsed for the credits list and WordPress.org profiles.
 -->
 
-パッチ、更新されたパッチ、提案されたコード、デザイン、ライティング、ユーザーテスト、その他多大な時間と労力を費やして最終的なコミットに貢献したすべての人に賞賛が贈られるべきです。ユーザー名はクレジットリストと WordPress.org プロフィールのために解析されます。
+パッチ、更新されたパッチ、提案されたコード、デザイン、ライティング、ユーザーテスト、その他多大な時間と労力を費やして最終的なコミットに貢献したすべての人に称賛がおくられるべきです。ユーザー名はクレジットリストと WordPress.org プロフィールのために解析されます。
 
 <!--
 In the case of bug reports, props should also be given to the reporter of the bug.
@@ -150,7 +150,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   先頭には空白行が必要です。
 *   ユーザー名は `@` (アット) 記号で始めることはできません。
 *   ユーザー名はカンマとスペースで区切ってください。正規表現: `/^props (\s*([^,]+),?)+$/`
-*   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。(ごめんなさい、rmccue さん。それとも rmmcue さんですか ?)
+*   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
 *   ユーザーの表示名にスペースがある場合は、w.org プロフィールの URL のスラッグを使用してください。たとえば、Trac の `Frank Klein` は `frank-klein` として props を取得する必要があります。
 *   Props は自由に与える側に回ってください。Props は貢献者に大きな励ましを与えます。
 *   もし誰かに props を与えることを忘れた場合、その人が現在のリリースですでに props を与えられているかどうか確認してください。与えられていれば、いずれにしてもリリースクレジットに含まれるため、長期的には問題とはなりません。まだ props が与えられていなければ、[リリースコーディネーター](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinator)に連絡し、リリース日にその人が追加されるようにすることができます。また、礼儀として Slack やチケットのコメントで貢献者に連絡を取り、コミットメッセージに名前がなかったことをお詫びし、彼らの貢献が評価されることとその方法を伝えることを推奨します。
@@ -341,7 +341,7 @@ RC の段階では、コミットされる前に[すべてのパッチは2人目
 *   `npm run grunt build && npm run grunt precommit` を実行します。これにより、PHP と JavaScript の自動テストスイートが実行され、CSS や画像などのさまざまなタスクも実行されます。
     *   変更内容によっては、PHPUnit をさまざまなフラグをつけて手動で実行する必要があるかもしれません。
 *   最後にもう一度完全な diff をチェックします (`svn diff`)。Git を使用している場合は、インタラクティブなステージング (`git add -p`) は個々のチャンクをレビューするのに良い方法です。
-*   変更されたファイルのリストをチェックし (`svn stat`)、新しいファイルが追加されていることを確認します。新しいファイルを追加するパッチを適用すると、新しいファイルの内容が重複してしまうことがあるため、新しいファイルの内容を再確認することもおすすめします。また、新しいファイルの名前が `$_old_files` 配列にあるものと同じでないことを確認してください。そうしないと、すぐにまた削除されてしまいます。もし同じ名前がある場合は、同じ名前のファイルがいつ追加され戻されたかを示すメモを添えて、配列からその行をコメントアウトしてください。その行は削除しないでください。
+*   変更されたファイルのリストをチェックし (`svn stat`)、新しいファイルが追加されていることを確認します。ここで新しいファイルの内容の再確認をおすすめします。新しいファイルを追加するパッチを適用すると、新しいファイルの内容が重複する場合があるためです。また、新しいファイルの名前が `$_old_files` 配列にあるものと同じでないことを確認してください。そうしないと、すぐにまた削除されてしまいます。もし同じ名前がある場合は、同じ名前のファイルがいつ追加され、戻されたかを示すメモを添えて、配列からその行をコメントアウトしてください。その行は削除しないでください。
 *   ファイルを削除する場合は、それらを `$_old_files` 配列に追加します。
 *   `svn switch ^/branches/4.3 && svn merge -c 12345 ^/trunk` を使用して、`trunk` からリリースブランチへのコミットを「チェリーピック」できます。コミットする前にメッセージを編集するように求められます。詳しくは[コミットのバックポート](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/)を参照してください。
 *   リリースのタグ付けとブランチの手順は、[メジャーバージョンのリリースのコアセクション](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#core)ページにあります。
