@@ -1,8 +1,17 @@
+<!--
 # Accessibility Coding Standards
+-->
 
+# アクセシビリティコーディング規約
+
+<!--
 Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/accessibility/)
 Please do *not* edit this page.
+-->
 
+注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/accessibility/)に移動されました。
+
+<!--
 These are standards that WordPress features should meet for accessibility in order to be merged into core. All new or updated code released in WordPress must conform with the WCAG 2.0 guidelines at level AA. These basic guidelines are intended for easy reference during development, but do not cover all possible accessibility issues.
 
 In the [Accessibility Handbook](https://make.wordpress.org/accessibility/handbook/best-practices/) there are pages about best practices, including code examples and resources.
@@ -88,3 +97,4 @@ Existing code uses a mixture of explicitly and implicitly labeled fields, but al
 Don’t introduce new title attributes to convey information. Use aria-label when you need to provide an alternate label and `.screen-reader-text` if you’re appending additional data.
 
 When creating forms, use `<fieldset>` and `<legend>` to group logically related form elements inside complex forms or to group radio buttons and checkboxes under a heading.
+-->

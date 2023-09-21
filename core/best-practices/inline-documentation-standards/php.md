@@ -1,8 +1,17 @@
+<!--
 # PHP Documentation Standards
+-->
 
+# PHP ドキュメント規約
+
+<!--
 Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/inline-documentation-standards/php/)
 Please do *not* edit this page, use *edit* on the new page.
+-->
 
+注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/)に移動されました。
+
+<!--
 WordPress uses a customized documentation schema that draws inspiration from PHPDoc, an evolving standard for providing documentation to PHP code, which is maintained by [phpDocumentor](http://phpdoc.org/).
 
 In some special cases – such as WordPress’ implementation of hash notations – standards are derived from the [draft PSR-5 recommendations](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md). This does not mean we are attempting to be “PSR-5 compliant” at this time, it simply means that we’ve adopted PSR-5 recommendations *in part*.
@@ -631,3 +640,4 @@ The `@copyright` and `@license` tags are used in external libraries and scripts,
 *   [phpDocumentor](http://www.phpdoc.org/)
 *   [phpDocumentor Tutorial Tags](http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.pkg.html)
 *   [Draft PSR-5 recommendations](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md)
+-->
