@@ -1,5 +1,12 @@
+<!--
 # WordPress Coding Standards
+-->
 
+# WordPress コーディング規約
+
+注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/)に移動されました。
+
+<!--
 The purpose of the WordPress Coding Standards is to create a baseline for collaboration and review within various aspects of the WordPress open source project and community, from core code to themes to plugins.
 
 The WordPress community developed the standards contained in this section of the handbook, and those standards are part of the best practices that developers and core contributors are recommended to follow.
@@ -22,3 +29,4 @@ If you are planning to contribute to WordPress core, you need to familiarize you
 ## Accessibility Standards
 
 WordPress is committed to meeting the [Web Content Accessibility Guidelines (WCAG) at level AA](https://www.w3.org/TR/WCAG20/) for all new and updated code. We’ve provided a section with [accessibility best practices](https://make.wordpress.org/core/handbook/best-practices/coding-standards/accessibility-coding-standards/) you should be aware of when creating patches or feature plug-ins.
+-->

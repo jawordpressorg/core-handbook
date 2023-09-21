@@ -1,8 +1,17 @@
+<!--
 # HTML Coding Standards
+-->
 
+# HTML コーディング規約
+
+<!--
 Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/html/)
 Please do *not* edit this page.
+-->
 
+注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/html/)に移動されました。
+
+<!--
 ## HTML
 
 ### Validation
@@ -101,3 +110,4 @@ Incorrect:
 ## Credits
 
 *   HTML code standards adapted from [Fellowship Tech Code Standards](http://developer.fellowshipone.com/patterns/code.php) ([CC license](http://creativecommons.org/licenses/by-nc-sa/3.0/)).
+-->
