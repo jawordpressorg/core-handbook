@@ -128,7 +128,7 @@ There are also a few responsibilities that release leads and deputies have over 
 
 *   **議題の投稿、毎週の開発者チャットの運営、チャットの要約の投稿。** リリースサイクル全体を通して、情報は WordPress 開発者コミュニティ全体に提供されるべきです。すべてのコミュニティメンバーが毎週の開発者チャットに参加できるわけではないので、[議題](https://make.wordpress.org/core/tag/agenda/)と[要約](https://make.wordpress.org/core/tag/summary/)を投稿する必要があります。
 *   **チケットのトリアージとチケットレポートのモニタリング。** リリースには多くの重要な要素があります。リリースリードとサブリードは、新しく提出される trunk チケットを注意深く見守り、関連する[チケットレポート](https://make.wordpress.org/core/reports/)を監視する必要があります。これには、(特に未所有のコンポーネントの) 新しいチケットレポートをトリアージして、ブロックする問題がないかチェックすることも含まれます。
-*   **リリースを予定通りに進める。** [期限を守ること。](https://make.wordpress.org/core/handbook/about/philosophies/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードとサブリードがこのスケジュールに責任を持ちます。(上記の「スケジュールについて」を参照してください。) リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
+*   **リリースを予定通りに進める。** [期限を守ること。](https://make.wordpress.org/core/handbook/about/philosophies/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードとサブリードがこのスケジュールに責任を持ちます (上記の「スケジュールについて」を参照してください)。リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
 *   **バグスクラブの開催。** バグスクラブを毎週開催することは、あらゆる種類の貢献者からの貢献を促す有用な活動です。この活動は、リリースリード、サブリード、その他の貢献者によってうまく運営できます。コンポーネントメンテナーもバグスクラブを行うことができます。
 *   **機能に関するアイデアを検討し、対応する。** WordPress の貢献者やユーザーは、リリースサイクル中、特に[ウィッシュリスト](https://make.wordpress.org/core/tag/wishlists/)の投稿に機能のアイデアを投稿します。各機能を開発することはリリースリード (またはそのサブリード) の責任ではありませんが、各機能のアイデアをレビューし、リリースに含める価値があるかどうかを確認する必要があります。これらのアイデアの多くは、[機能に関するプロジェクト](https://make.wordpress.org/core/features/)から出てくるものですが、中には注意が必要なチケットもあるでしょう。
 *   **助けてくれる貢献者を見つける。** すべての技術的な決定、あるいはその大部分を行うことは、リリースリードの責任ではありません。リリースリードは、いつどのように貢献者を探し出し、支援を求めるべきかを知っておくべきです。コアチームは大規模で、リソースの状況もさまざまであるため、リリースリードはさまざまなチケットに対してフィードバックやサポートを提供するために、どの貢献者が最適であるかをよく理解している必要があります。
@@ -210,7 +210,7 @@ There are no limitations to where you come from. We are a global community, open
 ## Pre Beta 1
 -->
 
-## ベータ 1の前に
+## ベータ1の前に
 
 <!--
 *   **[Compile and start to publish Dev notes](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)**. Start compiling and publishing posts that inform developers of breaking changes and major developer-focused updates of the release on [make/core using #dev-notes](https://make.wordpress.org/core/tag/dev-notes/).
@@ -220,11 +220,11 @@ There are no limitations to where you come from. We are a global community, open
 -->
 
 *   **[開発ノートを編集して公開を開始する](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)**。[make/core で #dev-notes を使って](https://make.wordpress.org/core/tag/dev-notes/)、リリースの重要な変更点や開発者向けの主要な更新を開発者に知らせる記事の編集と公開を開始します。
-*   **About ページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1 までに完成させ、画像は RC2 まで更新できるようにします。[マーケティング・コミュニケーション・ハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[About ページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
+*   **About ページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1までに完成させ、画像は RC2まで更新できるようにします。[マーケティング・コミュニケーション・ハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[About ページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
 *   **HelpHub バージョンページ**。デザイナー、開発者、ユーザーのために、注目すべきアップデートをまとめ始めます。*[5.2 バージョンページ](https://wordpress.org/support/wordpress-version/version-5-2/)を例として使用できますし、[ドキュメントチーム](https://make.wordpress.org/docs/)に助けを求めることもできます。*
 *   [ブラウザーサポートページ](https://make.wordpress.org/core/handbook/best-practices/browser-support/)にリストアップされているブラウザーのどれかが、コアでそれらをサポートするために必要なパーセンテージを下回ったかどうかを確認し、更新が必要なものがあれば、[以下の最終的なリリースの前](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#pre-final-release)における最終チェックと更新の1つになるので、そのための計画を立てます。
 
-## ベータ 1
+## ベータ1
 
 <!--
 The [process for a Beta release](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) is well-documented on a separate handbook page.
@@ -261,7 +261,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
     *   プラグインは trunk、現在の安定版ブランチ、(trunk と異なる場合は) 現在の開発版ブランチで更新されます。
 *   ホスティングコミュニティには、メジャーバージョンの更新リリース日を通知する必要があります。リマインダーとして、[#hosting](https://wordpress.slack.com/messages/hosting/) Slack チャンネルにメッセージを投稿してください。
 *   [翻訳文字列のフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)について、Polyglots P2 でアナウンスしてください ([5.9の例](https://make.wordpress.org/polyglots/2021/12/16/wordpress-5-9-ready-to-be-translated/))。
-*   コミッターには、RC 1がリリースされるときに[リリース候補コミットポリシー](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)が適用されること、特に RC フェーズでは、すべてのコミットがコミッターから二重チェックを得なければならないことを積極的に知らせるべきです。これは RC1 がリリースされた*後*に始まるので、リマインダーでは、RC フェーズが近付いているが、まだ始まっていないことをみんなに知らせてください。
+*   コミッターには、RC1がリリースされるときに[リリース候補コミットポリシー](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)が適用されること、特に RC フェーズでは、すべてのコミットがコミッターから二重チェックを得なければならないことを積極的に知らせるべきです。これは RC1がリリースされた*後*に始まるので、リマインダーでは、RC フェーズが近付いているが、まだ始まっていないことをみんなに知らせてください。
 *   プライベートセキュリティのユニットテスト・スイートを実行してください。
 
 <!--
@@ -353,8 +353,8 @@ When branching before a release, there are two important things that need settin
 *   Translate: Update [/home/rosetta/public\_html/wp-content/mu-plugins/rosetta/rosetta.php](https://dotorg.trac.wordpress.org/browser/wordpress/rosetta/website/wp-content/mu-plugins/rosetta/rosetta.php) to use the branch for the `wp/dev` project.
 -->
 
-*   API: [/home/wporg/public_html/.config/versions.php](https://dotorg.trac.wordpress.org/browser/wordpress/website/.config/versions.php) の `WP_CORE_DEV_BRANCH` をブランチ、たとえば 4.9 に設定します。これはコアの更新チェックで、ベータテスタープラグインのユーザーを (スーパーアルファ5.0にプッシュする代わりに) ブランチの開発パスに保持するために使用されます。
-*   翻訳: 「WordPress 開発」プロジェクトが、trunk ではなくブランチから文字列 ("originals") をインポートすべきであることを GlotPress に認識させるために、[/home/wporg/public_html/translate/bin/update-originals-wp.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-originals-wp.sh) の `DEV_BRANCH` を更新します。これは、trunk での文字列の変更が生成される翻訳ファイルに影響することを防ぐために必要です。これはまた、翻訳作業が WordPress の最新の安定版で継続される間、数週間のリリース後に設定されることが多く、 trunk では文字列の変更について何度も繰り返されることがあります。
+*   API: [/home/wporg/public_html/.config/versions.php](https://dotorg.trac.wordpress.org/browser/wordpress/website/.config/versions.php) の `WP_CORE_DEV_BRANCH` をブランチ、たとえば4.9に設定します。これはコアの更新チェックで、ベータテスタープラグインのユーザーを (スーパーアルファ5.0にプッシュする代わりに) ブランチの開発パスに保持するために使用されます。
+*   翻訳:「WordPress 開発」プロジェクトが、trunk ではなくブランチから文字列 ("originals") をインポートすべきであることを GlotPress に認識させるために、[/home/wporg/public_html/translate/bin/update-originals-wp.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-originals-wp.sh) の `DEV_BRANCH` を更新します。これは、trunk での文字列の変更が生成される翻訳ファイルに影響することを防ぐために必要です。これはまた、翻訳作業が WordPress の最新の安定版で継続される間、数週間のリリース後に設定されることが多く、trunk では文字列の変更について何度も繰り返されることがあります。
 *   翻訳: beta/RC パッケージ用のブランチを使うように [/home/wporg/public_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh) を更新します。
 *   翻訳: `wp/dev` プロジェクト用のブランチを使用するように [/home/rosetta/public_html/wp-content/mu-plugins/rosetta/rosetta.php](https://dotorg.trac.wordpress.org/browser/wordpress/rosetta/website/wp-content/mu-plugins/rosetta/rosetta.php) を更新します。
 
@@ -413,11 +413,11 @@ This is your pre-release checklist. Do not skip it. To help with coordination, i
 *   プライベートなセキュリティ・ユニットテストスイートを実行します。
 *   アナウンス投稿は下書きのままであるべきです。**公開しないでください。**
     *   これは About ページのコピーにもとづきますが、最後にビデオ (該当する場合) と props も含まれます。
-    *   リリース投稿に props のリストを表示するには、次のショートコードを使用してください: `[wpcredits X.Y]`。 X.Y はリリースのバージョンです。これはクレジット API からデータを取得するので、リリース投稿のために props のリストを別に生成する必要はありません。
+    *   リリース投稿に props のリストを表示するには、次のショートコードを使用してください: `[wpcredits X.Y]`。X.Y はリリースのバージョンです。これはクレジット API からデータを取得するので、リリース投稿のために props のリストを別に生成する必要はありません。
     *   コア props の後に、サポートボランティアと翻訳者への感謝の言葉を投稿に含めるようにしてください ([5.6](https://wordpress.org/news/2020/12/simone/)のような、以前のメジャーリリースのアナウンスの例を参照してください)。
     *   投稿を「release」**および**「development」として**ではなく**、「release」**のみに**分類してください。
     *   ハッシュタグ [#WordPress](https://make.wordpress.org/core/tag/wordpress/) を含むツイートを更新します。
-    *   投稿を共有する際にリンクのプレビューに使用されるアイキャッチ画像を設定します。Twitter や Facebook などのプレビューで、画像の大部分が切り取られないようにします。必要であれば、 Facebook では [https://developers.facebook.com/tools/debug/](https://developers.facebook.com/tools/debug/)、Twitter では [https://cards-dev.twitter.com/validator](https://cards-dev.twitter.com/validator) を使ってキャッシュをクリアできます。
+    *   投稿を共有する際にリンクのプレビューに使用されるアイキャッチ画像を設定します。Twitter や Facebook などのプレビューで、画像の大部分が切り取られないようにします。必要であれば、Facebook では [https://developers.facebook.com/tools/debug/](https://developers.facebook.com/tools/debug/)、Twitter では [https://cards-dev.twitter.com/validator](https://cards-dev.twitter.com/validator) を使ってキャッシュをクリアできます。
     *   抜粋文を調整します。
         *   プレビュー URL に `&embed=true` を追加して、埋め込みがうまくいくようにします。
 *   いずれかのブラウザーのサポートを終了した場合は、[ブラウザーサポートページ](https://make.wordpress.org/core/handbook/best-practices/browser-support/)を更新します。
@@ -580,7 +580,7 @@ You’ve made it to release day!
         2.  ベータ版/RC 版を直接ダウンロードする (例: [https://wordpress.org/wordpress-5.8.zip](https://wordpress.org/wordpress-5.8.zip))
     2.  特に、以下のタイプのインストールとアップデートをテストすると良いでしょう:
         1.  WordPress の新規インストールは正しく動作しますか ? これには、WP-CLI やワンクリックインストーラだけでなく、手動インストールプロセスの実行も含まれます。
-        2.  4.0.33、4.9.18、5.7.2、5.8 RC 4、およびその他のバージョンからのアップグレードをテストしてください。
+        2.  4.0.33、4.9.18、5.7.2、5.8 RC4、およびその他のバージョンからのアップグレードをテストしてください。
         3.  `wp-config.php` ファイルを削除し、新規インストールをテストします。
         4.  シングルサイトとマルチサイト/ネットワーク (サブディレクトリとサブドメインの両方) のインストールをテストします。
         5.  正しくアップグレードされていますか ? アップグレード時に、[`$_old_files` にリストされているファイル](https://core.trac.wordpress.org/browser/branches/5.8/src/wp-admin/includes/update-core.php#L21)は削除されていますか ?
@@ -630,7 +630,7 @@ You’ve made it to release day!
 5.  Stare at [download counter](https://wordpress.org/download/counter/) and rejoice.
 -->
 
-1.  (リリースビデオを WordPress.TV に投稿します。**ただし、公開しないでください。** Twitter や Facebook に公開しないよう、公開ボタンのチェックを外してください。)
+1.  (リリースビデオを WordPress.TV に投稿します。**ただし、公開しないでください。** Twitter や Facebook に公開しないよう、公開ボタンのチェックを外してください)
 2.  wordpress.org/news でお知らせを公開します。Twitter にも自動投稿されます。
     1.  リリース番号ではなく、リリースジャズミュージシャンの名前のみを含めスラッグを更新します。
 3.  [HelpHub リリースページ](https://wordpress.org/support/wordpress-version/version-5-2/)を公開します。
@@ -683,7 +683,7 @@ You’ve made it to release day!
 1.  ブランチのバージョンを `X.Y.1-alpha-$REVNUM-src` に、trunk のバージョンを `X.Y+1-alpha-$REVNUM-src` に更新し、対応する `package.json` と `package-lock.json` の変更も一緒に更新します。次のリリースのリードがコミット権限を持っている場合は、trunk を更新する栄誉が与えられるべきです。6.3リリースのコミット例: [https://core.trac.wordpress.org/changeset/55611](https://core.trac.wordpress.org/changeset/55611)。
 2.  ナイトリービルドを強制します。(注意: ナイトリービルドではチェックサムは利用できません。WP-CLI は、インストールされているバージョンとアップグレード先のバージョンの両方のチェックサムを取得するので、古いファイルを削除できます)。
 3.  Trac で `trunk` バージョンの名前を `X.Y` に変更し、trunk 用の新しいバージョンを作成します。`X.Y` のマイルストーンを完成させ、新しいサイクルと `X.Y.1` の新しいマイルストーンを作成します。これは Trac の管理者が行う必要があります。
-4.  Trac では、前のメジャーに対して未リリースのマイナーマイルストーンがある場合、マイルストーンを新しい `X.Y` (既に解決され `X.Y` ブランチに含まれるチケットの場合) または `X.Y.1` (まだ調査や議論が必要なチケットの場合) に更新します。Trac 管理者は未リリースのマイナーマイルストーンを削除してください。
+4.  Trac では、前のメジャーに対して未リリースのマイナーマイルストーンがある場合、マイルストーンを新しい `X.Y` (すでに解決され `X.Y` ブランチに含まれるチケットの場合) または `X.Y.1` (まだ調査や議論が必要なチケットの場合) に更新します。Trac 管理者は未リリースのマイナーマイルストーンを削除してください。
 5.  ドキュメントのさまざまな部分を更新してください:
 
     *   [make.wordpress.org/core](https://make.wordpress.org/core/) のサイドバーにある現在のリリース。

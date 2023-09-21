@@ -8,7 +8,7 @@
 WordPress is managed by a centralized version control system called [Subversion](https://subversion.apache.org/). A mirror of this repository is also available via [Git](https://git-scm.com/), a distributed VCS.
 -->
 
-WordPress は、[Subversion](https://subversion.apache.org/) という集中型バージョン管理システムで管理されています。このリポジトリのミラーは、分散型 VCS である [Git](http://git-scm.com/) を介して利用することもできます。
+WordPress は、[Subversion](https://subversion.apache.org/) という集中型バージョン管理システムで管理されています。このリポジトリのミラーは、分散型 VCS である [Git](http://git-scm.com/) を介して利用できます。
 
 <!--
 The WordPress codebase can be accessed in a number of ways: using Subversion, using Git, through Trac (the bug tracker), and via direct download:
@@ -24,7 +24,7 @@ WordPress のコードベースには、Subversion、Git、Trac (バグトラッ
 -->
 
 *   **Subversion:** リポジトリは [https://develop.svn.wordpress.org/](https://develop.svn.wordpress.org/) にあります。メインの開発ブランチ (trunk と呼ばれます) は [https://develop.svn.wordpress.org/trunk](https://develop.svn.wordpress.org/trunk) にあります。
-*   **Git:** リポジトリは git://develop.git.wordpress.org/ にあります。また、[Github 上の WordPress リポジトリのミラー](https://github.com/wordpress/wordpress)もあります。GitHubでのプルリクエストは歓迎されますが、プルリクエストが他の貢献者に確実に見えるように、[GitHub によるコードレビューガイド](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) に従ってください。
+*   **Git:** リポジトリは `git://develop.git.wordpress.org/` にあります。また、[Github 上の WordPress リポジトリのミラー](https://github.com/wordpress/wordpress)もあります。GitHub でのプルリクエストは歓迎されますが、プルリクエストが他の貢献者に確実に見えるように、[GitHub によるコードレビューガイド](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) に従ってください。
 *   **Trac:** リポジトリは [https://core.trac.wordpress.org/browser/](https://core.trac.wordpress.org/browser/) でブラウザから見ることができます。変更点のログは [https://core.trac.wordpress.org/log/](https://core.trac.wordpress.org/log/) で見ることができます。
 *   **ダウンロード:** WordPress の最新安定版は、[https://wordpress.org/latest.zip](https://wordpress.org/latest.zip) でダウンロードできます。最新のナイトリービルド (2300 GMT) は、[https://wordpress.org/nightly-builds/wordpress-latest.zip](https://wordpress.org/nightly-builds/wordpress-latest.zip) で確認できます。
 
@@ -83,7 +83,7 @@ The files in **wp-includes** go by a (mostly) standard set of prefixes and suffi
 -->
 
 *   `class-*.php` – PHP クラス。一部、外部ライブラリもあります。
-*   `ms-*.php` – WordPressのマルチサイト機能に特化したコードです。
+*   `ms-*.php` – WordPress のマルチサイト機能に特化したコードです。
 *   `default-*.php` – デフォルトの機能を実装または定義するコード。すなわち定数、ウィジェット、およびフィルターです。
 *   `*deprecated.php` – 非推奨となった機能です。
 *   `*-template.php` – 関連する API のテンプレート機能です。
@@ -100,7 +100,7 @@ The files in **wp-admin/includes** follow similar naming conventions.
 The **wp-admin** directory contains the code powering the administration area of WordPress. The primary bootstrap is `wp-admin/admin.php`. Other special files include `admin-header.php` and `admin-footer.php`, the AJAX handler `admin-ajax.php`, and the generic POST handler `admin-post.php`. Most of the files in the **wp-admin** directory are pages in the WordPress admin interface.
 -->
 
-**wp-admin** ディレクトリには、WordPress の管理エリアを動作させるためのコードが含まれています。主なブートストラップは `wp-admin/admin.php` です。その他の特別なファイルとしては、`admin-header.php` と `admin-footer.php` 、AJAX ハンドラである `admin-ajax.php`、一般的な POST ハンドラである `admin-post.php` があります。**wp-admin** ディレクトリにあるファイルのほとんどは、WordPress の管理画面のページのためのものです。
+**wp-admin** ディレクトリには、WordPress の管理エリアを動作させるためのコードが含まれています。主なブートストラップは `wp-admin/admin.php` です。その他の特別なファイルとしては、`admin-header.php` と `admin-footer.php`、AJAX ハンドラである `admin-ajax.php`、一般的な POST ハンドラである `admin-post.php` があります。**wp-admin** ディレクトリにあるファイルのほとんどは、WordPress の管理画面のページのためのものです。
 
 <!--
 The **wp-admin/includes** directory consists of the primary core and third-party libraries available and used in the administration area. Some of these are loaded as the admin is bootstrapped; see `wp-admin/includes/admin.php` for the primary list of files included.
@@ -172,7 +172,7 @@ Note: To learn more about code history, read the section on [Researching Code Hi
 When a WordPress install is initially run, if a `wp-config.php` file cannot be located, the `wp-load.php` file will suggest you visit `wp-admin/setup-config.php` to create the configuration file.
 -->
 
-WordPressのインストールを最初に実行したとき、`wp-config.php` ファイルが見つからない場合、`wp-load.php` ファイルは `wp-admin/setup-config.php` にアクセスして設定ファイルを作成するよう提案します。
+WordPress のインストールを最初に実行したとき、`wp-config.php` ファイルが見つからない場合、`wp-load.php` ファイルは `wp-admin/setup-config.php` にアクセスして設定ファイルを作成するよう提案します。
 
 <!--
 Once this is done, you’ll be taken to `wp-admin/install.php`. At this point, the database tables are created. The database schema is stored in `wp-admin/includes/schema.php`, and the installation libraries are primarily located in `wp-admin/includes/upgrade.php` *(where else are they located? we should be specific here)*.
@@ -196,7 +196,7 @@ Database upgrade instructions are included in `wp-admin/includes/upgrade.php`. 
 Knowing *when* to upgrade is handled by a number in `wp-includes/version.php`, the WordPress database version. This number corresponds to a revision number of the codebase, generally the revision that last introduced a database upgrade routine. When the number in the code differs from the number stored in the database, the routines in `wp-admin/includes/upgrade.php` are run.
 -->
 
-「いつ」アップグレードされるかは、`wp-includes/version.php` にある WordPress データベースのバージョン番号によって判断されます。この番号はコードベースのリビジョン番号に対応し、一般的には最後にデータベースのアップグレードルーチンを実行したリビジョンとなります。コード内の番号がデータベースに保存されている番号と異なる場合、 `wp-admin/includes/upgrade.php` にあるルーチンが実行されます。
+「いつ」アップグレードされるかは、`wp-includes/version.php` にある WordPress データベースのバージョン番号によって判断されます。この番号はコードベースのリビジョン番号に対応し、一般的には最後にデータベースのアップグレードルーチンを実行したリビジョンとなります。コード内の番号がデータベースに保存されている番号と異なる場合、`wp-admin/includes/upgrade.php` にあるルーチンが実行されます。
 
 <!--
 The function `wp_upgrade()` calls `upgrade_all()` (among other functions), which will run the appropriate routines in sequence. In order to trigger a new routine, a “schema bump” – changing the right numbers, including the WordPress database version in `version.php` – needs to occur.

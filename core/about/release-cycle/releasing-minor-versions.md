@@ -48,7 +48,7 @@ Depending on the focus of the minor release (security, maintenance, or both), t
 **Security patches should be created well ahead of time**. Different patches may be necessary for trunk and stable branches. Currently, we make an effort to back port patches to all versions of WordPress that support autoupdates (4.1+). However, back porting patches is not always possible and those versions of WordPress are not officially supported as a result.
 -->
 
-**セキュリティパッチは、時間に余裕をもって作成すること**。trunk ブランチと安定版ブランチでは異なるパッチが必要になるかもしれません。現在、自動更新をサポートしている WordPress のすべてのバージョン (4.1 以降) にパッチをバックポートするよう努めています。しかし、パッチのバックポートが常に可能であるとは限らず、そのため、これらのバージョンの WordPress は公式にはサポートされません。
+**セキュリティパッチは、時間に余裕をもって作成すること**。trunk ブランチと安定版ブランチでは異なるパッチが必要になるかもしれません。現在、自動更新をサポートしている WordPress のすべてのバージョン (4.1以降) にパッチをバックポートするよう努めています。しかし、パッチのバックポートが常に可能であるとは限らず、そのため、これらのバージョンの WordPress は公式にはサポートされません。
 
 <!--
 Follow the process in the Security team handbook to make sure that patches are adequately tested for back-compat, bypasses, and real-world cases.
@@ -132,7 +132,7 @@ Regardless of which kind of release you’re planning, there are a number of thi
 *   最新バージョンの Akismet が WordPress のビルドに含まれていることを確認します。現在では、Akismet チームに連絡して、アップデートに含めるプラグインのリリースが近いかどうかを確認する必要はありません。これは、ユーザーが新しいサイトを作成した直後にアップデートのプロンプトが表示されることを防ぐために重要なことです。これは自動化されています ([関連する議論](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647))。build.svn にコミットして Akismet external を最新バージョンに更新する例は[こちら](https://build.trac.wordpress.org/changeset/38478)です (これは手作業による古い方法です)。
 *   セキュリティチームのメンバーにプライベート・セキュリティ・ユニットテストスイートを実行してもらい、リグレッションが発生しないことを確認します。一部のサイト (wordpress.org など) では本番環境で `trunk` またはベータ/RC が稼働しているため、見つかった場合はその詳細について公の場で議論することは避けてください。代わりに、セキュリティ・チームに個人的に通知してください。
 *   数日前に、リリースが予定されていることをホストに通知するとよいでしょう。3日前が推奨されますが、リリースのスケジュールによっては不可能な場合もあります。セキュリティチームがホストへのメッセージについてお手伝いします。このメッセージは、(セキュリティリリースの場合) **すべてのセキュリティパッチが準備できるまで出してはいけません**。
-*   リリースに **文字列の変更がある場合は、事前に Polyglots チームに知らせてください** 。
+*   リリースに **文字列の変更がある場合は、事前に Polyglots チームに知らせてください**。
 *   最後のリリースタグとリリースブランチの間の `src/` ディレクトリの差分をとり、新しいファイルが追加されていないことを確認します。これらのファイルは自動アップグレードを妨げることが多いためです。
 *   WordPress.org のニュースブログへの投稿が必要です。一般的には、少なくとも1日前には始めるべきです (時間があればあるほどよいでしょう)。[以前のリリース](https://wordpress.org/news/category/releases/)からフォーマットをコピーできます。リリースに貢献したすべての人の完全なリストを得るために、必ずログを grep してください。props のリストは、サンドボックスにアクセスできる人が `wporg/bin/core/props-parser.php` を実行することで最も効率的に集めることができます。
 *   システムチーム (例: @barry、@abbe、@sysmonk) にリリースについて知らせておくことで、何か問題があった場合に備えて、誰かが対応できるように計画しておくことができます。リリースの時間を早く設定すればするほど、より早くこれを行うことができます。
@@ -309,8 +309,8 @@ There are 5 options for strings to choose from for the About page paragraph desc
 *   セキュリティ上の問題が1つあり、バグ修正がない場合: `<strong>Version %s</strong> addressed one security issue.`
 *   複数のセキュリティ問題があり、バグ修正がない場合: `<strong>Version %s</strong> addressed some security issues.`
 *   1つ以上のバグがある場合、`_n()` を `<strong>Version %1$s</strong> addressed %2$s bug.` と `<strong>Version %1$s</strong> addressed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
-*   セキュリティ上の問題が1つあり、バグが1つ以上修正されている場合、 `_n()` を `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug.` および `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
-*   セキュリティ上の問題が1つ以上あり、バグが1つ以上修正されている場合、 `_n()` を `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug.` と `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
+*   セキュリティ上の問題が1つあり、バグが1つ以上修正されている場合、`_n()` を `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug.` および `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
+*   セキュリティ上の問題が1つ以上あり、バグが1つ以上修正されている場合、`_n()` を `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug.` と `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
 
 <!--
 Defer to other recent point releases for examples on how the strings change along with the numbers. Check the strings and have them reviewed before commit.

@@ -104,7 +104,7 @@ OS によってインストーラパッケージのサイズが異なるので�
 Navigate to the [Downloads](https://www.vagrantup.com/downloads.html) page on the Vagrant site. There are a variety of download packages available depending on your operating system, whether that is Mac OS X or Windows. If you’re running Linux, packages are available for 32- and 64-bit Debian and CentOS distributions. Choose the one that’s right for you to download
 -->
 
-Vagrant サイトの [ダウンロード](https://www.vagrantup.com/downloads.html) ページに移動します。Mac OS X や Windows など、お使いの OS に応じてさまざまなダウンロードパッケージが用意されています。Linux であれば、32bit と 64bit の Debian と CentOS のディストリビューションが用意されています。自分に合ったものを選んでダウンロードしてください。
+Vagrant サイトの [ダウンロード](https://www.vagrantup.com/downloads.html) ページに移動します。Mac OS X や Windows など、お使いの OS に応じてさまざまなダウンロードパッケージが用意されています。Linux であれば、32bit と64bit の Debian と CentOS のディストリビューションが用意されています。自分に合ったものを選んでダウンロードしてください。
 
 <!--
 Depending on your operating system, the installer package will vary in size, so it may take a few minutes to download. Once the download is completed, run the installer.
@@ -182,13 +182,13 @@ There are also 2 environments that are disabled by default:
 To enable these, open `vvv-custom.yml`, find `skip_provisioning: true` for the desired site, and change `true` to `false`. Save the file and reprovision to apply changes using `vagrant reload --provision`. This will take some time to run.
 -->
 
-これらを有効にするには、 `vvv-custom.yml` を開き、目的のサイトの `skip_provisioning: true` を見つけて、`true` を `false` に変更します。ファイルを保存して、`vagrant reload --provision` を使って、変更を適用するために再ビジョニングします。これは実行に時間がかかります。
+これらを有効にするには、`vvv-custom.yml` を開き、目的のサイトの `skip_provisioning: true` を見つけて、`true` を `false` に変更します。ファイルを保存して、`vagrant reload --provision` を使って、変更を適用するために再ビジョニングします。これは実行に時間がかかります。
 
 <!--
 You can also setup additional sites, [to learn how to do that click here](https://varyingvagrantvagrants.org/docs/en-US/adding-a-new-site/).
 -->
 
-また、追加のサイトを設定することも可能です。[その方法はこちらをご覧ください](https://varyingvagrantvagrants.org/docs/en-US/adding-a-new-site/)。
+また、追加のサイトを設定できます。[その方法はこちらをご覧ください](https://varyingvagrantvagrants.org/docs/en-US/adding-a-new-site/)。
 
 <!--
 ### 6\. Create a GitHub Repo (optional)
@@ -200,7 +200,7 @@ You can also setup additional sites, [to learn how to do that click here](https:
 Pull requests on GitHub provide a convenient way to receive feedback and also to share the patch for your contributions. You can add “`.diff`” to any pull request URL and GitHub will return a diff file which you can then attach to a Trac ticket. You can also just add a link to the pull request in a Trac ticket comment. There is currently no Git repo clone for `develop.git.wordpress.org` located on GitHub, so you have to set this up yourself:
 -->
 
-GitHub でのプルリクエストはフィードバックを受けたり、パッチを共有したりするのに便利な方法です。プルリクエストの URL に「`.diff`」を追加すると、GitHub が diff ファイルを返してくれるので、それを Trac チケットに添付できます。Trac のチケットのコメントにプルリクエストへのリンクを追加することもできます。現在、 `develop.git.wordpress.org` の Git リポジトリのクローンは GitHub に存在しないので、自分でセットアップする必要があります。
+GitHub でのプルリクエストはフィードバックを受けたり、パッチを共有したりするのに便利な方法です。プルリクエストの URL に「`.diff`」を追加すると、GitHub が diff ファイルを返してくれるので、それを Trac チケットに添付できます。Trac のチケットのコメントにプルリクエストへのリンクも追加できます。現在、`develop.git.wordpress.org` の Git リポジトリのクローンは GitHub に存在しないので、自分でセットアップする必要があります。
 
 <!--
 1.  Have VVV set up (above).
@@ -220,6 +220,6 @@ GitHub でのプルリクエストはフィードバックを受けたり、パ�
 4.  次のコマンドを実行して、この新しいリポジトリをオリジンリモートとして設定します。`cd ...vvv/www/wordpress-trunk/public_html && git remote set-url origin https://github.com/YOURNAME/wordpress-develop.git && git remote add upstream git://develop.git.wordpress.org/`.
 5.  master ブランチをチェックアウトします。`git checkout master`
 6.  作業したい Trac チケット (例: 12345) にもとづいて、feature ブランチを作成します。`git checkout -b trac-12345`
-7.  修正のコミットを追加して、 `git push` します (GitHub のパスワードを再入力することを防ぐために、[Git で GitHub パスワードをキャッシュする](https://help.github.com/articles/caching-your-github-password-in-git/) も参照してください)。
+7.  修正のコミットを追加して、`git push` します (GitHub のパスワードを再入力することを防ぐために、[Git で GitHub パスワードをキャッシュする](https://help.github.com/articles/caching-your-github-password-in-git/) も参照してください)。
 8.  GitHub にアクセスし、`master` ブランチへのプルリクエストをオープンします。
-9.  作成したプルリクエストの URL をコピーして WordPress Trac の新しいコメントに貼り付けて、フィードバックを求めます。パッチの diff を添付するのが理想的ですが、これはプルリクエストの URL に 「`.diff`」 を追加するだけです。例: [https://github.com/xwp/wordpress-develop/pull/61.diff](https://github.com/xwp/wordpress-develop/pull/61.diff)
+9.  作成したプルリクエストの URL をコピーして WordPress Trac の新しいコメントに貼り付けて、フィードバックを求めます。パッチの diff を添付するのが理想的ですが、これはプルリクエストの URL に「`.diff`」を追加するだけです。例: [https://github.com/xwp/wordpress-develop/pull/61.diff](https://github.com/xwp/wordpress-develop/pull/61.diff)

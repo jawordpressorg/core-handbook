@@ -72,7 +72,7 @@ There are many [pre-generated reports](https://make.wordpress.org/core/reports/)
 You can also create a custom query. For example, here’s one for [defects discussed during the last cycle that don’t have a resolution yet](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+(bug)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
 -->
 
-カスタムクエリーを作成することもできます。たとえば、これは[前回のサイクルで議論されたまだ解決していない不具合](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+(bug)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)に関するものです。
+カスタムクエリーも作成できます。たとえば、これは[前回のサイクルで議論されたまだ解決していない不具合](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+(bug)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)に関するものです。
 
 <!--
 ### What does it mean to move tickets towards a resolution?

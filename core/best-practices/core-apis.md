@@ -84,7 +84,7 @@ WordPress 2.6で追加された [Filesystem API](https://codex.wordpress.org/Fil
 The [HTTP API](https://developer.wordpress.org/plugins/http-api/ "HTTP API"), added in WordPress 2.7 and extended further in WordPress 2.8, standardizes the HTTP requests for WordPress. The API handles cookies, gzip encoding and decoding, chunk decoding (if HTTP 1.1), and various other HTTP protocol implementations. The API standardizes requests, tests each method prior to sending, and, based on your server configuration, uses the appropriate method to make the request.
 -->
 
-WordPress 2.7で追加され、WordPress 2.8でさらに拡張された [HTTP API](https://developer.wordpress.org/plugins/http-api/ "HTTP API") は、WordPress の HTTP リクエストを標準化します。この API は Cookie、gzip エンコードとデコード、チャンクデコード (HTTP 1.1 の場合)、その他さまざまな HTTP プロトコルの実装を扱います。API はリクエストを標準化し、送信前に各メソッドをテストし、サーバーの設定にもとづいて適切なメソッドを使用してリクエストを行います。
+WordPress 2.7で追加され、WordPress 2.8でさらに拡張された [HTTP API](https://developer.wordpress.org/plugins/http-api/ "HTTP API") は、WordPress の HTTP リクエストを標準化します。この API は Cookie、gzip エンコードとデコード、チャンクデコード (HTTP1.1の場合)、その他さまざまな HTTP プロトコルの実装を扱います。API はリクエストを標準化し、送信前に各メソッドをテストし、サーバーの設定にもとづいて適切なメソッドを使用してリクエストを行います。
 
 ### Metadata API
 
@@ -92,7 +92,7 @@ WordPress 2.7で追加され、WordPress 2.8でさらに拡張された [HTTP AP
 The [Metadata API](https://codex.wordpress.org/Metadata_API "Metadata API"), added in WordPress 2.9, is a simple and standardized way for retrieving and manipulating metadata of various WordPress object types. Metadata for an object is a represented by a simple key-value pair. Objects may contain multiple metadata entries that share the same key, and differ only in their value.
 -->
 
-WordPress 2.9で追加された [Metadata API](https://codex.wordpress.org/Metadata_API "Metadata API") は、WordPress のさまざまなオブジェクトタイプのメタデータを取得・操作するためのシンプルで標準化された方法です。オブジェクトのメタデータは単純なキーと値のペアで表されます。オブジェクトには、同じキーを共有し、値のみが異なる複数のメタデータエントリが含まれる場合があります。
+WordPress 2.9で追加された [Metadata API](https://codex.wordpress.org/Metadata_API "Metadata API") は、WordPress のさまざまなオブジェクトタイプのメタデータを取得・操作するためのシンプルで標準化された方法です。オブジェクトのメタデータは単純なキーと値のペアで表されます。オブジェクトには、同じキーを共有し、値のみが異なる複数のメタデータエントリーが含まれる場合があります。
 
 ### Options API
 

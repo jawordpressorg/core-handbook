@@ -153,7 +153,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
 *   ユーザーの表示名にスペースがある場合は、w.org プロフィールの URL のスラッグを使用してください。たとえば、Trac の `Frank Klein` は `frank-klein` として props を取得する必要があります。
 *   Props は自由に与える側に回ってください。Props は貢献者に大きな励ましを与えます。
-*   もし誰かに props を与えることを忘れた場合、その人が現在のリリースですでに props を与えられているかどうか確認してください。与えられていれば、いずれにしてもリリースクレジットに含まれるため、長期的には問題とはなりません。まだ props が与えられていなければ、[リリースコーディネーター](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinator)に連絡し、リリース日にその人が追加されるようにすることができます。また、礼儀として Slack やチケットのコメントで貢献者に連絡を取り、コミットメッセージに名前がなかったことをお詫びし、彼らの貢献が評価されることとその方法を伝えることを推奨します。
+*   もし誰かに props を与えることを忘れた場合、その人が現在のリリースですでに props を与えられているかどうか確認してください。与えられていれば、いずれにしてもリリースクレジットに含まれるため、長期的には問題とはなりません。まだ props が与えられていなければ、[リリースコーディネーター](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinator)に連絡し、リリース日にその人が追加されるようにできます。また、礼儀として Slack やチケットのコメントで貢献者に連絡を取り、コミットメッセージに名前がなかったことをお詫びし、彼らの貢献が評価されることとその方法を伝えることを推奨します。
 
 <!--
 #### Self props
@@ -183,7 +183,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 Trac will add commit messages as comments on all tickets referenced as “fixes” or “see”. If a commit message contains the text “Fixes [#12345](https://core.trac.wordpress.org/ticket/12345)“, Trac will close ticket [#12345](https://core.trac.wordpress.org/ticket/12345) and assign you as the owner if there isn’t one already.
 -->
 
-Trac は、「fixes」や「see」として参照されたチケットにコメントとしてコミットメッセージを追加します。コミットメッセージに「Fixes [#12345](https://core.trac.wordpress.org/ticket/12345)」というテキストが含まれている場合、 Trac はチケット[#12345](https://core.trac.wordpress.org/ticket/12345)をクローズし、まだ所有者がいなければあなたを所有者にします。
+Trac は、「fixes」や「see」として参照されたチケットにコメントとしてコミットメッセージを追加します。コミットメッセージに「Fixes [#12345](https://core.trac.wordpress.org/ticket/12345)」というテキストが含まれている場合、Trac はチケット[#12345](https://core.trac.wordpress.org/ticket/12345)をクローズし、まだ所有者がいなければあなたを所有者にします。
 
 <!--
 #### Guidelines
@@ -201,7 +201,7 @@ Trac は、「fixes」や「see」として参照されたチケットにコメ�
 *   チケットリファレンスは、props の直下の行に記述してください。props がない場合は、空の改行で上のコンテンツと区切ります。
 *   複数のチケットはカンマとスペースで区切ります。
 *   修正されたチケットと関連されたチケットの両方を参照する場合は、「Fixes」で始めて各セットをピリオドで終了します。たとえば「Fixes [#19867](https://core.trac.wordpress.org/ticket/19867), [#9864](https://core.trac.wordpress.org/ticket/9864). See [#31696](https://core.trac.wordpress.org/ticket/31696).」などです。セット内の項目が多い場合は、別の行に入れます。
-*   チケット番号を入れ忘れた場合は、チケットにコメントを残します (例: 「Fixed in \[changeset\_number\]」。オプションでコミットメッセージのコピーを付けると、トレーサビリティを確保しやすくなります)。
+*   チケット番号を入れ忘れた場合は、チケットにコメントを残します (例:「Fixed in \[changeset\_number\]」。オプションでコミットメッセージのコピーを付けると、トレーサビリティを確保しやすくなります)。
 
 <!--
 ## Example

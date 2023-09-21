@@ -37,7 +37,7 @@ Internationalization is the process of developing the codebase so that it can ea
 *   Use HTML entities for dashes (`&mdash;`) and apostrophes (`&­#8217;`)
 -->
 
-* 単数形/複数形： 1つの項目に対して単数形が常に使われるわけではないことを説明する
+* 単数形/複数形: 1つの項目に対して単数形が常に使われるわけではないことを説明する
 * プレースホルダーに対する翻訳者コメント、要件
 * コンテキストと翻訳者コメントの違いの説明
 * エスケープ方法
@@ -66,7 +66,7 @@ Languages have varying word orders, and complex grammatical and syntactic rules.
 It is better to make every message a complete sentence, each with a full stop at the end. Several sentences can usually be combined much more easily be into a text block, if needed.
 -->
 
-すべてのメッセージは完全な文章にし、各文章の最後に句点をつけましょう。もし必要であれば、たいていは複数の文章を1つのテキストのまとまりにすることができます。
+すべてのメッセージは完全な文章にし、各文章の最後に句点をつけましょう。もし必要であれば、たいていは複数の文章を1つのテキストのまとまりにできます。
 
 <!--
 #### Use full stops

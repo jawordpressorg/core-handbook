@@ -34,7 +34,7 @@ This article will walk you through installing the latest WordPress development v
     *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
 -->
 
-*   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。 \[[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/)\]
+*   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/)\]
     *   **備考**: ローカルサーバーとして DesktopServer を使用している場合、新しいローカル開発サイトを作成する際に、Blueprint ドロップダウンから **Blank (WordPress SVN)** オプションを選択する必要があります。これにより、データベースと `wp-config.php` ファイルが作成されます。サイトを作成したら、WordPress trunk のコピーをチェックアウトする前に、開発サイトのフォルダー (**wordpress-svn.dev**) にある `index.html` と `wp-config-sample.php` ファイルを削除してください。
 *   コンピューターに Subversion がインストールされていること:
     *   Windows に SVN をインストールする
@@ -60,7 +60,7 @@ The 3.7 release cycle brought a [restructuring of the SVN repository](https://ma
 You can still check out just the source code from [https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) to install and test with; however, if you plan on contributing to core, it is recommended that you check out the source code, unit tests, and tools from the new repository to test, fix bugs, and create patches and unit tests with.
 -->
 
-[https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) からソースコードだけをチェックアウトして、インストールしたりテストしたりすることはできます。しかし、もしコアに貢献するつもりなら、新しいリポジトリからソースコード、ユニットテスト、ツールをチェックアウトして、テスト、バグ修正、パッチやユニットテストの作成に利用することをお勧めします。
+[https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) からソースコードだけをチェックアウトして、インストールしたりテストしたりすることはできます。しかし、もしコアに貢献するつもりなら、新しいリポジトリからソースコード、ユニットテスト、ツールをチェックアウトして、テスト、バグ修正、パッチやユニットテストの作成に利用することをおすすめします。
 
 
 <!--
@@ -255,7 +255,7 @@ Upon browser refresh you should get the response as described below. These direc
 **If you created your `wp-config.php` file manually**, you will be presented with the standard WordPress installation screen. You will do the famous “5 minute install” – enter your site title, desired username, choice of a password (twice), and your e-mail address, then **click Install WordPress** to complete the installation. **Click Log In** on the Success screen, enter your username and password, and configure the settings for your preferences.
 -->
 
-**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な 「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定を行います。**成功の画面でログイン**をクリックし、ユーザー名とパスワードを入力し、お好みの設定を行います。
+**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定を行います。**成功の画面でログイン**をクリックし、ユーザー名とパスワードを入力し、お好みの設定を行います。
 
 
 <!--
@@ -315,7 +315,7 @@ You will need to run the latest version of WordPress trunk on your local SVN ins
 WordPress 3.7 [introduces automatic updates](https://make.wordpress.org/core/2013/09/24/automatic-core-updates/) for minor stable WordPress releases (3.7.x). This feature, by default, does not work for Subversion installs.
 -->
 
-WordPress 3.7 では、WordPress のマイナーな安定版リリース (3.7.x) に対して [自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) しています。この機能は、デフォルトでは、Subversion インストールでは機能しません。
+WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して [自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) しています。この機能は、デフォルトでは、Subversion インストールでは機能しません。
 
 <!--
 You will need to manually update your local SVN install. The instructions below are for updating to the latest version of WordPress trunk using either TortoiseSVN or the command line.

@@ -1,6 +1,6 @@
 # JavaScript Coding Standards
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/)  
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/)
 Please do *not* edit this page.
 
 JavaScript has become a critical component in developing WordPress-based applications (themes and plugins) as well as WordPress core. Standards are needed for formatting and styling JavaScript code to maintain the same code consistency as the WordPress standards provide for core PHP, HTML, and CSS code.
@@ -70,11 +70,11 @@ var arr = [
 	4,
 	15,
 ];
- 
+
 // Acceptable for small objects and arrays
 var obj = { ready: 9, when: 4, 'you are': 15 };
 var arr = [ 9, 4, 15 ];
- 
+
 // Bad
 var obj = { ready: 9,
 	when: 4, 'you are': 15 };
@@ -88,17 +88,17 @@ Always include extra spaces around elements and arguments:
 
 ```javascript
 array = [ a, b ];
- 
+
 foo( arg );
- 
+
 foo( 'string', object );
- 
+
 foo( options, object[ property ] );
- 
+
 foo( node, 'property', 2 );
- 
+
 prop = object[ 'default' ];
- 
+
 firstArrayElement = arr[ 0 ];
 ```
 
@@ -303,10 +303,10 @@ If an abbreviation or an acronym occurs at the start of a variable name, it must
 ```javascript
 // "Id" is an abbreviation of "Identifier":
 const userId = 1;
- 
+
 // "DOM" is an acronym of "Document Object Model":
 const currentDOMDocument = window.document;
- 
+
 // Acronyms and abbreviations at the start of a variable name are consistent
 // with camelcase rules covering the first letter of a variable or class.
 const domDocument = window.document;
@@ -330,7 +330,7 @@ class Earth {
 		return Earth.humans;
 	}
 }
- 
+
 Earth.humans = [];
 ```
 
@@ -348,10 +348,10 @@ Comments come before the code to which they refer, and should always be preceded
 
 ```javascript
 someStatement();
- 
+
 // Explanation of something complex on the next line
 $( 'p' ).doSomething();
- 
+
 // This is a comment that is long enough to warrant being stretched
 // over the span of multiple lines.
 ```

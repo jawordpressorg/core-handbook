@@ -153,7 +153,7 @@ Below is a list of some of the requirements a feature plugin team should meet w
 *   デザインは、あらゆるモバイルデバイスで適切に表示される完全なレスポンシブデザインで、高解像度・レティーナディスプレイにも対応したグラフィックスを使用している。
 *   HTML が適切な doctype で検証されている。
 *   このコードには、ローカライズのための適切なフックがすべて用意されている (必ず [Polyglots チーム](https://make.wordpress.org/polyglots/) にレビューを依頼してください)。
-*   WordPressは引き続き機能し、JavaScript をオフにした状態でも、この機能は使用可能である。
+*   WordPress は引き続き機能し、JavaScript をオフにした状態でも、この機能は使用可能である。
 *   この機能は、キーボードだけで使用できる。
 *   (これらに限定されませんが) オフスクリーンテキスト、ARIA、JS-assisted など、必要なアクセシビリティのサポートが追加されている (必ず[アクセシビリティチーム](https://make.wordpress.org/accessibility/)に聞いてください)。
 *   プラグインの準備が整い次第、[Make/Core ブログ](https://make.wordpress.org/core/)に[マージの提案](https://make.wordpress.org/core/)が公開されている。

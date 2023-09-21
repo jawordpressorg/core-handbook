@@ -62,7 +62,7 @@ To add the merge info afterwards you can run `svn merge --record-only -c 12345 '
 The branch commit message will generally be copied from the `trunk` commit(s), but adds a new line between `Props` and `Fixes` which says, “Merges \[`trunk changeset ID`\] to the 5.0 branch.” For an example, see [r43276](https://core.trac.wordpress.org/changeset/43276/).
 -->
 
-ブランチのコミットメッセージは通常 `trunk` コミットからコピーされますが、`Props` と `Fixes` の間に 「Merges \[`trunk changeset ID`] to the 5.0 branch.」 という新しい行が追加されます。例としては、[r43276](https://core.trac.wordpress.org/changeset/43276/)を参照してください。
+ブランチのコミットメッセージは通常 `trunk` コミットからコピーされますが、`Props` と `Fixes` の間に「Merges \[`trunk changeset ID`] to the 5.0 branch.」という新しい行が追加されます。例としては、[r43276](https://core.trac.wordpress.org/changeset/43276/)を参照してください。
 
 <!--
 Make sure to run the above commands from the branch root, and not from a sub directory. The reason for this is that the `svn:mergeinfo` is a SVN property on `/branches/5.9` which the SVN client sets, it’s not a server side thing.

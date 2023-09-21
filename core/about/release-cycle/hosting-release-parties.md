@@ -3,7 +3,7 @@
 -->
 
 > **Note**
-> 「Host script based on Beta releases（ベータリリースにもとづく開催スクリプト）」のセクションは、GitHub 原文ではセル内で改行されており、またインラインハイライトが使用されています。どちらもマークダウン上では利用出来ないため、セル内の改行については `<br />` タグに置き換えています。このセクションの更新を WordPres ページに反映する時は、原文を参照の上、適切に改行・ハイライトを行って下さい。
+> 「Host script based on Beta releases (ベータリリースにもとづく開催スクリプト)」のセクションは、GitHub 原文ではセル内で改行されており、またインラインハイライトが使用されています。どちらもマークダウン上では利用出来ないため、セル内の改行については `<br />` タグに置き換えています。このセクションの更新を WordPres ページに反映する時は、原文を参照の上、適切に改行・ハイライトを行って下さい。
 
 # リリースパーティーの開催
 
@@ -46,7 +46,7 @@ Note: Some or all of these roles may be performed by the same contributor, depen
 -->
 
 *   **パーティのホスト** (この文書では `@emcee`)。通常、これはリリースコーディネーターの一人です。リリースコーディネーターが不在の場合は、リリースチームからの誰かがその役割を果たすことができます。最後の手段として、現在のチームのメンバーではない信頼できる貢献者がその役割を担うこともできます。
-*   **コアコミッター** (`@corecommitter`). この貢献者は「バージョンアップ」アクションを実行します。現在のコアコミッターのリストは[ここ](https://make.wordpress.org/core/handbook/about/organization/#committers)にあります。
+*   **コアコミッター** (`@corecommitter`)。この貢献者は「バージョンアップ」アクションを実行します。現在のコアコミッターのリストは[ここ](https://make.wordpress.org/core/handbook/about/organization/#committers)にあります。
 *   **セキュリティチームのメンバー** (`@securityteammember`)。この貢献者は、リリースされる最新のコードセットが非公開のセキュリティテストに合格していることを確認します。
 *   **ミッションコントロールのアクセス権を持つ人** (`@mcpilot`)。このレベルのアクセス権を持つ貢献者は、リリースをパッケージ化し、ナイトリーを更新するために必要です。このアクセス権を持つアクティブな貢献者のリストは非常に少ないので、前もってこの役割を果たす人を見つけておくことが重要です。
 *   **マーケティングチームのメンバー、またはマーケティングリリースリード** (`@marketingteamember`)。リリースアナウンスの投稿を下書きする担当者。
@@ -153,7 +153,7 @@ Thanks, everyone, for joining in and helping make WordPress! Hope to see you at 
 | **ステップ5:** セキュリティチームのメンバーに、最新のコミットでプライベートセキュリティユニットテストがパスしていることを確認してもらい、リグレッションが発生していないことを確認してもらう | @securityteammember, please verify the private security unit tests pass for the latest commit. Thanks! | Security Team Member |
 | **ステップ6:** バージョンアップ | @corecommitter, will you please commit the first version bump?<br /><br />**\[コミットされるのを待つ\]** | Core Committer |
 | **ステップ7:** パッケージをビルドする | @mcpilot please proceed to package the release and post the link to the package here. | Core Committer |
-| **ステップ8:** パッケージに関するお知らせ | \[**パッケージがビルドされている間は、テストが終わってリリースの投稿が公開されるまで、パッケージへのリンクを公の場に共有しないよう、もう一度参加者に注意してください。パッケージング中にエラーが起こり、パッケージの再構築が必要になることがあります。**\]<br /><br />:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren:<br /><br />**\[.zipファイルへのリンクが貼られるまで待つ。\]** | Emcee |
+| **ステップ8:** パッケージに関するお知らせ | \[**パッケージがビルドされている間は、テストが終わってリリースの投稿が公開されるまで、パッケージへのリンクを公の場に共有しないよう、もう一度参加者に注意してください。パッケージング中にエラーが起こり、パッケージの再構築が必要になることがあります。**\]<br /><br />:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren:<br /><br />**\[.zip ファイルへのリンクが貼られるまで待つ。\]** | Emcee |
 | **ステップ8:** テスト | I**t’s testing time**!<br /><br />There are several ways to test, so pick whatever feels most comfortable and report back as you go:<br /><br />1\. Install and activate the [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/) plugin. Select the Bleeding edge channel and then Beta/RC Only stream.<br />2\. Use WP-CLI to test: wp core update –version=`X.Y-Z`<br />3\. Directly download the Beta/RC version from https://wordpress.org/wordpress-`X.Y-Z`.zip<br /><br />**Here are a few scenarios to test:**<br />– Test from latest in 4.0.\* release series (e.g., 4.0.35 > `X.Y-Z`)<br />– Test from latest in 4.9.\* release series (e.g., 4.9.21 > `X.Y-Z`)<br />– Test from the latest version in the current major release series (e.g., 6.1.1 > `X.Y-Z`) – Test from the most recent Beta/RC release (e.g., Beta 4 > `X.Y-Z`) – Test fresh installation<br />– Remove `wp-config.php` file and test a fresh installation<br />– Test single site and multisite/network (both subdirectory and subdomain) installations<br /><br />You can report back by sharing how you tested and what the result was with an emoji. For example:<br />– 6.2-beta1 > `X.Y-Z` via beta tester<br />If it works, add :white\_check\_mark:<br />If any issues happen, add :red\_circle: so we can investigate. | Everyone |
 | **Optional**: 見つかった問題点をまとめる | **\[テスト中に問題が見つかった場合は、このセクションを参照してください。\]**<br />Thanks, everyone, for testing! For now, we’re tracking the following issues: | Emcee |
 | **ステップ9:** 2番目のバージョンアップ | Please, @corecommitter, proceed with the second version bump.<br /><br />**\[コミットされるのを待つ\]** | Core Committer |

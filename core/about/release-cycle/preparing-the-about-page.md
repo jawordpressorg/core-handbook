@@ -300,7 +300,7 @@ The icons in the About page content are SVGs used inline, so export those and ma
 The feature screenshots are raster images, export these at 2x and convert to webp. They’re added to the page from external links, so use make.w.org if they’re still in flux. When finalized, upload to the s.w.org CDN (needs dotorg committer).
 -->
 
-機能のスクリーンショットはラスターイメージですので、2倍でエクスポートして WebP に変換します。 これらは外部リンクからページに追加されるため、まだ流動的な場合は make.w.org を使用してください。完成したら、s.w.org CDN にアップロードします (dotorg コミッターが必要です)。
+機能のスクリーンショットはラスターイメージですので、2倍でエクスポートして WebP に変換します。これらは外部リンクからページに追加されるため、まだ流動的な場合は make.w.org を使用してください。完成したら、s.w.org CDN にアップロードします (dotorg コミッターが必要です)。
 
 <!--
 ### Update URLs in the content
@@ -344,7 +344,7 @@ The timeline for this page depends on multiple teams, and there are a lot of thi
 *   During RC: Upload and commit the feature screenshots, update any URLs, update finalized assets.
 -->
 
-*   ベータ3 (またはリリース前の最後のベータ) : ページの最初の最終案、基本的なレイアウトとデザインをコミットします
+*   ベータ3 (またはリリース前の最後のベータ): ページの最初の最終案、基本的なレイアウトとデザインをコミットします
 *   RC1: ページの最終的な下書きをコミットし、完成したアセットを更新します。
 *   RC 中: 機能のスクリーンショットをアップロードしてコミットし、URL を更新し、完成したなアセットを更新します。
 
@@ -352,7 +352,7 @@ The timeline for this page depends on multiple teams, and there are a lot of thi
 No string changes should happen after RC1, but exceptions are made, for example if something is technically inaccurate.
 -->
 
-RC1 以降に文字列の変更は行うべきではありませんが、技術的に不正確な場合などは例外が発生します。
+RC1以降に文字列の変更は行うべきではありませんが、技術的に不正確な場合などは例外が発生します。
 
 ## Props
 

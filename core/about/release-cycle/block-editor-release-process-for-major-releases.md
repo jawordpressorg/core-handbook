@@ -92,7 +92,7 @@ This is a list of the major time-critical tasks, sorted by when they should be d
 -->
 
 *   最新の Gutenberg パッケージと PHP の変更で Trunk をアップデートする。
-*   開発ノートのためのイシュートラッカーを作成する (開発ノートは RC1 までに公開されるはずであり、そのために十分な時間が必要です)。
+*   開発ノートのためのイシュートラッカーを作成する (開発ノートは RC1までに公開されるはずであり、そのために十分な時間が必要です)。
 
 <!--
 **Between Beta 1 and last RC**
@@ -110,7 +110,7 @@ This is a list of the major time-critical tasks, sorted by when they should be d
 **The week before each Beta/RC release**
 -->
 
-### 各ベータ/RCリリースの前の週
+### 各ベータ/RC リリースの前の週
 
 <!--
 *   Go through all merged Pull Requests labeled [Backport to WP Beta/RC](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Backport+to+WP+Beta%2FRC%22+is%3Aclosed) and check that they are OK to include.
@@ -406,7 +406,7 @@ To get started, here’s a script to use to begin auditing the experimental APIs
 With the information from the report and any information manually collected, it can help to then group related experimental APIs to get a sense of what’s in place currently. From there, use git blame to know who was involved in each API in order to ping them. You can then create a new overview issue in GitHub that lists out a checkbox for each API where one can see at a glance the status of whether a decision has been made around the API being stabilized or not. 
 -->
 
-レポートからの情報と手動で収集した情報があれば、関連する実験的な API をグループ化して、現在何があるのかを把握することに役立ちます。そこから git blame を使って、それぞれの API に誰が関与していたかを知ることで、彼らに通知を送ることができます。そして GitHub に新しい概要の issue を作成し、各 API のチェックボックスをリストアップすれば、API の安定化に関する決定がなされたかどうかのステータスが一目でわかるようになります。
+レポートからの情報と手動で収集した情報があれば、関連する実験的な API をグループ化して、現在何があるのかを把握することに役立ちます。そこから git blame を使って、それぞれの API に誰が関与していたかを知ることで、彼らに通知を送ることができます。そして GitHub に新しい概要の issue を作成し、各 API のチェックボックスをリストアップすれば、API の安定化に関する決定がなされたかどうかのステータスが一目でわかります。
 
 <!--
 ## Communication Management
@@ -544,7 +544,7 @@ In order to safely update the npm packages in core, experimental Gutenberg featu
 Create an overview issue of all the changes from the `lib` and `phpunit` folders that need to be manually synced. Using git blame, find the authors of those changes and ping them to create core PRs for them.
 -->
 
-手動で同期する必要がある `lib` フォルダーと `phpunit` フォルダーから、すべての変更に関する概要の issue を作成します。 git blame を使用して、それらの変更の作成者を見つけて通知し、それらの変更のコアプルリクエストを作成します。
+手動で同期する必要がある `lib` フォルダーと `phpunit` フォルダーから、すべての変更に関する概要の issue を作成します。git blame を使用して、それらの変更の作成者を見つけて通知し、それらの変更のコアプルリクエストを作成します。
 
 <!--
 The PHP files in `block-library` package don’t need to be manually synced, as they are auto-generated in core based on the npm package.
@@ -622,7 +622,7 @@ Once tasks on the “Must Haves” board are completed they need to be backporte
 *   wp/trunk をベースにブランチを作成し、準備中のリリースに従って名前をつけます (例: wp/trunk-5-4-0-rc-1)。
 *   各プルリクエストを新しく作成したブランチにチェリーピックします。
 
-    *   [便利なチェリーピッキングの自動化](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/)が `npm run cherry-pick` によって利用できます。これは、「Backport to WP Beta/RC」ラベルのついたすべてのマージされたプルリクエストを見つけ、それらをチェリーピックし、関連するプルリクエストに自動的にコメントし、ブランチを Github にプッシュするかどうかを尋ねます。第一引数に別のラベルを渡すこともできます。
+    *   [便利なチェリーピッキングの自動化](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/)が `npm run cherry-pick` によって利用できます。これは、「Backport to WP Beta/RC」ラベルのついたすべてのマージされたプルリクエストを見つけ、それらをチェリーピックし、関連するプルリクエストに自動的にコメントし、ブランチを GitHub にプッシュするかどうかを尋ねます。第一引数に別のラベルを渡すこともできます。
 
     *   手動で行うこともできます。コミットのハッシュは GitHub のプルリクエストページから抽出できます。マージのコンフリクトを避けるためには、trunk で行われたのと同じ順番でコミットをチェリーピックすることが重要です。これは、ラベルビューに表示される順番と同じではない可能性が高いので、マージされた日付を再確認し、必要に応じて[コミット履歴](https://github.com/WordPress/gutenberg/commits/master)を参照しましょう。複数のコミットを、このようにひとつのコマンドにまとめることもできます: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
 *   マージがコンフリクトする可能性があります。もしコンフリクトが起きたら、それを解決しなければなりません。解決方法がわからない場合は、プルリクエストの作者にメッセージを送って助けを求めてください。コンフリクトを解決するためにどのような手順が取られたかをメモしておいてください。
@@ -656,12 +656,12 @@ Once tasks on the “Must Haves” board are completed they need to be backporte
 -->
 
 *   チェリーピックを行ったプルリクエストをマージしたら、`wp/trunk` ブランチに移動して `git pull` を実行します。
-*   [https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases](https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases) に記載されているように、関連する Github アクションを実行して、WordPress リリース用の `@wordpress` npm パッケージを更新します。
+*   [https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases](https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/release.md#wordpress-releases) に記載されているように、関連する GitHub アクションを実行して、WordPress リリース用の `@wordpress` npm パッケージを更新します。
 *   wordpress-develop フォルダーで、自動化スクリプトである `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>` を実行し、パッケージを更新します。新しくリリースされた `@wordpress` パッケージと同じ dist-tag を使用することを忘れないでください。
 *   次に、wordpress-develop フォルダーで `npm run postsync-gutenberg-packages` を実行します。新しい Gutenberg ブロックがコアに含まれ、必要なビルドが実行されます。
 *   解決されるはずの問題が WordPress trunk 上で実際に解決されていることを確認します。
 *   コアのパッケージ更新を更新するために [Trac](https://core.trac.wordpress.org/) チケットを作成します。
-*   Wordpress-develop に対してプルリクエストを提出し、継続的インテグレーションのテストがパスしたことを確認し、説明に Trac のチケット番号を追加します。これにより、プルリクエストがチケットにリンクされ、パッチが自動的に作成されます。たとえば、WordPress 6.0 のリリースサイクルのプルリクエストは次の通りです: [#2564](https://github.com/WordPress/wordpress-develop/pull/2564)
+*   Wordpress-develop に対してプルリクエストを提出し、継続的インテグレーションのテストがパスしたことを確認し、説明に Trac のチケット番号を追加します。これにより、プルリクエストがチケットにリンクされ、パッチが自動的に作成されます。たとえば、WordPress 6.0のリリースサイクルのプルリクエストは次の通りです: [#2564](https://github.com/WordPress/wordpress-develop/pull/2564)
 *   レビューを依頼します。ベータ段階ではレビューが推奨されますが、必須ではありません。RC プロセスでは、2人のコミッターによるダブルチェックが必要です。もしあなたがコミッターで、その変更に自信があるのであれば、承認者の一人として「dev-feedback」キーワードを追加してください。
 *   承認されたら、パッチをコミットするか、コミッターでない場合はコミッターと調整してコミットされるようにしてください。
 *   WordPress リリースのブランチがすでに存在する場合は、trunk からリリースブランチへのコミットのバックポートが必要です。

@@ -18,7 +18,7 @@ Code refactoring should not be done just because we can. There are a number of �
 
 *   **ユニットテスト**。たとえ、そのコードが以前はカバーされていなかったとしてもです。リグレッションは避けるべきであり、これによりテストのカバー率を向上させることができます。
 *   適用前と適用後の**パフォーマンスベンチマーク**。リグレッションは避けるべきです。
-*   変更についての**適切な正当性と明確な根拠**の両方が必要です。多くの場合、これらのパッチの目的、目標、またはフォーカスを決定することはできません。可読性、個人的な狭い意見、一般的な主観などを口実として、コードを書き換えるべきではありません。
+*   変更についての**適切な正当性と明確な根拠**の両方が必要です。多くの場合、これらのパッチの目的、目標、またはフォーカスを決定できません。可読性、個人的な狭い意見、一般的な主観などを口実として、コードを書き換えるべきではありません。
 
 <!--
 When none of this is followed, the end result is that reviewers and committers are distracted, which drains important attention and focus that should be spent elsewhere.

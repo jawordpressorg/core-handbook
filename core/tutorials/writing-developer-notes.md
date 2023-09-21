@@ -64,7 +64,7 @@ The hierarchy for who should author a dev note is as follows:
 *   Someone that is less technical, but is comfortable interviewing or asking someone in the above groups questions about the changes in order to have the information needed to write the note.
 -->
 
-*   その変更について、深く実用的な知識を持っている人。これは通常、その変更を行ったコミッター、その変更の作成とテストを手伝ったコンポーネントのメンテナー、またはその変更を前進させることを手伝ったその他のコントリビューターです。
+*   その変更について、深く実用的な知識を持っている人。これは通常、それ変更したコミッター、その変更の作成とテストを手伝ったコンポーネントのメンテナー、またはその変更を前進させることを手伝ったその他のコントリビューターです。
 *   その変更に関わっていないが、技術的な基礎があり、正しいメッセージを伝えるためにコードの変更を詳細にレビューできる人。
 *   技術的なことはあまり詳しくないが、ノートを書くうえで必要な情報を得るために、変更点について上記のグループの誰かにインタビューしたり質問したりすることができる人。
 
@@ -252,4 +252,4 @@ When the dev note is published, a “props” line at the very bottom should alw
 This ensures everyone that contributed to the post receives proper recognition, helps the reader know the voices behind the post, and who they are addressing if there are comments or questions.
 -->
 
-こうすることで、その投稿に貢献した全ての人が正しく評価され、読者は投稿の関係者を知ることができ、コメントや質問がある場合は誰に向けて発信しているのかが分かります。
+こうすることで、その投稿に貢献したすべての人が正しく評価され、読者は投稿の関係者を知ることができ、コメントや質問がある場合は誰に向けて発信しているのかが分かります。

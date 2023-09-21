@@ -34,7 +34,7 @@
 *   複数のバグに並行して取り組む
 *   後ではなく事前にアドバイスを得る
 *   これらのガイドラインの詳細については、こちらをご覧ください: [Mozilla 開発戦略](https://developer.mozilla.org/en/Mozilla_Development_Strategies)
-*   レビューの相違は [Slack](https://make.wordpress.org/chat/) で素早く処理し、[Trac](https://core.trac.wordpress.org/) にまとめることがベストです
+*   レビューの相違は [Slack](https://make.wordpress.org/chat/) ですばやく処理し、[Trac](https://core.trac.wordpress.org/) にまとめることがベストです
 
 <!--
 ## Requirements for patches
@@ -62,7 +62,7 @@
 *   開発スクリプトにパッチを適用し、最小化しない
 *   画像 (オリジナルを添付すること)
 *   パッチは SVN リポジトリの最新のコードに対して作成されるべきです
-*   パッチは WordPress のルートディレクトリに対して作成されるべきです（サブディレクトリに対してではありません）
+*   パッチは WordPress のルートディレクトリに対して作成されるべきです (サブディレクトリに対してではありません)
 *   ただし、パッチにテストが含まれている場合は、コードの変更とテストの両方を同じパッチに含めることができます。
 *   パッチが[コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に従っていること
 

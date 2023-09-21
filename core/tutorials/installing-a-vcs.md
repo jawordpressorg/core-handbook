@@ -38,7 +38,7 @@ This article will walk you through the steps to install Subversion on your Mac.
 You can install [Xcode](https://developer.apple.com/xcode/) to set up Subversion on your Mac; however, the download package is around 1.5 GB.
 -->
 
-[Xcode](https://developer.apple.com/xcode/) をインストールして、Mac に Subversion をセットアップできます。しかし、ダウンロードパッケージは約1.5GBあります。
+[Xcode](https://developer.apple.com/xcode/) をインストールして、Mac に Subversion をセットアップできます。しかし、ダウンロードパッケージは約1.5GB あります。
 
 <!--
 Instead, you can download Apple’s Command Line Tools from Apple’s Mac Developer website. You will need an Apple ID to download the files.

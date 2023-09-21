@@ -26,7 +26,7 @@ WordPress プロジェクトは、共同創設者でリード開発者でもあ�
 Trusted contributors and core developers earn their stripes on more than their abilities and actions. Leadership roles are earned on the basis of professionalism, personality, attitude, and respect among peers.
 -->
 
-信頼される貢献者やコア開発者は、能力や行動以上のもので、その栄誉を得ます。リーダーシップの役割は、プロフェッショナリズム、人格、態度、仲間からの尊敬に基づいて得られます。
+信頼される貢献者やコア開発者は、能力や行動以上のもので、その栄誉を得ます。リーダーシップの役割は、プロフェッショナリズム、人格、態度、仲間からの尊敬にもとづいて得られます。
 
 <!--
 The best contributors naturally respect and subscribe to the project’s core philosophies. A lack of a personal agenda is paramount: we’re all a part of the same community and we all share common goals. This doesn’t mean you can’t have an opinion – far from it. The best contributors can balance their opinions with the goals of the project and the perspectives of both users and developers. Offering consistently good suggestions, demonstrating a strong ability to collaborate with others, and being able to accept (and provide) feedback are all important.
@@ -68,7 +68,7 @@ WordPress プロジェクトは、WordPress の共同創設者である Matt Mul
 The lead developers are **Helen Hou-Sandi**, **Dion Hulse**, **Mark Jaquith**, **Andrew Nacin**, and **Andrew Ozz**. These developers have final authority on technical decisions, and lead architecture discussions and implementation efforts.
 -->
 
-リード開発者は、**Helen Hou-Sandi**、**Dion Hulse**、**Mark Jaquith**、**Andrew Nacin**、**Andrew Ozz**です。彼らは技術的な決定について最終的な権限を持ち、アーキテクチャの議論や実装作業をリードします。
+リード開発者は、**Helen Hou-Sandi**、**Dion Hulse**、**Mark Jaquith**、**Andrew Nacin**、**Andrew Ozz**です。彼らは技術的な決定について最終的な権限を持ち、アーキテクチャーの議論や実装作業をリードします。
 
 <!--
 ### Committers
@@ -159,7 +159,7 @@ The [support forums](https://wordpress.org/support/) are run by a team of volunt
 The Documentation team is responsible for all things documentation, including [HelpHub](https://wordpress.org/support) (end-users documentation), [DevHub](https://developer.wordpress.org) (developer-oriented documentation), handbooks, admin help, inline docs, and other general wordsmithing across the WordPress project.
 -->
 
-ドキュメンテーションチームはドキュメントに関するすべてに責任を持ちます。これには [HelpHub](https://wordpress.org/support) (エンドユーザードキュメント), [DevHub](https://developer.wordpress.org) (開発者向けドキュメント)、ハンドブック、管理者向けのヘルプ、インラインドキュメント、その他 WordPress プロジェクト全体にわたる一般的な文書作成が含まれます。
+ドキュメンテーションチームはドキュメントに関するすべてに責任を持ちます。これには [HelpHub](https://wordpress.org/support) (エンドユーザードキュメント)、[DevHub](https://developer.wordpress.org) (開発者向けドキュメント)、ハンドブック、管理者向けのヘルプ、インラインドキュメント、その他 WordPress プロジェクト全体にわたる一般的な文書作成が含まれます。
 
 <!--
 This handbook and HelpHub/DevHub are the primary sources of information for learning how to develop, improve, and troubleshoot WordPress. These resources are curated by a group of volunteers. Everyone is welcome to contribute.

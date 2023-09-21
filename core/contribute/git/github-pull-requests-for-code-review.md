@@ -8,7 +8,7 @@
 WordPress development uses SVN, but many contributors prefer to work in Git though GitHub. Many contributors create pull requests using their own forks of the official [WordPress Develop mirror](https://github.com/wordpress/wordpress-develop) so that they can use features like continuous integration and inline code commenting.
 -->
 
-WordPressの開発では SVN を使用していますが、多くの貢献者は GitHub を使用して Git で作業することを好んでいます。多くの貢献者は、継続的インテグレーションやインラインコードコメントなどの機能を使用できるように、公式の [WordPress 開発用ミラー](https://github.com/wordpress/wordpress-develop)をフォークしてプルリクエストを作成しています。
+WordPress の開発では SVN を使用していますが、多くの貢献者は GitHub を使用して Git で作業することを好んでいます。多くの貢献者は、継続的インテグレーションやインラインコードコメントなどの機能を使用できるように、公式の [WordPress 開発用ミラー](https://github.com/wordpress/wordpress-develop)をフォークしてプルリクエストを作成しています。
 
 <!--
 An experimental feature has been added to Trac that will let you link GitHub pull requests opened against the official [WordPress Develop Git mirror](https://github.com/wordpress/wordpress-develop) to tickets. This makes GitHub contributions more visible directly in their related Trac tickets and makes collaborating across the two repositories easier.
@@ -20,7 +20,7 @@ Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git �
 **Note:** Pull requests on GitHub will **not** be merged. Code changes are still required to be made to the SVN repository by trusted long term contributors granted commit access.
 -->
 
-**備考**: GitHub上のプルリクエストはマージ**されません。** コードの変更は、コミット権限が付与された信頼できる長期的な貢献者によって、SVN リポジトリに行われる必要があります。
+**備考**: GitHub 上のプルリクエストはマージ**されません。** コードの変更は、コミット権限が付与された信頼できる長期的な貢献者によって、SVN リポジトリに行われる必要があります。
 
 <!--
 ## In GitHub
@@ -38,13 +38,13 @@ Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git �
 *   To make collaboration easier, make sure to check the “Allow edits and access to secrets by maintainers”. This will allow WordPress Core committers to push directly to the branch on your fork with larger suggested changes.
 -->
 
-*   GitHubで、公式の [WordPress 開発用ミラー](https://github.com/wordpress/wordpress-develop)をフォークします。
+*   GitHub で、公式の [WordPress 開発用ミラー](https://github.com/wordpress/wordpress-develop)をフォークします。
 *   フォークにブランチを作成し、変更を加え、コミットし、プッシュします。
 *   プルリクエストを [wordpress-develop](https://github.com/wordpress/wordpress-develop) に対して作成し、プルリクエスト本文に Trac チケットの完全な URL を記述してください。例:
 
     > See https://core.trac.wordpress.org/ticket/49295
 
-*   コラボレーションを容易にするために、「Allow edits and access to secrets by maintainers」に必ずチェックを入れてください。これにより、WordPress コアのコミッターがあなたのフォーク上のブランチに、より大きな変更案を直接プッシュすることができます。
+*   コラボレーションを容易にするために、「Allow edits and access to secrets by maintainers」に必ずチェックを入れてください。これにより、WordPress コアのコミッターがあなたのフォーク上のブランチに、より大きな変更案を直接プッシュできます。
 
 ![](https://make.wordpress.org/core/files/2020/02/example-github-pr-1024x602.png)
 
@@ -66,7 +66,7 @@ Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git �
 
 *   プルリクエストは、チケットの添付ファイル欄の下に、以下の内容で表示されます。
     *   変更された行の数
-    *   プルリクエストのチェック状況 (Draft/Closed、Travis CI、 コンフリクトの発生など)
+    *   プルリクエストのチェック状況 (Draft/Closed、Travis CI、コンフリクトの発生など)
     *   プルリクエストを見るためのボタン
     *   差分を見るためのボタン
 *   チケットのイベントのタイムラインに、そのチケットがいつどこで言及されたかを示すボットコメントが追加されます。
@@ -94,7 +94,7 @@ Pull requests show between Attachments and Change History.
 **When the PR bot syncs comments over to Trac, it will not trigger an email notification to the subscribers of the Trac ticket.** For this reason, it is recommended to provide some type of ticket update in Trac itself. Most likely there will be a need to update the keywords anyway (add has-patch or needs-testing, etc.).
 -->
 
-**プルリクエストのボットがコメントを Trac に同期するとき、Trac チケットを購読している人にはメールは送信されません。** この理由から、Trac 自身で何らかのチケットの更新を行うことが推奨されます。ほとんどの場合、キーワードを更新する必要があるでしょう (has-patch や needs-testing を追加するなど)。
+**プルリクエストのボットがコメントを Trac に同期するとき、Trac チケットを購読している人にはメールは送信されません。** この理由から、Trac 自身で何らかのチケットの更新することが推奨されます。ほとんどの場合、キーワードを更新する必要があるでしょう (has-patch や needs-testing を追加するなど)。
 
 <!--
 **Inline comments made during a code review on the PR will not be posted to the Trac ticket.** These comments are contextual to specific lines at a specific state (commit) of a PR and would seem out of place as the branch’s code is iterated.

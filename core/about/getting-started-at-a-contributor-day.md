@@ -109,7 +109,7 @@ Prior knowledge that you’ll find helpful for working on core is:
 *   Familiarity with WordPress is beneficial but you don’t need a deep understanding of core to get started
 -->
 
-*   CSS、PHP、JavaScript、Reactなど、手伝いたいコーディング言語を理解していること
+*   CSS、PHP、JavaScript、React など、手伝いたいコーディング言語を理解していること
 *   WordPress に精通していると役に立ちますが、始めるためにコアについて深く理解する必要はありません
 
 <!--
@@ -128,7 +128,7 @@ Prior knowledge that you’ll find helpful for working on core is:
 -->
 
 *   バージョン管理システム: [SVN](http://sourceforge.net/projects/win32svn/) または [Git](http://git-scm.com/)
-*   ローカル開発環境。 例: [MAMP](http://www.mamp.info/en/index.html)、[WAMP](http://www.wampserver.com/en/)、[Vagrant](//www.vagrantup.com/) [XAMPP](http://www.apachefriends.org/index.html)、または [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
+*   ローカル開発環境。例: [MAMP](http://www.mamp.info/en/index.html)、[WAMP](http://www.wampserver.com/en/)、[Vagrant](//www.vagrantup.com/) [XAMPP](http://www.apachefriends.org/index.html)、または [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
 *   ユニットテストの場合、[PHPUnit](http://phpunit.de/)
 *   アセットのコンパイル、リリースパッケージのビルド、JavaScript と PHP のテストのための [Grunt](http://gruntjs.com/)
 *  Javascript テストのための [QUnit](http://qunitjs.com/)

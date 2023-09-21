@@ -1,6 +1,6 @@
 # HTML Coding Standards
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/html/)  
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/html/)
 Please do *not* edit this page.
 
 ## HTML

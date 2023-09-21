@@ -8,7 +8,7 @@
 Alert: Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
 -->
 
-注:  WordPress のコントリビューターは、**Git** または [SVN](https://make.wordpress.org/core/handbook/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。
+注: WordPress のコントリビューターは、**Git** または [SVN](https://make.wordpress.org/core/handbook/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。
 
 <!--
 ## Summary
@@ -32,7 +32,7 @@ WordPress の標準的なリポジトリは Subversion で管理されていま�
 **Please note:** while many people find it easier to use `git` to manage their patches, pull requests submitted to GitHub will not be merged there. Patches can be created and reviewed in GitHub pull requests, but they **must** be associated with a Trac ticket. To better understand what this means, see the [GitHub Pull Requests for Code Review page](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/).
 -->
 
-**注意してください:** 多くの人は、パッチの管理に `git` を使うほうが簡単だと考えています、 GitHub に提出されたプルリクエストはマージされません。パッチは GitHub のプルリクエストで作成・レビューできますが、 **必ず** Trac チケットと関連付けられている必要があります。この意味をよりよく理解するために、[コードレビューのための GitHub プルリクエストのページ](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)を参照してください。
+**注意してください:** 多くの人は、パッチの管理に `git` を使うほうが簡単だと考えていますが、GitHub に提出されたプルリクエストはマージされません。パッチは GitHub のプルリクエストで作成・レビューできますが、**必ず** Trac チケットと関連付けられている必要があります。この意味をよりよく理解するために、[コードレビューのための GitHub プルリクエストのページ](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)を参照してください。
 
 <!--
 ## Repository Structure
@@ -87,7 +87,7 @@ Using the `git` cli client, you can create a patch file as follows:
 2.  作業用ブランチを作成します (`trunk` は常に公式コードの最新バージョンであるべきですので、変更しないほうが良いでしょう)。ローカルでのチェックアウトを整理するために、ブランチ名の一部として Trac チケット番号を使用することを推奨します。例: `$ git checkout -b 30000-add-more-alots `
 3.  コードベースに変更を加えます。変更をステージ (`git add`) して、コミット (`git commit`) してください。[公式の git ドキュメント](https://git-scm.com/docs/gittutorial)には、これに関するチュートリアルがあります。
 4.  ローカルブランチと trunk ブランチの差分を確認するには、`git diff` を使用します: `$ git diff trunk 30000-add-more-alots` (脚注)
-5.  Trac にパッチを提出する準備ができたら、 `git diff` を使用してパッチファイルを生成しますが、 `.diff` ファイルとして保存するように指定します。一般的に、ファイル名はあなたが作業しているチケット番号で、拡張子は `.diff` にしてください (すでにパッチがあるチケットでは `.2.diff` や `.3.diff` などになります)。コマンドの例: `$ git diff trunk 30000-add-more-alots > 30000.diff`
+5.  Trac にパッチを提出する準備ができたら、`git diff` を使用してパッチファイルを生成しますが、`.diff` ファイルとして保存するように指定します。一般的に、ファイル名はあなたが作業しているチケット番号で、拡張子は `.diff` にしてください (すでにパッチがあるチケットでは `.2.diff` や `.3.diff` などになります)。コマンドの例: `$ git diff trunk 30000-add-more-alots > 30000.diff`
 6.  パッチを適切な Trac チケットにアップロードしてください。
 
 <!--
@@ -120,7 +120,7 @@ svn co \
 ### Usage Notes for Git
 -->
 
-### Gitを使用するときの注意点
+### Git を使用するときの注意点
 
 <!--
 † If your `trunk` branch has changed since you last worked on your patch (for example, if you’ve pulled down the latest code), you’ll need to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) your branch against the latest code. This is a great way to keep your patches up to date, and it’s much easier with Git than with svn. Here is an example sequence of commands to update your `trunk` branch then refresh your patch on top of the latest code (make sure you have [no uncommitted changes in your repository](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) first):

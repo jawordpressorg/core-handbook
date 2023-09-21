@@ -45,7 +45,7 @@ phpMyAdmin を使用して、ローカルの Web サーバーに新しいデー�
 ### 1\. Download/Extract WordPress
 -->
 
-### 1\. WordPressのダウンロードと解凍
+### 1\. WordPress のダウンロードと解凍
 
 <!--
 Download the [latest nightly build](https://wordpress.org/nightly-builds/wordpress-latest.zip) of the WordPress development version and save it to your computer.
@@ -111,7 +111,7 @@ Web ブラウザで [http://localhost/wordpress-trunk/](http://localhost/wordpre
 **If you created your `wp-config.php` file manually**, you will be presented with the standard WordPress installation screen. You will do the famous “5 minute install” – enter your site title, desired username, choice of a password (twice), and your e-mail address, then **click Install WordPress** to complete the installation. **Click Log In** on the Success screen, enter your username and password, and configure the settings for your preferences.
 -->
 
-**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な 「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定を行います。
+**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定を行います。
 
 <!--
 **If you prefer to let WordPress create the file**, you will be presented with a screen asking if you want to create the file now. **Click Create a Configuration File** to continue. Enter your database credentials for your local web server on the third screen, as well as the database table prefix you want to use (default is `wp_`). After you complete all the fields, **click Submit**. WordPress will check that it can connect to your database with the information you provided. If successful, **click Run the install** to proceed.
@@ -158,7 +158,7 @@ define('WP_DEBUG', true);
 WordPress 3.7 [introduced automatic updates](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) for minor stable WordPress releases (3.7.x). This feature, by default, will also automatically update your development install daily.
 -->
 
-WordPress 3.7 では、WordPress のマイナーな安定版リリース (3.7.x) に対して [自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) しています。この機能はデフォルトで、開発用インストールも毎日自動的に更新されます。
+WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して [自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) しています。この機能はデフォルトで、開発用インストールも毎日自動的に更新されます。
 
 <!--
 You will need to visit your local install once daily to make the cron task run that triggers the automatic update.

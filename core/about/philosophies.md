@@ -62,7 +62,7 @@ WordPress のコアは常に基本的な機能をしっかりと提供します�
 We are able to do this because we have a very capable theme and plugin system, and a fantastic developer community. Different people have different needs, and having the sheer number of quality WordPress plugins and themes allows users to customize their installations to their taste. That should allow all users to find the remaining 20% and make all WordPress features those they appreciate and use.
 -->
 
-これが可能になったのは、非常に有能なテーマとプラグインのシステム、そしてすばらしい開発者コミュニティがあるからです。ニーズは人によって異なりますが、高品質な WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。これにより、すべてのユーザーが残りの20% を見つけて、WordPress のすべての機能を高く評価して使用できるようになります。
+これが可能になったのは、非常に有能なテーマとプラグインのシステム、そしてすばらしい開発者コミュニティがあるからです。ニーズは人によって異なりますが、高品質な WordPress プラグインとテーマが豊富にあるため、ユーザーは自分の好みに合わせてインストールをカスタマイズできます。これにより、すべてのユーザーが残りの20% を見つけて、WordPress のすべての機能を高く評価して使用できます。
 
 <!--
 ## Striving for Simplicity
@@ -80,7 +80,7 @@ We're never done with simplicity. We want to make WordPress easier to use with e
 In past releases, we've taken major steps to improve ease of use and ultimately make things simpler to understand. One great example of this is core software updates. Updating used to be a painful, manual task that was too tricky for a lot of our users. We decided to focus on this, and simplified it down to a single click. Now anyone with a WordPress install can perform one click upgrades on both the core of WordPress, and plugins and themes.
 -->
 
-これまでのリリースでは、使い勝手を向上させ最終的にはよりシンプルに理解できるような工夫をしてきました。その良い例が、コアソフトウェアの更新です。以前の更新は手間のかかる手作業で、多くのユーザーにとって厄介なものでした。私たちはこれに焦点を当てることにし、ワンクリックで済むように簡略化しました。WordPress をインストールしている人なら誰でも、WordPress のコア、プラグインとテーマの両方をワンクリックでアップグレードできるようになりました。
+これまでのリリースでは、使い勝手を向上させ最終的にはよりシンプルに理解できるような工夫をしてきました。その良い例が、コアソフトウェアの更新です。以前の更新は手間のかかる手作業で、多くのユーザーにとってやっかいなものでした。私たちはこれに焦点を当てることにし、ワンクリックで済むように簡略化しました。WordPress をインストールしている人なら誰でも、WordPress のコア、プラグインとテーマの両方をワンクリックでアップグレードできるようになりました。
 
 <!--
 We love to challenge ourselves and simplify tasks in ways that are positive for the overall WordPress user experience. Every version of WordPress should be easier and more enjoyable to use than the last.
@@ -108,13 +108,13 @@ Good deadlines almost always make you trim something from a release. This is not
 The route of delaying a release for that one-more-feature is, literally, a rabbit hole. We did that for over a year once, and it wasn't pleasant for anybody.
 -->
 
-そのもう1つの機能のためにリリースを遅らせるルートは、抜け出せない道に進むようなものです。以前、1年以上そうしていたことがありますが、誰にとっても楽しいことではありませんでした。
+そのもう一つの機能のためにリリースを遅らせるルートは、抜け出せない道に進むようなものです。以前、1年以上そうしていたことがありますが、誰にとっても楽しいことではありませんでした。
 
 <!--
 The more frequent and regular releases are, the less important it is for any particular feature to be in this release. If it doesn't make it for this one, it'll just be a few months before the next one. When releases become unpredictable or few and far between, there's more pressure to try and squeeze in that one more thing because it's going to be so long before the next one. Delay begets delay.
 -->
 
-リリースが頻繁で定期的であればあるほど、特定の機能が今回のリリースに含まれることの重要性は低くなります。今回間に合わなかったとしても、次回まで数カ月かかるだけですから。リリースが予測不可能になったり、頻度が少なくなったりすると、次のリリースまでにかなりの時間がかかるため、もう1つ何かを詰め込まなければならないというプレッシャーが強くなります。遅れが遅れを生むのです。
+リリースが頻繁で定期的であればあるほど、特定の機能が今回のリリースに含まれることの重要性は低くなります。今回間に合わなかったとしても、次回まで数ヵ月かかるだけですから。リリースが予測不可能になったり、頻度が少なくなったりすると、次のリリースまでにかなりの時間がかかるため、もう一つ何かを詰め込まなければならないというプレッシャーが強くなります。遅れが遅れを生むのです。
 
 <!--
 ## The Vocal Minority
@@ -144,7 +144,7 @@ So while we consider it really important to listen and respond to those who post
 WordPress is licensed under the General Public License (GPLv2 or later) which provides four core freedoms, consider this as the WordPress "bill of rights":
 -->
 
-WordPress は、一般公的使用許諾 (GPLv2以降) に基づいてライセンスされており、4つの基本的な自由が提供されています。これを WordPress の「権利章典」と考えてください。
+WordPress は、一般公的使用許諾 (GPLv2以降) にもとづいてライセンスされており、4つの基本的な自由が提供されています。これを WordPress の「権利章典」と考えてください。
 
 <!--
 0.  The freedom to run the program, for any purpose.

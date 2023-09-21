@@ -2,13 +2,13 @@
 # Gutenberg Index 2022
 -->
 
-# Gutenberg インデックス 2022
+# Gutenberg インデックス2022
 
 <!--
 This page is the one place you can bookmark for Gutenberg\-related team posts of Core, Core-Editor, Core-js, Core-css, Design, Meta, and Themes, and other teams, when relevant. It’s a chronological listing, not topical. Latest on top.
 -->
 
-このページは、Core、Core-Editor、Core-js、Core-css、Design、Meta、Themes の Gutenberg 関連チームの投稿を、ブックマーク出来るようにするためのものです。時系列順で掲載されており、トピックスではありません。最新のものから並んでいます。
+このページは、Core、Core-Editor、Core-js、Core-css、Design、Meta、Themes の Gutenberg 関連チームの投稿を、ブックマークできるようにするためのものです。時系列順で掲載されており、トピックスではありません。最新のものから並んでいます。
 
 <!--
 Discussions are in the **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack channel and development happens in the [Gutenberg GitHub repository](https://github.com/WordPress/gutenberg/issues).

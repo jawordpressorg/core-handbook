@@ -81,8 +81,8 @@ The following conventions of spelling and terminology apply to the manuals, web
 | 「log in」 (動詞) | 「login」 | 「ログイン」は動詞ではありません。ログインする動作を指す場合は、「log in」が正しい表現です。[#18294](https://core.trac.wordpress.org/ticket/18294) |
 | 「meta box」 | 「metabox」 |   |
 | 「oEmbed」 | 「embed」 |   |
-| 「Paragraph block」 | 「Paragraph Block」または「paragraph block」 | ブロックを参照する場合は、ブロック名を大文字にし、「block」を小文字のままにしてください。 [github#16118](https://github.com/WordPress/gutenberg/issues/16118#issuecomment-501458511) |
-| 「retrieve」 | 「retreive」または「retrive」 | 「retreive」や「retrive」は単語ではありません。 [\[2465\]](https://core.trac.wordpress.org/changeset/2465) |
+| 「Paragraph block」 | 「Paragraph Block」または「paragraph block」 | ブロックを参照する場合は、ブロック名を大文字にし、「block」を小文字のままにしてください。[github#16118](https://github.com/WordPress/gutenberg/issues/16118#issuecomment-501458511) |
+| 「retrieve」 | 「retreive」または「retrive」 | 「retreive」や「retrive」は単語ではありません。[\[2465\]](https://core.trac.wordpress.org/changeset/2465) |
 | 「term meta」 | 「termmeta」 |   |
 | 「WordPress」 | 「WP」 | CMS、プロジェクト、コミュニティについて言及する場合は、「WordPress」が好まれます。例外として、「WP 5.0」のように特定のバージョンに言及する場合や、商標規則で「WordPress」の使用が禁止されている場合があります。|
 

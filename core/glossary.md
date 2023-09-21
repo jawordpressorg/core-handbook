@@ -65,7 +65,7 @@ Backward compatibility の省略形。後方互換性 (プラグインやテー�
 A port is when code from one branch (or trunk) is merged into another branch or trunk. Some changes in WordPress point releases are the result of backporting code from trunk to the release branch. [#](https://make.wordpress.org/core/handbook/glossary/#backport)
 -->
 
-ポートとは、1つのブランチ (または trunk) のコードが別のブランチまたは trunk にマージされることです。 WordPress ポイントリリースの一部の変更は、コードを trunk からリリースブランチにバックポートした結果です。
+ポートとは、1つのブランチ (または trunk) のコードが別のブランチまたは trunk にマージされることです。WordPress ポイントリリースの一部の変更は、コードを trunk からリリースブランチにバックポートした結果です。
 
 <!-- **bleeding edge** -->
 
@@ -207,7 +207,7 @@ Copyright holders may grant a license with various allowances including the abil
 Create, read, update and delete, the four basic functions of storing data. (More on [Wikipedia](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete).) [#](https://make.wordpress.org/core/handbook/glossary/#crud)
 -->
 
-データを保存する4つの基本機能である、作成 (Create)、読み取り (Read)、更新 (Update)、削除 (Delete) の先頭文字を取ったもの。(詳細については、[Wikipedia](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) を参照してください。)
+データを保存する4つの基本機能である、作成 (Create)、読み取り (Read)、更新 (Update)、削除 (Delete) の先頭文字を取ったもの。(詳細については、[Wikipedia](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) を参照してください)
 
 <!--
 **CSS**
@@ -255,7 +255,7 @@ Developer Note の省略形。開発者ノート。WordPress コアの重要な�
 The practice of using one’s own software, typically bleeding edge (trunk), thus “eating one’s own dogfood”. This also applies to using one’s own APIs internally. [#](https://make.wordpress.org/core/handbook/glossary/#dogfood)
 -->
 
-自身のソフトウェアを使用する習慣。通常は最先端 (trunk) であり、したがって「自分自身のドッグフードを食べる」ことを指します。 これは、独自の API を内部で使用する場合にも当てはまります。
+自身のソフトウェアを使用する習慣。通常は最先端 (trunk) であり、したがって「自分自身のドッグフードを食べる」ことを指します。これは、独自の API を内部で使用する場合にも当てはまります。
 
 <!--
 **enhancement**
@@ -563,7 +563,7 @@ The seriousness of a bug report or ticket in the eyes of the project. Generally,
 Contributors sometimes use the verb “punt” when talking about a ticket. This means it is being pushed out to a future release. This typically occurs for lower priority tickets near the end of the release cycle that don’t “make the cut.” In this is colloquial usage of the word, it means to delay or equivocate. (It also describes a play in American football where a team essentially passes up on an opportunity, hoping to put themselves in a better position later to try again.) [#](https://make.wordpress.org/core/handbook/glossary/#punt)
 -->
 
-チケットについて話すとき、コントリビューターは「punt」という動詞を使うことがあります。これは、将来のリリースにプッシュされることを意味します。これは一般的に、リリースサイクルの終わりに近い優先度の低いチケットで、「基準を満たさなかった」場合に起こります。これは口語的な用法で、「遅らせる」「あいまいにする」という意味です。(またアメリカンフットボールでは、攻撃の機会をあきらめ、次のディフェンスのために陣地を挽回するプレイも意味します)。
+チケットについて話すとき、コントリビューターは「punt」という動詞を使うことがあります。これは、将来のリリースにプッシュされることを意味します。これは一般的に、リリースサイクルの終わりに近い優先度の低いチケットで、「基準を満たさなかった」場合に起こります。これは口語的な用法で、「遅らせる」「あいまいにする」という意味です。(またアメリカンフットボールでは、攻撃の機会を諦め、次のディフェンスのために陣地を挽回するプレイも意味します)。
 
 <!--
 **RC**
@@ -587,7 +587,7 @@ A shortened name for [release candidate](https://make.wordpress.org/core/handboo
 A software bug that breaks or degrades something that previously worked. Regressions are often treated as critical bugs or [blockers](#blocker). Recent regressions may be given higher priorities. A “3.6 regression” would be a bug in 3.6 that worked as intended in 3.5. [#](https://make.wordpress.org/core/handbook/glossary/#regression)
 -->
 
-以前は動作していたものを壊したり、機能を低下させたりするソフトウェアのバグ。リグレッションはしばしば重大なバグや[ブロッカー](#blocker)として扱われます。新しいリグレッションは、より高い優先順位が与えられることがあります。「3.6 のリグレッション」は、3.5で意図したとおりに動作していた3.6のバグのことです。
+以前は動作していたものを壊したり、機能を低下させたりするソフトウェアのバグ。リグレッションはしばしば重大なバグや[ブロッカー](#blocker)として扱われます。新しいリグレッションは、より高い優先順位が与えられることがあります。「3.6のリグレッション」は、3.5で意図したとおりに動作していた3.6のバグのことです。
 
 <!--
 **release candidate**
@@ -635,7 +635,7 @@ A security issue is a type of bug that can affect the security of WordPress inst
 The seriousness of the ticket in the eyes of the reporter. Generally, severity is a judgment of how bad a bug is, while **priority** is its relationship to other bugs. [#](https://make.wordpress.org/core/handbook/glossary/#severity)
 -->
 
-報告者から見たチケットの重要度。一般的に、重要度はバグがどの程度深刻であるかを判断するためのものであり、 **優先度** は他のバグとの関係です。
+報告者から見たチケットの重要度。一般的に、重要度はバグがどの程度深刻であるかを判断するためのものであり、**優先度** は他のバグとの関係です。
 
 <!--
 **SSL**
@@ -671,7 +671,7 @@ Subversion の省略形。Apache プロジェクトによる一般的なバー�
 A directory in Subversion. WordPress uses tags to store a single snapshot of a version (3.6, 3.6.1, etc.), the common convention of tags in version control systems. (Not to be confused with post tags.) [#](https://make.wordpress.org/core/handbook/glossary/#tag)
 -->
 
-Subversion のディレクトリ。 WordPress はタグを使用して、バージョン (3.6、3.6.1 など) の単一のスナップショットを保存します。これは、バージョン管理システムのタグの一般的な規則です。(投稿タグと混同しないでください。)
+Subversion のディレクトリ。WordPress はタグを使用して、バージョン (3.6、3.6.1など) の単一のスナップショットを保存します。これは、バージョン管理システムのタグの一般的な規則です (投稿タグと混同しないでください)。
 
 <!--
 **task (blessed)**
@@ -839,7 +839,7 @@ A resolution on the bug tracker (and generally common in software development) t
 Formerly the development updates P2 blog at wpdevel.wordpress.com. It is now **make/core** and resides at [make.wordpress.org/core](https://make.wordpress.org/core/). [#](https://make.wordpress.org/core/handbook/glossary/#wpdevel)
 -->
 
-以前は、開発者が wpdevel.wordpress.com で P2ブログを更新していました。 現在は **make/core** で、[make.wordpress.org/core](https://make.wordpress.org/core/) にあります。
+以前は、開発者が wpdevel.wordpress.com で P2ブログを更新していました。現在は **make/core** で、[make.wordpress.org/core](https://make.wordpress.org/core/) にあります。
 
 <!--
 **xref**
