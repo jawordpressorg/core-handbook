@@ -1,6 +1,6 @@
 # CSS Coding Standards
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/)  
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/)
 Please do *not* edit this page, use *edit* on the new page.
 
 Like any coding standard, the purpose of the WordPress CSS Coding Standards is to create a baseline for collaboration and review within various aspects of the WordPress open source project and community, from core code to themes to plugins. Files within a project should appear as though created by a single entity. Above all else, create code that is readable, meaningful, consistent, and beautiful.
@@ -116,7 +116,7 @@ Incorrect:
 ### Property Ordering
 
 > Group like properties together, especially if you have a lot of them.
-> 
+>
 > – Nacin
 
 Above all else, choose something that is meaningful to you and semantic in some way. Random ordering is chaos, not poetry. In WordPress Core, our choice is logical or grouped ordering, wherein properties are grouped by meaning and ordered specifically within those groups. The properties within groups are also strategically ordered to create transitions between sections, such as background directly before color. The baseline for ordering is:

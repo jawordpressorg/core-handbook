@@ -24,11 +24,11 @@ Welcome to being a committer! Here are some things you should know:
 -->
 
 *   強力なパスワードを設定すること: パスワードは長く、ランダムで、好みのパスワード・マネージャーに保存すること。
-    *   悪い: X\*7z7XL{kZvky7E(
-    *   良い: aLy%t;67zvy3VdFwVPKA@VGV?i7oq.63Lj.2aKZ@Tw3\].Eu4kVUJJVGyXH7oRL\*a
+    *   悪い: `X\*7z7XL{kZvky7E(`
+    *   良い: `aLy%t;67zvy3VdFwVPKA@VGV?i7oq.63Lj.2aKZ@Tw3\].Eu4kVUJJVGyXH7oRL\*a`
 *   GitHub、Slack、そして w.org アカウントに関連するメールアカウントで、二要素認証が有効になっていることを確認してください。また、ハッカーは優先度の低いアカウントへのアクセスを利用して優先度の高いアカウントにアクセスすることが多いため、使用するサービスに対してこれを有効にすることも非常に良い考えです。
 *   Slack の [#core-committers](https://make.wordpress.org/core/tag/core-committers/) チャンネルに参加してください。このチャンネルは、コミットのオンボーディングと、コミットすること、SVN のコツやヒントなどに関するコミッターからの質問のためのものです。コミットに関する質問 (例: SVN の構文、バックポートなど) があればいつでも歓迎しますし、ここで質問することを推奨します。非コミッターに関連すること (たとえば、パッチがコミット可能かどうか、プロジェクトの理念、提案など) は、他の貢献者の邪魔をしないように、[#core](https://make.wordpress.org/core/tag/core/) で行われるべきです。
-*   あなたの GitHub アカウントに `svnusername@git.wordpress.org` (例: `pento@git.wordpress.org`) を追加してください: https://github.com/settings/emails。こうすることで、新しい GitHub ミラー(https://github.com/WordPress/wordpress-develop)であなたのコミットの属性が正しく表示されます。GitHub は認証メールを送ろうとしますが、届きません。コミット属性のためにこのメールアドレスを確認する必要はありません。
+*   あなたの GitHub アカウントに `svnusername@git.wordpress.org` (例: `pento@git.wordpress.org`) を追加してください: https://github.com/settings/emails。こうすることで、新しい GitHub ミラー (https://github.com/WordPress/wordpress-develop)であなたのコミットの属性が正しく表示されます。GitHub は認証メールを送ろうとしますが、届きません。コミット属性のためにこのメールアドレスを確認する必要はありません。
 *   ベストプラクティスと考えられるものについての入門として、[コミットメッセージに関するこのガイド](https://make.wordpress.org/core/handbook/best-practices/commit-messages/)を読んでください。
 *   最初のいくつかのパッチやコミットメッセージをコミットする前に、関連するコミッターに査読を依頼してください。これは実際にコミットする前に、何に注意すべきかを確認するための安全なチェックとして機能します。また、プロセスや標準、規範などに関して質問があれば質問する機会にもなります。
 *   また、パッチについて疑問があるときは、特に普段取り組んでいる分野以外のパッチをコミットする場合は、別のコミッターに査読を依頼することも良いでしょう。

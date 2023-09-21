@@ -56,7 +56,7 @@ Trac は WordPress コアで行われた作業の公式な記録です。ここ�
 Because this is the official record, be sure to search thoroughly to see if there is an existing ticket for the bug or feature you want to log. If something already exists, please add your notes to that existing ticket. If what you have to add is related to an existing item or for something with a finished milestone, reference that ticket using the format #{ticket\_id} to automatically create a link between tickets: “This was previously discussed in [#99999](https://core.trac.wordpress.org/ticket/99999).” If you need to refer to a particular changeset (a set of code changes logged in Trac), you can link to it using the format \[{changeset\_id}\]: “The original bug was fixed in \[999999\].” Note, finished milestone tickets should never be reopened.
 -->
 
-これは公式な記録であるため、記録したいバグや機能のチケットが存在しないかどうか、十分に検索してください。すでにある場合は、その既存のチケットにあなたのメモを追加してください。もし、あなたが追加しなければならないことが、既存のアイテムに関連していたり、マイルストーンが終了しているものであれば、チケット間のリンクを自動的に作成するために、#{ticket_id} というフォーマットを使ってそのチケットを参照してください: 「これは以前 [#99999](https://core.trac.wordpress.org/ticket/99999) で議論されました。」 特定のチェンジセット (Trac に記録されたコード変更のセット) を参照する必要がある場合、[{changeset_id}}] というフォーマットでリンクできます: 「元のバグが修正されたのは[999999]です。」なお、終了したマイルストーンチケットは決して再オープンしてはいけません。
+これは公式な記録であるため、記録したいバグや機能のチケットが存在しないかどうか、十分に検索してください。すでにある場合は、その既存のチケットにあなたのメモを追加してください。もし、あなたが追加しなければならないことが、既存のアイテムに関連していたり、マイルストーンが終了しているものであれば、チケット間のリンクを自動的に作成するために、#{ticket_id} というフォーマットを使ってそのチケットを参照してください:「これは以前 [#99999](https://core.trac.wordpress.org/ticket/99999) で議論されました。」特定のチェンジセット (Trac に記録されたコード変更のセット) を参照する必要がある場合、[{changeset_id}}] というフォーマットでリンクできます:「元のバグが修正されたのは[999999]です。」なお、終了したマイルストーンチケットは決して再オープンしてはいけません。
 
 <!--
 Please remember contributors are volunteers and this process takes time. Patience is always appreciated.
@@ -84,7 +84,7 @@ Please remember contributors are volunteers and this process takes time. Patienc
 2.  添付ファイルを確認し、現在提案されているパッチがあるかどうかを確認します。
 3.  パッチが存在しない場合は、シナリオを再現し、[新しいパッチを追加する](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)必要があります。
 4.  パッチがある場合は、レビューとテストが必要で、コメントから現在の状況がわかります。パッチをダウンロードし、あなたの開発環境でテストしてください。期待通りに動作する場合は、適切なフィードバックを提供してください。
-5.  パッチに変更を加えた場合は、コメントとあわせて Diff (https://make.wordpress.org/themes/handbook/review/working-with-trac/#comparing-ticket-updates) へのリンクも提供してください。
+5.  パッチに変更を加えた場合は、コメントと合わせて Diff (https://make.wordpress.org/themes/handbook/review/working-with-trac/#comparing-ticket-updates) へのリンクも提供してください。
 6.  チケットには、何を変更したか、なぜ変更したかを記述したコメントを必ず残してください。パッチのアップロードそのものは、通知のきっかけとはなりません。パッチへリンクするときは、コメントで [attachment:{filename}] を使用してください。
 7.  必要に応じてキーワードを調整するようにしてください: [https://make.wordpress.org/core/handbook/contribute/trac/keywords/](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)
 

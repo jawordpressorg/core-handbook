@@ -78,7 +78,7 @@ There are. [@desrosj](https://profiles.wordpress.org/desrosj/), [@flixos90](http
 You can also ping them on Slack. If you have questions after a meeting, or you have a question you’d rather not ask publicly, you’re more than welcome to ping them throughout the week.
 -->
 
-Slack で連絡することもできます。ミーティング後に質問がある場合や、公にはしたくない質問がある場合は、1週間を通して遠慮なく質問してください。
+Slack でも連絡できます。ミーティング後に質問がある場合や、公にはしたくない質問がある場合は、1週間を通して遠慮なく質問してください。
 
 <!--
 ## Given that most tickets already have a patch submitted, where should I start on Trac?
@@ -283,7 +283,7 @@ If there are other patches on the ticket, add a numeric increment to your versio
 For example, if your patch is the first for ticket 12345, name your file 12345.diff. If there are 2 other patches, name your file 12345.2.diff.
 -->
 
-たとえば、あなたのパッチがチケット12345の最初のものであれば、ファイル名を 12345.diff とします。他に2つのパッチがある場合は、12345.2.diff とします。
+たとえば、あなたのパッチがチケット12345の最初のものであれば、ファイル名を12345.diff とします。他に2つのパッチがある場合は、12345.2.diff とします。
 
 <!--
 If you want, you can include a very shortened purpose to your filename.

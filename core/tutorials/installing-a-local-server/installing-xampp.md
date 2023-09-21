@@ -260,13 +260,13 @@ The **red X** will change to a **green check mark** once the service has been in
 The default XAMPP install is already pre-configured to run a local web server comparable to most web hosting servers. However, there are a couple basic configuration changes you can make to increase your productivity.
 -->
 
-デフォルトの XAMPP は、ほとんどの Web ホスティングサーバーと同等のローカル Web サーバーを実行するようにあらかじめ設定されています。しかし、生産性を向上させるために、いくつかの基本的な設定変更を行うことができます。
+デフォルトの XAMPP は、ほとんどの Web ホスティングサーバーと同等のローカル Web サーバーを実行するようにあらかじめ設定されています。しかし、生産性を向上させるために、いくつかの基本的な設定を変更できます。
 
 <!--
 The first change will be to set the default text editor. As you can see, XAMPP defaults to Notepad, the native Windows text editor. **Click the folder button** to the right to open the file explorer. Navigate to the folder for your favorite text editor, **select the .exe file**, then **click Open**.
 -->
 
-最初の変更は、デフォルトのテキストエディターを設定することです。ご覧のように、XAMPP のデフォルトは Windows のネイティブテキストエディターであるメモ帳です。右側の**フォルダーボタンをクリック**すると、ファイルエクスプローラが開きます。お気に入りのテキストエディターのフォルダーに移動し、**.exeファイルを選択**し、**開くをクリック**してください。
+最初の変更は、デフォルトのテキストエディターを設定することです。ご覧のように、XAMPP のデフォルトは Windows のネイティブテキストエディターであるメモ帳です。右側の**フォルダーボタンをクリック**すると、ファイルエクスプローラが開きます。お気に入りのテキストエディターのフォルダーに移動し、**.exe ファイルを選択**し、**開くをクリック**してください。
 
 <!--
 ![Configuring XAMPP: Set Default Text Editor Screen](https://make.wordpress.org/core/files/2013/03/configure-xampp-2.png)
@@ -404,7 +404,7 @@ The phpMyAdmin login screen will appear first. Select your language, then enter 
 The main phpMyAdmin screen will appear. On the left is a list of databases that already exist: **cdcol, information\_schema, mysql, performance\_schema, phpmyadmin, test,** and **webauth**. Do not delete these, as they are necessary for XAMPP and phpMyAdmin to run properly.
 -->
 
-phpMyAdmin のメイン画面が表示されます。左側には、すでに存在するデータベースのリストが表示されます。**cdcol、information_schema、 mysql、 performance_schema、phpmyadmin、test、webauth** です。これらは XAMPP と phpMyAdmin が正常に動作するために必要であるため、削除しないでください。
+phpMyAdmin のメイン画面が表示されます。左側には、すでに存在するデータベースのリストが表示されます。**cdcol、information_schema、mysql、performance_schema、phpmyadmin、test、webauth** です。これらは XAMPP と phpMyAdmin が正常に動作するために必要であるため、削除しないでください。
 
 <!--
 To create a database, **click Databases** in the top navbar.

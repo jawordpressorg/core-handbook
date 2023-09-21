@@ -146,7 +146,7 @@ It’s also possible to contribute to WordPress core using `git`. For more infor
 If you would like to use Github, please see the handbook page on [using github pull requests](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) for more information.
 -->
 
-Github を利用したい場合は、ハンドブックの[github のプルリクエストを使用](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)のページで詳細を確認してください。
+GitHub を利用したい場合は、ハンドブックの[github のプルリクエストを使用](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)のページで詳細を確認してください。
 
 <!--
 ## Patches
@@ -176,7 +176,7 @@ Contributors follow the same process, but they generate a patch that shows their
 When writing a patch, it is important to always update to the latest version of trunk. Patches should never be written against a released version, such as a tag or branch, with very rare exceptions (e.g. during the preparation of [point releases](https://make.wordpress.org/core/glossary/#point-release)). Trunk is, however, a moving target, which can cause patches to become **stale** and require a **refresh** – they no longer apply properly, because code in the central repository no longer matches what the patch is attempting to change. Patches that alter a significant number of lines or files should generally be brought to the attention of committers sooner rather than later. \[Link: Getting Your Patch Committed\]
 -->
 
-パッチを書くときは、常に trunk の最新バージョンに更新することが重要です。パッチは、非常にまれな例外を除いて、タグやブランチのようなリリースされたバージョンに対して書かれてはいけません (例: [ポイントリリース](https://make.wordpress.org/core/glossary/#point-release)の準備中)。しかし、trunk は目標が移動するため、パッチが**古く**なり、**更新**を必要とすることがあります。なぜなら、中央リポジトリにあるコードが、パッチが変更しようとしている内容と一致しなくなったからです。重要な行やファイルを変更するパッチは、一般的に、遅かれ早かれコミッターに注目されます。 \[リンク: パッチをコミットさせる\]
+パッチを書くときは、常に trunk の最新バージョンに更新することが重要です。パッチは、非常にまれな例外を除いて、タグやブランチのようなリリースされたバージョンに対して書かれてはいけません (例: [ポイントリリース](https://make.wordpress.org/core/glossary/#point-release)の準備中)。しかし、trunk は目標が移動するため、パッチが**古く**なり、**更新**を必要とすることがあります。なぜなら、中央リポジトリにあるコードが、パッチが変更しようとしている内容と一致しなくなったからです。重要な行やファイルを変更するパッチは、一般的に、遅かれ早かれコミッターに注目されます。\[リンク: パッチをコミットさせる\]
 
 <!--
 ## Local Development Overview
@@ -218,7 +218,7 @@ If you’re not sure which to choose, we recommend the [VVV (sometimes referred 
 Trac tickets are organized into components (see “Component Maintainers” above), and use keywords to identify further details of the ticket. If your ticket is ever labeled with a keyword you’re unfamiliar with, reference the complete list of [Trac Workflow Keywords](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
 -->
 
-Trac のチケットはコンポーネントに分類され (上記の 「コンポーネントメンテナー」 を参照)、チケットの詳細を特定するためにキーワードが使用されます。もし、あなたのチケットが見慣れないキーワードでラベル付けされた場合、[Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)の完全なリストを参照してください。
+Trac のチケットはコンポーネントに分類され (上記の「コンポーネントメンテナー」を参照)、チケットの詳細を特定するためにキーワードが使用されます。もし、あなたのチケットが見慣れないキーワードでラベル付けされた場合、[Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)の完全なリストを参照してください。
 
 <!--
 ### Good First Bugs
@@ -253,10 +253,10 @@ Everyone is encouraged to submit bug reports and feature requests directly to tr
 -->
 
 *   要約 – 報告または要求している内容の要約をわかりやすく書きます。要約を書くと、関連するチケットのリストが表示されます。もし、あなたの課題や機能と重複するチケットがあった場合、新しいチケットを提出する必要はありません。現在のチケットを読み、提供できる追加 情報がないことを確認します。もし何か思い当たることがあれば、コメントを追加してください。
-    *   悪い要約: 「メディアモーダルが壊れた !」
-    *   良い要約: 「\_\_\_ をクリックしたときにメディアモーダルが壊れる」
+    *   悪い要約:「メディアモーダルが壊れた !」
+    *   良い要約:「\_\_\_ をクリックしたときにメディアモーダルが壊れる」
 *   説明 – バグを報告するときは、できるだけ詳しく書いてください。詳しければ詳しいほど、コア貢献者があなたを支援することが容易になります。可能であれば、エラーを再現するために必要な手順をリストアップしてください。機能要望を提出する場合は、使用例やユーザーエクスペリエンスの改善など、あなたのアイデアに関する詳細な説明を含めてください。
-*   キーワード – チケットを提出する前に、キーワード 「needs-patch」または「needs-feedback」(詳しくは Trac ワークフローキーワード [link] を参照してください) を使い、チケットが適用される適切なコンポーネントを設定したことを確認してください。これは、コンポーネントメンテナーがチケットを管理することに役立ちます。
+*   キーワード – チケットを提出する前に、キーワード「needs-patch」または「needs-feedback」(詳しくは Trac ワークフローキーワード [link] を参照してください) を使い、チケットが適用される適切なコンポーネントを設定したことを確認してください。これは、コンポーネントメンテナーがチケットを管理することに役立ちます。
 
 <!--
 ### Reporting Security Vulnerabilities
@@ -310,7 +310,7 @@ There are other, UI\-based ways to create patches as well. [SourceTree](http://w
 WordPress development happens through our official SVN and GIT repositories. As a result, we do not monitor or accept pull requests (PRs) from GitHub. However, you can still create a patch from your git repository and attach the patch to your ticket. To do so:
 -->
 
-WordPress の開発は、私たちの公式な SVN および Git リポジトリで行われます。そのため、GitHub からのプルリクエスト (PR) を監視したり、受け入れたりすることはありません。しかし、Git リポジトリからパッチを作成し、チケットに添付することはできます。そのためには、
+WordPress の開発は、私たちの公式な SVN および Git リポジトリで行われます。そのため、GitHub からのプルリクエスト (PR) を監視したり、受け入れることはありません。しかし、Git リポジトリからパッチを作成し、チケットに添付できます。そのためには、
 
 <!--
 Alert: We need to add information on creating a Git patch here.
@@ -328,7 +328,7 @@ Alert: We need to add information on creating a Git patch here.
 Sometimes you may find yourself in a ticket that has been open for many years. More often than not these tickets have patches that need a refresh. It’s important to know why code has changed and how the refresh needs to be handled. If you [browse trunk](https://core.trac.wordpress.org/browser/trunk/src/) you will see that you can view the code of each file that makes up WordPress.
 -->
 
-ときには、何年も前から開かれているチケットを発見することもあります。多くの場合、これらのチケットには更新が必要なパッチが含まれています。なぜコードが変更されたのか、そして更新がどのように処理される必要があるのかを知ることが重要です。[trunk を閲覧](https://core.trac.wordpress.org/browser/trunk/src/)すると、WordPress を構成する各ファイルのコードを見ることができるのがわかるでしょう。
+ときには、何年も前から開かれているチケットを発見するかもしれません。多くの場合、これらのチケットには更新が必要なパッチが含まれています。なぜコードが変更されたのか、そして更新がどのように処理される必要があるのかを知ることが重要です。[trunk を閲覧](https://core.trac.wordpress.org/browser/trunk/src/)すると、WordPress を構成する各ファイルのコードを見ることができるのがわかるでしょう。
 
 <!--
 As an example, look at [/wp-admin/media.php](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php). If you follow the link you will see the url at the top of your browser looks similar to the file structure of WordPress. If you append [?annotate=blame](https://core.trac.wordpress.org/browser/trunk/src/wp-admin/media.php?annotate=blame) to the url, the page will load with a new colored sidebar on the left. These are the changesets that have been made to the file. This will help you identify the reasoning the code has changed and allows you to find the ticket associated to better understand the conversation that resulted in the changes. (Usually looks like Fixes:xxxxx)
@@ -412,7 +412,7 @@ Once you think your patch is ready for commit, it’s time to find a committer t
 Another way to get feedback on your patch is to ask for feedback during the “open floor” at the end of the [weekly core developer chat](https://make.wordpress.org/core/tag/agenda/) (see below). If you go this route, be sure to wait until the end of the meeting and not during the chat.
 -->
 
-パッチに関するフィードバックを得るもうひとつの方法は、[weekly core developer chat](https://make.wordpress.org/core/tag/agenda/)  (以下を参照してください) の最後に行われる「オープンフロア」でフィードバックを求めることです。この方法をとる場合、チャットの最中ではなく、ミーティングの終わりまで待つようにしてください。
+パッチに関するフィードバックを得るもうひとつの方法は、[weekly core developer chat](https://make.wordpress.org/core/tag/agenda/) (以下を参照してください) の最後に行われる「オープンフロア」でフィードバックを求めることです。この方法をとる場合、チャットの最中ではなく、ミーティングの終わりまで待つようにしてください。
 
 <!--
 Sometimes, tickets and patches don’t get the attention they need and linger in trac. In these cases, ping a component maintainer or committer and ask for feedback.

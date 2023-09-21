@@ -14,19 +14,19 @@ This section of the handbook contains tutorials that will walk you through the p
 ## Why do I need a local WordPress install?
 -->
 
-## なぜ WordPress のローカルインストールが必要なのですか?
+## なぜ WordPress のローカルインストールが必要なのですか ?
 
 <!--
 If you want to contribute to WordPress core, you need to have a local install of WordPress on your computer to break, play with, and develop with. A local WordPress install allows you to create/test patches, find/fix bugs, and help develop/test new features during a release cycle.
 -->
 
-WordPress コアに貢献したい場合は、開発を行うために、コンピュータに WordPress をローカルインストールする必要があります。WordPress をローカルにインストールすることで、パッチの作成とテスト、バグの発見と修正、リリースサイクル中の新機能の開発とテストに貢献できます。
+WordPress コアに貢献したい場合は、開発するために、コンピューターに WordPress をローカルインストールする必要があります。WordPress をローカルにインストールすることで、パッチの作成とテスト、バグの発見と修正、リリースサイクル中の新機能の開発とテストに貢献できます。
 
 <!--
 There are two steps to installing WordPress on your computer for contributing to core:
 -->
 
-コアに貢献するための WordPress をコンピュータにインストールするには、2つのステップがあります。
+コアに貢献するための WordPress をコンピューターにインストールするには、2つのステップがあります。
 
 <!--
 1.  Choose and install a local server
@@ -72,4 +72,4 @@ SVN と Git はどちらも[バージョン管理システム](https://make.word
 -->
 
 *   Subversion (SVN) は、WordPress プロジェクトで使用されている公式のバージョン管理システムです。
-*   Git での作業を好む人のために、SVN リポジトリのミラーが [GitHub でホストされています](https://github.com/WordPress/wordpress-develop) 。GitHub でプルリクエストを提出できますが、対応する [Trac](https://core.trac.wordpress.org/) チケットが開かれていることを確認し、プルリクエストをそれにリンクしてください。
+*   Git での作業を好む人のために、SVN リポジトリのミラーが [GitHub でホストされています](https://github.com/WordPress/wordpress-develop)。GitHub でプルリクエストを提出できますが、対応する [Trac](https://core.trac.wordpress.org/) チケットが開かれていることを確認し、プルリクエストをそれにリンクしてください。

@@ -26,10 +26,10 @@ WordPress の**マイナー**バージョンは、3番目のシーケンスで�
 Since new versions of WordPress are released so frequently – we aim for 4-5 months for a major release, and minor releases happen as needed – we only have a need for major and minor releases. We don’t have bug\-fix or “patch” releases you normally see with an X.Y.Z-style version number. Rather, we have an X.X.Y version number.
 -->
 
-WordPress の新バージョンは頻繁にリリースされるため、メジャーリリースは4～5ヶ月、マイナーリリースは必要に応じて行われます。メジャーリリースとマイナーリリースのみが必要なのです。X.Y.Z 形式のバージョン番号で通常表示されるバグ修正や「パッチ」リリースは行いません。X.X.Y のバージョン番号なのです。
+WordPress の新バージョンは頻繁にリリースされるため、メジャーリリースは4～5ヵ月、マイナーリリースは必要に応じて行われます。メジャーリリースとマイナーリリースのみが必要なのです。X.Y.Z 形式のバージョン番号で通常表示されるバグ修正や「パッチ」リリースは行いません。X.X.Y のバージョン番号なのです。
 
 <!--
 While it’s a bit confusing, our commitments to backward compatibility and fast release cycles make it very easy for users to be able to update without worrying. (Which is great, considering the days of the version number [are numbered](http://www.codinghorror.com/blog/2011/05/the-infinite-version.html)…)
 -->
 
-少し分かりにくいですが、後方互換性と速いリリースサイクルへの対応により、ユーザーが心配することなく更新できるように非常に簡単になっています。(バージョン番号の時代が[終わりつつある]((http://www.codinghorror.com/blog/2011/05/the-infinite-version.html))ことを考えると、これはすばらしいことです。)
+少し分かりにくいですが、後方互換性と速いリリースサイクルへの対応により、ユーザーが心配することなく更新できるように非常に簡単になっています (バージョン番号の時代が[終わりつつある]((http://www.codinghorror.com/blog/2011/05/the-infinite-version.html))ことを考えると、これはすばらしいことです)。

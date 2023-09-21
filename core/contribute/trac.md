@@ -62,7 +62,7 @@ Tickets are assigned numerous properties that provide a snapshot of the status o
 **Keywords:** After the milestone, the keywords field is the most important field. These are not like tags on a WordPress post, but rather a defined list of keywords that describe the ticket’s current status in our development workflow. We use these keywords to build important reports. As an example, tickets tagged with **needs-design-feedback** are pulled into a report on which the Design team heavily relies. See [Trac Workflow Keywords](https://make.wordpress.org/core/handbook/trac/keywords/) for a complete list of the keywords.
 -->
 
-**Keywords:** マイルストーンに続いて、キーワードフィールドは最も重要なフィールドです。これらは WordPress の投稿タグのようなものではなく、私たちの開発ワークフローにおけるチケットの現在の状態を説明するキーワードの定義リストです。私たちはこれらのキーワードを使用して、重要なレポートを作成します。たとえば、 **needs-design-feedback** とタグ付けされたチケットは、デザインチームが大きく依存しているレポートに取り込まれます。キーワードの完全なリストは [Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/trac/keywords/) を参照してください。
+**Keywords:** マイルストーンに続いて、キーワードフィールドは最も重要なフィールドです。これらは WordPress の投稿タグのようなものではなく、私たちの開発ワークフローにおけるチケットの現在の状態を説明するキーワードの定義リストです。私たちはこれらのキーワードを使用して、重要なレポートを作成します。たとえば、**needs-design-feedback** とタグ付けされたチケットは、デザインチームが大きく依存しているレポートに取り込まれます。キーワードの完全なリストは [Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/trac/keywords/) を参照してください。
 
 <!--
 **Component:** The component is the area of WordPress that the ticket affects. The UI team, for example, will often be working on tickets in the **Graphic Design**, **UI**, or **Accessibility** categories. Try to choose specific components (when applicable) over more generalized ones, such as **General** or **Administration**. Components are used in reports to provide a logical grouping of tickets by subject area.
@@ -208,7 +208,7 @@ When giving feedback for a ticket:
 -->
 
 *   本人に対して、報告のお礼を言う。これらのチケットの中には、かなり古いものもあります。そのような場合は、「nacin さん、報告ありがとうございます。返信をしなくてすいません。」と言うだけで十分です。
-*   報告者の初めてのチケットであった場合、コメント欄の上に表示されます。すばらしいですね。 🙂
+*   報告者の初めてのチケットであった場合、コメント欄の上に表示されます。すばらしいですね。🙂
 *   サポート依頼であれば、WordPress.org のサポートフォーラムを紹介し、チケットを「無効」として閉じることができます。
 *   もし、バグレポートが機能強化のように見えるであれば、チケットを機能強化に変更します。機能強化はトリアージがやや難しいので (フィードバックがより主観的であるため)、バグから始めるほうがはるかに簡単です。
 *   他のチケットと重複していないか、一度検索してみてください。
@@ -249,7 +249,7 @@ If it has a patch:
 
 *   テストしてみてください - それは問題を解決しますか ? どのようにそれをテストしましたか ? 何か副作用はありましたか ?
 *   パッチがきれいに適用されない場合 (試したときに失敗するような場合) は、**needs-refresh** キーワードを追加してください。
-*   もしあなたが開発者なら、ざっとコードレビューを行うことを検討してください。それが [WordPress コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に沿っているかどうか確認してください。
+*   もしあなたが開発者なら、ざっとコードレビューすることを検討してください。それが [WordPress コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に沿っているかどうか確認してください。
 *   **has-patch** というワークフローキーワードがない場合は、追加してください。また、レビューの結果パッチが十分でないと判断した場合は、代わりに **needs-patch** と設定できます。
 *   もしパッチが WordPress の内部構造に関わっているなら、おそらく[ユニットテスト](https://make.wordpress.org/core/handbook/automated-testing/)が必要でしょう。
 *   パッチがコア開発者がによってレビューされ、WordPress に含めることを検討する準備ができたと感じたら、コメントでそう言ってください。ベータ1までは、現在のマイルストーンに対してパッチを申請できます。ベータ1以降は、**Future Release** と **early** タグを付けてください。

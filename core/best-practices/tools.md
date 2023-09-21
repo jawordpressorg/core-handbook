@@ -8,7 +8,7 @@
 If you find yourself working in and around WordPress.org and core development a lot, here are some tools you can use to make those workflows faster.
 -->
 
-WordPress.org やコア開発の周辺で作業することが多い場合、それらのワークフローをより速くするために使えるツールをいくつかご紹介します。
+WordPress.org やコア開発の周辺で作業することが多い場合、それらのワークフローをより速くするために使えるツールをいくつか紹介します。
 
 **Alfred Workflows**
 
@@ -57,8 +57,8 @@ WordPress.org やコア開発の周辺で作業することが多い場合、そ
         3.  **tracs** *\[検索用語\]* – Core Trac の Google サイト検索
         4.  **report** *\[番号\] –* Trac レポートへのジャンプ
     2.  Meta Trac:
-        1.  **meta** *\[番号\]* – Metaのチケット
-        2.  **metac** *\[番号\]* – Metaのチェンジセット
+        1.  **meta** *\[番号\]* – Meta のチケット
+        2.  **metac** *\[番号\]* – Meta のチェンジセット
         3.  **metas** *\[検索用語\] **–*** Meta Trac の Google サイト検索
     3.  Make ネットワーク:
         1.  **make** *\[スラッグ\]* – スラッグがわかれば、特定の Make ネットワークサイトにジャンプできます
@@ -78,7 +78,7 @@ WordPress.org やコア開発の周辺で作業することが多い場合、そ
     2.  WordPress.org のキーワード検索を追加します:
         1.  **w.org** *検索用語*
 *   [WP CodeRefex](https://cloudup.com/cFGHA7za8ti) – Codex へのジャンプと検索
-    1.  デフォルトのブラウザで、対応するコードリファレンスと Codex ページのタブを起動する4つのキーワード検索プロンプトを追加します:
+    1.  デフォルトのブラウザーで、対応するコードリファレンスと Codex ページのタブを起動する4つのキーワード検索プロンプトを追加します:
         1.  **function** *関数名*
         2.  **class** *クラス名*
         3.  **action** *アクション名*

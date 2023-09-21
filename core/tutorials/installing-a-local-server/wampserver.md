@@ -345,7 +345,7 @@ WampServer のデータベースの作成は、phpMyAdmin で行います。Web 
 The main phpMyAdmin screen will appear. On the left is a list of databases that already exist: **information\_schema**, **mysql**, **performance\_schema**, and **test**. Do not delete these, as they are necessary for WampServer and phpMyAdmin to run properly.
 -->
 
-phpMyAdmin のメイン画面が表示されます。左側には、すでに存在するデータベースのリストが表示されます。**cdcol、information_schema、 mysql、 performance_schema、phpmyadmin、test、webauth** です。これらは XAMPP と phpMyAdmin が正常に動作するために必要であるため、削除しないでください。
+phpMyAdmin のメイン画面が表示されます。左側には、すでに存在するデータベースのリストが表示されます。**cdcol、information_schema、mysql、performance_schema、phpmyadmin、test、webauth** です。これらは XAMPP と phpMyAdmin が正常に動作するために必要であるため、削除しないでください。
 
 <!--
 To create a database, **click Databases** in the main navbar at the top.

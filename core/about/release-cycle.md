@@ -12,7 +12,7 @@ A group of contributors from different Make teams leads each WordPress release c
 A release cycle usually lasts around 4 months from the initial scoping meeting to launch of the version.
 -->
 
-リリースサイクルは、最初のスコープミーティングからバージョンのローンチまで、通常4ヶ月程度です。
+リリースサイクルは、最初のスコープミーティングからバージョンのローンチまで、通常4ヵ月程度です。
 
 <!--
 The [6.2 release cycl](https://make.wordpress.org/core/6-2/)e ended on March 29, 2023.

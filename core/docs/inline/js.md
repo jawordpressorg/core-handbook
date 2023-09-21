@@ -111,7 +111,7 @@ Inline documentation is considered to be “technical” documentation, so some 
     *   ファイルが関連付けられている「コンポーネント」にチケットを割り当てます。
     *   「バージョン」は空欄にしてください。
     *   **docs** と **JavaScript** をクリックして「フォーカス」を追加します。
-    *   これは、`Media` コンポーネントに `docs` と `javascript` をフォーカスし、`JSDocs correction for` というタイトルをつけて新しいチケットを作成するショートカットリンクです。あとは、タイトルにファイル名を追加するだけです。 [新しい JS ドキュメントチケット](https://core.trac.wordpress.org/newticket?component=Media&focuses=docs%20javascript&summary=JSDocs%20correction%20for%20)
+    *   これは、`Media` コンポーネントに `docs` と `javascript` をフォーカスし、`JSDocs correction for` というタイトルをつけて新しいチケットを作成するショートカットリンクです。あとは、タイトルにファイル名を追加するだけです。[新しい JS ドキュメントチケット](https://core.trac.wordpress.org/newticket?component=Media&focuses=docs%20javascript&summary=JSDocs%20correction%20for%20)
 *   作成した Trac チケットにパッチをアップロードし、キーワード **has-patch** を追加してください。
 *   アップロードしたパッチについて、必ずコメントを残してください。パッチをアップロードしただけでは、このチケットを見ている人には通知されません。
 *   備考: ドキュメントの変更は、チケットが特に両方を要求していない限り、(たとえホワイトスペースであっても) コードの変更と一緒にしてはいけません。
@@ -138,7 +138,7 @@ Inline documentation is considered to be “technical” documentation, so some 
 For any questions, pop by the [#docs](https://wordpress.slack.com/messages/docs/) channel in [Slack](https://make.wordpress.org/chat/). For JavaScript specific questions, you can also join the [#core-js](https://wordpress.slack.com/messages/core-js/) channel.
 -->
 
-質問は、[Slack](https://make.wordpress.org/chat/) の [#docs](https://wordpress.slack.com/messages/docs/) チャンネルで受け付けています。JavaScript に関する質問の場合は、[#core-js](https://wordpress.slack.com/messages/core-js/) チャンネルに参加することもできます。
+質問は、[Slack](https://make.wordpress.org/chat/) の [#docs](https://wordpress.slack.com/messages/docs/) チャンネルで受け付けています。JavaScript に関する質問の場合は、[#core-js](https://wordpress.slack.com/messages/core-js/) チャンネルに参加できます。
 
 <!--
 ## Resources

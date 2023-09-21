@@ -319,7 +319,7 @@ You will be able to access your WordPress install at the URL listed on the next 
 *   You will need to install and activate the [WordPress Beta Tester plugin](https://wordpress.org/extend/plugins/wordpress-beta-tester/) to upgrade the install from the latest beta release to the latest bleeding-edge version of WordPress trunk. Once installed, **follow the directions** for [configuring the plugin](https://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-from-a-zip-file/#4-install-the-beta-tester-plugin) to update to the bleeding edge nightlies.
 -->
 
-*   テスト中にエラーや警告を表示するために、`wp-config.php`ファイルで `WP_DEBUG` を **true** に設定することが重要です:
+*   テスト中にエラーや警告を表示するために、`wp-config.php` ファイルで `WP_DEBUG` を **true** に設定することが重要です:
 
     ```php
     /**
@@ -332,7 +332,7 @@ You will be able to access your WordPress install at the URL listed on the next 
     define('WP_DEBUG', true);
     ```
 
-*   [WordPress Beta Tester プラグイン](https://wordpress.org/extend/plugins/wordpress-beta-tester/)をインストールして有効化し、最新のベータ版からWordPress trunk の最新ブリーディングエッジバージョンにインストールをアップグレードすることが必要です。インストールしたら、[プラグインの設定](https://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-from-a-zip-file/#4-install-the-beta-tester-plugin)の**指示に従って**、ブリーディングエッジのナイトリーに更新してください。
+*   [WordPress Beta Tester プラグイン](https://wordpress.org/extend/plugins/wordpress-beta-tester/)をインストールして有効化し、最新のベータ版から WordPress trunk の最新ブリーディングエッジバージョンにインストールをアップグレードすることが必要です。インストールしたら、[プラグインの設定](https://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-from-a-zip-file/#4-install-the-beta-tester-plugin)の**指示に従って**、ブリーディングエッジのナイトリーに更新してください。
 
 <!--
 ### 6\. Shutting Down DesktopServer

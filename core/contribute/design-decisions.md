@@ -20,7 +20,7 @@ This page lists a number of important design decisions that come up frequently, 
 WordPress stores absolute URLs in the database. Relative URLs are not used for a variety of reasons. Dynamically generated websites need permanent URLs (permalinks), so absolute URIs make more sense. WordPress has a [variety of functions](https://codex.wordpress.org/Function_Reference/site_url#Related) to call a site domain and various folders in plugins and themes so that relative URLs are not necessary. When moving domains, there are search and replace tools for switching domains in the database.
 -->
 
-WordPressは絶対 URL をデータベースに保存します。相対 URL は、さまざまな理由から使用されません。動的に生成されるサイトには永続的な URL (パーマリンク) が必要ですので、絶対 URI の方が理にかなっています。WordPress には、サイトドメインやプラグイン、テーマの各種フォルダーを呼び出す[様々な機能](https://codex.wordpress.org/Function_Reference/site_url#Related)があるので、相対 URL は必要ありません。ドメインを移動する場合、データベース内のドメインを切り替えるための検索・置換ツールがあります。
+WordPress は絶対 URL をデータベースに保存します。相対 URL は、さまざまな理由から使用されません。動的に生成されるサイトには永続的な URL (パーマリンク) が必要ですので、絶対 URI の方が理にかなっています。WordPress には、サイトドメインやプラグイン、テーマの各種フォルダーを呼び出す[様々な機能](https://codex.wordpress.org/Function_Reference/site_url#Related)があるので、相対 URL は必要ありません。ドメインを移動する場合、データベース内のドメインを切り替えるための検索・置換ツールがあります。
 
 <!--
 ### Why relative URLs are not good
@@ -44,7 +44,7 @@ Permalinks are malleable. The content of a post can be displayed on `http://exam
 Moving is easier with absolute URLs. For example, assume a user is moving from `http://foo.com` to `http://bar.com`. Doing a search and replace in the database for `"http://foo.com"` and replacing that is very easy and unlikely to be problematic. One might say that a root-relative URL would not need to change at all in such a case, and this is true, but what if the content needs to be moved from `http://foo.com/dev/` to `http://bar.com`? The root-relative URLs still need to change in such a case, and now there isn’t a simple to find string, such as `"http://foo.com/dev/"` to search and replace on.
 -->
 
-移動は絶対 URL の方が簡単です。たとえば、あるユーザーが `http://foo.com` から `http://bar.com` に移動するとします。データベースで `"http://foo.com"` を検索して置き換えるのはとても簡単で、問題になることはまずありません。このような場合、ルート相対 URL はまったく変更する必要がないと言われるかもしれませんし、これは事実です。しかし、コンテンツを `http://foo.com/dev/` から `http://bar.com` に移動させる必要がある場合はどうでしょうか。このような場合にもルート相対 URL は変更する必要があり、検索と置換を行うための `"http://foo.com/dev/"` のような簡単に見つけることができる文字列は存在しません。
+移動は絶対 URL の方が簡単です。たとえば、あるユーザーが `http://foo.com` から `http://bar.com` に移動するとします。データベースで `"http://foo.com"` を検索して置き換えるのはとても簡単で、問題になることはまずありません。このような場合、ルート相対 URL はまったく変更する必要がないと言われるかもしれませんし、これは事実です。しかし、コンテンツを `http://foo.com/dev/` から `http://bar.com` に移動させる必要がある場合はどうでしょうか。このような場合にもルート相対 URL は変更する必要があり、検索したり置換するための `"http://foo.com/dev/"` のような簡単に見つけることができる文字列は存在しません。
 
 <!--
 Also, within the content of posts themselves, absolute URLs are easier to manage.
@@ -140,12 +140,12 @@ With regards to establishment and popularity, there are a number of things that 
 
 *   コア開発者が聞いたことがあるような人気のあるサービスですか ?「主流」ですか ?
 *   同様のサービスがすでにサポートされている場合、このサービスは規模、機能、支持者の面ではどのように比較されますか ?
-*   このサービスは、ソーシャルメディアにおいて確立された存在感を示していますか？
+*   このサービスは、ソーシャルメディアにおいて確立された存在感を示していますか ?
 *   その oEmbed エンドポイントは明確に確立され、適切に文書化されていますか ? (時には、開発者の趣味であるプロジェクトに過ぎず、サポートされていない場合もあります)。
 *   oEmbed エンドポイントは、WordPress の oEmbed 自動検出で機能しますか ? そうでない場合、HTML タグや属性を許可リストに追加して動作させることは可能ですか ?
-*   APIを充実させるなど、開発者との関係作りに力を入れていますか ?
+*   API を充実させるなど、開発者との関係作りに力を入れていますか ?
 *   サービスはいつ開始しましたか ?
-*   ウィキペディアの記事が定着していますか ? (これは真面目な話です。)
+*   ウィキペディアの記事が定着していますか ? (これは真面目な話です)
 *   oEmbed プロバイダとして追加したり、ショートコードを作成したり、サービスの他の API を利用したりと、何らかの方法でサービスを活用する WordPress プラグインを作った人はいますか ? これらのプラグインは、使用状況や需要を示すような注目すべき採用実績や活発さがありますか ?
 *   そのプロバイダは頻繁に提案されていますか ?
 
@@ -213,4 +213,4 @@ See [#10205](https://core.trac.wordpress.org/ticket/10205).
 WordPress does not support MySQL strict mode or autocommit = 0. [#8857](https://core.trac.wordpress.org/ticket/8857), [#16821](https://core.trac.wordpress.org/ticket/16821), [#16429](https://core.trac.wordpress.org/ticket/16429).
 -->
 
-WordPressは、MySQL の strict モードや autocommit = 0 をサポートしていません。[#8857](https://core.trac.wordpress.org/ticket/8857)、[#16821](https://core.trac.wordpress.org/ticket/16821)、[#16429](https://core.trac.wordpress.org/ticket/16429)。
+WordPress は、MySQL の strict モードや autocommit = 0 をサポートしていません。[#8857](https://core.trac.wordpress.org/ticket/8857)、[#16821](https://core.trac.wordpress.org/ticket/16821)、[#16429](https://core.trac.wordpress.org/ticket/16429)。

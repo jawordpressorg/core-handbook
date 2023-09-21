@@ -20,7 +20,7 @@ The [bug tracker](https://make.wordpress.org/core/handbook/trac/) contains numer
 If you are new to the bug tracker and want to help out, here’s how you can get started with your first simple workflow. Once you have spent some time in this workflow, the rest of the tracker will become much more familiar, and you can feel confident in exploring other areas of Trac that also need help.
 -->
 
-バグトラッカーを初めて使用する場合、手伝いたい場合は、ここで最初の簡単なワークフローを始めることができます。一度このワークフローに時間を費やせば、トラッカーの他の部分がよりよく理解できるようになり、同様にサポートが必要な Trac の他の領域でも自信を持って探索できるようになります。
+バグトラッカーを初めて使用する場合、手伝いたい場合は、ここで最初の簡単なワークフローを始めることができます。一度このワークフローに時間を費やせば、トラッカーの他の部分がよりよく理解できるようになり、同様にサポートが必要な Trac の他の領域でも自信を持って探索できます。
 
 <!--
 Keep an eye on [upcoming WordPress meetings](https://make.wordpress.org/meetings/) to join a bug scrub.

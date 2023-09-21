@@ -126,7 +126,7 @@ The ticket has been reviewed, found to be desirable to solve, and we would like 
 When paired with the `php-compatibility` focus, this manually added keyword identifies the specific PHP version (i.e. `NN`) that first introduced a compatibility issue or task. For example, `php80` keyword identifies that PHP 8.0 is the version that first introduced the incompatibility.
 -->
 
-このキーワードは `php-compatibility` フォーカスと組み合わせると、 互換性の問題やタスクを最初に導入した PHP のバージョン (つまり `NN`) を特定します。例えば、`php80` キーワードは PHP 8.0 が最初に非互換性を導入したバージョンであることを示します。
+このキーワードは `php-compatibility` フォーカスと組み合わせると、互換性の問題やタスクを最初に導入した PHP のバージョン (つまり `NN`) を特定します。たとえば、`php80` キーワードは PHP 8.0が最初に非互換性を導入したバージョンであることを示します。
 
 <!--
 ## Action-based Keywords

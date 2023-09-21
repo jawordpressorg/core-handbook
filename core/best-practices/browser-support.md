@@ -52,7 +52,7 @@ WordPress 4.8 – [IE 8,9,10のサポートを削除](https://make.wordpress.org
 WordPress 4.4 – Removed support for IE 7 ([#18199](https://core.trac.wordpress.org/ticket/18199))
 -->
 
-WordPress 4.4 – IE 7 のサポートを削除([#18199](https://core.trac.wordpress.org/ticket/18199))
+WordPress 4.4 – IE 7のサポートを削除 ([#18199](https://core.trac.wordpress.org/ticket/18199))
 
 <!--
 WordPress 3.2 – [Removed support for IE 6](https://make.wordpress.org/core/2011/03/18/wordpress-3-2-the-plan-faster-lighter/)

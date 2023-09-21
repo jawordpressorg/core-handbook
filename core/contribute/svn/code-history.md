@@ -20,7 +20,7 @@ When you need to investigate code, you’ll often have questions about why the c
 To get started, open the [Trac browser](https://core.trac.wordpress.org/browser/trunk), and navigate to the file you want to investigate. Click the Blame link at the top right of the page. You’ll see a new column appear on the left-hand side with the changeset that is associated with each line of the file.
 -->
 
-まず [Trac ブラウザ](https://core.trac.wordpress.org/browser/trunk)を開き、調べたいファイルに移動してください。ページの右上にある 「Blame」リンクをクリックします。左側に、そのファイルの各行に関連するチェンジセットが書かれた新しい列が表示されるのが分かると思います。
+まず [Trac ブラウザ](https://core.trac.wordpress.org/browser/trunk)を開き、調べたいファイルに移動してください。ページの右上にある「Blame」リンクをクリックします。左側に、そのファイルの各行に関連するチェンジセットが書かれた新しい列が表示されるのが分かると思います。
 
 <!--
 ## Anatomy Of A Changeset
@@ -52,7 +52,7 @@ When you click on the changeset, a new dialog appears with the following informa
 ## Associating Code With A WordPress Release
 -->
 
-## WordPressのリリースとコードの関連付け
+## WordPress のリリースとコードの関連付け
 
 <!--
 To find out when a piece of code was released, look at the associated revision number and find the next highest revision number on the [WordPress tags browser](https://core.trac.wordpress.org/browser?order=name#tags). For example, if you want to know when revision 14377 shipped, you can see that 3.0 was tagged as 15274 and 2.9.2 was tagged as 13165. Revision 14377 was too late to ship with 2.9.2, so it must have shipped with 3.0. You can also verify this by looking at the associated ticket. Revision 14377 is associated with [#12637](https://core.trac.wordpress.org/ticket/12637), which has a milestone of 3.0.

@@ -1,6 +1,6 @@
 # JavaScript Documentation Standards
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/)  
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/)
 Please do *not* edit this page, use *edit* on the new page.
 
 WordPress follows the [JSDoc 3 standard](http://usejsdoc.org/) for inline JavaScript documentation.

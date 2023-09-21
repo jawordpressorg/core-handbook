@@ -2,7 +2,7 @@
 # Gutenberg Index 2021
 -->
 
-# Gutenberg インデックス 2021
+# Gutenberg インデックス2021
 
 <!--
 This page is the one place you can bookmark for Gutenberg\-related team posts of Core, Core-Editor, Core-js, Core-css, Design, Meta, and Themes, and other teams, when relevant. It’s a chronological listing, not topical. Latest on top.

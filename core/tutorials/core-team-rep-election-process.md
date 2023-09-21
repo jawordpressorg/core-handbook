@@ -20,7 +20,7 @@ In summary, the process follows three subsequent Make/Core posts for [nomination
 In the WordPress open source project, each team has on average one or two representatives, abbreviated as *reps*.  Some teams have more than two, but for the sake of sanity sticking with two for now keeps things simpler.  And for the historians out there, the role goes [way back to 2012](https://make.wordpress.org/updates/team-reps/).
 -->
 
-WordPress のオープンソースプロジェクトでは、各チームに平均1～2名の代表者がおり、*reps* と略されます。 チームによっては2人以上いることもありますが、物事をシンプルに進めるために、今のところ2人にしておくと良いでしょう。 そして歴史が好きな人のために、この役割は[2012年までさかのぼります](https://make.wordpress.org/updates/team-reps/)。
+WordPress のオープンソースプロジェクトでは、各チームに平均1～2名の代表者がおり、*reps* と略されます。チームによっては2人以上いることもありますが、物事をシンプルに進めるために、今のところ2人にしておくと良いでしょう。そして歴史が好きな人のために、この役割は[2012年までさかのぼります](https://make.wordpress.org/updates/team-reps/)。
 
 <!--
 Historically with the Core team, the team rep duration was around a year, though some reps stuck around longer if there was a particularly good fit.
@@ -32,7 +32,7 @@ Historically with the Core team, the team rep duration was around a year, though
 Anyone who serves as a “**team rep**” is responsible for communicating on behalf of the Core team to the other contributor groups via [weekly updates](https://make.wordpress.org/updates/), as well as occasional cross-team chats.  Reps are also consulted on Contributor Day, helping find someone within the Core team attending an event who can help lead a Core table.  [Full details on the Team Rep role is on the Team Update site.](https://make.wordpress.org/updates/team-reps/)
 -->
 
-「**チーム代表者**」として働く人はコアチームの代表として、[ウィークリーアップデート](https://make.wordpress.org/updates/)を通じて他のコントリビューターグループと、また時々チーム間のチャットを介してコミュニケーションを取る責任があります。また、コントリビューターデイでは、イベントに参加するコアチームの中から、コアテーブルをリードできる人を見つける手助けをするために相談されます。 [チーム代表者の役割の詳細は、チームアップデートサイトにあります](https://make.wordpress.org/updates/team-reps/)。
+「**チーム代表者**」として働く人はコアチームの代表として、[ウィークリーアップデート](https://make.wordpress.org/updates/)を通じて他のコントリビューターグループと、また時々チーム間のチャットを介してコミュニケーションを取る責任があります。また、コントリビューターデイでは、イベントに参加するコアチームの中から、コアテーブルをリードできる人を見つける手助けをするために相談されます。[チーム代表者の役割の詳細は、チームアップデートサイトにあります](https://make.wordpress.org/updates/team-reps/)。
 
 <!--
 **It is not called “team lead” for a reason.**  While people elected as team reps will generally come from the pool of folks that people think of as experienced leaders, remember that the team rep role is designed to change hands regularly.
@@ -44,7 +44,7 @@ Anyone who serves as a “**team rep**” is responsible for communicating on be
 This role has a time commitment attached to it.  Not a huge amount, but in my experience, it’s at least one hour a week.
 -->
 
-この役割には時間的な制約がつきものです。 膨大な量ではありませんが、私の経験では、少なくとも週に1時間です。
+この役割には時間的な制約がつきものです。膨大な量ではありませんが、私の経験では、少なくとも週に1時間です。
 
 <!--
 Here are the main tasks:
@@ -92,7 +92,7 @@ Preference is for nominations to happen publicly, but if someone wants to nomina
 *An important disclaimer: if someone is nominated, they should not feel like they have to say “yes”.  The polls will only include the names of the people that respond positively to a nomination.  Anyone who is nominated should feel free to reply with a “Thank you, but no thank you”.*
 -->
 
-**重要な免責事項**: 誰かに推薦された場合、「はい」と言わなければならないように感じるべきではありません。 投票では、推薦に対して肯定的な回答をした人の名前だけが掲載されます。推薦された人は、「ありがとうございます、でも結構です」と遠慮なく答えることもできます。
+**重要な免責事項**: 誰かに推薦された場合、「はい」と言わなければならないように感じるべきではありません。投票では、推薦に対して肯定的な回答をした人の名前だけが掲載されます。推薦された人は、「ありがとうございます、でも結構です」と遠慮なく答えることもできます。
 
 <!--
 Once the deadline has passed for nominating, a comment will be added and pinned to the top of the nomination post:
@@ -152,7 +152,7 @@ Once the results have been finalized and announced, a comment will be added and 
 After voting has ended, **results** should be shared in an announcement post (here is an exmaple from [2020](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) as well as a [sample Community Team results post)](https://make.wordpress.org/community/2020/02/06/community-team-reps-for-2020-2/).  Similarly, the new team rep(s) should be updated on the [Team Reps page](https://make.wordpress.org/updates/team-reps/).
 -->
 
-投票終了後、**結果**はアナウンス記事で共有する必要があります ([2020](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/)の例と、[コミュニティチームの投票結果の投稿例](https://make.wordpress.org/community/2020/02/06/community-team-reps-for-2020-2/)があります)。 同様に、新しいチーム代表者は、[チーム代表者ページ](https://make.wordpress.org/updates/team-reps/)で更新される必要があります。
+投票終了後、**結果**はアナウンス記事で共有する必要があります ([2020](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/)の例と、[コミュニティチームの投票結果の投稿例](https://make.wordpress.org/community/2020/02/06/community-team-reps-for-2020-2/)があります)。同様に、新しいチーム代表者は、[チーム代表者ページ](https://make.wordpress.org/updates/team-reps/)で更新される必要があります。
 
 <!--
 The outgoing team rep(s) should plan to be available for questions and consultation from the incoming team rep(s) as there will undoubtedly be a learning curve as new rep(s) get into the role.

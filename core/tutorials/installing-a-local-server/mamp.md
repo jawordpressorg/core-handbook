@@ -78,7 +78,7 @@ Once the download is complete, **double-click the zip file** and extract the con
 * **Read Me - 重要なお知らせ画面**: インストーラは MAMP と MAMP PRO の両方のアプリケーションをインストールします。MAMP フォルダーを削除したり、名前を変更したりしないでください。**Continue をクリックして** 次のステップに進みます。
 * **ライセンス - ソフトウェア使用許諾画面**: MAMP で使用したい言語を選択します。使用許諾を読み、小さなドロップダウンで **Agree をクリック** して同意し、**Continue をクリック**します。
 * **インストール先の選択**: MAMP が正常に動作するためには、アプリケーションフォルダーにインストールされる必要があります。次のステップで **Continue をクリック**してください。
-* **インストールの種類 - 「Macintosh HD」 画面での標準インストール**: この画面では、MAMP がハードディスクで使用するディスク容量を表示します。**インストールをクリック**すると、お使いのコンピューターのすべてのユーザーに対して MAMP の標準インストールが実行されます。**カスタマイズボタンをクリック**すると、MAMP PRO のインストールをオプトアウトできます。**インストールをクリック**して続行します。インストーラは、管理者ユーザー名とパスワードで認証するよう促します。要求された情報を入力し、**ソフトウェアのインストールをクリック**します。
+* **インストールの種類 - 「Macintosh HD」画面での標準インストール**: この画面では、MAMP がハードディスクで使用するディスク容量を表示します。**インストールをクリック**すると、お使いのコンピューターのすべてのユーザーに対して MAMP の標準インストールが実行されます。**カスタマイズボタンをクリック**すると、MAMP PRO のインストールをオプトアウトできます。**インストールをクリック**して続行します。インストーラは、管理者ユーザー名とパスワードで認証するよう促します。要求された情報を入力し、**ソフトウェアのインストールをクリック**します。
 * **インストール - MAMP のインストール画面**: インストールには数分かかります。この画面では、インストールが完了するまでの残り時間とともに、プロセスのどの部分が実行されているかが表示されます。
 * **概要 - インストールに成功した画面**: MAMP は正常にインストールされました。**Close をクリックします**。
 
@@ -152,7 +152,7 @@ Note: When starting and stopping services or changing the configuration, MAMP ma
 During installation, MAMP sets the default ports for both Apache (port 8888) and MySQL (port 8889). Normally, web servers use port 80 for Apache, and port 3306 for MySQL. This allows access to web pages without having to append a port number to the domain in the URL.
 -->
 
-インストール時に、MAMP は Apache (ポート8888) と MySQL (ポート8889) の両方のデフォルトポートを設定します。通常、Web サーバーは Apache にポート80、MySQL にポート3306を使用します。これにより、URLのドメインにポート番号を付加することなく、Web ページにアクセスできます。
+インストール時に、MAMP は Apache (ポート8888) と MySQL (ポート8889) の両方のデフォルトポートを設定します。通常、Web サーバーは Apache にポート80、MySQL にポート3306を使用します。これにより、URL のドメインにポート番号を付加することなく、Web ページにアクセスできます。
 
 <!--
 In MAMP, you have to append the port number to **localhost** in order to access web pages, i.e. [http://localhost:8888/wordpress-trunk/](http://localhost:8888/wordpress-trunk/).
@@ -218,7 +218,7 @@ phpMyAdmin のメイン画面が表示されます。データベースを作成
 On the screen that appears, you need to enter the database name (for example, **root\_wordpress-trunk**) in the left field, choose your database connection collation from the dropdown box (**utf8\_unicode\_ci**), then **click Create**.
 -->
 
-表示された画面で、左側のフィールドにデータベース名 (例: **root\_wordpress-trunk**) を入力し、ドロップダウンボックスからデータベース接続照合順序 (**utf8\_unicode\_ci**) を選択し、 **Create をクリック**してください。
+表示された画面で、左側のフィールドにデータベース名 (例: **root\_wordpress-trunk**) を入力し、ドロップダウンボックスからデータベース接続照合順序 (**utf8\_unicode\_ci**) を選択し、**Create をクリック**してください。
 
 <!--
 ![MAMP Create Database In phpMyAdmin Screen](https://make.wordpress.org/core/files/2013/06/database-create-name-collation.png)

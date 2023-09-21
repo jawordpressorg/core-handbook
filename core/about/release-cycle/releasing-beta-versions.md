@@ -98,11 +98,11 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 -->
 
 *   アナウンス記事を下書きする。
-    *   以前の [wordpress.org/news/](https://wordpress.org/news/) の投稿をコピーし、そこから編集をはじめます (例: [ベータ1](https://wordpress.org/news/2021/06/wordpress-5-8-beta-1/)、[ベータ2](https://wordpress.org/news/2021/06/wordpress-5-8-beta-2/)、[RC 1](https://wordpress.org/news/2021/06/wordpress-5-8-release-candidate/)、[RC 2](https://wordpress.org/news/2021/07/wordpress-5-8-release-candidate-2/))。
+    *   以前の [wordpress.org/news/](https://wordpress.org/news/) の投稿をコピーし、そこから編集をはじめます (例: [ベータ1](https://wordpress.org/news/2021/06/wordpress-5-8-beta-1/)、[ベータ2](https://wordpress.org/news/2021/06/wordpress-5-8-beta-2/)、[RC1](https://wordpress.org/news/2021/06/wordpress-5-8-release-candidate/)、[RC2](https://wordpress.org/news/2021/07/wordpress-5-8-release-candidate-2/))。
     *   下書きを作成する際、サイドバーの「ステータスと公開」パネルにある「パブリックプレビューの有効化」オプションにチェックを入れ、プレビューの URL をコピーして他の人と共有し、公開前にレビューやフィードバックを提供できるようにしてください。
     *   リンク、チケット数、その他の要素が特定のベータリリース用に更新されていることを確認してください。ロケール間の互換性のために、Trac クエリーのリンクで URL の日付が `YYYY-MM-DD` フォーマットであることを確認してください。
     *   リリースのリードから正確さのレビューを受け、マーケティングやドキュメントの担当者からコピー編集を受けます。これらの人々は、投稿の最後に @ で言及されるようにします。
-    *   この Beta/RC リリースが元々計画されていなかった場合 (たとえば、RC の前に追加の Beta をリリースしたり、最終リリースの前に追加の RC をリリースしたりした場合)、これらのアナウンス投稿は [wordpress.org/news/](https://wordpress.org/news/) では公開されず、代わりに [make.wordpress.org/core](https://make.wordpress.org/core/) で公開されるという意味で、歴史的に「サイレント」であることに注意してください (例: [5.7 RC 3](https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3/)) 。
+    *   この Beta/RC リリースが元々計画されていなかった場合 (たとえば、RC の前に追加の Beta をリリースしたり、最終リリースの前に追加の RC をリリースしたりした場合)、これらのアナウンス投稿は [wordpress.org/news/](https://wordpress.org/news/) では公開されず、代わりに [make.wordpress.org/core](https://make.wordpress.org/core/) で公開されるという意味で、歴史的に「サイレント」であることに注意してください (例: [5.7 RC 3](https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3/))。
 *   ベータ1リリースの場合、[#fse-outreach-experiment](https://make.wordpress.org/core/tag/fse-outreach-experiment/)の FSE Outreach Experiment の参加者と調整し、「Help Test WordPress X.Y」の投稿を公開・宣伝することを強く推奨します (例: [6.1の投稿](https://make.wordpress.org/test/2022/09/21/help-test-wordpress-6-1/)、[6.1の Slack メッセージ](https://wordpress.slack.com/archives/C015GUFFC00/p1663781207569069))。
 *   ベータリリースの場合、マイルストーンから機能強化や機能追加のリクエストチケットが取り除かれていることを確認してください (例: [Trac query for 6.1](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&type=enhancement&type=feature+request&milestone=6.1&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority))。ある機能強化や機能要求がリリースにとって重要であり、マイルストーンに残す必要があるという合意がリリースチーム内にある場合、そのチケットタイプは「Task (blessed)」に変更されるべきです。また、Gutenberg からの機能強化/機能マージも同様にマイルストーンからクリアされるか、「Task (blessed)」に変更されることをエディターテックリードと確認してください。
 *   RC リリースの場合、マイルストーンからすべてのチケットが削除されていることを確認するか、なぜチケットが残っているのかについてリリースチーム内で合意してください (例: [6.1」の Trac クエリー](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&milestone=6.1&col=id&col=summary&col=type&col=status&col=milestone&col=owner&col=priority&order=priority))。また、Gutenberg からのすべてのマージもマイルストーンからクリアされていることをエディターテックリードと確認してください。
@@ -150,15 +150,15 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   注意: WP-CLI 経由でアップデートを行った際にファイルが削除されたと報告された場合は、そのファイルが `$_old_files` 変数に存在することを確認してください。
     *   注意: WP-CLI を使ってパッケージをテストしている人は、チェックサムに関する警告を受けるかもしれません。これはチェックサムがナイトリーバージョンでは利用できないためです。
     *   理想的なテストの実施:
-        *   4.0.\*リリースシリーズの最新版からテストする (例: 4.0.35 から 6.1 Beta 1)
-        *   4.9.\*リリースシリーズの最新版からテストする (例: 4.9.21 から 6.1 Beta 1)
-        *   現在のメジャーリリースシリーズの最新版からテストする (例: 5.7.2 から 5.8 Beta 2)
-        *   最新のベータ/RC リリースからテストする (例: ベータ2からベータ3、ベータ3から RC 1、RC 1 から RC 2)
+        *   4.0.\*リリースシリーズの最新版からテストする (例: 4.0.35から6.1 Beta1)
+        *   4.9.\*リリースシリーズの最新版からテストする (例: 4.9.21から6.1 Beta1)
+        *   現在のメジャーリリースシリーズの最新版からテストする (例: 5.7.2から5.8 Beta2)
+        *   最新のベータ/RC リリースからテストする (例: ベータ2からベータ3、ベータ3から RC1、RC1から RC2)
         *   新規インストールをテストする
         *   `wp-config.php` ファイルを削除し、新規インストールをテストする
         *   シングルサイトとマルチサイト/ネットワーク (サブディレクトリとサブドメインの両方) のインストールをテストする
 *   もう一つのバージョンアップ。
-    *   コミット: WordPress 4.8 ベータ2 のバージョンアップ後。![](https://make.wordpress.org/core/files/2017/06/pasted-image-0-1-1024x547.png)
+    *   コミット: WordPress 4.8ベータ2のバージョンアップ後。![](https://make.wordpress.org/core/files/2017/06/pasted-image-0-1-1024x547.png)
 *   以前のコミットが [https://build.trac.wordpress.org/](https://build.trac.wordpress.org/) に表示された後、[Mission Control](https://mc.wordpress.org/release/) でナイトリーパッケージをリビルドする必要があります。
 *   アナウンス投稿を公開します (ベータ1リリースで投稿が作成された場合は、それに続く「Help Test WordPress X.Y」投稿も)。
     *   Matt がこれを行うことができますし、[wordpress.org/news/](https://wordpress.org/news/) の管理者または編集者のアクセス権を持っている人なら誰でも行うことができます。

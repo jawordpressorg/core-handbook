@@ -2,7 +2,7 @@
 # Keeping up with Gutenberg: Index 2023
 -->
 
-# Gutenberg をキャッチアップする: インデックス 2023
+# Gutenberg をキャッチアップする: インデックス2023
 
 <!--
 **Previous years: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)** | **[2022](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2022/)****
@@ -30,7 +30,7 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 📙 [WordPress **6.2** Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 WordPress 6.3 Dev Notes | [WordPress **6.3** Release Cycle](https://make.wordpress.org/core/6.3/) | [**6.4** Release Cycle](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
 -->
 
-📙 [WordPress **6.2** 開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 WordPress 6.3 開発者ノート | [WordPress **6.3** リリースサイクル](https://make.wordpress.org/core/6.3/) | [**6.4** リリースサイクル](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
+📙 [WordPress **6.2** 開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 WordPress 6.3開発者ノート | [WordPress **6.3** リリースサイクル](https://make.wordpress.org/core/6.3/) | [**6.4** リリースサイクル](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
 
 * * *
 

@@ -8,7 +8,7 @@
 WordPress aims to support new versions of PHP on the day they are released as much as possible. As a project, the process of supporting these new versions begins after each new PHP version has hit feature freeze and are tagging beta versions. This prevents having to revert or make additional changes to WordPress if a planned feature is removed or the implementation changes.
 -->
 
-WordPress は PHP の新しいバージョンがリリースされた当日に可能なかぎりサポートすることを目指しています。プロジェクトとして、これらの新しいバージョンをサポートするプロセスは、それぞれの新しい PHP バージョンが機能フリーズを迎え、ベータ版にタグ付けされたあとに開始されます。これにより、計画した機能が削除されたり実装が変更されたりしても、WordPress を元に戻したり追加の機能を加える必要がなくなります。
+WordPress は PHP の新しいバージョンがリリースされた当日に可能な限りサポートすることを目指しています。プロジェクトとして、これらの新しいバージョンをサポートするプロセスは、それぞれの新しい PHP バージョンが機能フリーズを迎え、ベータ版にタグ付けされたあとに開始されます。これにより、計画した機能が削除されたり実装が変更されたりしても、WordPress を元に戻したり追加の機能を加える必要がなくなります。
 
 <!--
 Past changes to supported PHP versions have been as followed:
@@ -47,18 +47,18 @@ Past changes to supported PHP versions have been as followed:
 *   WordPress 5.0: PHP 7.3をサポート ([dev note](https://make.wordpress.org/core/2018/10/15/wordpress-and-php-7-3/))。
 *   WordPress 5.2: PHP 5.2、5.3、5.4、5.5を[サポート廃止](https://core.trac.wordpress.org/ticket/46594)。
 *   WordPress 5.3: PHP 7.4をサポート ([dev note](https://make.wordpress.org/core/2019/10/11/wordpress-and-php-7-4/))。
-*   WordPress 5.6: PHP 8.0を「ベータサポート」 ([dev note](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/))。
-*   WordPress 5.9: PHP 8.1を「ベータサポート」 ([dev note](https://make.wordpress.org/core/2022/01/10/wordpress-5-9-and-php-8-0-8-1/))。
-*   WordPress 6.1: PHP 8.2を「ベータサポート」 (dev note は保留中)。
+*   WordPress 5.6: PHP 8.0を「ベータサポート」([dev note](https://make.wordpress.org/core/2020/11/23/wordpress-and-php-8-0/))。
+*   WordPress 5.9: PHP 8.1を「ベータサポート」([dev note](https://make.wordpress.org/core/2022/01/10/wordpress-5-9-and-php-8-0-8-1/))。
+*   WordPress 6.1: PHP 8.2を「ベータサポート」(dev note は保留中)。
 *   WordPress 6.3:
     *   [PHP 5.6をサポート廃止](https://make.wordpress.org/core/2023/07/05/dropping-support-for-php-5/).
-    *   例外を除き、PHP 8.0 と互換性のあるレベルに引き上げました (dev note は保留中)。
+    *   例外を除き、PHP 8.0と互換性のあるレベルに引き上げました (dev note は保留中)。
         *   例外:
             *   名前付きパラメータ。WordPress は名前付きパラメータをサポートしていません。
             *   [接続に失敗したときのファイルシステムである `WP_Filesystem_FTPext` と `WP_Filesystem_SSH2`](https://core.trac.wordpress.org/ticket/48689)。
-    *   例外を除き、PHP 8.1 と互換性のあるレベルに引き上げました (dev note は保留中)。
+    *   例外を除き、PHP 8.1と互換性のあるレベルに引き上げました (dev note は保留中)。
         *   例外:
-            *   [`htmlentities()`などは flags パラメータのデフォルト値を明示的に設定する必要があります](https://core.trac.wordpress.org/ticket/53465)。
+            *   [`htmlentities()` などは flags パラメータのデフォルト値を明示的に設定する必要があります](https://core.trac.wordpress.org/ticket/53465)。
             *   [ほとんどの `strip_tags()` を `wp_strip_tags()` に置き換える](https://core.trac.wordpress.org/ticket/57579)
             *   [不明な設定のための `unregister_setting()`](https://core.trac.wordpress.org/ticket/57674)。
 

@@ -68,7 +68,7 @@ Download and install a local development environment on your machine. You have a
 -->
 
 *   推奨される方法は、WordPress 開発専用に調整された Vagrant 構成である [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org) と呼ばれるソフトウェアを使うことです。[VVV のインストール方法](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/)を参考にしてください。
-*   PHP、MySQL/MariaDB、SSH アクセスが可能な Web サーバーを含む環境がすでにあり、そのシステムで作業することを好む場合、他の環境を使用することはまったく問題ありません。[DesktopServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)、[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/)などが有名です。ただし、いずれも WordPress コアの開発用には最適化されていないので、その場合はもう少し下準備を行う必要があります。
+*   PHP、MySQL/MariaDB、SSH アクセスが可能な Web サーバーを含む環境がすでにあり、そのシステムで作業することを好む場合、他の環境を使用することはまったく問題ありません。[DesktopServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)、[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/)などが有名です。ただし、いずれも WordPress コアの開発用には最適化されていないので、その場合はもう少し下準備する必要があります。
 
 <!--
 ### Setting up a version control system
@@ -80,15 +80,15 @@ Download and install a local development environment on your machine. You have a
 Install a version control system to use for WordPress core. Here you have two options:
 -->
 
-WordPress コアに使用するバージョン管理システムをインストールします。 ここには2つの選択肢があります:
+WordPress コアに使用するバージョン管理システムをインストールします。ここには2つの選択肢があります:
 
 <!--
 *   WordPress core by default uses Subversion (or SVN) for version control, which works relatively similar to Git, but is a little older. While most people prefer working with Git, the SVN commands you typically use when developing for WordPress core are trivial and almost the same as their Git counterparts. VVV already has SVN pre-installed. If you are using another environment or prefer to also use SVN directly on your computer, there is a [handbook tutorial guiding you through the process](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/).
 *   Alternatively, you can install Git from the [Git project website](https://git-scm.com/). On many environments, for example VVV, you will already find it pre-installed. If you prefer using a visual UI in addition, feel free to use a client app such as [Sourcetree](https://www.atlassian.com/software/sourcetree), or [GitHub Desktop](https://desktop.github.com/) (which works particularly well when used together with GitHub).
 -->
 
-*   WordPress コアは、デフォルトでバージョン管理に Subversion (またはSVN) を使用します。これは Git と比較的似た動作をしますが、少し古いものです。ほとんどの人は Git で作業することを好みますが、WordPress コアの開発時に通常使う SVN コマンドは簡単なもので、Git とほとんど同じです。VVV にはすでに SVN がプリインストールされています。他の環境を使用している場合や、コンピューター上で直接 SVN を使用したい場合は、[手順をガイドするハンドブックチュートリアル](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)を参照してください。
-*   あるいは、[Git プロジェクトのWeb サイト](https://git-scm.com/)から Git をインストールすることもできます。VVV などの多くの環境では、すでにプリインストールされています。さらにビジュアルな UI を使いたい場合は、[Sourcetree](https://www.atlassian.com/software/sourcetree) や [GitHub Desktop](https://desktop.github.com/) (GitHub と一緒に使うと特に効果的です) のようなクライアントアプリを自由に使ってください。
+*   WordPress コアは、デフォルトでバージョン管理に Subversion (または SVN) を使用します。これは Git と比較的似た動作をしますが、少し古いものです。ほとんどの人は Git で作業することを好みますが、WordPress コアの開発時に通常使う SVN コマンドは簡単なもので、Git とほとんど同じです。VVV にはすでに SVN がプリインストールされています。他の環境を使用している場合や、コンピューター上で直接 SVN を使用したい場合は、[手順をガイドするハンドブックチュートリアル](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)を参照してください。
+*   あるいは、[Git プロジェクトのWeb サイト](https://git-scm.com/)から Git をインストールできます。VVV などの多くの環境では、すでにプリインストールされています。さらにビジュアルな UI を使いたい場合は、[Sourcetree](https://www.atlassian.com/software/sourcetree) や [GitHub Desktop](https://desktop.github.com/) (GitHub と一緒に使うと特に効果的です) のようなクライアントアプリを自由に使ってください。
 
 <!--
 ### Setting up a WordPress development repository

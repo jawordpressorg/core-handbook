@@ -1,6 +1,6 @@
 # PHP Coding Standards
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)  
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)
 Please do *not* edit this page, use *edit* on the new page.
 
 Some parts of the WordPress code structure for PHP markup are inconsistent in their style. WordPress is working to gradually improve this by helping users maintain a consistent style so the code can become clean and easy to read at a glance.
@@ -47,7 +47,7 @@ $args = array(
 [tab]'post_author' => 123,
 [tab]'post_status' => 'publish',
 );
- 
+
 $query = new WP_Query( $args );
 ```
 
@@ -101,14 +101,14 @@ Braces should always be used, even when they are not required:
 if ( condition ) {
     action0();
 }
- 
+
 if ( condition ) {
     action1();
 } elseif ( condition2 ) {
     action2a();
     action2b();
 }
- 
+
 foreach ( $items as $item ) {
     process_item( $item );
 }
@@ -170,7 +170,7 @@ $baz = sprintf(
     esc_html__( 'Hello, %s!', 'yourtextdomain' ),
     $friend_name
 );
- 
+
 $a = foo(
     $bar,
     $baz,
@@ -324,7 +324,7 @@ Unless otherwise specified, parentheses should have spaces inside of them.
 
 ```php
 if ( $foo && ( $bar || $baz ) ) { ...
- 
+
 my_function( ( $x - 1 ) * 5, $y );
 ```
 
@@ -339,7 +339,7 @@ Functions that update the database should expect their parameters to lack SQL sl
 ```php
 $var = "dangerous'"; // raw data that may or may not need to be escaped
 $id = some_foo_number(); // data we expect to be an integer, but we're not certain
- 
+
 $wpdb->query( $wpdb->prepare( "UPDATE $wpdb->posts SET post_title = %s WHERE ID = %d", $var, $id ) );
 ```
 
@@ -565,7 +565,7 @@ While this operator does exist in Core, it is often used lazily instead of doing
 Per [#22400](https://core.trac.wordpress.org/ticket/22400 "Remove all, or at least most, uses of extract() within WordPress"):
 
 > `extract()` is a terrible function that makes code harder to debug and harder to understand. We should discourage it’s \[sic\] use and remove all of our uses of it.
-> 
+>
 > Joseph Scott has [a good write-up of why it’s bad](https://blog.josephscott.org/archives/2009/02/i-dont-like-phps-extract-function/).
 
 ## Credits
