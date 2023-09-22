@@ -19,14 +19,14 @@
 **1. Set up your install.** Follow one of the guides to setup your local install [https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/).
 -->
 
-**1. インストールを設定する。** このガイドに従って、ローカル環境へインストールします。
+**1. インストールを設定する:** このガイドに従って、ローカル環境へインストールします。
 [https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/)
 
 <!--
 **2. Install WordPress via SVN** Install WordPress via SVN or Git [https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/).
 -->
 
-**2. SVN 経由で WordPress をインストールする** SVN か Git で WordPress をインストールします。
+**2. SVN 経由で WordPress をインストールする:** SVN か Git で WordPress をインストールします。
 [https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 
 <!--
