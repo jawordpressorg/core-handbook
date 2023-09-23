@@ -1,8 +1,17 @@
+<!--
 # CSS Coding Standards
+-->
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/)  
+# CSS コーディング規約
+
+<!--
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/css/)
 Please do *not* edit this page, use *edit* on the new page.
+-->
 
+注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/css/)に移動されました。
+
+<!--
 Like any coding standard, the purpose of the WordPress CSS Coding Standards is to create a baseline for collaboration and review within various aspects of the WordPress open source project and community, from core code to themes to plugins. Files within a project should appear as though created by a single entity. Above all else, create code that is readable, meaningful, consistent, and beautiful.
 
 Within core stylesheets, inconsistencies will often be found. We are working on addressing these and make every effort to have patches and commits from this point forward follow the CSS coding standards. More information on the above and contributing to UI/front-end development will be forthcoming in a separate set of guidelines.
@@ -116,7 +125,7 @@ Incorrect:
 ### Property Ordering
 
 > Group like properties together, especially if you have a lot of them.
-> 
+>
 > – Nacin
 
 Above all else, choose something that is meaningful to you and semantic in some way. Random ordering is chaos, not poetry. In WordPress Core, our choice is logical or grouped ordering, wherein properties are grouped by meaning and ordered specifically within those groups. The properties within groups are also strategically ordered to create transitions between sections, such as background directly before color. The baseline for ordering is:
@@ -298,3 +307,4 @@ Stylesheets tend to get long in length. Focus slowly gets lost whilst intended g
 ## Related Links
 
 *   Principles of writing consistent, idiomatic CSS: [https://github.com/necolas/idiomatic-css](https://github.com/necolas/idiomatic-css)
+-->

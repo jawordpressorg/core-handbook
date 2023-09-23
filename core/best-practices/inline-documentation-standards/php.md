@@ -1,8 +1,17 @@
+<!--
 # PHP Documentation Standards
+-->
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/inline-documentation-standards/php/)  
+# PHP ドキュメント規約
+
+<!--
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/inline-documentation-standards/php/)
 Please do *not* edit this page, use *edit* on the new page.
+-->
 
+注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/)に移動されました。
+
+<!--
 WordPress uses a customized documentation schema that draws inspiration from PHPDoc, an evolving standard for providing documentation to PHP code, which is maintained by [phpDocumentor](http://phpdoc.org/).
 
 In some special cases – such as WordPress’ implementation of hash notations – standards are derived from the [draft PSR-5 recommendations](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md). This does not mean we are attempting to be “PSR-5 compliant” at this time, it simply means that we’ve adopted PSR-5 recommendations *in part*.
@@ -65,7 +74,7 @@ Anything ported over from WPMU should use `@since MU (3.0.0)`. Existing `@since 
 
 ### Formatting Guidelines
 
-Note:  
+Note:
 WordPress’ inline documentation standards for PHP are specifically tailored for optimum output on the [official Code Reference](https://developer.wordpress.org/reference/). As such, following the standards in core and formatting as described below are *extremely* important to ensure expected output.
 
 #### General
@@ -600,7 +609,7 @@ Note: Even with help generating DocBlocks, most code editors don’t do a very t
 ### Deprecated Tags
 
 > **Preface:** For the time being, and for the sake of consistency, WordPress Core will continue to use `@subpackage` tags – both when writing new DocBlocks, and editing old ones.
-> 
+>
 > Only when the new – external – PSR-5 recommendations are finalized, will across-the-board changes be considered, such as deprecating certain tags.
 
 As proposed in the [new PSR-5](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md) recommendations, the following PHPDoc tag should be deprecated:
@@ -631,3 +640,4 @@ The `@copyright` and `@license` tags are used in external libraries and scripts,
 *   [phpDocumentor](http://www.phpdoc.org/)
 *   [phpDocumentor Tutorial Tags](http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.pkg.html)
 *   [Draft PSR-5 recommendations](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md)
+-->

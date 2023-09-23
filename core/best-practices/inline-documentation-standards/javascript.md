@@ -1,8 +1,17 @@
+<!--
 # JavaScript Documentation Standards
+-->
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/)  
+# JavaScript ドキュメント規約
+
+<!--
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/inline-documentation-standards/javascript/)
 Please do *not* edit this page, use *edit* on the new page.
+-->
 
+注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/javascript/)に移動されました。
+
+<!--
 WordPress follows the [JSDoc 3 standard](http://usejsdoc.org/) for inline JavaScript documentation.
 
 ## What Should Be Documented
@@ -461,3 +470,4 @@ WordPress uses JSHint for general code quality testing. Any inline configuration
 | [@prop](https://profiles.wordpress.org/prop/) | An unsupported synonym. Use property instead. |
 | [@returns](https://profiles.wordpress.org/returns/) | An unsupported synonym. Use return instead. |
 | [@exception](https://profiles.wordpress.org/exception/) | An unsupported synonym. Use [@throws](https://profiles.wordpress.org/throws/) instead. |
+-->
