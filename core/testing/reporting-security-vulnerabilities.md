@@ -57,7 +57,7 @@ If you are running security tests against WordPress, use a lesser privileged use
 
 In WordPress Multisite, only Super Admins can publish unfiltered HTML, as all other users (including site Administrators) are considered untrusted.
 
-To disable unfiltered HTML for all users, including administrators, you can add `define( 'DISALLOW_UNFILTERED_HTML', true );` to `wp-config.php`.
+To disable unfiltered HTML for all users, including administrators, you can add `define( 'DISALLOW_UNFILTERED_HTML', true );` to `wp-config.php`.
 
 ## Why are disclosures of usernames or user IDs not a security issue?
 
