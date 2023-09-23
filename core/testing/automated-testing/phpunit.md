@@ -582,7 +582,7 @@ Additionally, you can `npm run grunt phpunit` and run PHPUnit tests, including t
 Rather than having to switch to a terminal and manually run a test group repeatedly while working on a patch, you can keep it running continuously. Whenever you save any file, the group will run again automatically. This lets you instantly know when a change you’ve made breaks a test, or causes it to pass.
 -->
 
-パッチの作業中にターミナルに切り替えて主導でテストグループを繰り返し実行するのではなく、継続的に実行し続けることができます。ファイルを保存するたびに、テストグループは自動的に再実行されます。これにより、ある変更によってテストが壊れたり合格したりしたことをすぐに知ることができます。
+パッチの作業中にターミナルに切り替えて手動でテストグループを繰り返し実行するのではなく、継続的に実行し続けることができます。ファイルを保存するたびに、テストグループは自動的に再実行されます。これにより、ある変更によってテストが壊れたり合格したりしたことをすぐに知ることができます。
 
 <!--
 To run PHPUnit tests *and* all other watch tasks, use:
