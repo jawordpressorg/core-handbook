@@ -16,8 +16,6 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 
 このページは、Core、Core-Editor、Core-js、Core-css、Design、Meta、Themes の Gutenberg 関連チームの投稿を、ブックマークできるようにするためのものです。時系列順で掲載されており、トピックスではありません。最新のものから並んでいます。
 
-📙 [WordPress **6.2** Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 [WordPress 6.3 Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.3) | WordPress [**6.4** Release Cycle](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
-
 <!--
 *   See *[Explanations](https://make.wordpress.org/core/wp-admin/post.php?post=101683&action=edit#explanations)* on the bottom.
 *   Discussions are in the **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack channel and development happens in the [Gutenberg GitHub repository](https://github.com/WordPress/gutenberg/issues)
@@ -29,10 +27,10 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 *   [WordPress コアにおける Gutenberg のバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 
 <!--
-📙 [WordPress **6.2** Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 WordPress 6.3 Dev Notes | [WordPress **6.3** Release Cycle](https://make.wordpress.org/core/6.3/) | [**6.4** Release Cycle](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
+📙 [WordPress **6.2** Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 [WordPress 6.3 Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.3) | WordPress [**6.4** Release Cycle](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
 -->
 
-📙 [WordPress **6.2** 開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 WordPress 6.3開発者ノート | [WordPress **6.3** リリースサイクル](https://make.wordpress.org/core/6.3/) | [**6.4** リリースサイクル](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
+📙 [WordPress **6.2** 開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 [WordPress 6.3開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.3) | WordPress [**6.4** リリースサイクル](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
 
 * * *
 

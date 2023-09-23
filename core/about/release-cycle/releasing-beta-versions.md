@@ -88,8 +88,6 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   For RC releases, note the `dev-feedback` and `dev-reviewed` workflow is required prior to committing, where each commit must get double-signoff.
         
         *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
-        
-        *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
 
 *   Write a message in the [#props](https://wordpress.slack.com/messages/C0FRG66LR) channel thanking and giving props to everyone who tested or otherwise helped with the beta release process
     *   Example: Props to @mention, @mention2, …, @mentionN for helping test today’s 5.8 Beta 1 release!
