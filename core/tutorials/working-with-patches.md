@@ -44,7 +44,7 @@ Many developers prefer to work with Subversion (SVN) using the [command line int
 For command line users, there are programs such as [Cygwin](http://cygwin.com/) (Windows), [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) (Mac), and [Bash](http://www.gnu.org/software/bash/) (Mac).
 -->
 
-コマンドラインユーザーには、[Cygwin](http://cygwin.com/) (Windows)、[Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) (Mac)、[Bash](http://www.gnu.org/software/bash/) (Mac) などのプログラムがあります。
+コマンドラインユーザーのために、[Cygwin](http://cygwin.com/) (Windows)、[Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) (Mac)、[Bash](http://www.gnu.org/software/bash/) (Mac) などのプログラムがあります。
 
 <!--
 If you prefer to use a GUI application, the recommended SVN clients are [TortoiseSVN](http://tortoisesvn.net/) (Windows, free/open-source), and [Cornerstone](http://www.zennaware.com/cornerstone/) (Mac, purchase).
@@ -300,7 +300,7 @@ To apply the patch you just downloaded, **right-click in the folder** for your w
 This will bring up a file open dialog window, allowing you to select the patch file to apply. By default, only **.patch** or **.diff** files are shown, but you can change the file type to **All files** if you don’t see the patch file you are looking for.
 -->
 
-ファイルを開くダイアログウィンドウが表示され、適用するパッチファイルを選択できます。デフォルトでは、**.patch** または **.diff** ファイルだけが表示されますが、探しているパッチファイルが見つからない場合は、ファイルタイプを **すべてのファイル** に変更することができます。
+ファイルを開くダイアログウィンドウが表示され、適用するパッチファイルを選択できます。デフォルトでは、**.patch** または **.diff** ファイルだけが表示されますが、探しているパッチファイルが見つからない場合は、ファイルタイプを **すべてのファイル** に変更できます。
 
 <!--
 ![TortoiseSVN Select Local File Screen](https://make.wordpress.org/core/files/2013/03/tortoisesvn-apply-patch-select-local-file.png)
