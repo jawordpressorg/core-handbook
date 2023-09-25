@@ -348,7 +348,7 @@ If issues seem critical to the release but nobody is picking them up, alert the 
 **Review [the release roadmap post](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/) and recent Gutenberg [“What’s New”](https://make.wordpress.org/core/tag/gutenberg-new/) release posts to determine essential features.**
 -->
 
-**[リリースロードマップの投稿](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)と最近の[「What's New](https://make.wordpress.org/core/tag/gutenberg-new/)**リリース投稿をレビューし、重要な機能を決定します**。
+**[リリースロードマップの投稿](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)と最近の[「What's New](https://make.wordpress.org/core/tag/gutenberg-new/)リリース投稿をレビューし、重要な機能を決定します**。
 
 <!--
 The release roadmap post lists the features considered a top priority for each release. Special attention should be given to these to ensure they land in Core in a timely and stable manner.
