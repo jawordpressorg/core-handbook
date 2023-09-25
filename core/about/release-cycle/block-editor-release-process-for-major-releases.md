@@ -42,7 +42,7 @@ WordPress の各メジャーバージョンのエディターリリースプロ�
 Here’s a list of the significant time-critical tasks, sorted by when they should be completed. More details about each task are available later in this document.
 -->
 
-これは時間が重要な重要なタスクで、いつ完了する必要があるかを順に並べたリストです。各タスクの詳細については、このドキュメントの後半で説明します。
+これは時間が重要なタスクで、いつ完了する必要があるかを順に並べたリストです。各タスクの詳細については、このドキュメントの後半で説明します。
 
 <!--
 **Two months before Beta 1**
@@ -150,7 +150,7 @@ If a contributor wants to include a new Editor feature in the major release, it 
 A Roadmap post identifies the features, enhancements, and bug fixes slated for the current major release ([example from 6.3](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)). The creation of this resource is a collaborative effort between release leads and contributors.
 -->
 
-ロードマップの投稿は、現在のメジャーリリース ([6.3の例](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)) で予定されている機能、拡張、バグ修正を特定します。このリソースの作成は、リリースリーダーと貢献者による共同作業です。
+ロードマップの投稿は、現在のメジャーリリース ([6.3の例](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)) で予定されている機能、拡張、バグ修正を特定します。このリソースの作成は、リリースリードと貢献者による共同作業です。
 
 <!--
 You should become familiar with this post if you are an Editor Tech or Triage lead. It’s an excellent resource for knowing what should be included in the release. It’s also invaluable for determining which reported issues are related to the release and which need to be added to the project board. More on that below. 
@@ -227,8 +227,8 @@ The template will contain the following columns:
 *   Needs Review - 「In Progress」カラムの issue に関連するプルリクエストで、まだマージされておらず、レビューが必要なものが含まれます。
 *   Needs Core Commit - エディターテックリードが、追加のコアコミットが必要であると決定したプルリクエストが含まれます。
 *   Done - 完了した issue とプルリクエストが含まれます。
-*   Punted to 6.X.1 - チームが次のマイナーリリースに移行すべきと判断した issue とプルリクエストが含まれます。
-*   Punted to 6.Y - チームが次のメジャーリリースに持ち越すべきだと判断した issue やプルリクエストが含まれます。
+*   Punted to 6.X.1 - チームが次のマイナーリリースに持ち越すべきと判断した issue とプルリクエストが含まれます。
+*   Punted to 6.Y - チームが次のメジャーリリースに持ち越すべきと判断した issue やプルリクエストが含まれます。
 
 <!--
 After you have created the project board, make sure to review the project board from the prior release and migrate over all punted issues and PRs. Remove each from the old project board once you have moved everything over.
@@ -271,16 +271,16 @@ Since the project board will be a place that meetings reference and people bookm
 -->
 
 *   リリースリードや Gutenberg トリアージチームのメンバーは、定期的に新しい [Gutenberg の issue](https://github.com/WordPress/gutenberg/issues) を確認し、現在のリリースに関連するものを「トリアージ」カラムのプロジェクトに追加してください。
-*   「Todo」カラムの項目を優先度順にソートしてください。より多くの人に見てもらえるよう、優先度の高い項目を一番上に置いてください。`Regression` ラベルの付いた課題は常に一番上に来るようにします。
-*   issue にプルリクエストが関連付けられたら、その issue を「In Progres」カラムに移動し、プルリクエストを「In Review」カラムに追加してください。
+*   「Todo」カラムの項目を優先度順にソートしてください。より多くの人に見てもらえるよう、優先度の高い項目を一番上に置いてください。`Regression` ラベルの付いた issue は常に一番上に来るようにします。
+*   issue にプルリクエストが関連付けられたら、その issue を「In Progress」カラムに移動し、プルリクエストを「In Review」カラムに追加してください。
 *   ボード上の issue に関連付けられているプルリクエストもプロジェクトボードに追加する必要があります。
-*   すべての課題とプルリクエストに適切なラベルが付けられていることを確認してください。
+*   すべての issue とプルリクエストに適切なラベルが付けられていることを確認してください。
 
 <!--
 Share the link to the project board regularly in the Editor Weekly Chat meetings and the [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) Slack channel as helpful. This will get people in the habit of checking the project board and for them to share it in turn. You can also encourage contributors with permission to add issues they think are important to the “Triage” column. The Editor Triage leads will handle it from there. 
 -->
 
-エディターウィークリーチャットミーティングや [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) Slack チャンネルで、プロジェクトボードへのリンクを定期的に共有します。これにより、人々はプロジェクトボードをチェックし、共有する習慣が身に付きます。また、許可を得て貢献者に、重要だと思う課題を「トリアージ」カラムに追加するよう促すこともできます。そこから先はエディタートリアージリードが対応します。
+エディターウィークリーチャットミーティングや [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) Slack チャンネルで、プロジェクトボードへのリンクを定期的に共有します。これにより、人々はプロジェクトボードをチェックし、共有する習慣が身に付きます。また、許可を得て貢献者に、重要だと思う issue を「トリアージ」カラムに追加するよう促すこともできます。そこから先はエディタートリアージリードが対応します。
 
 <!--
 ### Running asynchronous triage sessions
@@ -348,7 +348,7 @@ If issues seem critical to the release but nobody is picking them up, alert the 
 **Review [the release roadmap post](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/) and recent Gutenberg [“What’s New”](https://make.wordpress.org/core/tag/gutenberg-new/) release posts to determine essential features.**
 -->
 
-**[リリースロードマップの投稿](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)と最近の** [**「What's New」**](https://make.wordpress.org/core/tag/gutenberg-new/) **リリース投稿をレビューし、重要な機能を決定します**。
+**[リリースロードマップの投稿](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)と最近の[「What's New](https://make.wordpress.org/core/tag/gutenberg-new/)**リリース投稿をレビューし、重要な機能を決定します**。
 
 <!--
 The release roadmap post lists the features considered a top priority for each release. Special attention should be given to these to ensure they land in Core in a timely and stable manner.
