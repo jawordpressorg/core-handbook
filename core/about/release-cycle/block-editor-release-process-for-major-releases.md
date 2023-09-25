@@ -348,7 +348,7 @@ If issues seem critical to the release but nobody is picking them up, alert the 
 **Review [the release roadmap post](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/) and recent Gutenberg [“What’s New”](https://make.wordpress.org/core/tag/gutenberg-new/) release posts to determine essential features.**
 -->
 
-**[リリースロードマップの投稿](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)と最近の[「What's New](https://make.wordpress.org/core/tag/gutenberg-new/)リリース投稿をレビューし、重要な機能を決定します**。
+**[リリースロードマップの投稿](https://make.wordpress.org/core/2023/05/18/roadmap-to-6-3/)と最近の[「What's New」](https://make.wordpress.org/core/tag/gutenberg-new/)リリース投稿をレビューし、重要な機能を決定します**。
 
 <!--
 The release roadmap post lists the features considered a top priority for each release. Special attention should be given to these to ensure they land in Core in a timely and stable manner.
@@ -470,7 +470,7 @@ Generally speaking, the process is as follows:
 
 *   以下のスクリプトを使って実験的 API を精査する
 *   [git blame を使って](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/tracking-changes-in-a-file)各 API に誰が関わったかを特定する
-*   各実験的 API を追跡するために、GitHub で概要の issue を作成し、API を安定化させる必要があるかどうかを決定するために関係者に通知する ([6.2 の例](https://github.com/WordPress/gutenberg/issues/47196))。
+*   各実験的 API を追跡するために、GitHub で概要の issue を作成し、API を安定化させる必要があるかどうかを決定するために関係者に通知する ([6.2の例](https://github.com/WordPress/gutenberg/issues/47196))。
 
 <!--
 To get started, here’s a script to use to begin auditing the experimental APIs:
@@ -567,7 +567,7 @@ Because months pass between Core releases, it’s important to regularly check i
 Outside of reviewing unlabeled issues, it’s important to review all reported issues since a major release occurred to spot any critical issues that need to be resolved. While this is primarily the job of the Editor Triage Leads, this is a great task to divide up among other contributors. 
 -->
 
-ラベルのない issue のレビューすること以外では、解決すべき重要な issue を見つけるために、メジャーリリース以降に報告されたすべての issue を時間をかけてレビューすることが重要です。これは主にエディタートリアージリードの仕事ですが、他の貢献者に分担させることもできるすばらしいタスクです。
+ラベルのない issue をレビューすること以外では、解決すべき重要な issue を見つけるために、メジャーリリース以降に報告されたすべての issue を時間をかけてレビューすることが重要です。これは主にエディタートリアージリードの仕事ですが、他の貢献者に分担させることもできるすばらしいタスクです。
 
 <!--
 ### Determining how critical a bug is
@@ -693,7 +693,7 @@ Outside of looking for issues that need to be added to the project board, it’s
 Once PRs on the project board are completed, they must be backported into the Core to be available on the next Beta or RC version. Follow this process:
 -->
 
-プロジェクトボード上のプルリクエストが完了したら、次のベータ版または RC 版で利用できるように、コアにバックポートする必要があります。次プロセスに従ってください:
+プロジェクトボード上のプルリクエストが完了したら、次のベータ版または RC 版で利用できるように、コアにバックポートする必要があります。次の手順に従ってください:
 
 <!--
 *   If a `wp/x.x` (use the correct WordPress release number) has yet to be created, create it and push it to the remote repository.
@@ -753,7 +753,7 @@ Once PRs on the project board are completed, they must be backported into the Co
 -->
 
 *   npm パッケージが公開されると、自動化スクリプトを使用して `wp-develop` リポジトリで更新できます: `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>`。新しくリリースされた `@wordpress` パッケージと同じ dist-tag を使用することを忘れないでください。たとえば、`wp-6.2` はメジャーバージョン6.2です。
-*   次に、`wordpress-develop`` フォルダーで `npm run postsync-gutenberg-packages` を実行します。新しい Gutenberg ブロックがコアに含まれ、必要なビルドが実行されます。
+*   次に、`wordpress-develop` フォルダーで `npm run postsync-gutenberg-packages` を実行します。新しい Gutenberg ブロックがコアに含まれ、必要なビルドが実行されます。
 *   動的ブロックに新しいフロントエンドスクリプトが追加された場合は、[webpack block config](https://github.com/WordPress/wordpress-develop/blob/trunk/tools/webpack/blocks.js#L67) の参照に手動で追加する必要があります。
 *   sync タスクと postsync タスクの両方を実行した後、PHP ファイルや block.json ファイルに変更があったブロックについて正しいファイルが更新されたこと、および新規ブロックについてファイルが生成されたことを確認します。
 *   ローカルの WordPress 開発環境で、解決されるはずの問題が実際に解決されていることを確認します。
