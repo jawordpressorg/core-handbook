@@ -221,7 +221,7 @@ The template will contain the following columns:
 * In Discussion / Needs Decision - リリースに向けてチームが検討するためにさらに時間が必要な issue やプルリクエストが含まれます。結論が出ない理由としては、次のようなことが考えられます。
     *   問題は重大であるが、再現できなかったため、問題が発生する具体的な条件を理解するために、より多くの情報を待つ必要がある。
     *   その問題がリグレッションなのかそうでないのか、あるいはバグなのか期待された動作なのかを明確にする必要がある
-    *   その問題は複雑なテスト設定を必要とし、そのれを再現には時間がかかる。この場合、issue を見付けた時点で、それをテストするために何をしなければならないかをコメントとして書くべきです。こうすることで、他の人がテストを手伝いやすくなります。必要であれば、「needs-testing」ラベルも追加する必要があるかもしれません。issue をテストし問題を確認できたら、「Todo」列に移動してください。
+    *   その問題は複雑なテスト設定を必要とし、その再現には時間がかかる。この場合、issue を見付けた時点で、それをテストするために何をしなければならないかをコメントとして書くべきです。こうすることで、他の人がテストを手伝いやすくなります。必要であれば、「needs-testing」ラベルも追加する必要があるかもしれません。issue をテストし問題を確認できたら、「Todo」列に移動してください。
 *   Todo - チームがリリースまでに修正する必要があると判断したものの、プルリクエストが関連付けられていない issue が含まれます。
 *   In Progress - チームがリリースまでに修正する必要があると判断し、プルリクエストが関連付けられている issue が含まれます。
 *   Needs Review - 「In Progress」カラムの issue に関連するプルリクエストで、まだマージされておらず、レビューが必要なものが含まれます。
@@ -260,7 +260,7 @@ Note that “punting” is a sports metaphor from [American football](https://en
 Since the project board will be a place that meetings reference and people bookmark, it’s important to take steps to keep it current and useful for others. The following actions are recommended and can be divided up:
 -->
 
-プロジェクトボードは、ミーティングで参照され人々がブックマークする場所となるため、情報を最新の状態に保ち、他の人にとって役立つようにすることが重要です。以下のアクションが推奨され、分割できます:
+プロジェクトボードは、ミーティングで参照され人々がブックマークする場所となるため、情報を最新の状態に保ち、他の人にとって役立つようにすることが重要です。以下のアクションが推奨されます。分割することも可能です:
 
 <!--
 *   The release leads, and members of the Gutenberg Triage Team should regularly review new [Gutenberg issues](https://github.com/WordPress/gutenberg/issues) and add those relevant to the current release to the project in the “Triage” column.
@@ -484,7 +484,7 @@ To get started, here’s a script to use to begin auditing the experimental APIs
 It can help to group related experimental APIs from the report and any information manually collected to get a sense of what’s currently in place. From there, use git blame to know which contributors were involved in each API to ping them and inquire if the API can be stabilized. You can then create a new overview issue in GitHub that lists out a checkbox for each API where you can easily see whether a decision has been made around stabilizing the API.
 -->
 
-レポートや手動で収集した情報から、関連する実験的な API をグループ化し、現在何があるのかを把握することに役立ちます。そこから git blame を使って、それぞれの API にどの貢献者が関わっているかを把握し、API を安定できるかどうかを確認します。そして GitHub に新しい概要の issue を作成し、各 API のチェックボックスをリストアップすれば、API の安定化に関する決定が行われたかどうかを簡単に確認できます。
+レポートや手動で収集した情報から、関連する実験的な API をグループ化し、現在何があるのかを把握できます。そこから git blame を使って、それぞれの API にどの貢献者が関わっているかを把握し、API を安定できるかどうかを確認します。そして GitHub に新しい概要の issue を作成し、各 API のチェックボックスをリストアップすれば、API の安定化に関する決定が行われたかどうかを簡単に確認できます。
 
 <!--
 ## Planning and writing dev notes
