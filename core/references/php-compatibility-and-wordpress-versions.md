@@ -131,7 +131,7 @@ Past changes to supported PHP versions have been as followed:
 | [3.7](https://wordpress.org/news/2013/10/basie/) | **Y** | **Y** | **Y** | **Y** | N | N | N | N | N | N | N | N | N |
 
 <!--
-**\* indicates “beta support”**
+**\* indicates “beta support”**  
 **e indicates “compatible with exceptions”**
 -->
 

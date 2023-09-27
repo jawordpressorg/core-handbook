@@ -27,14 +27,16 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 *   [WordPress コアにおける Gutenberg のバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 
 <!--
-📙 [WordPress **6.2** Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 WordPress 6.3 Dev Notes | [WordPress **6.3** Release Cycle](https://make.wordpress.org/core/6.3/) | [**6.4** Release Cycle](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
+📙 [WordPress **6.2** Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 [WordPress 6.3 Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.3) | WordPress [**6.4** Release Cycle](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
 -->
 
-📙 [WordPress **6.2** 開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 WordPress 6.3開発者ノート | [WordPress **6.3** リリースサイクル](https://make.wordpress.org/core/6.3/) | [**6.4** リリースサイクル](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
+📙 [WordPress **6.2** 開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 [WordPress 6.3開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.3) | WordPress [**6.4** リリースサイクル](https://make.wordpress.org/core/2023/06/05/wordpress-6-4-development-cycle/)
 
 * * *
 
 [January](#january)
+
+[February](#feb)
 
 2023-02-17 [#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/) [Block theme resources roundup](https://developer.wordpress.org/news/2023/02/block-theme-resources-roundup/) (r)
 
@@ -48,9 +50,109 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 
 [July](#jul)
 
+[August](#aug)
+
+**September 2023**
+
+2023-09-19 **[#fse-outreach-experiments](https://make.wordpress.org/core/tag/fse-outreach-experiments/)** [FSE Program Testing Call #26: Final touches](https://make.wordpress.org/test/2023/09/18/fse-program-testing-call-26-final-touches/) (u)
+
+2023-09-18 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Core Editor chat summary: 13th September 2023](https://make.wordpress.org/core/2023/09/18/core-editor-chat-summary-13th-september-2023/) (m)
+
+* * *
+
+2023-09-14 **[#core](https://make.wordpress.org/core/tag/core/)** [Hallway Hangout: What’s new for developers in WordPress 6.4](https://make.wordpress.org/core/2023/09/14/hallway-hangout-whats-new-for-developers-in-wordpress-6-4/) (u)
+
+2023-09-14 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [Understanding block attributes](https://developer.wordpress.org/news/2023/09/understanding-block-attributes/) (r)
+
+2023-09-13 **[#themereview](https://make.wordpress.org/core/tag/themereview/)** [Themes Team Meeting Notes – September 12, 2023](https://make.wordpress.org/themes/2023/09/13/themes-team-meeting-notes-september-12-2023/) (u)
+
+2023-09-12 **[#core](https://make.wordpress.org/core/tag/core/)** [Core Editor Improvement: Commanding the Command Palette](https://make.wordpress.org/core/2023/09/12/core-editor-improvement-commanding-the-command-palette/) (u\_
+
+2023-9-11 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Aug 28-Sep8](https://make.wordpress.org/design/2023/09/11/design-share-aug-28-sep8/) (u)
+
+2023-09-10 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [What’s new for developers? (September 2023)](https://developer.wordpress.org/news/2023/09/whats-new-for-developers-september-2023/) (r)
+
+* * *
+
+2023-09-08 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor Chat Summary: 06 September 2023](https://make.wordpress.org/core/2023/09/09/editor-chat-summary-06-september-2023/) (m)
+
+2023-09-07 **[#fse-outreach-experiements](https://make.wordpress.org/core/tag/fse-outreach-experiements/)** [Evolving the FSE Outreach Program](https://make.wordpress.org/core/2023/09/07/evolving-the-fse-outreach-program/) (u)
+
+2023-09-06 **[#core-themes](https://make.wordpress.org/core/tag/core-themes/)** [Default Theme chat summary: September 6, 2023](https://make.wordpress.org/core/2023/09/06/default-theme-chat-summary-august-30th-2023-2/) (m)
+
+2023-09-06 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 16.6? (06 September)](https://make.wordpress.org/core/2023/09/06/whats-new-in-gutenberg-16-6-06-september/) (m)
+
 **August 2023**
 
-2023-01-08 **[#core](https://make.wordpress.org/core/tag/core/)** [Proposal: improve the editor tech workflow for major releases](https://make.wordpress.org/core/2023/08/01/proposal-improve-the-editor-tech-workflow-for-major-releases/) (u)
+2023-08-31 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [Adding and using custom settings in theme.json](https://developer.wordpress.org/news/2023/08/adding-and-using-custom-settings-in-theme-json/) (r)
+
+2023-08-30 #**core-themes** [Default Theme chat summary: August 30th, 2023](https://make.wordpress.org/core/2023/08/30/default-theme-chat-summary-august-30th-2023/) (u)
+
+2023-08-30 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [Exploring the future of web development with WebAssembly and PHP](https://developer.wordpress.org/news/2023/08/exploring-the-future-of-web-development-with-webassembly-and-php/) (u)
+
+2023-08-30 **[#fse-outreach-experiments](https://make.wordpress.org/core/tag/fse-outreach-experiments/)** [FSE Program Let’s Start From The Beginning Summary](https://make.wordpress.org/test/2023/08/29/fse-program-lets-start-from-the-beginning-summary/) (u)
+
+2023-08-30 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: August 30th, 2023](https://make.wordpress.org/core/2023/08/30/editor-chat-summary-august-30th-2023/) (m)
+
+2023-08-29 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [An introduction to block variations](https://developer.wordpress.org/news/2023/08/an-introduction-to-block-variations/) (r)
+
+2023-08-28 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Aug 14-Aug 25](https://make.wordpress.org/design/2023/08/28/design-share-aug-14-aug-25/) (u)
+
+* * *
+
+2023-08-25 **[#core](https://make.wordpress.org/core/tag/core/)** [Introducing Twenty Twenty-Four](https://make.wordpress.org/core/2023/08/24/introducing-twenty-twenty-four/) (u)
+
+2023-08-23 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 16.5? (23 August)](https://make.wordpress.org/core/2023/08/23/whats-new-in-gutenberg-16-5-23-august/) (u)
+
+2023-08-23 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new for Navigation in WordPress 6.2 and 6.3](https://make.wordpress.org/core/2023/08/23/whats-new-for-navigation-in-wordpress-6-2-and-6-3/) (u)
+
+2023-08-22 **[#core](https://make.wordpress.org/core/tag/core/)** [Roadmap to 6.4](https://make.wordpress.org/core/2023/08/22/roadmap-to-6-4/) (u)
+
+2023-08-21 **[#accessibility](https://make.wordpress.org/core/tag/accessibility/)** [Hallway Hangout: Improving accessibility in the Site Editor](https://make.wordpress.org/core/2023/08/21/hallway-hangout-improving-accessibility-in-the-site-editor/) (r)
+
+2023-08-21 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: August 16th, 2023](https://make.wordpress.org/core/2023/08/21/editor-chat-summary-august-16th-2023/) (m)
+
+* * *
+
+2023-08-19 **[#core](https://make.wordpress.org/core/tag/core/)** [Progress Report: HTML API](https://make.wordpress.org/core/2023/08/19/progress-report-html-api/) (u)
+
+2023-08-18 **[#core](https://make.wordpress.org/core/tag/core/)** [Developer Hours: Introduction to the HTML API](https://make.wordpress.org/core/2023/08/18/developer-hours-introduction-to-the-html-api/) (u)
+
+2023-08-18 #**core-dev-blog** [Developer Blog editorial meeting summary: August 2, 2023](https://make.wordpress.org/core/2023/08/18/developer-blog-editorial-meeting-summary-august-2-2023/) (m)
+
+2023-08-17 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Hallway Hangout: Let’s explore the power of block variations](https://make.wordpress.org/core/2023/08/17/hallway-hangout-lets-explore-the-power-of-block-variations/) (u)
+
+2023-08-15 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Status update on the Interactivity API](https://make.wordpress.org/core/2023/08/15/status-update-on-the-interactivity-api/) (u)
+
+2023-08-14 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Jul 31-Aug 11](https://make.wordpress.org/design/2023/08/14/design-share-jul-31-aug-11/) (u)
+
+* * *
+
+2023-08-11 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: 9 August, 2023](https://make.wordpress.org/core/2023/08/11/editor-chat-summary-9-august-2023/) (m)
+
+2023-08-11 **[#meta](https://make.wordpress.org/core/tag/meta/)** [Introducing WordPress.org/blocks](https://make.wordpress.org/meta/2023/08/11/introducing-wordpress-org-blocks/) (u)
+
+2023-08-11 **[#themereview](https://make.wordpress.org/core/tag/themereview/)** [Blue Note: The second community theme is released](https://make.wordpress.org/themes/2023/08/11/blue-note-the-second-community-theme-is-released/)
+
+2023-08-10 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [What’s new for developers? (August 2023)](https://developer.wordpress.org/news/2023/08/whats-new-for-developers-august-2023/) (r)
+
+2023-08-10 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 16.4? (9 August)](https://make.wordpress.org/core/2023/08/10/whats-new-in-gutenberg-16-4-9-august/) (u)
+
+2023-08-10 **[#design](https://make.wordpress.org/core/tag/design/)** [Admin Design Kickoff](https://make.wordpress.org/design/2023/08/10/admin-design-kickoff/) (u)
+
+2023-08-08 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [Styling blocks: empowering users with CSS custom properties](https://developer.wordpress.org/news/2023/08/styling-blocks-empowering-users-with-css-custom-properties/) (r)
+
+2023-08-09 #**fse-outreach-experiments** [FSE Program Testing Call #25: Let’s start from the beginning](https://make.wordpress.org/test/2023/08/09/fse-program-testing-call-25-lets-start-from-the-beginning/) (u)
+
+2023-08-09 **[#core](https://make.wordpress.org/core/tag/core/)** [Updating WordPress to use more modern versions of Node.js/npm](https://make.wordpress.org/core/2023/08/09/updating-wordpress-to-use-more-modern-versions-of-node-js-npm/) (u)
+
+2023-08-07 **[#core](https://make.wordpress.org/core/tag/core/)** [WordPress 6.3 performance improvements](https://make.wordpress.org/core/2023/08/07/wordpress-6-3-performance-improvements/) (u)
+
+2023-08-04 **[#core-dev-blog](https://make.wordpress.org/core/tag/core-dev-blog/)** [Beyond block styles, part 3: building custom design tools](https://developer.wordpress.org/news/2023/08/beyond-block-styles-part-3-building-custom-design-tools/) (r)
+
+2023-08-02 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [Editor chat summary: August 2nd, 2023](https://make.wordpress.org/core/2023/08/07/editor-chat-summary-august-2nd-2023/) (m)
+
+2023-08-01 **[#core](https://make.wordpress.org/core/tag/core/)** [Proposal: improve the editor tech workflow for major releases](https://make.wordpress.org/core/2023/08/01/proposal-improve-the-editor-tech-workflow-for-major-releases/) (u)
 
 **July 2023**
 
@@ -135,6 +237,8 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 2023-07-03 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Jun 19–Jun 30](https://make.wordpress.org/design/2023/07/03/design-share-jun-19-jun-30/) (u)
 
 **June 2023**
+
+2023-06-29 #**core-editor** [Blocks in an iframed (template) editor](https://make.wordpress.org/core/2021/06/29/blocks-in-an-iframed-template-editor/) (u)
 
 2023-06-29 **[#core](https://make.wordpress.org/core/tag/core/)** [Hallway Hangout: Performance Improvements for WordPress 6.3](https://make.wordpress.org/core/2023/06/29/hallway-hangout-performance-improvements-for-wordpress-6-3/) (r)
 

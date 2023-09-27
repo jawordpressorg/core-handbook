@@ -68,7 +68,7 @@ WordPress プロジェクトは、WordPress の共同創設者である Matt Mul
 The lead developers are **Helen Hou-Sandi**, **Dion Hulse**, **Mark Jaquith**, **Andrew Nacin**, and **Andrew Ozz**. These developers have final authority on technical decisions, and lead architecture discussions and implementation efforts.
 -->
 
-リード開発者は、**Helen Hou-Sandi**、**Dion Hulse**、**Mark Jaquith**、**Andrew Nacin**、**Andrew Ozz**です。彼らは技術的な決定について最終的な権限を持ち、アーキテクチャーの議論や実装作業をリードします。
+リード開発者は、**Helen Hou-Sandi**、**Dion Hulse**、**Mark Jaquith**、**Andrew Nacin**、**Andrew Ozz** です。彼らは技術的な決定について最終的な権限を持ち、アーキテクチャーの議論や実装作業をリードします。
 
 <!--
 ### Committers
@@ -82,17 +82,14 @@ Current committers include:
 
 現在のコミッターです。
 
-<!--
 **Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, and **Grzegorz Ziółkowski**.
- -->
-
-**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, **Grzegorz Ziółkowski**.
 
 <!--
 Other contributing developers include **Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, and **Samuel Wood**.
 -->
 
 その他の貢献開発者 (contributing developer) です。
+
 **Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, **Samuel Wood**.
 
 <!--

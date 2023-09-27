@@ -560,8 +560,9 @@ You’ve made it to release day!
         5.  If you’re a plugin developer, or if there are complex plugins you depend upon, test that they’re working correctly.
 4.  Take a final screenshot of [the downloads counter](https://wordpress.org/download/counter/).
 5.  Bump versions in `.config/versions.php`. (Do this on a WordPress.org sandbox so you can test update notifications before deploying.)
-
+    
     *   Switch `WP_CORE_DEV_BRANCH` back to `trunk` if it was set to the branch during RC.Bump `WP_CORE_STABLE_BRANCH` if this is a major release.
+    
     *   Bump `WP_CORE_LATEST_RELEASE`.
     *   Bump `WP_CORE_NEW_BUNDLED_VERSION` if there is a new default theme. **Important.**
     *   Update `wporg_get_secure_versions()` with the previous secure stable release, used by [an API endpoint used by Google Webmasters Tools](https://api.wordpress.org/core/stable-check/1.0/).
@@ -618,7 +619,7 @@ You’ve made it to release day!
 3.  Publish the [HelpHub release page](https://wordpress.org/support/wordpress-version/version-5-2/).
 4.  Update the Codex.
     1.  Finalize Version Page in the Codex.
-        1.  Add:
+        1.  Add:  
             `{{#dotorgredirect:https://wordpress.org/support/wordpress-version/version-6-2/}`
     2.  Update [CurrentVersion Template](https://codex.wordpress.org/Template:CurrentVersion) with the new version.
     3.  Update [WordPress Versions](https://codex.wordpress.org/WordPress_Versions) page.
@@ -659,6 +660,7 @@ You’ve made it to release day!
 3.  In Trac, rename the `trunk` version to `X.Y` and create a new one for trunk. Complete the `X.Y` milestone and create new milestones for the new cycle and `X.Y.1`. This must be done by a Trac admin.
 4.  In Trac, if there is an unreleased minor milestone for the previous major, update the milestone to the new `X.Y` (for tickets already resolved and included in the `X.Y` branch) or `X.Y.1` (for tickets that still need investigation or discussion). A Trac admin should then remove the unreleased minor milestone.
 5.  Update various parts of the documentation:
+    
 
     *   The current release sidebar on [make.wordpress.org/core](https://make.wordpress.org/core/).
     *   Update [make.wordpress.org/core/reports](https://make.wordpress.org/core/reports/) to modify the ‘Next Major Release’ version.
@@ -666,6 +668,7 @@ You’ve made it to release day!
     *   Update [wordpress.org/about/roadmap](https://wordpress.org/about/roadmap/) and [wordpress.org/about/history](https://wordpress.org/about/history/), removing the new release from the list of upcoming releases, adding the jazzer, and adding the release date. Note: the page content is in the [Meta SVN repository](https://meta.trac.wordpress.org/browser/sites/trunk/wordpress.org/public_html/wp-content/themes/pub/wporg-main/page-about-roadmap.php).
     *   Update [wordpress.org/support/article/history](https://wordpress.org/support/article/history/).
     *   Update [wordpress.org/support/article/wordpress-versions](https://wordpress.org/support/article/wordpress-versions/).
+    
 
     *   The dev cycle docs (ex. https://make.wordpress.org/core/x-x/).
     *   Update the latest release under “Getting Started” on the front-page of [https://wordpress.org/support/](https://wordpress.org/support/).

@@ -257,6 +257,19 @@ define('DB_HOST', 'localhost');
 ```
 -->
 
+<!--
+```php
+/** The name of the database for WordPress */
+define('DB_NAME', 'root_databasename');</p>
+<p>/** MySQL database username */
+define('DB_USER', 'root');</p>
+<p>/** MySQL database password */
+define('DB_PASSWORD', 'root');</p>
+<p>/** MySQL hostname */
+define('DB_HOST', 'localhost');
+```
+-->
+
 ```php
 /** The name of the database for WordPress */
 define('DB_NAME', 'root_databasename');

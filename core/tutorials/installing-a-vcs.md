@@ -108,6 +108,28 @@ Subversion is open source software, see http://subversion.apache.org/</p>
 ```
 -->
 
+<!--
+```bash
+svn, version 1.7.10 (r1485443)
+   compiled Aug 13 2013, 15:31:22</p>
+<p>Copyright (C) 2013 The Apache Software Foundation.
+This software consists of contributions made by many people; see the NOTICE
+file for more information.
+Subversion is open source software, see http://subversion.apache.org/</p>
+<p>The following repository access (RA) modules are available:</p>
+<p>* ra_neon : Module for accessing a repository via WebDAV protocol using Neon.
+  - handles 'http' scheme
+  - handles 'https' scheme
+* ra_svn : Module for accessing a repository using the svn network protocol.
+  - handles 'svn' scheme
+* ra_local : Module for accessing a repository on local disk.
+  - handles 'file' scheme
+* ra_serf : Module for accessing a repository via WebDAV protocol using serf.
+  - handles 'http' scheme
+  - handles 'https' scheme
+```
+-->
+
 ```bash
 svn, version 1.7.10 (r1485443)
    compiled Aug 13 2013, 15:31:22
@@ -115,7 +137,6 @@ Copyright (C) 2013 The Apache Software Foundation.
 This software consists of contributions made by many people; see the NOTICE
 file for more information.
 Subversion is open source software, see http://subversion.apache.org/
-
 The following repository access (RA) modules are available:
 * ra_neon : Module for accessing a repository via WebDAV protocol using Neon.
   - handles 'http' scheme

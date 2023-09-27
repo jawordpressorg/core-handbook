@@ -44,6 +44,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   If the `$wp_version` is `4.8.1-beta1` then the `version` in `package.json` should be just `4.8.1`.
     *   If you are releasing an RC, then the `$wp_version` would be `4.8.1-RC1-src`.
     *   Update `$wp_version` to add the appropriate version identifier and remove the SVN changeset number:![](https://make.wordpress.org/core/files/2017/06/pasted-image-0-1024x470.png)
+    
     *   Ensure version bump appears on https://build.trac.wordpress.org/. *This only needs to be verified by the person releasing via Mission Control*.
 *   Build the packages.
 
@@ -85,7 +86,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing.
 
     *   For RC releases, note the `dev-feedback` and `dev-reviewed` workflow is required prior to committing, where each commit must get double-signoff.
-
+        
         *   Example: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
 
 *   Write a message in the [#props](https://wordpress.slack.com/messages/C0FRG66LR) channel thanking and giving props to everyone who tested or otherwise helped with the beta release process
