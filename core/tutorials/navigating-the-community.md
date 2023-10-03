@@ -160,7 +160,7 @@ Thankfully, there’s an accessibility team that is dedicated to helping share b
 Within the community, there are sponsored contributors and volunteers who do this work in their free time. For sponsored contributors, this means you can often keep up with more, move faster, and contribute more. As a result, if you are a sponsored contributor, it makes following the community norms even more important as that often allows more people to participate no matter their time commitment. 
 -->
 
-コミュニティ内には、スポンサー付きの貢献者と、空いた時間に作業するボランティアがいます。スポンサー付きの貢献者の場合、より多くのことを把握し、より迅速に行動し、より多く貢献できることを意味します。その結果、スポンサー付き貢献者である場合はコミュニティの規範に従うことがより重要となります。
+コミュニティ内には、スポンサー付きの貢献者と、空いた時間に作業するボランティアがいます。スポンサー付きの貢献者の場合、より多くのことを把握し、より迅速に行動し、より多く貢献できることを意味します。その結果、スポンサー付きの貢献者である場合はコミュニティの規範に従うことがより重要となります。
 
 <!--
 On the flip side, if you’re doing this as a volunteer, remember to be kind to yourself and never feel pressure to try to achieve the level of contribution of those who are sponsored full time. Find sustainable ways to give back that will allow you to do so for many months and years to come. 
