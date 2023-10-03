@@ -124,7 +124,7 @@ Gutenberg の開発は GitHub で行われますが、WordPress コアの開発�
 Because [versions of Gutenberg plugin are included in each WordPress release](https://developer.wordpress.org/block-editor/principles/versions-in-wordpress/) and the editor experience has become quite incorporated into WordPress core, it can be difficult to distinguish between the two. As a result, you might be digging into one area only to find the solution that needs to be implemented elsewhere. Ultimately, keep in mind that Gutenberg is part of WordPress Core so the answer to this specific question is moot.
 -->
 
-[Gutenberg プラグインのバージョンは WordPress の各リリースに含まれ](https://developer.wordpress.org/block-editor/principles/versions-in-wordpress/)、エディター体験は WordPress コアに完全に組み込まれているため、この2つを区別するのは難しいかもしれません。その結果、ある分野を調べているうちに、別の箇所で行うべき解決策が見つかるかもしれません。結局のところ、Gutenberg は WordPress コアの一部であるため、このようなの質問に対する答えは無意味であることを覚えておいてください。
+[Gutenberg プラグインのバージョンは WordPress の各リリースに含まれ](https://developer.wordpress.org/block-editor/principles/versions-in-wordpress/)、エディター体験は WordPress コアに完全に組み込まれているため、この2つを区別するのは難しいかもしれません。その結果、ある分野を調べているうちに、別の箇所で行うべき解決策が見つかるかもしれません。結局のところ、Gutenberg は WordPress コアの一部であるため、このような質問に対する答えは無意味であることを覚えておいてください。
 
 <!--
 **Approaching accessibility (aka a11y)** 
