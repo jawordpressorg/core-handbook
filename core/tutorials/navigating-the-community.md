@@ -262,7 +262,7 @@ Like with any WordPress site, you can review specific tags to help narrow down i
 These communication pathways start from the smallest action to increasingly more attention bringing steps you can take. These should help you figure out what “tools are in your toolbox” and how best to go about implementing ideas/proposals. 
 -->
 
-これらのコミュニケーションの手段は、小さな行動から始まり、あなたが取ることのできる、より多くの注目を集めるステップへと進みます。これらは、「ツールボックスの中にどのようなツールがあるのか」、そしてどのようにアイデアや提案を実行することベストかを考える助けになるはずです。
+これらのコミュニケーションの手段は、小さな行動から始まり、あなたが取ることのできる、より多くの注目を集めるステップへと進みます。これらは、「コミュニケーションをとるためにどのような方法があるのか」、そしてどのようにアイデアや提案を実行することベストかを考える助けになるはずです。
 
 <!--
 If in doubt, feel free to ask first in [#core](https://make.wordpress.org/core/tag/core/) or [#core-editor](https://make.wordpress.org/core/tag/core-editor/) for advice. 
