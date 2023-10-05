@@ -28,7 +28,7 @@ WordPress ソフトウェアがリリースされるライセンスは、[フリ
 Third-Party libraries must be GPLv2 compatible, but retain their own copyright.
 -->
 
-サードパーティライブラリは GPLv2 と互換性がある必要がありますが、独自の著作権を保持します。
+サードパーティライブラリは GPLv2と互換性がある必要がありますが、独自の著作権を保持します。
 
 <!--
 ## Contributor Copyright
@@ -40,4 +40,4 @@ Third-Party libraries must be GPLv2 compatible, but retain their own copyright.
 As a contributor, you retain the copyright to your code, however by submitting it to Trac you are releasing it under the GPLv2.
 -->
 
-コントリビュータとして、あなたのコードの著作権は保持しますが、Trac に投稿することで GPLv2 の下でリリースすることになります。
+コントリビュータとして、あなたのコードの著作権は保持しますが、Trac に投稿することで GPLv2の下でリリースすることになります。

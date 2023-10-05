@@ -354,7 +354,7 @@ When branching before a release, there are two important things that need settin
 -->
 
 *   API: [/home/wporg/public_html/.config/versions.php](https://dotorg.trac.wordpress.org/browser/wordpress/website/.config/versions.php) の `WP_CORE_DEV_BRANCH` をブランチ、たとえば4.9に設定します。これはコアの更新チェックで、ベータテスタープラグインのユーザーを (スーパーアルファ5.0にプッシュする代わりに) ブランチの開発パスに保持するために使用されます。
-*   翻訳:「WordPress 開発」プロジェクトが、trunk ではなくブランチから文字列 ("originals") をインポートすべきであることを GlotPress に認識させるために、[/home/wporg/public_html/translate/bin/update-originals-wp.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-originals-wp.sh) の `DEV_BRANCH` を更新します。これは、trunk での文字列の変更が生成される翻訳ファイルに影響することを防ぐために必要です。これはまた、翻訳作業が WordPress の最新の安定版で継続される間、数週間のリリース後に設定されることが多く、trunk では文字列の変更について何度も繰り返されることがあります。
+*   翻訳: 「WordPress 開発」プロジェクトが、trunk ではなくブランチから文字列 ("originals") をインポートすべきであることを GlotPress に認識させるために、[/home/wporg/public_html/translate/bin/update-originals-wp.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-originals-wp.sh) の `DEV_BRANCH` を更新します。これは、trunk での文字列の変更が生成される翻訳ファイルに影響することを防ぐために必要です。これはまた、翻訳作業が WordPress の最新の安定版で継続される間、数週間のリリース後に設定されることが多く、trunk では文字列の変更について何度も繰り返されることがあります。
 *   翻訳: beta/RC パッケージ用のブランチを使うように [/home/wporg/public_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh) を更新します。
 *   翻訳: `wp/dev` プロジェクト用のブランチを使用するように [/home/rosetta/public_html/wp-content/mu-plugins/rosetta/rosetta.php](https://dotorg.trac.wordpress.org/browser/wordpress/rosetta/website/wp-content/mu-plugins/rosetta/rosetta.php) を更新します。
 
@@ -574,7 +574,7 @@ You’ve made it to release day!
 -->
 
 1.  [https://wordpress.org/download/releases/](https://wordpress.org/download/release-archive/) にパッケージが表示されていることを確認します。
-2.  パッケージをダウンロードし、解凍します。同じパッケージであることを確認し、MD5 サムをチェックします。
+2.  パッケージをダウンロードし、解凍します。同じパッケージであることを確認し、MD5サムをチェックします。
 3.  パッケージをテストします:
     1.  パッケージのテストには2つの方法があります:
         1.  WP-CLI を使ってテストする: `wp core update https://wordpress.org/wordpress-5.8.zip`

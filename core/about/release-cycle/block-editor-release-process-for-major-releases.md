@@ -260,7 +260,7 @@ Note that “punting” is a sports metaphor from [American football](https://en
 Since the project board will be a place that meetings reference and people bookmark, it’s important to take steps to keep it current and useful for others. The following actions are recommended and can be divided up:
 -->
 
-プロジェクトボードは、ミーティングで参照され人々がブックマークする場所となるため、情報を最新の状態に保ち、他の人にとって役立つようにすることが重要です。以下のアクションが推奨されます。分割することも可能です:
+プロジェクトボードは、ミーティングで参照され人々がブックマークする場所となるため、情報を最新の状態に保ち、他の人にとって役立つようにすることが重要です。以下のアクションが推奨されます。分割することもできます:
 
 <!--
 *   The release leads, and members of the Gutenberg Triage Team should regularly review new [Gutenberg issues](https://github.com/WordPress/gutenberg/issues) and add those relevant to the current release to the project in the “Triage” column.

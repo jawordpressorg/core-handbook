@@ -20,4 +20,4 @@ There are many different types of testing including, but not limited to, [beta 
 If you are looking for a place to get started, the first thing you will want to do is set up a test site. Once you have that going, you will be able to participate in beta testing or walkthrough feature projects and then test those features with others.
 -->
 
-始め方を探しているのなら、まずテストサイトを立ち上げるとよいでしょう。それができれば、ベータテストやウォークスルー機能のプロジェクトに参加し、その機能を他の人と一緒にテストできるようになります。
+始め方を探しているのなら、まずテストサイトを立ち上げるとよいでしょう。それができれば、ベータテストやウォークスルー機能のプロジェクトに参加し、その機能を他の人と一緒にテストできます。
