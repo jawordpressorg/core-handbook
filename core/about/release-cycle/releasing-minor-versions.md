@@ -128,7 +128,7 @@ Regardless of which kind of release you’re planning, there are a number of thi
 *   Prepare Codex pages for each version you intend to release, using the Wiki Template of [Release](https://codex.wordpress.org/Template:Release) (directions are included on that page). If your release is security-related, these pages can be mostly blank until the actual release day, but need to exist as we link to them in WordPress itself.
 -->
 
-*   開発ノートを必要とする重要な変更がないか確認します。これらはリリース前に公開され、マイナーリリース番号、関連するメジャーリリース番号、開発ノートタグ (例: 「4.9、4.9.2、dev notes」) がタグ付けされていることを確認してください。
+*   開発ノートを必要とする重要な変更がないか確認します。これらはリリース前に公開され、マイナーリリース番号、関連するメジャーリリース番号、開発ノートタグ (例:「4.9、4.9.2、dev notes」) がタグ付けされていることを確認してください。
 *   最新バージョンの Akismet が WordPress のビルドに含まれていることを確認します。現在では、Akismet チームに連絡して、アップデートに含めるプラグインのリリースが近いかどうかを確認する必要はありません。これは、ユーザーが新しいサイトを作成した直後にアップデートのプロンプトが表示されることを防ぐために重要なことです。これは自動化されています ([関連する議論](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647))。build.svn にコミットして Akismet external を最新バージョンに更新する例は[こちら](https://build.trac.wordpress.org/changeset/38478)です (これは手作業による古い方法です)。
 *   セキュリティチームのメンバーにプライベート・セキュリティ・ユニットテストスイートを実行してもらい、リグレッションが発生しないことを確認します。一部のサイト (wordpress.org など) では本番環境で `trunk` またはベータ/RC が稼働しているため、見つかった場合はその詳細について公の場で議論することは避けてください。代わりに、セキュリティ・チームに個人的に通知してください。
 *   数日前に、リリースが予定されていることをホストに通知するとよいでしょう。3日前が推奨されますが、リリースのスケジュールによっては不可能な場合もあります。セキュリティチームがホストへのメッセージについてお手伝いします。このメッセージは、(セキュリティリリースの場合) **すべてのセキュリティパッチが準備できるまで出してはいけません**。
@@ -207,7 +207,7 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   これらの変更を事前に十分に準備し、レビューを依頼しましょう。そうすることで、リリースプロセスの停滞を避けることができます。バージョンアップとアバウトページは一緒にコミットでき、別々に行う必要はありません。
 *   すべてのブランチで、リリースには[タグが必要です](https://build.trac.wordpress.org/browser/tags/)。多くの人は SVN からリリースを実行し、そのためにタグに依存しています。タグ付けは以下のコマンドで完了します (関連ブランチとリリースで必ず更新してください): `svn cp https://develop.svn.wordpress.org/branches/5.7 https://develop.svn.wordpress.org/tags/5.7.2 -m "Tag 5.7.2"` `https://develop.svn.wordpress.org` がチェックアウトするリポジトリのルートであることを二重三重にチェックした場合は、`^` ショートカットを使用できます: `svn cp ^/branches/5.7 ^/tags/5.7.2 -m "Tag 5.7.2"`.
 *   リリースパッケージは、リリースされる各バージョンのタグをもとにミッションコントロールでビルドする必要があります。パッケージ化されたら、手動での更新テストを含め、十分にテストする必要があります。(どうやって行うのですか ? [ドキュメント](#testing-packages)をチェックしてください)。
-*   自動更新は dotorg リポジトリにある  `versions.php` ファイルで有効にする必要があります。(このファイルは dotorg サンドボックスへのアクセスを必要とするため、サンドボックスが用意されている必要があります)。自動更新を有効にするには、`WP_CORE_LATEST_RELEASE` 定数に新しいバージョン番号を設定し、自動更新を開始する時間を `WP_CORE_AUTOUPDATE_RAMP_START` に設定します。これは予想されるデプロイの数分後であるはずです。また、すべての新しいバージョンと一致するように `wporg_get_version_equivalents()` 配列を更新し、対応する古いバージョンを古いバージョンの配列に追加する必要があります。
+*   自動更新は dotorg リポジトリにある `versions.php` ファイルで有効にする必要があります。(このファイルは dotorg サンドボックスへのアクセスを必要とするため、サンドボックスが用意されている必要があります)。自動更新を有効にするには、`WP_CORE_LATEST_RELEASE` 定数に新しいバージョン番号を設定し、自動更新を開始する時間を `WP_CORE_AUTOUPDATE_RAMP_START` に設定します。これは予想されるデプロイの数分後であるはずです。また、すべての新しいバージョンと一致するように `wporg_get_version_equivalents()` 配列を更新し、対応する古いバージョンを古いバージョンの配列に追加する必要があります。
     *   提供されるパーセンテージは、指定された時間の間に50%から100%まで上昇します。これは `WP_CORE_AUTOUPDATE_RAMP_START` 定数と `WP_CORE_AUTOUPDATE_RAMP_PERIOD` 定数によって制御されます。これらは以前の定数 `WP_CORE_AUTOUPDATE_PERCENT` と連携して動作し、いくつかのリリース中に手動で `WP_CORE_AUTOUPDATE_PERCENT` を低い値に変更する必要性をなくし、自動化します。
     *   セキュリティリリースの場合は、`wporg_get_secure_versions()` を安全でない各ブランチ内のレガシーバージョンと一致させる必要があります。
     *   デプロイ

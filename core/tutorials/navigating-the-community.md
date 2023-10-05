@@ -357,7 +357,7 @@ The meeting schedule can be found [here](https://make.wordpress.org/meetings/) a
 Writing blog posts on your personal site is an effective way to get attention on new ideas within the community. The one catch to this is that there needs to be some level of distribution. Generally speaking, personal posts are best for big picture explorations/thoughts or more simplistic demos. Here are two good examples: [BlockBook](https://riad.blog/2020/07/22/introducing-blockbook-for-wordpress/) and [Collaborative Editing](https://riad.blog/2020/06/11/write-as-blocks-in-an-encrypted-collaborative-environment/).  
 -->
 
-個人サイトにブログ記事を書くことは、コミュニティ内で新しいアイデアに注目してもらうための効果的な方法です。ただしブログは欠点として、ある程度の拡散が必要です。一般的に、個人的な投稿は全体像の探求や考察、またはより単純なデモに最適です。ここに2つの良い例があります:  [BlockBook](https://riad.blog/2020/07/22/introducing-blockbook-for-wordpress/) と [Collaborative Editing](https://riad.blog/2020/06/11/write-as-blocks-in-an-encrypted-collaborative-environment/)です。
+個人サイトにブログ記事を書くことは、コミュニティ内で新しいアイデアに注目してもらうための効果的な方法です。ただしブログは欠点として、ある程度の拡散が必要です。一般的に、個人的な投稿は全体像の探求や考察、またはより単純なデモに最適です。ここに2つの良い例があります: [BlockBook](https://riad.blog/2020/07/22/introducing-blockbook-for-wordpress/) と [Collaborative Editing](https://riad.blog/2020/06/11/write-as-blocks-in-an-encrypted-collaborative-environment/)です。
 
 <!--
 **If Gutenberg related, include in** [**What’s Next**](https://make.wordpress.org/core/tag/gutenberg-next/) **in Gutenberg posts**

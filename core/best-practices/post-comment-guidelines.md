@@ -76,7 +76,7 @@ make/core に投稿することは、コミッター、コンポーネントメ�
 Keep in mind that feedback on make/core will almost always be greater than that in Trac tickets. Announcing changes and posting early and often is helpful to the entire community.
 -->
 
-make/core でのフィードバックは、 Trac チケットでのフィードバックよりも常に大きいこと覚えておいてください。変更のアナウンスや投稿を早い段階で頻繁に行うことは、コミュニティ全体にとって有益なことです。
+make/core でのフィードバックは、Trac チケットでのフィードバックよりも常に大きいこと覚えておいてください。変更のアナウンスや投稿を早い段階で頻繁に行うことは、コミュニティ全体にとって有益なことです。
 
 <!--
 ### Peer Review
@@ -210,7 +210,7 @@ When writing up an idea aimed at generating feedback and assessing a potential c
 Discussion and criticism of ideas are important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.
 -->
 
-アイデアに関する議論や批判は、WordPress の長期的な成功のために重要です。これを支持するため、すべての make/core の投稿はコメントがオープンな状態になっています。そのため、他のコメント投稿者や読者の多くが英語を母国語としていないことを理解したうえで、**コメント投稿者は敬意とプロ意識を持って**投稿する必要があります。時には、誤解が生じないように、過剰なコミュニケーションや丁寧な対応をすることも意味があるかもしれません。
+アイデアに関する議論や批判は、WordPress の長期的な成功のために重要です。これを支持するため、すべての make/core の投稿はコメントがオープンな状態になっています。そのため、他のコメント投稿者や読者の多くが英語を母国語としていないことを理解した上で、**コメント投稿者は敬意とプロ意識を持って**投稿する必要があります。時には、誤解が生じないように、過剰なコミュニケーションや丁寧な対応をすることも意味があるかもしれません。
 
 <!--
 If a comment is disrespectful and/or unprofessional, it may be edited at the discretion of the core team.
