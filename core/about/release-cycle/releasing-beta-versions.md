@@ -131,7 +131,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   RC 版をリリースする場合、`$wp_version` は `4.8.1-RC1-src` となります。
     *   `$wp_version` を更新して適切なバージョン識別子を追加し、SVN のチェンジセット番号を削除します: ![](https://make.wordpress.org/core/files/2017/06/pasted-image-0-1024x470.png)
 
-    *   https://build.trac.wordpress.org/ にバージョンバンプが表示されていることを確認します。*これは Mission Control 経由でリリースする人が確認する必要があります*。
+    *   https://build.trac.wordpress.org/ にバージョンバンプが表示されていることを確認します。**これは Mission Control 経由でリリースする人が確認する必要があります**。
 *   パッケージをビルドします。
 
     *   リリースパッケージは [Mission Control](https://mc.wordpress.org/release/) でビルドする必要があります。パッケージ化されたら、手動でアップデートをテストするなど、十分にテストする必要があります。(その方法は ? [ドキュメント](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/#testing-packages)をチェックしてください)。
@@ -176,7 +176,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 *   ベータ版のリリースプロセスでテストやその他の手伝いをしてくれた人全員に感謝し、賛辞を贈るメッセージを [#props](https://wordpress.slack.com/messages/C0FRG66LR) チャンネルに書き込みます。
     *   例: Props to @mention, @mention2, …, @mentionN for helping test today’s 5.8 Beta 1 release!
 *  リリースサイクルの最初のベータ版の場合:
-    *   次のリリースバージョンの新しいマイルストーンをコア Trac に追加します。たとえば、WordPress `5.0` をリリースするときに、`5.1` のマイルストーンを追加します。*これを行うには、Trac の管理者権限を持つ人に依頼する必要があるかもしれません。*
+    *   次のリリースバージョンの新しいマイルストーンをコア Trac に追加します。たとえば、WordPress `5.0` をリリースするときに、`5.1` のマイルストーンを追加します。**これを行うには、Trac の管理者権限を持つ人に依頼する必要があるかもしれません。**
     *   セキュリティチームのメンバーは、HackerOne プログラムの参加者にメールを送り、[安定版リリースに入る前に新しい脆弱性を見つけてください](https://make.wordpress.org/security/2019/02/13/doubling-bounties-for-vulnerabilities-discovered-before-release/)と促すべきです。詳細は、セキュリティチームハンドブックを参照してください。
 *   リリースサイクルの最初の RC の場合:
     *   リリースサイクルの特定の部分をより明確にし、コミュニティを準備するために、リリース候補フェーズ ([6.0の例](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) と上記のさまざまなプロトコルについて、Make Core でアナウンスされるべきです。

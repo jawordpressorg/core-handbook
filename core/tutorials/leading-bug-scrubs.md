@@ -272,4 +272,4 @@ An active bug tracker is one sign of a healthy project. Help ensure the health o
 *This page is a modified version of the [Bug Scrubs for 4.7](https://make.wordpress.org/core/2016/08/25/bug-scrubs-for-4-7/) post on [Making WordPress Core](https://make.wordpress.org/core/). Props to @jorbin for writing that post.*
 -->
 
-*このページは [Making WordPress Core](https://make.wordpress.org/core/) の [Bug Scrubs for 4.7](https://make.wordpress.org/core/2016/08/25/bug-scrubs-for-4-7/) の投稿を修正したものです。この記事を書いてくれた @jorbin に感謝します。*
+**このページは [Making WordPress Core](https://make.wordpress.org/core/) の [Bug Scrubs for 4.7](https://make.wordpress.org/core/2016/08/25/bug-scrubs-for-4-7/) の投稿を修正したものです。この記事を書いてくれた @jorbin に感謝します。**
