@@ -38,7 +38,7 @@ If you want to help, but don’t know which bugs to fix, review the [Finding Bug
 WordPress uses Subversion for source control. You will want to *check out* a working copy of WordPress using a Subversion client (such as Tortoise SVN on Windows, using the command line on Mac and Linux). For more, read the [Subversion](https://make.wordpress.org/core/handbook/svn/) article.
 -->
 
-WordPress はソース管理に Subversion を使用しています。Subversion クライアント (Windows では Tortoise SVN、Mac や Linux ではコマンドライン) を使用して、WordPress の作業コピーを*チェックアウト*したいでしょう。詳しくは、[Subversion](https://make.wordpress.org/core/handbook/svn/) の記事を読んでください。
+WordPress はソース管理に Subversion を使用しています。Subversion クライアント (Windows では Tortoise SVN、Mac や Linux ではコマンドライン) を使用して、WordPress の作業コピーを「チェックアウト」したいでしょう。詳しくは、[Subversion](https://make.wordpress.org/core/handbook/svn/) の記事を読んでください。
 
 <!--
 One of the many benefits to using a version control system is that you can create a simple text file, called a [patch](https://make.wordpress.org/core/glossary/#patch), that shows exactly what you’ve changed – the lines of code you added, modified, and removed. A patch is also called a *diff*, for differences.
@@ -56,7 +56,7 @@ WordPress がどのように書かれていてどのように構成されてい�
 Once you’ve figured out how to fix the bug by modifying WordPress core files, you should create a *patch*. Review the [Creating a Patch](https://make.wordpress.org/core/handbook/submitting-a-patch/ "Creating a Patch") documentation.
 -->
 
-WordPress のコアファイルを変更することでバグを修正する方法がわかったら、*パッチ*を作成します。[パッチの作成](https://make.wordpress.org/core/handbook/submitting-a-patch/ "パッチの作成") のドキュメントを確認してください。
+WordPress のコアファイルを変更することでバグを修正する方法がわかったら、「パッチ」を作成します。[パッチの作成](https://make.wordpress.org/core/handbook/submitting-a-patch/ "パッチの作成") のドキュメントを確認してください。
 
 <!--
 Once you’ve created a patch, upload it to the Trac ticket using the *Attach file* button, and add *has-patch* to the workflow keywords. Please don’t overwrite any existing, previous patches.

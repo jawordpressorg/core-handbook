@@ -48,7 +48,7 @@ WordPress でのコミュニケーションは、プロジェクトで使用さ�
 In order to contribute to WordPress core, you need a local development environment and a checkout of WordPress trunk, which is the development version of WordPress. Be aware that this is *not* the same as the latest downloadable WordPress release.
 -->
 
-WordPress コアに貢献するには、ローカルの開発環境と WordPress 開発バージョンである trunk のチェックアウトが必要です。これはダウンロード可能な WordPress の最新リリースとは*異なる*ことに注意してください。
+WordPress コアに貢献するには、ローカルの開発環境と WordPress 開発バージョンである trunk のチェックアウトが必要です。これはダウンロード可能な WordPress の最新リリースとは**異なる**ことに注意してください。
 
 <!--
 ### Setting up a local server

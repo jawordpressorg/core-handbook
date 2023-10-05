@@ -108,7 +108,7 @@ WordPress 1.0で追加され、バージョン1.2と1.5で拡張された [Optio
 The [Plugin API](https://codex.wordpress.org/Plugin_API "Plugin API"), added in WordPress 1.5, allows for creating actions and filters in hooking functions and methods. The functions or methods will then be run when the action or filter is called. Hooks are provided by WordPress to allow your plugin to *hook into* the rest of WordPress; that is, to call functions in your plugin at specific times, and set your plugin in motion.
 -->
 
-WordPress 1.5で追加された [Plugin API](https://codex.wordpress.org/Plugin_API "Plugin API") では、関数やメソッドをフックすることでアクションやフィルターを作成できます。関数やメソッドは、アクションやフィルターが呼び出されたときに実行されます。フックは WordPress が提供するもので、プラグインが WordPress の他の部分に*フック*できるようにするものです。つまり、特定の時間にプラグイン内の関数を呼び出し、プラグインを動作させます。
+WordPress 1.5で追加された [Plugin API](https://codex.wordpress.org/Plugin_API "Plugin API") では、関数やメソッドをフックすることでアクションやフィルターを作成できます。関数やメソッドは、アクションやフィルターが呼び出されたときに実行されます。フックは WordPress が提供するもので、プラグインが WordPress の他の部分に**フック**できるようにするものです。つまり、特定の時間にプラグイン内の関数を呼び出し、プラグインを動作させます。
 
 ### Quicktags API
 

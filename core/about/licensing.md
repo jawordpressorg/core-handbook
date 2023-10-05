@@ -16,7 +16,7 @@ WordPress ソフトウェアがリリースされるライセンスは、[フリ
 *Still lost? We have a [beginner’s GPL primer](https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/gpl-primer/), too.*
 -->
 
-*まだ迷っていますか ? [初心者のためのGPL入門](https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/gpl-primer/)もあります。*
+**まだ迷っていますか ? [初心者のためのGPL入門](https://make.wordpress.org/community/handbook/wordcamp-organizer/planning-details/gpl-primer/)もあります。**
 
 <!--
 ## Third Party Libraries

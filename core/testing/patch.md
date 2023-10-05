@@ -131,7 +131,7 @@ If you’re a committer, be sure to run `npm run grunt precommit` before commi
 
 もしあなたがコミッターなら、コードをコミットする前に必ず `npm run grunt precommit` を実行してください。
 
-コミッターの場合は、コード、*特に*フロントエンド (CSS/JS) に関わるコードをコミットする前に、必ず `npm run grunt precommit` を実行してください。
+コミッターの場合は、コード、**特に**フロントエンド (CSS/JS) に関わるコードをコミットする前に、必ず `npm run grunt precommit` を実行してください。
 
 <!--
 ## Testing without Grunt

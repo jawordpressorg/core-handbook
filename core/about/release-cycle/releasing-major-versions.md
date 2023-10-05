@@ -14,7 +14,7 @@ Some things may be out of date, or unclear. If you have questions, reach out to 
 Congratulations! You’re a release lead for WordPress! The next few months of your life will be a whirlwind of excitement, frustration, and fun. Leading a WordPress release isn’t *easy*, but you’ll have a great time anyway.
 -->
 
-おめでとうございます ! あなたは WordPress のリリースリードです ! これからの数ヵ月は、興奮と挫折、楽しさが渦巻く人生になるでしょう。WordPress のリリースをリードすることは*簡単*ではありませんが、とにかくすばらしい時間を過ごすことになるでしょう。
+おめでとうございます ! あなたは WordPress のリリースリードです ! これからの数ヵ月は、興奮と挫折、楽しさが渦巻く人生になるでしょう。WordPress のリリースをリードすることは**簡単**ではありませんが、とにかくすばらしい時間を過ごすことになるでしょう。
 
 <!--
 There have been many before you, and there will be many after you. While this page might help guide you to the finish line, each release lead brings their own touch to the release. When in doubt, talk with a [previous release lead](https://make.wordpress.org/core/tag/release-lead/) and ask for direction.
@@ -298,7 +298,7 @@ A Release Candidate version is released as the last stage of the release cycle b
 It’s time to ask the [Polyglots team](https://make.wordpress.org/polyglots/) to help translate the upcoming WordPress version. *In the list below, the example release is A.B.*
 -->
 
-[Polyglots チーム](https://make.wordpress.org/polyglots/)に、WordPress の次のバージョンの翻訳に協力してもらいましょう。*以下のリストでは、リリース例を A.B.* としています。
+[Polyglots チーム](https://make.wordpress.org/polyglots/)に、WordPress の次のバージョンの翻訳に協力してもらいましょう。**以下のリストでは、リリース例を A.B.** としています。
 
 <!--
 *   Create a A.B.x sub-project to the main WordPress project.
@@ -523,7 +523,7 @@ You’ve made it to release day!
 3.  該当する場合、`about.php` に最終コミットをします。たとえば、リリースビデオを入れたり、最終イラストを更新したりします。
 4.  `package.json` が更新されていることを確認してください。
 5.  `src/wp-admin/includes/update-core.php` を確認します。
-6.  *新しいデフォルトテーマ*がある場合は、以下を確認します:
+6.  **新しいデフォルトテーマ**がある場合は、以下を確認します:
     1.  `src/wp-includes/default-constants.php` の `WP_DEFAULT_THEME` を確認します。
     2.  `src/wp-includes/class-wp-theme.php` にある `WP_Theme::$default_themes` を確認します。
     3.  **非常に重要:** `/home/wporg/public_html/.config/versions.php` の中の `WP_CORE_NEW_BUNDLED_VERSION`
@@ -691,7 +691,7 @@ You’ve made it to release day!
 
     *   [make.wordpress.org/core](https://make.wordpress.org/core/) のサイドバーにある現在のリリース。
     *   [make.wordpress.org/core/reports](https://make.wordpress.org/core/reports/) を更新して「次のメジャーリリース」のバージョンを変更します。
-        ***注**: Gutenberg コードエディターを使用して編集します。そうしないと、ダッシュアイコンが削除されます。*
+        **注: Gutenberg コードエディターを使用して編集します。そうしないと、ダッシュアイコンが削除されます。**
     *   [wordpress.org/about/roadmap](https://wordpress.org/about/roadmap/) と [wordpress.org/about/history](https://wordpress.org/about/history/) を更新し、今後のリリースリストから新しいリリースを削除し、ジャズミュージシャンを追加し、リリース日を追加します。注: ページの内容は [Meta SVN リポジトリ](https://meta.trac.wordpress.org/browser/sites/trunk/wordpress.org/public_html/wp-content/themes/pub/wporg-main/page-about-roadmap.php)にあります。
     *   [wordpress.org/support/article/history](https://wordpress.org/support/article/history/) を更新します。
     *   [wordpress.org/support/article/wordpress-versions](https://wordpress.org/support/article/wordpress-versions/) を更新します。

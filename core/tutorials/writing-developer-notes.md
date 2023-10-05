@@ -246,7 +246,7 @@ Properly tagging notes is important to make them easier to find and revisit late
 When the dev note is published, a “props” line at the very bottom should always be included. For example: “*Props* [](https://wordpress.slack.com/team/U02SVSW3U)*@janedoe for technical review,* [](https://wordpress.slack.com/team/U02RR5UTA)*@johndoe for proofreading.*“
 -->
 
-開発ノートを公開するときには、必ず一番下に「props」の行を入れるようにしてください。たとえば、「*Props [@janedoe](https://wordpress.slack.com/team/U02SVSW3U) による技術的なレビュー, [@johndoe](https://wordpress.slack.com/team/U02RR5UTA) による校正*」などです。
+開発ノートを公開するときには、必ず一番下に「props」の行を入れるようにしてください。たとえば、「**Props [@janedoe](https://wordpress.slack.com/team/U02SVSW3U) による技術的なレビュー, [@johndoe](https://wordpress.slack.com/team/U02RR5UTA) による校正**」などです。
 
 <!--
 This ensures everyone that contributed to the post receives proper recognition, helps the reader know the voices behind the post, and who they are addressing if there are comments or questions.

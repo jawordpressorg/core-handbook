@@ -8,13 +8,13 @@
 *This guide is intended to help you get started at a contributor day. It includes a schematic outline of what the group does and how to quickly get started. If you need any help, talk to the contributor day organizer, or ask your question in the [#core](https://make.wordpress.org/core/tag/core/) channel in [Slack](https://chat.wordpress.org/).*
 -->
 
-*このガイドは、コントリビューターデイを開催するためのものです。このガイドには、グループが何をするのか、どのようにすればすぐに始められるのかの概要が含まれています。サポートが必要な場合は、コントリビューターデイのオーガナイザーに相談するか、[Slack](https://chat.wordpress.org/) の [#core](https://make.wordpress.org/core/tag/core/) チャンネルで質問してください。*
+**このガイドは、コントリビューターデイを開催するためのものです。このガイドには、グループが何をするのか、どのようにすればすぐに始められるのかの概要が含まれています。サポートが必要な場合は、コントリビューターデイのオーガナイザーに相談するか、[Slack](https://chat.wordpress.org/) の [#core](https://make.wordpress.org/core/tag/core/) チャンネルで質問してください。**
 
 <!--
 *This is a work in progress so don’t be afraid to amend the document or leave comments, particularly if you’re at a contributor day and find that we’ve missed something.*
 -->
 
-*これは進行中の作業であるため、特にあなたがコントリビューターデイに参加していて、何かを見落としていることに気づいた場合は、遠慮なくドキュメントを修正したり、コメントを残してください。*
+**これは進行中の作業であるため、特にあなたがコントリビューターデイに参加していて、何かを見落としていることに気づいた場合は、遠慮なくドキュメントを修正したり、コメントを残してください。**
 
 <!--
 **Regular Meeting Time:** Wednesdays at 21:00 UTC
