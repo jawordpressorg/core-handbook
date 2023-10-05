@@ -14,7 +14,7 @@
 Before digging in, it might help to review the rest of the [Core Contributor Handbook](https://make.wordpress.org/core/handbook/). In particular, you might find the tutorials for [setting up your local environment helpful](https://make.wordpress.org/core/handbook/#tutorials-guides). Much of what’s shared in the rest of the handbook sets the foundation for what’s shared here. Separately, to help join the fun more directly, it’s strongly encouraged that you set up a [WordPress.org slack profile](https://make.wordpress.org/chat/). After you do so, you can participate in more community efforts including the twice per month new contributor meeting in [#core](https://make.wordpress.org/core/tag/core/). You can find all the meetings listed [here](https://make.wordpress.org/meetings/). Hope to see you there!
 -->
 
-詳しく取り組む前に、[コアコントリビューターハンドブック](https://make.wordpress.org/core/handbook/)の残りの部分を見直すとよいでしょう。特に、[ローカル環境のセットアップ](https://make.wordpress.org/core/handbook/#tutorials-guides)に関するチュートリアルが役に立つかもしれません。ハンドブックの残りの部分で共有されていることの多くは、ここで共有されていることの基礎となるものです。これとは別に、より直接的に楽しく参加するために、[WordPress.org Slack プロフィール](https://make.wordpress.org/chat/)を設定することを強くおすすめします。そうすれば、[#core](https://make.wordpress.org/core/tag/core/) で月に2回開催される新しい貢献者のミーティングを含む、より多くのコミュニティ活動に参加できます。すべてのミーティングのリストは[こちら](https://make.wordpress.org/meetings/)で確認できます。そこでお会いできることを楽しみにしています !
+このページを読む前に、[コアコントリビューターハンドブック](https://make.wordpress.org/core/handbook/)の残りの部分を見直すとよいでしょう。特に、[ローカル環境のセットアップ](https://make.wordpress.org/core/handbook/#tutorials-guides)に関するチュートリアルが役に立つかもしれません。ハンドブックの残りの部分で共有されていることの多くは、ここで共有されていることの基礎となるものです。これとは別に、より直接的に楽しく参加するために、[WordPress.org Slack プロフィール](https://make.wordpress.org/chat/)を設定することを強くおすすめします。そして、[#core](https://make.wordpress.org/core/tag/core/) で月に2回開催される新しい貢献者のミーティングを含む、より多くのコミュニティ活動に参加しましょう。すべてのミーティングのリストは[こちら](https://make.wordpress.org/meetings/)で確認できます。そこでお会いできることを楽しみにしています !
 
 <!--
 ## Structure of WordPress.org Development
@@ -94,7 +94,7 @@ Finally, Gutenberg [has two separate teams](https://github.com/WordPress/gutenbe
 These topics are ones that you might find will cause a lot of conversation and differing perspectives. Keep in mind that this doesn’t mean you shouldn’t try to engage with them! This is just a note to help give context for why some topics create more traction than others. This is not an all-encompassing list and is time-dependent based on what’s happening in the project as this is written.
 -->
 
-これらのトピックは、多くの会話や異なる視点を引き起こすものかもしれませんが、そのようなトピックに関わろうとすべきではないということではありません ! これは、なぜあるトピックが他のトピックよりも注目を集めるのか、その背景を説明するためのメモにすぎません。これはすべてを網羅するリストではなく、これを書いている時点でプロジェクトで起こっていることにもとづいて変わっていきます。
+これらのトピックは、多くの会話や異なる視点を引き起こすものかもしれませんが、そのようなトピックは避けるべきだというわけではありません ! これは、なぜあるトピックが他のトピックよりも注目を集めるのか、その背景を説明するためのメモにすぎません。これはすべてを網羅するリストではなく、これを書いている時点でプロジェクトで起こっていることにもとづいて変わっていきます。
 
 <!--
 **Keeping up with Gutenberg and Core**
@@ -112,19 +112,19 @@ Gutenberg の開発は GitHub で行われますが、WordPress コアの開発�
 *Recommendation: depending on how large a change or idea is, remember that you might need to do more to raise awareness and share earlier than you might think to help more people have the chance to be well informed.* 
 -->
 
-**推奨: 変化やアイデアの規模によっては、より多くの人々が十分な情報を得られるように、思っているよりも早く知ってもらったり共有する努力が必要かもしれないことを忘れないでください。**
+**推奨: 変化やアイデアの規模によっては、より多くの人々が十分な情報を得られるように、思っている以上に早く広く知ってもらい、共有する必要があるかもしれません。**
 
 <!--
 **Where does Gutenberg begin and Core start?**
 -->
 
-### Gutenberg とコアはどこから始まりますか ?
+### どこからが Gutenberg の始まりで、どこからが Core の始まりですか ?
 
 <!--
 Because [versions of Gutenberg plugin are included in each WordPress release](https://developer.wordpress.org/block-editor/principles/versions-in-wordpress/) and the editor experience has become quite incorporated into WordPress core, it can be difficult to distinguish between the two. As a result, you might be digging into one area only to find the solution that needs to be implemented elsewhere. Ultimately, keep in mind that Gutenberg is part of WordPress Core so the answer to this specific question is moot.
 -->
 
-[Gutenberg プラグインのバージョンは WordPress の各リリースに含まれ](https://developer.wordpress.org/block-editor/principles/versions-in-wordpress/)、エディター体験は WordPress コアに完全に組み込まれているため、この2つを区別するのは難しいかもしれません。その結果、ある分野を調べているうちに、別の箇所で行うべき解決策が見つかるかもしれません。結局のところ、Gutenberg は WordPress コアの一部であるため、このような質問に対する答えは無意味であることを覚えておいてください。
+[Gutenberg プラグインのバージョンは WordPress の各リリースに含まれ](https://developer.wordpress.org/block-editor/principles/versions-in-wordpress/)、エディター体験は WordPress コアに完全に組み込まれているため、この2つを区別するのは難しいかもしれません。その結果、ある分野を調べているうちに、別の箇所で行うべき解決策が見つかるかもしれません。結局のところ、Gutenberg は WordPress コアの一部であるため、このような質問自体がナンセンスです。
 
 <!--
 **Approaching accessibility (aka a11y)** 
@@ -136,7 +136,7 @@ Because [versions of Gutenberg plugin are included in each WordPress release](ht
 Accessibility is an important part of development within Gutenberg and WordPress. You can find the [WordPress’ accessibility statement here](https://wordpress.org/about/accessibility/) for more context. As you’ll find, [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) are often referenced as a result when it comes to making decisions and it’s recommended you review them. 
 -->
 
-アクセシビリティは、Gutenberg と WordPress の開発において重要な部分です。より詳しい背景については、[こちらの WordPress のアクセシビリティに関する声明](https://wordpress.org/about/accessibility/)を参照してください。見ての通り、[Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) は、意思決定を行うときに結果として参照されることが多く、それらを確認することをおすすめします。
+アクセシビリティは、Gutenberg と WordPress の開発において重要な部分です。より詳しい背景については、[こちらの WordPress のアクセシビリティに関する声明](https://wordpress.org/about/accessibility/)を参照してください。見てわかるように、意思決定を行う際には最終的に [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) を参照することが多いため、こちらも確認されることをおすすめします。
 
 <!--
 Thankfully, there’s an accessibility team that is dedicated to helping share best practices here and to help interpret those guidelines. To get the accessibility team’s attention, there are a11y labels to use as well as [weekly accessibility meetings](https://make.wordpress.org/meetings/) anyone can join. When in doubt, it’s best to flag items for review as a11y at large in the wider tech industry is typically sidelined and it’s important to include the team early.
@@ -184,7 +184,7 @@ On the flip side, if you’re doing this as a volunteer, remember to be kind to 
 What follows is a purposefully incomplete list that focuses mainly on the key slack channels you might find helpful. Feel free to explore more!
 -->
 
-以下は、主に役立つと思われる Slack チャンネルに焦点を当てたリストです。意図的に不完全なリストとなっているため、もっと自由に探してみてください !
+以下は有用と思われる主な Slack チャンネルのリストです。意図的に不完全なリストとなっているため、もっと自由に探してみてください !
 
 <!--
 [#accessibility](https://make.wordpress.org/core/tag/accessibility/): for discussion accessibility related items. 
@@ -206,7 +206,7 @@ What follows is a purposefully incomplete list that focuses mainly on the key sl
 *   [#core](https://make.wordpress.org/core/tag/core/): WordPress コアについて議論する場所です。
 *   [#core-editor](https://make.wordpress.org/core/tag/core-editor/): ブロックエディター、通称 Gutenberg について議論する場所です。
 *   [#core-js](https://make.wordpress.org/core/tag/core-js/): WordPress の JS に関するすべてのことについて議論する場所です。
-*   [#docs](https://make.wordpress.org/core/tag/docs/): 開発者ドキュメントを含むドキュメントの取り組みについて議論し、取り組むための場所です。
+*   [#docs](https://make.wordpress.org/core/tag/docs/): 開発者ドキュメントを含むドキュメントについて議論し、取り組むための場所です。
 *   [#design](https://make.wordpress.org/core/tag/design/): デザインに関連する項目について議論する場所です。
 *   [#core-themes](https://make.wordpress.org/core/tag/core-themes/): ブロックベースのテーマを含むテーマについて議論する場所です。
 
@@ -240,7 +240,7 @@ Make ブログは、WordPress に関わるチームを中心に構築された�
 Like with any WordPress site, you can review specific tags to help narrow down information particularly on busier sites like Make Core:
 -->
 
-他の WordPress サイトと同様に、特に Make Core のような頻繁に更新されるサイトでは、特定のタグを確認して情報を絞り込むことができます。
+他の WordPress サイトと同様に、特に Make Core のような頻繁に更新されるサイトでは、特定のタグを使用して情報を絞り込むことができます。
 
 <!--
 *   Core chats: [https://make.wordpress.org/core/tag/dev-chat/](https://make.wordpress.org/core/tag/dev-chat/)
@@ -262,7 +262,7 @@ Like with any WordPress site, you can review specific tags to help narrow down i
 These communication pathways start from the smallest action to increasingly more attention bringing steps you can take. These should help you figure out what “tools are in your toolbox” and how best to go about implementing ideas/proposals. 
 -->
 
-これらのコミュニケーションの手段は、小さな行動から始まり、あなたが取ることのできる、より多くの注目を集めるステップへと進みます。これらは、「コミュニケーションをとるためにどのような方法があるのか」、そしてどのようにアイデアや提案を実行することベストかを考える助けになるはずです。
+ここで紹介するコミュニケーション手段は、あなたが取れる小さな行動に始まり、徐々により多くの注目を集めるステップへと進みます。これらはコミュニケーションにどのような手段があるのかを知り、アイデアや提案の実装にどの手段がベストかを考える助けになるはずです。
 
 <!--
 If in doubt, feel free to ask first in [#core](https://make.wordpress.org/core/tag/core/) or [#core-editor](https://make.wordpress.org/core/tag/core-editor/) for advice. 
@@ -305,7 +305,7 @@ There might be push-back to a solution or idea you propose—try not to take it 
 If you have an initial idea or question, sharing in WordPress.org slack channels can be a good place to start. Sometimes this isn’t necessary, and you can go straight to [GitHub](https://github.com/wordpress/gutenberg/) or [Trac](https://make.wordpress.org/core/reports/) though! 
 -->
 
-最初のアイデアや質問がある場合は、WordPress.org の Slack チャンネルで共有することからはじめると良いでしょう。場合によってはその必要はなく、[GitHub](https://github.com/wordpress/gutenberg/) や [Trac](https://make.wordpress.org/core/reports/) に直接アクセスすることもできます !
+アイデアや質問がある場合は、WordPress.org の Slack チャンネルで共有することからはじめると良いでしょう。場合によってはその必要はなく、[GitHub](https://github.com/wordpress/gutenberg/) や [Trac](https://make.wordpress.org/core/reports/) に直接アクセスすることもできます !
 
 <!--
 **Create a GitHub or Trac issue**
@@ -317,7 +317,7 @@ If you have an initial idea or question, sharing in WordPress.org slack channels
 Remember that it often helps to share a [Trac](https://core.trac.wordpress.org/) or [GitHub](https://github.com/wordpress/gutenberg/issues) issue first before potentially offering a PR. Generally speaking, opening an issue is best for more practical explorations on short term items. Keep in mind that if you need to, you can get wider attention using the following handles in GitHub to alert people (use sparingly):
 -->
 
-プルリクエストを提出する前に、[Trac](https://core.trac.wordpress.org/) や [GitHub](https://github.com/wordpress/gutenberg/issues) で問題を共有すると役に立つことが多いことに注意してください。一般的に、issue を発行するのは短期的な項目についてより実践的に調査することに適しています。もし必要であれば、GitHub の以下のハンドルネームを使うことで、より多くの人の注目を集めることができることを覚えておいてください (使用は控えめにしてください):
+プルリクエストを提出する前に、[Trac](https://core.trac.wordpress.org/) や [GitHub](https://github.com/wordpress/gutenberg/issues) で問題を共有すると役に立つことが多いことに注意してください。一般的に、短期間で修正可能な問題に対して、より実践的な調査が必要な場合は、issue を開くことがベストです。もし必要であれば、GitHub の以下のハンドルネームを使うことで、より多くの人の注目を集めることができることを覚えておいてください (使用は控えめにしてください):
 
 <!--
 *   Alert the Gutenberg Development Team: @WordPress/gutenberg 
@@ -357,7 +357,7 @@ The meeting schedule can be found [here](https://make.wordpress.org/meetings/) a
 Writing blog posts on your personal site is an effective way to get attention on new ideas within the community. The one catch to this is that there needs to be some level of distribution. Generally speaking, personal posts are best for big picture explorations/thoughts or more simplistic demos. Here are two good examples: [BlockBook](https://riad.blog/2020/07/22/introducing-blockbook-for-wordpress/) and [Collaborative Editing](https://riad.blog/2020/06/11/write-as-blocks-in-an-encrypted-collaborative-environment/).  
 -->
 
-個人サイトにブログ記事を書くことは、コミュニティ内で新しいアイデアに注目してもらうための効果的な方法です。ただし、これにはある程度のレベルの分散が必要であるという点が一つあります。一般的に、個人的な投稿は全体像の探求や考察、またはより単純なデモに最適です。ここに2つの良い例があります:  [BlockBook](https://riad.blog/2020/07/22/introducing-blockbook-for-wordpress/) と [Collaborative Editing](https://riad.blog/2020/06/11/write-as-blocks-in-an-encrypted-collaborative-environment/)です。
+個人サイトにブログ記事を書くことは、コミュニティ内で新しいアイデアに注目してもらうための効果的な方法です。ただしブログは欠点として、ある程度の拡散が必要です。一般的に、個人的な投稿は全体像の探求や考察、またはより単純なデモに最適です。ここに2つの良い例があります:  [BlockBook](https://riad.blog/2020/07/22/introducing-blockbook-for-wordpress/) と [Collaborative Editing](https://riad.blog/2020/06/11/write-as-blocks-in-an-encrypted-collaborative-environment/)です。
 
 <!--
 **If Gutenberg related, include in** [**What’s Next**](https://make.wordpress.org/core/tag/gutenberg-next/) **in Gutenberg posts**
@@ -375,7 +375,7 @@ These monthly posts are designed to set the framework for the next month but the
 “[@epiqueras](https://profiles.wordpress.org/epiqueras/) recently broke down all template tags alongside their block equivalent to lay the groundwork for Full Site Editing:  “The idea is for everyone in the community, especially those very familiar with traditional theme development, to contribute to this list. There might be things we are missing. There might be things we could lose.” Please check out [this overall issue](https://github.com/WordPress/gutenberg/issues/22724) and share what might be missing.” 
 -->
 
-「[@epiqueras](https://profiles.wordpress.org/epiqueras/) は最近、フルサイト編集の基礎を築くために、すべてのテンプレートタグをブロックに相当するものに分解しました:『このアイデアは、コミュニティのすべての人、特に従来のなテーマ開発に精通している人がこのリストに貢献するを目的としています。私たちが見逃しているものがあるかもしれません。失うものもあるかもしれません。』[この全体的な issue](https://github.com/WordPress/gutenberg/issues/22724) をチェックして、不足している可能性のあるものを共有してください。」
+「[@epiqueras](https://profiles.wordpress.org/epiqueras/) は最近、フルサイト編集の基礎を築くために、すべてのテンプレートタグをブロックに相当するものに分解しました:『このアイデアは、コミュニティのすべての人、特に従来のテーマ開発に精通している人がこのリストに貢献することを目的としています。私たちが見逃しているものがあるかもしれません。失うものもあるかもしれません。』[この全体的な issue](https://github.com/WordPress/gutenberg/issues/22724) をチェックして、不足している可能性のあるものを共有してください。」
 
 <!--
 If you’re wanting an issue to be included, ping in [#core-editor](https://make.wordpress.org/core/tag/core-editor/) with context for why. Keep in mind these happen only once per month so if it’s more time sensitive it’s best to use a different pathway.  
@@ -393,7 +393,7 @@ issue を含めてほしい場合は、その理由を [#core-editor](https://ma
 The Make Blog network is where asynchronous discussions, meeting notes, agendas, and ideas are shared. Generally speaking, it’s best to post here for big picture content that has built in team consensus or for things like [Dev Notes](https://make.wordpress.org/core/tag/dev-notes/) before major releases. Keep in mind that you’ll either need to get proper access to these sites or have someone with access to post for you. To get access, you’ll want to ask in the relevant team’s slack channel and explain why you’d like to be granted the ability to post. It’s also expected and commonplace that you’ll have someone review your post before publishing. When in doubt, feel free to share in [#core](https://make.wordpress.org/core/tag/core/) or [#core-editor](https://make.wordpress.org/core/tag/core-editor/) for a review. 
 -->
 
-Make ブログネットワークでは、非同期のディスカッション、ミーティングのメモ、要約、アイデアが共有されます。一般的に、チームの合意が得られた内容の全体像や、メジャーリリース前の[開発者ノート](https://make.wordpress.org/core/tag/dev-notes/)のようなものはここに投稿することがベストです。これらのサイトにアクセスするための適切なアクセス権を持っているか、アクセス権を持つ人に投稿をしてもらう必要があることに注意してください。アクセス権を得るには、関連するチームの Slack チャンネルで質問し、その理由を説明してください。また、投稿を公開する前に誰かにレビューしてもらうこともよくあります。疑問がある場合は、レビューのために [#core](https://make.wordpress.org/core/tag/core/) または [#core-editor](https://make.wordpress.org/core/tag/core-editor/) で遠慮なく共有してください。
+Make ブログネットワークでは、非同期のディスカッション、ミーティングのメモ、要約、アイデアが共有されます。一般的に、チームの合意が得られた内容の全体像や、メジャーリリース前の[開発者ノート](https://make.wordpress.org/core/tag/dev-notes/)のようなものはここに投稿することがベストです。これらのサイトにアクセスするための適切なアクセス権を持っているか、アクセス権を持つ人に投稿をしてもらう必要があることに注意してください。アクセス権を得るには、関連するチームの Slack チャンネルで質問し、その理由を説明してください。また、投稿を公開する前にはもちろん誰かのレビューが必要です。疑問がある場合は、レビューのために [#core](https://make.wordpress.org/core/tag/core/) または [#core-editor](https://make.wordpress.org/core/tag/core-editor/) で遠慮なく共有してください。
 
 <!--
 **Share at a WordCamp**
@@ -405,19 +405,19 @@ Make ブログネットワークでは、非同期のディスカッション、
 Similar to WPTavern or Post Status articles, WordCamps are ideal for larger, longer term efforts. A great example of this was around the initial Gutenberg launch and how much effort was put into sharing information about Gutenberg at WordCamps. [With each phase of Gutenberg](https://wordpress.org/about/roadmap/), more effort will need to be made to continue to help pave the way for adoption and acceptance. 
 -->
 
-WPTavern や Post Status の記事と同様に、WordCamp は大規模で長期的な取り組みに最適です。その良い例が Gutenberg の最初のローンチであり、WordCamp で Gutenberg に関する情報を共有するために多大な労力が費やされたことです。[Gutenberg の各フェーズ](https://wordpress.org/about/roadmap/)では、受け入れてもらうための道を開くために、さらなる努力が必要となります。
+WPTavern や Post Status の記事と同様に、WordCamp は大規模で長期的な取り組みに最適です。その良い例が Gutenberg の最初のローンチであり、WordCamp で Gutenberg に関する情報を共有するために多大な労力が費やされました。[Gutenberg の各フェーズ](https://wordpress.org/about/roadmap/)も、採択や受け入れの道を開き続けるには、さらなる努力が必要でしょう。
 
 <!--
 ## Situationals
 -->
 
-## コミュニケーションの状況
+## コミュニケーション手段の実践
 
 <!--
 To help put the above communication pathways into practice and provide clarity, the following section contains example situationals. Remember that there’s a ton of nuances and it never hurts to have a second opinion! Feel free to ask in [#core](https://make.wordpress.org/core/tag/core/) or [#core-editor](https://make.wordpress.org/core/tag/core-editor/) for advice. 
 -->
 
-上記のコミュニケーション手段を実践し、明確にするために、以下のセクションに状況の例を示します。ニュアンスは千差万別であり、セカンドオピニオンを持つことは決して損にはならないことを覚えておいてください ! [#core](https://make.wordpress.org/core/tag/core/) や [#core-editor](https://make.wordpress.org/core/tag/core-editor/)で気軽に質問してください。
+上のコミュニケーション手段を実践し、明確にするために、以下のセクションではシチュエーション別の適用例を紹介します。ニュアンスは千差万別であり、セカンドオピニオンを持つことは決して損にはならないことを覚えておいてください ! [#core](https://make.wordpress.org/core/tag/core/) や [#core-editor](https://make.wordpress.org/core/tag/core-editor/)で気軽に質問してください。
 
 <!--
 **Need more attention on an issue**
@@ -450,7 +450,7 @@ To help put the above communication pathways into practice and provide clarity, 
 -->
 
 *   関心を集めるために、最初のアイデアを共有するさまざまなコミュニティのメンバーに DM を送ります。これは、より広く公開する前に、まず内部で行うと役に立つことがよくあります。誰に DM を送ればいいかわからない場合は、[#core-editor](https://make.wordpress.org/core/tag/core-editor/) や [#core](https://make.wordpress.org/core/tag/core/) にアイデアを送ってください。
-*   適切なミーティングのオープンフロアで共有する前に、[GitHub](https://github.com/wordpress/gutenberg/issues) や [Trac](https://core.trac.wordpress.org/) で、そのアイデアを説明する課題を作成します。
+*   適切なミーティングのオープンフロアで共有する前に、[GitHub](https://github.com/wordpress/gutenberg/issues) や [Trac](https://core.trac.wordpress.org/) で、そのアイデアを説明する issue を作成します。
 *   より大規模なアイデアや提案であれば、Make ブログの投稿が最適かもしれません。
 
 <!--
