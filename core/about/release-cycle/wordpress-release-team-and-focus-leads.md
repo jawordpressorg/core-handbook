@@ -667,7 +667,7 @@ The section above outlines the roles for the Release Team rather than the work o
 > [Releasing Major Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
 -->
 
-*   [リリースサイクルの仕組み](https://make.wordpress.org/core/handbook/about/release-cycle/)
-*   [メジャーバージョンのリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
+*   [リリースサイクルの仕組み](https://ja.wordpress.org/team/handbook/core/about/release-cycle/)
+*   [メジャーバージョンのリリース](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/)
 
 

@@ -341,5 +341,5 @@ More information about the settings can be found in the [Settings section of the
 *   [Working with Patches](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)
 -->
 
-*   [Subversion で WordPress をローカルにインストールする](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
-*   [パッチに取り組む](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)
+*   [Subversion で WordPress をローカルにインストールする](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)
+*   [パッチに取り組む](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/)

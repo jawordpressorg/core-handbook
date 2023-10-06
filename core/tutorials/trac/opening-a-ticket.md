@@ -213,7 +213,7 @@ Once the upload is complete, a new comment will be automatically added to the ti
 *   [Submitting A Patch](https://make.wordpress.org/core/handbook/working-with-trac/submitting-a-patch/)
 -->
 
-*   [パッチの提出](https://make.wordpress.org/core/handbook/working-with-trac/submitting-a-patch/)
+*   [パッチの提出](https://ja.wordpress.org/team/handbook/core/working-with-trac/submitting-a-patch/)
 
 <!--
 ### Learn More
@@ -226,5 +226,5 @@ Once the upload is complete, a new comment will be automatically added to the ti
 *   [Trac Workflow Keywords](https://make.wordpress.org/core/handbook/trac/keywords/)
 -->
 
-*   [チケットのプロパティ](https://make.wordpress.org/core/handbook/trac/#ticket-properties)
-*   [Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/trac/keywords/)
+*   [チケットのプロパティ](https://ja.wordpress.org/team/handbook/core/trac/#ticket-properties)
+*   [Trac ワークフローキーワード](https://ja.wordpress.org/team/handbook/core/trac/keywords/)

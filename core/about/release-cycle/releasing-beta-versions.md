@@ -112,7 +112,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   `phpunit --stop-on-failure`
     *   `phpunit --group ajax --stop-on-failure`
     *   `phpunit -c tests/phpunit/multisite.xml --stop-on-failure`
-*   [マイナーリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/)では、そのマイルストーンでクローズされたチケットがすべてリリースにマージされていることを確認してください (`fixed-major` がないチケットを探すことで絞り込めます)。マイナーリリースには、オプションでベータリリースを含めることができます。その判断はリリースリードの裁量に任されています。
+*   [マイナーリリース](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-minor-versions/)では、そのマイルストーンでクローズされたチケットがすべてリリースにマージされていることを確認してください (`fixed-major` がないチケットを探すことで絞り込めます)。マイナーリリースには、オプションでベータリリースを含めることができます。その判断はリリースリードの裁量に任されています。
 *   誰もコミットしようとしないように、[#core](https://make.wordpress.org/core/tag/core/)でアナウンスします。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers Please refrain from committing until we get 4.8-beta2 released.
 *   リリースパーティに参加する人たちに、テストが終わるまでリリースパッケージへのリンクを共有しないよう注意を促してください。
@@ -134,13 +134,13 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   https://build.trac.wordpress.org/ にバージョンバンプが表示されていることを確認します。**これは Mission Control 経由でリリースする人が確認する必要があります**。
 *   パッケージをビルドします。
 
-    *   リリースパッケージは [Mission Control](https://mc.wordpress.org/release/) でビルドする必要があります。パッケージ化されたら、手動でアップデートをテストするなど、十分にテストする必要があります。(その方法は ? [ドキュメント](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/#testing-packages)をチェックしてください)。
+    *   リリースパッケージは [Mission Control](https://mc.wordpress.org/release/) でビルドする必要があります。パッケージ化されたら、手動でアップデートをテストするなど、十分にテストする必要があります。(その方法は ? [ドキュメント](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-minor-versions/#testing-packages)をチェックしてください)。
 
     *   ビルド名を入力しましたか ?
     *   ボタンをクリックしましたか ?
 *   パッケージをテストします。
 
-    *   URL をシェアして[テスト](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/#testing-packages)してもらいます (例: [https://wordpress.org/wordpress-4.9-beta2.zip](https://wordpress.org/wordpress-4.9-beta2.zip))。
+    *   URL をシェアして[テスト](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-minor-versions/#testing-packages)してもらいます (例: [https://wordpress.org/wordpress-4.9-beta2.zip](https://wordpress.org/wordpress-4.9-beta2.zip))。
     *   パッケージをテストするには、3つの方法があります:
         *   [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/) プラグインをインストールし、有効化します
             *   メジャー RC リリースの場合は、`Bleeding edge` チャンネルを選択し、次に `Beta/RC Only` ストリームを選択します。

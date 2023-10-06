@@ -59,7 +59,7 @@ Here are the main tasks:
 *   Keeping an eye on the moving parts of the team to be able to report for quarterly updates ([example](https://make.wordpress.org/updates/2018/04/24/quarterly-updates-q1-2018/))
 -->
 
-* 開発チャットの要約を投稿し、チャットを主催し、それを要約します。[開発チャットの調整に関する詳細はコアハンドブックに掲載されています。](https://make.wordpress.org/core/handbook/tutorials/coordinating-devchat/)
+* 開発チャットの要約を投稿し、チャットを主催し、それを要約します。[開発チャットの調整に関する詳細はコアハンドブックに掲載されています。](https://ja.wordpress.org/team/handbook/core/tutorials/coordinating-devchat/)
 * 定期的なコアチームの要約を書き、[Updates](https://make.wordpress.org/updates) に投稿する。
 * [Week in Review](https://make.wordpress.org/core/tag/week-in-core/) の投稿を書く。
 * 四半期ごとの更新で報告するために、チームの動きに目を配る ([例](https://make.wordpress.org/updates/2018/04/24/quarterly-updates-q1-2018/))
@@ -68,7 +68,7 @@ Here are the main tasks:
 [More details on coordinating devchat are available in the Core handbook.](https://make.wordpress.org/core/handbook/tutorials/coordinating-devchat/)
 -->
 
-[開発チャットの調整に関する詳細は、コアハンドブックに掲載されています。](https://make.wordpress.org/core/handbook/tutorials/coordinating-devchat/)
+[開発チャットの調整に関する詳細は、コアハンドブックに掲載されています。](https://ja.wordpress.org/team/handbook/core/tutorials/coordinating-devchat/)
 
 <!--
 ## Nominating

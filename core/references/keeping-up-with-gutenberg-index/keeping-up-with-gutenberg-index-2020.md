@@ -26,13 +26,13 @@ See *[Explanations](#explanations)* on the bottom.
 [2021 Index](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index-2021)
 -->
 
-[2021 インデックス](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index-2021)
+[2021 インデックス](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index-2021)
 
 <!--
 [2022 Index](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/)
 -->
 
-[2022 インデックス](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/)
+[2022 インデックス](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/)
 
 [June](#2020-06) | [July](#july2020) | [August](#august2020) | [September](#september2020)
 [October](#october2020) |[November](#november2020) | [December](#december2020)

@@ -14,7 +14,7 @@ This initiative follows the [inline docs initiative](https://make.wordpress.org/
 If you’re not familiar with what inline documentation is, read our page [on inline documentation standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/).
 -->
 
-インラインドキュメントとは何かをよく知らない人は、私たちのページである[インラインドキュメントの規格について](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/)を読んでみてください。
+インラインドキュメントとは何かをよく知らない人は、私たちのページである[インラインドキュメントの規格について](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/)を読んでみてください。
 
 <!--
 ## Which JS files should be documented?
@@ -35,8 +35,8 @@ There are three pages tracking JS files for documentation:
 -->
 
 *   [Unclaimed JS docs files](https://make.wordpress.org/core/2018/01/31/js-docs-initiative-add-inline-docs-for-javascript/): これらのファイルをドキュメント化する作業はまだ誰も行っていません。投稿にコメントすることで、ファイルを担当できます。
-*   [進行中の JS ドキュメントファイルのチケット](https://make.wordpress.org/core/handbook/docs/inline/js/in-progress-tickets/): これらのファイルには、ドキュメントを含むパッチがあるか、誰かがドキュメントのパッチを作成する作業しています。
-*   [クローズされた JS ドキュメントファイルのチケット](https://make.wordpress.org/core/handbook/docs/inline/js/closed-tickets/): これらのファイルは、すでにドキュメント化されています。
+*   [進行中の JS ドキュメントファイルのチケット](https://ja.wordpress.org/team/handbook/core/docs/inline/js/in-progress-tickets/): これらのファイルには、ドキュメントを含むパッチがあるか、誰かがドキュメントのパッチを作成する作業しています。
+*   [クローズされた JS ドキュメントファイルのチケット](https://ja.wordpress.org/team/handbook/core/docs/inline/js/closed-tickets/): これらのファイルは、すでにドキュメント化されています。
 
 <!--
 ## How to get involved
@@ -54,19 +54,19 @@ Inline documentation is considered to be “technical” documentation, so some 
 1\. Familiarize yourself with the [JavaScript documentation standard](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/), as well as the [formatting guidelines](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/#formatting-guidelines) and [documenting tips](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/#documenting-tips).
 -->
 
-1\. [JavaScript ドキュメントスタンダート](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/)をはじめ、[書式ガイドライン](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/#formatting-guidelines)や[ドキュメント作成のヒント](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/#documenting-tips)をよく理解してください。
+1\. [JavaScript ドキュメントスタンダート](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/)をはじめ、[書式ガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/php/#formatting-guidelines)や[ドキュメント作成のヒント](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/#documenting-tips)をよく理解してください。
 
 <!--
 2\. Set up a local copy of the developer version of the WordPress codebase using [Varying Vagrant Vagrants](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/) (VVV). WordPress is versioning using SVN, but you can also use Git (the VVV link for how to do that).
 -->
 
-2\. [Varying Vagrant Vagrants](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/) (VVV) を使って、WordPress コードベース開発版のローカルコピーをセットアップします。WordPress は バージョン管理に SVN を使用していますが、Git を使うこともできます (その方法は VVV のリンク先にあります)。
+2\. [Varying Vagrant Vagrants](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/) (VVV) を使って、WordPress コードベース開発版のローカルコピーをセットアップします。WordPress は バージョン管理に SVN を使用していますが、Git を使うこともできます (その方法は VVV のリンク先にあります)。
 
 <!--
 3\. Read [Opening a Ticket](https://make.wordpress.org/core/handbook/working-with-trac/opening-a-ticket/) to learn how to create a Trac ticket.
 -->
 
-3\. Trac チケットの作り方は[チケットを開く](https://make.wordpress.org/core/handbook/working-with-trac/opening-a-ticket/)を読んでください。
+3\. Trac チケットの作り方は[チケットを開く](https://ja.wordpress.org/team/handbook/core/working-with-trac/opening-a-ticket/)を読んでください。
 
 <!--
 4\. Creating patches:
@@ -150,4 +150,4 @@ For any questions, pop by the [#docs](https://wordpress.slack.com/messages/docs/
 *   [JS Documentation Standard](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/)
 -->
 
-*   [JS ドキュメントスタンダード](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/)
+*   [JS ドキュメントスタンダード](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/)

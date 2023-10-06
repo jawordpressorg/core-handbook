@@ -11,13 +11,13 @@
 The [WordPress release cycle](https://make.wordpress.org/core/handbook/about/release-cycle/) has several milestones. Once the release hits Beta status, release parties happen in the [#core](https://wordpress.slack.com/archives/C02RQBWTW) Slack channel. These parties step through the various release tasks required to create a public release.
 -->
 
-[WordPress のリリースサイクル](https://make.wordpress.org/core/handbook/about/release-cycle/)にはいくつかのマイルストーンがあります。リリースがベータステータスになると、[#core](https://wordpress.slack.com/archives/C02RQBWTW) Slack チャンネルでリリースパーティが行われます。これらのパーティは、公開リリースを作成するために必要なさまざまなリリースタスクを段階的に進めていきます。
+[WordPress のリリースサイクル](https://ja.wordpress.org/team/handbook/core/about/release-cycle/)にはいくつかのマイルストーンがあります。リリースがベータステータスになると、[#core](https://wordpress.slack.com/archives/C02RQBWTW) Slack チャンネルでリリースパーティが行われます。これらのパーティは、公開リリースを作成するために必要なさまざまなリリースタスクを段階的に進めていきます。
 
 <!--
 A more technical Handbook page about the process for [Releasing Beta Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) has technical instructions for committers and Mission Control. This page exists as a guide for the host, or “emcee”, of release parties, and it omits most of the technical detail that’s not needed to facilitate the release process itself.
 -->
 
-[ベータ版のリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/)のプロセスについてのより技術的なハンドブックページには、コミッターとミッションコントロールのための技術的な手順が記載されています。このページはリリースパーティのホスト、つまり「司会者」のためのガイドとして存在しており、リリースプロセスそのものを促進するために必要でない技術的な詳細のほとんどは省略されています。
+[ベータ版のリリース](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-beta-versions/)のプロセスについてのより技術的なハンドブックページには、コミッターとミッションコントロールのための技術的な手順が記載されています。このページはリリースパーティのホスト、つまり「司会者」のためのガイドとして存在しており、リリースプロセスそのものを促進するために必要でない技術的な詳細のほとんどは省略されています。
 
 <!--
 This page should be updated as processes are improved after receiving feedback from contributors.
@@ -46,7 +46,7 @@ Note: Some or all of these roles may be performed by the same contributor, depen
 -->
 
 *   **パーティのホスト** (この文書では `@emcee`)。通常、これはリリースコーディネーターの一人です。リリースコーディネーターが不在の場合は、リリースチームからの誰かがその役割を果たすことができます。最後の手段として、現在のチームのメンバーではない信頼できる貢献者がその役割を担うこともできます。
-*   **コアコミッター** (`@corecommitter`)。この貢献者は「バージョンアップ」アクションを実行します。現在のコアコミッターのリストは[ここ](https://make.wordpress.org/core/handbook/about/organization/#committers)にあります。
+*   **コアコミッター** (`@corecommitter`)。この貢献者は「バージョンアップ」アクションを実行します。現在のコアコミッターのリストは[ここ](https://ja.wordpress.org/team/handbook/core/about/organization/#committers)にあります。
 *   **セキュリティチームのメンバー** (`@securityteammember`)。この貢献者は、リリースされる最新のコードセットが非公開のセキュリティテストに合格していることを確認します。
 *   **ミッションコントロールのアクセス権を持つ人** (`@mcpilot`)。このレベルのアクセス権を持つ貢献者は、リリースをパッケージ化し、ナイトリーを更新するために必要です。このアクセス権を持つアクティブな貢献者のリストは非常に少ないので、前もってこの役割を果たす人を見つけておくことが重要です。
 *   **マーケティングチームのメンバー、またはマーケティングリリースリード** (`@marketingteamember`)。リリースアナウンスの投稿を下書きする担当者。

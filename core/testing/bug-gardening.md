@@ -8,13 +8,13 @@
 Not only is it important to [beta test](https://make.wordpress.org/core/handbook/testing/beta/) point release and bleeding edge WordPress nightly builds, but it’s also important to test and confirm reported bugs, and test patches submitted for possible inclusion to WordPress before they ever make it into the nightly builds. This job is mostly handled by volunteers (such as yourself) that serve as **bug gardeners**.
 -->
 
-[ベータテスト](https://make.wordpress.org/core/handbook/testing/beta/)ポイントリリースや最先端の WordPress ナイトリービルドだけでなく、報告されたバグのテストや確認、WordPress に組み込まれる可能性のあるパッチをナイトリービルドに組み込まれる前にテストすることも重要です。この仕事は、**バグを修正する人**として働く (あなたのような) ボランティアによって主に処理されます。
+[ベータテスト](https://ja.wordpress.org/team/handbook/core/testing/beta/)ポイントリリースや最先端の WordPress ナイトリービルドだけでなく、報告されたバグのテストや確認、WordPress に組み込まれる可能性のあるパッチをナイトリービルドに組み込まれる前にテストすることも重要です。この仕事は、**バグを修正する人**として働く (あなたのような) ボランティアによって主に処理されます。
 
 <!--
 The [bug tracker](https://make.wordpress.org/core/handbook/trac/) contains numerous, wildly different [workflows](https://make.wordpress.org/core/handbook/trac/keywords/) through which all types of reported bugs, enhancements, new features, and various tasks are handled by reporters, gardeners, developers, and committers. It can be incredibly confusing trying to grasp the big picture all at once, but you don’t have to.
 -->
 
-[バグトラッカー](https://make.wordpress.org/core/handbook/trac/)には、報告者、修正する人、開発者、コミッターによって処理される、報告されたあらゆる種類のバグ、機能強化、新機能、およびさまざまなタスクなどの多種多様な[ワークフロー](https://make.wordpress.org/core/handbook/trac/keywords/)が含まれています。全体像を一度に把握しようとすると非常に混乱するかもしれませんが、その必要はありません。
+[バグトラッカー](https://ja.wordpress.org/team/handbook/core/trac/)には、報告者、修正する人、開発者、コミッターによって処理される、報告されたあらゆる種類のバグ、機能強化、新機能、およびさまざまなタスクなどの多種多様な[ワークフロー](https://ja.wordpress.org/team/handbook/core/trac/keywords/)が含まれています。全体像を一度に把握しようとすると非常に混乱するかもしれませんが、その必要はありません。
 
 <!--
 If you are new to the bug tracker and want to help out, here’s how you can get started with your first simple workflow. Once you have spent some time in this workflow, the rest of the tracker will become much more familiar, and you can feel confident in exploring other areas of Trac that also need help.
@@ -80,7 +80,7 @@ The first step required for any of the tickets in this report is to ensure that 
 Since new tickets are assigned to the **Awaiting Review** milestone by default, this report will include completely fresh issues, assuming the reporter attached a patch and added the **has-patch** keyword properly upon submission. Some of these tickets have not been through an initial review to ensure it was submitted with the proper issue type, component, and keywords. The documentation on the [ticket properties](https://make.wordpress.org/core/handbook/trac/#ticket-properties) should help clarify exactly which values the ticket type and component should be set as, and what keywords the ticket should have.
 -->
 
-新しいチケットはデフォルトで **Awaiting Review** マイルストーンに割り当てられるため、報告者がパッチを添付し、**has-patch** キーワードを適切に追加して提出したと仮定すると、このレポートには完全に新しい問題が含まれます。これらのチケットの中には、適切な issue タイプ、コンポーネント、キーワードで提出されたことを確認するための初期レビューが行われていないものがあります。[チケットプロパティ](https://make.wordpress.org/core/handbook/trac/#ticket-properties)のドキュメントは、チケットの種類とコンポーネントがどのような値に設定されるべきか、そしてチケットがどのようなキーワードを持つべきかを明確にするために役立つはずです。
+新しいチケットはデフォルトで **Awaiting Review** マイルストーンに割り当てられるため、報告者がパッチを添付し、**has-patch** キーワードを適切に追加して提出したと仮定すると、このレポートには完全に新しい問題が含まれます。これらのチケットの中には、適切な issue タイプ、コンポーネント、キーワードで提出されたことを確認するための初期レビューが行われていないものがあります。[チケットプロパティ](https://ja.wordpress.org/team/handbook/core/trac/#ticket-properties)のドキュメントは、チケットの種類とコンポーネントがどのような値に設定されるべきか、そしてチケットがどのようなキーワードを持つべきかを明確にするために役立つはずです。
 
 <!--
 Considering what is involved for new tickets to be included in this report, the reporters submitting tickets listed here usually have a fairly good feel for the ticket properties and how they should be set. However, this is one of those exceptions to the rule – you will need to be much more critical of this in other workflows.
@@ -110,7 +110,7 @@ If the ticket is actually a bug, you need to confirm that the reported bug is, i
 You should always test for the bug using a [SVN trunk](https://make.wordpress.org/core/handbook/svn/) checkout of WordPress. In the rare cases of critical bugs and regressions, then you should also test for the bug in the latest stable release of WordPress too.
 -->
 
-常に、WordPress の [SVN trunk](https://make.wordpress.org/core/handbook/svn/) チェックアウトを使用してバグをテストする必要があります。まれに重大なバグやリグレッションが発生する場合は、WordPress の最新の安定版リリースでもバグをテストしてください。
+常に、WordPress の [SVN trunk](https://ja.wordpress.org/team/handbook/core/svn/) チェックアウトを使用してバグをテストする必要があります。まれに重大なバグやリグレッションが発生する場合は、WordPress の最新の安定版リリースでもバグをテストしてください。
 
 <!--
 Remember that it’s possible the bug only exhibits itself under specific versions of PHP, MySQL, browsers, and/or certain WordPress settings (i.e. multisite, roles/capabilities, different plugins/themes).
@@ -144,7 +144,7 @@ If you were able to reproduce the bug, then it is time to confirm the patch. Don
 [Download and apply the suggested patch](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) to the same installation you were able to confirm the bug on. Sometimes a ticket will have multiple patches attached, and, if so, usually only the latest suggested patch needs testing; however, you might need to test the other patches too, if they haven’t been tested.
 -->
 
-あなたがバグを確認できた同じインストール環境に、[提案されたパッチをダウンロードして適用](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt)します。チケットに複数のパッチが添付されていることがありますが、その場合、通常は最新の提案されたパッチだけをテストする必要があります。ただし、他のパッチがテストされていない場合は、それらもテストする必要がある場合があります。
+あなたがバグを確認できた同じインストール環境に、[提案されたパッチをダウンロードして適用](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt)します。チケットに複数のパッチが添付されていることがありますが、その場合、通常は最新の提案されたパッチだけをテストする必要があります。ただし、他のパッチがテストされていない場合は、それらもテストする必要がある場合があります。
 
 <!--
 If any of the following conditions apply, remove the **has-patch** keyword, and add the **needs-patch** keyword:
@@ -161,10 +161,10 @@ If any of the following conditions apply, remove the **has-patch** keyword, and 
 *   The patch is not adequate for any other reason not covered here. We strive for legible, efficient, and secure code in WordPress, so don’t be afraid to point out areas of a patch that should be improved, even if it does actually fix the bug.
 -->
 
-*   パッチが適切に適用されないか、[コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に従っていない。この場合、**needs-refresh** キーワードを追加してください。
+*   パッチが適切に適用されないか、[コーディング規約](https://ja.wordpress.org/team/handbook/core/coding-standards/)に従っていない。この場合、**needs-refresh** キーワードを追加してください。
 *   パッチがバグを修正しない。これは当然のことのように思えますが、WordPress の開発バージョン用に書かれたものではないパッチでも、変更された箇所にはきちんと適用されることがあります。パッチは特定のバージョンの PHP と MySQL でのみバグを修正するかもしれませんし、マルチサイトではバグを修正しないかもしれません。
 *   パッチによって新しいエラーや警告メッセージが発生する。デバッグを有効にしてテストすることを忘れないでください。
-*   パッチが適用されると、新しい[ユニットテスト](https://make.wordpress.org/core/handbook/automated-testing/)が失敗する。
+*   パッチが適用されると、新しい[ユニットテスト](https://ja.wordpress.org/team/handbook/core/automated-testing/)が失敗する。
 *   パッチが適切な[データ検証と出力のサニタイズ](https://codex.wordpress.org/Data_Validation)を使っていないか、ユーザーの種類と権限をチェックすべきときにチェックをしていない。
 *   パッチが、ここで説明されていないその他の理由により適切ではない。私たちは、WordPress において読みやすく、効率的で安全なコードを目指しています。そのため、たとえ実際にバグが修正されていたとしても、パッチの改善すべき点を指摘することを恐れないでください。
 

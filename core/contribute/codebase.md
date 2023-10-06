@@ -24,7 +24,7 @@ WordPress のコードベースには、Subversion、Git、Trac (バグトラッ
 -->
 
 *   **Subversion:** リポジトリは [https://develop.svn.wordpress.org/](https://develop.svn.wordpress.org/) にあります。メインの開発ブランチ (trunk と呼ばれます) は [https://develop.svn.wordpress.org/trunk](https://develop.svn.wordpress.org/trunk) にあります。
-*   **Git:** リポジトリは `git://develop.git.wordpress.org/` にあります。また、[Github 上の WordPress リポジトリのミラー](https://github.com/wordpress/wordpress)もあります。GitHub でのプルリクエストは歓迎されますが、プルリクエストが他の貢献者に確実に見えるように、[GitHub によるコードレビューガイド](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) に従ってください。
+*   **Git:** リポジトリは `git://develop.git.wordpress.org/` にあります。また、[Github 上の WordPress リポジトリのミラー](https://github.com/wordpress/wordpress)もあります。GitHub でのプルリクエストは歓迎されますが、プルリクエストが他の貢献者に確実に見えるように、[GitHub によるコードレビューガイド](https://ja.wordpress.org/team/handbook/core/contribute/git/github-pull-requests-for-code-review/) に従ってください。
 *   **Trac:** リポジトリは [https://core.trac.wordpress.org/browser/](https://core.trac.wordpress.org/browser/) でブラウザから見ることができます。変更点のログは [https://core.trac.wordpress.org/log/](https://core.trac.wordpress.org/log/) で見ることができます。
 *   **ダウンロード:** WordPress の最新安定版は、[https://wordpress.org/latest.zip](https://wordpress.org/latest.zip) でダウンロードできます。最新のナイトリービルド (2300 GMT) は、[https://wordpress.org/nightly-builds/wordpress-latest.zip](https://wordpress.org/nightly-builds/wordpress-latest.zip) で確認できます。
 
@@ -160,7 +160,7 @@ Core committers do not make changes to WordPress lightly, and commits should nev
 Note: To learn more about code history, read the section on [Researching Code History With Subversion Annotate](https://make.wordpress.org/core/handbook/svn/code-history/).
 -->
 
-備考: コードの履歴についてもっと知りたい方は、[コードの履歴を調べる](https://make.wordpress.org/core/handbook/svn/code-history/)のセクションを参考にしてください。
+備考: コードの履歴についてもっと知りたい方は、[コードの履歴を調べる](https://ja.wordpress.org/team/handbook/core/svn/code-history/)のセクションを参考にしてください。
 
 <!--
 ## Installation

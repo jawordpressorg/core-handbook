@@ -310,5 +310,5 @@ MAMP をシャットダウンするには、**Stop Servers をクリック**し�
 *   [Installing WordPress Via SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 -->
 
-*   [Zip ファイルからのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-zip/)
-*   [SVN によるインストール](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
+*   [Zip ファイルからのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-zip/)
+*   [SVN によるインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)

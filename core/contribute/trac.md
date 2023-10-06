@@ -56,13 +56,13 @@ Tickets are assigned numerous properties that provide a snapshot of the status o
 **Milestone:** The milestone is the WordPress release where that ticket is expected to be resolved, such as 3.7. By default, all tickets are assigned, upon creation, to the **Awaiting Review** milestone to prevent [scope creep](https://make.wordpress.org/core/glossary/#scope-creep). Only [committers](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or [trusted core contributors](https://make.wordpress.org/core/handbook/about/organization/#contributing-developers) have the ability to change milestones.
 -->
 
-**Milestone:** マイルストーンは、そのチケットが解決されると予想される WordPress のリリースで、たとえば3.7などです。デフォルトでは、[スコープクリープ](https://make.wordpress.org/core/glossary/#scope-creep) を防止するために、すべてのチケットは作成時に **Awaiting Review** マイルストーンに割り当てられます。マイルストーンを変更できるのは、[コミッター](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) または [信頼できるコア貢献者](https://make.wordpress.org/core/handbook/about/organization/#contributing-developers) のみです。
+**Milestone:** マイルストーンは、そのチケットが解決されると予想される WordPress のリリースで、たとえば3.7などです。デフォルトでは、[スコープクリープ](https://make.wordpress.org/core/glossary/#scope-creep) を防止するために、すべてのチケットは作成時に **Awaiting Review** マイルストーンに割り当てられます。マイルストーンを変更できるのは、[コミッター](https://ja.wordpress.org/team/handbook/core/about/organization/#the-wordpress-core-team) または [信頼できるコア貢献者](https://ja.wordpress.org/team/handbook/core/about/organization/#contributing-developers) のみです。
 
 <!--
 **Keywords:** After the milestone, the keywords field is the most important field. These are not like tags on a WordPress post, but rather a defined list of keywords that describe the ticket’s current status in our development workflow. We use these keywords to build important reports. As an example, tickets tagged with **needs-design-feedback** are pulled into a report on which the Design team heavily relies. See [Trac Workflow Keywords](https://make.wordpress.org/core/handbook/trac/keywords/) for a complete list of the keywords.
 -->
 
-**Keywords:** マイルストーンに続いて、キーワードフィールドは最も重要なフィールドです。これらは WordPress の投稿タグのようなものではなく、私たちの開発ワークフローにおけるチケットの現在の状態を説明するキーワードの定義リストです。私たちはこれらのキーワードを使用して、重要なレポートを作成します。たとえば、**needs-design-feedback** とタグ付けされたチケットは、デザインチームが大きく依存しているレポートに取り込まれます。キーワードの完全なリストは [Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/trac/keywords/) を参照してください。
+**Keywords:** マイルストーンに続いて、キーワードフィールドは最も重要なフィールドです。これらは WordPress の投稿タグのようなものではなく、私たちの開発ワークフローにおけるチケットの現在の状態を説明するキーワードの定義リストです。私たちはこれらのキーワードを使用して、重要なレポートを作成します。たとえば、**needs-design-feedback** とタグ付けされたチケットは、デザインチームが大きく依存しているレポートに取り込まれます。キーワードの完全なリストは [Trac ワークフローキーワード](https://ja.wordpress.org/team/handbook/core/trac/keywords/) を参照してください。
 
 <!--
 **Component:** The component is the area of WordPress that the ticket affects. The UI team, for example, will often be working on tickets in the **Graphic Design**, **UI**, or **Accessibility** categories. Try to choose specific components (when applicable) over more generalized ones, such as **General** or **Administration**. Components are used in reports to provide a logical grouping of tickets by subject area.
@@ -114,7 +114,7 @@ There is certainly some overlap among these five resolutions. It is not an exact
 **Severity and Priority:** The [severity](https://make.wordpress.org/core/glossary/#severity) is the seriousness of the ticket in the eyes of the reporter. The [priority](https://make.wordpress.org/core/glossary/#priority-bug-tracker) is the seriousness of the ticket in the eyes of the project. Generally, severity is a judgment of how bad a bug is, while priority is its relationship to other bugs. Only [committers](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) and [trusted core contributors](https://make.wordpress.org/core/handbook/about/organization/#contributing-developers) have the ability to modify the priority.
 -->
 
-**Severity and Priority:** [Severity](https://make.wordpress.org/core/glossary/#severity) は報告者の目から見たチケットの重要度です。[Priority](https://make.wordpress.org/core/glossary/#priority-bug-tracker) はプロジェクト全体から見たチケットの優先度です。一般的に、重要度はバグがどの程度悪いかを判断するためのものであり、優先度は他のバグとの関係です。優先度を変更できるのは[コミッター](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team)と[信頼されたコア貢献者](https://make.wordpress.org/core/handbook/about/organization/#contributing-developers) だけです。
+**Severity and Priority:** [Severity](https://make.wordpress.org/core/glossary/#severity) は報告者の目から見たチケットの重要度です。[Priority](https://make.wordpress.org/core/glossary/#priority-bug-tracker) はプロジェクト全体から見たチケットの優先度です。一般的に、重要度はバグがどの程度悪いかを判断するためのものであり、優先度は他のバグとの関係です。優先度を変更できるのは[コミッター](https://ja.wordpress.org/team/handbook/core/about/organization/#the-wordpress-core-team)と[信頼されたコア貢献者](https://ja.wordpress.org/team/handbook/core/about/organization/#contributing-developers) だけです。
 
 <!--
 **Version:** The version of WordPress being used. Ideally, this would be the earliest affected or applicable version. It should not be updated to a later version once set, as we utilize this to track the age of tickets and bugs, regressions, and the like.
@@ -150,7 +150,7 @@ Trac のチケットでは3つの役割が存在します。
 **CC:** As long as your email address is [configured in Trac preferences](https://make.wordpress.org/core/handbook/working-with-trac/opening-a-ticket/#getting-started), you’ll receive email updates for any tickets you’ve created or ones you’ve commented on. The field is generally a visual confirmation you are adding yourself to the ticket and wish to receive updates. From time to time, it may make sense to add other individuals to the CC field, such as when a committer requests this. It should be noted that most committers and core developers read every ticket and comment anyway.
 -->
 
-**CC:** あなたのメールアドレスが [Trac preferences で設定](https://make.wordpress.org/core/handbook/working-with-trac/opening-a-ticket/#getting-started)されていると、あなたが作成したチケットやあなたがコメントしたチケットの更新情報をメールで受け取ることができます。このフィールドは一般的に、あなたがチケットに自分自身を追加し、更新を受け取ることを希望していることを視覚的に確認するためのものです。時々、コミッターから要求された場合など、他の人を CC フィールドに追加することが意味を持つことがあります。ほとんどのコミッターとコア開発者は、すべてのチケットとコメントを読んでいることに注意してください。
+**CC:** あなたのメールアドレスが [Trac preferences で設定](https://ja.wordpress.org/team/handbook/core/working-with-trac/opening-a-ticket/#getting-started)されていると、あなたが作成したチケットやあなたがコメントしたチケットの更新情報をメールで受け取ることができます。このフィールドは一般的に、あなたがチケットに自分自身を追加し、更新を受け取ることを希望していることを視覚的に確認するためのものです。時々、コミッターから要求された場合など、他の人を CC フィールドに追加することが意味を持つことがあります。ほとんどのコミッターとコア開発者は、すべてのチケットとコメントを読んでいることに注意してください。
 
 <!--
 ## Triaging and Punting
@@ -249,9 +249,9 @@ If it has a patch:
 
 *   テストしてみてください - それは問題を解決しますか ? どのようにそれをテストしましたか ? 何か副作用はありましたか ?
 *   パッチがきれいに適用されない場合 (試したときに失敗するような場合) は、**needs-refresh** キーワードを追加してください。
-*   もしあなたが開発者なら、ざっとコードレビューすることを検討してください。それが [WordPress コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に沿っているかどうか確認してください。
+*   もしあなたが開発者なら、ざっとコードレビューすることを検討してください。それが [WordPress コーディング規約](https://ja.wordpress.org/team/handbook/core/coding-standards/)に沿っているかどうか確認してください。
 *   **has-patch** というワークフローキーワードがない場合は、追加してください。また、レビューの結果パッチが十分でないと判断した場合は、代わりに **needs-patch** と設定できます。
-*   もしパッチが WordPress の内部構造に関わっているなら、おそらく[ユニットテスト](https://make.wordpress.org/core/handbook/automated-testing/)が必要でしょう。
+*   もしパッチが WordPress の内部構造に関わっているなら、おそらく[ユニットテスト](https://ja.wordpress.org/team/handbook/core/automated-testing/)が必要でしょう。
 *   パッチがコア開発者がによってレビューされ、WordPress に含めることを検討する準備ができたと感じたら、コメントでそう言ってください。ベータ1までは、現在のマイルストーンに対してパッチを申請できます。ベータ1以降は、**Future Release** と **early** タグを付けてください。
 
 <!--

@@ -32,7 +32,7 @@ There have been many before you, and there will be many after you. While this pa
 It’s worth reading through the [Releasing Minor Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/) handbook page, since many of its points apply to major version releases, too. That’s especially true as you get closer to the release date.
 -->
 
-[マイナーバージョンのリリース](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/)のハンドブックページは一読する価値があります。そのポイントの多くはメジャーバージョンのリリースにも当てはまるからです。リリース日が近付くにつれ、特にそう言えるでしょう。
+[マイナーバージョンのリリース](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-minor-versions/)のハンドブックページは一読する価値があります。そのポイントの多くはメジャーバージョンのリリースにも当てはまるからです。リリース日が近付くにつれ、特にそう言えるでしょう。
 
 <!--
 Once you’ve been appointed lead for a given release, here are some things you should think about or do right away:
@@ -84,7 +84,7 @@ WordPress プロジェクトがグローバルになるにつれ、完璧なリ�
 There are a [number of roles and responsibilities](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/) over the course of a release. In practice, if there’s not a release coordinator for a cycle, a release lead and their deputies act as project managers (and technical project managers) for the entire release cycle. Otherwise, a release coordinator takes on ensuring the various pieces are properly covered by the cohesive release squad.
 -->
 
-リリースの間には[いくつもの役割と責任](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/)があります。実際には、そのサイクルのリリースコーディネーターがいない場合、リリースリードとそのサブリードがリリースサイクル全体のプロジェクトマネージャー (およびテクニカルプロジェクトマネージャー) として活動します。そうでない場合は、リリースコーディネーターが、結束力のあるリリースチームによってさまざまな部分が適切にカバーされるようにします。
+リリースの間には[いくつもの役割と責任](https://ja.wordpress.org/team/handbook/core/about/release-cycle/wordpress-release-team-and-focus-leads/)があります。実際には、そのサイクルのリリースコーディネーターがいない場合、リリースリードとそのサブリードがリリースサイクル全体のプロジェクトマネージャー (およびテクニカルプロジェクトマネージャー) として活動します。そうでない場合は、リリースコーディネーターが、結束力のあるリリースチームによってさまざまな部分が適切にカバーされるようにします。
 
 <!--
 **Important note:** Much of the tasks listed in this handbook page are done by those who act as “mission control” or MC. These are a very specific set of folks with a particular ability to perform larger meta\-tasks for the project. If you’re not sure how to do something or don’t have access, it’s likely a task for those folks to handle.
@@ -106,7 +106,7 @@ Prior to considering the responsibilities of release leads and deputies, it’s 
 
 * **WordPress のしくみ (ソフトウェアとコミュニティの両方) を理解していること。** WordPress というソフトウェアは巨大なものです。一人の貢献者がコードベース全体を理解しているわけではありません。しかし、リリースリードとサブリードは、WordPress がどのように動作し、どのようにコアコミュニティが機能するかをよく理解している必要があります。さまざまなチケットについて誰に尋ねるべきかを知ることは、リリースをリードするための重要なスキルです !
 * **オープンソースがどのように機能するかについての知識。** オープンソースプロジェクトは、ほとんどのソフトウェアプロジェクトとはかなり異なっています。リリースリードやサブリードになるためには、オープンソースでグローバルな分散型プロジェクトの一員として働く能力があることが期待されます。
-* **コミュニティとの良好なコミュニケーション能力。** コミュニケーションは WordPress コミュニティのあらゆる部分で非常に重要であるため、良好なコミュニケーションが評価され、期待されます。中心的なコミュニティは、多くの貢献者が第二言語として英語を話しているにもかかわらず、このサイトや Slack では英語でコミュニケーションをとっています。このグローバルコミュニティにはさまざまなバックグラウンドがあるため、リリースリードやサブリードは公式・非公式チャンネルでコミュニケーションをとる際には注意が必要です。こちらもご覧ください: [投稿とコメントのガイドライン](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/)。
+* **コミュニティとの良好なコミュニケーション能力。** コミュニケーションは WordPress コミュニティのあらゆる部分で非常に重要であるため、良好なコミュニケーションが評価され、期待されます。中心的なコミュニティは、多くの貢献者が第二言語として英語を話しているにもかかわらず、このサイトや Slack では英語でコミュニケーションをとっています。このグローバルコミュニティにはさまざまなバックグラウンドがあるため、リリースリードやサブリードは公式・非公式チャンネルでコミュニケーションをとる際には注意が必要です。こちらもご覧ください: [投稿とコメントのガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/post-comment-guidelines/)。
 
 <!--
 There are also a few responsibilities that release leads and deputies have over the course of a release cycle:
@@ -128,7 +128,7 @@ There are also a few responsibilities that release leads and deputies have over 
 
 *   **議題の投稿、毎週の開発者チャットの運営、チャットの要約の投稿。** リリースサイクル全体を通して、情報は WordPress 開発者コミュニティ全体に提供されるべきです。すべてのコミュニティメンバーが毎週の開発者チャットに参加できるわけではないので、[議題](https://make.wordpress.org/core/tag/agenda/)と[要約](https://make.wordpress.org/core/tag/summary/)を投稿する必要があります。
 *   **チケットのトリアージとチケットレポートのモニタリング。** リリースには多くの重要な要素があります。リリースリードとサブリードは、新しく提出される trunk チケットを注意深く見守り、関連する[チケットレポート](https://make.wordpress.org/core/reports/)を監視する必要があります。これには、(特に未所有のコンポーネントの) 新しいチケットレポートをトリアージして、ブロックする問題がないかチェックすることも含まれます。
-*   **リリースを予定通りに進める。** [期限を守ること。](https://make.wordpress.org/core/handbook/about/philosophies/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードとサブリードがこのスケジュールに責任を持ちます (上記の「スケジュールについて」を参照してください)。リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
+*   **リリースを予定通りに進める。** [期限を守ること。](https://ja.wordpress.org/team/handbook/core/about/philosophies/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードとサブリードがこのスケジュールに責任を持ちます (上記の「スケジュールについて」を参照してください)。リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
 *   **バグスクラブの開催。** バグスクラブを毎週開催することは、あらゆる種類の貢献者からの貢献を促す有用な活動です。この活動は、リリースリード、サブリード、その他の貢献者によってうまく運営できます。コンポーネントメンテナーもバグスクラブを行うことができます。
 *   **機能に関するアイデアを検討し、対応する。** WordPress の貢献者やユーザーは、リリースサイクル中、特に[ウィッシュリスト](https://make.wordpress.org/core/tag/wishlists/)の投稿に機能のアイデアを投稿します。各機能を開発することはリリースリード (またはそのサブリード) の責任ではありませんが、各機能のアイデアをレビューし、リリースに含める価値があるかどうかを確認する必要があります。これらのアイデアの多くは、[機能に関するプロジェクト](https://make.wordpress.org/core/features/)から出てくるものですが、中には注意が必要なチケットもあるでしょう。
 *   **助けてくれる貢献者を見つける。** すべての技術的な決定、あるいはその大部分を行うことは、リリースリードの責任ではありません。リリースリードは、いつどのように貢献者を探し出し、支援を求めるべきかを知っておくべきです。コアチームは大規模で、リソースの状況もさまざまであるため、リリースリードはさまざまなチケットに対してフィードバックやサポートを提供するために、どの貢献者が最適であるかをよく理解している必要があります。
@@ -219,10 +219,10 @@ There are no limitations to where you come from. We are a global community, open
 *   Identify if any of the browsers listed on the [Browser support page](https://make.wordpress.org/core/handbook/best-practices/browser-support/) had dropped below the percentage required to support them in core and if any need updating plan for that now as that will be one of the final checks and updates in the [Pre Final Release phase below](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#pre-final-release).
 -->
 
-*   **[開発者ノートを編集して公開を開始する](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)**。[make/core で #dev-notes を使って](https://make.wordpress.org/core/tag/dev-notes/)、リリースの重要な変更点や開発者向けの主要な更新を開発者に知らせる記事の編集と公開を開始します。
+*   **[開発者ノートを編集して公開を開始する](https://ja.wordpress.org/team/handbook/core/tutorials/writing-developer-notes/)**。[make/core で #dev-notes を使って](https://make.wordpress.org/core/tag/dev-notes/)、リリースの重要な変更点や開発者向けの主要な更新を開発者に知らせる記事の編集と公開を開始します。
 *   **About ページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1までに完成させ、画像は RC2まで更新できるようにします。[マーケティング・コミュニケーション・ハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[About ページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
 *   **HelpHub バージョンページ**。デザイナー、開発者、ユーザーのために、注目すべきアップデートをまとめ始めます。*[5.2 バージョンページ](https://wordpress.org/support/wordpress-version/version-5-2/)を例として使用できますし、[ドキュメントチーム](https://make.wordpress.org/docs/)に助けを求めることもできます。*
-*   [ブラウザーサポートページ](https://make.wordpress.org/core/handbook/best-practices/browser-support/)にリストアップされているブラウザーのどれかが、コアでそれらをサポートするために必要なパーセンテージを下回ったかどうかを確認し、更新が必要なものがあれば、[以下の最終的なリリースの前](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#pre-final-release)における最終チェックと更新の1つになるので、そのための計画を立てます。
+*   [ブラウザーサポートページ](https://ja.wordpress.org/team/handbook/core/best-practices/browser-support/)にリストアップされているブラウザーのどれかが、コアでそれらをサポートするために必要なパーセンテージを下回ったかどうかを確認し、更新が必要なものがあれば、[以下の最終的なリリースの前](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/#pre-final-release)における最終チェックと更新の1つになるので、そのための計画を立てます。
 
 ## ベータ1
 
@@ -230,7 +230,7 @@ There are no limitations to where you come from. We are a global community, open
 The [process for a Beta release](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) is well-documented on a separate handbook page.
 -->
 
-[ベータ版リリースのプロセス](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/)は、別のハンドブックのページで詳しく説明されています。
+[ベータ版リリースのプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-beta-versions/)は、別のハンドブックのページで詳しく説明されています。
 
 <!--
 ## Pre Release Candidate
@@ -253,7 +253,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 -->
 
 *   リリースのマイルストーン時点で、オープンチケットが残っていてはなりません。
-*   フィールドガイドの公開プロセスは、[別のハンドブックページ](https://make.wordpress.org/core/handbook/tutorials/publishing-the-field-guide/)にドキュメント化されています。
+*   フィールドガイドの公開プロセスは、[別のハンドブックページ](https://ja.wordpress.org/team/handbook/core/tutorials/publishing-the-field-guide/)にドキュメント化されています。
 *   (wp.org のリポジトリにある) すべてのプラグイン作者に、リリースとの互換性をテストするように知らせるメールを送るべきです。そのメールはフィールドガイドにリンクされるべきです。[プラグインチームに連絡して調整する](https://make.wordpress.org/updates/team-reps/)か、[プラグインレビューチームが作るサイト](https://make.wordpress.org/pluginrepo)でリリースメールの下書きを公開します ([5.3のサンプルはこちら](https://make.wordpress.org/pluginrepo/2019/10/18/5-3-release-email/))。
 *   Classic Editor プラグインがまだうまく動作するかテストしてください。
 *   Akismet チームにリリースのスケジュールを伝え、最終リリースの前に保留中のプラグインのアップデートがリリースされるようにします。
@@ -288,7 +288,7 @@ A Release Candidate version is released as the last stage of the release cycle b
 *   [翻訳文字列のハードフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)がリリース候補のフェーズで有効になります。これは、アプリケーションの文字列が、About ページのテキストを含めて、もはや変更できないことを意味します。
 *   報告されたバグが修正されるにつれて、複数のリリース候補版 (たとえば RC1、RC2) がリリースされるべきです。
 *   リリース候補フェーズでの src/ に対するすべての変更は、2人のコミッターによってレビューされなければならないことをコミッターに警告してください。あなたのパッチをレビューする2人目のコミッターを選ぶときは、そのパッチを意味のあるレビューを受けられるように、コードベースのその領域で豊富な経験を持つベテランのコミッターを探しましょう。コミッターはいつでも tests/ にコミットできます。
-*   [RC リリースのプロセス](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/)については、別のハンドブックのページに詳しく書かれています。
+*   [RC リリースのプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-beta-versions/)については、別のハンドブックのページに詳しく書かれています。
 *   最初のリリース候補に続いてリリース用のブランチを作成し、次のリリースに向けて trunk の初期作業を開始できるようにします。
 *   リリースサイクルの特定の部分をより明確にし、コミュニティを準備するために、リリース候補のフェーズ ([6.0の例](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) と上記のさまざまなプロトコルについて Make Core でアナウンスする必要があります。
 
@@ -420,7 +420,7 @@ This is your pre-release checklist. Do not skip it. To help with coordination, i
     *   投稿を共有する際にリンクのプレビューに使用されるアイキャッチ画像を設定します。Twitter や Facebook などのプレビューで、画像の大部分が切り取られないようにします。必要であれば、Facebook では [https://developers.facebook.com/tools/debug/](https://developers.facebook.com/tools/debug/)、Twitter では [https://cards-dev.twitter.com/validator](https://cards-dev.twitter.com/validator) を使ってキャッシュをクリアできます。
     *   抜粋文を調整します。
         *   プレビュー URL に `&embed=true` を追加して、埋め込みがうまくいくようにします。
-*   いずれかのブラウザーのサポートを終了した場合は、[ブラウザーサポートページ](https://make.wordpress.org/core/handbook/best-practices/browser-support/)を更新します。
+*   いずれかのブラウザーのサポートを終了した場合は、[ブラウザーサポートページ](https://ja.wordpress.org/team/handbook/core/best-practices/browser-support/)を更新します。
 
 <!--
 ### Dry Run
@@ -644,8 +644,8 @@ You’ve made it to release day!
         1.  以下を追加します:
             `{{ ReleaseTableMajor | version = 4.4  | date = December 8, 2015 | musician = Clifford Brown | blog = https://wordpress.org/news/2015/12/clifford/  | db = 35700 }}`
         2.  「予定されているバージョン」セクションからバージョンを削除します。
-    4.  [PHP の互換性と WordPress のバージョン](https://make.wordpress.org/core/handbook/contribute/php-compatibility-and-wordpress-versions/)テーブルを更新します。
-    5.  [PHPUnit の互換性と WordPress のバージョン](https://make.wordpress.org/core/handbook/references/phpunit-compatibility-and-wordpress-versions/)を更新します。
+    4.  [PHP の互換性と WordPress のバージョン](https://ja.wordpress.org/team/handbook/core/contribute/php-compatibility-and-wordpress-versions/)テーブルを更新します。
+    5.  [PHPUnit の互換性と WordPress のバージョン](https://ja.wordpress.org/team/handbook/core/references/phpunit-compatibility-and-wordpress-versions/)を更新します。
 5.  [ダウンロードカウンター](https://wordpress.org/download/counter/)を見つめて楽しみましょう。
 
 <!--

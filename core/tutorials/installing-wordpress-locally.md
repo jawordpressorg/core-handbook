@@ -40,7 +40,7 @@ There are two steps to installing WordPress on your computer for contributing to
 If you haven’t [installed a local server](https://make.wordpress.org/core/handbook/installing-a-local-server/) yet, you’ll need to do that before continuing.
 -->
 
-もし、まだ[ローカルサーバーをインストール](https://make.wordpress.org/core/handbook/installing-a-local-server/)していないなら、先にそれを行うする必要があります。
+もし、まだ[ローカルサーバーをインストール](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/)していないなら、先にそれを行うする必要があります。
 
 <!--
 ## Zip File, SVN, or Git?
@@ -58,13 +58,13 @@ Once you have your local server installed, you can download a zip file of the [l
 Installing the latest nightly release from a zip file will allow you to [beta test](https://make.wordpress.org/core/handbook/testing/beta/) the code, and contribute bug reports. However, if you want to [contribute patches](https://make.wordpress.org/core/handbook/working-with-patches/) along with those bug reports, you’ll need to install a version-controlled copy of WordPress trunk.
 -->
 
-zip ファイルから最新のナイトリーリリースをインストールすると、コードの [ベータテスト](https://make.wordpress.org/core/handbook/testing/beta/) を行ったり、バグレポートに貢献できます。しかし、バグレポートと一緒に [パッチを提供](https://make.wordpress.org/core/handbook/working-with-patches/) をしたい場合は、バージョン管理された WordPress trunk のコピーをインストールする必要があります。
+zip ファイルから最新のナイトリーリリースをインストールすると、コードの [ベータテスト](https://ja.wordpress.org/team/handbook/core/testing/beta/) を行ったり、バグレポートに貢献できます。しかし、バグレポートと一緒に [パッチを提供](https://ja.wordpress.org/team/handbook/core/working-with-patches/) をしたい場合は、バージョン管理された WordPress trunk のコピーをインストールする必要があります。
 
 <!--
 SVN and Git are both [version control systems](https://make.wordpress.org/core/handbook/glossary/#version-control). You’ll become very familiar with them when you are contributing to core.
 -->
 
-SVN と Git はどちらも[バージョン管理システム](https://make.wordpress.org/core/handbook/glossary/#version-control)です。コアにコントリビュートしているうちに、それらに慣れていくでしょう。
+SVN と Git はどちらも[バージョン管理システム](https://ja.wordpress.org/team/handbook/core/glossary/#version-control)です。コアにコントリビュートしているうちに、それらに慣れていくでしょう。
 
 <!--
 *   Subversion (SVN) is the official version control system used by the WordPress Project.

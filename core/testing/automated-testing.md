@@ -33,8 +33,8 @@ For more information on getting started installing the test suites and running a
 *   [Testing JavaScript with QUnit](https://make.wordpress.org/core/handbook/testing/phpunit/qunit/)
 -->
 
-*   [PHPUnit を用いた PHP のテスト](https://make.wordpress.org/core/handbook/testing/phpunit/)
-*   [QUnit を用いた JavaScript のテスト](https://make.wordpress.org/core/handbook/testing/phpunit/qunit/)
+*   [PHPUnit を用いた PHP のテスト](https://ja.wordpress.org/team/handbook/core/testing/phpunit/)
+*   [QUnit を用いた JavaScript のテスト](https://ja.wordpress.org/team/handbook/core/testing/phpunit/qunit/)
 
 <!--
 Note: If writing a test requiring a YouTube or Vimeo URL/embed, please use the WP 5.0 release YouTube video and the official Vimeo test video:
