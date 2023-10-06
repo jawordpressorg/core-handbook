@@ -8,7 +8,7 @@
 Alert: Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
 -->
 
-注: WordPress の貢献者は、**Git** または [SVN](https://make.wordpress.org/core/handbook/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。
+注: WordPress の貢献者は、**Git** または [SVN](https://ja.wordpress.org/team/handbook/core/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。
 
 <!--
 ## Summary
@@ -32,7 +32,7 @@ WordPress の標準的なリポジトリは Subversion で管理されていま�
 **Please note:** while many people find it easier to use `git` to manage their patches, pull requests submitted to GitHub will not be merged there. Patches can be created and reviewed in GitHub pull requests, but they **must** be associated with a Trac ticket. To better understand what this means, see the [GitHub Pull Requests for Code Review page](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/).
 -->
 
-**注意してください:** 多くの人は、パッチの管理に `git` を使うほうが簡単だと考えていますが、GitHub に提出されたプルリクエストはマージされません。パッチは GitHub のプルリクエストで作成・レビューできますが、**必ず** Trac チケットと関連付けられている必要があります。この意味をよりよく理解するために、[コードレビューのための GitHub プルリクエストのページ](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)を参照してください。
+**注意してください:** 多くの人は、パッチの管理に `git` を使うほうが簡単だと考えていますが、GitHub に提出されたプルリクエストはマージされません。パッチは GitHub のプルリクエストで作成・レビューできますが、**必ず** Trac チケットと関連付けられている必要があります。この意味をよりよく理解するために、[コードレビューのための GitHub プルリクエストのページ](https://ja.wordpress.org/team/handbook/core/contribute/git/github-pull-requests-for-code-review/)を参照してください。
 
 <!--
 ## Repository Structure
@@ -100,7 +100,7 @@ Using the `git` cli client, you can create a patch file as follows:
 We strongly recommend [running the PHPUnit test suite](https://make.wordpress.org/core/handbook/testing/automated-testing/phpunit/) (and writing unit tests for your patch) before submitting it to Trac. This makes it many times easier for committers to review and commit your changes.
 -->
 
-Trac に投稿する前に [PHPUnit テストスイート](https://make.wordpress.org/core/handbook/testing/automated-testing/phpunit/)を実行すること (そしてパッチのユニットテストを書くこと) を強く推奨します。それにより、コミッターがあなたの変更をレビューし、コミットすることが何倍も簡単になります。
+Trac に投稿する前に [PHPUnit テストスイート](https://ja.wordpress.org/team/handbook/core/testing/automated-testing/phpunit/)を実行すること (そしてパッチのユニットテストを書くこと) を強く推奨します。それにより、コミッターがあなたの変更をレビューし、コミットすることが何倍も簡単になります。
 
 <!--
 When downloading the repository from `git`, a few of the PHPUnit tests related to the importer plugin will fail because the `tests/phpunit/data/plugins/wordpress-importer` directory is not contained in the `git` repositories. Here’s how to fix that:

@@ -149,7 +149,7 @@ Before starting, you need:
 *   A plain text editor, such as [Notepad++](http://notepad-plus-plus.org/), installed on your computer
 -->
 
-*   [コンピューターにインストールされた TortoiseSVN](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)
+*   [コンピューターにインストールされた TortoiseSVN](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)
 *   コンピューターにインストールされた [Notepad++](http://notepad-plus-plus.org/) のようなプレーンテキストエディター
 
 <!--
@@ -353,7 +353,7 @@ This article will walk you through creating, applying, and reverting a patch usi
     -->
 
 *   [Notepad++](http://notepad-plus-plus.org/) (Windows) や [TextMate](http://macromates.com/) (Mac) などのプレーンテキストエディターがコンピューターにインストールされていること
-*   [SVN 経由でチェックアウトした](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/) WordPress trunk のコピー
+*   [SVN 経由でチェックアウトした](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/) WordPress trunk のコピー
 *   コンピューターにインストールされたコマンドラインクライアント:
     *   Windows: [Cygwin](http://cygwin.com/)
     *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) または [Bash](http://www.gnu.org/software/bash/)
@@ -396,7 +396,7 @@ svn diff > 00000.diff
 If you also like to automatically submit the created patch to an existing ticket, there is an easy-to-use [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) command available that can take care of both creating the patch and uploading it. In order to use the command, you need to have [Node.js](https://nodejs.org/) and Grunt-CLI globally installed, and you need to ensure that the WordPress development dependencies are installed locally, which you can do by running `npm install`.
 -->
 
-作成したパッチを既存のチケットに自動的に提出したい場合は、パッチの作成とアップロードの両方を行うことができる使いやすい [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) コマンドがあります。このコマンドを使うには、[Node.js](https://nodejs.org/) と Grunt-CLI がグローバルにインストールされている必要があります。また、WordPress の開発依存パッケージがローカルにインストールされている必要があります。これは、`npm install` を実行することでインストールできます。
+作成したパッチを既存のチケットに自動的に提出したい場合は、パッチの作成とアップロードの両方を行うことができる使いやすい [Grunt](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) コマンドがあります。このコマンドを使うには、[Node.js](https://nodejs.org/) と Grunt-CLI がグローバルにインストールされている必要があります。また、WordPress の開発依存パッケージがローカルにインストールされている必要があります。これは、`npm install` を実行することでインストールできます。
 
 <!--
 The actual command to create and upload a patch works as follows:
@@ -486,7 +486,7 @@ Note: If the patch fails to apply cleanly, you will need to leave a note on the 
 To make this process a little easier for you, there is another [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) command available that takes care of both downloading a patch from an existing ticket and applying it. As mentioned before, in order to use it, you need to have both [Node.js](https://nodejs.org/) and Grunt-CLI globally installed, and you also need to have the local dependencies set up, which you can do by using the command `npm install`.
 -->
 
-このプロセスを少し簡単にするために、既存のチケットからパッチをダウンロードし、それを適用するもう一つの [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) コマンドがあります。前述したように、このコマンドを使うには、[Node.js](https://nodejs.org/) と Grunt-CLI の両方がグローバルにインストールされている必要があります。また、ローカルでの依存関係も設定する必要がありますが、これは `npm install` を実行することでインストールできます。
+このプロセスを少し簡単にするために、既存のチケットからパッチをダウンロードし、それを適用するもう一つの [Grunt](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) コマンドがあります。前述したように、このコマンドを使うには、[Node.js](https://nodejs.org/) と Grunt-CLI の両方がグローバルにインストールされている必要があります。また、ローカルでの依存関係も設定する必要がありますが、これは `npm install` を実行することでインストールできます。
 
 <!--
 You can then use the following command:
@@ -567,4 +567,4 @@ git checkout https://github.com/WordPress/wordpress-develop/pull/195`
 *   [Submitting a Patch](https://make.wordpress.org/core/handbook/tutorials/trac/submitting-a-patch/)
 -->
 
-*   [パッチの提出](https://make.wordpress.org/core/handbook/tutorials/trac/submitting-a-patch/)
+*   [パッチの提出](https://ja.wordpress.org/team/handbook/core/tutorials/trac/submitting-a-patch/)

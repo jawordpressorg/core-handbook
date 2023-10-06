@@ -102,7 +102,7 @@ Docker 以外のワークフローでは、PHP と MySQL/MariaDB が利用可能
 For more information on setting up PHP and a database locally, please see the [Installing a local server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/) handbook pages.
 -->
 
-PHP とデータベースをローカルにセットアップする方法については、[ローカルサーバーのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/)についてのハンドブックページを参照してください。
+PHP とデータベースをローカルにセットアップする方法については、[ローカルサーバーのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/)についてのハンドブックページを参照してください。
 
 <!--
 Please note that both [PHPUnit](https://docs.phpunit.de/en/9.6/installation.html#requirements), as well as the WordPress test suite have requirements for [certain PHP extensions](https://make.wordpress.org/hosting/handbook/server-environment/#php-extensions) to be enabled in your install to be able to run the full test suite.
@@ -640,7 +640,7 @@ WP_TESTS_SKIP_INSTALL=1 phpunit --group=privacy
 We’ve written [a guide](https://make.wordpress.org/core/handbook/testing/automated-testing/writing-phpunit-tests/) for getting started writing PHPUnit tests for WordPress.
 -->
 
-WordPress の PHPUnit テストを作成し始めるための[ガイド](https://make.wordpress.org/core/handbook/testing/automated-testing/writing-phpunit-tests/)を作成しました。
+WordPress の PHPUnit テストを作成し始めるための[ガイド](https://ja.wordpress.org/team/handbook/core/testing/automated-testing/writing-phpunit-tests/)を作成しました。
 
 <!--
 ## Contributing Tests to WordPress
@@ -682,7 +682,7 @@ There are three primary ways to contribute:
 Unit tests for JavaScript code are currently much more limited in WordPress Core in comparison to PHP unit tests. For more information on JS unit tests, see the [Make/Core post](https://make.wordpress.org/core/2013/09/13/javascript-unit-tests-for-core/ "JavaScript Unit Tests for Core") or the [QUnit section of this Handbook](https://make.wordpress.org/core/handbook/testing/automated-testing/qunit/).
 -->
 
-JavaScript コードのユニットテストは、PHP のユニットテストに比べて WordPress コアではかなり制限されています。JS ユニットテストの詳細については、[Make/Core の投稿](https://make.wordpress.org/core/2013/09/13/javascript-unit-tests-for-core/)や[ハンドブックの QUnit セクション](https://make.wordpress.org/core/handbook/testing/automated-testing/qunit/)を参照してください。
+JavaScript コードのユニットテストは、PHP のユニットテストに比べて WordPress コアではかなり制限されています。JS ユニットテストの詳細については、[Make/Core の投稿](https://make.wordpress.org/core/2013/09/13/javascript-unit-tests-for-core/)や[ハンドブックの QUnit セクション](https://ja.wordpress.org/team/handbook/core/testing/automated-testing/qunit/)を参照してください。
 
 <!--
 ## Further Reading

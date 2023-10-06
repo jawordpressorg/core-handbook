@@ -25,7 +25,7 @@ WordPress は何千人もの貢献者が関わる巨大なプロジェクトで�
 *   [Writing Patches](https://make.wordpress.org/core/handbook/best-practices/writing-patches/)
 -->
 
-*   [コミットメッセージ](https://make.wordpress.org/core/handbook/best-practices/commit-messages/)
+*   [コミットメッセージ](hhttps://ja.wordpress.org/team/handbook/core/best-practices/commit-messages/)
 *   [WordPress コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/)
     *   [アクセシビリティコーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/accessibility/)
     *   [CSS コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/css/)
@@ -35,5 +35,5 @@ WordPress は何千人もの貢献者が関わる巨大なプロジェクトで�
 *   [WordPress インラインドキュメント規約](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/)
     *   [PHP ドキュメント規約](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/)
     *   [JavaScript ドキュメント規約](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/javascript/)
-*   [コア API](https://make.wordpress.org/core/handbook/best-practices/core-apis/)
-*   [パッチの作成](https://make.wordpress.org/core/handbook/best-practices/writing-patches/)
+*   [コア API](https://ja.wordpress.org/team/handbook/core//best-practices/core-apis/)
+*   [パッチの作成](https://ja.wordpress.org/team/handbook/core/best-practices/writing-patches/)

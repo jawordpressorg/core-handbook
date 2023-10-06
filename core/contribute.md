@@ -134,19 +134,19 @@ WordPress は、コードベースの変更を管理するために、Apache プ
 The [develop repository](https://develop.svn.wordpress.org/trunk/) is available for download. This repository includes core unit tests, build scripts, and by default uses the unminified and unconcatenated Javascript. Everyone has read privileges to these repos.  For more information on the structure of this repository, see the [The Code Repository (SVN)](https://make.wordpress.org/core/handbook/contribute/svn/).
 -->
 
-[開発リポジトリ](https://develop.svn.wordpress.org/trunk/)はダウンロードできます。このリポジトリには、コアとなるユニットテストとビルドスクリプトが含まれており、デフォルトで圧縮・連結されていない Javascript が使用されます。これらのリポジトリには誰でも読み込み権限があります。リポジトリの構造については、[コードリポジトリ (SVN)](https://make.wordpress.org/core/handbook/contribute/svn/) を参照してください。
+[開発リポジトリ](https://develop.svn.wordpress.org/trunk/)はダウンロードできます。このリポジトリには、コアとなるユニットテストとビルドスクリプトが含まれており、デフォルトで圧縮・連結されていない Javascript が使用されます。これらのリポジトリには誰でも読み込み権限があります。リポジトリの構造については、[コードリポジトリ (SVN)](https://ja.wordpress.org/team/handbook/core/contribute/svn/) を参照してください。
 
 <!--
 It’s also possible to contribute to WordPress core using `git`. For more information about this process, see [The Code Repository (Git)](https://make.wordpress.org/core/handbook/contribute/git/).
 -->
 
-また、`git` を使用して WordPress コアに貢献することもできます。このプロセスについては、[コードリポジトリ (Git)](https://make.wordpress.org/core/handbook/contribute/git/) を参照してください。
+また、`git` を使用して WordPress コアに貢献することもできます。このプロセスについては、[コードリポジトリ (Git)](https://ja.wordpress.org/team/handbook/core/contribute/git/) を参照してください。
 
 <!--
 If you would like to use Github, please see the handbook page on [using github pull requests](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) for more information.
 -->
 
-GitHub を利用したい場合は、ハンドブックの[github のプルリクエストを使用](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)のページで詳細を確認してください。
+GitHub を利用したい場合は、ハンドブックの[github のプルリクエストを使用](https://ja.wordpress.org/team/handbook/core/contribute/git/github-pull-requests-for-code-review/)のページで詳細を確認してください。
 
 <!--
 ## Patches
@@ -188,13 +188,13 @@ When writing a patch, it is important to always update to the latest version of 
 In order to contribute to core, we strongly recommend that you install a local instance of WordPress. With WordPress running on your machine, you’ll be able to make changes and test patches without interfering with a live site. There are a variety of ways you can configure a local dev environment. We have tutorials on the following methods: [VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/), [DesktopServer,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/) [MAMP,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/) [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/).
 -->
 
-コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。WordPress があなたのマシンで動作していれば、稼働中のサイトに影響を与えることなく変更やパッチのテストを行うことができます。ローカルの開発環境を構築する方法はさまざまです。私たちは、[VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/)、[DesktopServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)、[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/) のチュートリアルを用意しています。
+コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。WordPress があなたのマシンで動作していれば、稼働中のサイトに影響を与えることなく変更やパッチのテストを行うことができます。ローカルの開発環境を構築する方法はさまざまです。私たちは、[VVV](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/)、[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/xampp/) のチュートリアルを用意しています。
 
 <!--
 If you’re not sure which to choose, we recommend the [VVV (sometimes referred to as Vagrant) method](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
 -->
 
-どれを選ぶか迷った場合は、[VVV (Vagrant と表記されることもあります)](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/) を推奨します。
+どれを選ぶか迷った場合は、[VVV (Vagrant と表記されることもあります)](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/) を推奨します。
 
 <!--
 ## Introduction to Trac
@@ -218,7 +218,7 @@ If you’re not sure which to choose, we recommend the [VVV (sometimes referred 
 Trac tickets are organized into components (see “Component Maintainers” above), and use keywords to identify further details of the ticket. If your ticket is ever labeled with a keyword you’re unfamiliar with, reference the complete list of [Trac Workflow Keywords](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
 -->
 
-Trac のチケットはコンポーネントに分類され (上記の「コンポーネントメンテナー」を参照)、チケットの詳細を特定するためにキーワードが使用されます。もし、あなたのチケットが見慣れないキーワードでラベル付けされた場合、[Trac ワークフローキーワード](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)の完全なリストを参照してください。
+Trac のチケットはコンポーネントに分類され (上記の「コンポーネントメンテナー」を参照)、チケットの詳細を特定するためにキーワードが使用されます。もし、あなたのチケットが見慣れないキーワードでラベル付けされた場合、[Trac ワークフローキーワード](https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/)の完全なリストを参照してください。
 
 <!--
 ### Good First Bugs
@@ -280,7 +280,7 @@ It is standard practice to responsibly and privately disclose security issues to
 In short, be courteous and aware before you file a ticket that might include a security vulnerability. Refer to the [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/) page of this handbook for instructions on how to responsibly report issues to the WordPress Security Team.
 -->
 
-つまり、セキュリティ脆弱性を含む可能性のあるチケットを提出する前に、丁寧な対応を心がけて注意することです。WordPress セキュリティチームに責任を持って問題を報告する方法については、ハンドブックの [セキュリティ脆弱性の報告](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)ページを参照してください。
+つまり、セキュリティ脆弱性を含む可能性のあるチケットを提出する前に、丁寧な対応を心がけて注意することです。WordPress セキュリティチームに責任を持って問題を報告する方法については、ハンドブックの [セキュリティ脆弱性の報告](https://ja.wordpress.org/team/handbook/core/testing/reporting-security-vulnerabilities/)ページを参照してください。
 
 <!--
 ## Your First Patch
@@ -394,7 +394,7 @@ Over time, code shifts around and sometimes these patches only need a bit of reo
 (Speaking of refactoring code, the core team almost never takes patches that only refactor code. See the [Code Refactoring](https://make.wordpress.org/core/handbook/contribute/code-refactoring/) page for more information..)
 -->
 
-(コードのリファクタリングといえば、コアチームはコードのリファクタリングだけを行うパッチをほとんど受けません。詳しくは[コードリファクタリング](https://make.wordpress.org/core/handbook/contribute/code-refactoring/)のページをご覧ください)
+(コードのリファクタリングといえば、コアチームはコードのリファクタリングだけを行うパッチをほとんど受けません。詳しくは[コードリファクタリング](https://ja.wordpress.org/team/handbook/core/contribute/code-refactoring/)のページをご覧ください)
 
 <!--
 ### Commit Ready

@@ -14,7 +14,7 @@
 Before digging in, it might help to review the rest of the [Core Contributor Handbook](https://make.wordpress.org/core/handbook/). In particular, you might find the tutorials for [setting up your local environment helpful](https://make.wordpress.org/core/handbook/#tutorials-guides). Much of what’s shared in the rest of the handbook sets the foundation for what’s shared here. Separately, to help join the fun more directly, it’s strongly encouraged that you set up a [WordPress.org slack profile](https://make.wordpress.org/chat/). After you do so, you can participate in more community efforts including the twice per month new contributor meeting in [#core](https://make.wordpress.org/core/tag/core/). You can find all the meetings listed [here](https://make.wordpress.org/meetings/). Hope to see you there!
 -->
 
-このページを読む前に、[コアコントリビューターハンドブック](https://make.wordpress.org/core/handbook/)の残りの部分を見直すとよいでしょう。特に、[ローカル環境のセットアップ](https://make.wordpress.org/core/handbook/#tutorials-guides)に関するチュートリアルが役に立つかもしれません。ハンドブックの残りの部分で共有されていることの多くは、ここで共有されていることの基礎となるものです。これとは別に、より直接的に楽しく参加するために、[WordPress.org Slack プロフィール](https://make.wordpress.org/chat/)を設定することを強くおすすめします。そして、[#core](https://make.wordpress.org/core/tag/core/) で月に2回開催される新しい貢献者のミーティングを含む、より多くのコミュニティ活動に参加しましょう。すべてのミーティングのリストは[こちら](https://make.wordpress.org/meetings/)で確認できます。そこでお会いできることを楽しみにしています !
+このページを読む前に、[コアコントリビューターハンドブック](https://ja.wordpress.org/team/handbook/core/)の残りの部分を見直すとよいでしょう。特に、[ローカル環境のセットアップ](https://ja.wordpress.org/team/handbook/core/#tutorials-guides)に関するチュートリアルが役に立つかもしれません。ハンドブックの残りの部分で共有されていることの多くは、ここで共有されていることの基礎となるものです。これとは別に、より直接的に楽しく参加するために、[WordPress.org Slack プロフィール](https://make.wordpress.org/chat/)を設定することを強くおすすめします。そして、[#core](https://make.wordpress.org/core/tag/core/) で月に2回開催される新しい貢献者のミーティングを含む、より多くのコミュニティ活動に参加しましょう。すべてのミーティングのリストは[こちら](https://make.wordpress.org/meetings/)で確認できます。そこでお会いできることを楽しみにしています !
 
 <!--
 ## Structure of WordPress.org Development
@@ -26,7 +26,7 @@ Before digging in, it might help to review the rest of the [Core Contributor Han
 Keep in mind that if you want to read and learn more, there are various handbooks that you can read through, including the [Core Contributor Handbook](https://make.wordpress.org/core/handbook/) which has helpful resources like [common design decisions](https://make.wordpress.org/core/handbook/contribute/design-decisions/) that tend to come up frequently. 
 -->
 
-さらに読んで学びたい場合は、[コアコントリビューターハンドブック](https://make.wordpress.org/core/handbook/)を含むさまざまなハンドブックがあります。そこには、[設計上の決定事項](https://make.wordpress.org/core/handbook/contribute/design-decisions/)のような頻繁に登場する役に立つリソースが掲載されています。
+さらに読んで学びたい場合は、[コアコントリビューターハンドブック](https://ja.wordpress.org/team/handbook/core/)を含むさまざまなハンドブックがあります。そこには、[設計上の決定事項](https://ja.wordpress.org/team/handbook/core/contribute/design-decisions/)のような頻繁に登場する役に立つリソースが掲載されています。
 
 <!--
 **Release cycles**
@@ -56,7 +56,7 @@ These terms listed above are all WordPress core specific and are used to describ
 [Committers are](https://make.wordpress.org/core/handbook/contribute/#committers) “a type of WordPress contributor who has earned the community’s trust and been given the keys to “commit” code to WordPress core.” These are the people who play a leading role in making final decisions with WordPress Core.
 -->
 
-[コミッターとは](https://make.wordpress.org/core/handbook/contribute/#committers) WordPress の貢献者の1人で、コミュニティから信頼を得て、WordPress コアにコードを「コミット」する権限を与えられた人のことです。これらの人々は、WordPress コアにおける最終的な意思決定において主導的な役割を果たします。
+[コミッターとは](https://ja.wordpress.org/team/handbook/core/contribute/#committers) WordPress の貢献者の1人で、コミュニティから信頼を得て、WordPress コアにコードを「コミット」する権限を与えられた人のことです。これらの人々は、WordPress コアにおける最終的な意思決定において主導的な役割を果たします。
 
 <!--
 [Components are defined](https://make.wordpress.org/core/components/) as “well-defined, functional areas of Core” that contributors can help get involved with. Component Maintainers are contributors who take on a logistical stewardship role for each component. You can read more specifically [about this role in this post](https://make.wordpress.org/core/2020/02/09/what-does-it-mean-to-be-a-component-maintainer-a-refresher/). 
@@ -506,7 +506,7 @@ It can be difficult and overwhelming to keep up with what’s happening in the c
 -->
 
 *   [Month in WordPress summaries](https://wordpress.org/news/category/month-in-wordpress/) (毎月)
-*   [Gutenberg の開発に関する項目のインデックス](https://make.wordpress.org/core/handbook/keeping-up-with-gutenberg-index/) (定期的に更新)
+*   [Gutenberg の開発に関する項目のインデックス](https://ja.wordpress.org/team/handbook/core/keeping-up-with-gutenberg-index/) (定期的に更新)
 *   [What's New in Gutenberg](https://make.wordpress.org/core/tag/gutenberg-new/) (隔週) と [What's Next in Gutenberg](https://make.wordpress.org/core/tag/gutenberg-next/) (毎月)
 *   [Ways to keep up with Full Site Editing](https://make.wordpress.org/core/2020/05/20/ways-to-keep-up-with-full-site-editing-fse/)
 

@@ -28,9 +28,9 @@ WordPress の各メジャーバージョンのエディターリリースプロ�
 *   [Documentation Leads](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#documentation-wrangling)
 -->
 
-*   [エディターテックリード](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#editor-tech-lead)
-*   [エディタートリアージリード](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#editor-triage-lead)
-*   [ドキュメントリード](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#documentation-wrangling)
+*   [エディターテックリード](https://ja.wordpress.org/team/handbook/core/about/release-cycle/wordpress-release-team-and-focus-leads/#editor-tech-lead)
+*   [エディタートリアージリード](https://ja.wordpress.org/team/handbook/core/about/release-cycle/wordpress-release-team-and-focus-leads/#editor-triage-lead)
+*   [ドキュメントリード](https://ja.wordpress.org/team/handbook/core/about/release-cycle/wordpress-release-team-and-focus-leads/#documentation-wrangling)
 
 <!--
 ## Quick Reference Timeline
@@ -496,7 +496,7 @@ It can help to group related experimental APIs from the report and any informati
 *Check out* [*this handbook page*](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/) *for more context on dev note best practices.*
 -->
 
-**開発者ノートのベストプラクティスに関するより詳しい情報は、[このハンドブックのページ](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)をチェックしてください。**
+**開発者ノートのベストプラクティスに関するより詳しい情報は、[このハンドブックのページ](https://ja.wordpress.org/team/handbook/core/tutorials/writing-developer-notes/)をチェックしてください。**
 
 <!--
 You can check all PRs labeled with [`Needs Dev Note`](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Needs+Dev+Note%22.) to know what needs a dev note. You might find that there are more PRs than you can feasibly write individual posts for without overwhelming the community with information. In this case, group PRs with the same label and propose a dev note for each group.

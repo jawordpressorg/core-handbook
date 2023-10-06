@@ -14,7 +14,7 @@
 While we try to be proactive in preventing security problems, we do not assume they’ll never come up. If you believe you’ve found a security problem in a release of WordPress, please see the [Security FAQ](https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/) for information on how to report the problem.
 -->
 
-私たちはセキュリティの問題を未然に防ぐために積極的に取り組んでいますが、セキュリティの問題が絶対に起きないとは考えていません。WordPress のリリースにセキュリティの問題を発見したと思われる場合、[セキュリティに関する FAQ ](https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/)で問題の報告方法についてご覧ください。
+私たちはセキュリティの問題を未然に防ぐために積極的に取り組んでいますが、セキュリティの問題が絶対に起きないとは考えていません。WordPress のリリースにセキュリティの問題を発見したと思われる場合、[セキュリティに関する FAQ ](https://ja.wordpress.org/team/handbook/core/reporting-security-vulnerabilities/)で問題の報告方法についてご覧ください。
 
 <!--
 It is standard practice to notify the vendor (the WordPress security team, in this case) of a security problem before publicizing, so a fix can be prepared, and public damage due to the vulnerability minimized.
@@ -47,11 +47,11 @@ WordPress のバグを報告し解決するプロセスには多くのステッ�
 
 *   (テーマやプラグインではなく) WordPress のコアにあると思われるバグをユーザーが見つけた場合。
 *   ユーザーは、それが実際にまだ報告されていないバグであることを確認します。
-*   ユーザーが [WordPress のバグトラッカーである Trac](https://make.wordpress.org/core/handbook/trac/) に [ticket](https://make.wordpress.org/core/handbook/glossary/#ticket) と呼ばれるバグレポートを提出します。
+*   ユーザーが [WordPress のバグトラッカーである Trac](https://ja.wordpress.org/team/handbook/core/trac/) に [ticket](https://ja.wordpress.org/team/handbook/core/glossary/#ticket) と呼ばれるバグレポートを提出します。
 *   WordPress 開発者 (あなたのようなボランティアです) が、バグが実際に存在し、修正されるべきであると確認し、そのようにコメントします。
 *   WordPress 開発者 (あなたかもしれません) がバグを修正することを決定します。開発者はバグを修正する方法を考え、パッチを作成し、パッチを Trac にアップロードします。
-*   WordPress 開発コミュニティのメンバーがパッチをテストし、バグが修正されているか、他に何も壊れていないかを確認します。また、バグとパッチに対して[自動テスト](https://make.wordpress.org/core/handbook/automated-testing/)を実行したり、新しいテストを書いたりします (または新しいテストを書くように提案します)。
-*   公式の WordPress ソースコードを修正する権限を持つ WordPress 開発者の一人が、SVN リポジトリのコアコードにパッチを[コミット](https://make.wordpress.org/core/handbook/glossary/#commit-verb)します。そのバグやパッチが信頼できる人によって検証されたものであれば、そのようなことをする可能性は高くなります。WordPress の開発は主に信頼と功績のシステムで運営されています。
+*   WordPress 開発コミュニティのメンバーがパッチをテストし、バグが修正されているか、他に何も壊れていないかを確認します。また、バグとパッチに対して[自動テスト](https://ja.wordpress.org/team/handbook/core/automated-testing/)を実行したり、新しいテストを書いたりします (または新しいテストを書くように提案します)。
+*   公式の WordPress ソースコードを修正する権限を持つ WordPress 開発者の一人が、SVN リポジトリのコアコードにパッチを[コミット](https://ja.wordpress.org/team/handbook/core/glossary/#commit-verb)します。そのバグやパッチが信頼できる人によって検証されたものであれば、そのようなことをする可能性は高くなります。WordPress の開発は主に信頼と功績のシステムで運営されています。
 *   パッチをコミットした人はバグを**修正済み**として閉じます。
 
 <!--
@@ -126,7 +126,7 @@ Another key strategy is to try and replicate the bug in a fresh WordPress instal
 Trac is the name of the official WordPress bug tracker. It uses the open source bug tracking software Trac, by Edgewall Software. To learn more about Trac, see [The Bug Tracker (Trac)](https://make.wordpress.org/core/handbook/trac/). To create a good bug report:
 -->
 
-Trac は WordPress の公式バグトラッカーの名前です。Edgewall Software によるオープンソースのバグトラッキングソフトウェア Trac を使用しています。Trac について詳しくは、[バグトラッカー (Trac)](https://make.wordpress.org/core/handbook/trac/) を参照してください。良いバグレポートを作成するには:
+Trac は WordPress の公式バグトラッカーの名前です。Edgewall Software によるオープンソースのバグトラッキングソフトウェア Trac を使用しています。Trac について詳しくは、[バグトラッカー (Trac)](https://ja.wordpress.org/team/handbook/core/trac/) を参照してください。良いバグレポートを作成するには:
 
 <!--
 1.  Read the section above about what to do [before reporting a bug](#before-you-report-a-bug).
@@ -139,7 +139,7 @@ Trac は WordPress の公式バグトラッカーの名前です。Edgewall Soft
 1.  [バグを報告する前に](#before-you-report-a-bug)行うべきことについては、上記のセクションを参照してください。
 2.  [サポートフォーラム](https://wordpress.org/support/)のユーザー名とパスワードを使って [WordPress Trac](https://core.trac.wordpress.org/) にログインします。サポートフォーラムのアカウントを持っていない場合は、[登録](https://wordpress.org/support/register.php)してください。
 3.  Trac の [New Ticket](https://core.trac.wordpress.org/newticket) をクリックして、バグレポートページにアクセスします。
-4.  タイトル、概要、その他のフィールドを記入してください。詳しくは [チケットのプロパティ](https://make.wordpress.org/core/handbook/trac/#ticket-properties)を参照してください。
+4.  タイトル、概要、その他のフィールドを記入してください。詳しくは [チケットのプロパティ](https://ja.wordpress.org/team/handbook/core/trac/#ticket-properties)を参照してください。
 5.  プレビュー後、**Submit Ticket** をクリックしてください。
 
 <!--
@@ -152,7 +152,7 @@ Your involvement doesn’t end after you’ve submitted a ticket. Developers may
 You can also help by verifying that proposed fixes solve the problem you were experiencing. The processing of your bug may require your participation, so please be willing and prepared to aid the developers in resolving the issue. If you’d like to help fix the bug, see the section on [Fixing Bugs](https://make.wordpress.org/core/handbook/fixing-bugs/).
 -->
 
-また、提案された修正によってあなたが遭遇した問題が解決されるかどうかを確認することも役立ちます。バグの処理にはあなたの協力が必要な場合がありますので、開発者が問題を解決することを手助けできるよう準備してください。バグの修正にご協力いただける場合は、[バグの修正](https://make.wordpress.org/core/handbook/fixing-bugs/)セクションをご覧ください。
+また、提案された修正によってあなたが遭遇した問題が解決されるかどうかを確認することも役立ちます。バグの処理にはあなたの協力が必要な場合がありますので、開発者が問題を解決することを手助けできるよう準備してください。バグの修正にご協力いただける場合は、[バグの修正](https://ja.wordpress.org/team/handbook/core/fixing-bugs/)セクションをご覧ください。
 
 <!--
 You will be automatically emailed when your tickets are updated if you’ve entered your email address in [your Trac preferences](https://core.trac.wordpress.org/prefs).

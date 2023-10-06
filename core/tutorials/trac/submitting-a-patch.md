@@ -28,7 +28,7 @@ IDE や Subversion クライアントを使用している場合、パッチは�
 **If you are on Windows,** consider using [Tortoise SVN](http://tortoisesvn.net/). You can [read our tutorial on creating a patch with Tortoise SVN](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn).
 -->
 
-**Windows の場合、** [Tortoise SVN](http://tortoisesvn.net/) の使用を検討してください。[Tortoise SVN でパッチを作成するためのチュートリアルを読む](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn)ことができます。
+**Windows の場合、** [Tortoise SVN](http://tortoisesvn.net/) の使用を検討してください。[Tortoise SVN でパッチを作成するためのチュートリアルを読む](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn)ことができます。
 
 <!--
 ### Mac/Linux Command Line
@@ -120,4 +120,4 @@ Now you can use as usual git and create all the code changes that you need, comm
 The next step is to add a name to the pull request that need to include the ticket number as explained [here](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/). For other information about GitHub integration check this documentation page.
 -->
 
-次のステップでは、[こちら](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)で説明したように、プルリクエストにチケット番号を含めた名前を付けます。GitHub との統合に関するその他の情報は、このドキュメントページをご覧ください。
+次のステップでは、[こちら](https://ja.wordpress.org/team/handbook/core/contribute/git/github-pull-requests-for-code-review/)で説明したように、プルリクエストにチケット番号を含めた名前を付けます。GitHub との統合に関するその他の情報は、このドキュメントページをご覧ください。

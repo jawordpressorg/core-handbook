@@ -291,7 +291,7 @@ A feature request should generally begin the process in the ideas forum, on a ma
 The field guide is a type of blogpost published on Make/Core during the release candidate phase of the [WordPress release cycle](https://make.wordpress.org/core/handbook/about/release-cycle/). The field guide generally lists all the dev notes published during the beta cycle. This guide is linked in the about page of the corresponding version of WordPress, in the release post and in the HelpHub version page. [#](https://make.wordpress.org/core/handbook/glossary/#field-guide)
 -->
 
-フィールドガイドは、[WordPress リリースサイクル](https://make.wordpress.org/core/handbook/about/release-cycle/) のリリース候補フェーズに Make/Core で公開されるブログ記事の一種です。フィールドガイドには通常、ベータサイクル中に公開されたすべての開発者ノートが含まれています。このガイドは、WordPress の対応するバージョンのアバウトページ、リリース投稿、HelpHub のバージョンページにリンクされています。
+フィールドガイドは、[WordPress リリースサイクル](https://ja.wordpress.org/team/handbook/core/about/release-cycle/) のリリース候補フェーズに Make/Core で公開されるブログ記事の一種です。フィールドガイドには通常、ベータサイクル中に公開されたすべての開発者ノートが含まれています。このガイドは、WordPress の対応するバージョンのアバウトページ、リリース投稿、HelpHub のバージョンページにリンクされています。
 
 <!--
 **GPL**
@@ -575,7 +575,7 @@ Contributors sometimes use the verb “punt” when talking about a ticket. This
 A shortened name for [release candidate](https://make.wordpress.org/core/handbook/glossary/#release-candidate). [#](https://make.wordpress.org/core/handbook/glossary/#rc)
 -->
 
-[release candidate](https://make.wordpress.org/core/handbook/glossary/#release-candidate) の短縮形。
+[release candidate](https://ja.wordpress.org/team/handbook/core/glossary/#release-candidate) の短縮形。
 
 <!--
 **regression**

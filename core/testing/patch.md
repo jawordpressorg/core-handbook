@@ -109,7 +109,7 @@ npm run grunt watch
 Now that [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) is setup, type in `npm run grunt patch:####`, replacing `####` with either a ticket number from Trac or a patch URL. This will download the patch and apply the changes to your development environment.
 -->
 
-[Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) のセットアップが完了したら、`npm run grunt patch:####` と入力し、`###` を Trac のチケット番号かパッチの URL に置き換えてください。これでパッチがダウンロードされ、開発環境に変更が適用されます。
+[Grunt](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) のセットアップが完了したら、`npm run grunt patch:####` と入力し、`###` を Trac のチケット番号かパッチの URL に置き換えてください。これでパッチがダウンロードされ、開発環境に変更が適用されます。
 
 <!--
 Note: If you receive a `Cannot find module 'grunt-cli/bin/grunt'` error, run the following and then try again:
@@ -143,4 +143,4 @@ If you’re a committer, be sure to run `npm run grunt precommit` before commi
 See [https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#applying-a-patch-with-the-command-line](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#applying-a-patch-with-the-command-line)
 -->
 
-[https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#applying-a-patch-with-the-command-line](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#applying-a-patch-with-the-command-line) を参照してください
+[https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#applying-a-patch-with-the-command-line](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#applying-a-patch-with-the-command-line) を参照してください

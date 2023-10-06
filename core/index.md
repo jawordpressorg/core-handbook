@@ -32,19 +32,19 @@ Here you can learn about how the WordPress project is organized, communication c
 Testing is a very important part of the release cycle. You can install the latest development version locally to test new features, and how the changes work with your site setup (theme/plugins/etc.). You can [start testing](https://make.wordpress.org/core/handbook/testing/) as soon as a new development version is available (alpha), and continue throughout the release cycle to ensure the next version of WordPress is as bug\-free as possible.
 -->
 
-テストは、リリースサイクルの非常に重要な部分です。最新の開発版をローカルにインストールし、新機能や、サイトの設定 (テーマやプラグインなど) での変更点の動作をテストできます。新しい開発版 (アルファ版) が利用可能になるとすぐに[テストを開始](https://make.wordpress.org/core/handbook/testing/)でき、次のバージョンの WordPress ができるだけバグがないことを保証するためにリリースサイクル全体を通して継続します。
+テストは、リリースサイクルの非常に重要な部分です。最新の開発版をローカルにインストールし、新機能や、サイトの設定 (テーマやプラグインなど) での変更点の動作をテストできます。新しい開発版 (アルファ版) が利用可能になるとすぐに[テストを開始](https://ja.wordpress.org/team/handbook/core/testing/)でき、次のバージョンの WordPress ができるだけバグがないことを保証するためにリリースサイクル全体を通して継続します。
 
 <!--
 You don’t need to know how to code or create a patch, just provide a [well-written bug report](https://make.wordpress.org/core/handbook/testing/reporting-bugs/), with details of the issue and steps to reproduce. You can confirm the issue is fixed once a patch is committed and a new bleeding edge nightly version released.
 -->
 
-コーディングやパッチの作成方法を知っている必要はありません。問題の詳細と再現手順を記載した[バグレポート](https://make.wordpress.org/core/handbook/testing/reporting-bugs/)を提供してください。パッチがコミットされ、新しい最先端のナイトリーバージョンがリリースされた時点で、問題が修正されたことを確認できます。
+コーディングやパッチの作成方法を知っている必要はありません。問題の詳細と再現手順を記載した[バグレポート](https://ja.wordpress.org/team/handbook/core/testing/reporting-bugs/)を提供してください。パッチがコミットされ、新しい最先端のナイトリーバージョンがリリースされた時点で、問題が修正されたことを確認できます。
 
 <!--
 Found a security vulnerability? WordPress believes in responsible and private disclosure. [Report it directly to our security team.](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
 -->
 
-セキュリティの脆弱性を発見されましたか ? WordPress は、責任ある非公開の情報公開を信条としています。[セキュリティチームに直接報告してください。](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)
+セキュリティの脆弱性を発見されましたか ? WordPress は、責任ある非公開の情報公開を信条としています。[セキュリティチームに直接報告してください。](https://ja.wordpress.org/team/handbook/core/testing/reporting-security-vulnerabilities/)
 
 <!--
 ## Contribute with Code
@@ -56,13 +56,13 @@ Found a security vulnerability? WordPress believes in responsible and private di
 Whether you need to report one bug and provide a patch to fix it, or wish to become involved in maintaining one or more WordPress components, contributing code is a great way to improve WordPress. This section walks through [the WordPress codebase](https://make.wordpress.org/core/handbook/contribute/codebase/) and how it’s laid out, then teaches you more about [the code repository](https://make.wordpress.org/core/handbook/contribute/svn/) and [our bug tracker (Trac)](https://make.wordpress.org/core/handbook/contribute/trac/).
 -->
 
-バグを報告して修正パッチを提供する必要がある場合でも、1つ以上の WordPress コンポーネントのメンテナンスに関与したい場合でも、コードの貢献は WordPress を改善するすばらしい方法です。このセクションでは、[WordPress のコードベース](https://make.wordpress.org/core/handbook/contribute/codebase/)とそのレイアウトについて説明し、[コードリポジトリ](https://make.wordpress.org/core/handbook/contribute/svn/)と[バグトラッカーである Trac](https://make.wordpress.org/core/handbook/contribute/trac/) について詳しく説明します。
+バグを報告して修正パッチを提供する必要がある場合でも、1つ以上の WordPress コンポーネントのメンテナンスに関与したい場合でも、コードの貢献は WordPress を改善するすばらしい方法です。このセクションでは、[WordPress のコードベース](https://ja.wordpress.org/team/handbook/core/contribute/codebase/)とそのレイアウトについて説明し、[コードリポジトリ](https://ja.wordpress.org/team/handbook/core/contribute/svn/)と[バグトラッカーである Trac](https://make.wordpress.org/core/handbook/contribute/trac/) について詳しく説明します。
 
 <!--
 [Design decisions](https://make.wordpress.org/core/handbook/contribute/design-decisions/) made within WordPress are often a consideration when contributing code and are outlined in this section as well. Finally, if you’re interested in [fixing bugs](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/), our walkthrough is made to get you quickly started.
 -->
 
-WordPress の[デザインの決定](https://make.wordpress.org/core/handbook/contribute/design-decisions/)は、コードを提供する際にしばしば考慮されることであり、このセクションでも説明されています。最後に、もし[バグ修正](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/)に興味があるなら、ウォークスルーはすぐに始められるように作られています。
+WordPress の[デザインの決定](https://ja.wordpress.org/team/handbook/core/contribute/design-decisions/)は、コードを提供する際にしばしば考慮されることであり、このセクションでも説明されています。最後に、もし[バグ修正](https://ja.wordpress.org/team/handbook/core/contribute/fixing-bugs/)に興味があるなら、ウォークスルーはすぐに始められるように作られています。
 
 <!--
 ## Best Practices
@@ -74,19 +74,19 @@ WordPress の[デザインの決定](https://make.wordpress.org/core/handbook/co
 Over time, the WordPress community has developed some [best practices](https://make.wordpress.org/core/handbook/best-practices/), which keep the code base consistent and understandable by the community.
 -->
 
-時間をかけて、WordPress コミュニティはいくつかの[ベストプラクティス](https://make.wordpress.org/core/handbook/best-practices/)を開発し、コードベースの一貫性とコミュニティの理解力を維持しています。
+時間をかけて、WordPress コミュニティはいくつかの[ベストプラクティス](https://ja.wordpress.org/team/handbook/core/best-practices/)を開発し、コードベースの一貫性とコミュニティの理解力を維持しています。
 
 <!--
 In the best practices section, we outline the [coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/) for [CSS](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/), [HTML](https://make.wordpress.org/core/handbook/best-practices/coding-standards/html/), [JavaScript](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/), and [PHP](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/). Additionally, [inline documentation standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/) for both [JavaScript](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/) and [PHP](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/) are documented in-depth.
 -->
 
-ベストプラクティスでは、[CSS](https://make.wordpress.org/core/handbook/best-practices/coding-standards/css/)、[HTML](https://make.wordpress.org/core/handbook/best-practices/coding-standards/html/)、[JavaScript](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)、[PHP](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/) の[コーディング規約](https://make.wordpress.org/core/handbook/best-practices/coding-standards/)について概説しています。さらに、[JavaScript](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/) と [PHP](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/) の両方の[インラインドキュメント標準](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/)について詳しく説明しています。
+ベストプラクティスでは、[CSS](https://ja.wordpress.org/team/handbook/core/best-practices/coding-standards/css/)、[HTML](https://ja.wordpress.org/team/handbook/core/best-practices/coding-standards/html/)、[JavaScript](https://ja.wordpress.org/team/handbook/core/best-practices/coding-standards/javascript/)、[PHP](https://ja.wordpress.org/team/handbook/core/best-practices/coding-standards/php/) の[コーディング規約](https://ja.wordpress.org/team/handbook/core/best-practices/coding-standards/)について概説しています。さらに、[JavaScript](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/) と [PHP](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/php/) の両方の[インラインドキュメント標準](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/)について詳しく説明しています。
 
 <!--
 Finally, the section walks through the [Core APIs](https://make.wordpress.org/core/handbook/best-practices/core-apis/) and the best practices to follow when [writing patches](https://make.wordpress.org/core/handbook/best-practices/writing-patches/).
 -->
 
-最後に、[コア API](https://make.wordpress.org/core/handbook/best-practices/core-apis/) と[パッチを書く](https://make.wordpress.org/core/handbook/best-practices/writing-patches/)際に従うべきベストプラクティスを説明します。
+最後に、[コア API](https://ja.wordpress.org/team/handbook/core/best-practices/core-apis/) と[パッチを書く](https://ja.wordpress.org/team/handbook/core/best-practices/writing-patches/)際に従うべきベストプラクティスを説明します。
 
 <!--
 ## Tutorials & Guides
@@ -98,7 +98,7 @@ Finally, the section walks through the [Core APIs](https://make.wordpress.org/co
 Completely new to WordPress development? In this section, we include a number of [tutorials and guides](https://make.wordpress.org/core/handbook/tutorials/) to help get you setup. Whether you want to [setup WordPress for local development](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/), [install a local server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/), [install a version control system (VCS)](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/), understand how to [work with patches](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/), or better understand how to [work with Trac](https://make.wordpress.org/core/handbook/tutorials/trac/), we have you covered.
 -->
 
-WordPress の開発は初めてですか ? このセクションでは、セットアップに役立つ[チュートリアルとガイド](https://make.wordpress.org/core/handbook/tutorials/)を多数掲載しています。[WordPress をローカルで開発するためのセットアップ](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/)、[ローカルサーバーのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/)、[バージョン管理システム (VCS) のインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)、[パッチの扱い](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)、または [Trac](https://make.wordpress.org/core/handbook/tutorials/trac/) について理解したいのかをカバーしています。
+WordPress の開発は初めてですか ? このセクションでは、セットアップに役立つ[チュートリアルとガイド](https://ja.wordpress.org/team/handbook/core/tutorials/)を多数掲載しています。[WordPress をローカルで開発するためのセットアップ](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/)、[ローカルサーバーのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/)、[バージョン管理システム (VCS) のインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)、[パッチの扱い](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/)、または [Trac](https://ja.wordpress.org/team/handbook/core/tutorials/trac/) について理解したいのかをカバーしています。
 
 <!--
 ## Need help?

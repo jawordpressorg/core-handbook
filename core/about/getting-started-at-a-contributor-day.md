@@ -89,7 +89,7 @@ As a member of the core group, some common tasks that you’ll carry out are:
 *   新機能のユーザーテスト
 *   WordPress の安定性を維持するためのユニットテストの作成
 *   バグガーデニング
-*   [コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)のパッチを確認する
+*   [コーディング規約](https://ja.wordpress.org/team/handbook/core/coding-standards/)のパッチを確認する
 *   アクセシビリティとプライバシーの問題についてパッチをレビューする
 
 <!--
@@ -145,8 +145,8 @@ Prior knowledge that you’ll find helpful for working on core is:
 *   If you’re writing code, the [WordPress Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/)
 -->
 
-*   [コアコントリビューターハンドブック](https://make.wordpress.org/core/handbook/)の、取り組んでいる内容に関連するセクション
-*   コードを書いている場合は、[WordPress コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)
+*   [コアコントリビューターハンドブック](https://ja.wordpress.org/team/handbook/core/)の、取り組んでいる内容に関連するセクション
+*   コードを書いている場合は、[WordPress コーディング規約](https://ja.wordpress.org/team/handbook/core/coding-standards/)
 
 <!--
 ## First Steps
@@ -166,9 +166,9 @@ The first step is to get set up with a local environment:
 3\. [Check out the WordPress codebase using SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 -->
 
-1. SVN のインストール: [バージョンコントロールシステムのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)
-2. ローカルサーバーのインストール: [Mac](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/) | [Windows](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/) | [Windows](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-wampserver/) (代替)
-3. [SVN を使用して WordPress コードベースを確認する](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
+1. SVN のインストール: [バージョンコントロールシステムのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)
+2. ローカルサーバーのインストール: [Mac](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-xampp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-wampserver/) (代替)
+3. [SVN を使用して WordPress コードベースを確認する](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)
 
 <!--
 After that:
@@ -182,9 +182,9 @@ After that:
 *   [Create and apply a patch](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)
 -->
 
-*   WordPress で問題が見つかった場合は、[Trac でチケットを開く](https://make.wordpress.org/core/handbook/working-with-trac/opening-a-ticket/)ことができます。
-*   [バグの修正](https://make.wordpress.org/core/handbook/fixing-bugs/)
-*   [パッチを作成して適用する](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)
+*   WordPress で問題が見つかった場合は、[Trac でチケットを開く](https://ja.wordpress.org/team/handbook/core/working-with-trac/opening-a-ticket/)ことができます。
+*   [バグの修正](https://ja.wordpress.org/team/handbook/core/fixing-bugs/)
+*   [パッチを作成して適用する](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/)
 
 
 <!--
@@ -201,9 +201,9 @@ There are other ways that you can help out:
 *   If you want to focus on a specific Component, check out the [WordPress Core Components](https://make.wordpress.org/core/components/) listing.
 -->
 
-*   [バグガーデニング](https://make.wordpress.org/core/handbook/bug-gardening/)
-*   ベータ版またはリリース候補が利用可能な場合は、[アルファ版またはベータ版のテスト](https://make.wordpress.org/core/handbook/testing/beta/)を試してみてください
-*   [ユニットテストを書く](https://make.wordpress.org/core/handbook/automated-testing/)
+*   [バグガーデニング](https://ja.wordpress.org/team/handbook/core/bug-gardening/)
+*   ベータ版またはリリース候補が利用可能な場合は、[アルファ版またはベータ版のテスト](https://ja.wordpress.org/team/handbook/core/testing/beta/)を試してみてください
+*   [ユニットテストを書く](https://ja.wordpress.org/team/handbook/core/automated-testing/)
 *   UI 中心の機能を手助けしたい場合は、[プラグインとしての機能に関する情報](https://make.wordpress.org/core/features-as-plugins/)を確認してください
 *   特定のコンポーネントにフォーカスしたい場合は、[WordPress コアコンポーネント](https://make.wordpress.org/core/components/)のリストを確認してください。
 
@@ -239,7 +239,7 @@ Some easy tasks for a first time contributor to get started at a contributor day
 *   [コピーに関するフィードバック](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-copy-review&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)を提供する
 *   [プライバシーに関するフィードバック](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-privacy-review&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)を提供する
 *   適用されていない、またはアップデートが必要な[既存のパッチを更新する](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-refresh&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)
-*   [バグガーデニング](https://make.wordpress.org/core/handbook/bug-gardening/)に挑戦してみる (Helen が、[始めるときに役立つ良い記事](http://helen.wordpress.com/2013/08/09/scared-of-wordpress-core-trac-but-want-to-give-it-a-shot-try-trac-gardening/)を投稿しています)
+*   [バグガーデニング](https://ja.wordpress.org/team/handbook/core/bug-gardening/)に挑戦してみる (Helen が、[始めるときに役立つ良い記事](http://helen.wordpress.com/2013/08/09/scared-of-wordpress-core-trac-but-want-to-give-it-a-shot-try-trac-gardening/)を投稿しています)
 
 <!--
 ## **Gutenberg Contributions**

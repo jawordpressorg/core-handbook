@@ -14,7 +14,7 @@ A valuable contribution an individual can make to WordPress development is to te
 If you want to be on the bleeding edge of development, even before pre-release versions are put together, you can also check out the latest software from the [WordPress Subversion (SVN) repository](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/). Or, you can get the “[nightly build](https://wordpress.org/nightly-builds/wordpress-latest.zip)” (which is created from the Subversion repository) — almost as up-to-date as the instantaneous Subversion repository.
 -->
 
-プレリリースバージョンが作成される前から最新の開発版を確認したい場合は、[WordPress Subversion (SVN) リポジトリ](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)から最新のソフトウェアをチェックできます。または、「[ナイトリービルド](https://wordpress.org/nightly-builds/wordpress-latest.zip)」(Subversion リポジトリから作成されたもの) を入手できます。これは Subversion リポジトリとほぼ同等の最新版です。
+プレリリースバージョンが作成される前から最新の開発版を確認したい場合は、[WordPress Subversion (SVN) リポジトリ](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)から最新のソフトウェアをチェックできます。または、「[ナイトリービルド](https://wordpress.org/nightly-builds/wordpress-latest.zip)」(Subversion リポジトリから作成されたもの) を入手できます。これは Subversion リポジトリとほぼ同等の最新版です。
 
 <!--
 To get started, install the [**WordPress Beta Tester**](https://wordpress.org/extend/plugins/wordpress-beta-tester/) plugin. Visit Plugins > Add New, type “wordpress beta tester” in the search field, and then click/tap “Install Now”.
@@ -74,7 +74,7 @@ wp core update --version=trunk
 If you find bugs while testing pre-release or already-released versions of WordPress, see [Reporting Bugs](https://make.wordpress.org/core/handbook/reporting-bugs/ "Reporting Bugs") or post in the [Alpha/Beta support forum](https://wordpress.org/support/forum/alphabeta).
 -->
 
-WordPress のプレリリース版やすでにリリースされているバージョンをテストしているときにバグを見つけた場合は、[バグの報告](https://make.wordpress.org/core/handbook/reporting-bugs/)を参照するか、[Alpha/Beta サポートフォーラム](https://wordpress.org/support/forum/alphabeta)に投稿してください。
+WordPress のプレリリース版やすでにリリースされているバージョンをテストしているときにバグを見つけた場合は、[バグの報告](https://ja.wordpress.org/team/handbook/core/reporting-bugs/)を参照するか、[Alpha/Beta サポートフォーラム](https://wordpress.org/support/forum/alphabeta)に投稿してください。
 
 <!--
 New features are often [developed as plugins](https://make.wordpress.org/core/features-as-plugins/). [Feature plugins](https://wordpress.org/plugins/browse/beta/) can be installed from the beta testing tab on the plugin install screen of your WordPress dashboard. Navigate to Plugins > Add New > Beta Testing.

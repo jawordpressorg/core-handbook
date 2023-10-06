@@ -24,7 +24,7 @@
 *   Review disagreements best handled quickly in [Slack](https://make.wordpress.org/chat/) with summary on [Trac](https://core.trac.wordpress.org/)
 -->
 
-*   [取り組むべきバグを選ぶ](https://make.wordpress.org/core/handbook/contribute/fixing-bugs/#finding-bugs-to-fix)
+*   [取り組むべきバグを選ぶ](https://ja.wordpress.org/team/handbook/core/contribute/fixing-bugs/#finding-bugs-to-fix)
 *   最初に最も重要なバグに取り組む
 *   ドキュメントが更新されていることを確認する
 *   最初から正しく行うために、時間をかける
@@ -56,7 +56,7 @@
 -->
 
 *   インラインドキュメント
-*   [自動テスト (スピンオフ)](https://make.wordpress.org/core/handbook/automated-testing/)
+*   [自動テスト (スピンオフ)](https://ja.wordpress.org/team/handbook/core/automated-testing/)
 *   機能リクエスト
 *   [WP\_DEBUG](https://codex.wordpress.org/Debugging_in_WordPress#WP_DEBUG) と [SCRIPT\_DEBUG](https://codex.wordpress.org/Debugging_in_WordPress#SCRIPT_DEBUG)
 *   開発スクリプトにパッチを適用し、最小化しない
@@ -64,7 +64,7 @@
 *   パッチは SVN リポジトリの最新のコードに対して作成されるべきです
 *   パッチは WordPress のルートディレクトリに対して作成されるべきです (サブディレクトリに対してではありません)
 *   ただし、パッチにテストが含まれている場合は、コードの変更とテストの両方を同じパッチに含めることができます。
-*   パッチが[コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に従っていること
+*   パッチが[コーディング規約](https://ja.wordpress.org/team/handbook/core/coding-standards/)に従っていること
 
 <!--
 ## Expectations for patches

@@ -30,7 +30,7 @@ The general flow of preparing for, hosting, and summarizing devchats is as follo
 As you’re writing agenda and summary posts, keep in mind the [Post & Comment Guidelines](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/).
 -->
 
-要約やまとめ記事を書く際には、[投稿・コメントガイドライン](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/)に気を付けてください。
+要約やまとめ記事を書く際には、[投稿・コメントガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/post-comment-guidelines/)に気を付けてください。
 
 <!--
 ### Devchat opening / closing tags

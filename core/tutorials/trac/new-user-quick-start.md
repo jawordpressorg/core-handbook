@@ -14,7 +14,7 @@
 If you are a developer who wants to contribute to WordPress core for the first time, this guide is designed to help you navigate and use [Trac](https://make.wordpress.org/core/handbook/contribute/trac/). This is meant as a high level overview to get you started quickly. This page should guide you through some overall knowledge you will need before contributing, the basic steps of working on a ticket and finally the layout of a Trac ticket. We highly encourage you to consult the [core handbook](https://make.wordpress.org/core/handbook/contribute/trac/) and [tutorials](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/) to learn how to use Trac more thoroughly.
 -->
 
-あなたが初めて WordPress コアに貢献したい開発者なら、このガイドは [Trac](https://make.wordpress.org/core/handbook/contribute/trac/) をナビゲートして使用するためのものです。これは、あなたがすぐに始められるように、ハイレベルな概要として意図されています。このページは、貢献する前に必要ないくつかの全体的な知識、チケットの作業の基本的なステップ、そして最後に Trac チケットのレイアウトを案内するものです。Trac の使い方をより深く学ぶために、[コアハンドブック](https://make.wordpress.org/core/handbook/contribute/trac/)と[チュートリアル](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)を参照することを強くおすすめします。
+あなたが初めて WordPress コアに貢献したい開発者なら、このガイドは [Trac](https://ja.wordpress.org/team/handbook/core/contribute/trac/) をナビゲートして使用するためのものです。これは、あなたがすぐに始められるように、ハイレベルな概要として意図されています。このページは、貢献する前に必要ないくつかの全体的な知識、チケットの作業の基本的なステップ、そして最後に Trac チケットのレイアウトを案内するものです。Trac の使い方をより深く学ぶために、[コアハンドブック](https://ja.wordpress.org/team/handbook/core/contribute/trac/)と[チュートリアル](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/)を参照することを強くおすすめします。
 
 <!--
 We are going to assume you already have a [WordPress.org account](https://login.wordpress.org/register), have thoroughly read [https://core.trac.wordpress.org/](https://core.trac.wordpress.org/), and already have access to the [make.wordpress.org Slack](https://chat.wordpress.org/) workspace, which is where you can ask for guidance and assistance.
@@ -82,17 +82,17 @@ Please remember contributors are volunteers and this process takes time. Patienc
 
 1.  [https://make.wordpress.org/core/reports/](https://make.wordpress.org/core/reports/) を使って、取り組むことが可能なチケットを探します。
 2.  添付ファイルを確認し、現在提案されているパッチがあるかどうかを確認します。
-3.  パッチが存在しない場合は、シナリオを再現し、[新しいパッチを追加する](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/)必要があります。
+3.  パッチが存在しない場合は、シナリオを再現し、[新しいパッチを追加する](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/)必要があります。
 4.  パッチがある場合は、レビューとテストが必要で、コメントから現在の状況がわかります。パッチをダウンロードし、あなたの開発環境でテストしてください。期待通りに動作する場合は、適切なフィードバックを提供してください。
 5.  パッチに変更を加えた場合は、コメントと合わせて Diff (https://make.wordpress.org/themes/handbook/review/working-with-trac/#comparing-ticket-updates) へのリンクも提供してください。
 6.  チケットには、何を変更したか、なぜ変更したかを記述したコメントを必ず残してください。パッチのアップロードそのものは、通知のきっかけとはなりません。パッチへリンクするときは、コメントで [attachment:{filename}] を使用してください。
-7.  必要に応じてキーワードを調整するようにしてください: [https://make.wordpress.org/core/handbook/contribute/trac/keywords/](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)
+7.  必要に応じてキーワードを調整するようにしてください: [https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/](https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/)
 
 <!--
 If a ticket does not already exist for an issue, please open a new ticket: [https://make.wordpress.org/core/handbook/tutorials/trac/opening-a-ticket/](https://make.wordpress.org/core/handbook/tutorials/trac/opening-a-ticket/)
 -->
 
-もし、その課題に対するチケットがまだ存在しない場合は、新しいチケットを開いてください: [https://make.wordpress.org/core/handbook/tutorials/trac/opening-a-ticket/](https://make.wordpress.org/core/handbook/tutorials/trac/opening-a-ticket/)
+もし、その課題に対するチケットがまだ存在しない場合は、新しいチケットを開いてください: [https://ja.wordpress.org/team/handbook/core/tutorials/trac/opening-a-ticket/](https://ja.wordpress.org/team/handbook/core/tutorials/trac/opening-a-ticket/)
 
 <!--
 ## Ticket Overview
@@ -137,13 +137,13 @@ Trac チケットの概要
     2.  Enhancements: フックの追加やその他の修正のような、既存の機能の改善です。
     3.  Feature requests: WordPress コアや他の Trac チケットにない新しいアイテムです。
     4.  Tasks (blessed): このオプションは、新しいチケットを提出するときには表示されません。このステータスは、機能チームがそのチケットを開発対象として受け入れた場合にのみ与えられます (「blessed」というのはそのためです)。
-3.  マイルストーン - デフォルトで「Awaiting Review」に設定されています。開発が承認されると、これはリリース予定の特定のバージョン番号に設定されます。マイルストーンを設定できるのは、[信頼されたコア貢献者](https://make.wordpress.org/core/handbook/about/organization/#contributing-developers)のみです。
+3.  マイルストーン - デフォルトで「Awaiting Review」に設定されています。開発が承認されると、これはリリース予定の特定のバージョン番号に設定されます。マイルストーンを設定できるのは、[信頼されたコア貢献者](https://ja.wordpress.org/team/handbook/core/about/organization/#contributing-developers)のみです。
 4.  重要度 - normal、major、minor、trivial、critical、または blocker。信頼できるコア貢献者のみが重要度を変更できます。
 5.  コンポーネント - プロジェクトのどの部分に取り組んでいるのか ? 各コンポーネントの詳細な定義については、[https://make.wordpress.org/core/components/](https://make.wordpress.org/core/components/)をお読みください。
 6.  フォーカス - チケットを作成する際にオプションで設定します。これは、チケットが WordPress コンポーネントの複数の領域に関連しているかどうかを示します。選択肢は ui、accessibility、javascript、docs、rtl、admin、template、multisite、rest-api、performance、coding-standards です。
 7.  優先度 - この問題をどの程度早く対処すべきか。選択肢は normal、low、high、lowest、highest omg bbq です。信頼されたコア貢献者と別のステータスについて話し合ったことがない限り、「normal」を使用する必要があります。
 8.  バージョン (バグの場合) - このバグの影響を受ける WordPress の最も古い既知のバージョンです。これを変更するべきではありません。
-9.  キーワード - これはタグのようなもので、チケットの現在のステータスと必要な次のステップを追跡するために使用されます。これは、作業の進行に応じて変更されます。利用可能な選択肢に関する詳細な定義については、以下を参照してください: [https://make.wordpress.org/core/handbook/contribute/trac/keywords/](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)
+9.  キーワード - これはタグのようなもので、チケットの現在のステータスと必要な次のステップを追跡するために使用されます。これは、作業の進行に応じて変更されます。利用可能な選択肢に関する詳細な定義については、以下を参照してください: [https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/](https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/)
 10.  説明文 - チケットの中心となる部分です。できるだけ詳しく、具体的に書いてください。バグの場合は、問題を再現するための手順と、期待することを記載してください。
 11.  添付ファイル - スクリーンショット、新しいパッチ、パッチの差分ファイルなど、追加情報を追加します。
 12.  変更履歴 - ここで会話が行われます ! デフォルトで開かれているため、作業を始める前に最後まで読んで、何が試されたのか、他の人は何を積極的に行っているのかを確認する必要があります。

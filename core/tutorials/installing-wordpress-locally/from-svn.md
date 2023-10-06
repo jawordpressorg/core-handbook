@@ -34,12 +34,12 @@ This article will walk you through installing the latest WordPress development v
     *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
 -->
 
-*   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/)\]
+*   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/xampp/)\]
     *   **備考**: ローカルサーバーとして DesktopServer を使用している場合、新しいローカル開発サイトを作成する際に、Blueprint ドロップダウンから **Blank (WordPress SVN)** オプションを選択する必要があります。これにより、データベースと `wp-config.php` ファイルが作成されます。サイトを作成したら、WordPress trunk のコピーをチェックアウトする前に、開発サイトのフォルダー (**wordpress-svn.dev**) にある `index.html` と `wp-config-sample.php` ファイルを削除してください。
 *   コンピューターに Subversion がインストールされていること:
     *   Windows に SVN をインストールする
-    *   [MACに SVN をインストールする](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/#installing-subversion-on-a%c2%a0mac)
-    *   [TortoiseSVN のインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/#installing-tortoisesvn) (Windows)
+    *   [MACに SVN をインストールする](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/#installing-subversion-on-a%c2%a0mac)
+    *   [TortoiseSVN のインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/#installing-tortoisesvn) (Windows)
 *   コンピューターにコマンドラインクライアントがインストールされていること:
     *   Windows: [Cygwin](http://cygwin.com/)
     *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
@@ -390,8 +390,8 @@ $ svn up
 *   [Submitting a Patch](https://make.wordpress.org/core/handbook/tutorials/trac/submitting-a-patch/)
 -->
 
-*   [ベータテスト](https://make.wordpress.org/core/handbook/testing/beta/)
-*   [パッチの提出](https://make.wordpress.org/core/handbook/tutorials/trac/submitting-a-patch/)
+*   [ベータテスト](https://ja.wordpress.org/team/handbook/core/testing/beta/)
+*   [パッチの提出](https://ja.wordpress.org/team/handbook/core/tutorials/trac/submitting-a-patch/)
 
 <!--
 ### Learn More

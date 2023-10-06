@@ -156,7 +156,7 @@ The patch has been reviewed and tested by a trusted member of the development co
 A response is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or trusted members of the development community.
 -->
 
-[コア開発者](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team)または開発コミュニティの信頼できるメンバーからの回答が求められています。
+[コア開発者](https://ja.wordpress.org/team/handbook/core/about/organization/#the-wordpress-core-team)または開発コミュニティの信頼できるメンバーからの回答が求められています。
 
 **dev-reviewed**
 

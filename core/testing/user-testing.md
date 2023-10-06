@@ -39,7 +39,7 @@ WordPress がサポートを必要としているユーザーテストの種類�
 6.  Make sure to reset the test site between every test
 -->
 
-1.  [ローカル](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/)または Web ホスティングプロバイダでテストサイトをセットアップする
+1.  [ローカル](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/)または Web ホスティングプロバイダでテストサイトをセットアップする
 2.  [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/) プラグインをインストールする
 3.  テストする[機能](https://make.wordpress.org/core/features/)または[パッチ](https://core.trac.wordpress.org/tickets/needs-testing)を見つける
 4.  機能の意図された目的を確認する

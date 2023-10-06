@@ -173,7 +173,7 @@ Bug Gardening is a great way to contribute. And, yes. Feel free to pick any tick
 Do start by reading the [handbook entry on Bug Gardening](https://make.wordpress.org/core/handbook/testing/bug-gardening/).
 -->
 
-[バグガーデニングに関するハンドブック](https://make.wordpress.org/core/handbook/testing/bug-gardening/)を読むことから始めてください。
+[バグガーデニングに関するハンドブック](https://ja.wordpress.org/team/handbook/core/testing/bug-gardening/)を読むことから始めてください。
 
 <!--
 There’s a Triage Team that’s looking for contributors. Its mission is to go through every open ticket in Trac to review and triage each one, aiming to lower the absolute number of tickets in the short term and keep that number low going forward.
@@ -237,7 +237,7 @@ Also, in the earliest weeks, there’s an [open call for tickets](https://make.w
 See [Trac workflow keywords glossary](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
 -->
 
-[Trac ワークフローキーワード 用語集](https://make.wordpress.org/core/handbook/contribute/trac/keywords/)を参照してください。
+[Trac ワークフローキーワード 用語集](https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/)を参照してください。
 
 <!--
 ## How do I make patches with Git?
@@ -257,15 +257,15 @@ Git を使ったパッチの作成については、以下の記事を参照し�
 *   [Contributing to WordPress using Git and GitHub PRs](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)
 -->
 
-*   [コードリポジトリ (Git)](https://make.wordpress.org/core/handbook/contribute/git/)
+*   [コードリポジトリ (Git)](https://ja.wordpress.org/team/handbook/core/contribute/git/)
 *   [Contributing To WordPress (Using Git)](http://scribu.net/wordpress/contributing-to-wordpress-using-github.html)
-*   [Git と GitHub プルリクエストを使用して WordPress に貢献する](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/)
+*   [Git と GitHub プルリクエストを使用して WordPress に貢献する](https://ja.wordpress.org/team/handbook/core/contribute/git/github-pull-requests-for-code-review/)
 
 <!--
 Find out more on the [Contributing with Code Handbook page](https://make.wordpress.org/core/handbook/contribute/).
 -->
 
-詳しくは、[コードによる貢献に関するハンドブックページ](https://make.wordpress.org/core/handbook/contribute/)を参照してください。
+詳しくは、[コードによる貢献に関するハンドブックページ](https://ja.wordpress.org/team/handbook/core/contribute/)を参照してください。
 
 <!--
 ## How should I name my patches?
@@ -301,7 +301,7 @@ If you want, you can include a very shortened purpose to your filename.
 See the related [Core Handbook Page](https://make.wordpress.org/core/handbook/tutorials/trac/new-user-quick-start/).
 -->
 
-関連する[コアハンドブックページ](https://make.wordpress.org/core/handbook/tutorials/trac/new-user-quick-start/)を参照してください。
+関連する[コアハンドブックページ](https://ja.wordpress.org/team/handbook/core/tutorials/trac/new-user-quick-start/)を参照してください。
 
 <!--
 Also, check the [bug scrub schedule](https://make.wordpress.org/core/2020/01/20/bug-scrub-schedule-for-5-4/) and go to some scrubs. You’ll learn a lot by doing!

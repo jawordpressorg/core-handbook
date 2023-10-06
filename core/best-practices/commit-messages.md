@@ -153,7 +153,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
 *   ユーザーの表示名にスペースがある場合は、w.org プロフィールの URL のスラッグを使用してください。たとえば、Trac の `Frank Klein` は `frank-klein` として props を取得する必要があります。
 *   Props は自由に与える側に回ってください。Props は貢献者に大きな励ましを与えます。
-*   もし誰かに props を与えることを忘れた場合、その人が現在のリリースですでに props を与えられているかどうか確認してください。与えられていれば、いずれにしてもリリースクレジットに含まれるため、長期的には問題とはなりません。まだ props が与えられていなければ、[リリースコーディネーター](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinator)に連絡し、リリース日にその人が追加されるようにできます。また、礼儀として Slack やチケットのコメントで貢献者に連絡を取り、コミットメッセージに名前がなかったことをお詫びし、彼らの貢献が評価されることとその方法を伝えることを推奨します。
+*   もし誰かに props を与えることを忘れた場合、その人が現在のリリースですでに props を与えられているかどうか確認してください。与えられていれば、いずれにしてもリリースクレジットに含まれるため、長期的には問題とはなりません。まだ props が与えられていなければ、[リリースコーディネーター](https://ja.wordpress.org/team/handbook/core/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinator)に連絡し、リリース日にその人が追加されるようにできます。また、礼儀として Slack やチケットのコメントで貢献者に連絡を取り、コミットメッセージに名前がなかったことをお詫びし、彼らの貢献が評価されることとその方法を伝えることを推奨します。
 
 <!--
 #### Self props
@@ -299,7 +299,7 @@ While these are not about the commit message itself, the following guidelines ar
 During the RC stage, [all patches must be reviewed by a second committer](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#release-candidate) before being committed.
 -->
 
-RC のフェーズでは、コミットされる前に[すべてのパッチは2人目のコミッターのレビューを受ける必要があります](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#release-candidate)。
+RC のフェーズでは、コミットされる前に[すべてのパッチは2人目のコミッターのレビューを受ける必要があります](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/#release-candidate)。
 
 <!--
 ### Before a commit
@@ -329,13 +329,13 @@ RC のフェーズでは、コミットされる前に[すべてのパッチは2
 -->
 
 *   パッチが受け入れられるかどうか疑問がある場合は、他のコミッターにセカンドオピニオンを求めてください。
-*   変更された行が[コーディング規約](https://make.wordpress.org/core/handbook/best-practices/coding-standards/)に準拠していることを確認してください。
+*   変更された行が[コーディング規約](https://ja.wordpress.org/team/handbook/core//best-practices/coding-standards/)に準拠していることを確認してください。
     *   PHP
         *   変更されたすべてのファイルのすべての行をチェックするには、`phpcs $(git diff trunk --name-only)` または `phpcs $(svn stat | grep "\(M \|A \)" | grep -v "external item" | cut -c8-)` を実行します。
         *   変更された行だけをチェックするには、[wp-dev-lib](https://github.com/xwp/wp-dev-lib/) をクローンし、`DIFF_BASE=trunk DEV_LIB_ONLY=phpsyntax,phpcs /path/to/wp-dev-lib/pre-commit` を[実行](https://github.com/xwp/wp-dev-lib/#manually-invoking-pre-commit)します。ローカルブランチが `trunk` 以外である必要があり、変更がコミットされているか、コミット用にステージされている必要があることに注意してください。ステージされていない変更はスキャンされません。
         *   これらのコマンドは、Bash でエイリアスを作成することをおすすめします。
     *   JavaScript
-        *   `npm run grunt jshint` を[実行](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/#jshint)します。これは `npm run grunt precommit` でも自動的に行われます。
+        *   `npm run grunt jshint` を[実行](https://ja.wordpress.org/team/handbook/core/best-practices/coding-standards/javascript/#jshint)します。これは `npm run grunt precommit` でも自動的に行われます。
     * HTML、CSS、a11y
         *   これらは手動でチェックする必要があります。
 *   `npm run grunt build && npm run grunt precommit` を実行します。これにより、PHP と JavaScript の自動テストスイートが実行され、CSS や画像などのさまざまなタスクも実行されます。
@@ -343,8 +343,8 @@ RC のフェーズでは、コミットされる前に[すべてのパッチは2
 *   最後にもう一度完全な diff をチェックします (`svn diff`)。Git を使用している場合は、インタラクティブなステージング (`git add -p`) は個々のチャンクをレビューするのに良い方法です。
 *   変更されたファイルのリストをチェックし (`svn stat`)、新しいファイルが追加されていることを確認します。ここで新しいファイルの内容の再確認をおすすめします。新しいファイルを追加するパッチを適用すると、新しいファイルの内容が重複する場合があるためです。また、新しいファイルの名前が `$_old_files` 配列にあるものと同じでないことを確認してください。そうしないと、すぐにまた削除されてしまいます。もし同じ名前がある場合は、同じ名前のファイルがいつ追加され、戻されたかを示すメモを添えて、配列からその行をコメントアウトしてください。その行は削除しないでください。
 *   ファイルを削除する場合は、それらを `$_old_files` 配列に追加します。
-*   `svn switch ^/branches/4.3 && svn merge -c 12345 ^/trunk` を使用して、`trunk` からリリースブランチへのコミットを「チェリーピック」できます。コミットする前にメッセージを編集するように求められます。詳しくは[コミットのバックポート](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/)を参照してください。
-*   リリースのタグ付けとブランチの手順は、[メジャーバージョンのリリースのコアセクション](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#core)ページにあります。
+*   `svn switch ^/branches/4.3 && svn merge -c 12345 ^/trunk` を使用して、`trunk` からリリースブランチへのコミットを「チェリーピック」できます。コミットする前にメッセージを編集するように求められます。詳しくは[コミットのバックポート](https://ja.wordpress.org/team/handbook/core/best-practices/backporting-commits/)を参照してください。
+*   リリースのタグ付けとブランチの手順は、[メジャーバージョンのリリースのコアセクション](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/#core)ページにあります。
 *   ヒント: 追跡されていないファイルを含めずに変更されたファイルを表示するには、次のように Bash のエイリアスまたは関数として追加してください: `svn stat --ignore-externals | grep '^[^?X]'`
 
 <!--

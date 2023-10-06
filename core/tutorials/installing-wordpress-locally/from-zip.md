@@ -26,13 +26,13 @@ This article will walk you through installing the latest WordPress development v
 Create a new database in your local web server using phpMyAdmin. \[[MAMP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-mamp/#5-creating-a-mysql-database-with-mamp)\] \[[WampServer](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-wampserver/#5-creating-a-mysql-database-with-wampserver)\] \[[XAMPP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/#6-creating-a-mysql-database-with-xampp)\]
 -->
 
-phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-mamp/#5-creating-a-mysql-database-with-mamp)\] \[[WampServer](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-wampserver/#5-creating-a-mysql-database-with-wampserver)\] \[[XAMPP](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/#6-creating-a-mysql-database-with-xampp)\]
+phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-mamp/#5-creating-a-mysql-database-with-mamp)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-wampserver/#5-creating-a-mysql-database-with-wampserver)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-xampp/#6-creating-a-mysql-database-with-xampp)\]
 
 <!--
 **Note:** If you are using DesktopServer as your local server, you’ll need to follow those [instructions for creating a new local development site](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) instead of the instructions listed below.
 -->
 
-**備考**: DesktopServer をローカルサーバーとして使用している場合は、以下の手順ではなく、この[新しいローカル開発サイトの作成手順](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) に従う必要があります。
+**備考**: DesktopServer をローカルサーバーとして使用している場合は、以下の手順ではなく、この[新しいローカル開発サイトの作成手順](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) に従う必要があります。
 
 
 <!--
@@ -182,4 +182,4 @@ You can check what version you’re using either on the **Dashboard**, or by che
 *   [Beta Testing](https://make.wordpress.org/core/handbook/testing/beta/)
 -->
 
-*   [ベータテスト](https://make.wordpress.org/core/handbook/testing/beta/)
+*   [ベータテスト](https://ja.wordpress.org/team/handbook/core/testing/beta/)

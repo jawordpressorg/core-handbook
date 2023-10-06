@@ -8,7 +8,7 @@
 Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
 -->
 
-注: WordPress は、[GIT](https://make.wordpress.org/core/handbook/contribute/git/) と SVN の両方から作成されるパッチをサポートしています。このドキュメントは、Git オプションにフォーカスしています。
+注: WordPress は、[GIT](https://ja.wordpress.org/team/handbook/core/contribute/git/) と SVN の両方から作成されるパッチをサポートしています。このドキュメントは、Git オプションにフォーカスしています。
 
 <!--
 ## What is SVN?
@@ -20,7 +20,7 @@ Alert: WordPress supports patches being created from both [GIT](https://make.wor
 WordPress uses [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn), a very popular version control system managed by the Apache project, to manage changes to its codebase. A change to the WordPress codebase increments the **revision** number. Individual changes are called [commits or changesets](https://make.wordpress.org/core/glossary/#commit-noun). These are denoted as either [r12345](https://core.trac.wordpress.org/changeset/12345) or \[[12345](https://core.trac.wordpress.org/changeset/12345)\]. Details of the SVN and Git repositories are located [here](https://make.wordpress.org/core/handbook/contribute/codebase/).
 -->
 
-WordPress は、Apache プロジェクトが管理する非常に一般的なバージョン管理システムである [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn) を使用して、コードベースへの変更を管理しています。WordPress のコードベースへの変更は、**リビジョン**という番号を増加させます。それぞれの変更は [コミットまたはチェンジセット](https://make.wordpress.org/core/glossary/#commit-noun) と呼ばれます。これらは、[r12345](https://core.trac.wordpress.org/changeset/12345) または \[[12345](https://core.trac.wordpress.org/changeset/12345)\] のように表記されます。SVN と Git のリポジトリの詳細は[こちら]((https://make.wordpress.org/core/handbook/contribute/codebase/))です。
+WordPress は、Apache プロジェクトが管理する非常に一般的なバージョン管理システムである [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn) を使用して、コードベースへの変更を管理しています。WordPress のコードベースへの変更は、**リビジョン**という番号を増加させます。それぞれの変更は [コミットまたはチェンジセット](https://make.wordpress.org/core/glossary/#commit-noun) と呼ばれます。これらは、[r12345](https://core.trac.wordpress.org/changeset/12345) または \[[12345](https://core.trac.wordpress.org/changeset/12345)\] のように表記されます。SVN と Git のリポジトリの詳細は[こちら]((https://ja.wordpress.org/team/handbook/core/contribute/codebase/))です。
 
 <!--
 The WordPress repository of code is organized into three main directories: [tags](https://make.wordpress.org/core/glossary/#tag), [branches](https://make.wordpress.org/core/glossary/#branch), and [trunk](https://make.wordpress.org/core/glossary/#trunk).
@@ -78,4 +78,4 @@ Mac の場合、推奨される SVN クライアントは [Cornerstone](http://w
 If you would like to learn more about working with Subversion, check out [Installing A Version Control System](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/), [Installing WordPress Via SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/), and [Working With Patches](https://make.wordpress.org/core/handbook/working-with-patches/) in the **Tutorials and Guides** section of this handbook.
 -->
 
-Subversion での作業についてもっと知りたい方は、このハンドブックの**チュートリアルとガイド**セクションの[バージョン管理システムのインストール](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)、[SVN による WordPress のインストール](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)、[パッチでの作業](https://make.wordpress.org/core/handbook/working-with-patches/)をご覧ください。
+Subversion での作業についてもっと知りたい方は、このハンドブックの**チュートリアルとガイド**セクションの[バージョン管理システムのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)、[SVN による WordPress のインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)、[パッチでの作業](https://ja.wordpress.org/team/handbook/core/working-with-patches/)をご覧ください。
