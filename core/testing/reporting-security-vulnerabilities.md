@@ -69,7 +69,7 @@ The security reporting system is NOT for support. Don’t send general problems 
 *   **For security issues with the self-hosted version of WordPress**, submit a report at the [WordPress HackerOne page](https://hackerone.com/wordpress). Include as much detail as you can. Please **always use HackerOne instead of Core Trac**, even if the vulnerability is only in `trunk`, or a beta/RC release, because there are some sites that run those in production.
 -->
 
-*   [**WordPress.com** でホストされているサイト](https://en.support.wordpress.com/com-vs-org/)のセキュリティ上の問題を報告する場合は、[Automattic HackerOne ページでレポートを提出してください](https://hackerone.com/automattic)。報告しようとしている問題が WordPress.com のもので、セキュリティの問題**ではない**場合は、[サポートフォーラム](https://en.forums.wordpress.com/)を利用してください。
+*   [**WordPress.com** でホストされているサイト](https://en.support.wordpress.com/com-vs-org/)のセキュリティの問題を報告する場合は、[Automattic HackerOne ページでレポートを提出してください](https://hackerone.com/automattic)。報告しようとしている問題が WordPress.com のもので、セキュリティの問題**ではない**場合は、[サポートフォーラム](https://en.forums.wordpress.com/)を利用してください。
 *   セキュリティの問題**ではなく**、セルフホストの WordPress.org サイトに問題がある場合は、WordPress.org の[サポートフォーラム](https://wordpress.org/support/)を利用してください。
 *   WordPress プラグインのセキュリティ問題については、[プラグインのセキュリティ問題の報告](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)にある情報を参照してください。
 *   **WordPress のセルフホストバージョンに関するセキュリティの問題**については、[WordPress HackerOne ページ](https://hackerone.com/wordpress)でレポートを提出し、できる限り詳細を記載してください。脆弱性が `trunk` またはベータ/RC リリースにのみ存在する場合でも、**コア Trac ではなく常に HackerOne を使用してください**。これらを本番環境で実行しているサイトがいくつかあるためです。
@@ -174,7 +174,7 @@ To disable unfiltered HTML for all users, including administrators, you can add 
 ## Why are disclosures of usernames or user IDs not a security issue?
 -->
 
-## なぜユーザー名やユーザー ID の漏洩はセキュリティ上の問題ではないのですか ?
+## なぜユーザー名やユーザー ID の漏洩はセキュリティの問題ではないのですか ?
 
 <!--
 The WordPress project doesn’t consider usernames or user ids to be private or secure information. A username is part of your online identity. It is meant to identify, not verify, who you are saying you are. Verification is the job of the password.

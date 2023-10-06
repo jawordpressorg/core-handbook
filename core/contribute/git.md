@@ -8,7 +8,7 @@
 Alert: Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
 -->
 
-注: WordPress のコントリビューターは、**Git** または [SVN](https://make.wordpress.org/core/handbook/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。
+注: WordPress の貢献者は、**Git** または [SVN](https://make.wordpress.org/core/handbook/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。
 
 <!--
 ## Summary
@@ -52,7 +52,7 @@ WordPress の Git ミラーは、コードベースの完全な履歴を含ん�
 *   All WP releases (starting with 1.5.0) are represented by Git tags. Use `git tag` to see the list.
 -->
 
-*   SVN の **trunk** に相当する **trunk** ブランチです。これは最先端のブランチで、次のメジャーリリースのアルファ版を含んでいます。特別な場合を除き、コントリビューターは trunk ブランチに対してパッチを準備すべきです。
+*   SVN の **trunk** に相当する **trunk** ブランチです。これは最先端のブランチで、次のメジャーリリースのアルファ版を含んでいます。特別な場合を除き、貢献者は trunk ブランチに対してパッチを準備すべきです。
 *   各メジャーリリースシリーズに対応するブランチが存在し、そのシリーズのバージョンの最初の2桁の数字を使って名前が付けられています。たとえば、4.5.1は `4.5` ブランチからリリースされています。
 *   WP のすべてのリリース (1.5.0以降) は Git タグで表されています。一覧を見るには `git tag` を使ってください。
 

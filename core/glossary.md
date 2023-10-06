@@ -563,7 +563,7 @@ The seriousness of a bug report or ticket in the eyes of the project. Generally,
 Contributors sometimes use the verb “punt” when talking about a ticket. This means it is being pushed out to a future release. This typically occurs for lower priority tickets near the end of the release cycle that don’t “make the cut.” In this is colloquial usage of the word, it means to delay or equivocate. (It also describes a play in American football where a team essentially passes up on an opportunity, hoping to put themselves in a better position later to try again.) [#](https://make.wordpress.org/core/handbook/glossary/#punt)
 -->
 
-チケットについて話すとき、コントリビューターは「punt」という動詞を使うことがあります。これは、将来のリリースにプッシュされることを意味します。これは一般的に、リリースサイクルの終わりに近い優先度の低いチケットで、「基準を満たさなかった」場合に起こります。これは口語的な用法で、「遅らせる」「あいまいにする」という意味です。(またアメリカンフットボールでは、攻撃の機会を諦め、次のディフェンスのために陣地を挽回するプレイも意味します)。
+チケットについて話すとき、貢献者は「punt」という動詞を使うことがあります。これは、将来のリリースにプッシュされることを意味します。これは一般的に、リリースサイクルの終わりに近い優先度の低いチケットで、「基準を満たさなかった」場合に起こります。これは口語的な用法で、「遅らせる」「あいまいにする」という意味です。(またアメリカンフットボールでは、攻撃の機会を諦め、次のディフェンスのために陣地を挽回するプレイも意味します)。
 
 <!--
 **RC**

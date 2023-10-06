@@ -87,7 +87,7 @@ The following is an explanation of the fields to be completed when creating a ne
 **2\. Description:** A detailed description of the issue. Include steps to reproduce the issue consistently. For bugs, describe the actual versus expected results, and attach a screenshot if you need to visually demonstrate the issue. Describe a possible solution for the issue, if known. For enhancements, you should provide proper rationale for making the change.
 -->
 
-**2\. Description:** 問題の詳細な説明。問題を一貫して再現するためのステップを含みます。バグについては、実際の結果と予想される結果を記述し、問題を視覚的に示す必要がある場合は、スクリーンショットを添付してください。問題に対する解決策がある場合は、それを記述します。機能拡張の場合は、変更するための適切な根拠を示す必要があります。
+**2\. Description:** 問題の詳細な説明。問題を一貫して再現するためのステップを含みます。バグについては、実際の結果と予想される結果を記述し、問題を視覚的に示す必要がある場合は、スクリーンショットを添付してください。問題に対する解決策がある場合は、それを記述します。機能強化の場合は、変更するための適切な根拠を示す必要があります。
 
 <!--
 **3\. Type:** Tickets fall under one of four types – [defect (bug)](https://make.wordpress.org/core/glossary/#bug), [enhancement](https://make.wordpress.org/core/glossary/#enhancement), [feature request](https://make.wordpress.org/core/glossary/#feature-request), and [task (blessed)](https://make.wordpress.org/core/glossary/#task-blessed).
@@ -127,7 +127,7 @@ If you have files to include with the ticket (screenshots or a patch), **check t
 After completing the above fields, **click Continue To Preview** to ensure that you have included all of the information needed to report the bug. The ticket preview will display directly below the ticket form. Review the information, make any changes necessary, then **click Create Ticket**.
 -->
 
-上記の項目を入力したら、**Continue To Preview をクリック**し、バグ報告に必要なすべての情報が含まれていることを確認します。チケットのプレビューは、チケットフォームのすぐ下に表示されます。情報を確認し、必要な変更を加えた後、**チケットを作成する**をクリックしてください。
+上記の項目を入力したら、**Continue To Preview をクリック**し、バグレポートに必要なすべての情報が含まれていることを確認します。チケットのプレビューは、チケットフォームのすぐ下に表示されます。情報を確認し、必要な変更を加えた後、**チケットを作成する**をクリックしてください。
 
 <!--
 ### Attach Files

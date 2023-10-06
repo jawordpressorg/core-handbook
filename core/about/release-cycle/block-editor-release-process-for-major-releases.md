@@ -72,7 +72,7 @@ Here’s a list of the significant time-critical tasks, sorted by when they shou
 -->
 
 *   最新の Gutenberg パッケージと PHP の変更で Trunk をアップデートする
-*   開発ノートのためのイシュートラッカーを作成します。開発ノートは RC1までに公開されるはずであり、そのために十分な時間が必要です
+*   開発者ノートのためのイシュートラッカーを作成します。開発者ノートは RC1までに公開されるはずであり、そのために十分な時間が必要です
 
 <!--
 **Between Beta 1 and the last RC**
@@ -448,7 +448,7 @@ Since the [private-apis](https://github.com/WordPress/gutenberg/tree/trunk/packa
 However, there are still many older experimental APIs in Gutenberg that can be recognized by the `__experimental` prefix. These can be functions, properties, or variables found throughout the codebase. For every release, it’s customary to audit these and check if any are ready for stabilization. Stabilization must be done before the Beta 1 release (ideally at least two weeks beforehand), as renames during the Beta phase are not possible.
 -->
 
-しかし、Gutenberg にはまだ多くの古い実験的 API が残っており、接頭辞が `__experimental` であることで見分けることができます。これらは関数、プロパティ、変数であり、コードベースのいたるところにあります。リリースのたびに、これらの API を監査し、安定化の準備ができているかどうかをチェックすることが通例です。ベータ段階では名前の変更ができないため、最初のベータ1リリースの前 (理想的には少なくとも2週間前) に安定化を行うことが重要です。
+しかし、Gutenberg にはまだ多くの古い実験的 API が残っており、接頭辞が `__experimental` であることで見分けることができます。これらは関数、プロパティ、変数であり、コードベースのいたるところにあります。リリースのたびに、これらの API を監査し、安定化の準備ができているかどうかをチェックすることが通例です。ベータフェーズでは名前の変更ができないため、最初のベータ1リリースの前 (理想的には少なくとも2週間前) に安定化を行うことが重要です。
 
 <!--
 ### How to run the audit
@@ -490,7 +490,7 @@ It can help to group related experimental APIs from the report and any informati
 ## Planning and writing dev notes
 -->
 
-### 開発ノートの計画と執筆
+### 開発者ノートの計画と執筆
 
 <!--
 *Check out* [*this handbook page*](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/) *for more context on dev note best practices.*
@@ -502,13 +502,13 @@ It can help to group related experimental APIs from the report and any informati
 You can check all PRs labeled with [`Needs Dev Note`](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Needs+Dev+Note%22.) to know what needs a dev note. You might find that there are more PRs than you can feasibly write individual posts for without overwhelming the community with information. In this case, group PRs with the same label and propose a dev note for each group.
 -->
 
-開発ノートが必要なものを知るために、[`Needs Dev Note`](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Needs+Dev+Note%22.) というラベルのついたすべてのプルリクエストをチェックできます。個々の投稿を書くことでコミュニティを情報で圧倒してしまうほど、多くのプルリクエストがあることに気付くかもしれません。このような場合、プルリクエストを同じラベルでグループ化し、グループごとに開発者ノートを提案します。
+開発者ノートが必要なものを知るために、[`Needs Dev Note`](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Needs+Dev+Note%22.) というラベルのついたすべてのプルリクエストをチェックできます。個々の投稿を書くことでコミュニティを情報で圧倒してしまうほど、多くのプルリクエストがあることに気付くかもしれません。このような場合、プルリクエストを同じラベルでグループ化し、グループごとに開発者ノートを提案します。
 
 <!--
 Once you have a sense of the needed dev notes, create a GitHub issue ([previous example](https://github.com/WordPress/gutenberg/issues/20185)) detailing the plan:
 -->
 
-必要な開発ノートの種類がわかったら、GitHub の issue ([以前の例](https://github.com/WordPress/gutenberg/issues/20185)) に計画を詳細に記述します:
+必要な開発者ノートの種類がわかったら、GitHub の issue ([以前の例](https://github.com/WordPress/gutenberg/issues/20185)) に計画を詳細に記述します:
 
 <!--
 *   What posts need to be done 
@@ -603,7 +603,7 @@ After the first Beta, you can only include bug fixes for issues that regressed d
 No additional features or enhancements can be included after this milestone. Exceptions for enhancements to new features can be made, but these must be discussed with the release team. If approved, a Trac ticket should be created for each feature with the type “task (blessed)”. All enhancements to these tasks must be finished before RC1.
 -->
 
-最初のベータ版マイルストーン以降は追加機能や拡張機能を含めることができません。新機能の拡張には例外を設けることができます。これらについてはリリースチームと話し合う必要があり、承認された場合は、機能ごとに「task (blessed)」タイプの Trac チケットを作成する必要があります。これらのタスクに対するすべての機能拡張は、RC1よりも前に完了する必要があります。
+最初のベータ版マイルストーン以降は追加機能や拡張機能を含めることができません。新機能の拡張には例外を設けることができます。これらについてはリリースチームと話し合う必要があり、承認された場合は、機能ごとに「task (blessed)」タイプの Trac チケットを作成する必要があります。これらのタスクに対するすべての機能強化は、RC1よりも前に完了する必要があります。
 
 <!--
 **To make the Beta 1 release process easier, start updating trunk as early as possible.**
@@ -759,7 +759,7 @@ Once PRs on the project board are completed, they must be backported into the Co
 *   ローカルの WordPress 開発環境で、解決されるはずの問題が実際に解決されていることを確認します。
 *   コアのパッケージを更新するために [Trac](https://core.trac.wordpress.org/) チケットを作成します。
 *   `wordpress-develop` に対してプルリクエストを提出し、継続的インテグレーションのテストがパスしたことを確認し、説明に Trac のチケット番号を追加します。これにより、プルリクエストがチケットにリンクされ、パッチが自動的に作成されます ([以前の例](https://github.com/WordPress/wordpress-develop/pull/2564))。
-*   レビューを依頼します。ベータ版の段階では、レビューは推奨されますが必須ではありません。RC プロセスでは、2人のコミッターによるダブルチェックが必要です。もしあなたがコミッターで、その変更に自信があるなら、承認者の一人として「dev-feedback」キーワードを追加してください。
+*   レビューを依頼します。ベータ版のフェーズでは、レビューは推奨されますが必須ではありません。RC プロセスでは、2人のコミッターによるダブルチェックが必要です。もしあなたがコミッターで、その変更に自信があるなら、承認者の一人として「dev-feedback」キーワードを追加してください。
 *   承認されたら、パッチをコミットするか、コミッターでない場合はコミッターと調整してコミットされるようにしてください。
 *   WordPress リリースのブランチがすでに存在する場合は、trunk からリリースブランチへのコミットのバックポートが必要です。
 

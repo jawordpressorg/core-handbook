@@ -164,7 +164,7 @@ If any of the following conditions apply, remove the **has-patch** keyword, and 
 *   パッチが適切に適用されないか、[コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に従っていない。この場合、**needs-refresh** キーワードを追加してください。
 *   パッチがバグを修正しない。これは当然のことのように思えますが、WordPress の開発バージョン用に書かれたものではないパッチでも、変更された箇所にはきちんと適用されることがあります。パッチは特定のバージョンの PHP と MySQL でのみバグを修正するかもしれませんし、マルチサイトではバグを修正しないかもしれません。
 *   パッチによって新しいエラーや警告メッセージが発生する。デバッグを有効にしてテストすることを忘れないでください。
-*   パッチが適用されると、新しい[単体テスト](https://make.wordpress.org/core/handbook/automated-testing/)が失敗する。
+*   パッチが適用されると、新しい[ユニットテスト](https://make.wordpress.org/core/handbook/automated-testing/)が失敗する。
 *   パッチが適切な[データ検証と出力のサニタイズ](https://codex.wordpress.org/Data_Validation)を使っていないか、ユーザーの種類と権限をチェックすべきときにチェックをしていない。
 *   パッチが、ここで説明されていないその他の理由により適切ではない。私たちは、WordPress において読みやすく、効率的で安全なコードを目指しています。そのため、たとえ実際にバグが修正されていたとしても、パッチの改善すべき点を指摘することを恐れないでください。
 
@@ -208,7 +208,7 @@ Tickets involving patches that fix simple typos, add [inline documentation](http
 All remaining tickets in this workflow should be triaged to the next major release milestone. This does not normally apply to all tickets in general, just confirmed defects with quality patches, which is all this workflow deals with. If the WordPress development cycle is in the middle of release candidates for the next major release, critical bug fixes should still be assigned to the **Next Release** milestone; however, everything else should be moved to the **Future Release** milestone, and should also be tagged with the keyword **x.x-early** (where x.x is the next major release after the one with a release candidate out). For example, during the 3.6 release candidate phase, confirmed fixes for non-critical bugs should be tagged with the **3.7-early** keyword.
 -->
 
-このワークフローの残りのチケットはすべて、次のメジャーリリースのマイルストーンにトリアージされるべきです。これは通常、すべてのチケットに適用されるわけではなく、ワークフローでは品質パッチを伴う確認済みの不具合のみに適用されます。WordPress の開発サイクルが次のメジャーリリースのリリース候補の途中である場合、重要なバグ修正は引き続き **Next Release** マイルストーンに割り当てる必要があります。ただし、それ以外のものはすべて **Future Release** マイルストーンに移し、**x.x-early** というキーワードもつける必要があります (x.x は、リリース候補が出ているリリースの次のメジャーリリースです)。たとえば、3.6のリリース候補の段階では、重大ではないバグに対する確認済みの修正には、**3.7-early** というキーワードをつける必要があります。
+このワークフローの残りのチケットはすべて、次のメジャーリリースのマイルストーンにトリアージされるべきです。これは通常、すべてのチケットに適用されるわけではなく、ワークフローでは品質パッチを伴う確認済みの不具合のみに適用されます。WordPress の開発サイクルが次のメジャーリリースのリリース候補の途中である場合、重要なバグ修正は引き続き **Next Release** マイルストーンに割り当てる必要があります。ただし、それ以外のものはすべて **Future Release** マイルストーンに移し、**x.x-early** というキーワードもつける必要があります (x.x は、リリース候補が出ているリリースの次のメジャーリリースです)。たとえば、3.6のリリース候補のフェーズでは、重大ではないバグに対する確認済みの修正には、**3.7-early** というキーワードをつける必要があります。
 
 <!--
 ## Learn More

@@ -68,7 +68,7 @@ make/core に投稿することは、コミッター、コンポーネントメ�
 -->
 
 *   **API の変更。** make/core で告知すべき API 変更の例としては、新しいフィルターやアクション、フックの順番の変更、クエリーの大幅な強化 (**ブーン・ゴルジュのルール**)、フックのパラメータの目的の変更、新しい汎用ヘルパー関数、その他リリースにおける重大な変更などがあります。これらの投稿は、開発者が今後の変更点を確実に把握できるように、ベータ期間の最初の1週間以内に make/core で公開されるべきです。関連する変更点をひとつの投稿にまとめることは、投稿が長くなり過ぎない限り、認められます。たとえば、「WordPress 4.2におけるカスタマイザーの変更点」という投稿は、各コミットについての個別の変更点ではなく、1つの投稿でかまいません。もし疑問があれば、提案した投稿について話し合うために、毎週の開発チャットを使用してください。
-*   **ミーティングのお知らせ。** 定期的な 開発チャットのミーティングは告知する必要はありませんが、アジェンダの投稿は定期的にリリースを追いかけていない開発者にとって役に立ちます。その他のミーティングでは、make/core にミーティングの告知をする必要がありますが、毎週告知をする必要はありません。
+*   **ミーティングのお知らせ。** 定期的な 開発チャットのミーティングは告知する必要はありませんが、要約の投稿は定期的にリリースを追いかけていない開発者にとって役に立ちます。その他のミーティングでは、make/core にミーティングの告知をする必要がありますが、毎週告知をする必要はありません。
 *   **ミーティングのメモ。** 定期的または一度限りのミーティングを開催していますか ? ミーティングのメモを make/core に投稿し、参加できなかった人が簡単にフィードバックできるようにしましょう。開発チャットでは、参加できなかった人のために、ほとんどの場合は要約記事を添付しています。コンポーネントチャットやプラグインチャットも、ミーティング後に要約記事を投稿してください。
 *   **フィーチャープラグインに関する記事。** あなたのフィーチャープラグインのアイデアを世界に紹介するには、毎週の開発チャットか、不定期に開催されるフィーチャープラグインチャットのいずれかが最適です。一度提案されたら、アイデアの段階によっては、make/core に投稿することも良いでしょう。リリースリードから依頼された場合、マージの提案も make/core に投稿されるべきです。
 
@@ -88,13 +88,13 @@ make/core でのフィードバックは、Trac チケットでのフィード�
 Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps make sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
 -->
 
-初めての投稿でも100万回目の投稿でも、投稿を公開する前にコミッターに校正を依頼することが強く推奨されます。査読 (コードレビューのようなもの) は、あなたの言葉が明確で意図したとおりに書かれているか確認することに役立ち、また、うまく翻訳されないかもしれないフレーズを特定することに役立ちます。いくつかの投稿 (毎週のアジェンダなど) は必ずしも査読を必要としませんが、もしあなたが make/core に投稿するのが初めてなら、お願いしても損はないでしょう。
+初めての投稿でも100万回目の投稿でも、投稿を公開する前にコミッターに校正を依頼することが強く推奨されます。査読 (コードレビューのようなもの) は、あなたの言葉が明確で意図したとおりに書かれているか確認することに役立ち、また、うまく翻訳されないかもしれないフレーズを特定することに役立ちます。いくつかの投稿 (毎週の要約など) は必ずしも査読を必要としませんが、もしあなたが make/core に投稿するのが初めてなら、お願いしても損はないでしょう。
 
 <!--
 Feature plugin merge proposals should *always* be read by the release lead (or designee) before posting. Release devnotes should be read by the release lead (or designee) before publishing.
 -->
 
-フィーチャープラグインのマージの提案は、投稿する前に「必ず」リリースリーダー (または指名された人) に読んでもらうべきです。リリース開発ノートは、公開する前にリリースリーダー (または指名された人) に読んでもらうべきです。
+フィーチャープラグインのマージの提案は、投稿する前に「必ず」リリースリーダー (または指名された人) に読んでもらうべきです。リリース開発者ノートは、公開する前にリリースリーダー (または指名された人) に読んでもらうべきです。
 
 <!--
 See the Giving Proper Credit (Props) section below for information on how to make sure the proofreaders/peer reviewers are recognized.
@@ -136,7 +136,7 @@ make/core を読んでいる人の多くは、英語を第一言語としてい�
 *Check out the [Text-based Communication in Open Source](https://wordpress.org/contributor-training/lesson/text-based-communication-in-open-source/) and [Best Practices for Global Collaboration](https://wordpress.org/contributor-training/lesson/best-practices-for-global-collaboration/) pages on the [WordPress Contributor Training](https://wordpress.org/contributor-training/) site for more tips and best practices.*
 -->
 
-[オープンソースにおけるテキストベースのコミュニケーション](https://wordpress.org/contributor-training/lesson/text-based-communication-in-open-source/)や[グローバルなコラボレーションのためのベストプラクティス](https://wordpress.org/contributor-training/lesson/best-practices-for-global-collaboration/)については、[WordPress コントリビュータートレーニング](https://wordpress.org/contributor-training/)サイトのページを参照してください。
+[オープンソースにおけるテキストベースのコミュニケーション](https://wordpress.org/contributor-training/lesson/text-based-communication-in-open-source/)や[グローバルなコラボレーションのためのベストプラクティス](https://wordpress.org/contributor-training/lesson/best-practices-for-global-collaboration/)については、[WordPress 貢献者トレーニング](https://wordpress.org/contributor-training/)サイトのページを参照してください。
 
 <!--
 ### Giving Proper Credit (Props)
@@ -184,7 +184,7 @@ For each of the following types of post, there are some things to keep in mind:
 
 *   **コンポーネントに関連した投稿。** ほとんどすべての投稿は、コンポーネントに関連しています。コンポーネントに関連する投稿には、コンポーネント名をタグ付けしてください。複数のコンポーネントを扱う場合は、複数のタグを使用してください。
 *   **API の変更。** すべての API の変更には、関連するリリース番号、コンポーネント名、そして開発者向けの注意事項であることを示す「dev-notes」のタグを付ける必要があります。
-*   **リリースに関するお知らせ。** 特定のリリースに関連するすべての投稿 (アジェンダ、ミーティングの概要、API の変更、今週のコアなど) には、関連するリリースをタグ付けする必要があります。
+*   **リリースに関するお知らせ。** 特定のリリースに関連するすべての投稿 (要約、ミーティングの概要、API の変更、今週のコアなど) には、関連するリリースをタグ付けする必要があります。
 *   **フィーチャープラグインやその他プロジェクト。** これらのタイプの投稿には、それぞれプロジェクト名で一貫したタグを付ける必要があります。たとえば、「MP6」という管理画面の再設計に取り組んでいるのであれば、関連するすべての投稿に「MP6」のタグを付けましょう。
 *   **ミーティングのお知らせ。** ミーティングについて事前に投稿する場合 (別名、要約メモではない)、読者が自分のローカルタイムで会議が行われる時間を正確に知ることができるように、[time shortcode](https://make.wordpress.org/meta/2013/04/03/time-shortcode-for-make-p2s/) を使用します。
 

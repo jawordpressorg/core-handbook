@@ -22,15 +22,15 @@ The general flow of preparing for, hosting, and summarizing devchats is as follo
 3.  Publish meeting summary ([example](https://make.wordpress.org/core/2018/10/10/dev-chat-summary-october-10-5-0-week-2/)) ideally within 24 hours after the completion of devchat and including the relevant release number, “devchat”, and “summary” tags to ensure it appears in relevant searches/filters elsewhere on Make/Core.
 -->
 
-1.  アジェンダ ([例](https://make.wordpress.org/core/2019/08/14/dev-chat-agenda-august-14/)) を、予定されている開発チャットの時間の24時間前までに公開し、関連するリリース番号、「devchat」、「agenda」タグを含めて、Make/Core の他の場所で関連する検索/フィルターに表示されるようにします。
-2.  アジェンダのトピックをスクリプト化し、開発チャットにコピー/ペーストできるようにします ([例](https://make.wordpress.org/core/files/2020/08/devchat_script.txt))。
+1.  要約 ([例](https://make.wordpress.org/core/2019/08/14/dev-chat-agenda-august-14/)) を、予定されている開発チャットの時間の24時間前までに公開し、関連するリリース番号、「devchat」、「agenda」タグを含めて、Make/Core の他の場所で関連する検索/フィルターに表示されるようにします。
+2.  要約のトピックをスクリプト化し、開発チャットにコピー/ペーストできるようにします ([例](https://make.wordpress.org/core/files/2020/08/devchat_script.txt))。
 3.  ミーティングのサマリー ([例](https://make.wordpress.org/core/2018/10/10/dev-chat-summary-october-10-5-0-week-2/)) は、理想的には開発チャット終了後24時間以内に公開し、関連リリース番号、「devchat」、「summary」タグを含めて、Make/Core の他の関連する検索/フィルターに表示されるようにします。
 
 <!--
 As you’re writing agenda and summary posts, keep in mind the [Post & Comment Guidelines](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/).
 -->
 
-アジェンダやまとめ記事を書く際には、[投稿・コメントガイドライン](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/)に気を付けてください。
+要約やまとめ記事を書く際には、[投稿・コメントガイドライン](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/)に気を付けてください。
 
 <!--
 ### Devchat opening / closing tags

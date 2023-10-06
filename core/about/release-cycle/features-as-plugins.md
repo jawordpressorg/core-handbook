@@ -14,7 +14,7 @@ The Features as Plugins model was introduced in 3.7 as the way for features to b
 A community member or new contributor, such as yourself, can propose an idea for a new feature plugin during the [Feature Plugin Chat](https://make.wordpress.org/core/2015/07/10/feature-plugin-chat-on-july-14/), usually held around the time a new release cycle starts.
 -->
 
-コミュニティメンバーや新しいコントリビューターは、通常新しいリリースサイクルが始まるころに開催される[機能プラグインチャット](https://make.wordpress.org/core/2015/07/10/feature-plugin-chat-on-july-14/)において、新しい機能プラグインのアイデアを提案できます。
+コミュニティメンバーや新しい貢献者は、通常新しいリリースサイクルが始まるころに開催される[機能プラグインチャット](https://make.wordpress.org/core/2015/07/10/feature-plugin-chat-on-july-14/)において、新しい機能プラグインのアイデアを提案できます。
 
 <!--
 The chat is for putting forward an idea you have, and plan on taking an active and primary role in developing. Other contributors who are interested in your idea can join the effort. The date and time of the chat are [announced in a post](https://make.wordpress.org/core/2015/07/10/feature-plugin-chat-on-july-14/) on the [Make/Core blog](https://make.wordpress.org/core/), and ideas are added in the comments in the form of a short proposal:
@@ -147,7 +147,7 @@ Below is a list of some of the requirements a feature plugin team should meet w
 *   既存のインターフェースを変更したり置き換えたりする機能については、[旧フローと新フローを比較する視覚的な記録](https://make.wordpress.org/flow/tag/visual-comparison,flow-comparison/)を提供すること。
 *   [WordPress コーディング規約](https://make.wordpress.org/core/handbook/coding-standards/)に準拠したコード。
 *   同様に、コードがよくテストされ、[ユニットテスト](https://make.wordpress.org/core/handbook/automated-testing/)を備えている。
-*   コードは十分に文書化されている (必ず [インラインドキュメントチーム](https://make.wordpress.org/docs/handbook/core/inline-docs/) にレビューしてもらいましょう)。
+*   コードは十分にドキュメント化されている (必ず [インラインドキュメントチーム](https://make.wordpress.org/docs/handbook/core/inline-docs/) にレビューしてもらいましょう)。
 *   コードは[プラグインセキュリティのベストプラクティス](https://developer.wordpress.org/plugins/security/)に従っており、セキュリティ監査を受けている。
 *   ユーザーインターフェース・エクスペリエンスは、ユーザーテストによって検証され、適切なフィードバックが取り入れられている (必ず[デザインチーム](https://make.wordpress.org/design/)にレビューしてもらいましょう)。
 *   デザインは、あらゆるモバイルデバイスで適切に表示される完全なレスポンシブデザインで、高解像度・レティーナディスプレイにも対応したグラフィックスを使用している。

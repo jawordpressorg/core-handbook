@@ -309,7 +309,7 @@ define('WP_DEBUG', true);
 You will need to run the latest version of WordPress trunk on your local SVN install while testing, fixing bugs, and contributing patches.
 -->
 
-テスト、バグ修正、パッチのコントリビュート中は、ローカルの SVN インストールで最新バージョンの WordPress trunk を実行する必要があります。
+テスト、バグ修正、パッチでの貢献を行っている間は、ローカルの SVN インストールで最新バージョンの WordPress trunk を実行する必要があります。
 
 <!--
 WordPress 3.7 [introduces automatic updates](https://make.wordpress.org/core/2013/09/24/automatic-core-updates/) for minor stable WordPress releases (3.7.x). This feature, by default, does not work for Subversion installs.

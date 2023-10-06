@@ -232,7 +232,7 @@ Make ブログは、WordPress に関わるチームを中心に構築された�
 
 *   [WordPress News](https://wordpress.org/news/): お知らせ (例: WordPress のリリース) に特化したブログ。
 *   [Make Core](https://make.wordpress.org/core/): WordPress のコア開発および関連トピックを扱うブログ。
-*   [Make Design:](https://make.wordpress.org/design/) ユーザーエクスペリエンス、ユーザーインターフェイス、ビジュアルデザインなどのデザインの取り組みに関するブログ。
+*   [Make Design:](https://make.wordpress.org/design/) ユーザー体験、ユーザーインターフェイス、ビジュアルデザインなどのデザインの取り組みに関するブログ。
 *   [Make Documentation](https://make.wordpress.org/docs/): 開発者に特有の項目を含む、ドキュメントの取り組みに関するブログ。
 *   [Make Themes](https://make.wordpress.org/themes/): テーマのレビュー、ベストプラクティスの共有、ブロックベースのテーマなどを含むテーマに特化したブログ。
 

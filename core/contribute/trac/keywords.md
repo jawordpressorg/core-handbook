@@ -38,7 +38,7 @@ The ticket is a candidate for closure with a disposition other than fixed (i.e. 
 This keyword should only be applied by committers. The keyword signals that the ticket is a priority, and should be handled early in the next release cycle.
 -->
 
-このキーワードはコミッターのみが付与できます。このキーワードは、そのチケットが優先され、次のリリースサイクルの早い段階で取り組むべきものであることを示します。
+このキーワードはコミッターのみが付与できます。このキーワードは、そのチケットが優先され、次のリリースサイクルの早いフェーズで取り組むべきものであることを示します。
 
 **good-first-bug**
 
@@ -86,7 +86,7 @@ Codex のドキュメントを更新または追加する必要があります�
 Inline documentation for the code is needed. These are either place holder tickets for individual files, or tickets with patches for new functions which need documenting before they are committed.
 -->
 
-コードのためのインラインドキュメントが必要です。これらは、個々のファイルに対するプレースホルダーチケットか、コミットする前に文書化が必要な新機能のパッチを持つチケットのどちらかです。
+コードのためのインラインドキュメントが必要です。これらは、個々のファイルに対するプレースホルダーチケットか、コミットする前にドキュメント化が必要な新機能のパッチを持つチケットのどちらかです。
 
 **needs-patch**
 
@@ -110,7 +110,7 @@ A submitted patch no longer applies cleanly to the WordPress core files, usually
 Patches and commits that change UI need screenshots. Document visual iterations. Upload screenshots directly to the ticket or post to [make/flow](https://make.wordpress.org/flow/) for more involved visual documentation such as visual records or visual surveys. Cross-link any make/flow posts with the ticket. Remove the needs-screenshots keyword from the ticket once screenshots for both a desktop and a phone, at the least, are provided. Full context screenshots taken on physical devices are preferred. New patches require new screenshots. Once a ticket has at least one of the needed screenshots, tag it with has-screenshots. [#needs-screenshots](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&keywords=~needs-screenshots&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)
 -->
 
-UI を変更するパッチやコミットにはスクリーンショットが必要です。視覚的なイテレーションを文書化します。スクリーンショットをチケットに直接アップロードするか、音声や映像記録のようなより複雑なドキュメントの場合は [make/flow](https://make.wordpress.org/flow/) に投稿してください。make/flow の投稿は、すべてチケットと相互にリンクしてください。少なくともデスクトップとモバイルの両方のスクリーンショットが提供されたら、チケットから needs-screenshots キーワードを削除してください。物理的なデバイスで撮影されたフルコンテキストを持つスクリーンショットが望ましいです。新しいパッチでは、新しいスクリーンショットが必要です。チケットに必要なスクリーンショットが少なくとも1枚あれば、has-screenshots というタグを付けてください。[#needs-screenshots](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&keywords=~needs-screenshots&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)
+UI を変更するパッチやコミットにはスクリーンショットが必要です。視覚的なイテレーションをドキュメント化します。スクリーンショットをチケットに直接アップロードするか、音声や映像記録のようなより複雑なドキュメントの場合は [make/flow](https://make.wordpress.org/flow/) に投稿してください。make/flow の投稿は、すべてチケットと相互にリンクしてください。少なくともデスクトップとモバイルの両方のスクリーンショットが提供されたら、チケットから needs-screenshots キーワードを削除してください。物理的なデバイスで撮影されたフルコンテキストを持つスクリーンショットが望ましいです。新しいパッチでは、新しいスクリーンショットが必要です。チケットに必要なスクリーンショットが少なくとも1枚あれば、has-screenshots というタグを付けてください。[#needs-screenshots](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&keywords=~needs-screenshots&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)
 
 **needs-unit-tests**
 

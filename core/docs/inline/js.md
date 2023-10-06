@@ -36,7 +36,7 @@ There are three pages tracking JS files for documentation:
 
 *   [Unclaimed JS docs files](https://make.wordpress.org/core/2018/01/31/js-docs-initiative-add-inline-docs-for-javascript/): これらのファイルをドキュメント化する作業はまだ誰も行っていません。投稿にコメントすることで、ファイルを担当できます。
 *   [進行中の JS ドキュメントファイルのチケット](https://make.wordpress.org/core/handbook/docs/inline/js/in-progress-tickets/): これらのファイルには、ドキュメントを含むパッチがあるか、誰かがドキュメントのパッチを作成する作業しています。
-*   [クローズされた JS ドキュメントファイルのチケット](https://make.wordpress.org/core/handbook/docs/inline/js/closed-tickets/): これらのファイルは、すでに文書化されています。
+*   [クローズされた JS ドキュメントファイルのチケット](https://make.wordpress.org/core/handbook/docs/inline/js/closed-tickets/): これらのファイルは、すでにドキュメント化されています。
 
 <!--
 ## How to get involved

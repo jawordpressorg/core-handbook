@@ -14,19 +14,19 @@
 While we try to be proactive in preventing security problems, we do not assume they’ll never come up. If you believe you’ve found a security problem in a release of WordPress, please see the [Security FAQ](https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/) for information on how to report the problem.
 -->
 
-私たちはセキュリティの問題を未然に防ぐために積極的に取り組んでいますが、セキュリティの問題が絶対に起きないとは考えていません。WordPress のリリースにセキュリティ上の問題を発見したと思われる場合、[セキュリティに関する FAQ ](https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/)で問題の報告方法についてご覧ください。
+私たちはセキュリティの問題を未然に防ぐために積極的に取り組んでいますが、セキュリティの問題が絶対に起きないとは考えていません。WordPress のリリースにセキュリティの問題を発見したと思われる場合、[セキュリティに関する FAQ ](https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/)で問題の報告方法についてご覧ください。
 
 <!--
 It is standard practice to notify the vendor (the WordPress security team, in this case) of a security problem before publicizing, so a fix can be prepared, and public damage due to the vulnerability minimized.
 -->
 
-セキュリティ上の問題を公表する前にベンダー (この場合は WordPress のセキュリティチーム) に通知するのが標準的な慣行であり、修正プログラムを準備し、脆弱性による被害を最小限に抑えることができます。
+セキュリティの問題を公表する前にベンダー (この場合は WordPress のセキュリティチーム) に通知するのが標準的な慣行であり、修正プログラムを準備し、脆弱性による被害を最小限に抑えることができます。
 
 <!--
 ## Overview of Bug Reporting and Resolution
 -->
 
-## バグ報告と解決の概要
+## バグレポートと解決の概要
 
 <!--
 There are many steps in the process of reporting and resolving a bug in WordPress. Here is an overview:
@@ -138,7 +138,7 @@ Trac は WordPress の公式バグトラッカーの名前です。Edgewall Soft
 
 1.  [バグを報告する前に](#before-you-report-a-bug)行うべきことについては、上記のセクションを参照してください。
 2.  [サポートフォーラム](https://wordpress.org/support/)のユーザー名とパスワードを使って [WordPress Trac](https://core.trac.wordpress.org/) にログインします。サポートフォーラムのアカウントを持っていない場合は、[登録](https://wordpress.org/support/register.php)してください。
-3.  Trac の [New Ticket](https://core.trac.wordpress.org/newticket) をクリックして、バグ報告ページにアクセスします。
+3.  Trac の [New Ticket](https://core.trac.wordpress.org/newticket) をクリックして、バグレポートページにアクセスします。
 4.  タイトル、概要、その他のフィールドを記入してください。詳しくは [チケットのプロパティ](https://make.wordpress.org/core/handbook/trac/#ticket-properties)を参照してください。
 5.  プレビュー後、**Submit Ticket** をクリックしてください。
 

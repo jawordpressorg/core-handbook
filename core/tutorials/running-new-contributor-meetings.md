@@ -2,13 +2,13 @@
 # Running New Contributor Meetings
 -->
 
-# 新しいコントリビューターミーティングの実施
+# 新しい貢献者ミーティングの実施
 
 <!--
 This is a general script for running new contributor meetings, feel free to edit as you see fit.
 -->
 
-これは、新しいコントリビューターミーティングを実施するための一般的なスクリプトであり、自由に編集できます。
+これは、新しい貢献者ミーティングを実施するための一般的なスクリプトであり、自由に編集できます。
 
 * * *
 

@@ -50,7 +50,7 @@ Tickets are assigned numerous properties that provide a snapshot of the status o
 *   **Defect (bug):** バグとは、エラーや予期せぬ結果のことです。パフォーマンスの改善やコードの最適化は、不具合ではなく、機能強化とみなされます。機能フリーズ後は、バグのみを処理し、リグレッション (前バージョンからの望ましくない変更) を最優先とします。
 *   **Enhancements:** フックの追加や既存機能の改善など、WordPress の簡単な改善です。
 *   **Feature requests:** これらは新機能の提案です。機能の提案は通常、アイデアフォーラムやメーリングリストで、またプラグインとして、またはメジャーリリースごとに開催されるスコープミーティングなどを通じてコアチームの注意を喚起することから始める必要があります。この種の一方的なチケットは、通常は推奨されません。
-*   **Tasks (blessed):** 次のメジャーリリースのための機能開発は、コアチームによって承認された主要機能または重要な機能拡張であるタスクチケットを中心に行われます。それ以外のチケットは、この指定を受けるべきではありません。
+*   **Tasks (blessed):** 次のメジャーリリースのための機能開発は、コアチームによって承認された主要機能または重要な機能強化であるタスクチケットを中心に行われます。それ以外のチケットは、この指定を受けるべきではありません。
 
 <!--
 **Milestone:** The milestone is the WordPress release where that ticket is expected to be resolved, such as 3.7. By default, all tickets are assigned, upon creation, to the **Awaiting Review** milestone to prevent [scope creep](https://make.wordpress.org/core/glossary/#scope-creep). Only [committers](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or [trusted core contributors](https://make.wordpress.org/core/handbook/about/organization/#contributing-developers) have the ability to change milestones.
@@ -97,7 +97,7 @@ WordPress.org サイトの問題は、以前は WordPress core と同じ Trac �
 *   **reported-upstream:** The ticket is for an external library or component, has been reported in an upstream repository (e.g. Gutenberg), and will be addressed there.
 -->
 
-*   **duplicate:** このチケットは既存のチケットと重複しており、コントリビューターはこのチケットを閉じることで参照されることになります。
+*   **duplicate:** このチケットは既存のチケットと重複しており、貢献者はこのチケットを閉じることで参照されることになります。
 *   **invalid:** このチケットは、バグやサポートリクエストではありません。
 *   **worksforme:** チケットで報告されたバグが再現されません。既存のプラグインやフック、機能によってチケットの意味がなくなり、チケットはそのまま閉じられることがあります。
 *   **wontfix:** このチケットは取り組まれません。時には、バグが許容できるエッジケースであると見なされ、それ以上対処されないこともあります。これは、拡張や機能の要求がコアに含まれることを拒否されたときに使われることがあります。
@@ -144,7 +144,7 @@ Trac のチケットでは3つの役割が存在します。
 **Owner:** This field is typically left blank, even if you have contributed a patch. The Owner field is used by committers and trusted core contributors to accept and assign tickets among themselves. Committers utilize the field to offer traction for a ticket, to identify they are investigating, committing, or otherwise following a ticket, or to tentatively accept the bug or enhancement for core inclusion. It is also common during the feature development phase for developers to accept tasks in the area of responsibility for which they have volunteered, as well as related bug reports. Trusted contributors may assign tickets to others based on an inside knowledge of who should be responsible for reviewing it.
 -->
 
-**Owner:** このフィールドは、たとえあなたがパッチを提出していたとしても、通常は空白のままです。Owner フィールドは、コミッターと信頼されたコア貢献者によって、チケットの受け入れと割り当てのために使用されます。コミッターはこのフィールドを利用して、チケットに取り組むことを申し出たり、チケットの調査やコミット、その他のフォローをしたり、バグや機能拡張をコアに取り込むことを暫定的に受け入れたりします。また機能開発の段階では、開発者が自発的に担当した分野のタスクや関連するバグレポートを受け入れることもあります。信頼できる貢献者は、誰がそのレビューに責任を持つべきかという自身の知識にもとづいて、他の人にチケットを割り当てるかもしれません。
+**Owner:** このフィールドは、たとえあなたがパッチを提出していたとしても、通常は空白のままです。Owner フィールドは、コミッターと信頼されたコア貢献者によって、チケットの受け入れと割り当てのために使用されます。コミッターはこのフィールドを利用して、チケットに取り組むことを申し出たり、チケットの調査やコミット、その他のフォローをしたり、バグや機能強化をコアに取り込むことを暫定的に受け入れたりします。また機能開発の段階では、開発者が自発的に担当した分野のタスクや関連するバグレポートを受け入れることもあります。信頼できる貢献者は、誰がそのレビューに責任を持つべきかという自身の知識にもとづいて、他の人にチケットを割り当てるかもしれません。
 
 <!--
 **CC:** As long as your email address is [configured in Trac preferences](https://make.wordpress.org/core/handbook/working-with-trac/opening-a-ticket/#getting-started), you’ll receive email updates for any tickets you’ve created or ones you’ve commented on. The field is generally a visual confirmation you are adding yourself to the ticket and wish to receive updates. From time to time, it may make sense to add other individuals to the CC field, such as when a committer requests this. It should be noted that most committers and core developers read every ticket and comment anyway.
@@ -177,8 +177,8 @@ It may also be moved to a milestone by a committer or trusted core contributor:
 -->
 
 *   **The next point release milestone** (たとえば、現在のリリースが3.6.1の場合、3.6.2) は、重大なバグとリグレッションのためのものです。ポイントリリースは、セキュリティ修正、重大なバグ、旧バージョンの WordPress からのリグレッションのみを対象としています。これらのリリースでは、通常のバグ修正や機能強化は行いません。
-*   **The next major release milestone** (たとえば、現在のリリースが3.6.1の場合、3.7) は、リリース予定のタスクや機能、それらの機能に影響を与えるバグ、現在のアルファ版やベータ版の最新リリースに含まれるリグレッションが対象です。既存のバグが含まれることもありますが、そのバグが重大で優先すべきものでない限り、解決策が見つかるまで考慮されないことが一般的です。コミッターの判断で機能拡張を含めることもできますが、アルファ版の開発中 (ベータ版のリリース前) に限ります。大規模な機能拡張は通常スコープ外であるため、次のメジャーリリースでは検討されません。
-*   **The Future Release milestone** は、他のチケットのために予約されています。潜在的に良い機能拡張と判断されたり、バグと確認されたりしていますが、WordPress の次のリリースに予定されているわけではありません。
+*   **The next major release milestone** (たとえば、現在のリリースが3.6.1の場合、3.7) は、リリース予定のタスクや機能、それらの機能に影響を与えるバグ、現在のアルファ版やベータ版の最新リリースに含まれるリグレッションが対象です。既存のバグが含まれることもありますが、そのバグが重大で優先すべきものでない限り、解決策が見つかるまで考慮されないことが一般的です。コミッターの判断で機能強化を含めることもできますが、アルファ版の開発中 (ベータ版のリリース前) に限ります。大規模な機能強化は通常スコープ外であるため、次のメジャーリリースでは検討されません。
+*   **The Future Release milestone** は、他のチケットのために予約されています。潜在的に良い機能強化と判断されたり、バグと確認されたりしていますが、WordPress の次のリリースに予定されているわけではありません。
 
 <!--
 ### Giving Feedback
@@ -227,7 +227,7 @@ If it’s a bug report:
 *   Reproducible bugs need patches (and unit tests, if applicable)!
 -->
 
-*   trunk で再現できるかどうか、最新の安定版リリースを試してみてください。バグ報告の中にはそもそも無効なものもあるかもしれませんし、すでに修正されているものもあるかもしれません。
+*   trunk で再現できるかどうか、最新の安定版リリースを試してみてください。バグレポートの中にはそもそも無効なものもあるかもしれませんし、すでに修正されているものもあるかもしれません。
 *   再現するために、問題を詳しく説明したり、再現するための明確な手順を書くことができる場合は、ぜひそうしてください。
 *   再現できない場合は、報告者に詳細を尋ね、**reporter-feedback** キーワードを追加してください。もしそのチケットがクローズされるべきだと思ったら、**close** キーワードでマークしてください (チケットのクローズを急ぐ必要はありません)。
 *   再現性のあるバグにはパッチ (場合によってはユニットテストも) が必要です !

@@ -44,7 +44,7 @@ Trac はオープンソースであり、Web ベースのプロジェクト管�
 ### How Core Contributors Communicate With Trac
 -->
 
-### コアコントリビューターが Trac でどのようにコミュニケーションをとっているか
+### コア貢献者が Trac でどのようにコミュニケーションをとっているか
 
 <!--
 Trac is the official record of work for WordPress core. The tickets written here become part of the living historical document of open source contributions. Because of this, the tone and language used in tickets and comments should be formal and to the point.

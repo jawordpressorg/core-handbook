@@ -299,7 +299,7 @@ While these are not about the commit message itself, the following guidelines ar
 During the RC stage, [all patches must be reviewed by a second committer](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#release-candidate) before being committed.
 -->
 
-RC の段階では、コミットされる前に[すべてのパッチは2人目のコミッターのレビューを受ける必要があります](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#release-candidate)。
+RC のフェーズでは、コミットされる前に[すべてのパッチは2人目のコミッターのレビューを受ける必要があります](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#release-candidate)。
 
 <!--
 ### Before a commit
