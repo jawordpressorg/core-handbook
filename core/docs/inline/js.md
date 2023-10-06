@@ -8,7 +8,7 @@
 This initiative follows the [inline docs initiative](https://make.wordpress.org/docs/handbook/core/inline-docs/) with a specific focus on JavaScript. The goal is to get all JavaScript files in WordPress well documented and make this documentation easily accessible. JavaScript development within WordPress core is speeding up fast and becoming more and more prominent given the current core editor and REST API focuses. To help these developments progress as smoothly as possible, we need to make sure the existing code is documented well.
 -->
 
-この取り組みは、[インラインドキュメントの取り組み](https://make.wordpress.org/docs/handbook/core/inline-docs/)に続いて、特に JavaScript に重点を置いています。目標は、WordPress のすべての JavaScript ファイルをきちんとドキュメント化し、この文書に簡単にアクセスできるようにすることです。WordPress コアにおける JavaScript の開発は急速にスピードアップしており、現在のコアエディターと REST API に焦点を当てるとますます顕著になってきています。これらの開発をできるだけスムーズに進めるために、既存のコードをしっかりとドキュメント化する必要があります。
+この取り組みは、[インラインドキュメントの取り組み](https://make.wordpress.org/docs/handbook/core/inline-docs/)に続いて、特に JavaScript に重点を置いています。目標は、WordPress のすべての JavaScript ファイルをきちんとドキュメント化し、このドキュメントに簡単にアクセスできるようにすることです。WordPress コアにおける JavaScript の開発は急速にスピードアップしており、現在のコアエディターと REST API に焦点を当てるとますます顕著になってきています。これらの開発をできるだけスムーズに進めるために、既存のコードをしっかりとドキュメント化する必要があります。
 
 <!--
 If you’re not familiar with what inline documentation is, read our page [on inline documentation standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/).

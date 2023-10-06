@@ -8,7 +8,7 @@
 Alert: This document is a working draft.
 -->
 
-注意: この文書は作業草案です。
+注意: このドキュメントは作業草案です。
 
 <!--
 This page compliments the main User Testing page and is intended to give more detail and tips once someone has made it past the hurdle of getting started with testing.

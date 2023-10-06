@@ -45,7 +45,7 @@ Note: Some or all of these roles may be performed by the same contributor, depen
 *   **A member of the marketing team, or a marketing release lead** (`@marketingteamember`). The person in charge of drafting the release announcement post.
 -->
 
-*   **パーティのホスト** (この文書では `@emcee`)。通常、これはリリースコーディネーターの一人です。リリースコーディネーターが不在の場合は、リリースチームからの誰かがその役割を果たすことができます。最後の手段として、現在のチームのメンバーではない信頼できる貢献者がその役割を担うこともできます。
+*   **パーティのホスト** (このドキュメントでは `@emcee`)。通常、これはリリースコーディネーターの一人です。リリースコーディネーターが不在の場合は、リリースチームからの誰かがその役割を果たすことができます。最後の手段として、現在のチームのメンバーではない信頼できる貢献者がその役割を担うこともできます。
 *   **コアコミッター** (`@corecommitter`)。この貢献者は「バージョンアップ」アクションを実行します。現在のコアコミッターのリストは[ここ](https://ja.wordpress.org/team/handbook/core/about/organization/#committers)にあります。
 *   **セキュリティチームのメンバー** (`@securityteammember`)。この貢献者は、リリースされる最新のコードセットが非公開のセキュリティテストに合格していることを確認します。
 *   **ミッションコントロールのアクセス権を持つ人** (`@mcpilot`)。このレベルのアクセス権を持つ貢献者は、リリースをパッケージ化し、ナイトリーを更新するために必要です。このアクセス権を持つアクティブな貢献者のリストは非常に少ないので、前もってこの役割を果たす人を見つけておくことが重要です。
