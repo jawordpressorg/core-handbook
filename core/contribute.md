@@ -26,7 +26,7 @@ Note: Interested in contributing to another part of WordPress? Visit [make.wordp
 Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
 -->
 
-このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しい	貢献者とベテランの	貢献者のコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
+このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しい貢献者とベテランの貢献者のコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
 
 <!--
 Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress. in SlackSlack Slack is a Collaborative Group Chat Platform [https://slack.com/](https://slack.com/). The WordPress community has its own Slack Channel at [https://make.wordpress.org/chat/](https://make.wordpress.org/chat/). and ask away.
@@ -68,7 +68,7 @@ WordPress に貢献するとき、誰もが人間であることを忘れない�
 As mentioned, one big difference between WordPress and other communities is that WordPress contributors are very accessible. Looking for a lead developer or committer? Ask them a question in a public channel on Slack. Don’t be afraid to approach folks, but keep in mind that contacting people is better through public channels than unsolicited DMs. In Slack, the best place to ask a question about core is [#core](https://make.wordpress.org/core/tag/core/), however there are several sub-channels that discuss specific parts of core. Don’t worry if you’re directed to another channel; we’re here to help!
 -->
 
-前述したように、WordPress と他のコミュニティの大きな違いの一つは、WordPress の	貢献者が非常に参加しやすいということです。リード開発者やコミッターをお探しですか ? Slack のパブリックチャンネルで質問してみましょう。恐れずにアプローチしてください。ただし、連絡は一方的にダイレクトメールを送るよりも、公開チャンネルで行ったほうが良いということを覚えておいてください。Slack では、コアについて質問するために最適な場所は [#core](https://make.wordpress.org/core/tag/core/) ですが、コアの特定の部分について議論するいくつかのサブチャンネルがあります。他のチャンネルに誘導されても心配しないでください。私たちがお手伝いします。
+前述したように、WordPress と他のコミュニティの大きな違いの一つは、WordPress の貢献者が非常に参加しやすいということです。リード開発者やコミッターをお探しですか ? Slack のパブリックチャンネルで質問してみましょう。恐れずにアプローチしてください。ただし、連絡は一方的にダイレクトメールを送るよりも、公開チャンネルで行ったほうが良いということを覚えておいてください。Slack では、コアについて質問するために最適な場所は [#core](https://make.wordpress.org/core/tag/core/) ですが、コアの特定の部分について議論するいくつかのサブチャンネルがあります。他のチャンネルに誘導されても心配しないでください。私たちがお手伝いします。
 
 <!--
 One of the best places to find contributors is at WordCamps, where you shouldn’t hesitate to approach them. Some WordCamps host contributor days, which is the best time to find a contributor and ask for help.
