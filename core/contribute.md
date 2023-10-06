@@ -26,7 +26,7 @@ Note: Interested in contributing to another part of WordPress? Visit [make.wordp
 Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
 -->
 
-このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しいコントリビューターとベテランのコントリビューターのコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
+このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しい貢献者とベテランの貢献者のコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
 
 <!--
 Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress. in SlackSlack Slack is a Collaborative Group Chat Platform [https://slack.com/](https://slack.com/). The WordPress community has its own Slack Channel at [https://make.wordpress.org/chat/](https://make.wordpress.org/chat/). and ask away.
@@ -68,13 +68,13 @@ WordPress に貢献するとき、誰もが人間であることを忘れない�
 As mentioned, one big difference between WordPress and other communities is that WordPress contributors are very accessible. Looking for a lead developer or committer? Ask them a question in a public channel on Slack. Don’t be afraid to approach folks, but keep in mind that contacting people is better through public channels than unsolicited DMs. In Slack, the best place to ask a question about core is [#core](https://make.wordpress.org/core/tag/core/), however there are several sub-channels that discuss specific parts of core. Don’t worry if you’re directed to another channel; we’re here to help!
 -->
 
-前述したように、WordPress と他のコミュニティの大きな違いの一つは、WordPress のコントリビューターが非常に参加しやすいということです。リード開発者やコミッターをお探しですか ? Slack のパブリックチャンネルで質問してみましょう。恐れずにアプローチしてください。ただし、連絡は一方的にダイレクトメールを送るよりも、公開チャンネルで行ったほうが良いということを覚えておいてください。Slack では、コアについて質問するために最適な場所は [#core](https://make.wordpress.org/core/tag/core/) ですが、コアの特定の部分について議論するいくつかのサブチャンネルがあります。他のチャンネルに誘導されても心配しないでください。私たちがお手伝いします。
+前述したように、WordPress と他のコミュニティの大きな違いの一つは、WordPress の貢献者が非常に参加しやすいということです。リード開発者やコミッターをお探しですか ? Slack のパブリックチャンネルで質問してみましょう。恐れずにアプローチしてください。ただし、連絡は一方的にダイレクトメールを送るよりも、公開チャンネルで行ったほうが良いということを覚えておいてください。Slack では、コアについて質問するために最適な場所は [#core](https://make.wordpress.org/core/tag/core/) ですが、コアの特定の部分について議論するいくつかのサブチャンネルがあります。他のチャンネルに誘導されても心配しないでください。私たちがお手伝いします。
 
 <!--
 One of the best places to find contributors is at WordCamps, where you shouldn’t hesitate to approach them. Some WordCamps host contributor days, which is the best time to find a contributor and ask for help.
 -->
 
-コントリビューターを見つけるために最適な場所の一つは WordCamp で、躊躇せずにアプローチすることです。コントリビューターデイを開催している WordCamp もあり、コントリビューターを見つけ、助けを求めるには最適な機会です。
+貢献者を見つけるために最適な場所の一つは WordCamp で、躊躇せずにアプローチすることです。コントリビューターデイを開催している WordCamp もあり、貢献者を見つけ、助けを求めるには最適な機会です。
 
 <!--
 ## Committers
@@ -104,13 +104,13 @@ Committers are a type of WordPress contributor who has earned the trust of the c
 WordPress is organized into a few dozen well-defined, functional areas called [components](https://make.wordpress.org/core/components/). Many contributors take a particular interest in certain areas, whether it is maintaining the [HTTP API](https://make.wordpress.org/core/components/http-api/), improving the [Editor](https://make.wordpress.org/core/components/editor/), or advancing the [Customizer](https://make.wordpress.org/core/components/customize/), among many others.
 -->
 
-WordPress は、[コンポーネント](https://make.wordpress.org/core/components/)と呼ばれる、明確に定義された数十の機能エリアで構成されています。[HTTP API](https://make.wordpress.org/core/components/http-api/) のメンテナンス、[エディター](https://make.wordpress.org/core/components/editor/)の改善、[カスタマイザー](https://make.wordpress.org/core/components/customize/)の進化など、多くのコントリビューターが特定の分野に関心を持っています。
+WordPress は、[コンポーネント](https://make.wordpress.org/core/components/)と呼ばれる、明確に定義された数十の機能エリアで構成されています。[HTTP API](https://make.wordpress.org/core/components/http-api/) のメンテナンス、[エディター](https://make.wordpress.org/core/components/editor/)の改善、[カスタマイザー](https://make.wordpress.org/core/components/customize/)の進化など、多くの貢献者が特定の分野に関心を持っています。
 
 <!--
 Contributors that help maintain components are called, logically, component maintainers. These maintainers are vital to keeping WordPress development running as smoothly as possible. Maintainers can take on a number of tasks, including: triaging new tickets, furthering existing tickets, mentoring tasks, pitching new ideas, curating roadmaps, and providing feedback to other contributors. Longtime maintainers have a deep understanding of their area of core and are always seeking to mentor others to impart their knowledge.
 -->
 
-コンポーネントのメンテナンスを支援する貢献者は、論理的にはコンポーネントメンテナーと呼ばれます。メンテナーは、WordPress の開発を可能な限り円滑に進めるために重要です。メンテナーは、新しいチケットのトリアージ、既存のチケットの改善、タスクの指導、新しいアイデアの提案、ロードマップの管理、他のコントリビューターへのフィードバックなど、多くのタスクを引き受けることができます。長い間メンテナーを務めている人々は、コアのそれらの領域について深く理解しており、常に他の人たちを指導して知識を伝えるよう努めています。
+コンポーネントのメンテナンスを支援する貢献者は、論理的にはコンポーネントメンテナーと呼ばれます。メンテナーは、WordPress の開発を可能な限り円滑に進めるために重要です。メンテナーは、新しいチケットのトリアージ、既存のチケットの改善、タスクの指導、新しいアイデアの提案、ロードマップの管理、他の貢献者へのフィードバックなど、多くのタスクを引き受けることができます。長い間メンテナーを務めている人々は、コアのそれらの領域について深く理解しており、常に他の人たちを指導して知識を伝えるよう努めています。
 
 <!--
 Want to help? Get started by following a component you’re interested in. [Adjust your notifications here](https://make.wordpress.org/core/notifications/).
@@ -242,7 +242,7 @@ To make it easier for new contributors, some tickets have been marked as [Good F
 Everyone is encouraged to submit bug reports and feature requests directly to trac, but certain tickets are better than others. Here’s some advice on ensuring your ticket is well-formed:
 -->
 
-誰もがバグレポートや機能要望を直接 trac に提出することが推奨されていますが、特定のチケットは他のチケットより優れています。ここでは、あなたのチケットが適切であることを保証するためのアドバイスをいくつか紹介します。
+誰もがバグレポートや機能リクエストを直接 trac に提出することが推奨されていますが、特定のチケットは他のチケットより優れています。ここでは、あなたのチケットが適切であることを保証するためのアドバイスをいくつか紹介します。
 
 <!--
 *   Summary – Write a clear summary that sums up exactly what you are reporting or requesting. As you write your summary, a list of related tickets will appear. If you see a ticket that is a duplicate of your issue or feature, there’s no need to file a new ticket. Read through the current ticket and verify that there is no *additional* information you can provide. If you think of something, add your comment.
@@ -255,7 +255,7 @@ Everyone is encouraged to submit bug reports and feature requests directly to tr
 *   要約 – 報告または要求している内容の要約をわかりやすく書きます。要約を書くと、関連するチケットのリストが表示されます。もし、あなたの課題や機能と重複するチケットがあった場合、新しいチケットを提出する必要はありません。現在のチケットを読み、提供できる追加 情報がないことを確認します。もし何か思い当たることがあれば、コメントを追加してください。
     *   悪い要約:「メディアモーダルが壊れた !」
     *   良い要約:「\_\_\_ をクリックしたときにメディアモーダルが壊れる」
-*   説明 – バグを報告するときは、できるだけ詳しく書いてください。詳しければ詳しいほど、コア貢献者があなたを支援することが容易になります。可能であれば、エラーを再現するために必要な手順をリストアップしてください。機能要望を提出する場合は、使用例やユーザーエクスペリエンスの改善など、あなたのアイデアに関する詳細な説明を含めてください。
+*   説明 – バグを報告するときは、できるだけ詳しく書いてください。詳しければ詳しいほど、コア貢献者があなたを支援することが容易になります。可能であれば、エラーを再現するために必要な手順をリストアップしてください。機能リクエストを提出する場合は、使用例やユーザー体験の改善など、あなたのアイデアに関する詳細な説明を含めてください。
 *   キーワード – チケットを提出する前に、キーワード「needs-patch」または「needs-feedback」(詳しくは Trac ワークフローキーワード [link] を参照してください) を使い、チケットが適用される適切なコンポーネントを設定したことを確認してください。これは、コンポーネントメンテナーがチケットを管理することに役立ちます。
 
 <!--
@@ -268,13 +268,13 @@ Everyone is encouraged to submit bug reports and feature requests directly to tr
 WordPress developers do their best to prevent security issues, but from time-to-time they appear and need to be reported.
 -->
 
-WordPress の開発者は、セキュリティ上の問題を防ぐために最善を尽くしていますが、時々問題が発生し、報告する必要があります。
+WordPress の開発者は、セキュリティの問題を防ぐために最善を尽くしていますが、時々問題が発生し、報告する必要があります。
 
 <!--
 It is standard practice to responsibly and privately disclose security issues to the vendor – in this case, the WordPress core development team. WordPress contributors practice responsible disclosure when reporting issues to other vendors as well. Reporting issues responsibly, prior to publishing, gives the vendor time to fix a security vulnerability and minimize damage to users.
 -->
 
-セキュリティ上の問題は、責任を持ってベンダーに非公開で開示することが標準的な方法です。この場合、WordPress のコア開発チームです。WordPress のコントリビューターは、他のベンダーに問題を報告する際にも、責任をもって情報を開示します。公開前に責任を持って問題を報告することで、ベンダーはセキュリティの脆弱性を修正し、ユーザーへの被害を最小限に抑える時間をもつことができます。
+セキュリティの問題は、責任を持ってベンダーに非公開で開示することが標準的な方法です。この場合、WordPress のコア開発チームです。WordPress の貢献者は、他のベンダーに問題を報告する際にも、責任をもって情報を開示します。公開前に責任を持って問題を報告することで、ベンダーはセキュリティの脆弱性を修正し、ユーザーへの被害を最小限に抑える時間をもつことができます。
 
 <!--
 In short, be courteous and aware before you file a ticket that might include a security vulnerability. Refer to the [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/) page of this handbook for instructions on how to responsibly report issues to the WordPress Security Team.

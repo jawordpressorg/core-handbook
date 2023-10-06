@@ -20,7 +20,7 @@ Whether you are a beta tester, casual contributor, or serious contributor, this 
 Here you can learn about how the WordPress project is organized, communication channels, best practices, the Trac workflow process, and more. There are also guides to help you set up the tools you’ll need to start contributing to WordPress core.
 -->
 
-ここでは、WordPress プロジェクトがどのように組織されているか、コミュニケーションチャネル、ベストプラクティス、Trac のワークフロープロセスなどについて学ぶことができます。また、WordPress コアへの貢献を開始するために必要なツールのセットアップを支援するガイドもあります。
+ここでは、WordPress プロジェクトがどのように組織されているか、コミュニケーションチャンネル、ベストプラクティス、Trac のワークフロープロセスなどについて学ぶことができます。また、WordPress コアへの貢献を開始するために必要なツールのセットアップを支援するガイドもあります。
 
 <!--
 ## Contribute with Testing

@@ -8,7 +8,7 @@
 So, you wanna ship a minor version of WordPress? Okay, maybe you don’t *want* to. Perhaps you *need* to ship a minor version of WordPress. A minor release is intended for bugfixes and enhancements that do not add new deployed files and are at the discretion of the release lead with suggestions/input from component maintainers and committers. There’s a lot involved with shipping these releases, as documented below. If you’ve been through the release process before and see something missing *please add it*.
 -->
 
-WordPress のマイナーバージョンをリリースしたいですか ? リリース**したくない**かもしれませんが、リリース**せざるを得ない**かもしれません。マイナーリリースは、新しくデプロイされるファイルを追加しないバグ修正や機能拡張を目的としており、コンポーネントのメンテナーやコミッターからの提案やアドバイスを受け、リリースリードの裁量によって決定されます。以下に記載されているように、これらのリリースには多くのことが関係します。以前にリリースプロセスを実行したことがあり、何か不足しているものがある場合は**追加してください**。
+WordPress のマイナーバージョンをリリースしたいですか ? リリース**したくない**かもしれませんが、リリース**せざるを得ない**かもしれません。マイナーリリースは、新しくデプロイされるファイルを追加しないバグ修正や機能強化を目的としており、コンポーネントのメンテナーやコミッターからの提案やアドバイスを受け、リリースリードの裁量によって決定されます。以下に記載されているように、これらのリリースには多くのことが関係します。以前にリリースプロセスを実行したことがあり、何か不足しているものがある場合は**追加してください**。
 
 <!--
 ## Before Release
@@ -128,7 +128,7 @@ Regardless of which kind of release you’re planning, there are a number of thi
 *   Prepare Codex pages for each version you intend to release, using the Wiki Template of [Release](https://codex.wordpress.org/Template:Release) (directions are included on that page). If your release is security-related, these pages can be mostly blank until the actual release day, but need to exist as we link to them in WordPress itself.
 -->
 
-*   開発ノートを必要とする重要な変更がないか確認します。これらはリリース前に公開され、マイナーリリース番号、関連するメジャーリリース番号、開発ノートタグ (例:「4.9、4.9.2、dev notes」) がタグ付けされていることを確認してください。
+*   開発者ノートを必要とする重要な変更がないか確認します。これらはリリース前に公開され、マイナーリリース番号、関連するメジャーリリース番号、開発者ノートタグ (例:「4.9、4.9.2、dev notes」) がタグ付けされていることを確認してください。
 *   最新バージョンの Akismet が WordPress のビルドに含まれていることを確認します。現在では、Akismet チームに連絡して、アップデートに含めるプラグインのリリースが近いかどうかを確認する必要はありません。これは、ユーザーが新しいサイトを作成した直後にアップデートのプロンプトが表示されることを防ぐために重要なことです。これは自動化されています ([関連する議論](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647))。build.svn にコミットして Akismet external を最新バージョンに更新する例は[こちら](https://build.trac.wordpress.org/changeset/38478)です (これは手作業による古い方法です)。
 *   セキュリティチームのメンバーにプライベート・セキュリティ・ユニットテストスイートを実行してもらい、リグレッションが発生しないことを確認します。一部のサイト (wordpress.org など) では本番環境で `trunk` またはベータ/RC が稼働しているため、見つかった場合はその詳細について公の場で議論することは避けてください。代わりに、セキュリティ・チームに個人的に通知してください。
 *   数日前に、リリースが予定されていることをホストに通知するとよいでしょう。3日前が推奨されますが、リリースのスケジュールによっては不可能な場合もあります。セキュリティチームがホストへのメッセージについてお手伝いします。このメッセージは、(セキュリティリリースの場合) **すべてのセキュリティパッチが準備できるまで出してはいけません**。
@@ -306,11 +306,11 @@ There are 5 options for strings to choose from for the About page paragraph desc
 *   If there are more than one security issues and one or more bug fixes, `_n()` is used with the strings `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug.` and `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs.` to determine the proper string for the locale.
 -->
 
-*   セキュリティ上の問題が1つあり、バグ修正がない場合: `<strong>Version %s</strong> addressed one security issue.`
+*   セキュリティの問題が1つあり、バグ修正がない場合: `<strong>Version %s</strong> addressed one security issue.`
 *   複数のセキュリティ問題があり、バグ修正がない場合: `<strong>Version %s</strong> addressed some security issues.`
 *   1つ以上のバグがある場合、`_n()` を `<strong>Version %1$s</strong> addressed %2$s bug.` と `<strong>Version %1$s</strong> addressed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
-*   セキュリティ上の問題が1つあり、バグが1つ以上修正されている場合、`_n()` を `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug.` および `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
-*   セキュリティ上の問題が1つ以上あり、バグが1つ以上修正されている場合、`_n()` を `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug.` と `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
+*   セキュリティの問題が1つあり、バグが1つ以上修正されている場合、`_n()` を `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug.` および `<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
+*   セキュリティの問題が1つ以上あり、バグが1つ以上修正されている場合、`_n()` を `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug.` と `<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs.` という文字列と一緒に使用し、ロケールに適切な文字列が決定されるようにします。
 
 <!--
 Defer to other recent point releases for examples on how the strings change along with the numbers. Check the strings and have them reviewed before commit.

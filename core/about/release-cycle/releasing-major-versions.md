@@ -219,7 +219,7 @@ There are no limitations to where you come from. We are a global community, open
 *   Identify if any of the browsers listed on the [Browser support page](https://make.wordpress.org/core/handbook/best-practices/browser-support/) had dropped below the percentage required to support them in core and if any need updating plan for that now as that will be one of the final checks and updates in the [Pre Final Release phase below](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#pre-final-release).
 -->
 
-*   **[開発ノートを編集して公開を開始する](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)**。[make/core で #dev-notes を使って](https://make.wordpress.org/core/tag/dev-notes/)、リリースの重要な変更点や開発者向けの主要な更新を開発者に知らせる記事の編集と公開を開始します。
+*   **[開発者ノートを編集して公開を開始する](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)**。[make/core で #dev-notes を使って](https://make.wordpress.org/core/tag/dev-notes/)、リリースの重要な変更点や開発者向けの主要な更新を開発者に知らせる記事の編集と公開を開始します。
 *   **About ページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1までに完成させ、画像は RC2まで更新できるようにします。[マーケティング・コミュニケーション・ハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[About ページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
 *   **HelpHub バージョンページ**。デザイナー、開発者、ユーザーのために、注目すべきアップデートをまとめ始めます。*[5.2 バージョンページ](https://wordpress.org/support/wordpress-version/version-5-2/)を例として使用できますし、[ドキュメントチーム](https://make.wordpress.org/docs/)に助けを求めることもできます。*
 *   [ブラウザーサポートページ](https://make.wordpress.org/core/handbook/best-practices/browser-support/)にリストアップされているブラウザーのどれかが、コアでそれらをサポートするために必要なパーセンテージを下回ったかどうかを確認し、更新が必要なものがあれば、[以下の最終的なリリースの前](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#pre-final-release)における最終チェックと更新の1つになるので、そのための計画を立てます。
@@ -253,7 +253,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 -->
 
 *   リリースのマイルストーン時点で、オープンチケットが残っていてはなりません。
-*   フィールドガイドの公開プロセスは、[別のハンドブックページ](https://make.wordpress.org/core/handbook/tutorials/publishing-the-field-guide/)に文書化されています。
+*   フィールドガイドの公開プロセスは、[別のハンドブックページ](https://make.wordpress.org/core/handbook/tutorials/publishing-the-field-guide/)にドキュメント化されています。
 *   (wp.org のリポジトリにある) すべてのプラグイン作者に、リリースとの互換性をテストするように知らせるメールを送るべきです。そのメールはフィールドガイドにリンクされるべきです。[プラグインチームに連絡して調整する](https://make.wordpress.org/updates/team-reps/)か、[プラグインレビューチームが作るサイト](https://make.wordpress.org/pluginrepo)でリリースメールの下書きを公開します ([5.3のサンプルはこちら](https://make.wordpress.org/pluginrepo/2019/10/18/5-3-release-email/))。
 *   Classic Editor プラグインがまだうまく動作するかテストしてください。
 *   Akismet チームにリリースのスケジュールを伝え、最終リリースの前に保留中のプラグインのアップデートがリリースされるようにします。
@@ -274,7 +274,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 A Release Candidate version is released as the last stage of the release cycle before the major version is released. The Release Candidate means that  the release squad feels confident that what is in trunk is good enough for the major release, and should be thoroughly tested by the community.
 -->
 
-リリース候補バージョンは、メジャーバージョンがリリースされる前のリリースサイクルの最終段階としてリリースされます。リリース候補版は、trunk にあるものがメジャーリリースに十分であるとリリースチームが自信を持っていることを意味し、コミュニティによって徹底的にテストされるべきです。
+リリース候補バージョンは、メジャーバージョンがリリースされる前のリリースサイクルの最終フェーズとしてリリースされます。リリース候補版は、trunk にあるものがメジャーリリースに十分であるとリリースチームが自信を持っていることを意味し、コミュニティによって徹底的にテストされるべきです。
 
 <!--
 *   A [hard string freeze](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze) takes effect at the Release Candidate stage, meaning text strings in the application can no longer be changed, including the About Page text.
@@ -285,12 +285,12 @@ A Release Candidate version is released as the last stage of the release cycle b
 *   An announcement should be made on Make Core about the release candidate phase ([example from 6.0](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) and the various above protocols in order to better amplify this specific part of the release cycle and prepare the community.
 -->
 
-*   [翻訳文字列のハードフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)がリリース候補の段階で有効になります。これは、アプリケーションの文字列が、About ページのテキストを含めて、もはや変更できないことを意味します。
+*   [翻訳文字列のハードフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)がリリース候補のフェーズで有効になります。これは、アプリケーションの文字列が、About ページのテキストを含めて、もはや変更できないことを意味します。
 *   報告されたバグが修正されるにつれて、複数のリリース候補版 (たとえば RC1、RC2) がリリースされるべきです。
-*   リリース候補段階での src/ に対するすべての変更は、2人のコミッターによってレビューされなければならないことをコミッターに警告してください。あなたのパッチをレビューする2人目のコミッターを選ぶときは、そのパッチを意味のあるレビューを受けられるように、コードベースのその領域で豊富な経験を持つベテランのコミッターを探しましょう。コミッターはいつでも tests/ にコミットできます。
+*   リリース候補フェーズでの src/ に対するすべての変更は、2人のコミッターによってレビューされなければならないことをコミッターに警告してください。あなたのパッチをレビューする2人目のコミッターを選ぶときは、そのパッチを意味のあるレビューを受けられるように、コードベースのその領域で豊富な経験を持つベテランのコミッターを探しましょう。コミッターはいつでも tests/ にコミットできます。
 *   [RC リリースのプロセス](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/)については、別のハンドブックのページに詳しく書かれています。
 *   最初のリリース候補に続いてリリース用のブランチを作成し、次のリリースに向けて trunk の初期作業を開始できるようにします。
-*   リリースサイクルの特定の部分をより明確にし、コミュニティを準備するために、リリース候補の段階 ([6.0の例](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) と上記のさまざまなプロトコルについて Make Core でアナウンスする必要があります。
+*   リリースサイクルの特定の部分をより明確にし、コミュニティを準備するために、リリース候補のフェーズ ([6.0の例](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) と上記のさまざまなプロトコルについて Make Core でアナウンスする必要があります。
 
 ### translate.WordPress.org
 

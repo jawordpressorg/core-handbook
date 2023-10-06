@@ -8,7 +8,7 @@
 WordPress is a big project with thousands of contributors. It’s important that best practices are followed so that the codebase is consistent and readable, and changes are easy to find and read, whether the code is five days old or five years old. What follows are a series of best practices to help keep WordPress code clean and well documented for years to come.
 -->
 
-WordPress は何千人ものコントリビューターが関わる巨大なプロジェクトです。ベストプラクティスに従い、コードベースを一貫した読みやすいものにしましょう。5日前の修正も、5年前の修正も、変更点が同じように簡単に見つかり理解できることはプロジェクトにとって極めて重要です。以下に挙げるリストは、将来何年にも渡って WordPress のソースコードをクリーンに正しくドキュメント化するベストプラクティスです。
+WordPress は何千人もの貢献者が関わる巨大なプロジェクトです。ベストプラクティスに従い、コードベースを一貫した読みやすいものにしましょう。5日前の修正も、5年前の修正も、変更点が同じように簡単に見つかり理解できることはプロジェクトにとって極めて重要です。以下に挙げるリストは、将来何年にも渡って WordPress のソースコードをクリーンに正しくドキュメント化するベストプラクティスです。
 
 <!--
 *   [Commit Messages](https://make.wordpress.org/core/handbook/best-practices/commit-messages/)

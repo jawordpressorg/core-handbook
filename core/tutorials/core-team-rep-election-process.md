@@ -32,7 +32,7 @@ Historically with the Core team, the team rep duration was around a year, though
 Anyone who serves as a “**team rep**” is responsible for communicating on behalf of the Core team to the other contributor groups via [weekly updates](https://make.wordpress.org/updates/), as well as occasional cross-team chats.  Reps are also consulted on Contributor Day, helping find someone within the Core team attending an event who can help lead a Core table.  [Full details on the Team Rep role is on the Team Update site.](https://make.wordpress.org/updates/team-reps/)
 -->
 
-「**チーム代表者**」として働く人はコアチームの代表として、[ウィークリーアップデート](https://make.wordpress.org/updates/)を通じて他のコントリビューターグループと、また時々チーム間のチャットを介してコミュニケーションを取る責任があります。また、コントリビューターデイでは、イベントに参加するコアチームの中から、コアテーブルをリードできる人を見つける手助けをするために相談されます。[チーム代表者の役割の詳細は、チームアップデートサイトにあります](https://make.wordpress.org/updates/team-reps/)。
+「**チーム代表者**」として働く人はコアチームの代表として、[ウィークリーアップデート](https://make.wordpress.org/updates/)を通じて他の貢献者グループと、また時々チーム間のチャットを介してコミュニケーションを取る責任があります。また、コントリビューターデイでは、イベントに参加するコアチームの中から、コアテーブルをリードできる人を見つける手助けをするために相談されます。[チーム代表者の役割の詳細は、チームアップデートサイトにあります](https://make.wordpress.org/updates/team-reps/)。
 
 <!--
 **It is not called “team lead” for a reason.**  While people elected as team reps will generally come from the pool of folks that people think of as experienced leaders, remember that the team rep role is designed to change hands regularly.
@@ -59,7 +59,7 @@ Here are the main tasks:
 *   Keeping an eye on the moving parts of the team to be able to report for quarterly updates ([example](https://make.wordpress.org/updates/2018/04/24/quarterly-updates-q1-2018/))
 -->
 
-* 開発チャットのアジェンダを投稿し、チャットを主催し、それを要約します。[開発チャットの調整に関する詳細はコアハンドブックに掲載されています。](https://make.wordpress.org/core/handbook/tutorials/coordinating-devchat/)
+* 開発チャットの要約を投稿し、チャットを主催し、それを要約します。[開発チャットの調整に関する詳細はコアハンドブックに掲載されています。](https://make.wordpress.org/core/handbook/tutorials/coordinating-devchat/)
 * 定期的なコアチームの要約を書き、[Updates](https://make.wordpress.org/updates) に投稿する。
 * [Week in Review](https://make.wordpress.org/core/tag/week-in-core/) の投稿を書く。
 * 四半期ごとの更新で報告するために、チームの動きに目を配る ([例](https://make.wordpress.org/updates/2018/04/24/quarterly-updates-q1-2018/))

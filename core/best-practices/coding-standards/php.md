@@ -1,4 +1,8 @@
+<!--
 # PHP Coding Standards
+-->
+
+# PHP コーディング規約
 
 <!--
 Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/)

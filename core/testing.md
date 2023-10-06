@@ -8,7 +8,7 @@
 Getting involved in testing WordPress means you will be directly involved in raising the quality of the WordPress user experience.
 -->
 
-WordPress のテストに携わるということは、WordPress のユーザーエクスペリエンスの質を高めることに直接的に関わるということです。
+WordPress のテストに携わるということは、WordPress のユーザー体験の質を高めることに直接的に関わるということです。
 
 <!--
 There are many different types of testing including, but not limited to, [beta testing](https://make.wordpress.org/core/handbook/testing/beta/), [user testing](https://make.wordpress.org/core/handbook/testing/user-testing/), and [automated testing](https://make.wordpress.org/core/handbook/testing/automated-testing/).

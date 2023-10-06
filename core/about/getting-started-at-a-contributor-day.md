@@ -23,7 +23,7 @@ Where:** [#core](https://make.wordpress.org/core/tag/core/) channel on [Slack](h
 -->
 
 -   **レギュラーミーティングの時間:** 水曜日 21:00 UTC
--   **新しいコントリビューターのミーティング:** 第2、第4水曜日 19:00 UTC
+-   **新しい貢献者のミーティング:** 第2、第4水曜日 19:00 UTC
 -   **場所:** [Slack](https://chat.wordpress.org/) の [#core](https://make.wordpress.org/core/tag/core/) チャンネル
 
 <!--
@@ -217,7 +217,7 @@ There are other ways that you can help out:
 Some easy tasks for a first time contributor to get started at a contributor day are:
 -->
 
-初めてのコントリビューターが、コントリビューターデイで簡単に始められるタスクがいくつかあります:
+初めての貢献者が、コントリビューターデイで簡単に始められるタスクがいくつかあります:
 
 <!--
 *   Check the [good first bug tag](https://core.trac.wordpress.org/query?status=!closed&keywords=~good-first-bug) for easy wins
@@ -315,7 +315,7 @@ This will monitor/update changes you make.
 ***In order to avoid huge downloads at WordCamp Contributor Days it is recommended that the environment is configured before the event.***
 -->
 
-***WordCamp コントリビューターデイでの膨大なダウンロードを避けるため、イベントの前に環境を設定することを推奨します。***
+**WordCamp コントリビューターデイでの膨大なダウンロードを避けるため、イベントの前に環境を設定することを推奨します。**
 
 <!--
 ### **Good First Gutenberg Issues**

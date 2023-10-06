@@ -120,7 +120,7 @@ So once you’ve done your thing, whether patching or testing or reviewing, how 
 The ticket comments are your best friend. When you leave a comment, the ticket automatically pings everyone on the ticket: its owner, people who are watching the ticket and, best of all, one or more relevant component maintainers. And they have every interest in the world in getting that ticket committed and merged – it’s what we do as contributors to WordPress.
 -->
 
-チケットのコメントはあなたの強い味方です。コメントを残すと、自動的にチケットに関するすべての人 (チケットの所有者、チケットを見ている人たち、そして何よりも、関連するコンポーネントメンテナーの一人または複数に) 通知が送られます。彼らはそのチケットをコミットしてマージすることにあらゆる関心を持っています。それが、私たちが WordPress のコントリビューターとして行っていることなのです。
+チケットのコメントはあなたの強い味方です。コメントを残すと、自動的にチケットに関するすべての人 (チケットの所有者、チケットを見ている人たち、そして何よりも、関連するコンポーネントメンテナーの一人または複数に) 通知が送られます。彼らはそのチケットをコミットしてマージすることにあらゆる関心を持っています。それが、私たちが WordPress の貢献者として行っていることなのです。
 
 <!--
 You can also bring it up in [#core](https://wordpress.slack.com/archives/C02RQBWTW) on Slack any time outside of any ongoing meeting (or in the open floor section of the weekly dev meeting).

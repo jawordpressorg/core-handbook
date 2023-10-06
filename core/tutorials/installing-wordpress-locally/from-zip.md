@@ -135,7 +135,7 @@ You will then do the “5 minute install”, complete all the fields, and **clic
 Your local install will be used for beta testing and reporting bugs, so it is important for you to see error messages and notices. Open `wordpress-trunk/wp-config.php` in your plain text editor, and set `WP_DEBUG` to **true**:
 -->
 
-ローカルインストールはベータテストやバグ報告に使用されるため、エラーメッセージや通知を見ることができるのは重要です。プレーンテキストエディターで `wordpress-trunk/wp-config.php` を開き、`WP_DEBUG` を **true** に設定します。
+ローカルインストールはベータテストやバグレポートに使用されるため、エラーメッセージや通知を見ることができるのは重要です。プレーンテキストエディターで `wordpress-trunk/wp-config.php` を開き、`WP_DEBUG` を **true** に設定します。
 
 ```php
 /**

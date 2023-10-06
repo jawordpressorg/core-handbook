@@ -2,7 +2,7 @@
 # Tutorials &amp; Guides
 -->
 
-# チュートリアル &amp; ガイド
+# チュートリアルとガイド
 
 <!--
 \[Introduction to the tutorials and guides section.\]

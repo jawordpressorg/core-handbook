@@ -14,7 +14,7 @@ The Field Guide is published on [Make/Core](https://make.wordpress.org/core/) an
 Start drafting the Field Guide early in the release cycle (generally around Beta 1) and slowly embed [dev notes](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/) as they get published. A week or so before Release Candidate 1 you will want to reserve 2-4 hours to work on copy, formatting, link updating and other tweaks to have the first real draft of the Field Guide ready. Around this time you will want to send the Slack group direct messages to Component Maintainers to give them all a couple days to provide feedback on the bullet points in the `But Wait, There Is More` section. At the same time you will want to obtain reviews from others on the release squad so that all feedback completes around the same time and allows publishing the Field Guide as close to RC1 as possible.
 -->
 
-フィールドガイドの草稿をリリースサイクルの早い段階 (一般的にはベータ1のころ) から作り始め、[開発者ノート](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)が公開されるにつれてゆっくりと埋め込んでください。リリース候補1の1週間ほど前には、コピー、フォーマット、リンクの更新、その他の微調整に2～4時間を確保し、フィールドガイドの最初の本格的なドラフトを準備してください。このころ、あなたは Slack グループのコンポーネントメンテナーにダイレクトメッセージを送り、`But Wait, There Is More` セクションの箇条書きについてフィードバックを提供するために数日の時間を与えたいと思うでしょう。同時に、すべてのフィードバックが同じ時期に完了し、フィールドガイドをできるだけ RC1に近い形で公開できるように、リリースチームの他のメンバーからもレビューを得たいと思うでしょう。
+フィールドガイドの草稿をリリースサイクルの早いフェーズ (一般的にはベータ1のころ) から作り始め、[開発者ノート](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)が公開されるにつれてゆっくりと埋め込んでください。リリース候補1の1週間ほど前には、コピー、フォーマット、リンクの更新、その他の微調整に2～4時間を確保し、フィールドガイドの最初の本格的なドラフトを準備してください。このころ、あなたは Slack グループのコンポーネントメンテナーにダイレクトメッセージを送り、`But Wait, There Is More` セクションの箇条書きについてフィードバックを提供するために数日の時間を与えたいと思うでしょう。同時に、すべてのフィードバックが同じ時期に完了し、フィールドガイドをできるだけ RC1に近い形で公開できるように、リリースチームの他のメンバーからもレビューを得たいと思うでしょう。
 
 <!--
 The following is a general process that the Release Coordinator and/or Documentation Lead will use to craft the Field Guide for a release:
@@ -35,10 +35,10 @@ The following is a general process that the Release Coordinator and/or Documenta
 
 *   以前のリリースのフィールドガイド (例: [5.6](https://make.wordpress.org/core/2020/11/20/wordpress-5-6-field-guide/)) をコピーし、名前を変更し、コピーを現在のリリースバージョン番号に更新する
 *   すべてのリンクを現在のリリースのバージョン番号に更新する
-*   以前埋め込まれていた開発ノートを削除する
-*   現在のリリースサイクルの新しい開発ノートが発行されたら、フィールドガイドのそれぞれのセクションに埋め込む
+*   以前埋め込まれていた開発者ノートを削除する
+*   現在のリリースサイクルの新しい開発者ノートが発行されたら、フィールドガイドのそれぞれのセクションに埋め込む
 *   フィールドガイドの見出しを、リリースの重要な点で更新する
-*   開発ノートを受け取った分野に関連するセクションのリストを更新する
+*   開発者ノートを受け取った分野に関連するセクションのリストを更新する
 *   埋め込まれた開発者ノートから主要なハイライトを抜き出し、開発者がその開発者ノートが自分に関連するかどうかを知ることができるように、セクションの要約を追加・更新する
 *   各コンポーネントチームには、[個々のコンポーネントページ](https://make.wordpress.org/core/components/)からメンテナーのリストを抽出して、Slack でグループダイレクトメッセージを送信する:
 
