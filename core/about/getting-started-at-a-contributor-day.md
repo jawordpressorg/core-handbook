@@ -166,7 +166,7 @@ The first step is to get set up with a local environment:
 3\. [Check out the WordPress codebase using SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 -->
 
-1. SVN のインストール: [バージョンコントロールシステムのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)
+1. SVN のインストール: [バージョン管理システムのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)
 2. ローカルサーバーのインストール: [Mac](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-xampp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-wampserver/) (代替)
 3. [SVN を使用して WordPress コードベースを確認する](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)
 
