@@ -28,7 +28,7 @@ Browsers with > 1% usage based on [can I use browser usage table](https://canius
 The above configuration is also available in the [`@wordpress/browserslist-config`](https://github.com/WordPress/gutenberg/tree/master/packages/browserslist-config) module for [Browserslist](https://www.npmjs.com/package/browserslist) compatible tooling.
 -->
 
-上記の設定は、[Browserslist](https://www.npmjs.com/package/browserslist)対応ツールの[`@wordpress/browserslist-config`](https://github.com/WordPress/gutenberg/tree/master/packages/browserslist-config)モジュールでも利用可能です。
+上記の設定は、[Browserslist](https://www.npmjs.com/package/browserslist) 対応ツールの [`@wordpress/browserslist-config`](https://github.com/WordPress/gutenberg/tree/master/packages/browserslist-config) モジュールでも利用可能です。
 
 <!--
 ## Changelog
@@ -38,24 +38,15 @@ The above configuration is also available in the [`@wordpress/browserslist-confi
 
 <!--
 WordPress 5.8 – [Removed support for IE 11](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/) ([#53077](https://core.trac.wordpress.org/ticket/53077))
--->
 
-WordPress 5.8 – [IE 11のサポートを削除](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/) ([#53077](https://core.trac.wordpress.org/ticket/53077))
-
-<!--
 WordPress 4.8 – [IE 8, 9, and 10](https://make.wordpress.org/core/2017/04/23/target-browser-coverage/)
--->
 
-WordPress 4.8 – [IE 8,9,10のサポートを削除](https://make.wordpress.org/core/2017/04/23/target-browser-coverage/)
-
-<!--
 WordPress 4.4 – Removed support for IE 7 ([#18199](https://core.trac.wordpress.org/ticket/18199))
--->
 
-WordPress 4.4 – IE 7のサポートを削除 ([#18199](https://core.trac.wordpress.org/ticket/18199))
-
-<!--
 WordPress 3.2 – [Removed support for IE 6](https://make.wordpress.org/core/2011/03/18/wordpress-3-2-the-plan-faster-lighter/)
 -->
 
-WordPress 3.2 – [IE 6のサポートを削除](https://make.wordpress.org/core/2011/03/18/wordpress-3-2-the-plan-faster-lighter/)
+-   WordPress 5.8 – [IE 11のサポートを削除](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/) ([#53077](https://core.trac.wordpress.org/ticket/53077))
+-   WordPress 4.8 – [IE 8,9,10のサポートを削除](https://make.wordpress.org/core/2017/04/23/target-browser-coverage/)
+-   WordPress 4.4 – IE 7のサポートを削除 ([#18199](https://core.trac.wordpress.org/ticket/18199))
+-   WordPress 3.2 – [IE 6のサポートを削除](https://make.wordpress.org/core/2011/03/18/wordpress-3-2-the-plan-faster-lighter/)
