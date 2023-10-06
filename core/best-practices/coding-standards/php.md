@@ -9,7 +9,7 @@ Warning: This page has been moved [here](https://developer.wordpress.org/coding-
 Please do *not* edit this page, use *edit* on the new page.
 -->
 
-注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/php/)に移動されました。
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/php/)に移動されました。\[/info\]
 
 <!--
 Some parts of the WordPress code structure for PHP markup are inconsistent in their style. WordPress is working to gradually improve this by helping users maintain a consistent style so the code can become clean and easy to read at a glance.

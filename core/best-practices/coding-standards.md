@@ -4,7 +4,7 @@
 
 # WordPress コーディング規約
 
-注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/)に移動されました。
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/)に移動されました。\[/info\]
 
 <!--
 The purpose of the WordPress Coding Standards is to create a baseline for collaboration and review within various aspects of the WordPress open source project and community, from core code to themes to plugins.

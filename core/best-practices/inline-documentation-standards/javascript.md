@@ -9,7 +9,7 @@ Warning: This page has been moved [here](https://developer.wordpress.org/coding-
 Please do *not* edit this page, use *edit* on the new page.
 -->
 
-注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/javascript/)に移動されました。
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/javascript/)に移動されました。\[/info\]
 
 <!--
 WordPress follows the [JSDoc 3 standard](http://usejsdoc.org/) for inline JavaScript documentation.

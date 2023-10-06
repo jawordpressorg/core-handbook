@@ -9,7 +9,7 @@ Warning: This page has been moved [here](https://developer.wordpress.org/coding-
 Please do *not* edit this page.
 -->
 
-注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/accessibility/)に移動されました。
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/accessibility/)に移動されました。\[/info\]
 
 <!--
 These are standards that WordPress features should meet for accessibility in order to be merged into core. All new or updated code released in WordPress must conform with the WCAG 2.0 guidelines at level AA. These basic guidelines are intended for easy reference during development, but do not cover all possible accessibility issues.

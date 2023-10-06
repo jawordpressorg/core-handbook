@@ -9,7 +9,7 @@ Warning: This page has been moved [here](https://developer.wordpress.org/coding-
 Please do *not* edit this page, use *edit* on the new page.
 -->
 
-注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/)に移動されました。
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/)に移動されました。\[/info\]
 
 <!--
 WordPress uses a customized documentation schema that draws inspiration from PHPDoc, an evolving standard for providing documentation to PHP code, which is maintained by [phpDocumentor](http://phpdoc.org/).
