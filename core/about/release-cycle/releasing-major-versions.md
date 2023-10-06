@@ -274,7 +274,7 @@ The [process for a Beta release](https://make.wordpress.org/core/handbook/about/
 A Release Candidate version is released as the last stage of the release cycle before the major version is released. The Release Candidate means that  the release squad feels confident that what is in trunk is good enough for the major release, and should be thoroughly tested by the community.
 -->
 
-リリース候補バージョンは、メジャーバージョンがリリースされる前のリリースサイクルの最終としてリリースされます。リリース候補版は、trunk にあるものがメジャーリリースに十分であるとリリースチームが自信を持っていることを意味し、コミュニティによって徹底的にテストされるべきです。
+リリース候補バージョンは、メジャーバージョンがリリースされる前のリリースサイクルの最終フェーズとしてリリースされます。リリース候補版は、trunk にあるものがメジャーリリースに十分であるとリリースチームが自信を持っていることを意味し、コミュニティによって徹底的にテストされるべきです。
 
 <!--
 *   A [hard string freeze](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze) takes effect at the Release Candidate stage, meaning text strings in the application can no longer be changed, including the About Page text.
