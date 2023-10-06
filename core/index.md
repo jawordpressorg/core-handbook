@@ -116,4 +116,4 @@ We all start somewhere. If you’re having trouble getting involved with contrib
 Note: If you’re interested in improving this handbook, leave a message in #core\-docs.
 -->
 
-注意: このハンドブックの改善に興味がある方は、#core\-docs にメッセージを残してください。
+\[info\]このハンドブックの改善に興味がある方は、#core\-docs にメッセージを残してください。\[/info\]
