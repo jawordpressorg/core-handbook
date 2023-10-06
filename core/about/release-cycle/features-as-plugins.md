@@ -147,12 +147,12 @@ Below is a list of some of the requirements a feature plugin team should meet w
 *   既存のインターフェースを変更したり置き換えたりする機能については、[旧フローと新フローを比較する視覚的な記録](https://make.wordpress.org/flow/tag/visual-comparison,flow-comparison/)を提供すること。
 *   [WordPress コーディング規約](https://ja.wordpress.org/team/handbook/core/coding-standards/)に準拠したコード。
 *   同様に、コードがよくテストされ、[ユニットテスト](https://ja.wordpress.org/team/handbook/core/automated-testing/)を備えている。
-*   コードは十分にドキュメント化されている (必ず [インラインドキュメントチーム](https://make.wordpress.org/docs/handbook/core/inline-docs/) にレビューしてもらいましょう)。
+*   コードは十分にドキュメント化されている (必ず[インラインドキュメントチーム](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/)にレビューしてもらいましょう)。
 *   コードは[プラグインセキュリティのベストプラクティス](https://developer.wordpress.org/plugins/security/)に従っており、セキュリティ監査を受けている。
 *   ユーザーインターフェース・エクスペリエンスは、ユーザーテストによって検証され、適切なフィードバックが取り入れられている (必ず[デザインチーム](https://make.wordpress.org/design/)にレビューしてもらいましょう)。
 *   デザインは、あらゆるモバイルデバイスで適切に表示される完全なレスポンシブデザインで、高解像度・レティーナディスプレイにも対応したグラフィックスを使用している。
 *   HTML が適切な doctype で検証されている。
-*   このコードには、ローカライズのための適切なフックがすべて用意されている (必ず [Polyglots チーム](https://make.wordpress.org/polyglots/) にレビューを依頼してください)。
+*   このコードには、ローカライズのための適切なフックがすべて用意されている (必ず [Polyglots チーム](https://make.wordpress.org/polyglots/)にレビューを依頼してください)。
 *   WordPress は引き続き機能し、JavaScript をオフにした状態でも、この機能は使用可能である。
 *   この機能は、キーボードだけで使用できる。
 *   (これらに限定されませんが) オフスクリーンテキスト、ARIA、JS-assisted など、必要なアクセシビリティのサポートが追加されている (必ず[アクセシビリティチーム](https://make.wordpress.org/accessibility/)に聞いてください)。
