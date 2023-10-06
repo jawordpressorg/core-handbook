@@ -14,7 +14,7 @@ WordPress コアチームは、WordPress プロジェクトの方向性を決定
 In this section, you will learn more about how [the project is organized](https://make.wordpress.org/core/handbook/about/organization/), the [philosophies](https://make.wordpress.org/core/handbook/about/philosophies/) that WordPress has adopted over time, and [how the core team communicates](https://make.wordpress.org/core/handbook/about/communication/).
 -->
 
-このセクションでは、[プロジェクトがどのように組織されているか](https://ja.wordpress.org/team/handbook/core/about/organization/)、WordPress が時間をかけて採用してきた [理念](https://ja.wordpress.org/team/handbook/core/about/philosophies/)、[コアチームのコミュニケーション方法](https://ja.wordpress.org/team/handbook/core/about/communication/) について詳しく学びます。
+このセクションでは、[プロジェクトがどのように組織されているか](https://ja.wordpress.org/team/handbook/core/about/organization/)、WordPress が時間をかけて採用してきた[理念](https://ja.wordpress.org/team/handbook/core/about/philosophies/)、[コアチームのコミュニケーション方法](https://ja.wordpress.org/team/handbook/core/about/communication/)について詳しく学びます。
 
 <!--
 Additionally, a large portion of this section discusses [how the release cycle works](https://make.wordpress.org/core/handbook/about/release-cycle/), from start to finish, including pages that detail the process for [features as plugins](https://make.wordpress.org/core/handbook/about/release-cycle/features-as-plugins/), [how WordPress “numbers” each version](https://make.wordpress.org/core/handbook/about/release-cycle/version-numbering/), steps involved with [updating the bundled themes](https://make.wordpress.org/core/handbook/about/release-cycle/update-bundled-themes/) (which takes place each release), and [how to release minor versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-minor-versions/) of WordPress.
