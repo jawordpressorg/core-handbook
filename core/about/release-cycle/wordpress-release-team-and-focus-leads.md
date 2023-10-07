@@ -480,7 +480,6 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   主な優先事項から外れたマイルストーンのチケットを定期的にトリアージし、報告者と関係する他の貢献者にフォローアップする
 *   優先度、重要度、必要な労力と時間、貢献者の可用性、サイクルの残り時間にもとづいて、現在のリリースサイクルで特定のチケットの修正をコミットすることの実現可能性を評価する
 *   定期的なパフォーマンスバグスクラブやその他の[パフォーマンス関連ミーティング](https://make.wordpress.org/performance/#block-3)に参加またはリードする
-*   さまざまなコンポーネント ([Trac](https://core.trac.wordpress.org/)と[Gutenberg](https://github.com/WordPress/gutenberg/issues)の両方) からの関連するプルリクエスト/パッチのパフォーマンスベンチマークを、積極的かつオンデマンドで行う:
 *   以下に挙げる項目を主な対象として、[Trac](https://core.trac.wordpress.org/) や [Gutenberg](https://github.com/WordPress/gutenberg/issues) 内の、さまざまコンポーネントの関連するプルリクエストやパッチのパフォーマンスを、事前に、そして必要に応じてベンチマークする:
     *   リリース予定の新機能または API
     *   パフォーマンスの向上を目的とした機能強化や修正
@@ -617,7 +616,7 @@ A new default theme will be bundled together with the last release of the year. 
 *   If there are common questions appearing in the forums, bring it to the attention of the release team so that new user documentation pages can be created.
 -->
 
-*   リリースサイクルのフェーズ2～4の間は、WordPress.org のサポートフォーラムに参加し、[Alpha/Beta/RC フォーラム](https://wordpress.org/support/forum/alphabeta/)に注目する
+*   リリースサイクルのフェーズ2～4の間は、WordPress.org のサポートフォーラムに参加し、[アルファ/ベータ/RC フォーラム](https://wordpress.org/support/forum/alphabeta/)に注目する
 *   そこで報告された潜在的な問題を、適切なリリースチームメンバーに知らせる
 *   [返信のない投稿](https://wordpress.org/support/view/no-replies/)への返信を手伝う
 *   英語以外の言語を話す場合は、[英語以外のサポートフォーラムのリスト](https://make.wordpress.org/support/handbook/contributing-to-the-wordpress-forums/support-forums-in-your-language/)をチェックして、サポートを提供する
