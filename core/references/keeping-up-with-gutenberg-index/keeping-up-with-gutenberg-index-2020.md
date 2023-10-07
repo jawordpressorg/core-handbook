@@ -24,18 +24,17 @@ See *[Explanations](#explanations)* on the bottom.
 
 <!--
 [2021 Index](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index-2021)
--->
 
-[2021 インデックス](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index-2021)
-
-<!--
 [2022 Index](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/)
 -->
 
-[2022 インデックス](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/)
+-   [2021インデックス](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index-2021)
+-   [2022インデックス](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/)
 
+<!--
 [June](#2020-06) | [July](#july2020) | [August](#august2020) | [September](#september2020)
 [October](#october2020) |[November](#november2020) | [December](#december2020)
+-->
 
 ## December 2020
 
@@ -545,7 +544,7 @@ See *[Explanations](#explanations)* on the bottom.
 **Explanations**
 -->
 
-**説明**
+## 説明
 
 <!--
 *   **[#team](https://make.wordpress.org/core/tag/team/)** identifies a team’s WordPress Slack channel. [Join the Slack space](https://chat.wordpress.org/).

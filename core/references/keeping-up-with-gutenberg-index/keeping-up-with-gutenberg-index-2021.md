@@ -26,33 +26,21 @@ See *[Explanations](#explanations)* on the bottom.
 
 <!--
 [**WordPress 5.9 Development Cycle**](https://make.wordpress.org/core/5-9/)
--->
 
-[**WordPress 5.9の開発サイクル**](https://make.wordpress.org/core/5-9/)
-
-<!--
 [WordPress 5.9 Revised Release Schedule](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)
--->
 
-[WordPress 5.9の改訂版リリーススケジュール](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)
-
-<!--
 📗 Devnotes WordPress 5.9
--->
 
-📗 WordPress 5.9の開発者ノート
-
-<!--
 [Gutenberg Index 2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/)
--->
 
-[Gutenberg インデックス 2020](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/)
-
-<!--
 [Versions on WordPress](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 -->
 
-[WordPress におけるバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
+-   [**WordPress 5.9の開発サイクル**](https://make.wordpress.org/core/5-9/)
+-   [WordPress 5.9の改訂版リリーススケジュール](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)
+-   📗 WordPress 5.9の開発者ノート
+-   [Gutenberg インデックス2020](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/)
+-   [WordPress におけるバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 
 * * *
 
@@ -355,11 +343,7 @@ See *[Explanations](#explanations)* on the bottom.
 
 2021-08-05 **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** [What’s new in Gutenberg 11.2.0? (4 August)](https://make.wordpress.org/core/2021/08/05/whats-new-in-gutenberg-11-2-0-4-august/) (u)
 
-<!--
 ## July 2021
--->
-
-## 2021年7月
 
 **✴️ = DevNotes for WP 5.8**
 
@@ -927,7 +911,7 @@ See *[Explanations](#explanations)* on the bottom.
 **Explanations**
 -->
 
-**説明**
+## 説明
 
 <!--
 *   **[#team](https://make.wordpress.org/core/tag/team/)** identifies a team’s WordPress Slack channel. [Join the Slack space](https://chat.wordpress.org/).
