@@ -135,5 +135,5 @@ Past changes to supported PHP versions have been as followed:
 **e indicates “compatible with exceptions”**
 -->
 
-**\* 「ベータサポート」を示します**
-**e 「例外ありの互換」を示します**
+-   **\* 「ベータサポート」を示します**
+-   **e 「例外ありの互換」を示します**
