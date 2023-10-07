@@ -134,7 +134,7 @@ There are also a few responsibilities that release leads and deputies have over 
 *   **助けてくれる貢献者を見つける。** すべての技術的な決定、あるいはその大部分を行うことは、リリースリードの責任ではありません。リリースリードは、いつどのように貢献者を探し出し、支援を求めるべきかを知っておくべきです。コアチームは大規模で、リソースの状況もさまざまであるため、リリースリードはさまざまなチケットに対してフィードバックやサポートを提供するために、どの貢献者が最適であるかをよく理解している必要があります。
 *   **貢献者と定期的にチャットする。** 定期的に貢献者と連絡を取り合うことは、WordPress のリリースが安定し、公開の準備が整っていることを保証するために役立ちます。定期的に貢献者とチャットすることで、リリースリードは貢献者の稼働状況やブロックの可能性のある問題などを把握できます。
 *   **マーケティング活動の調整。** 管理するべきマーケティング活動がいくつかあり、リリースリードやサブリードはそれらを認識している必要があります。WordPress コアの[アバウトページ](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)、/news/ の投稿、ビデオはすべてこの取り組みの一部です (これらの具体的な取り組みについては後述します)。[4.7で学んだように](https://core.trac.wordpress.org/ticket/39560)、動画を同時に自動再生するように設定することは避けるべきです。これらの活動は、[マーケティングチーム](https://make.wordpress.org/marketing/)と関連するコンポーネントのメンテナーと連携して行うべきであることに注意してください。リリースコミュニケーションに関する詳細なハンドブックについては、この[リリースサイクルのマーケティングとコミュニケーションガイド](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)を参照してください。
-*   **リリースや機能に対するあらゆる変更を伝える。** リリースが進むにつれて、大きな決断が必要になり、リリースチームによって適切に伝えられなければならないときがあります。そのためには、時にはプロジェクトのリーダーを巻き込みながら、一緒になって進むべき道を見つけることと、変更点を適切に伝えるために作業することの両方が必要です。あなたが所属するリリースチームが同じような状況に陥ったときのために、2つの例を挙げます。[WordPress 5.9のリリーススケジュール変更のアナウンス](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)と[WordPress 6.0におけるウェブフォント API の変更点](https://make.wordpress.org/core/2022/04/22/status-of-webfonts-api-for-wordpress-6-0-inclusion/)です。
+*   **リリースや機能に対するあらゆる変更を伝える。** リリースが進むにつれて、大きな決断が必要になり、リリースチームによって適切に伝えられなければならないときがあります。そのためには、時にはプロジェクトのリーダーを巻き込みながら、一緒になって進むべき道を見つけることと、変更点を適切に伝えるために作業することの両方が必要です。あなたが所属するリリースチームが同じような状況に陥ったときのために、2つの例を挙げます。[WordPress 5.9のリリーススケジュール変更のアナウンス](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)と [WordPress 6.0におけるウェブフォント API の変更点](https://make.wordpress.org/core/2022/04/22/status-of-webfonts-api-for-wordpress-6-0-inclusion/)です。
 
 <!--
 #### Expectations
@@ -171,7 +171,7 @@ There are no limitations to where you come from. We are a global community, open
 
 *   **コミュニケーションのために slack チャンネルを公開し、ベータ1の直前から毎週アップデートを行う。** これによって、将来の貢献者のためにリリースチームがオープンに活動できるようになり、また人々がフォローできます。[#meta](https://make.wordpress.org/core/tag/meta/) チームはこれを促進する手助けができます。
 *   **リリースチームとリリースパーティ中には冗長性を確保する。** プロジェクトの規模に伴い、重要な役割に複数の人を配置し、リリースパーティ中にタスクを達成できる人が複数いるようにすることは、とても大切です。たとえば、複数の MC がいることで、事前に予定されていた MC が遅刻などにより参加できなくなった場合に、誰かが確実に対応できます。
-*   **前回のリリースで人々が何をしたかを調べる。** これはオープンソースのプロジェクトですので、あなたがすべきことの多くは、先人たちから学ぶことができます。slack でリリースパーティについて調べたり、前のリリースリードに質問したり、Make で前の決定がどのように行われたかを調べたりしてください。
+*   **前回のリリースで人々が何をしたかを調べる。** これはオープンソースのプロジェクトですので、あなたがすべきことの多くは、先人たちから学ぶことができます。Slack でリリースパーティについて調べたり、前のリリースリードに質問したり、Make で前の決定がどのように行われたかを調べたりしてください。
 *   **サイクルの各パートには、それぞれ異なる制限とフォーカスがあることを認識する。** リリースサイクルが進むにつれてフォーカスは移り変わるので、それに合わせてシフトすることが重要です。たとえば、RC では コアコミットに対し二重チェックが必要ですので、その変数を念頭に置いて重要な作業を計画することが大切です。
 *   **リリースパーティのスクリプトを作成し、リリース日のかなり前に調整する。** リリースパーティのスクリプトを作成したり、特定のステップを確実にこなせるよう関係者に確認したりなど、前もって十分に調整しておくことは当然です。必要かつ既知のストレス要因に対処しておくことで、予期せぬストレス要因が出てきたときに対応できます。
 *   **特に懸念事項がある場合は、早めに頻繁に共有すること。** 自分にとっては当たり前のことでも、それを表現しなければ、グループ内では簡単に見過ごされてしまいます。
@@ -220,7 +220,7 @@ There are no limitations to where you come from. We are a global community, open
 -->
 
 *   **[開発者ノートを編集して公開を開始する](https://ja.wordpress.org/team/handbook/core/tutorials/writing-developer-notes/)**。[make/core で #dev-notes を使って](https://make.wordpress.org/core/tag/dev-notes/)、リリースの重要な変更点や開発者向けの主要な更新を開発者に知らせる記事の編集と公開を開始します。
-*   **アバウトページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1までに完成させ、画像は RC2まで更新できるようにします。[マーケティング・コミュニケーション・ハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[アバウトページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
+*   **アバウトページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1までに完成させ、画像は RC2まで更新できるようにします。[マーケティングコミュニケーションハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[アバウトページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
 *   **HelpHub バージョンページ**。デザイナー、開発者、ユーザーのために、注目すべきアップデートをまとめ始めます。*[5.2 バージョンページ](https://wordpress.org/support/wordpress-version/version-5-2/)を例として使用できますし、[ドキュメントチーム](https://make.wordpress.org/docs/)に助けを求めることもできます。*
 *   [ブラウザーサポートページ](https://ja.wordpress.org/team/handbook/core/best-practices/browser-support/)にリストアップされているブラウザーのどれかが、コアでそれらをサポートするために必要なパーセンテージを下回ったかどうかを確認し、更新が必要なものがあれば、[以下の最終的なリリースの前](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/#pre-final-release)における最終チェックと更新の1つになるので、そのための計画を立てます。
 
@@ -355,7 +355,7 @@ When branching before a release, there are two important things that need settin
 
 *   API: [/home/wporg/public_html/.config/versions.php](https://dotorg.trac.wordpress.org/browser/wordpress/website/.config/versions.php) の `WP_CORE_DEV_BRANCH` をブランチ、たとえば4.9に設定します。これはコアの更新チェックで、ベータテスタープラグインのユーザーを (スーパーアルファ5.0にプッシュする代わりに) ブランチの開発パスに保持するために使用されます。
 *   翻訳: 「WordPress 開発」プロジェクトが、trunk ではなくブランチから文字列 ("originals") をインポートすべきであることを GlotPress に認識させるために、[/home/wporg/public_html/translate/bin/update-originals-wp.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-originals-wp.sh) の `DEV_BRANCH` を更新します。これは、trunk での文字列の変更が生成される翻訳ファイルに影響することを防ぐために必要です。これはまた、翻訳作業が WordPress の最新の安定版で継続される間、数週間のリリース後に設定されることが多く、trunk では文字列の変更について何度も繰り返されることがあります。
-*   翻訳: beta/RC パッケージ用のブランチを使うように [/home/wporg/public_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh) を更新します。
+*   翻訳: ベータ/RC パッケージ用のブランチを使うように [/home/wporg/public_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh) を更新します。
 *   翻訳: `wp/dev` プロジェクト用のブランチを使用するように [/home/rosetta/public_html/wp-content/mu-plugins/rosetta/rosetta.php](https://dotorg.trac.wordpress.org/browser/wordpress/rosetta/website/wp-content/mu-plugins/rosetta/rosetta.php) を更新します。
 
 <!--
@@ -449,7 +449,7 @@ This is your pre-release checklist. Do not skip it. To help with coordination, i
 *   Run `npm run grunt prerelease`, to ensure all tests pass, and CSS and JS files conform to standards. (this takes a while)
 -->
 
-*   trunk に対して報告されたバグをトリアージします。[report 40](https://core.trac.wordpress.org/report/40) の先頭で簡単に見つけることができます。
+*   trunk に対して報告されたバグをトリアージします。[report 40](https://core.trac.wordpress.org/report/40)の先頭で簡単に見つけることができます。
 *   `src/wp-admin/includes/update-core.php` を更新します。
     *   古いファイルをチェックし、それらが `$_old_files` にあるかどうかを確認します:
         *   `svn diff --summarize [https://core.svn.wordpress.org/tags/4.4](https://core.svn.wordpress.org/tags/4.4) [https://core.svn.wordpress.org/trunk](https://core.svn.wordpress.org/trunk) | grep '^D'`
@@ -517,7 +517,7 @@ You’ve made it to release day!
 12.  Share in Slack: “Just a reminder: Do not tweet or share on any social media any of the links for the release. Sometimes things go wrong and packages need to be rebuilt. The release is not official until the post is published on the official news blog.”
 -->
 
-1.  [report 40](https://core.trac.wordpress.org/report/40) の先頭がトリアージされおり、クリアであることを確認します。
+1.  [report 40](https://core.trac.wordpress.org/report/40)の先頭がトリアージされおり、クリアであることを確認します。
 2.  コミッターに、リリースについて通知し、コミットを一時停止するよう警告します:
     1.  例: @committers 5.8がリリースされるまでコミットを控えてください。
 3.  該当する場合、`about.php` に最終コミットをします。たとえば、リリースビデオを入れたり、最終イラストを更新したりします。
