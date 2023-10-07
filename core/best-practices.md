@@ -25,7 +25,7 @@ WordPress は何千人もの貢献者が関わる巨大なプロジェクトで�
 *   [Writing Patches](https://make.wordpress.org/core/handbook/best-practices/writing-patches/)
 -->
 
-*   [コミットメッセージ](hhttps://ja.wordpress.org/team/handbook/core/best-practices/commit-messages/)
+*   [コミットメッセージ](https://ja.wordpress.org/team/handbook/core/best-practices/commit-messages/)
 *   [WordPress コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/)
     *   [アクセシビリティコーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/accessibility/)
     *   [CSS コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/css/)
