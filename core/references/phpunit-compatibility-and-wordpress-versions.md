@@ -24,7 +24,7 @@ Changes to supported [PHPUnit](https://phpunit.de/index.html) versions have been
 *   WordPress 5.1: PHPUnit 7のサポートを PHP 7.1、7.2、7.3に追加。PHP 7.0は PHPUnit 6のまま。
 *   WordPress 5.2: PHPUnit 7のサポートを PHP 7.0に、PHPUnit 5のサポートを PHP 5.6に追加。
 *   WordPress 5.9: 外部 [PHPUnit ポリフィル](https://github.com/Yoast/PHPUnit-Polyfills/)への依存関係を追加。これにより、PHPUnit 8、9のサポートが有効になり、各 PHP バージョンに最も最適な PHPUnit バージョンでテストを実行できるようになりました。
-*   WordPress 6.3: [PHP 5.6 のサポート廃止](https://make.wordpress.org/core/2023/07/05/dropping-support-for-php-5/)にしたがって、PHPUnit 5のサポート廃止。
+*   WordPress 6.3: [PHP 5.6のサポート廃止](https://make.wordpress.org/core/2023/07/05/dropping-support-for-php-5/)にしたがって、PHPUnit 5のサポート廃止。
 
 <!--
 ## Supported Version Chart
@@ -98,4 +98,4 @@ Changes to supported [PHPUnit](https://phpunit.de/index.html) versions have been
 **\*** The core test suite in these branches runs a modified version of PHPUnit 7 (which on its own is not compatible) on PHP 8. See [#50902](https://core.trac.wordpress.org/ticket/50902) for more information.
 -->
 
-**\*** これらのブランチのコアテストスイートは、PHPUnit 7の修正バージョン (それ自体には互換性がありません) を PHP 8上で実行します。詳しくは、[#50902](https://core.trac.wordpress.org/ticket/50902) を参照してください。
+**\*** これらのブランチのコアテストスイートは、PHPUnit 7の修正バージョン (それ自体には互換性がありません) を PHP 8上で実行します。詳しくは、[#50902](https://core.trac.wordpress.org/ticket/50902)を参照してください。
