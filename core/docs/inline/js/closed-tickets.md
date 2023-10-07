@@ -50,7 +50,7 @@ The following JS files have been documented as part of the inline JS docs projec
 ✅ wp-includes/js/media/views/spinner.js [#43230](https://core.trac.wordpress.org/ticket/43230) [\[42675\]](https://core.trac.wordpress.org/changeset/42675)
 -->
 
--   ✅ wp-admin/js/accordion.js (was already fully documented)
+-   ✅ wp-admin/js/accordion.js (すでに完全にドキュメント化されています)
 -   ✅ wp-admin/js/bookmarklet.js [#41547](https://core.trac.wordpress.org/ticket/41547)
 -   ✅ wp-admin/js/color-picker.js [#41063](https://core.trac.wordpress.org/ticket/41063)
 -   ✅ wp-admin/js/comment.js [#41065](https://core.trac.wordpress.org/ticket/41065)
