@@ -8,7 +8,7 @@
 This initiative follows the [inline docs initiative](https://make.wordpress.org/docs/handbook/core/inline-docs/) with a specific focus on JavaScript. The goal is to get all JavaScript files in WordPress well documented and make this documentation easily accessible. JavaScript development within WordPress core is speeding up fast and becoming more and more prominent given the current core editor and REST API focuses. To help these developments progress as smoothly as possible, we need to make sure the existing code is documented well.
 -->
 
-この取り組みは、[インラインドキュメントの取り組み](https://make.wordpress.org/docs/handbook/core/inline-docs/)に続いて、特に JavaScript に重点を置いています。目標は、WordPress のすべての JavaScript ファイルをきちんとドキュメント化し、この文書に簡単にアクセスできるようにすることです。WordPress コアにおける JavaScript の開発は急速にスピードアップしており、現在のコアエディターと REST API に焦点を当てるとますます顕著になってきています。これらの開発をできるだけスムーズに進めるために、既存のコードをしっかりとドキュメント化する必要があります。
+この取り組みは、[インラインドキュメントの取り組み](https://make.wordpress.org/docs/handbook/core/inline-docs/)に続いて、特に JavaScript に重点を置いています。目標は、WordPress のすべての JavaScript ファイルをきちんとドキュメント化し、このドキュメントに簡単にアクセスできるようにすることです。WordPress コアにおける JavaScript の開発は急速にスピードアップしており、現在のコアエディターと REST API に焦点を当てるとますます顕著になってきています。これらの開発をできるだけスムーズに進めるために、既存のコードをしっかりとドキュメント化する必要があります。
 
 <!--
 If you’re not familiar with what inline documentation is, read our page [on inline documentation standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/).
@@ -20,7 +20,7 @@ If you’re not familiar with what inline documentation is, read our page [on in
 ## Which JS files should be documented?
 -->
 
-## どの JS ファイルをドキュメント化するべきか ?
+## どの JS ファイルをドキュメント化するべきですか ?
 
 <!--
 There are three pages tracking JS files for documentation:
@@ -34,7 +34,7 @@ There are three pages tracking JS files for documentation:
 *   [Closed JS docs file tickets](https://make.wordpress.org/core/handbook/docs/inline/js/closed-tickets/): These files have been documented already.
 -->
 
-*   [Unclaimed JS docs files](https://make.wordpress.org/core/2018/01/31/js-docs-initiative-add-inline-docs-for-javascript/): これらのファイルをドキュメント化する作業はまだ誰も行っていません。投稿にコメントすることで、ファイルを担当できます。
+*   [未対応の JS ドキュメントファイル](https://make.wordpress.org/core/2018/01/31/js-docs-initiative-add-inline-docs-for-javascript/): これらのファイルをドキュメント化する作業はまだ誰も行っていません。投稿にコメントすることで、ファイルを担当できます。
 *   [進行中の JS ドキュメントファイルのチケット](https://ja.wordpress.org/team/handbook/core/docs/inline/js/in-progress-tickets/): これらのファイルには、ドキュメントを含むパッチがあるか、誰かがドキュメントのパッチを作成する作業しています。
 *   [クローズされた JS ドキュメントファイルのチケット](https://ja.wordpress.org/team/handbook/core/docs/inline/js/closed-tickets/): これらのファイルは、すでにドキュメント化されています。
 
@@ -54,7 +54,7 @@ Inline documentation is considered to be “technical” documentation, so some 
 1\. Familiarize yourself with the [JavaScript documentation standard](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/), as well as the [formatting guidelines](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/#formatting-guidelines) and [documenting tips](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/#documenting-tips).
 -->
 
-1\. [JavaScript ドキュメントスタンダート](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/)をはじめ、[書式ガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/php/#formatting-guidelines)や[ドキュメント作成のヒント](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/#documenting-tips)をよく理解してください。
+1\. [JavaScript ドキュメント規約](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/)をはじめ、[書式ガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/php/#formatting-guidelines)や[ドキュメント作成のヒント](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/#documenting-tips)をよく理解してください。
 
 <!--
 2\. Set up a local copy of the developer version of the WordPress codebase using [Varying Vagrant Vagrants](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/) (VVV). WordPress is versioning using SVN, but you can also use Git (the VVV link for how to do that).
@@ -105,7 +105,7 @@ Inline documentation is considered to be “technical” documentation, so some 
 *   Note: Documentation changes should not mix with code changes (even whitespacing) unless the ticket specifically calls for both.
 -->
 
-*   Core Trac で、ファイルに対する [新しいチケット](https://core.trac.wordpress.org/newticket) を作成します。
+*   Core Trac で、ファイルに対する[新しいチケット](https://core.trac.wordpress.org/newticket)を作成します。
     *   提案される *Title* の形式は、"JSDoc correction for path/to/file.js" または "Improve documentation for path/to/file.js" のようになります。
     *   「タイプ」は、**defect (bug)** でなければなりません。
     *   ファイルが関連付けられている「コンポーネント」にチケットを割り当てます。
@@ -150,4 +150,4 @@ For any questions, pop by the [#docs](https://wordpress.slack.com/messages/docs/
 *   [JS Documentation Standard](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/)
 -->
 
-*   [JS ドキュメントスタンダード](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/)
+*   [JS ドキュメント規約](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/)

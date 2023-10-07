@@ -128,7 +128,7 @@ Prior knowledge that you’ll find helpful for working on core is:
 -->
 
 *   バージョン管理システム: [SVN](http://sourceforge.net/projects/win32svn/) または [Git](http://git-scm.com/)
-*   ローカル開発環境。例: [MAMP](http://www.mamp.info/en/index.html)、[WAMP](http://www.wampserver.com/en/)、[Vagrant](//www.vagrantup.com/) [XAMPP](http://www.apachefriends.org/index.html)、または [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
+*   ローカル開発環境。例: [MAMP](http://www.mamp.info/en/index.html)、[WAMP](http://www.wampserver.com/en/)、[Vagrant](//www.vagrantup.com/)、[XAMPP](http://www.apachefriends.org/index.html)、または [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
 *   ユニットテストの場合、[PHPUnit](http://phpunit.de/)
 *   アセットのコンパイル、リリースパッケージのビルド、JavaScript と PHP のテストのための [Grunt](http://gruntjs.com/)
 *  Javascript テストのための [QUnit](http://qunitjs.com/)
@@ -166,7 +166,7 @@ The first step is to get set up with a local environment:
 3\. [Check out the WordPress codebase using SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 -->
 
-1. SVN のインストール: [バージョンコントロールシステムのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)
+1. SVN のインストール: [バージョン管理システムのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)
 2. ローカルサーバーのインストール: [Mac](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-xampp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-wampserver/) (代替)
 3. [SVN を使用して WordPress コードベースを確認する](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)
 
@@ -235,7 +235,7 @@ Some easy tasks for a first time contributor to get started at a contributor day
 *   [インラインドキュメント](https://make.wordpress.org/docs/handbook/core/inline-docs/)を更新する
 *   ユーザーインターフェイスに取り組み、[UI フォーカス](https://core.trac.wordpress.org/focus/ui)を確認する
 *   [開発者フィードバック](https://core.trac.wordpress.org/tickets/dev-feedback)を提供する
-*   [デザインに関するフィードバック](https://core.trac.wordpress.org/tickets/ux-フィードバック)を提供する
+*   [デザインに関するフィードバック](https://core.trac.wordpress.org/tickets/ux-feedback)を提供する
 *   [コピーに関するフィードバック](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-copy-review&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)を提供する
 *   [プライバシーに関するフィードバック](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-privacy-review&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)を提供する
 *   適用されていない、またはアップデートが必要な[既存のパッチを更新する](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&keywords=~needs-refresh&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)
@@ -258,7 +258,7 @@ Some easy tasks for a first time contributor to get started at a contributor day
 *   Latest [npm](https://nodejs.org/en/download/package-manager/) version.
 -->
 
-* WordPress が動作するローカル開発環境 ([VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/software-requirements/)を推奨します)
+* WordPress が動作するローカル開発環境 ([VVV](https://varyingvagrantvagrants.org/docs/en-US/installation/software-requirements/) を推奨します)
 * 最新の [npm](https://nodejs.org/en/download/package-manager/) バージョン。
 
 <!--

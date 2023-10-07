@@ -9,7 +9,7 @@ Warning: This page has been moved [here](https://developer.wordpress.org/coding-
 Please do *not* edit this page.
 -->
 
-注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/html/)に移動されました。
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/html/)に移動されました。\[/info\]
 
 <!--
 ## HTML

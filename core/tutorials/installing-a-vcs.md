@@ -2,7 +2,7 @@
 # Installing a Version Control System
 -->
 
-# バージョンコントロールシステムのインストール
+# バージョン管理システムのインストール
 
 <!--
 When using an IDE (Integrated Developer Environment) application or a stand-alone GUI client application, chances are that a separate installation of Subversion or Git will not be needed. Most of these applications include a local copy of the version control system.

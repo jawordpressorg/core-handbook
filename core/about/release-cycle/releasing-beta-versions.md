@@ -103,17 +103,17 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   下書きを作成する際、サイドバーの「ステータスと公開」パネルにある「パブリックプレビューの有効化」オプションにチェックを入れ、プレビューの URL をコピーして他の人と共有し、公開前にレビューやフィードバックを提供できるようにしてください。
     *   リンク、チケット数、その他の要素が特定のベータリリース用に更新されていることを確認してください。ロケール間の互換性のために、Trac クエリーのリンクで URL の日付が `YYYY-MM-DD` フォーマットであることを確認してください。
     *   リリースのリードから正確さのレビューを受け、マーケティングやドキュメントの担当者からコピー編集を受けます。これらの人々は、投稿の最後に @ で言及されるようにします。
-    *   この Beta/RC リリースが元々計画されていなかった場合 (たとえば、RC の前に追加の Beta をリリースしたり、最終リリースの前に追加の RC をリリースしたりした場合)、これらのアナウンス投稿は [wordpress.org/news/](https://wordpress.org/news/) では公開されず、代わりに [make.wordpress.org/core](https://make.wordpress.org/core/) で公開されるという意味で、歴史的に「サイレント」であることに注意してください (例: [5.7 RC 3](https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3/))。
-*   ベータ1リリースの場合、[#fse-outreach-experiment](https://make.wordpress.org/core/tag/fse-outreach-experiment/)の FSE Outreach Experiment の参加者と調整し、「Help Test WordPress X.Y」の投稿を公開・宣伝することを強く推奨します (例: [6.1の投稿](https://make.wordpress.org/test/2022/09/21/help-test-wordpress-6-1/)、[6.1の Slack メッセージ](https://wordpress.slack.com/archives/C015GUFFC00/p1663781207569069))。
-*   ベータリリースの場合、マイルストーンから機能強化や機能追加のリクエストチケットが取り除かれていることを確認してください (例: [Trac query for 6.1](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&type=enhancement&type=feature+request&milestone=6.1&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority))。ある機能強化や機能要求がリリースにとって重要であり、マイルストーンに残す必要があるという合意がリリースチーム内にある場合、そのチケットタイプは「Task (blessed)」に変更されるべきです。また、Gutenberg からの機能強化/機能マージも同様にマイルストーンからクリアされるか、「Task (blessed)」に変更されることをエディターテックリードと確認してください。
-*   RC リリースの場合、マイルストーンからすべてのチケットが削除されていることを確認するか、なぜチケットが残っているのかについてリリースチーム内で合意してください (例: [6.1」の Trac クエリー](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&milestone=6.1&col=id&col=summary&col=type&col=status&col=milestone&col=owner&col=priority&order=priority))。また、Gutenberg からのすべてのマージもマイルストーンからクリアされていることをエディターテックリードと確認してください。
+    *   このベータ/RC リリースが元々計画されていなかった場合 (たとえば、RC の前に追加のベータをリリースしたり、最終リリースの前に追加の RC をリリースしたりした場合)、これらのアナウンス投稿は [wordpress.org/news/](https://wordpress.org/news/) では公開されず、代わりに [make.wordpress.org/core](https://make.wordpress.org/core/) で公開されるという意味で、歴史的に「サイレント」であることに注意してください (例: [5.7 RC 3](https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3/))。
+*   ベータ1リリースの場合、[#fse-outreach-experiment](https://make.wordpress.org/core/tag/fse-outreach-experiment/) の FSE Outreach Experiment の参加者と調整し、「Help Test WordPress X.Y」の投稿を公開・宣伝することを強く推奨します (例: [6.1の投稿](https://make.wordpress.org/test/2022/09/21/help-test-wordpress-6-1/)、[6.1の Slack メッセージ](https://wordpress.slack.com/archives/C015GUFFC00/p1663781207569069))。
+*   ベータリリースの場合、マイルストーンから機能強化や機能追加のリクエストチケットが取り除かれていることを確認してください (例: [6.1の Trac クエリー](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&type=enhancement&type=feature+request&milestone=6.1&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority))。ある機能強化や機能要求がリリースにとって重要であり、マイルストーンに残す必要があるという合意がリリースチーム内にある場合、そのチケットタイプは「Task (blessed)」に変更されるべきです。また、Gutenberg からの機能強化/機能マージも同様にマイルストーンからクリアされるか、「Task (blessed)」に変更されることをエディターテックリードと確認してください。
+*   RC リリースの場合、マイルストーンからすべてのチケットが削除されていることを確認するか、なぜチケットが残っているのかについてリリースチーム内で合意してください (例: [6.1の Trac クエリー](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&milestone=6.1&col=id&col=summary&col=type&col=status&col=milestone&col=owner&col=priority&order=priority))。また、Gutenberg からのすべてのマージもマイルストーンからクリアされていることをエディターテックリードと確認してください。
 *   開始する前に、すべてのユニットテストをローカルで実行します。
     *   これらのテストを実行する前に、npm パッケージが最新の変更を反映するようにローカルで更新されていることを確認します
     *   `phpunit --stop-on-failure`
     *   `phpunit --group ajax --stop-on-failure`
     *   `phpunit -c tests/phpunit/multisite.xml --stop-on-failure`
 *   [マイナーリリース](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-minor-versions/)では、そのマイルストーンでクローズされたチケットがすべてリリースにマージされていることを確認してください (`fixed-major` がないチケットを探すことで絞り込めます)。マイナーリリースには、オプションでベータリリースを含めることができます。その判断はリリースリードの裁量に任されています。
-*   誰もコミットしようとしないように、[#core](https://make.wordpress.org/core/tag/core/)でアナウンスします。
+*   誰もコミットしようとしないように、[#core](https://make.wordpress.org/core/tag/core/) でアナウンスします。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1495228675132277)): @committers Please refrain from committing until we get 4.8-beta2 released.
 *   リリースパーティに参加する人たちに、テストが終わるまでリリースパッケージへのリンクを共有しないよう注意を促してください。
     *   例 ([アーカイブ](https://wordpress.slack.com/archives/C02RQBWTW/p1584479009394600)): **注意: テストが完了し、WordPress.org でアナウンス記事が公開されるまで、パッケージへのリンクを公開しないでください。**
@@ -146,14 +146,14 @@ These are the prescribed steps to take when releasing a beta version of WordPres
             *   メジャー RC リリースの場合は、`Bleeding edge` チャンネルを選択し、次に `Beta/RC Only` ストリームを選択します。
             *   マイナーな RC リリースの場合は、Point Release チャンネルと Nightlies ストリームを選択してください (Nightlies がビルドされるまでは、ベータテスターを使ってマイナーなベータ/RC パッケージをテストできません)。
         *   WP-CLI を使ってテストします: `wp core update https://wordpress.org/wordpress-4.9-beta2.zip`
-        *   Beta/RC バージョンを直接ダウンロードします (例: https://wordpress.org/wordpress-5.8-RC4.zip)
+        *   ベータ/RC バージョンを直接ダウンロードします (例: https://wordpress.org/wordpress-5.8-RC4.zip)
 
     *   注意: WP-CLI 経由でアップデートを行った際にファイルが削除されたと報告された場合は、そのファイルが `$_old_files` 変数に存在することを確認してください。
     *   注意: WP-CLI を使ってパッケージをテストしている人は、チェックサムに関する警告を受けるかもしれません。これはチェックサムがナイトリーバージョンでは利用できないためです。
     *   理想的なテストの実施:
-        *   4.0.\*リリースシリーズの最新版からテストする (例: 4.0.35から6.1 Beta1)
-        *   4.9.\*リリースシリーズの最新版からテストする (例: 4.9.21から6.1 Beta1)
-        *   現在のメジャーリリースシリーズの最新版からテストする (例: 5.7.2から5.8 Beta2)
+        *   4.0.\*リリースシリーズの最新版からテストする (例: 4.0.35から6.1ベータ1)
+        *   4.9.\*リリースシリーズの最新版からテストする (例: 4.9.21から6.1ベータ1)
+        *   現在のメジャーリリースシリーズの最新版からテストする (例: 5.7.2から5.8ベータ2)
         *   最新のベータ/RC リリースからテストする (例: ベータ2からベータ3、ベータ3から RC1、RC1から RC2)
         *   新規インストールをテストする
         *   `wp-config.php` ファイルを削除し、新規インストールをテストする
@@ -163,7 +163,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
 *   以前のコミットが [https://build.trac.wordpress.org/](https://build.trac.wordpress.org/) に表示された後、[Mission Control](https://mc.wordpress.org/release/) でナイトリーパッケージをリビルドする必要があります。
 *   アナウンス投稿を公開します (ベータ1リリースで投稿が作成された場合は、それに続く「Help Test WordPress X.Y」投稿も)。
     *   Matt がこれを行うことができますし、[wordpress.org/news/](https://wordpress.org/news/) の管理者または編集者のアクセス権を持っている人なら誰でも行うことができます。
-    *   投稿内容を [#polyglots](https://make.wordpress.org/core/tag/polyglots/) チャンネルで共有し、翻訳版の作成に役立ててください (例: [6.1 Beta 1の Slack メッセージ](https://wordpress.slack.com/archives/C02RP50LK/p1663780990205979)で `code editor` の内容を共有しています)。
+    *   投稿内容を [#polyglots](https://make.wordpress.org/core/tag/polyglots/) チャンネルで共有し、翻訳版の作成に役立ててください (例: [6.1ベータ1の Slack メッセージ](https://wordpress.slack.com/archives/C02RP50LK/p1663780990205979)で `code editor` の内容を共有しています)。
 *   [#core](https://make.wordpress.org/core/tag/core/) で、リリースが利用可能であることをアナウンスします。
     *   例: /here WordPress 5.8 Beta 1 is now available. Please help test! There’s a *lot* to test this release.
     *   注意事項として、5.8で追加された機能、テストの変更、ドキュメントの更新に関するチケットのみが、このリリースのベータ版で考慮されます。

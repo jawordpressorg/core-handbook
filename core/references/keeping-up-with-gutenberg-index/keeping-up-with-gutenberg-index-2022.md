@@ -26,39 +26,24 @@ See *[Explanations](#explanations)* on the bottom.
 
 <!--
 **[WordPress 6.2 Development Cycle](https://make.wordpress.org/core/6-2/)**
--->
 
-**[WordPress 6.2の開発サイクル](https://make.wordpress.org/core/6-2/)**
-
-<!--
 Previous years of **Gutenberg Index**: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)**
--->
 
-過去の **Gutenberg インデックス**: **[2020](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)**
-
-<!--
 Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
--->
 
-[WordPress における Gutenberg のバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
-
-<!--
 📗 [Devnotes WordPress 5.9](#devnotes-wordpress-5-9)
--->
 
-📗 [WordPress 5.9の開発者ノート](#devnotes-wordpress-5-9)
-
-<!--
 📙 [Devnotes WordPress 6.0](https://make.wordpress.org/core/tag/dev-notes-6-0/)
--->
 
-📙 [WordPress 6.0の開発者ノート](https://make.wordpress.org/core/tag/dev-notes-6-0/)
-
-<!--
 📘 [Devnotes WordPress 6.1](https://make.wordpress.org/core/tag/dev-notes+6.1/)
 -->
 
-📘 [WordPress 6.1の開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.1/)
+-   **[WordPress 6.2の開発サイクル](https://make.wordpress.org/core/6-2/)**
+-   過去の **Gutenberg インデックス**: **[2020](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)**
+-   [WordPress における Gutenberg のバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
+-   📗 [WordPress 5.9の開発者ノート](#devnotes-wordpress-5-9)
+-   📙 [WordPress 6.0の開発者ノート](https://make.wordpress.org/core/tag/dev-notes-6-0/)
+-   📘 [WordPress 6.1の開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.1/)
 
 * * *
 
@@ -781,7 +766,7 @@ April
 **Explanations**
 -->
 
-**説明**
+## 説明
 
 <!--
 *   **[#team](https://make.wordpress.org/core/tag/team/)** identifies a team’s WordPress Slack channel. [Join the Slack space](https://chat.wordpress.org/).

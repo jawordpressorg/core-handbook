@@ -21,11 +21,11 @@ Most of the Documentation Team work ends up in one of these two sites:
 *   [wordpress.org/support](https://wordpress.org/support) (aka *HelpHub*) – This is where all the documentation aimed to the end-user are, such as Installation instructions, Admin panel reference and more.
 -->
 
-*   [developer.wordpress.org](https://developer.wordpress.org/) (aka *DevHub*) – ここは、コードリファレンス、プラグインやテーマの開発ハンドブックなど、開発者向けのすべてのドキュメントがある場所です。
-*   [wordpress.org/support](https://wordpress.org/support) (aka *HelpHub*) – ここは、インストール手順、管理画面のリファレンスなど、エンドユーザーを対象としたすべてのドキュメントがある場所です。
+*   [developer.wordpress.org](https://developer.wordpress.org/) (別名 *DevHub*) – ここは、コードリファレンス、プラグインやテーマの開発ハンドブックなど、開発者向けのすべてのドキュメントがある場所です。
+*   [wordpress.org/support](https://wordpress.org/support) (別名 *HelpHub*) – ここは、インストール手順、管理画面のリファレンスなど、エンドユーザーを対象としたすべてのドキュメントがある場所です。
 
 <!--
 If you want to contribute to WordPress Docs, check out the [Documentation Team’s handbook](https://make.wordpress.org/docs/handbook/).
 -->
 
-WordPress ドキュメントに貢献したい場合は、[Documentation Team's handbook] (https://make.wordpress.org/docs/handbook/) をチェックしてください。
+WordPress ドキュメントに貢献したい場合は、[ドキュメンテーションチームのハンドブック](https://make.wordpress.org/docs/handbook/)をチェックしてください。

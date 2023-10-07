@@ -4,7 +4,7 @@
 
 # WordPress インラインドキュメント規約
 
-注意: このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/)に移動されました。
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/)に移動されました。\[/info\]
 
 <!--
 Inline documentation provides a good resource for core developers in future development, and other developers when learning about WordPress. It also provides the information necessary to populate the [WordPress developer code reference](https://developer.wordpress.org/reference/).

@@ -153,10 +153,10 @@ WordPress は、一般公的使用許諾 (GPLv2以降) にもとづいてライ�
 3.  The freedom to distribute copies of your modified versions to others.
 -->
 
-0.  目的を問わず、プログラムを実行する自由。
-1.  プログラムがどのように機能するのかを研究し、自分の思い通りにプログラムを変更する自由。
-2.  再配布の自由。
-3.  改変したバージョンのコピーを他の人に配布する自由。
+1.  目的を問わず、プログラムを実行する自由。
+2.  プログラムがどのように機能するのかを研究し、自分の思い通りにプログラムを変更する自由。
+3.  再配布の自由。
+4.  改変したバージョンのコピーを他の人に配布する自由。
 
 <!--
 Part of those licensing requirements include licensing derivative works or things that link core WordPress functions (like themes, plugins, etc.) under the GPL as well, thereby passing on the freedom of use for these works as well.

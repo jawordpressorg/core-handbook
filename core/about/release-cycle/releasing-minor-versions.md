@@ -60,7 +60,7 @@ Follow the process in the Security team handbook to make sure that patches are a
 All patches should be well-tested and receive sign-off from the WordPress Security Team at least five days ahead of the scheduled release date. It’s incredibly important to get this feedback early on as security fixes do not have a lot of time to bake on trunk.
 -->
 
-すべてのパッチは十分にテストされ、リリース予定日の少なくとも5日前には WordPress セキュリティチームの承認を受ける必要があります。セキュリティの修正には tunk で仕上げる十分な時間がないため、早期にこのフィードバックを得ることは非常に重要です。
+すべてのパッチは十分にテストされ、リリース予定日の少なくとも5日前には WordPress セキュリティチームの承認を受ける必要があります。セキュリティの修正には trunk で仕上げる十分な時間がないため、早期にこのフィードバックを得ることは非常に重要です。
 
 <!--
 For security fixes reported by third-parties, get information on how they would like to be credited. The announcement post on [wordpress.org/news/](https://wordpress.org/news/) credits third-parties as requested.
@@ -195,7 +195,7 @@ You’ve made it. Release day can be stressful. The best way to survive release 
 *   Rebuild the latest stable branch’s nightly
 -->
 
-*   新しい貢献者をリストアップするために、関連するクレジットファイルを更新する必要があります。このファイルは [meta リポジトリ](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits) にあります。
+*   新しい貢献者をリストアップするために、関連するクレジットファイルを更新する必要があります。このファイルは [meta リポジトリ](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits)にあります。
 *   セキュリティリリースを実行する場合、セキュリティパッチをすべての関連ブランチにコミットする必要があります。
 *   セキュリティパッチがコミットされたら、リリースプロセスを [#core](https://make.wordpress.org/core/tag/core/) チャンネルに移動してください。
     *   (`/here` Slack コマンドを使用して) リリースパーティーへの参加を歓迎するアナウンスを行うことから始めます。

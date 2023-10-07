@@ -8,7 +8,7 @@
 Alert: This page is out of date. Let someone in [#core](https://wordpress.slack.com/messages/C02RQBWTW) know if you want to help update it!
 -->
 
-注: このページは古くなっています。更新を手伝いたい方は、[#core](https://wordpress.slack.com/messages/C02RQBWTW) の誰かに知らせてください !
+\[alert\]このページは古くなっています。更新を手伝いたい方は、[#core](https://wordpress.slack.com/messages/C02RQBWTW) の誰かに知らせてください !\[/alert\]
 
 <!--
 ## About the Project
@@ -120,7 +120,7 @@ Since anyone who is an active contributor on a team can be elected as team rep, 
 @hellofromtonya and @webcommsat are the current Core Team Reps for 2023. Team Rep elections happen every years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
 -->
 
-@hellofromtonya と @webcommsat が、2023年のコアチーム代表です。チーム代表の選挙は毎年行われ、[特定のプロセス](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/)に従います。これには新しい代表の [指名](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/)、[投票](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/)、[発表](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) が含まれます。
+@hellofromtonya と @webcommsat が、2023年のコアチーム代表です。チーム代表の選挙は毎年行われ、[特定のプロセス](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/)に従います。これには新しい代表の[指名](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/)、[投票](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/)、[発表](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/)が含まれます。
 
 <!--
 ### UX and Design
@@ -156,13 +156,13 @@ The [support forums](https://wordpress.org/support/) are run by a team of volunt
 The Documentation team is responsible for all things documentation, including [HelpHub](https://wordpress.org/support) (end-users documentation), [DevHub](https://developer.wordpress.org) (developer-oriented documentation), handbooks, admin help, inline docs, and other general wordsmithing across the WordPress project.
 -->
 
-ドキュメンテーションチームはドキュメントに関するすべてに責任を持ちます。これには [HelpHub](https://wordpress.org/support) (エンドユーザードキュメント)、[DevHub](https://developer.wordpress.org) (開発者向けドキュメント)、ハンドブック、管理者向けのヘルプ、インラインドキュメント、その他 WordPress プロジェクト全体にわたる一般的な文書作成が含まれます。
+ドキュメンテーションチームはドキュメントに関するすべてに責任を持ちます。これには [HelpHub](https://wordpress.org/support) (エンドユーザードキュメント)、[DevHub](https://developer.wordpress.org) (開発者向けドキュメント)、ハンドブック、管理者向けのヘルプ、インラインドキュメント、その他 WordPress プロジェクト全体にわたる一般的なドキュメント作成が含まれます。
 
 <!--
 This handbook and HelpHub/DevHub are the primary sources of information for learning how to develop, improve, and troubleshoot WordPress. These resources are curated by a group of volunteers. Everyone is welcome to contribute.
 -->
 
-ハンドブックと HelpHub/DevHub は、WordPress の開発、改良、トラブルシューティングの方法を学ぶための最初の情報源です。これらのリソースはボランティアのグループによって整備されています。みなさんのコントリビューションを歓迎します。
+ハンドブックと HelpHub/DevHub は、WordPress の開発、改良、トラブルシューティングの方法を学ぶための最初の情報源です。これらのリソースはボランティアのグループによって整備されています。みなさんの貢献を歓迎します。
 
 <!--
 ### Mobile
@@ -186,7 +186,7 @@ The [WordPress mobile applications](https://apps.wordpress.org/) are open sourc
 Themes submitted to the WordPress Themes Directory are reviewed by a team of volunteers to ensure compliance with the [WordPress.org theme guidelines](https://make.wordpress.org/themes/handbook/). The [team](https://make.wordpress.org/themes/handbook/the-team/members/) is made up of community leaders and contributors who work together on developing standards and reviewing themes.
 -->
 
-WordPress テーマディレクトリに申請されたテーマはボランティアチームによって審査され、[WordPress.org テーマガイドライン](https://make.wordpress.org/themes/handbook/) に準拠しているかが確認されます。[チーム](https://make.wordpress.org/themes/handbook/the-team/members/) はコミュニティリーダーと貢献者で構成され、標準の策定とテーマの審査に協力しています。
+WordPress テーマディレクトリに申請されたテーマはボランティアチームによって審査され、[WordPress.org テーマガイドライン](https://make.wordpress.org/themes/handbook/)に準拠しているかが確認されます。[チーム](https://make.wordpress.org/themes/handbook/the-team/members/)はコミュニティリーダーと貢献者で構成され、標準の策定とテーマの審査に協力しています。
 
 <!--
 ### Plugin Reviewers
@@ -210,4 +210,4 @@ WordPress プラグインディレクトリに申請されたプラグインは�
 WordPress core development updates and discussion from the teams above happen on the [Make WordPress blogs.](http://make.wordpress.org) You can also follow core development by joining the **[#core](https://make.wordpress.org/core/tag/core/)** channel on the project’s [Slack team](https://make.wordpress.org/chat/), which is open for anyone to join. Dedicated channels are set up for various WordPress core components and community initiatives. A more specific breakdown of the WordPress project’s communication channels is available in the [Communication](https://make.wordpress.org/core/handbook/about/communication/) section of the Core Handbook.
 -->
 
-WordPress のコア開発のアップデートや上述のチームからのディスカッションは、[Make WordPress blogs](http://make.wordpress.org) で行われます。またコア開発をフォローするには、プロジェクトの [Slack team](https://make.wordpress.org/chat/) の **[#core](https://make.wordpress.org/core/tag/core/)** チャンネルに参加してください。こちらは誰でも参加できます。WordPress のさまざまなコアコンポーネントやコミュニティの取り組みについては、専用のチャンネルが設定されています。WordPress プロジェクトのコミュニケーションチャンネルのより具体的な詳細は、コアハンドブックの [Communication](https://ja.wordpress.org/team/handbook/core/about/communication/) セクションにあります。
+WordPress のコア開発のアップデートや上述のチームからのディスカッションは、[Make WordPress blogs](http://make.wordpress.org) で行われます。またコア開発をフォローするには、プロジェクトの [Slack team](https://make.wordpress.org/chat/) の **[#core](https://make.wordpress.org/core/tag/core/)** チャンネルに参加してください。こちらは誰でも参加できます。WordPress のさまざまなコアコンポーネントやコミュニティの取り組みについては、専用のチャンネルが設定されています。WordPress プロジェクトのコミュニケーションチャンネルのより具体的な詳細は、コアハンドブックの[コミュニケーション](https://ja.wordpress.org/team/handbook/core/about/communication/)セクションにあります。

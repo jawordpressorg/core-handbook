@@ -50,7 +50,7 @@ Trac はオープンソースであり、Web ベースのプロジェクト管�
 Trac is the official record of work for WordPress core. The tickets written here become part of the living historical document of open source contributions. Because of this, the tone and language used in tickets and comments should be formal and to the point.
 -->
 
-Trac は WordPress コアで行われた作業の公式な記録です。ここに書かれたチケットは、オープンソースへの貢献に関する生きた歴史的な文書の一部となります。このため、チケットやコメントで使用されるトーンや言語は、フォーマルで要点を押さえたものであるべきです。
+Trac は WordPress コアで行われた作業の公式な記録です。ここに書かれたチケットは、オープンソースへの貢献に関する生きた歴史的なドキュメントの一部となります。このため、チケットやコメントで使用されるトーンや言語は、フォーマルで要点を押さえたものであるべきです。
 
 <!--
 Because this is the official record, be sure to search thoroughly to see if there is an existing ticket for the bug or feature you want to log. If something already exists, please add your notes to that existing ticket. If what you have to add is related to an existing item or for something with a finished milestone, reference that ticket using the format #{ticket\_id} to automatically create a link between tickets: “This was previously discussed in [#99999](https://core.trac.wordpress.org/ticket/99999).” If you need to refer to a particular changeset (a set of code changes logged in Trac), you can link to it using the format \[{changeset\_id}\]: “The original bug was fixed in \[999999\].” Note, finished milestone tickets should never be reopened.
