@@ -133,7 +133,7 @@ There are also a few responsibilities that release leads and deputies have over 
 *   **機能に関するアイデアを検討し、対応する。** WordPress の貢献者やユーザーは、リリースサイクル中、特に[ウィッシュリスト](https://make.wordpress.org/core/tag/wishlists/)の投稿に機能のアイデアを投稿します。各機能を開発することはリリースリード (またはそのサブリード) の責任ではありませんが、各機能のアイデアをレビューし、リリースに含める価値があるかどうかを確認する必要があります。これらのアイデアの多くは、[機能に関するプロジェクト](https://make.wordpress.org/core/features/)から出てくるものですが、中には注意が必要なチケットもあるでしょう。
 *   **助けてくれる貢献者を見つける。** すべての技術的な決定、あるいはその大部分を行うことは、リリースリードの責任ではありません。リリースリードは、いつどのように貢献者を探し出し、支援を求めるべきかを知っておくべきです。コアチームは大規模で、リソースの状況もさまざまであるため、リリースリードはさまざまなチケットに対してフィードバックやサポートを提供するために、どの貢献者が最適であるかをよく理解している必要があります。
 *   **貢献者と定期的にチャットする。** 定期的に貢献者と連絡を取り合うことは、WordPress のリリースが安定し、公開の準備が整っていることを保証するために役立ちます。定期的に貢献者とチャットすることで、リリースリードは貢献者の稼働状況やブロックの可能性のある問題などを把握できます。
-*   **マーケティング活動の調整。** 管理するべきマーケティング活動がいくつかあり、リリースリードやサブリードはそれらを認識している必要があります。WordPress コアの [About ページ](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)、/news/ の投稿、ビデオはすべてこの取り組みの一部です (これらの具体的な取り組みについては後述します)。[4.7で学んだように](https://core.trac.wordpress.org/ticket/39560)、動画を同時に自動再生するように設定することは避けるべきです。これらの活動は、[マーケティングチーム](https://make.wordpress.org/marketing/)と関連するコンポーネントのメンテナーと連携して行うべきであることに注意してください。リリースコミュニケーションに関する詳細なハンドブックについては、この[リリースサイクルのマーケティングとコミュニケーションガイド](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)を参照してください。
+*   **マーケティング活動の調整。** 管理するべきマーケティング活動がいくつかあり、リリースリードやサブリードはそれらを認識している必要があります。WordPress コアの[アバウトページ](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)、/news/ の投稿、ビデオはすべてこの取り組みの一部です (これらの具体的な取り組みについては後述します)。[4.7で学んだように](https://core.trac.wordpress.org/ticket/39560)、動画を同時に自動再生するように設定することは避けるべきです。これらの活動は、[マーケティングチーム](https://make.wordpress.org/marketing/)と関連するコンポーネントのメンテナーと連携して行うべきであることに注意してください。リリースコミュニケーションに関する詳細なハンドブックについては、この[リリースサイクルのマーケティングとコミュニケーションガイド](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)を参照してください。
 *   **リリースや機能に対するあらゆる変更を伝える。** リリースが進むにつれて、大きな決断が必要になり、リリースチームによって適切に伝えられなければならないときがあります。そのためには、時にはプロジェクトのリーダーを巻き込みながら、一緒になって進むべき道を見つけることと、変更点を適切に伝えるために作業することの両方が必要です。あなたが所属するリリースチームが同じような状況に陥ったときのために、2つの例を挙げます。[WordPress 5.9のリリーススケジュール変更のアナウンス](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)と[WordPress 6.0におけるウェブフォント API の変更点](https://make.wordpress.org/core/2022/04/22/status-of-webfonts-api-for-wordpress-6-0-inclusion/)です。
 
 <!--
@@ -220,7 +220,7 @@ There are no limitations to where you come from. We are a global community, open
 -->
 
 *   **[開発者ノートを編集して公開を開始する](https://ja.wordpress.org/team/handbook/core/tutorials/writing-developer-notes/)**。[make/core で #dev-notes を使って](https://make.wordpress.org/core/tag/dev-notes/)、リリースの重要な変更点や開発者向けの主要な更新を開発者に知らせる記事の編集と公開を開始します。
-*   **About ページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1までに完成させ、画像は RC2まで更新できるようにします。[マーケティング・コミュニケーション・ハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[About ページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
+*   **アバウトページ**。リリースの注目すべき機能をまとめ始め、イラストを提供できるデザイナーを特定します。文章は RC1までに完成させ、画像は RC2まで更新できるようにします。[マーケティング・コミュニケーション・ハンドブック](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)と同様に、[アバウトページのプロセスに関する詳細情報](https://docs.google.com/document/d/13itxtCD2jkKIMUj8anKLNMKoIWXE3dtJ6FyfkF-XN4E/edit#heading=h.1voz9urseun7)もあります。
 *   **HelpHub バージョンページ**。デザイナー、開発者、ユーザーのために、注目すべきアップデートをまとめ始めます。*[5.2 バージョンページ](https://wordpress.org/support/wordpress-version/version-5-2/)を例として使用できますし、[ドキュメントチーム](https://make.wordpress.org/docs/)に助けを求めることもできます。*
 *   [ブラウザーサポートページ](https://ja.wordpress.org/team/handbook/core/best-practices/browser-support/)にリストアップされているブラウザーのどれかが、コアでそれらをサポートするために必要なパーセンテージを下回ったかどうかを確認し、更新が必要なものがあれば、[以下の最終的なリリースの前](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/#pre-final-release)における最終チェックと更新の1つになるので、そのための計画を立てます。
 
@@ -285,7 +285,7 @@ A Release Candidate version is released as the last stage of the release cycle b
 *   An announcement should be made on Make Core about the release candidate phase ([example from 6.0](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) and the various above protocols in order to better amplify this specific part of the release cycle and prepare the community.
 -->
 
-*   [翻訳文字列のハードフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)がリリース候補のフェーズで有効になります。これは、アプリケーションの文字列が、About ページのテキストを含めて、もはや変更できないことを意味します。
+*   [翻訳文字列のハードフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)がリリース候補のフェーズで有効になります。これは、アプリケーションの文字列が、アバウトページのテキストを含めて、もはや変更できないことを意味します。
 *   報告されたバグが修正されるにつれて、複数のリリース候補版 (たとえば RC1、RC2) がリリースされるべきです。
 *   リリース候補フェーズでの src/ に対するすべての変更は、2人のコミッターによってレビューされなければならないことをコミッターに警告してください。あなたのパッチをレビューする2人目のコミッターを選ぶときは、そのパッチを意味のあるレビューを受けられるように、コードベースのその領域で豊富な経験を持つベテランのコミッターを探しましょう。コミッターはいつでも tests/ にコミットできます。
 *   [RC リリースのプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-beta-versions/)については、別のハンドブックのページに詳しく書かれています。
@@ -409,10 +409,10 @@ This is your pre-release checklist. Do not skip it. To help with coordination, i
 *   クレジット API を更新する必要があります。
     *   最初の注目すべき貢献者セクション (開発者に限らないが、`core-developers` という名前) にいる人全員に Core Team バッジをつけるべきです。
 *   about.php、freedoms.php、credits.php でタグラインが同期していることを確認してください。
-*   About ページの画像が CDN の URL を使っていることと、フィラー画像が最終バージョンに適切に置き換えられていることを確認してください。
+*   アバウトページの画像が CDN の URL を使っていることと、フィラー画像が最終バージョンに適切に置き換えられていることを確認してください。
 *   プライベートなセキュリティ・ユニットテストスイートを実行します。
 *   アナウンス投稿は下書きのままであるべきです。**公開しないでください。**
-    *   これは About ページのコピーにもとづきますが、最後にビデオ (該当する場合) と props も含まれます。
+    *   これはアバウトページのコピーにもとづきますが、最後にビデオ (該当する場合) と props も含まれます。
     *   リリース投稿に props のリストを表示するには、次のショートコードを使用してください: `[wpcredits X.Y]`。X.Y はリリースのバージョンです。これはクレジット API からデータを取得するので、リリース投稿のために props のリストを別に生成する必要はありません。
     *   コア props の後に、サポートボランティアと翻訳者への感謝の言葉を投稿に含めるようにしてください ([5.6](https://wordpress.org/news/2020/12/simone/)のような、以前のメジャーリリースのアナウンスの例を参照してください)。
     *   投稿を「release」**および**「development」として**ではなく**、「release」**のみに**分類してください。
