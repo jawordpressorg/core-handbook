@@ -10,7 +10,7 @@ If you find yourself working in and around WordPress.org and core development a 
 
 WordPress.org やコア開発の周辺で作業することが多い場合、それらのワークフローをより速くするために使えるツールをいくつか紹介します。
 
-**Alfred Workflows**
+**Alfred ワークフロー**
 
 <!--
 *   [WP\_Jumps](https://cloudup.com/i4c5tNXv-Eb) – WordPress.org-related Jumps + Search
