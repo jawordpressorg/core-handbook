@@ -132,13 +132,13 @@ Optionally, the PHP external extensions Xdebug, MemCache and Imagick should also
 **Step 1**: Install and then start [Docker](https://www.docker.com/products/docker-desktop)
 -->
 
-**ステップ1**: [Docker](https://www.docker.com/products/docker-desktop)をインストールし、起動する
+**ステップ1**: [Docker](https://www.docker.com/products/docker-desktop) をインストールし、起動する
 
 <!--
 **Step 2**: Install [NPM](https://nodejs.org/en/download/)
 -->
 
-**ステップ2**: [NPM](https://nodejs.org/en/download/)をインストールする
+**ステップ2**: [NPM](https://nodejs.org/en/download/) をインストールする
 
 <!--
 **Step 3**: Make sure you are in the root directory of where you installed WordPress
@@ -503,13 +503,13 @@ Note:
 Many tests are marked with a `@ticket` annotation, which indicates they were the result of that WordPress Trac ticket.
 -->
 
-多くのテストには `@ticket` という注釈がついており、WordPress の Trac チケットの結果であることを示しています。
+多くのテストには `@ticket` というアノテーションがついており、WordPress の Trac チケットの結果であることを示しています。
 
 <!--
 The `@ticket` annotation is an alias for the `@group` annotation, so any tests linked to any individual Trac ticket can be run by passing the Trac ticket number as the “group”.
 -->
 
-`@ticket` 注釈は `@group` 注釈のエイリアスであるため、Trac チケット番号を「group」として渡すことで、個々の Trac チケットにリンクされたテストを実行できます。
+`@ticket` アノテーションは `@group` アノテーションのエイリアスであるため、Trac チケット番号を「group」として渡すことで、個々の Trac チケットにリンクされたテストを実行できます。
 
 <!--
 To view all groups:

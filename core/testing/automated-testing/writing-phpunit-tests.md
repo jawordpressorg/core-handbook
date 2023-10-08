@@ -56,7 +56,7 @@ The `assertSame()` method accepts two parameters: the *expected value* (in this 
 An [annotated list of common assertions](#using-assertions) can be found below.
 -->
 
-[一般的なアサーションの注釈付きリスト](#using-assertions)は以下にあります。
+[一般的なアサーションのアノテーション付きリスト](#%e3%82%a2%e3%82%b5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%bf%e7%94%a8)は以下にあります。
 
 <!--
 ### Fixtures and Factories
@@ -310,7 +310,7 @@ class Tests_Foo {
 [PHPUnit annotations](https://docs.phpunit.de/en/9.6/annotations.html) are pieces of metadata, indicated by a `@`, placed in the docblock of a test method or class. WordPress’s tests use a number of PHPUnit annotations, as well as a few custom ones, to organize its tests. Note that annotations belonging to a class are automatically inherited by all member test methods, and should not be appended with a full stop.
 -->
 
-[PHPUnit アノテーション](https://docs.phpunit.de/en/9.6/annotations.html) とは、メソッドやクラスの docblock に記述するメタデータのことで、`@` で示されます。WordPress のテストでは、テストを整理するために、多数の PHPUnit アノテーションといくつかのカスタムアノテーションが使用されます。クラスに属するアノテーションはすべてのメンバーのテストメソッドによって自動的に継承されるため、ピリオドを追加しないでください。
+[PHPUnit アノテーション](https://docs.phpunit.de/en/9.6/annotations.html)とは、メソッドやクラスの docblock に記述するメタデータのことで、`@` で示されます。WordPress のテストでは、テストを整理するために、多数の PHPUnit アノテーションといくつかのカスタムアノテーションが使用されます。クラスに属するアノテーションはすべてのメンバーのテストメソッドによって自動的に継承されるため、ピリオドを追加しないでください。
 
 <!--
 Some of the more commonly used annotations:
