@@ -8,7 +8,7 @@
 Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
 -->
 
-注: WordPress は、[GIT](https://ja.wordpress.org/team/handbook/core/contribute/git/) と SVN の両方から作成されるパッチをサポートしています。このドキュメントは、Git オプションにフォーカスしています。
+\[alert\]WordPress は、[GIT](https://ja.wordpress.org/team/handbook/core/contribute/git/) と SVN の両方から作成されるパッチをサポートしています。このドキュメントは、Git オプションにフォーカスしています。\[/alert\]
 
 <!--
 ## What is SVN?
@@ -20,7 +20,7 @@ Alert: WordPress supports patches being created from both [GIT](https://make.wor
 WordPress uses [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn), a very popular version control system managed by the Apache project, to manage changes to its codebase. A change to the WordPress codebase increments the **revision** number. Individual changes are called [commits or changesets](https://make.wordpress.org/core/glossary/#commit-noun). These are denoted as either [r12345](https://core.trac.wordpress.org/changeset/12345) or \[[12345](https://core.trac.wordpress.org/changeset/12345)\]. Details of the SVN and Git repositories are located [here](https://make.wordpress.org/core/handbook/contribute/codebase/).
 -->
 
-WordPress は、Apache プロジェクトが管理する非常に一般的なバージョン管理システムである [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn) を使用して、コードベースへの変更を管理しています。WordPress のコードベースへの変更は、**リビジョン**という番号を増加させます。それぞれの変更は [コミットまたはチェンジセット](https://make.wordpress.org/core/glossary/#commit-noun) と呼ばれます。これらは、[r12345](https://core.trac.wordpress.org/changeset/12345) または \[[12345](https://core.trac.wordpress.org/changeset/12345)\] のように表記されます。SVN と Git のリポジトリの詳細は[こちら]((https://ja.wordpress.org/team/handbook/core/contribute/codebase/))です。
+WordPress は、Apache プロジェクトが管理する非常に一般的なバージョン管理システムである [Subversion (SVN)](https://make.wordpress.org/core/glossary/#svn) を使用して、コードベースへの変更を管理しています。WordPress のコードベースへの変更は、**リビジョン**という番号を増加させます。それぞれの変更は [コミットまたはチェンジセット](https://make.wordpress.org/core/glossary/#commit-noun) と呼ばれます。これらは、[r12345](https://core.trac.wordpress.org/changeset/12345) または \[[12345](https://core.trac.wordpress.org/changeset/12345)\] のように表記されます。SVN と Git のリポジトリの詳細は[こちら](https://ja.wordpress.org/team/handbook/core/contribute/codebase/)です。
 
 <!--
 The WordPress repository of code is organized into three main directories: [tags](https://make.wordpress.org/core/glossary/#tag), [branches](https://make.wordpress.org/core/glossary/#branch), and [trunk](https://make.wordpress.org/core/glossary/#trunk).
@@ -54,7 +54,7 @@ Most popular IDE (Integrated Developer Environment) applications include built-i
 Alternatively some developers run SVN commands using the [command line interface](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI), such as [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) on the Mac. Even though most basic commands are simple, the command line is reasonably intimidating for many users. Many developers do rely on [GUI](http://en.wikipedia.org/wiki/GUI) applications though, either for regular use, or to handle complex actions more effectively.
 -->
 
-あるいは、Mac の [ターミナル](http://en.wikipedia.org/wiki/Terminal_(OS_X)) などの [コマンドラインインターフェース](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI) を使って SVN コマンドを実行する開発者もいます。ほとんどの基本的なコマンドは簡単ですが、コマンドラインは多くのユーザーにとってとっつきにくいものです。しかし、多くの開発者は、通常の使用や複雑な操作をより効果的に行うために、[GUI](http://en.wikipedia.org/wiki/GUI) アプリケーションに頼っています。
+あるいは、Mac の[ターミナル](http://en.wikipedia.org/wiki/Terminal_(OS_X))などの[コマンドラインインターフェース](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI) を使って SVN コマンドを実行する開発者もいます。ほとんどの基本的なコマンドは簡単ですが、コマンドラインは多くのユーザーにとってとっつきにくいものです。しかし、多くの開発者は、通常の使用や複雑な操作をより効果的に行うために、[GUI](http://en.wikipedia.org/wiki/GUI) アプリケーションに頼っています。
 
 <!--
 When not using an IDE, or if a stand-alone GUI application is required, for Windows the recommended SVN client is [TortoiseSVN](http://tortoisesvn.net/), which is free and open source.
