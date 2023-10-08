@@ -14,7 +14,7 @@ WordPress の開発に貢献するには、バグのパッチを作成するこ�
 First, if you have found a bug in WordPress, please make sure you [report it](https://make.wordpress.org/core/handbook/testing/reporting-bugs/). Please [search Trac](https://core.trac.wordpress.org/search) first to see if the bug has already been reported before creating a new ticket.
 -->
 
-まず、WordPress のバグを発見した場合は、必ず [報告](https://ja.wordpress.org/team/handbook/core/testing/reporting-bugs/)してください。新しいチケットを作成する前に、まずは [Trac を検索](https://core.trac.wordpress.org/search) して、そのバグがすでに報告されていないかどうかを確認してください。
+まず、WordPress のバグを発見した場合は、必ず[報告](https://ja.wordpress.org/team/handbook/core/testing/reporting-bugs/)してください。新しいチケットを作成する前に、まずは [Trac を検索](https://core.trac.wordpress.org/search)して、そのバグがすでに報告されていないかどうかを確認してください。
 
 <!--
 Once you’ve either found an existing Trac ticket or created a new ticket for the bug, you can get to work.
@@ -26,7 +26,7 @@ Once you’ve either found an existing Trac ticket or created a new ticket for t
 If you want to help, but don’t know which bugs to fix, review the [Finding Bugs to Fix](#finding-bugs-to-fix) section below.
 -->
 
-貢献したいけれど、どのバグを直せばいいのかわからないという方は、以下の[修正すべきバグの発見](#finding-bugs-to-fix) セクションをご覧ください。
+貢献したいけれど、どのバグを直せばいいのかわからないという方は、以下の[修正すべきバグの発見](#%e4%bf%ae%e6%ad%a3%e3%81%99%e3%81%b9%e3%81%8d%e3%83%90%e3%82%b0%e3%81%ae%e7%99%ba%e8%a6%8b)セクションをご覧ください。
 
 <!--
 ## Overview
@@ -56,7 +56,7 @@ WordPress がどのように書かれていてどのように構成されてい�
 Once you’ve figured out how to fix the bug by modifying WordPress core files, you should create a *patch*. Review the [Creating a Patch](https://make.wordpress.org/core/handbook/submitting-a-patch/ "Creating a Patch") documentation.
 -->
 
-WordPress のコアファイルを変更することでバグを修正する方法がわかったら、「パッチ」を作成します。[パッチの作成](https://ja.wordpress.org/team/handbook/core/submitting-a-patch/ "パッチの作成") のドキュメントを確認してください。
+WordPress のコアファイルを変更することでバグを修正する方法がわかったら、「パッチ」を作成します。[パッチの作成](https://ja.wordpress.org/team/handbook/core/submitting-a-patch/)のドキュメントを確認してください。
 
 <!--
 Once you’ve created a patch, upload it to the Trac ticket using the *Attach file* button, and add *has-patch* to the workflow keywords. Please don’t overwrite any existing, previous patches.
@@ -91,7 +91,7 @@ WordPress コアのバグを直したいけれど、何を直せばいいかわ�
 *   [最新リリースのチケットレポート](https://core.trac.wordpress.org/report/6)、特に **Needs Patch** グループに目を通してみてください。
 *   [初期のチケットレポート](https://core.trac.wordpress.org/report/14)に目を通してみてください。これらのチケットは、WordPress のリリースサイクルの初期に注意が必要であるとして、貢献する開発者によってマークされたものです。一般的に、これは信頼できるコア貢献者がそのチケットに関心を示し、ある程度まで精査されていることを意味します。
 *   [レビュー報告待ち](https://core.trac.wordpress.org/report/40)に目を通してみてください。これらのチケットはまだ WordPress の次のリリースには予定されていませんが、開発者が興味を持てば変わるかもしれません。
-*   専門的分野に関するチケットの個別レポートもいくつかあります。ユニットテスト ([自動テスト](https://ja.wordpress.org/team/handbook/core/automated-testing/)を参照) を書くことや、[ユーザーインターフェースやユーザー体験](https://core.trac.wordpress.org/report/35)、[モバイル開発チームが注目するチケット](https://core.trac.wordpress.org/report/42)、[Codexに多くのドキュメントを必要とするチケット](https://core.trac.wordpress.org/report/36)の作業やフィードバックに興味を持つかもしれません。
-*   もし、特定のコンポーネントに関するチケットに興味があるなら、Trac の [クエリ](https://core.trac.wordpress.org/query)機能を使用できます。たとえば、[すべてのオープンなXML-RPCのチケット](https://core.trac.wordpress.org/query?status=!closed&component=XML-RPC)、マイルストーンでグループ化されたすべての [オープンなマルチサイト](https://core.trac.wordpress.org/query?status=!closed&component=Multisite&group=milestone) チケット、すべての [オープンなアクセシビリティチケット](https://core.trac.wordpress.org/query?status=!closed&component=Accessibility) などです。
+*   専門的分野に関するチケットの個別レポートもいくつかあります。ユニットテスト ([自動テスト](https://ja.wordpress.org/team/handbook/core/automated-testing/)を参照) を書くことや、[ユーザーインターフェースやユーザー体験](https://core.trac.wordpress.org/report/35)、[モバイル開発チームが注目するチケット](https://core.trac.wordpress.org/report/42)、[Codex に多くのドキュメントを必要とするチケット](https://core.trac.wordpress.org/report/36)の作業やフィードバックに興味を持つかもしれません。
+*   もし、特定のコンポーネントに関するチケットに興味があるなら、Trac の [クエリー](https://core.trac.wordpress.org/query)機能を使用できます。たとえば、[すべてのオープンな XML-RPC のチケット](https://core.trac.wordpress.org/query?status=!closed&component=XML-RPC)、マイルストーンでグループ化されたすべての [オープンなマルチサイト](https://core.trac.wordpress.org/query?status=!closed&component=Multisite&group=milestone)チケット、すべての[オープンなアクセシビリティチケット](https://core.trac.wordpress.org/query?status=!closed&component=Accessibility)などです。
 *   WordPress 開発チームでは、毎日バグトリアージに関して議論し、毎週プロジェクトミーティングを行っています。日時については、[Make WordPress Core](https://make.wordpress.org/core/) のサイドバーをご覧ください。
-*   [wp-trac](http://lists.automattic.com/mailman/listinfo/wp-trac) メーリングリストに参加すると、すべての Trac チケットでの議論をフォローできます。[Make WordPress Core](https://make.wordpress.org/core/) や [他の Make WordPress ブログ](http://make.wordpress.org) もフォローしてみてください。
+*   [wp-trac](http://lists.automattic.com/mailman/listinfo/wp-trac) メーリングリストに参加すると、すべての Trac チケットでの議論をフォローできます。[Make WordPress Core](https://make.wordpress.org/core/) や[他の Make WordPress ブログ](http://make.wordpress.org)もフォローしてみてください。
