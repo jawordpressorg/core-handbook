@@ -233,7 +233,7 @@ WordPress をインストールするために、**MySQL データベースを�
 
 <!-- In your web browser, navigate to [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) to run the installation process. -->
 
-Web ブラウザーで[http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) に移動し、インストール作業を実行します。
+Web ブラウザーで [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) に移動し、インストール作業を実行します。
 
 <!--
 **For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install nodejs from here: [https://nodejs.org/download/release/latest-v14.x/](https://nodejs.org/download/release/latest-v14.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
