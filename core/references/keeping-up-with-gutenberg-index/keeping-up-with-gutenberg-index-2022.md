@@ -20,7 +20,7 @@ Discussions are in the **[#core-editor](https://make.wordpress.org/core/tag/core
 See *[Explanations](#explanations)* on the bottom.
 -->
 
-下部の「[説明](#explanations)」をご覧ください。
+下部の「[説明](#%e8%aa%ac%e6%98%8e)」をご覧ください。
 
 * * *
 
@@ -47,6 +47,7 @@ Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/c
 
 * * *
 
+<!--
 [January](#jan)
 
 [February](#feb)
@@ -68,6 +69,7 @@ April
 [October](#oct)
 
 [November](#nov)
+-->
 
 **December 2022**
 
