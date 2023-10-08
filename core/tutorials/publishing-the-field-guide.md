@@ -50,7 +50,7 @@ The following is a general process that the Release Coordinator and/or Documenta
 -->
 
 *   その回答は、フィールドガイドの `But Wait, There is More!` セクションに、箇条書きの項目として追加されます:
-    *   コンポーネント名: Trac チケットの要約 ([#Trac-Number](https://make.wordpress.org/core/tag/trac-number/))。
+    *   コンポーネント名: Trac チケットの要約 ([#Trac 番号](https://make.wordpress.org/core/tag/trac-number/))。
 
 <!--
 Find at least one reviewer from the release squad, but ideally one technical review and one marketing/copy review, to ensure the Field Guide is as well-written as possible within your timeframe. From there it’s published with the version number “X-Y” and “field-guide” tags.
