@@ -108,7 +108,7 @@ Set up the development version of WordPress in your development environment. Aga
 -->
 
 *   SVN および VVV を使用している場合は、最初の起動プロセスの後にすべてがすでにセットアップされています。VVV を実行している状態で、[http://src.wordpress-develop.test](http://src.wordpress-develop.test) にある WordPress の開発バージョンにアクセスできます。VVV とは別の環境で SVN を使用している場合は、[SVN から WordPress をインストールする方法の手順に従ってください](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)。
-*   Git と VVV を使用している場合は、[デフォルトの SVN の代わりに Git を使用するために同梱の WordPress 開発リポジトリを変更する方法に関するオプションの手順に従ってください](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/#5-create-github-repo-optional)。VVV 以外の環境で Git を使用している場合は、[WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) リポジトリの GitHub フォークを作成します。その後は上記の手順で進めますが、最初の3つのポイントをスキップして、develop.git.wordpress.org をアップストリームリポジトリとして使用する代わりに、GitHub バージョンを使用します。
+*   Git と VVV を使用している場合は、[デフォルトの SVN の代わりに Git を使用するために同梱の WordPress 開発リポジトリを変更する方法に関するオプションの手順に従ってください](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/#6-create-a-github-repo-optional)。VVV 以外の環境で Git を使用している場合は、[WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) リポジトリの GitHub フォークを作成します。その後は上記の手順で進めますが、最初の3つのポイントをスキップして、develop.git.wordpress.org をアップストリームリポジトリとして使用する代わりに、GitHub バージョンを使用します。
 
 <!--
 And with that, you’re ready to get started with contributing!

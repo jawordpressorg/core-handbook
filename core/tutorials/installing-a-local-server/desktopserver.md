@@ -332,7 +332,7 @@ You will be able to access your WordPress install at the URL listed on the next 
 define('WP_DEBUG', true);
 ```
 
-*   [WordPress Beta Tester プラグイン](https://wordpress.org/extend/plugins/wordpress-beta-tester/)をインストールして有効化し、最新のベータ版から WordPress trunk の最新ブリーディングエッジバージョンにインストールをアップグレードすることが必要です。インストールしたら、[プラグインの設定](https://ja.wordpress.org/team/handbook/core/installing-wordpress-locally/from-zip/#4-install-the-beta-tester-plugin)の**指示に従って**、ブリーディングエッジのナイトリーに更新してください。
+*   [WordPress Beta Tester プラグイン](https://wordpress.org/extend/plugins/wordpress-beta-tester/)をインストールして有効化し、最新のベータ版から WordPress trunk の最新ブリーディングエッジバージョンにインストールをアップグレードすることが必要です。インストールしたら、[プラグインの設定](https://ja.wordpress.org/team/handbook/core/testing/beta-testing/)の**指示に従って**、ブリーディングエッジのナイトリーに更新してください。
 
 <!--
 ### 6\. Shutting Down DesktopServer
