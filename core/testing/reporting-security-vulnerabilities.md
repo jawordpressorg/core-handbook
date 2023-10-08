@@ -156,7 +156,7 @@ Users with Administrator or Editor [roles](https://codex.wordpress.org/Roles_and
 If you are running security tests against WordPress, use a lesser privileged user so that all content is filtered. If you are concerned about an Administrator or Editor putting XSS into content and stealing cookies, note that all cookies are marked for HTTP only delivery, and are divided into privileged cookies used for admin pages, and unprivileged cookies used for public facing pages. Content is never displayed unfiltered within the admin dashboard.
 -->
 
-WordPress に対してセキュリティテストを実行する場合は、すべてのコンテンツがフィルタリングされるように、より低い権限のユーザーを使用してください。管理者や編集者がコンテンツに XSS を入れたり、Cookie を盗んだりすることを心配する場合、すべての Cookie は HTTP のみの配信にマークされ、管理者ページで使用される特権 Cookie と、一般向けページで使用される非特権 Coolie に分けられていることに注意してください。管理ダッシュボード内で、コンテンツがフィルタリングされずに表示されることはありません。
+WordPress に対してセキュリティテストを実行する場合は、すべてのコンテンツがフィルタリングされるように、より低い権限のユーザーを使用してください。管理者や編集者がコンテンツに XSS を入れたり、Cookie を盗んだりすることを心配する場合、すべての Cookie は HTTP のみの配信にマークされ、管理者ページで使用される特権 Cookie と、一般向けページで使用される非特権 Cookie に分けられていることに注意してください。管理ダッシュボード内で、コンテンツがフィルタリングされずに表示されることはありません。
 
 <!--
 In WordPress Multisite, only Super Admins can publish unfiltered HTML, as all other users (including site Administrators) are considered untrusted.

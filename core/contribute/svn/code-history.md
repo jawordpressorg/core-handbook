@@ -58,7 +58,7 @@ When you click on the changeset, a new dialog appears with the following informa
 To find out when a piece of code was released, look at the associated revision number and find the next highest revision number on the [WordPress tags browser](https://core.trac.wordpress.org/browser?order=name#tags). For example, if you want to know when revision 14377 shipped, you can see that 3.0 was tagged as 15274 and 2.9.2 was tagged as 13165. Revision 14377 was too late to ship with 2.9.2, so it must have shipped with 3.0. You can also verify this by looking at the associated ticket. Revision 14377 is associated with [#12637](https://core.trac.wordpress.org/ticket/12637), which has a milestone of 3.0.
 -->
 
-コードの一部がいつリリースされたかを知るためには、関連するリビジョン番号を参照して、[WordPress タグブラウザ](https://core.trac.wordpress.org/browser?order=name#tags)で次に高いリビジョン番号を探します。たとえば、リビジョン14377がいつリリースされたかを知りたい場合、3.0のタグは15274で、2.9.2のタグは13165であることを確認できます。リビジョン14377は2.9.2と一緒にリリースされるには遅すぎたので、3.0でリリースされたのでしょう。このことは、関連するチケットを見ることでも確認できます。リビジョン14377は、マイルストーン3.0の [#12637](https://core.trac.wordpress.org/ticket/12637) と関連しています。
+コードの一部がいつリリースされたかを知るためには、関連するリビジョン番号を参照して、[WordPress タグブラウザ](https://core.trac.wordpress.org/browser?order=name#tags)で次に高いリビジョン番号を探します。たとえば、リビジョン14377がいつリリースされたかを知りたい場合、3.0のタグは15274で、2.9.2のタグは13165であることを確認できます。リビジョン14377は2.9.2と一緒にリリースされるには遅すぎたので、3.0でリリースされたのでしょう。このことは、関連するチケットを見ることでも確認できます。リビジョン14377は、マイルストーン3.0の [#12637](https://core.trac.wordpress.org/ticket/12637)と関連しています。
 
 <!--
 ## Using The Command Line

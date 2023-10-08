@@ -8,7 +8,7 @@
 Alert: This page is being actively worked on, expanded, and improved.
 -->
 
-注: このページはまだ下書きで、執筆中です。
+\[alert\]このページはまだ下書きで、執筆中です。\[/alert\]
 
 <!--
 Thank you for your interest in contributing to WordPress! This Quick Start Guide to contributing code to WordPress Core is a central hub where you can find all resources needed to take you through the process of submitting your first patch.
@@ -20,10 +20,10 @@ WordPress への貢献に興味を持っていただきありがとうござい�
 Note: Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
 -->
 
-備考: WordPress の別のパートに貢献することに興味がありますか ? [make.wordpress.org](https://make.wordpress.org) で、WordPress に貢献できるさまざまな方法をご覧ください。
+\[info\]WordPress の別のパートに貢献することに興味がありますか ? [make.wordpress.org](https://make.wordpress.org) で、WordPress に貢献できるさまざまな方法をご覧ください。\[/info\]
 
 <!--
-Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
+This guide is geared toward new contributors, giving you quick access to resources and answering some of the more common questions new contributors have when diving in. As a collaboration between new and veteran contributors, this guide has been developed to better identify the pain points in getting started and will be continuously updated with improvements.
 -->
 
 このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しい貢献者とベテランの貢献者のコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
@@ -32,7 +32,7 @@ Tip: There are no wrong questions. The WordPress community is always more than h
 Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress. in SlackSlack Slack is a Collaborative Group Chat Platform [https://slack.com/](https://slack.com/). The WordPress community has its own Slack Channel at [https://make.wordpress.org/chat/](https://make.wordpress.org/chat/). and ask away.
 -->
 
-ヒント: 間違った質問はありません。WordPress コミュニティは、いつでも喜んでお手伝いします。途中で疑問に思ったことはありませんか ? Slack の #core に参加して、どんどん質問してください。
+\[tip\]間違った質問はありません。WordPress コミュニティは、いつでも喜んでお手伝いします。途中で疑問に思ったことはありませんか ? Slack の #core に参加して、どんどん質問してください。\[/tip\]
 
 <!--
 Before starting to contribute, it’s important to understand a bit of background on why people contribute and how we interact online.
@@ -86,7 +86,7 @@ One of the best places to find contributors is at WordCamps, where you shouldn�
 Alert:  This section needs to be expanded. Perhaps we should also include a link to [Nacin’s post](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/).
 -->
 
-注: このページは執筆中です。[Nacin の投稿](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/)へのリンクも載せるべきかもしれません。
+\[alert\]このページは執筆中です。[Nacin の投稿](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/)へのリンクも載せるべきかもしれません。\[/alert\]
 
 <!--
 Committers are a type of WordPress contributor who has earned the trust of the community and been given the keys to “commit” code to WordPress core. Committers use their judgement to commit their own code as well as code from other contributors.
@@ -116,7 +116,7 @@ Contributors that help maintain components are called, logically, component main
 Want to help? Get started by following a component you’re interested in. [Adjust your notifications here](https://make.wordpress.org/core/notifications/).
 -->
 
-手伝ってみませんか ? 興味のあるコンポーネントをフォローすることから始めましょう。[通知を設定する](https://make.wordpress.org/core/notifications/)
+手伝ってみませんか ? 興味のあるコンポーネントをフォローすることから始めましょう。[ここで通知を設定できます](https://make.wordpress.org/core/notifications/)。
 
 <!--
 ## The Repositories
@@ -188,7 +188,7 @@ When writing a patch, it is important to always update to the latest version of 
 In order to contribute to core, we strongly recommend that you install a local instance of WordPress. With WordPress running on your machine, you’ll be able to make changes and test patches without interfering with a live site. There are a variety of ways you can configure a local dev environment. We have tutorials on the following methods: [VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/), [DesktopServer,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/) [MAMP,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/) [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/).
 -->
 
-コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。WordPress があなたのマシンで動作していれば、稼働中のサイトに影響を与えることなく変更やパッチのテストを行うことができます。ローカルの開発環境を構築する方法はさまざまです。私たちは、[VVV](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/)、[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/xampp/) のチュートリアルを用意しています。
+コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。WordPress があなたのマシンで動作していれば、稼働中のサイトに影響を与えることなく変更やパッチのテストを行うことができます。ローカルの開発環境を構築する方法はさまざまです。私たちは、[VVV](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/)、[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/) のチュートリアルを用意しています。
 
 <!--
 If you’re not sure which to choose, we recommend the [VVV (sometimes referred to as Vagrant) method](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
@@ -212,7 +212,7 @@ If you’re not sure which to choose, we recommend the [VVV (sometimes referred 
 [Tickets](https://make.wordpress.org/core/glossary/#ticket) are used for both bug reports and feature development, and may be created by anyone with a WordPress.org account.
 -->
 
-[チケット](https://make.wordpress.org/core/glossary/#ticket) はバグレポートと機能開発の両方に使用され、WordPress.org のアカウントを持っている人なら誰でも作成できます。
+[チケット](https://make.wordpress.org/core/glossary/#ticket)はバグレポートと機能開発の両方に使用され、WordPress.org のアカウントを持っている人なら誰でも作成できます。
 
 <!--
 Trac tickets are organized into components (see “Component Maintainers” above), and use keywords to identify further details of the ticket. If your ticket is ever labeled with a keyword you’re unfamiliar with, reference the complete list of [Trac Workflow Keywords](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
@@ -230,7 +230,7 @@ Trac のチケットはコンポーネントに分類され (上記の「コン�
 To make it easier for new contributors, some tickets have been marked as [Good First Bugs](https://core.trac.wordpress.org/tickets/good-first-bugs), using the “good-first-bug” keyword. These tickets are not always the easiest to work on, but are self-contained and have support from the core team. Usually, the ticket has been investigated and a path forward has been decided. All that’s left is creating the final patch to commit. Tickets like these help get new contributors (like you!) comfortable with the process of contributing and working in both Trac and development environments.
 -->
 
-新しい貢献者の参加を容易にするために、いくつかのチケットは「good-first-bug」というキーワードを使い、[グッド・ファースト・バグ](https://core.trac.wordpress.org/tickets/good-first-bugs) としてマークされています。これらのチケットは、必ずしも作業が最も簡単というわけではありませんが、自己完結しており、コアチームからのサポートがあります。通常、このチケットは調査され、進むべき道が決定されています。あとは最終的なパッチを作成し、コミットするだけです。このようなチケットは、新しい貢献者 (あなたのような !) が Trac と開発環境の両方で貢献し、作業するプロセスに慣れることを助けるものです。
+新しい貢献者の参加を容易にするために、いくつかのチケットは「good-first-bug」というキーワードを使い、[はじめて取り組むことに適したバグ](https://core.trac.wordpress.org/tickets/good-first-bugs)としてマークされています。これらのチケットは、必ずしも作業が最も簡単というわけではありませんが、自己完結しており、コアチームからのサポートがあります。通常、このチケットは調査され、進むべき道が決定されています。あとは最終的なパッチを作成し、コミットするだけです。このようなチケットは、新しい貢献者 (あなたのような !) が Trac と開発環境の両方で貢献し、作業するプロセスに慣れることを助けるものです。
 
 <!--
 ### Submitting Tickets
@@ -280,7 +280,7 @@ It is standard practice to responsibly and privately disclose security issues to
 In short, be courteous and aware before you file a ticket that might include a security vulnerability. Refer to the [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/) page of this handbook for instructions on how to responsibly report issues to the WordPress Security Team.
 -->
 
-つまり、セキュリティ脆弱性を含む可能性のあるチケットを提出する前に、丁寧な対応を心がけて注意することです。WordPress セキュリティチームに責任を持って問題を報告する方法については、ハンドブックの [セキュリティ脆弱性の報告](https://ja.wordpress.org/team/handbook/core/testing/reporting-security-vulnerabilities/)ページを参照してください。
+つまり、セキュリティ脆弱性を含む可能性のあるチケットを提出する前に、丁寧な対応を心がけて注意することです。WordPress セキュリティチームに責任を持って問題を報告する方法については、ハンドブックの[セキュリティ脆弱性の報告](https://ja.wordpress.org/team/handbook/core/testing/reporting-security-vulnerabilities/)ページを参照してください。
 
 <!--
 ## Your First Patch
@@ -316,7 +316,7 @@ WordPress の開発は、私たちの公式な SVN および Git リポジトリ
 Alert: We need to add information on creating a Git patch here.
 -->
 
-注: ここに Git パッチを作成するための情報を追加する必要があります。
+\[alert\]ここに Git パッチを作成するための情報を追加する必要があります。\[/alert\]
 
 <!--
 ### Researching History
@@ -346,7 +346,7 @@ As an example, look at [/wp-admin/media.php](https://core.trac.wordpress.org/bro
 Alert: This section needs to be created.
 -->
 
-注: このセクションの作成はまだ作成されていません。
+\[alert\]このセクションを作成する必要があります。\[/alert\]
 
 <!--
 ### Patch Feedback
@@ -412,13 +412,13 @@ Once you think your patch is ready for commit, it’s time to find a committer t
 Another way to get feedback on your patch is to ask for feedback during the “open floor” at the end of the [weekly core developer chat](https://make.wordpress.org/core/tag/agenda/) (see below). If you go this route, be sure to wait until the end of the meeting and not during the chat.
 -->
 
-パッチに関するフィードバックを得るもうひとつの方法は、[weekly core developer chat](https://make.wordpress.org/core/tag/agenda/) (以下を参照してください) の最後に行われる「オープンフロア」でフィードバックを求めることです。この方法をとる場合、チャットの最中ではなく、ミーティングの終わりまで待つようにしてください。
+パッチに関するフィードバックを得るもうひとつの方法は、[毎週のコア開発者チャット](https://make.wordpress.org/core/tag/agenda/) (以下を参照してください) の最後に行われる「オープンフロア」でフィードバックを求めることです。この方法をとる場合、チャットの最中ではなく、ミーティングの終わりまで待つようにしてください。
 
 <!--
 Sometimes, tickets and patches don’t get the attention they need and linger in trac. In these cases, ping a component maintainer or committer and ask for feedback.
 -->
 
-時々、チケットやパッチが注意されず、trac に残ってしまうことがあります。このような場合は、コンポーネントのメンテナーやコミッターに ping を送り、フィードバックを求めてください。
+時々、チケットやパッチが注意されず、trac に残ってしまうことがあります。このような場合は、コンポーネントのメンテナーやコミッターに通知を送り、フィードバックを求めてください。
 
 <!--
 ## Meetings
@@ -430,4 +430,4 @@ Sometimes, tickets and patches don’t get the attention they need and linger in
 Alert:  This section needs to be created.
 -->
 
-注: このセクションの作成はまだ作成されていません。
+\[alert\]このセクションを作成する必要があります。\[/alert\]

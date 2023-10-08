@@ -184,7 +184,7 @@ WordPress の貢献者の中には、自分のサイトで `trunk` を運用し�
 To help organize documentation about the upcoming release, a Field Guide collated and published for every major version of WordPress at the same time as [Release Candidate 1](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/#release-candidate). Field Guides are a collection of all relevant dev notes and tickets for an upcoming release.
 -->
 
-次期リリースに関するドキュメントを整理するために、[リリース候補版1](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/#release-candidate) と同時に、WordPress のメジャーバージョンごとにフィールドガイドが作成・投稿されます。
+次期リリースに関するドキュメントを整理するために、[リリース候補版1](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/#release-candidate)と同時に、WordPress のメジャーバージョンごとにフィールドガイドが作成・投稿されます。
 
 <!--
 All field guides for previous releases can be found here: [make.wordpress.org/core/tag/field-guide](https://make.wordpress.org/core/tag/field-guide).
@@ -214,7 +214,7 @@ Here are some additional resources and tips to help write developer notes
 When writing or reviewing any post on the [Making WordPress Core blog,](https://make.wordpress.org/core/) it’s important to remember the [Post & Comment Guidelines](https://make.wordpress.org/core/handbook/best-practices/post-comment-guidelines/). The Style and Substance section is particularly important. The guidelines on that page help ensure clear communication with a consistent tone and voice throughout all official WordPress channels.
 -->
 
-[Making WordPress Core ブログ](https://make.wordpress.org/core/) で記事を書いたりレビューしたりするときには、[投稿とコメントのガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/post-comment-guidelines/)を覚えておくことが重要です。特に、スタイルと内容のセクションは重要です。このページのガイドラインは、WordPress のすべての公式チャンネルにおいて、一貫したトーンと表現によって明確なコミュニケーションを確保するために役立ちます。
+[Making WordPress Core ブログ](https://make.wordpress.org/core/)で記事を書いたりレビューしたりするときには、[投稿とコメントのガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/post-comment-guidelines/)を覚えておくことが重要です。特に、スタイルと内容のセクションは重要です。このページのガイドラインは、WordPress のすべての公式チャンネルにおいて、一貫したトーンと表現によって明確なコミュニケーションを確保するために役立ちます。
 
 <!--
 ### Tagging and categorizing

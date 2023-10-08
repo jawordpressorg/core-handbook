@@ -47,7 +47,7 @@ The general format for a commit message is as follows:
 Generally, each line in a commit message should begin with a capital letter and end with a full stop/period. Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack. Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
 -->
 
-一般的に、コミットメッセージの各行は大文字で始まり、ピリオドで終わります。関数名やフックのようなコードは、Trac や Slack で適切な書式になるように、バッククオートの内側に記述する必要があります。チケット番号の前に数字記号[#20202](https://core.trac.wordpress.org/ticket/20202)がつき、角括弧内のリビジョン番号[\[30000\]](https://core.trac.wordpress.org/changeset/30000) は、Trac、Slack、そしてここ make/core で自動リンクされます。
+一般的に、コミットメッセージの各行は大文字で始まり、ピリオドで終わります。関数名やフックのようなコードは、Trac や Slack で適切な書式になるように、バッククオートの内側に記述する必要があります。チケット番号の前に数字記号 [#20202](https://core.trac.wordpress.org/ticket/20202)がつき、角括弧内のリビジョン番号 [\[30000\]](https://core.trac.wordpress.org/changeset/30000) は、Trac、Slack、そしてここ make/core で自動リンクされます。
 
 <!--
 ### Brief summary
@@ -76,7 +76,7 @@ The first line of a commit message is a brief summary of the changeset. The brie
 
 *   1行であり、改行を入れてはいけません。
 *   およそ50文字以内、長くても70文字までにします。ログ閲覧ツールはほぼすべて、コミットメッセージの最初の行がこの制限内に収まることを期待しているので、これは重要です。この厳しい制限は、コミットの本質について批判的に考えさせることになるかもしれません。短い文章で変更を説明できない場合、コミットが必要以上に大きなものであるかもしれません。
-*   接頭辞としてコンポーネント名付きの要約、または変更の要点を付けられます。このような接頭辞をつけることで、貢献者が興味のあるコミットを変更履歴から探しやすくなるかもしれません。例として、[\[33901\]](https://core.trac.wordpress.org/changeset/33901)、[\[33883\]](https://core.trac.wordpress.org/changeset/33883)、[\[33848\]](https://core.trac.wordpress.org/changeset/33848)を参照してください。接頭辞も50/70文字にカウントされることに注意してください。
+*   接頭辞としてコンポーネント名付きの要約、または変更の要点を付けられます。このような接頭辞をつけることで、貢献者が興味のあるコミットを変更履歴から探しやすくなるかもしれません。例として、[\[33901\]](https://core.trac.wordpress.org/changeset/33901)、[\[33883\]](https://core.trac.wordpress.org/changeset/33883)、[\[33848\]](https://core.trac.wordpress.org/changeset/33848) を参照してください。接頭辞も50/70文字にカウントされることに注意してください。
 *   可能であれば、「Relaxes term ID comparisons…」の代わりに「Relax term ID comparisons…」という命令形を使用します。
 
 <!--

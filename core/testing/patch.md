@@ -8,7 +8,7 @@
 Alert: This page is under construction and may contain inaccurate information. Want to help fix it? Ping the [#docs](https://make.wordpress.org/core/tag/docs/) channel in WordPress Slack.
 -->
 
-注: このページは作成中のため、不正確な情報が含まれている可能性があります。修正を手伝ってみませんか ? WordPress Slack の [#docs](https://make.wordpress.org/core/tag/docs/) チャンネルでお知らせください。
+\[alert\]このページは作成中のため、不正確な情報が含まれている可能性があります。修正を手伝ってみませんか ? WordPress Slack の [#docs](https://make.wordpress.org/core/tag/docs/) チャンネルでお知らせください。\[/alert\]
 
 <!--
 Testing patches is an important part of ensuring the quality of WordPress releases.

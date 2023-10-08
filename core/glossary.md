@@ -42,7 +42,7 @@ Accessibility の短縮形。アクセシビリティ。視覚障害や弱視、
 Pre-release version of software intended to signal desire for compatibility, functional, and unit tests and feedback. Also see [release candidate](#release-candidate). [#](https://make.wordpress.org/core/handbook/glossary/#alpha-beta)
 -->
 
-互換性テスト、機能テスト、ユニットテスト、フィードバックを求めることを目的とした、ソフトウェアのプレリリースバージョン。[release candidate](#release-candidate) も参照してください。
+互換性テスト、機能テスト、ユニットテスト、フィードバックを求めることを目的とした、ソフトウェアのプレリリースバージョン。[release candidate](#release-candidate-%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e5%80%99%e8%a3%9c) も参照してください。
 
 <!--
 **back compat**
@@ -291,7 +291,7 @@ A feature request should generally begin the process in the ideas forum, on a ma
 The field guide is a type of blogpost published on Make/Core during the release candidate phase of the [WordPress release cycle](https://make.wordpress.org/core/handbook/about/release-cycle/). The field guide generally lists all the dev notes published during the beta cycle. This guide is linked in the about page of the corresponding version of WordPress, in the release post and in the HelpHub version page. [#](https://make.wordpress.org/core/handbook/glossary/#field-guide)
 -->
 
-フィールドガイドは、[WordPress リリースサイクル](https://ja.wordpress.org/team/handbook/core/about/release-cycle/) のリリース候補フェーズに Make/Core で公開されるブログ記事の一種です。フィールドガイドには通常、ベータサイクル中に公開されたすべての開発者ノートが含まれています。このガイドは、WordPress の対応するバージョンのアバウトページ、リリース投稿、HelpHub のバージョンページにリンクされています。
+フィールドガイドは、[WordPress リリースサイクル](https://ja.wordpress.org/team/handbook/core/about/release-cycle/)のリリース候補フェーズに Make/Core で公開されるブログ記事の一種です。フィールドガイドには通常、ベータサイクル中に公開されたすべての開発者ノートが含まれています。このガイドは、WordPress の対応するバージョンのアバウトページ、リリース投稿、HelpHub のバージョンページにリンクされています。
 
 <!--
 **GPL**
@@ -303,7 +303,7 @@ The field guide is a type of blogpost published on Make/Core during the release 
 GNU General Public License. Also see [copyright license](#copyright-license). [#](https://make.wordpress.org/core/handbook/glossary/#gpl)
 -->
 
-GNU General Public License の略語。GNU 一般公的使用許諾。[copyright license](#copyright-license) も参照してください。
+GNU General Public License の略語。GNU 一般公的使用許諾。[copyright license](#copyright-license-%e8%91%97%e4%bd%9c%e6%a8%a9%e3%83%a9%e3%82%a4%e3%82%bb%e3%83%b3%e3%82%b9) も参照してください。
 
 <!--
 **hacked**
@@ -407,7 +407,7 @@ JavaScript の略語。通常はブラウザで実行される Web スクリプ�
 Localization, or the act of translating code into one’s own language. Also see [internationalization](#i18n). Often written with an uppercase L so it is not confused with the capital letter i or the numeral 1. WordPress has a capable and dynamic group of polyglots who take WordPress to more than 70 different locales. [#](https://make.wordpress.org/core/handbook/glossary/#l10n)
 -->
 
-Localization の省略形。ローカライゼーション。コードを自分の言語に翻訳する行為。[internationalization](#i18n)も参照してください。大文字の i や数字の1と混同しないように、しばしば大文字の L で表記されます。WordPress には、WordPress を70以上の異なるロケールに対応させている、有能でダイナミックな多言語対応グループがいます。
+Localization の省略形。ローカライゼーション。コードを自分の言語に翻訳する行為。[internationalization](#i18n) も参照してください。大文字の i や数字の1と混同しないように、しばしば大文字の L で表記されます。WordPress には、WordPress を70以上の異なるロケールに対応させている、有能でダイナミックな多言語対応グループがいます。
 
 <!--
 **Locale**
@@ -575,7 +575,7 @@ Contributors sometimes use the verb “punt” when talking about a ticket. This
 A shortened name for [release candidate](https://make.wordpress.org/core/handbook/glossary/#release-candidate). [#](https://make.wordpress.org/core/handbook/glossary/#rc)
 -->
 
-[release candidate](https://ja.wordpress.org/team/handbook/core/glossary/#release-candidate) の短縮形。
+[release candidate](#release-candidate-%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e5%80%99%e8%a3%9c) の短縮形。
 
 <!--
 **regression**
@@ -587,7 +587,7 @@ A shortened name for [release candidate](https://make.wordpress.org/core/handboo
 A software bug that breaks or degrades something that previously worked. Regressions are often treated as critical bugs or [blockers](#blocker). Recent regressions may be given higher priorities. A “3.6 regression” would be a bug in 3.6 that worked as intended in 3.5. [#](https://make.wordpress.org/core/handbook/glossary/#regression)
 -->
 
-以前は動作していたものを壊したり、機能を低下させたりするソフトウェアのバグ。リグレッションはしばしば重大なバグや[ブロッカー](#blocker)として扱われます。新しいリグレッションは、より高い優先順位が与えられることがあります。「3.6のリグレッション」は、3.5で意図したとおりに動作していた3.6のバグのことです。
+以前は動作していたものを壊したり、機能を低下させたりするソフトウェアのバグ。リグレッションはしばしば重大なバグや[ブロッカー](#blocker-%e3%83%96%e3%83%ad%e3%83%83%e3%82%ab%e3%83%bc)として扱われます。新しいリグレッションは、より高い優先順位が与えられることがあります。「3.6のリグレッション」は、3.5で意図したとおりに動作していた3.6のバグのことです。
 
 <!--
 **release candidate**
@@ -599,7 +599,7 @@ A software bug that breaks or degrades something that previously worked. Regress
 One of the final stages in the version release cycle, this version signals the potential to be a final release to the public. Also see [alpha (beta)](#alpha-beta). [#](https://make.wordpress.org/core/handbook/glossary/#release-candidate)
 -->
 
-バージョンリリースサイクルの最終フェーズの1つで、このバージョンは一般公開される最終リリースとなる可能性を示しています。[alpha (beta)](#alpha-beta) も参照してください。
+バージョンリリースサイクルの最終フェーズの1つで、このバージョンは一般公開される最終リリースとなる可能性を示しています。[alpha (beta)](#alpha-beta-%e3%82%a2%e3%83%ab%e3%83%95%e3%82%a1-%e3%83%99%e3%83%bc%e3%82%bf) も参照してください。
 
 <!--
 **scope creep**
@@ -767,7 +767,7 @@ User interface [#](https://make.wordpress.org/core/handbook/glossary/#ui)
 Code written to test a small piece of code or functionality within a larger application. Everything from themes to WordPress core have a series of unit tests. Also see [regression](#regression). [#](https://make.wordpress.org/core/handbook/glossary/#unit-test)
 -->
 
-大規模のアプリケーションの中の小さなコードや機能をテストするために書かれたコード。テーマから WordPress のコアに至るまで、あらゆるものが一連のユニットテストを持っています。[regression](#regression) も参照してください。
+大規模のアプリケーションの中の小さなコードや機能をテストするために書かれたコード。テーマから WordPress のコアに至るまで、あらゆるものが一連のユニットテストを持っています。[regression](#regression-%e3%83%aa%e3%82%b0%e3%83%ac%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3) も参照してください。
 
 <!--
 **Unprops**

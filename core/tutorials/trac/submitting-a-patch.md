@@ -76,7 +76,7 @@ Mac 用の GUI オプションもあります。パッチファイルを作成�
 Also: [creating SVN patches using Git](http://scribu.net/wordpress/svn-patches-from-git.html), from Cristi Burca.
 -->
 
-もしくは、Cristi Burca の [Git を使用して SVN パッチを作成する](http://scribu.net/wordpress/svn-patches-from-git.html)。
+もしくは、Cristi Burca の [Git を使用して SVN パッチを作成する](http://scribu.net/wordpress/svn-patches-from-git.html)もあります。
 
 <!--
 ## Adding your GitHub fork to your WP trunk copy
@@ -114,7 +114,7 @@ Now you are able to switch to a master from your fork with this command as examp
 Now you can use as usual git and create all the code changes that you need, commit and so on. If you open now the [GitHub mirror](https://github.com/wordpress/wordpress-develop) (and you associated your WP profile to GitHub) you get a on the GH page a button to create a new pull request because it detected this change.
 -->
 
-これで、いつものように git を使って、必要なコードの変更をすべて作成し、コミットできます。[GitHub ミラー](https://github.com/wordpress/wordpress-develop) を開くと (WP プロフィールを GitHub に関連付けると)、GH ページに新しいプルリクエストを作成するボタンが表示され、この変更が検出されます。
+これで、いつものように git を使って、必要なコードの変更をすべて作成し、コミットできます。[GitHub ミラー](https://github.com/wordpress/wordpress-develop)を開くと (WP プロフィールを GitHub に関連付けると)、GH ページに新しいプルリクエストを作成するボタンが表示され、この変更が検出されます。
 
 <!--
 The next step is to add a name to the pull request that need to include the ticket number as explained [here](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/). For other information about GitHub integration check this documentation page.

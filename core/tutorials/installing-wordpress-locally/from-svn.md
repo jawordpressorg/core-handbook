@@ -34,7 +34,7 @@ This article will walk you through installing the latest WordPress development v
     *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
 -->
 
-*   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/xampp/)\]
+*   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/)\]
     *   **備考**: ローカルサーバーとして DesktopServer を使用している場合、新しいローカル開発サイトを作成する際に、Blueprint ドロップダウンから **Blank (WordPress SVN)** オプションを選択する必要があります。これにより、データベースと `wp-config.php` ファイルが作成されます。サイトを作成したら、WordPress trunk のコピーをチェックアウトする前に、開発サイトのフォルダー (**wordpress-svn.dev**) にある `index.html` と `wp-config-sample.php` ファイルを削除してください。
 *   コンピューターに Subversion がインストールされていること:
     *   Windows に SVN をインストールする
@@ -233,7 +233,7 @@ WordPress をインストールするために、**MySQL データベースを�
 
 <!-- In your web browser, navigate to [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) to run the installation process. -->
 
-Web ブラウザーで[http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/)に移動し、インストール作業を実行します。
+Web ブラウザーで [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) に移動し、インストール作業を実行します。
 
 <!--
 **For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install nodejs from here: [https://nodejs.org/download/release/latest-v14.x/](https://nodejs.org/download/release/latest-v14.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
@@ -315,7 +315,7 @@ You will need to run the latest version of WordPress trunk on your local SVN ins
 WordPress 3.7 [introduces automatic updates](https://make.wordpress.org/core/2013/09/24/automatic-core-updates/) for minor stable WordPress releases (3.7.x). This feature, by default, does not work for Subversion installs.
 -->
 
-WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して [自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) しています。この機能は、デフォルトでは、Subversion インストールでは機能しません。
+WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して[自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates)しています。この機能は、デフォルトでは、Subversion インストールでは機能しません。
 
 <!--
 You will need to manually update your local SVN install. The instructions below are for updating to the latest version of WordPress trunk using either TortoiseSVN or the command line.

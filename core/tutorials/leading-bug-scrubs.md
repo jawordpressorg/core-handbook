@@ -64,7 +64,7 @@ There are many [pre-generated reports](https://make.wordpress.org/core/reports/)
 *   [all tickets requesting dev feedback](https://core.trac.wordpress.org/tickets/dev-feedback)
 -->
 
-*   [Bootstrap/Load](https://core.trac.wordpress.org/component/Bootstrap/Load)などの特定のコンポーネントに関するレポート
+*   [Bootstrap/Load](https://core.trac.wordpress.org/component/Bootstrap/Load) などの特定のコンポーネントに関するレポート
 *   [JavaScript](https://core.trac.wordpress.org/focus/javascript) などのフォーカス指向のもの
 *   [開発者のフィードバックをリクエストするすべてのチケット](https://core.trac.wordpress.org/tickets/dev-feedback)
 
@@ -194,7 +194,7 @@ You don’t need to be:
 People that are successful at running Bug Scrubs are people that can communicate well and are familiar with [the trac workflow](https://make.wordpress.org/core/handbook/contribute/trac/) and [how WordPress uses keywords on trac](https://make.wordpress.org/core/handbook/contribute/trac/keywords/).
 -->
 
-バグスクラブの運営で成功する人は、コミュニケーションがうまく、[trac のワークフロー](https://ja.wordpress.org/team/handbook/core/contribute/trac/)や [WordPress が trac 上でどのようにキーワードを使うか](https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/) について精通している人です。
+バグスクラブの運営で成功する人は、コミュニケーションがうまく、[trac のワークフロー](https://ja.wordpress.org/team/handbook/core/contribute/trac/)や [WordPress が trac 上でどのようにキーワードを使うか](https://ja.wordpress.org/team/handbook/core/contribute/trac/keywords/)について精通している人です。
 
 <!--
 Running a Bug Scrub involves [Bug Gardening](https://make.wordpress.org/core/handbook/testing/bug-gardening/), so a tester mindset and understanding users helps as well.

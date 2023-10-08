@@ -458,7 +458,7 @@ curl -O https://core.trac.wordpress.org/raw-attachment/ticket/00000/00000.diff
 Note: If you download the patch this way, make sure that it is coming from the **raw-attachment** directory on the Trac server. You can get this URL by clicking on the patch in Trac, then grabbing the URL linked to by **Original Format** at the bottom of the page.
 -->
 
-注意: この方法でパッチをダウンロードする場合、Trac サーバーの **raw-attachment** ディレクトリからダウンロードされていることを確認してください。この URL は、Trac でパッチをクリックし、ページ下部の **Original Format** でリンクされている URL を取得することで取得できます。
+\[info\]この方法でパッチをダウンロードする場合、Trac サーバーの **raw-attachment** ディレクトリからダウンロードされていることを確認してください。この URL は、Trac でパッチをクリックし、ページ下部の **Original Format** でリンクされている URL を取得することで取得できます。\[/info\]
 
 <!--
 You will need to apply the patch from the **wordpress-svn** directory, where you have downloaded the patch file. Use the following command to apply the patch:
@@ -480,7 +480,7 @@ Now, the **wordpress-svn** code has been patched with the file you downloaded, g
 Note: If the patch fails to apply cleanly, you will need to leave a note on the Trac ticket that the patch needs to be refreshed, and add the **needs-refresh** keyword to the ticket.
 -->
 
-注意: もしパッチがきれいに適用できない場合は、Trac チケットにパッチの更新が必要であるというメモを残し、**needs-refresh** キーワードをチケットに追加する必要があります。
+\[info\]もしパッチがきれいに適用できない場合は、Trac チケットにパッチの更新が必要であるというメモを残し、**needs-refresh** キーワードをチケットに追加する必要があります。\[/info\]
 
 <!--
 To make this process a little easier for you, there is another [Grunt](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-and-applying-patches-with-grunt) command available that takes care of both downloading a patch from an existing ticket and applying it. As mentioned before, in order to use it, you need to have both [Node.js](https://nodejs.org/) and Grunt-CLI globally installed, and you also need to have the local dependencies set up, which you can do by using the command `npm install`.

@@ -50,7 +50,7 @@ Download the installer package for the [latest free version of MAMP](http://www.
 The installer package is around 140mb, so it will take a few minutes for the download to complete.
 -->
 
-インストーラパッケージは約140mb あるため、ダウンロードが完了するまで数分かかると思います。
+インストーラパッケージは約140MB あるため、ダウンロードが完了するまで数分かかると思います。
 
 <!--
 ### 2\. Installing MAMP

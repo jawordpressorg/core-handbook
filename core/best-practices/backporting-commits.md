@@ -68,13 +68,13 @@ The branch commit message will generally be copied from the `trunk` commit(s), 
 Make sure to run the above commands from the branch root, and not from a sub directory. The reason for this is that the `svn:mergeinfo` is a SVN property on `/branches/5.9` which the SVN client sets, it’s not a server side thing.
 -->
 
-上記のコマンドは、サブディレクトリからではなく、必ずブランチのルートから実行してください。なぜなら、`svn:mergeinfo` は `/branches/5.9` の SVN プロパティで、SVN クライアントが設定するものであり、サーバーサイドのものではないからです。
+\[info\]上記のコマンドは、サブディレクトリからではなく、必ずブランチのルートから実行してください。なぜなら、`svn:mergeinfo` は `/branches/5.9` の SVN プロパティで、SVN クライアントが設定するものであり、サーバーサイドのものではないからです。
 
 <!--
 At the bottom of https://core.trac.wordpress.org/browser/branches/5.9 you see two links, ‘merged’ and ‘eligible’. The second one shouldn’t list commits which are already merged.
 -->
 
-https://core.trac.wordpress.org/browser/branches/5.9 の一番下に、「'merged」と「eligible」という2つのリンクがあります。2番目のリンクは、すでにマージされたコミットでは表示されないはずです。
+https://core.trac.wordpress.org/browser/branches/5.9 の一番下に、「'merged」と「eligible」という2つのリンクがあります。2番目のリンクは、すでにマージされたコミットでは表示されないはずです。\[/info\]
 
 <!--
 ### Security Backports

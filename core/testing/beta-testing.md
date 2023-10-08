@@ -74,7 +74,7 @@ wp core update --version=trunk
 If you find bugs while testing pre-release or already-released versions of WordPress, see [Reporting Bugs](https://make.wordpress.org/core/handbook/reporting-bugs/ "Reporting Bugs") or post in the [Alpha/Beta support forum](https://wordpress.org/support/forum/alphabeta).
 -->
 
-WordPress のプレリリース版やすでにリリースされているバージョンをテストしているときにバグを見つけた場合は、[バグの報告](https://ja.wordpress.org/team/handbook/core/reporting-bugs/)を参照するか、[Alpha/Beta サポートフォーラム](https://wordpress.org/support/forum/alphabeta)に投稿してください。
+WordPress のプレリリース版やすでにリリースされているバージョンをテストしているときにバグを見つけた場合は、[バグの報告](https://ja.wordpress.org/team/handbook/core/reporting-bugs/)を参照するか、[アルファ/ベータサポートフォーラム](https://wordpress.org/support/forum/alphabeta)に投稿してください。
 
 <!--
 New features are often [developed as plugins](https://make.wordpress.org/core/features-as-plugins/). [Feature plugins](https://wordpress.org/plugins/browse/beta/) can be installed from the beta testing tab on the plugin install screen of your WordPress dashboard. Navigate to Plugins > Add New > Beta Testing.
