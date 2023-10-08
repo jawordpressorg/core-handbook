@@ -104,7 +104,7 @@ OS によってインストーラパッケージのサイズが異なるので�
 Navigate to the [Downloads](https://www.vagrantup.com/downloads.html) page on the Vagrant site. There are a variety of download packages available depending on your operating system, whether that is Mac OS X or Windows. If you’re running Linux, packages are available for 32- and 64-bit Debian and CentOS distributions. Choose the one that’s right for you to download
 -->
 
-Vagrant サイトの [ダウンロード](https://www.vagrantup.com/downloads.html) ページに移動します。Mac OS X や Windows など、お使いの OS に応じてさまざまなダウンロードパッケージが用意されています。Linux であれば、32bit と64bit の Debian と CentOS のディストリビューションが用意されています。自分に合ったものを選んでダウンロードしてください。
+Vagrant サイトの[ダウンロード](https://www.vagrantup.com/downloads.html)ページに移動します。Mac OS X や Windows など、お使いの OS に応じてさまざまなダウンロードパッケージが用意されています。Linux であれば、32bit と64bit の Debian と CentOS のディストリビューションが用意されています。自分に合ったものを選んでダウンロードしてください。
 
 <!--
 Depending on your operating system, the installer package will vary in size, so it may take a few minutes to download. Once the download is completed, run the installer.
@@ -220,6 +220,6 @@ GitHub でのプルリクエストはフィードバックを受けたり、パ�
 4.  次のコマンドを実行して、この新しいリポジトリをオリジンリモートとして設定します。`cd ...vvv/www/wordpress-trunk/public_html && git remote set-url origin https://github.com/YOURNAME/wordpress-develop.git && git remote add upstream git://develop.git.wordpress.org/`.
 5.  master ブランチをチェックアウトします。`git checkout master`
 6.  作業したい Trac チケット (例: 12345) にもとづいて、feature ブランチを作成します。`git checkout -b trac-12345`
-7.  修正のコミットを追加して、`git push` します (GitHub のパスワードを再入力することを防ぐために、[Git で GitHub パスワードをキャッシュする](https://help.github.com/articles/caching-your-github-password-in-git/) も参照してください)。
+7.  修正のコミットを追加して、`git push` します (GitHub のパスワードを再入力することを防ぐために、[Git で GitHub パスワードをキャッシュする](https://help.github.com/articles/caching-your-github-password-in-git/)も参照してください)。
 8.  GitHub にアクセスし、`master` ブランチへのプルリクエストをオープンします。
 9.  作成したプルリクエストの URL をコピーして WordPress Trac の新しいコメントに貼り付けて、フィードバックを求めます。パッチの diff を添付するのが理想的ですが、これはプルリクエストの URL に「`.diff`」を追加するだけです。例: [https://github.com/xwp/wordpress-develop/pull/61.diff](https://github.com/xwp/wordpress-develop/pull/61.diff)
