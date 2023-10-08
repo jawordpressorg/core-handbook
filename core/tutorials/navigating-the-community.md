@@ -417,7 +417,7 @@ WPTavern や Post Status の記事と同様に、WordCamp は大規模で長期�
 To help put the above communication pathways into practice and provide clarity, the following section contains example situationals. Remember that there’s a ton of nuances and it never hurts to have a second opinion! Feel free to ask in [#core](https://make.wordpress.org/core/tag/core/) or [#core-editor](https://make.wordpress.org/core/tag/core-editor/) for advice. 
 -->
 
-上のコミュニケーション手段を実践し、明確にするために、以下のセクションではシチュエーション別の適用例を紹介します。ニュアンスは千差万別であり、セカンドオピニオンを持つことは決して損にはならないことを覚えておいてください ! [#core](https://make.wordpress.org/core/tag/core/) や [#core-editor](https://make.wordpress.org/core/tag/core-editor/)で気軽に質問してください。
+上のコミュニケーション手段を実践し、明確にするために、以下のセクションではシチュエーション別の適用例を紹介します。ニュアンスは千差万別であり、セカンドオピニオンを持つことは決して損にはならないことを覚えておいてください ! [#core](https://make.wordpress.org/core/tag/core/) や [#core-editor](https://make.wordpress.org/core/tag/core-editor/) で気軽に質問してください。
 
 <!--
 **Need more attention on an issue**
