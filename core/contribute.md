@@ -23,7 +23,7 @@ Note: Interested in contributing to another part of WordPress? Visit [make.wordp
 \[info\]WordPress の別のパートに貢献することに興味がありますか ? [make.wordpress.org](https://make.wordpress.org) で、WordPress に貢献できるさまざまな方法をご覧ください。\[/info\]
 
 <!--
-Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
+This guide is geared toward new contributors, giving you quick access to resources and answering some of the more common questions new contributors have when diving in. As a collaboration between new and veteran contributors, this guide has been developed to better identify the pain points in getting started and will be continuously updated with improvements.
 -->
 
 このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しい貢献者とベテランの貢献者のコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
