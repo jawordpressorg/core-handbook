@@ -137,7 +137,7 @@ Trac チケットの概要
     2.  Enhancements: フックの追加やその他の修正のような、既存の機能の改善です。
     3.  Feature requests: WordPress コアや他の Trac チケットにない新しいアイテムです。
     4.  Tasks (blessed): このオプションは、新しいチケットを提出するときには表示されません。このステータスは、機能チームがそのチケットを開発対象として受け入れた場合にのみ与えられます (「blessed」というのはそのためです)。
-3.  マイルストーン - デフォルトで「Awaiting Review」に設定されています。開発が承認されると、これはリリース予定の特定のバージョン番号に設定されます。マイルストーンを設定できるのは、[信頼されたコア貢献者](https://ja.wordpress.org/team/handbook/core/about/organization/#contributing-developers)のみです。
+3.  マイルストーン - デフォルトで「Awaiting Review」に設定されています。開発が承認されると、これはリリース予定の特定のバージョン番号に設定されます。マイルストーンを設定できるのは、[信頼されたコア貢献者](https://ja.wordpress.org/team/handbook/core/about/organization/#core-contributors)のみです。
 4.  重要度 - normal、major、minor、trivial、critical、または blocker。信頼できるコア貢献者のみが重要度を変更できます。
 5.  コンポーネント - プロジェクトのどの部分に取り組んでいるのか ? 各コンポーネントの詳細な定義については、[https://make.wordpress.org/core/components/](https://make.wordpress.org/core/components/) を参照してください。
 6.  フォーカス - チケットを作成する際にオプションで設定します。これは、チケットが WordPress コンポーネントの複数の領域に関連しているかどうかを示します。選択肢は ui、accessibility、javascript、docs、rtl、admin、template、multisite、rest-api、performance、coding-standards です。
