@@ -20,7 +20,7 @@ If you are a developer who wants to contribute to WordPress core for the first t
 We are going to assume you already have a [WordPress.org account](https://login.wordpress.org/register), have thoroughly read [https://core.trac.wordpress.org/](https://core.trac.wordpress.org/), and already have access to the [make.wordpress.org Slack](https://chat.wordpress.org/) workspace, which is where you can ask for guidance and assistance.
 -->
 
-ここでは、すでに [WordPress.org アカウント](https://login.wordpress.org/register) を持っており、[https://core.trac.wordpress.org/](https://core.trac.wordpress.org/) を熟読され、ガイダンスやサポートを求めることができる [make.wordpress.org の Slack](https://chat.wordpress.org/) ワークスペースにすでにアクセスされていると想定しています。
+ここでは、すでに [WordPress.org アカウント](https://login.wordpress.org/register)を持っており、[https://core.trac.wordpress.org/](https://core.trac.wordpress.org/) を熟読され、ガイダンスやサポートを求めることができる [make.wordpress.org の Slack](https://chat.wordpress.org/) ワークスペースにすでにアクセスされていると想定しています。
 
 <!--
 ## What You Should Know Before Getting Started
@@ -56,7 +56,7 @@ Trac は WordPress コアで行われた作業の公式な記録です。ここ�
 Because this is the official record, be sure to search thoroughly to see if there is an existing ticket for the bug or feature you want to log. If something already exists, please add your notes to that existing ticket. If what you have to add is related to an existing item or for something with a finished milestone, reference that ticket using the format #{ticket\_id} to automatically create a link between tickets: “This was previously discussed in [#99999](https://core.trac.wordpress.org/ticket/99999).” If you need to refer to a particular changeset (a set of code changes logged in Trac), you can link to it using the format \[{changeset\_id}\]: “The original bug was fixed in \[999999\].” Note, finished milestone tickets should never be reopened.
 -->
 
-これは公式な記録であるため、記録したいバグや機能のチケットが存在しないかどうか、十分に検索してください。すでにある場合は、その既存のチケットにあなたのメモを追加してください。もし、あなたが追加しなければならないことが、既存のアイテムに関連していたり、マイルストーンが終了しているものであれば、チケット間のリンクを自動的に作成するために、#{ticket_id} というフォーマットを使ってそのチケットを参照してください:「これは以前 [#99999](https://core.trac.wordpress.org/ticket/99999) で議論されました。」特定のチェンジセット (Trac に記録されたコード変更のセット) を参照する必要がある場合、[{changeset_id}}] というフォーマットでリンクできます:「元のバグが修正されたのは[999999]です。」なお、終了したマイルストーンチケットは決して再オープンしてはいけません。
+これは公式な記録であるため、記録したいバグや機能のチケットが存在しないかどうか、十分に検索してください。すでにある場合は、その既存のチケットにあなたのメモを追加してください。もし、あなたが追加しなければならないことが、既存のアイテムに関連していたり、マイルストーンが終了しているものであれば、チケット間のリンクを自動的に作成するために、#{ticket_id} というフォーマットを使ってそのチケットを参照してください:「これは以前 [#99999](https://core.trac.wordpress.org/ticket/99999)で議論されました。」特定のチェンジセット (Trac に記録されたコード変更のセット) を参照する必要がある場合、[{changeset_id}}] というフォーマットでリンクできます:「元のバグが修正されたのは[999999]です。」なお、終了したマイルストーンチケットは決して再オープンしてはいけません。
 
 <!--
 Please remember contributors are volunteers and this process takes time. Patience is always appreciated.
@@ -139,7 +139,7 @@ Trac チケットの概要
     4.  Tasks (blessed): このオプションは、新しいチケットを提出するときには表示されません。このステータスは、機能チームがそのチケットを開発対象として受け入れた場合にのみ与えられます (「blessed」というのはそのためです)。
 3.  マイルストーン - デフォルトで「Awaiting Review」に設定されています。開発が承認されると、これはリリース予定の特定のバージョン番号に設定されます。マイルストーンを設定できるのは、[信頼されたコア貢献者](https://ja.wordpress.org/team/handbook/core/about/organization/#contributing-developers)のみです。
 4.  重要度 - normal、major、minor、trivial、critical、または blocker。信頼できるコア貢献者のみが重要度を変更できます。
-5.  コンポーネント - プロジェクトのどの部分に取り組んでいるのか ? 各コンポーネントの詳細な定義については、[https://make.wordpress.org/core/components/](https://make.wordpress.org/core/components/)をお読みください。
+5.  コンポーネント - プロジェクトのどの部分に取り組んでいるのか ? 各コンポーネントの詳細な定義については、[https://make.wordpress.org/core/components/](https://make.wordpress.org/core/components/) を参照してください。
 6.  フォーカス - チケットを作成する際にオプションで設定します。これは、チケットが WordPress コンポーネントの複数の領域に関連しているかどうかを示します。選択肢は ui、accessibility、javascript、docs、rtl、admin、template、multisite、rest-api、performance、coding-standards です。
 7.  優先度 - この問題をどの程度早く対処すべきか。選択肢は normal、low、high、lowest、highest omg bbq です。信頼されたコア貢献者と別のステータスについて話し合ったことがない限り、「normal」を使用する必要があります。
 8.  バージョン (バグの場合) - このバグの影響を受ける WordPress の最も古い既知のバージョンです。これを変更するべきではありません。
