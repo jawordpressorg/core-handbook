@@ -52,13 +52,13 @@ If you haven’t [installed a local server](https://make.wordpress.org/core/hand
 Once you have your local server installed, you can download a zip file of the [latest nightly release](https://wordpress.org/nightly-builds/wordpress-latest.zip), check out a copy of WordPress trunk [using Subversion (SVN)](https://wordpress.org/download/source/), or install from our [GitHub mirror](https://github.com/WordPress/wordpress-develop).
 -->
 
-ローカルサーバーにインストールしたら、[最新のナイトリーリリース](https://wordpress.org/nightly-builds/wordpress-latest.zip)の zip ファイルをダウンロードするか、WordPress trunk のコピーを [Subversion (SVN) を使って](https://wordpress.org/download/source/)チェックアウトするか、私たちの [GitHub ミラー](https://github.com/WordPress/wordpress-develop) からインストールできます。
+ローカルサーバーにインストールしたら、[最新のナイトリーリリース](https://wordpress.org/nightly-builds/wordpress-latest.zip)の zip ファイルをダウンロードするか、WordPress trunk のコピーを [Subversion (SVN) を使って](https://wordpress.org/download/source/)チェックアウトするか、私たちの [GitHub ミラー](https://github.com/WordPress/wordpress-develop)からインストールできます。
 
 <!--
 Installing the latest nightly release from a zip file will allow you to [beta test](https://make.wordpress.org/core/handbook/testing/beta/) the code, and contribute bug reports. However, if you want to [contribute patches](https://make.wordpress.org/core/handbook/working-with-patches/) along with those bug reports, you’ll need to install a version-controlled copy of WordPress trunk.
 -->
 
-zip ファイルから最新のナイトリーリリースをインストールすると、コードの [ベータテスト](https://ja.wordpress.org/team/handbook/core/testing/beta/) を行ったり、バグレポートに貢献できます。しかし、バグレポートと一緒に [パッチを提供](https://ja.wordpress.org/team/handbook/core/working-with-patches/) をしたい場合は、バージョン管理された WordPress trunk のコピーをインストールする必要があります。
+zip ファイルから最新のナイトリーリリースをインストールすると、コードの[ベータテスト](https://ja.wordpress.org/team/handbook/core/testing/beta/)を行ったり、バグレポートに貢献できます。しかし、バグレポートと一緒に[パッチを提供](https://ja.wordpress.org/team/handbook/core/working-with-patches/)したい場合は、バージョン管理された WordPress trunk のコピーをインストールする必要があります。
 
 <!--
 SVN and Git are both [version control systems](https://make.wordpress.org/core/handbook/glossary/#version-control). You’ll become very familiar with them when you are contributing to core.

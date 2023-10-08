@@ -32,7 +32,7 @@ phpMyAdmin を使用して、ローカルの Web サーバーに新しいデー�
 **Note:** If you are using DesktopServer as your local server, you’ll need to follow those [instructions for creating a new local development site](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) instead of the instructions listed below.
 -->
 
-**備考**: DesktopServer をローカルサーバーとして使用している場合は、以下の手順ではなく、この[新しいローカル開発サイトの作成手順](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) に従う必要があります。
+**備考**: DesktopServer をローカルサーバーとして使用している場合は、以下の手順ではなく、この[新しいローカル開発サイトの作成手順](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site)に従う必要があります。
 
 
 <!--
@@ -158,7 +158,7 @@ define('WP_DEBUG', true);
 WordPress 3.7 [introduced automatic updates](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) for minor stable WordPress releases (3.7.x). This feature, by default, will also automatically update your development install daily.
 -->
 
-WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して [自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) しています。この機能はデフォルトで、開発用インストールも毎日自動的に更新されます。
+WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して[自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates)しています。この機能はデフォルトで、開発用インストールも毎日自動的に更新されます。
 
 <!--
 You will need to visit your local install once daily to make the cron task run that triggers the automatic update.

@@ -60,6 +60,6 @@ Welcome to being a committer! Here are some things you should know:
     *   [Trac SVN](https://meta.svn.wordpress.org/sites/trunk/trac.wordpress.org) の `templates/core/site-specific.html` ファイルの中の `wpTracContributorLabels`
 *   さらに、以下のグループに追加する:
     *   WordPress Slack の コアコミッターのユーザーグループ
-    *   GitHub の [WordPress Core Team](https://github.com/orgs/WordPress/teams/wordpress-core)
+    *   GitHub の [WordPress Core チーム](https://github.com/orgs/WordPress/teams/wordpress-core)
     *   [Core Trac](https://core.trac.wordpress.org/admin) のコミッターグループ
 *   コミッターがセキュリティ問題に取り組む場合は、セキュリティチームのハンドブックを参照して、オンボーディングタスクに取り組んでください。
