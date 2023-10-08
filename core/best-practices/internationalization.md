@@ -8,7 +8,7 @@
 Alert: This page is still a draft and being actively written.
 -->
 
-注: このページはまだ下書きで、執筆中です。
+\[alert\]このページはまだ下書きで、執筆中です。\[/alert\]
 
 <!--
 ## What is Internationalization?
