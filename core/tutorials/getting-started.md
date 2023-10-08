@@ -68,7 +68,7 @@ Download and install a local development environment on your machine. You have a
 -->
 
 *   推奨される方法は、WordPress 開発専用に調整された Vagrant 構成である [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org) と呼ばれるソフトウェアを使うことです。[VVV のインストール方法](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/)を参考にしてください。
-*   PHP、MySQL/MariaDB、SSH アクセスが可能な Web サーバーを含む環境がすでにあり、そのシステムで作業することを好む場合、他の環境を使用することはまったく問題ありません。[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/xampp/) などが有名です。ただし、いずれも WordPress コアの開発用には最適化されていないので、その場合はもう少し下準備する必要があります。
+*   PHP、MySQL/MariaDB、SSH アクセスが可能な Web サーバーを含む環境がすでにあり、そのシステムで作業することを好む場合、他の環境を使用することはまったく問題ありません。[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/) などが有名です。ただし、いずれも WordPress コアの開発用には最適化されていないので、その場合はもう少し下準備する必要があります。
 
 <!--
 ### Setting up a version control system
