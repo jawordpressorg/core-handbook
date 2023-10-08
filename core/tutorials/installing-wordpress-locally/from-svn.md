@@ -233,7 +233,7 @@ WordPress をインストールするために、**MySQL データベースを�
 
 <!-- In your web browser, navigate to [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) to run the installation process. -->
 
-Web ブラウザーで[http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/)に移動し、インストール作業を実行します。
+Web ブラウザーで[http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) に移動し、インストール作業を実行します。
 
 <!--
 **For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install nodejs from here: [https://nodejs.org/download/release/latest-v14.x/](https://nodejs.org/download/release/latest-v14.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
@@ -315,7 +315,7 @@ You will need to run the latest version of WordPress trunk on your local SVN ins
 WordPress 3.7 [introduces automatic updates](https://make.wordpress.org/core/2013/09/24/automatic-core-updates/) for minor stable WordPress releases (3.7.x). This feature, by default, does not work for Subversion installs.
 -->
 
-WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して [自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) しています。この機能は、デフォルトでは、Subversion インストールでは機能しません。
+WordPress 3.7では、WordPress のマイナーな安定版リリース (3.7.x) に対して[自動更新を導入](https://codex.wordpress.org/Configuring_Automatic_Background_Updates)しています。この機能は、デフォルトでは、Subversion インストールでは機能しません。
 
 <!--
 You will need to manually update your local SVN install. The instructions below are for updating to the latest version of WordPress trunk using either TortoiseSVN or the command line.
