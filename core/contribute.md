@@ -412,7 +412,7 @@ Once you think your patch is ready for commit, it’s time to find a committer t
 Another way to get feedback on your patch is to ask for feedback during the “open floor” at the end of the [weekly core developer chat](https://make.wordpress.org/core/tag/agenda/) (see below). If you go this route, be sure to wait until the end of the meeting and not during the chat.
 -->
 
-パッチに関するフィードバックを得るもうひとつの方法は、[毎週のコア開発やチャット](https://make.wordpress.org/core/tag/agenda/) (以下を参照してください) の最後に行われる「オープンフロア」でフィードバックを求めることです。この方法をとる場合、チャットの最中ではなく、ミーティングの終わりまで待つようにしてください。
+パッチに関するフィードバックを得るもうひとつの方法は、[毎週のコア開発者チャット](https://make.wordpress.org/core/tag/agenda/) (以下を参照してください) の最後に行われる「オープンフロア」でフィードバックを求めることです。この方法をとる場合、チャットの最中ではなく、ミーティングの終わりまで待つようにしてください。
 
 <!--
 Sometimes, tickets and patches don’t get the attention they need and linger in trac. In these cases, ping a component maintainer or committer and ask for feedback.
