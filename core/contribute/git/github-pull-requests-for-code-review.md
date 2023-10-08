@@ -14,7 +14,7 @@ WordPress の開発では SVN を使用していますが、多くの貢献者�
 An experimental feature has been added to Trac that will let you link GitHub pull requests opened against the official [WordPress Develop Git mirror](https://github.com/wordpress/wordpress-develop) to tickets. This makes GitHub contributions more visible directly in their related Trac tickets and makes collaborating across the two repositories easier.
 -->
 
-Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git ミラー](https://github.com/wordpress/wordpress-develop) に対して開かれた GitHub のプルリクエストをチケットにリンクできるようになりました。これにより、GitHub での貢献が、関連する Trac チケットにおいてより直接的に表示されるようになり、2つのリポジトリ間でのコラボレーションが容易になります。
+Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git ミラー](https://github.com/wordpress/wordpress-develop)に対して開かれた GitHub のプルリクエストをチケットにリンクできるようになりました。これにより、GitHub での貢献が、関連する Trac チケットにおいてより直接的に表示されるようになり、2つのリポジトリ間でのコラボレーションが容易になります。
 
 <!--
 **Note:** Pull requests on GitHub will **not** be merged. Code changes are still required to be made to the SVN repository by trusted long term contributors granted commit access.
@@ -40,9 +40,7 @@ Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git �
 
 *   GitHub で、公式の [WordPress 開発用ミラー](https://github.com/wordpress/wordpress-develop)をフォークします。
 *   フォークにブランチを作成し、変更を加え、コミットし、プッシュします。
-*   プルリクエストを [wordpress-develop](https://github.com/wordpress/wordpress-develop) に対して作成し、プルリクエスト本文に Trac チケットの完全な URL を記述してください。例:
-
-    > See https://core.trac.wordpress.org/ticket/49295
+*   プルリクエストを [wordpress-develop](https://github.com/wordpress/wordpress-develop) に対して作成し、プルリクエスト本文に Trac チケットの完全な URL を記述してください。例: `See https://core.trac.wordpress.org/ticket/49295`
 
 *   コラボレーションを容易にするために、「Allow edits and access to secrets by maintainers」に必ずチェックを入れてください。これにより、WordPress コアのコミッターがあなたのフォーク上のブランチに、より大きな変更案を直接プッシュできます。
 
@@ -118,4 +116,4 @@ Pull requests show between Attachments and Change History.
 And finally, **this is an experiment.** There will likely be some small bugs and things that can be improved since this is the first iteration. Please open up tickets in [Meta Trac](https://meta.trac.wordpress.org/) for any issues that you find. All feedback is welcome!
 -->
 
-そして最後に、**これは実験です**。これは最初のバージョンですので、おそらく小さなバグや改善点があるでしょう。何か問題を見つけた場合は、[Meta トラック](https://meta.trac.wordpress.org/) でチケットを作成してください。すべてのフィードバックを歓迎します !
+そして最後に、**これは実験です**。これは最初のバージョンですので、おそらく小さなバグや改善点があるでしょう。何か問題を見つけた場合は、[Meta トラック](https://meta.trac.wordpress.org/)でチケットを作成してください。すべてのフィードバックを歓迎します !
