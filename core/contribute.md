@@ -1,14 +1,14 @@
 # Contribute with Code
 
-Alert: This page is being actively worked on, expanded, and improved.
+This page is being actively worked on, expanded, and improved.
 
 Thank you for your interest in contributing to WordPress! This Quick Start Guide to contributing code to WordPress Core is a central hub where you can find all resources needed to take you through the process of submitting your first patch.
 
-Note: Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
+Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
 
 This guide is geared toward new contributors, giving you quick access to resources and answering some of the more common questions new contributors have when diving in. As a collaboration between new and veteran contributors, this guide has been developed to better identify the pain points in getting started and will be continuously updated with improvements.
 
-Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
+There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
 
 Before starting to contribute, it’s important to understand a bit of background on why people contribute and how we interact online.
 
@@ -26,7 +26,7 @@ One of the best places to find contributors is at WordCamps, where you shouldn�
 
 ## Committers
 
-Alert:  This section needs to be expanded. Perhaps we should also include a link to [Nacin’s post](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/).
+ This section needs to be expanded. Perhaps we should also include a link to [Nacin’s post](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/).
 
 Committers are a type of WordPress contributor who has earned the trust of the community and been given the keys to “commit” code to WordPress core. Committers use their judgement to commit their own code as well as code from other contributors.
 
@@ -104,7 +104,7 @@ There are other, UI\-based ways to create patches as well. [SourceTree](http://w
 
 WordPress development happens through our official SVN and GIT repositories. As a result, we do not monitor or accept pull requests (PRs) from GitHub. However, you can still create a patch from your git repository and attach the patch to your ticket. To do so:
 
-Alert: We need to add information on creating a Git patch here.
+We need to add information on creating a Git patch here.
 
 ### Researching History
 
@@ -114,7 +114,7 @@ As an example, look at [/wp-admin/media.php](https://core.trac.wordpress.org/bro
 
 ### Unit Testing
 
-Alert: This section needs to be created. 
+This section needs to be created. 
 
 ### Patch Feedback
 
@@ -142,4 +142,4 @@ Sometimes, tickets and patches don’t get the attention they need and linger in
 
 ## Meetings
 
-Alert:  This section needs to be created.
+ This section needs to be created.

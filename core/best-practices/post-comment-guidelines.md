@@ -68,6 +68,10 @@ For each of the following types of post, there are some things to keep in mind:
 
 When writing up an idea aimed at generating feedback and assessing a potential change from the core contributor community it is important that it is clear that what is being written is a proposal and not a final decision. To help achieve that, proposals must include the word “Proposal” at the start of the title and include text in the body explaining that a final decision has not yet been made.
 
+### Comments on Posts
+
+Comments on posts will automatically close after 180 days (about 6 months). If you need to keep comments open, you can use the tag `#keep-comments-open` but this should only be used with a specific timeframe in mind rather than allowing comments to stay open forever.
+
 ## Comments
 
 Discussion and criticism of ideas are important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.

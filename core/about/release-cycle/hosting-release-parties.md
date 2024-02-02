@@ -70,7 +70,9 @@ There are several ways to test, so pick whatever feels most comfortable and repo
 You can report back by sharing how you tested and what the result was with an emoji. For example:  
 – 6.2-beta1 > `X.Y-Z` via beta tester  
 If it works, add :white\_check\_mark:  
-If any issues happen, add :red\_circle: so we can investigate. | Everyone |
+If any issues happen, add :red\_circle: so we can investigate.  
+  
+Please note that language packs are built in a later step of the process, so it is normal for there to be notices such as `**Warning: Checksums not available for WordPress 6.3.2/fr_FR. Please cleanup files manually.**` | Everyone |
 | **Optional**: Summarize any issues found | *\[If any issues are found during testing, rely on this section*.\]  
 Thanks, everyone, for testing! For now, we’re tracking the following issues: | Emcee |
 | **Step 9:** Second version bump | Please, @corecommitter, proceed with the second version bump.  
@@ -80,7 +82,7 @@ Thanks, everyone, for testing! For now, we’re tracking the following issues: |
   
 *\[Wait for confirmation\]* | Mission Control |
 | **Step 11**: Publish the announcement post | The release post can now be published! @marketingteammember, please proceed. | Marketing Team Member |
-| **Step 12**: Announce in [#core](https://make.wordpress.org/core/tag/core/) that the release is available | @here WordPress `X.Y-Z` is now available: **insert link from the announcement post**  
+| **Step 12**: Announce in [#core](https://make.wordpress.org/core/tag/core/) that the release is available | /here WordPress `X.Y-Z` is now available: **insert link from the announcement post**  
 Please help test and give feedback! | Emcee |
 | **Step 13:** Announce that committers is open again | @committers, you can now resume committing.  
   

@@ -8,7 +8,7 @@ Want to learn more? Here is a list of “Potentially Asked Questions”.
 
 ### Who can run a Bug Scrub?
 
-You! Leading a Bug Scrub is something any interested community member can do.
+You! Leading a Bug Scrub is something **any** interested community member can do.
 
 ### What is a Bug Scrub?
 
@@ -75,7 +75,7 @@ Running a Bug Scrub involves [Bug Gardening](https://make.wordpress.org/core/han
 
 Awesome! Thank you!
 
-You can schedule a bug scrub by pinging a the Core Triage lead for the current release, by volunteering in during the Core Dev chat open floor time, or by commenting on the Core Dev chat agenda/summary posts with your interest.
+You are welcome to schedule a scrub at any time. You will get the most attendees by ensuring it is announced and publicized in advance. Three ways to ensure that happen are: pinging the Core Triage lead for the current release, announcing it during the Core Dev chat open floor time, or by commenting on the Core Dev chat agenda/summary posts with your interest.
 
 Have the report or list of tickets that you want to go through in mind, and someone will make sure your scrub is scheduled in the most appropriate Slack room.
 

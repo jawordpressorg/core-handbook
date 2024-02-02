@@ -1,6 +1,6 @@
 # Internationalization
 
-Alert: This page is still a draft and being actively written.
+This page is still a draft and being actively written.
 
 ## What is Internationalization?
 

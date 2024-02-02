@@ -1,6 +1,6 @@
 # The Code Repository (SVN)
 
-Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
+WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
 
 ## What is SVN?
 

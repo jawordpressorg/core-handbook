@@ -115,7 +115,7 @@ Incorrect:
 
 ### Property Ordering
 
-> Group like properties together, especially if you have a lot of them.
+> Group like properties together, especially if you have a lot of them.  
 > 
 > – Nacin
 

@@ -1,6 +1,6 @@
 # Project Organization
 
-Alert: This page is out of date. Let someone in [#core](https://wordpress.slack.com/messages/C02RQBWTW) know if you want to help update it!
+This page is out of date. Let someone in [#core](https://wordpress.slack.com/messages/C02RQBWTW) know if you want to help update it!
 
 ## About the Project
 
@@ -26,7 +26,7 @@ The lead developers are **Helen Hou-Sandi**, **Dion Hulse**, **Mark Jaquith**, 
 
 Current committers include:
 
-**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, and **Grzegorz Ziółkowski**.
+**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Dennis Snell**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, and **Grzegorz Ziółkowski**.
 
 Other contributing developers include **Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, and **Samuel Wood**.
 

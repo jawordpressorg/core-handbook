@@ -110,6 +110,7 @@ A Release Candidate version is released as the last stage of the release cycle b
 *   The [process for an RC release](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) is well-documented on a separate handbook page.
 *   Following the first release candidate a branch for the release can be created so that early work on trunk can begin for the next release.
 *   An announcement should be made on Make Core about the release candidate phase ([example from 6.0](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) and the various above protocols in order to better amplify this specific part of the release cycle and prepare the community.
+*   At this point, two Make Core posts should be published to begin gathering nominations for folks interested and able to (1) participate in the Minor Release Squad that follows this major release cycle and to (2) participate in the Major Release Square that’s up next.
 
 ### translate.WordPress.org
 
@@ -128,8 +129,7 @@ It’s time to ask the [Polyglots team](https://make.wordpress.org/polyglots/) t
 At this point, once the milestone is mostly clear, a branch for the release can be created, so that early work on trunk could start. The following files need to have version numbers updated when branching:
 
 *   `src/wp-includes/version.php`
-*   Both NPM files: `package.json` and `package-lock.json`
-*   In trunk, update the `SECURITY.md` file to include the newly created branch in the list of versions receiving security updates
+*   Both NPM files: `package.json` and `package-lock.json`. **Note:** the `package-lock.json` file must not be edited manually. Change the version specified in `package.json` and run `npm install` to update the lock file.
 
 When branching before a release, there are two important things that need setting after branching has taken place. Ideally these should be done before any development work on trunk begins.
 
@@ -138,7 +138,12 @@ When branching before a release, there are two important things that need settin
 *   Translate: Update [/home/wporg/public\_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh) to use the branch for beta/RC packages.
 *   Translate: Update [/home/rosetta/public\_html/wp-content/mu-plugins/rosetta/rosetta.php](https://dotorg.trac.wordpress.org/browser/wordpress/rosetta/website/wp-content/mu-plugins/rosetta/rosetta.php) to use the branch for the `wp/dev` project.
 
-After branching is performed, the Test Old Branches GitHub Actions workflow needs to be updated. As an example, here is a [PR that would update the workflow file after 5.8 is branched](https://github.com/WordPress/wordpress-develop/pull/1199).
+After branching is performed, there are a few additional tasks that need to take place:
+
+*   In trunk, update the `SECURITY.md` file to include the newly created branch in the list of versions receiving security updates.
+*   The Test Old Branches GitHub Actions workflow needs to be updated. As an example, here is a [PR that would update the workflow file after 5.8 is branched](https://github.com/WordPress/wordpress-develop/pull/1199). The needed changes should only be applied to `trunk`. This workflow only runs within the primary branch, so the newly created branch does not need to be updated.
+*   The `.env` file in the new branch should be updated.
+    *   Change the `LOCAL_PHP` value from `latest` to the highest version of PHP supported in that release. This helps avoid test failures in the future when the PHP version associated with the `latest` Docker container is changed.
 
 ## Pre Final Release
 

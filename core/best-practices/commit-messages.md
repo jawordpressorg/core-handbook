@@ -8,7 +8,7 @@ Remember: Do not commit to multiple branches in the same commit. This will, at a
 
 ## Format
 
-The general format for a commit message is as follows:
+The full format for a commit message is as follows:
 
 > Component: Brief summary.
 > 
@@ -16,10 +16,22 @@ The general format for a commit message is as follows:
 > 
 > More paragraphs can be added as needed.
 > 
+> Follow-up to [\[27195\]](https://core.trac.wordpress.org/changeset/27195), [\[41062\]](https://core.trac.wordpress.org/changeset/41062).
+> 
+> Reviewed by a-fellow-committer, maybe-multiple.  
+> Merges [\[26851\]](https://core.trac.wordpress.org/changeset/26851) to the to the x.x branch.
+> 
 > Props person, another.  
 > Fixes [#30000](https://core.trac.wordpress.org/ticket/30000). See [#20202](https://core.trac.wordpress.org/ticket/20202), #105.
 
-Generally, each line in a commit message should begin with a capital letter and end with a full stop/period. Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack. Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
+### Global Guidelines
+
+*   Each line should begin with a capital letter and end with a full stop/period.
+*   Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack.
+*   Outside of the brief summary, there are no character limits. Don’t manually wrap lines.
+*   Pay attention to places that should have a blank line before them and areas that should not.
+*   Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
+*   Outside of the `props` section, avoid using the word `props` in order to not confuse the tools that generate contributor statistics. If talking about properties, use the full word. Otherwise, consult a [thesaurus](https://www.thesaurus.com/browse/prop).
 
 ### Brief summary
 
@@ -34,13 +46,35 @@ The first line of a commit message is a brief summary of the changeset. The brie
 
 ### Description
 
-The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notes and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and why.
+The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notes and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and **why**.
 
 #### Guidelines
 
 *   Must be separated from the summary by a blank line.
 *   Can be multiple paragraphs if necessary, separated by blank lines. It is not unreasonable for a commit message to be more verbose than the final changeset itself.
-*   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves, if they need to.
+*   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves if they need to.
+*   At times it is best to use lists instead of paragraphs, this is at the discretion of the committer.
+*   The words `props`, `backport`, `backports` should be avoided.
+
+### Follow-up to
+
+When the commit is directly related to some previous work such as adding tests for a specific changeset or fast follow fixes, “Follow-up to” must be used with a link to those changesets. If you are backporting a commit, please follow the “Reviewed By and Merges” section instead.
+
+#### Guidelines
+
+*   Must be preceded by a blank line.
+*   Must wrap changesets in square brackets.
+
+### Reviewed By and Merges
+
+When [backporting code](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/), use the `Reviewed By and Merges` section to indicate the code that is being merged and who reviewed it. Please specify the branch this is being merged into to help people seeing the commit in chat or email. It’s a best practice for the review to be noted in trac with the `[dev-reviewed](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords)` keyword.
+
+#### Guidelines
+
+*   This set of two lines must be preceded by a blank line.
+*   There should be a hard return between the Reviewed By and Merges lines but there must not be a blank line between them.
+*   Multiple core committers may be mentioned as reviewers. When this happens, please separate them with a comma.
+*   While the task of moving the code is called backporting, the words `backport`, `backports`, and `backporting` should not be used anywhere in the commit message.
 
 ### Props
 
@@ -52,13 +86,13 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 
 #### Guidelines
 
-*   Must be preceded by a blank line.
-*   Usernames must not start with an `@` (at) sign.
-*   Separate usernames by comma + space. Think: `/^props (\s*([^,]+),?)+$/`
+*   Props must be preceded by a blank line.
+*   Usernames must not start with an @ (at) sign.
+*   Separate usernames by comma + space. Think: /^props (\\s\*(\[^,\]+),?)+$/
 *   Copy/paste usernames to avoid typos. (Sorry, rmccue; or is that rmmcue?)
-*   If the user has a space in their displayed name, use the slug from their w.org profile URL. For example `Frank Klein` on Trac should get props as `frank-klein`.
-*   Err on the side of giving props liberally. Props provide major encouragement for contributors.
-*   If you forget to prop someone, check to see if they already have props in the current release as it won’t matter in the long run as they’ll be included in the release credits anyway. If they aren’t already propped, then you can flag it to the [Release Coordinator](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinator) so they can ensure that person is added on release day. It’s also recommended to reach out to the contributor in Slack or in a comment on the ticket as a courtesy and apologize for missing their name in the commit message and letting them know their contribution will be recognized and note how.
+*   If the user has a space in their displayed name, use the slug from their w.org profile URL. For example, Frank Klein on Trac should get props as frank-klein.
+*   The props line should only include the word props, wordpress.org usernames, spaces, and punctuation.
+*   The `props` line must end with a period.
 
 #### Self props
 
@@ -66,6 +100,8 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   Generally, giving contributors feedback on patches and giving them a chance to iterate is the recommended process. However, on the occasions where you as the committer complete the idea of a patch, you could write “props X for initial patch.”
 *   It is normal for committers to adjust style or rearrange logic before a commit, or to account for a simple edge case. In these instances, omit yourself. Your name on the commit implies that you’ve reviewed and tested it, which is just as important as the contents of the commit.
 *   If committing your own code, props are assumed, so omit yourself here as well.
+
+For a more detailed guide about giving props to contributors, see the [Contributor Attribution (“Props”) page in the handbook](https://make.wordpress.org/core/handbook/best-practices/contributor-attribution-props/).
 
 ### Ticket references
 

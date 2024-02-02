@@ -34,12 +34,13 @@ To cover all situations, ideally each lead role in a release should have at leas
 
 These are tasks and responsibilities that may be documented for specific roles below but can be taken on by anyone throughout the release cycle.
 
-*   Communicating publicly as much as possible (on tickets, in component chats, Make/Core posts, etc.)
-*   Identifying blockers to progress and asking for help from buddies, team leads, and/or the Release Lead
-*   Being mindful of deadlines
-*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notes, marketing, etc.)
-*   Leading bug scrubs focused on your team’s tickets and tasks
-*   Facilitating and participating in inter-team discussions
+*   Communicating publicly as much as possible (on tickets, in component chats, Make/Core posts, etc.).
+*   Identifying blockers to progress and asking for help from buddies, team leads, and/or the Release Lead.
+*   Being mindful of deadlines.
+*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notes, marketing, etc.).
+*   Leading bug scrubs focused on your team’s tickets and tasks.
+*   Facilitating and participating in inter-team discussions.
+*   Always be testing!
 
 ### Release lead
 
@@ -145,6 +146,8 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Review incoming tickets to the [Gutenberg GitHub repo](https://github.com/WordPress/gutenberg/issues) to ensure items are labeled appropriately for further review, including adding anything necessary to the appropriate release specific project board.
 *   Communicate with the Core Editor Tech leads to help gauge where more resources/attention is needed.
 *   Help prioritize any key issues throughout the release cycle to ensure time sensitive and urgent problems are resolved promptly.
+
+This work is done in collaboration and coordination with the Core Tech leads so please refer to [Block Editor Release Process for Major Releases](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor-release-process-for-major-releases/) for a more detailed and practical look.
 
 ### Editor Design Lead
 

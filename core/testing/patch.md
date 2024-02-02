@@ -1,6 +1,6 @@
 # Testing a Patch
 
-Alert: This page is under construction and may contain inaccurate information. Want to help fix it? Ping the [#docs](https://make.wordpress.org/core/tag/docs/) channel in WordPress Slack.
+This page is under construction and may contain inaccurate information. Want to help fix it? Ping the [#docs](https://make.wordpress.org/core/tag/docs/) channel in WordPress Slack.
 
 Testing patches is an important part of ensuring the quality of WordPress releases.
 

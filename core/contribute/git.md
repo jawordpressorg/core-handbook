@@ -1,6 +1,6 @@
 # The Code Repository (Git)
 
-Alert: Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
+Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
 
 ## Summary
 

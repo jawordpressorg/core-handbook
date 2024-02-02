@@ -22,7 +22,7 @@ Sometimes multiple changes to the same code are made in `trunk` before they are
 
 To add the merge info afterwards you can run `svn merge --record-only -c 12345 '^/trunk'`.
 
-The branch commit message will generally be copied from the `trunk` commit(s), but adds a new line between `Props` and `Fixes` which says, “Merges \[`trunk changeset ID`\] to the 5.0 branch.” For an example, see [r43276](https://core.trac.wordpress.org/changeset/43276/).
+The branch commit message will largely be copied from the `trunk` commit(s) with a few updates. Please see the commit message documentation, especially the sections on [Merges and Reviewed By.](https://make.wordpress.org/core/handbook/best-practices/commit-messages/#reviewed-by-and-merges)
 
 Make sure to run the above commands from the branch root, and not from a sub directory. The reason for this is that the `svn:mergeinfo` is a SVN property on `/branches/5.9` which the SVN client sets, it’s not a server side thing.
 

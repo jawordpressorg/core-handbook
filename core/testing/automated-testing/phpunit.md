@@ -35,8 +35,6 @@ Some workflows require more set-up than others, when in doubt, we recommend you 
 3.  PHPUnit PHAR file with Composer available
 4.  PHPUnit PHAR file without Composer
 
-Note:
-
 **Pre-requisite for non-Docker workflows:**
 
 For non-Docker workflows, you need to make sure that PHP and MySQL/MariaDB are available.
@@ -137,11 +135,9 @@ or can be declared as a PHP constant in the `wp-tests-config.php` file.
 
 Once the PHPUnit PHAR and Polyfills are installed, you can run the tests from the root directory of your WordPress install via the command-line: `[path/to/]phpunit`.
 
-Note: If you use this workflow, please ensure you keep your local clone of the PHPUnit Polyfills up to date.
+If you use this workflow, please ensure you keep your local clone of the PHPUnit Polyfills up to date.  
 
 ## Running the Test Suite
-
-Note:
 
 Once you have chosen your preferred workflow and set up your machine according to the above instructions, you can run the tests via the command listed with your preferred workflow above.
 
@@ -177,7 +173,7 @@ What each symbol means:
 *   `R` means a test is marked as “risky”. What will be marked as risky, very much depends on the configuration in the `phpunit.xml.dist` file. This can be tests which are particularly slow or don’t perform assertions.
 *   `I` means a test was marked as incomplete, i.e. not yet implemented.
 
-Note: On Windows and seeing weird codes in your command-line screen output? Try running with `--colors=never`.
+On Windows and seeing weird codes in your command-line screen output? Try running with `--colors=never`.
 
 ### Running Specific Tests
 
@@ -210,8 +206,6 @@ phpunit --group shortcode,17657,6562,14050
 ...
 OK (229 tests, 417 assertions)
 ```
-
-Note:
 
 Many tests are marked with a `@ticket` annotation, which indicates they were the result of that WordPress Trac ticket.
 
