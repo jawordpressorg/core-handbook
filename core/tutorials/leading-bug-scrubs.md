@@ -26,11 +26,12 @@ Want to learn more? Here is a list of “Potentially Asked Questions”.
 ### Who can run a Bug Scrub?
 -->
 
+### バグスクラブを実施できるのは誰ですか ?
+
 <!--
 You! Leading a Bug Scrub is something **any** interested community member can do.
 -->
 
-### バグスクラブを実施できるのは誰ですか ?
 
 あなたです ! バグスクラブをリードすることは、興味のあるコミュニティメンバーであれば**誰でも**行うことができます。
 
@@ -214,7 +215,9 @@ Awesome! Thank you!
 
 すばらしい ! ありがとう !
 
+<!--
 You are welcome to schedule a scrub at any time. You will get the most attendees by ensuring it is announced and publicized in advance. Three ways to ensure that happen are: pinging the Core Triage lead for the current release, announcing it during the Core Dev chat open floor time, or by commenting on the Core Dev chat agenda/summary posts with your interest.
+-->
 
 現在のリリースのコアトリアージリードに通知するか、コア開発者チャットのオープンフロアにボランティアとして参加するか、コア開発者チャットの要約の投稿にコメントすることで、バグスクラブをスケジュールできます。
 
