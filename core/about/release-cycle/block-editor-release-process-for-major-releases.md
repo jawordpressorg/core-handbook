@@ -324,7 +324,7 @@ WordPress 6.3のリリースサイクル中に開催された非同期トリア�
 ### Assigning tasks from the board
 -->
 
-#### ボードからのタスクを割り当てる
+### ボードからのタスクを割り当てる
 
 <!--
 For items in the “Todo” column, it’s recommended that you find someone assigned in time before the release milestones. The easiest way to do this is to ask in the [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) channel for volunteers to pick tasks from that column. If no one volunteers, you will need to research to find contributors familiar with the items needing help (checking previous Gutenberg PRs can be helpful here) and ask them if they can take on that work or help another person do so. 
