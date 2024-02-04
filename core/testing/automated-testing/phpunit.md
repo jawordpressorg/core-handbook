@@ -678,7 +678,5 @@ JavaScript コードのユニットテストは、PHP のユニットテスト�
 
 ## 参考資料
 
-<!--
 *   [PHPUnit Manual](https://docs.phpunit.de/)
 *   [PHPUnit on Github](https://github.com/sebastianbergmann/phpunit)
--->
