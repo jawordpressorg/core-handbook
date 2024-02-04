@@ -1,8 +1,17 @@
+<!--
 # JavaScript Coding Standards
+-->
 
-Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/)  
+# JavaScript コーディング規約
+
+<!--
+Warning: This page has been moved [here](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/)
 Please do *not* edit this page.
+-->
 
+\[info\]このページは[こちら](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/javascript/)に移動されました。\[/info\]
+
+<!--
 JavaScript has become a critical component in developing WordPress-based applications (themes and plugins) as well as WordPress core. Standards are needed for formatting and styling JavaScript code to maintain the same code consistency as the WordPress standards provide for core PHP, HTML, and CSS code.
 
 > All code in any code-base should look like a single person typed it, no matter how many people contributed. – [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/)
@@ -70,11 +79,11 @@ var arr = [
 	4,
 	15,
 ];
- 
+
 // Acceptable for small objects and arrays
 var obj = { ready: 9, when: 4, 'you are': 15 };
 var arr = [ 9, 4, 15 ];
- 
+
 // Bad
 var obj = { ready: 9,
 	when: 4, 'you are': 15 };
@@ -88,17 +97,17 @@ Always include extra spaces around elements and arguments:
 
 ```javascript
 array = [ a, b ];
- 
+
 foo( arg );
- 
+
 foo( 'string', object );
- 
+
 foo( options, object[ property ] );
- 
+
 foo( node, 'property', 2 );
- 
+
 prop = object[ 'default' ];
- 
+
 firstArrayElement = arr[ 0 ];
 ```
 
@@ -303,10 +312,10 @@ If an abbreviation or an acronym occurs at the start of a variable name, it must
 ```javascript
 // "Id" is an abbreviation of "Identifier":
 const userId = 1;
- 
+
 // "DOM" is an acronym of "Document Object Model":
 const currentDOMDocument = window.document;
- 
+
 // Acronyms and abbreviations at the start of a variable name are consistent
 // with camelcase rules covering the first letter of a variable or class.
 const domDocument = window.document;
@@ -330,7 +339,7 @@ class Earth {
 		return Earth.humans;
 	}
 }
- 
+
 Earth.humans = [];
 ```
 
@@ -348,10 +357,10 @@ Comments come before the code to which they refer, and should always be preceded
 
 ```javascript
 someStatement();
- 
+
 // Explanation of something complex on the next line
 $( 'p' ).doSomething();
- 
+
 // This is a comment that is long enough to warrant being stretched
 // over the span of multiple lines.
 ```
@@ -601,3 +610,4 @@ if ( typeof jQuery.fn.hoverIntent === 'undefined' ) {
 ## Credits
 
 *   The jQuery examples are adapted from the [jQuery JavaScript Style Guide](https://contribute.jquery.org/style-guide/js), which is made available under the MIT license.
+-->
