@@ -239,10 +239,9 @@ Web ブラウザーで [http://localhost/wordpress-svn/src/](http://localhost/wo
 
 <!--
 **For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v16.x/](https://nodejs.org/download/release/latest-v16.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
--->
-
 `npm install grunt --save-dev`  
 `npm run dev` should now complete the process of unpacking the WordPress install.
+-->
 
 **Windows 11をお使いの方へ**: npm と grunt をインストールしていない場合、npm コマンドのエラーが表示されます。ここから nodejs をダウンロードし、インストールしてください: [https://nodejs.org/download/release/latest-v14.x/](https://nodejs.org/download/release/latest-v14.x/)。npm コマンドを実行する前に、コマンドウィンドウを開き、wordpress-svn ディレクトリに移動し、以下のコマンドを実行します。`npm install -g grunt-cli` - これは、grunt クライアントをインストールします。そして、次のコマンドを実行して、wordpress インスタンスに grunt を追加します。
 `npm install grunt --save-dev`
