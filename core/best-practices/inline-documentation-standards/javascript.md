@@ -36,7 +36,7 @@ Short descriptions should be clear, simple, and brief. Document “what” and �
 
 Functions and closures are *third-person singular* elements, meaning *third-person singular verbs* should be used to describe what each does.
 
-Tip: Need help remembering how to conjugate for third-person singular verbs? Imagine prefixing the function, hook, class, or method summary with “It”:
+Need help remembering how to conjugate for third-person singular verbs? Imagine prefixing the function, hook, class, or method summary with “It”:
 
 *   *Good:* “(It) Does something.”
 *   *Bad:* “(It) Do something.”

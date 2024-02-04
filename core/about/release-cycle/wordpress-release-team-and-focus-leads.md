@@ -105,20 +105,22 @@ These are tasks and responsibilities that may be documented for specific roles b
 これらは、以下の特定の役割のためにドキュメント化されたタスクと責任ですが、リリースサイクル全体を通して誰でも引き受けることができます。
 
 <!--
-*   Communicating publicly as much as possible (on tickets, in component chats, Make/Core posts, etc.)
-*   Identifying blockers to progress and asking for help from buddies, team leads, and/or the Release Lead
-*   Being mindful of deadlines
-*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notes, marketing, etc.)
-*   Leading bug scrubs focused on your team’s tickets and tasks
-*   Facilitating and participating in inter-team discussions
+*   Communicating publicly as much as possible (on tickets, in component chats, Make/Core posts, etc.).
+*   Identifying blockers to progress and asking for help from buddies, team leads, and/or the Release Lead.
+*   Being mindful of deadlines.
+*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notes, marketing, etc.).
+*   Leading bug scrubs focused on your team’s tickets and tasks.
+*   Facilitating and participating in inter-team discussions.
+*   Always be testing!
 -->
 
-*   可能な限り公の場でコミュニケーションをとる (チケット、コンポーネントチャット、Make/Core 投稿など)
-*   進捗を妨げるものを特定し、仲間、チームリード、リリースリードに助けを求める
-*   期限を守る
-*   ドキュメント、HelpHub の記事、複数のコミュニティとの調整が必要な開発者ノート、マーケティングなど、他のコミュニティとの連携が必要な変更を特定する
-*   自分のチームのチケットやタスクに焦点を当てたバグスクラブの実施
-*   チーム間のディスカッションを促進し参加する
+*   可能な限り公の場でコミュニケーションをとる (チケット、コンポーネントチャット、Make/Core 投稿など)。
+*   進捗を妨げるものを特定し、仲間、チームリード、リリースリードに助けを求める。
+*   期限を守る。
+*   ドキュメント、HelpHub の記事、複数のコミュニティとの調整が必要な開発者ノート、マーケティングなど、他のコミュニティとの連携が必要な変更を特定する。
+*   自分のチームのチケットやタスクに焦点を当てたバグスクラブを実施する。
+*   チーム間のディスカッションを促進し参加する。
+*   常にテストすること !
 
 <!--
 ### Release lead
@@ -389,6 +391,8 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   [Gutenberg GitHub リポジトリ](https://github.com/WordPress/gutenberg/issues)に送られてくるチケットをレビューし、適切なリリース固有のプロジェクトボードに必要なものを追加するなど、さらなるレビューのために項目が適切にラベル付けされていることを確認する。
 *   コアエディターのテックリードとコミュニケーションをとり、より多くのリソースや注意が必要な箇所を把握する。
 *   リリースサイクルを通して重要な問題に優先順位をつけ、緊急性の高い問題が迅速に解決されるようにする。
+
+This work is done in collaboration and coordination with the Core Tech leads so please refer to [Block Editor Release Process for Major Releases](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor-release-process-for-major-releases/) for a more detailed and practical look.
 
 <!--
 ### Editor Design Lead

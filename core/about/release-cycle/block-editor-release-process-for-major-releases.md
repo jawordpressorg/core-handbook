@@ -33,7 +33,7 @@ WordPress の各メジャーバージョンのエディターリリースプロ�
 *   [ドキュメントリード](https://ja.wordpress.org/team/handbook/core/about/release-cycle/wordpress-release-team-and-focus-leads/#documentation-wrangling)
 
 <!--
-## Quick Reference Timeline
+## Quick reference timeline
 -->
 
 ## タイムラインのクリックリファレンス
@@ -123,7 +123,7 @@ At the start of each release cycle, a planning roundup post should be published 
 ### 最後のエディターのリリースを計画し、締め切りを伝える
 
 <!--
-Gutenberg releases happen biweekly, so you can determine which Gutenberg release is scheduled closest to Beta 1 and, if necessary, rearrange the plugin release date to align better with Beta 1.
+Gutenberg releases happen biweekly, so you can determine which Gutenberg release is scheduled closest to Beta 1 and, if necessary, rearrange the plugin release date to align better with Beta 1. 
 -->
 
 Gutenberg のリリースは隔週で行われるため、どの Gutenberg のリリースがベータ1に最も近い時期に予定されているかを判断し、必要に応じてプラグインのリリース日をベータ1に合わせて再調整できます。
@@ -295,13 +295,13 @@ During the Beta release cycle, the weekly triage sessions in the [#core-editor](
 ベータ版のリリースサイクル中、[#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) Slack チャンネルでの毎週のトリアージセッションは中断されます。その代わりに、プロジェクトボード、特に「Triage」と「In Discussion / Needs Decision」カラムを特別に扱う非同期のトリアージセッションが行われます。これらのミーティングにより、エディターテックとトリアージリードは、issue とプルリクエストをどのように優先順位付けし、管理すべきかについて効率的に「投票」できます。
 
 <!--
-Often a release team consists of members across various time zones, so an asynchronous meeting allows everyone to participate when convenient.
+Often a release team consists of members across various time zones, so an asynchronous meeting allows everyone to participate when convenient. 
 -->
 
 多くの場合、リリースチームはさまざまなタイムゾーンにまたがるメンバーで構成されるため、非同期ミーティングであれば全員が都合の良いときに参加できます。
 
 <!--
-You create an initial announcement for the meeting in the [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) Slack channel and add each PR and issue in a thread. The leads then vote using emojis and can add additional comments in the thread.
+You create an initial announcement for the meeting in the [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) Slack channel and add each PR and issue in a thread. The leads then vote using emojis and can add additional comments in the thread. 
 -->
 
 最初のミーティングのお知らせを [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) Slack チャンネルに作成し、各プルリクエストと issue をスレッドに追加します。リードは絵文字を使って投票し、スレッドにコメントを追加できます。
@@ -321,10 +321,10 @@ An example asynchronous triage session held during the WordPress 6.3 release cyc
 WordPress 6.3のリリースサイクル中に開催された非同期トリアージセッションの例。
 
 <!--
-**Assigning Tasks From the Board**
+### Assigning tasks from the board
 -->
 
-#### ボードからのタスクを割り当てる
+### ボードからのタスクを割り当てる
 
 <!--
 For items in the “Todo” column, it’s recommended that you find someone assigned in time before the release milestones. The easiest way to do this is to ask in the [#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) channel for volunteers to pick tasks from that column. If no one volunteers, you will need to research to find contributors familiar with the items needing help (checking previous Gutenberg PRs can be helpful here) and ask them if they can take on that work or help another person do so. 
@@ -333,7 +333,7 @@ For items in the “Todo” column, it’s recommended that you find someone ass
 「To Do」欄の項目については、リリースのマイルストーンまでに割り当てられる人を見つけることをおすすめします。最も簡単な方法は、[#core-editor](https://wordpress.slack.com/archives/C02QB2JS7) チャンネルで、その欄のタスクを選んでくれるボランティアを募集することです。ボランティアとして参加できる人がいない場合は、助けが必要な項目に詳しい人を見つけて (ここでは、過去の Gutenberg プルリクエストを確認することも役に立ちます)、その人に引き受けてもらえるか、または他の人に手伝ってもらえるかをたずねる必要があるでしょう。
 
 <!--
-If issues seem critical to the release but nobody is picking them up, alert the Editor Tech Leads as soon as possible.
+If issues seem critical to the release but nobody is picking them up, alert the Editor Tech Leads as soon as possible. 
 -->
 
 リリースにとって重要だと思われる issue があるにもかかわらず、誰もその issue を取り上げてない場合は、できるだけ早くエディターテックリードに知らせてください。
@@ -505,7 +505,7 @@ You can check all PRs labeled with [`Needs Dev Note`](https://github.com/WordPre
 開発者ノートが必要なものを知るために、[`Needs Dev Note`](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Needs+Dev+Note%22.) というラベルのついたすべてのプルリクエストをチェックできます。個々の投稿を書くことでコミュニティを情報で圧倒してしまうほど、多くのプルリクエストがあることに気付くかもしれません。このような場合、プルリクエストを同じラベルでグループ化し、グループごとに開発者ノートを提案します。
 
 <!--
-Once you have a sense of the needed dev notes, create a GitHub issue ([previous example](https://github.com/WordPress/gutenberg/issues/20185)) detailing the plan:
+Once you have a sense of the needed dev notes, create a GitHub issue ([previous example](https://github.com/WordPress/gutenberg/issues/20185)) detailing the plan: 
 -->
 
 必要な開発者ノートの種類がわかったら、GitHub の issue ([以前の例](https://github.com/WordPress/gutenberg/issues/20185)) に計画を詳細に記述します:
@@ -513,7 +513,7 @@ Once you have a sense of the needed dev notes, create a GitHub issue ([previous 
 <!--
 *   What posts need to be done 
 *   What are the essential sections of each post
-*   What PRs should be included in each
+*   What PRs should be included in each 
 -->
 
 *   どのような記事が必要か
@@ -521,26 +521,25 @@ Once you have a sense of the needed dev notes, create a GitHub issue ([previous 
 *   それぞれの記事にどのようなプルリクエストを入れるべきか
 
 <!--
-When doing so, ping the people with PRs needing dev notes to contribute to this effort. Ideally, your job should be to wrangle the updates from each PR author and plan the timeline for sharing each dev note so that you don’t share too many in a short time. Sharing target dates is recommended to help space out and plan appropriately.
+When doing so, ping the people with PRs needing dev notes to contribute to this effort. Ideally, your job should be to wrangle the updates from each PR author and plan the timeline for sharing each dev note so that you don’t share too many in a short time. Sharing target dates is recommended to help space out and plan appropriately. 
 -->
 
 その際、開発者ノートが必要なプルリクエストを持っている人たちに、作業に取り組むよう通知してください。あなたの理想的な仕事は、それぞれのプルリクエストの作成者からのアップデートを取りまとめ、各開発者ノートを共有するタイムラインを計画し、短期間にあまりにも多くの開発者ノートを共有しないようにすることです。適切な間隔と計画を立てるために、目標日を共有することをおすすめします。
 
 <!--
-Keep in mind that dev notes are extremely collaborative efforts requiring help from many people. This might mean that some people you need information from didn’t see the ping the first time or are unavailable to write a note. It’s okay and expected that follow-up will be required, likely in the form of additional pings or even DMs in Slack to get updates. When each section is done for each dev note, you can check the checkbox to show progress and help others see what’s left.
+Keep in mind that dev notes are extremely collaborative efforts requiring help from many people. This might mean that some people you need information from didn’t see the ping the first time or are unavailable to write a note. It’s okay and expected that follow-up will be required, likely in the form of additional pings or even DMs in Slack to get updates. When each section is done for each dev note, you can check the checkbox to show progress and help others see what’s left. 
 -->
 
 開発者ノートは共同作業であり、多くの異なる人々の助けが必要であることに注意してください。これは、あなたが情報を必要としている人の中には、最初の通知を見逃したり、ノートを書く時間がなかったりする人がいることを意味するかもしれません。追加の通知や Slack のダイレクトメールなどの形で、最新情報を入手するためのフォローアップが必要になるかもしれません。各開発者ノートの各セクションを書き終わったら、チェックボックスにチェックを入れて進捗を表示し、他の人が残りの内容を確認できるようにします。
 
 <!--
-As you compile each dev note, particularly if you combine multiple PRs into one dev note, ensure you share the posts with those involved for review so everyone is on the same page. Once there’s consensus, share the dev notes with those involved in the major release squad for a final review.
+As you compile each dev note, particularly if you combine multiple PRs into one dev note, ensure you share the posts with those involved for review so everyone is on the same page. Once there’s consensus, share the dev notes with those involved in the major release squad for a final review. 
 -->
 
 各開発者ノートをまとめる際、特に複数のプルリクエストを1つの開発者ノートにまとめる場合は、レビューのために関係者と投稿を共有して、全員が同じ認識を持つようにしてください。。そこで合意が得られたら、その開発者ノートをメジャーリリースチームの関係者と共有して、最終的なレビューを受けるようにしてください。
 
-
 <!--
-## General Triage Management
+## General triage management
 -->
 
 ## 一般的なトリアージ管理
@@ -594,7 +593,7 @@ After the first Beta, you can only include bug fixes for issues that regressed d
 ## 最初の WordPress ベータリリースの管理
 
 <!--
-**Beta 1 is a very significant deadline.**
+**Beta 1 is a very significant deadline.** 
 -->
 
 ### 最初のベータ版は非常に重要な期限です
@@ -630,7 +629,7 @@ In order to safely update the npm packages in Core, experimental Gutenberg featu
 コアの npm パッケージを安全に更新するには、コアに含める予定のない実験的な Gutenberg 機能を機能フラグから隠す必要があります。この目的のために `IS_GUTENBERG_PLUGIN` フラグが一般的に使用されます。またはインタラクティビティ API の[この例](https://github.com/WordPress/gutenberg/pull/52579)のように、特定の機能フィルターが使用される場合もあります。
 
 <!--
-**List PHP changes to be manually synced**
+**List PHP changes to be manually synced.**
 -->
 
 ### 手動で同期する PHP の変更をリストアップする
@@ -713,7 +712,7 @@ Once PRs on the project board are completed, they must be backported into the Co
     *   On [this page](https://github.com/WordPress/gutenberg/actions/workflows/publish-npm-packages.yml), click the “Run workflow” button and choose the release branch. The release type should be `wp`, and the release version should be added underneath.
     *   Once the workflow appears in the list below, click through to authorize it. If you don’t have `gutenberg-core` access, ask someone who does to approve it for you.
     *   This workflow will publish the npm packages with a dist tag corresponding to the release, which can then be used to select the correct package versions in Core.
-    -->
+-->
 
 *   `wp/x.x` (正しい WP リリース番号を使用してください) がまだ作成されていない場合は、作成してリモートリポジトリにプッシュしてください。
 *   [Backport to WP Beta/RC](https://github.com/WordPress/gutenberg/pulls?q=label%3A%22Backport+to+WP+Core%22+sort%3Acreated-desc+) というラベルがついたプルリクエストをすべてレビューしてください。すべてが期待通りかどうか、プルリクエストがコアリリースに入ることが「リスク」ではないかどうかを確認します。ガイダンスについては、エディターテックリードとコアテックリードに確認してください。

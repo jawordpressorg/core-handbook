@@ -86,8 +86,8 @@ For icon fonts, the font icon itself should have the aria-hidden attribute, with
 
 For SVG, the SVG should be inline, so that accessible information isn’t hidden from assistive technology. SVG elements should contain a `<title>` element with the accessible name of the image. For cross-technology support, the title element should be associated with the svg element via `aria-labelledby`. For maximum compatibility, all SVG elements used to represent an image should carry the role attribute with a value of ‘img’.
 
-If the SVG element is ornamental, then the title element should be omitted and no aria-labelledby attribute should be present. The SVG element should also carry the `aria-hidden` attribute.
-
+If the SVG element is ornamental, then the title element should be omitted and no aria-labelledby attribute should be present. The SVG element should also carry the `aria-hidden` attribute.  
+  
 [More information on SVG Accessibility](http://www.sitepoint.com/tips-accessible-svg/)
 
 ## Labeling

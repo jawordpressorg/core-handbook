@@ -113,7 +113,7 @@ We all start somewhere. If you’re having trouble getting involved with contrib
 皆、どこかしらから始めています。もし WordPress のコアへの貢献について悩んでいるなら、[Slack](https://chat.wordpress.org/) の [#core](https://make.wordpress.org/core/tag/core/) へ来てください。噛みついたりしませんよ😊
 
 <!--
-Note: If you’re interested in improving this handbook, leave a message in #core\-docs.
+If you’re interested in improving this handbook, leave a message in #core\-docs.
 -->
 
 \[info\]このハンドブックの改善に興味がある方は、#core\-docs にメッセージを残してください。\[/info\]

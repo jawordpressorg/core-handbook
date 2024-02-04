@@ -59,7 +59,7 @@ To add the merge info afterwards you can run `svn merge --record-only -c 12345 '
 マージ情報を後から追加するには、`svn merge --record-only -c 12345 '^/trunk'` を実行してください。
 
 <!--
-The branch commit message will generally be copied from the `trunk` commit(s), but adds a new line between `Props` and `Fixes` which says, “Merges \[`trunk changeset ID`\] to the 5.0 branch.” For an example, see [r43276](https://core.trac.wordpress.org/changeset/43276/).
+The branch commit message will largely be copied from the `trunk` commit(s) with a few updates. Please see the commit message documentation, especially the sections on [Merges and Reviewed By.](https://make.wordpress.org/core/handbook/best-practices/commit-messages/#reviewed-by-and-merges)
 -->
 
 ブランチのコミットメッセージは通常 `trunk` コミットからコピーされますが、`Props` と `Fixes` の間に「Merges \[`trunk changeset ID`] to the 5.0 branch.」という新しい行が追加されます。例としては、[r43276](https://core.trac.wordpress.org/changeset/43276/)を参照してください。

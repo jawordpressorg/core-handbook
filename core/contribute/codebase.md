@@ -157,7 +157,7 @@ Core committers do not make changes to WordPress lightly, and commits should nev
 コアコミッターは軽率に WordPress に変更を加えることはありませんし、既存のコードを完全に理解せずにコミットを行うべきではありません。もしそのコードがバグを引き起こすのであれば、それは常にそうだったのでしょうか ? いつ引き起こされたのでしょうか ? なぜでしょう ? 問題となっているコードは別のバグを修正するのでしょうか ? これらの質問は非常に重要です。
 
 <!--
-Note: To learn more about code history, read the section on [Researching Code History With Subversion Annotate](https://make.wordpress.org/core/handbook/svn/code-history/).
+To learn more about code history, read the section on [Researching Code History With Subversion Annotate](https://make.wordpress.org/core/handbook/svn/code-history/).
 -->
 
 \[info\]コードの履歴についてもっと知りたい方は、[コードの履歴を調べる](https://ja.wordpress.org/team/handbook/core/svn/code-history/)のセクションを参考にしてください。\[/info\]
@@ -222,7 +222,7 @@ Core developers generally distinguish between database “upgrades” and versio
 
 コア開発者は一般的に、データベースの「アップグレード」とバージョンの「更新」を区別しています。(ユーザーインタフェースを介して) WordPress を最新のコードベースに更新することは、一連の複雑なアクションを引き起こします。
 
-<!--
+<!-- 
 Prior to any update, WordPress has already polled **api.wordpress.org** to determine whether it needs to update, and if so, where to find the new version. Once the update is triggered, WordPress will download the ZIP archive and unzip it into a temporary directory in **wp-content/upgrade**. A single file, `wp-admin/includes/update-core.php`, will be copied out of the temporary directory and over the existing `wp-admin/includes/update-core.php`, at which point it will be executed. Thus, the newly downloaded code handles the main process of copying over the new files. This allows us to provide instructions specific to the new version, such as which files are old and can be removed.
 -->
 

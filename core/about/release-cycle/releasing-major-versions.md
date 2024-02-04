@@ -8,7 +8,7 @@
 Some things may be out of date, or unclear. If you have questions, reach out to a [prior release lead](https://make.wordpress.org/core/tag/release-lead/).
 -->
 
-古い情報や不明な点があるかもしれません。ご質問がある場合は、[先行リリースリード](https://make.wordpress.org/core/tag/release-lead/)までご連絡ください。
+\[alert\]古い情報や不明な点があるかもしれません。ご質問がある場合は、[先行リリースリード](https://make.wordpress.org/core/tag/release-lead/)までご連絡ください。\[/alert\]
 
 <!--
 Congratulations! You’re a release lead for WordPress! The next few months of your life will be a whirlwind of excitement, frustration, and fun. Leading a WordPress release isn’t *easy*, but you’ll have a great time anyway.
@@ -87,7 +87,7 @@ There are a [number of roles and responsibilities](https://make.wordpress.org/co
 リリースの間には[いくつもの役割と責任](https://ja.wordpress.org/team/handbook/core/about/release-cycle/wordpress-release-team-and-focus-leads/)があります。実際には、そのサイクルのリリースコーディネーターがいない場合、リリースリードとそのサブリードがリリースサイクル全体のプロジェクトマネージャー (およびテクニカルプロジェクトマネージャー) として活動します。そうでない場合は、リリースコーディネーターが、結束力のあるリリースチームによってさまざまな部分が適切にカバーされるようにします。
 
 <!--
-**Important note:** Much of the tasks listed in this handbook page are done by those who act as “mission control” or MC. These are a very specific set of folks with a particular ability to perform larger meta\-tasks for the project. If you’re not sure how to do something or don’t have access, it’s likely a task for those folks to handle.
+**Important note:** Much of the tasks listed in this handbook page are done by those who act as “mission control” or MC. These are a very specific set of folks with a particular ability to perform larger meta\-tasks for the project. If you’re not sure how to do something or don’t have access, it’s likely a task for those folks to handle. 
 -->
 
 **重要な注意事項:** このハンドブックのページに記載されているタスクの多くは、「ミッションコントロール」または MC として行動する人々によって行われます。これらは、プロジェクトのためのより大きなメタタスクを実行する、特定の能力を持った人々のための非常に特別なセットです。もしやり方がわからなかったり、アクセスできなかったりした場合は、そのような人たちが処理するタスクである可能性が高いでしょう。
@@ -283,6 +283,7 @@ A Release Candidate version is released as the last stage of the release cycle b
 *   The [process for an RC release](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) is well-documented on a separate handbook page.
 *   Following the first release candidate a branch for the release can be created so that early work on trunk can begin for the next release.
 *   An announcement should be made on Make Core about the release candidate phase ([example from 6.0](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) and the various above protocols in order to better amplify this specific part of the release cycle and prepare the community.
+*   At this point, two Make Core posts should be published to begin gathering nominations for folks interested and able to (1) participate in the Minor Release Squad that follows this major release cycle and to (2) participate in the Major Release Square that’s up next.
 -->
 
 *   [翻訳文字列のハードフリーズ](https://make.wordpress.org/polyglots/handbook/glossary/#hard-freeze)がリリース候補のフェーズで有効になります。これは、アプリケーションの文字列が、アバウトページのテキストを含めて、もはや変更できないことを意味します。
@@ -291,6 +292,7 @@ A Release Candidate version is released as the last stage of the release cycle b
 *   [RC リリースのプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-beta-versions/)については、別のハンドブックのページに詳しく書かれています。
 *   最初のリリース候補に続いてリリース用のブランチを作成し、次のリリースに向けて trunk の初期作業を開始できるようにします。
 *   リリースサイクルの特定の部分をより明確にし、コミュニティを準備するために、リリース候補のフェーズ ([6.0の例](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) と上記のさまざまなプロトコルについて Make Core でアナウンスする必要があります。
+*   At this point, two Make Core posts should be published to begin gathering nominations for folks interested and able to (1) participate in the Minor Release Squad that follows this major release cycle and to (2) participate in the Major Release Square that’s up next.
 
 ### translate.WordPress.org
 
@@ -332,13 +334,11 @@ At this point, once the milestone is mostly clear, a branch for the release can 
 
 <!--
 *   `src/wp-includes/version.php`
-*   Both NPM files: `package.json` and `package-lock.json`
-*   In trunk, update the `SECURITY.md` file to include the newly created branch in the list of versions receiving security updates
+*   Both NPM files: `package.json` and `package-lock.json`. **Note:** the `package-lock.json` file must not be edited manually. Change the version specified in `package.json` and run `npm install` to update the lock file.
 -->
 
 *   `src/wp-includes/version.php`
-*   両方の NPM ファイル: `package.json` と `package-lock.json`
-*   trunk では、`SECURITY.md` ファイルを更新して、新しく作成したブランチをセキュリティアップデートを受けているバージョンのリストに含めます
+*   Both NPM files: `package.json` and `package-lock.json`. **Note:** the `package-lock.json` file must not be edited manually. Change the version specified in `package.json` and run `npm install` to update the lock file.
 
 <!--
 When branching before a release, there are two important things that need setting after branching has taken place. Ideally these should be done before any development work on trunk begins.
@@ -358,11 +358,12 @@ When branching before a release, there are two important things that need settin
 *   翻訳: ベータ/RC パッケージ用のブランチを使うように [/home/wporg/public_html/translate/bin/update-all-core-packs.sh](https://dotorg.trac.wordpress.org/browser/wordpress/website/translate/bin/update-all-core-packs.sh) を更新します。
 *   翻訳: `wp/dev` プロジェクト用のブランチを使用するように [/home/rosetta/public_html/wp-content/mu-plugins/rosetta/rosetta.php](https://dotorg.trac.wordpress.org/browser/wordpress/rosetta/website/wp-content/mu-plugins/rosetta/rosetta.php) を更新します。
 
-<!--
-After branching is performed, the Test Old Branches GitHub Actions workflow needs to be updated. As an example, here is a [PR that would update the workflow file after 5.8 is branched](https://github.com/WordPress/wordpress-develop/pull/1199).
--->
+After branching is performed, there are a few additional tasks that need to take place:
 
-ブランチが実行された後、Test Old Branches GitHub Actions ワークフローを更新する必要があります。例として、[5.8がブランチされた後にワークフローファイルを更新する PR](https://github.com/WordPress/wordpress-develop/pull/1199) を示します。
+*   In trunk, update the `SECURITY.md` file to include the newly created branch in the list of versions receiving security updates.
+*   The Test Old Branches GitHub Actions workflow needs to be updated. As an example, here is a [PR that would update the workflow file after 5.8 is branched](https://github.com/WordPress/wordpress-develop/pull/1199). The needed changes should only be applied to `trunk`. This workflow only runs within the primary branch, so the newly created branch does not need to be updated.
+*   The `.env` file in the new branch should be updated.
+    *   Change the `LOCAL_PHP` value from `latest` to the highest version of PHP supported in that release. This helps avoid test failures in the future when the PHP version associated with the `latest` Docker container is changed.
 
 <!--
 ## Pre Final Release

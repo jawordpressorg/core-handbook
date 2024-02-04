@@ -5,7 +5,7 @@
 # コードリポジトリ (SVN)
 
 <!--
-Alert: WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
+WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
 -->
 
 \[alert\]WordPress は、[GIT](https://ja.wordpress.org/team/handbook/core/contribute/git/) と SVN の両方から作成されるパッチをサポートしています。このドキュメントは、Git オプションにフォーカスしています。\[/alert\]

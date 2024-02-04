@@ -39,7 +39,7 @@ Summaries (formerly Short Descriptions) should be clear, simple, and brief. Avoi
 
 A function, hook, class, or method is a *third-person singular* element, meaning that *third-person singular verbs* should be used to describe what each does.
 
-Tip: Need help remembering how to conjugate for third-person singular verbs? Imagine prefixing the function, hook, class, or method summary with “It”:
+Need help remembering how to conjugate for third-person singular verbs? Imagine prefixing the function, hook, class, or method summary with “It”:
 
 *   *Good:* “(It) Does something.”
 *   *Bad:* “(It) Do something.”
@@ -74,8 +74,8 @@ Anything ported over from WPMU should use `@since MU (3.0.0)`. Existing `@since 
 
 ### Formatting Guidelines
 
-Note:
-WordPress’ inline documentation standards for PHP are specifically tailored for optimum output on the [official Code Reference](https://developer.wordpress.org/reference/). As such, following the standards in core and formatting as described below are *extremely* important to ensure expected output.
+  
+WordPress’ inline documentation standards for PHP are specifically tailored for optimum output on the [official Code Reference](https://developer.wordpress.org/reference/). As such, following the standards in core and formatting as described below are *extremely* important to ensure expected output.  
 
 #### General
 
@@ -491,112 +491,41 @@ Common PHPDoc tags used in WordPress include `@since`, `@see`, `@global` `@param
 
 For the most part, tags are used correctly, but not all the time. For instance, sometimes you’ll see an `@link` tag inline, linking to a separate function or method. “Linking” to known classes, methods, or functions is not necessary, as the Code Reference automatically links these elements. For “linking” hooks inline, the proper tag to use is `@see` – see the *Other Descriptions* section.
 
-<table>
-<tbody>
-<tr>
-<th>Tag</th>
-<th>Usage</th>
-<th>Description</th>
-</tr>
-<tr>
-<td><strong>access</strong></td>
-<td>private</td>
-<td>Only used in limited circumstances, and only when private, such as for core-only functions or core classes implementing “private” APIs. Used directly below the <strong>since</strong> line in block.</td>
-</tr>
-<tr>
-<td><strong>deprecated</strong></td>
-<td>version x.x.x<br>replacement function name</td>
-<td>What version of WordPress the function/method was deprecated. Use 3-digit version number. Should be accompanied by a matching <code>@see</code> tag.</td>
-</tr>
-<tr>
-<td><strong>global</strong></td>
-<td>datatype $variable<br>description</td>
-<td>Document global(s) used in the function/method. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr>
-<tr>
-<td><strong>internal</strong></td>
-<td>information string</td>
-<td>Typically used for adding notes for internal use only.</td>
-</tr>
-<tr>
-<td><strong>ignore</strong></td>
-<td>(standalone)</td>
-<td>Used to skip parsing of the entire element.</td>
-</tr>
-<tr>
-<td><strong>link</strong></td>
-<td>URL</td>
-<td>Link to additional information for the function/method.<br>For an external script/library, links to source.<br>Not to be used for related functions/methods; use <strong>see</strong> instead.</td>
-</tr>
-<tr>
-<td><strong>method</strong></td>
-<td>returntype<br>description</td>
-<td>Shows a “magic” method found inside the class.</td>
-</tr>
-<tr>
-<td><strong>package</strong></td>
-<td>packagename</td>
-<td>Specifies package that all functions, includes, and defines in the file belong to. Found in DocBlock at top of the file. For core (and bundled themes), this is always <strong>WordPress</strong>.</td>
-</tr>
-<tr>
-<td><strong>param</strong></td>
-<td>datatype $variable<br>description</td>
-<td>Function/method parameter of the format: parameter type, variable name, description, default behavior. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr>
-<tr>
-<td><strong>return</strong></td>
-<td>datatype description</td>
-<td>Document the return value of functions or methods. <code>@return void</code> should not be used outside of the default bundled themes. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr>
-<tr>
-<td><strong>see</strong></td>
-<td>elementname</td>
-<td>References another function/method/class the function/method relies on. Should only be used inline for “linking” hooks.</td>
-</tr>
-<tr>
-<td><strong>since</strong></td>
-<td>version x.x.x</td>
-<td>Documents release version function/method was added. Use 3-digit version number – this is to aid with version searches, and for use when comparing versions in code. Exception is <code>@since MU (3.0.0)</code>.</td>
-</tr>
-<tr>
-<td><strong>@static</strong></td>
-<td>(standalone)</td>
-<td>Note: This tag has been used in the past, but should no longer be used.<br>Just using the static keyword in your code is enough for PhpDocumentor on PHP5 to recognize static variables and methods, and PhpDocumentor will mark them as static.</td>
-</tr>
-<tr>
-<td><strong>@staticvar</strong></td>
-<td>datatype $variable<br>description</td>
-<td>Note: This tag has been used in the past, but should no longer be used.<br>Document a static variable’s use in a function/method. For boolean and integer types, use <code>bool</code> and <code>int</code>, respectively.</td>
-</tr>
-<tr>
-<td><strong>subpackage</strong></td>
-<td>subpackagename</td>
-<td>For page-level DocBlock, specifies the Component that all functions and defines in file belong to. For class-level DocBlock, specifies the subpackage/component the class belongs to.</td>
-</tr>
-<tr>
-<td><strong>todo</strong></td>
-<td>information string</td>
-<td>Documents planned changes to an element that have not been implemented.</td>
-</tr>
-<tr>
-<td><strong>type</strong></td>
-<td>datatype description for an argument array value</td>
-<td>Used to denote argument array value types. See the <strong>Hooks</strong> or <strong>Parameters That Are Arrays</strong> sections for example syntax.</td>
-</tr>
-<tr>
-<td><strong>uses</strong></td>
-<td>class::methodname()<br>class::$variablename<br>functionname()</td>
-<td><strong>Note:</strong> This tag has been used in the past, but should no longer be used.<br>References a key function/method used. May include a short description.</td>
-</tr>
-<tr>
-<td><strong>var</strong></td>
-<td>datatype description</td>
-<td>Data type for a class variable and short description. Callbacks are marked <strong>callback</strong>.</td>
-</tr>
-</tbody>
-</table>
+| Tag | Usage | Description |
+| --- | --- | --- |
+| **access** | private | Only used in limited circumstances, and only when private, such as for core-only functions or core classes implementing “private” APIs. Used directly below the **since** line in block. |
+| **deprecated** | version x.x.x  
+replacement function name | What version of WordPress the function/method was deprecated. Use 3-digit version number. Should be accompanied by a matching `@see` tag. |
+| **global** | datatype $variable  
+description | Document global(s) used in the function/method. For boolean and integer types, use `bool` and `int`, respectively. |
+| **internal** | information string | Typically used for adding notes for internal use only. |
+| **ignore** | (standalone) | Used to skip parsing of the entire element. |
+| **link** | URL | Link to additional information for the function/method.  
+For an external script/library, links to source.  
+Not to be used for related functions/methods; use **see** instead. |
+| **method** | returntype  
+description | Shows a “magic” method found inside the class. |
+| **package** | packagename | Specifies package that all functions, includes, and defines in the file belong to. Found in DocBlock at top of the file. For core (and bundled themes), this is always **WordPress**. |
+| **param** | datatype $variable  
+description | Function/method parameter of the format: parameter type, variable name, description, default behavior. For boolean and integer types, use `bool` and `int`, respectively. |
+| **return** | datatype description | Document the return value of functions or methods. `@return void` should not be used outside of the default bundled themes. For boolean and integer types, use `bool` and `int`, respectively. |
+| **see** | elementname | References another function/method/class the function/method relies on. Should only be used inline for “linking” hooks. |
+| **since** | version x.x.x | Documents release version function/method was added. Use 3-digit version number – this is to aid with version searches, and for use when comparing versions in code. Exception is `@since MU (3.0.0)`. |
+| **@static** | (standalone) | Note: This tag has been used in the past, but should no longer be used.  
+Just using the static keyword in your code is enough for PhpDocumentor on PHP5 to recognize static variables and methods, and PhpDocumentor will mark them as static. |
+| **@staticvar** | datatype $variable  
+description | Note: This tag has been used in the past, but should no longer be used.  
+Document a static variable’s use in a function/method. For boolean and integer types, use `bool` and `int`, respectively. |
+| **subpackage** | subpackagename | For page-level DocBlock, specifies the Component that all functions and defines in file belong to. For class-level DocBlock, specifies the subpackage/component the class belongs to. |
+| **todo** | information string | Documents planned changes to an element that have not been implemented. |
+| **type** | datatype description for an argument array value | Used to denote argument array value types. See the **Hooks** or **Parameters That Are Arrays** sections for example syntax. |
+| **uses** | class::methodname()  
+class::$variablename  
+functionname() | **Note:** This tag has been used in the past, but should no longer be used.  
+References a key function/method used. May include a short description. |
+| **var** | datatype description | Data type for a class variable and short description. Callbacks are marked **callback**. |
 
-Note:  PHPDoc tags work with some text editors/IDEs to display more information about a piece of code. It is useful to developers using those editors to understand what the purpose is, and where they would use it in their code. PhpStorm and Netbeans already support PHPDoc.
+PHPDoc tags work with some text editors/IDEs to display more information about a piece of code. It is useful to developers using those editors to understand what the purpose is, and where they would use it in their code. PhpStorm and Netbeans already support PHPDoc.
 
 The following text editors/IDEs have extensions/bundles you can install that will help you auto-create DocBlocks:
 
@@ -604,7 +533,7 @@ The following text editors/IDEs have extensions/bundles you can install that wil
 *   TextMate: [php.tmbundle](https://github.com/textmate/php.tmbundle) (Mac)
 *   SublimeText: [sublime packages](https://packagecontrol.io/search/phpdoc) (Windows, Mac, Linux)
 
-Note: Even with help generating DocBlocks, most code editors don’t do a very thorough job – it’s likely you’ll need to manually fill in certain areas of any generated DocBlocks.
+Note: Even with help generating DocBlocks, most code editors don’t do a very thorough job – it’s likely you’ll need to manually fill in certain areas of any generated DocBlocks.  
 
 ### Deprecated Tags
 

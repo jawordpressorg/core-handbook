@@ -5,7 +5,7 @@
 # ユーザビリティ
 
 <!--
-Alert: This document is a working draft.
+This document is a working draft.
 -->
 
 \[alert\]このドキュメントは作業草案です。\[/alert\]

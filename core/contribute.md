@@ -5,7 +5,7 @@
 # コードによる貢献
 
 <!--
-Alert: This page is being actively worked on, expanded, and improved.
+This page is being actively worked on, expanded, and improved.
 -->
 
 \[alert\]このページはまだ下書きで、執筆中です。\[/alert\]
@@ -17,7 +17,7 @@ Thank you for your interest in contributing to WordPress! This Quick Start Guide
 WordPress への貢献に興味を持っていただきありがとうございます。WordPress コアへのコード貢献のためのこのクイックスタートガイドは、最初のパッチを提出するために必要なすべてのリソースを見つけることができる、中心的なハブとなっています。
 
 <!--
-Note: Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
+Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
 -->
 
 \[info\]WordPress の別のパートに貢献することに興味がありますか ? [make.wordpress.org](https://make.wordpress.org) で、WordPress に貢献できるさまざまな方法をご覧ください。\[/info\]
@@ -29,7 +29,7 @@ This guide is geared toward new contributors, giving you quick access to resourc
 このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しい貢献者とベテランの貢献者のコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
 
 <!--
-Tip: There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress. in SlackSlack Slack is a Collaborative Group Chat Platform [https://slack.com/](https://slack.com/). The WordPress community has its own Slack Channel at [https://make.wordpress.org/chat/](https://make.wordpress.org/chat/). and ask away.
+There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
 -->
 
 \[tip\]間違った質問はありません。WordPress コミュニティは、いつでも喜んでお手伝いします。途中で疑問に思ったことはありませんか ? Slack の #core に参加して、どんどん質問してください。\[/tip\]
@@ -83,7 +83,7 @@ One of the best places to find contributors is at WordCamps, where you shouldn�
 ## コミッター
 
 <!--
-Alert:  This section needs to be expanded. Perhaps we should also include a link to [Nacin’s post](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/).
+ This section needs to be expanded. Perhaps we should also include a link to [Nacin’s post](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/).
 -->
 
 \[alert\]このページは執筆中です。[Nacin の投稿](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/)へのリンクも載せるべきかもしれません。\[/alert\]
@@ -313,7 +313,7 @@ WordPress development happens through our official SVN and GIT repositories. As 
 WordPress の開発は、私たちの公式な SVN および Git リポジトリで行われます。そのため、GitHub からのプルリクエスト (PR) を監視したり、受け入れることはありません。しかし、Git リポジトリからパッチを作成し、チケットに添付できます。そのためには、
 
 <!--
-Alert: We need to add information on creating a Git patch here.
+We need to add information on creating a Git patch here.
 -->
 
 \[alert\]ここに Git パッチを作成するための情報を追加する必要があります。\[/alert\]
@@ -343,7 +343,7 @@ As an example, look at [/wp-admin/media.php](https://core.trac.wordpress.org/bro
 ### ユニットテスト
 
 <!--
-Alert: This section needs to be created.
+This section needs to be created. 
 -->
 
 \[alert\]このセクションを作成する必要があります。\[/alert\]
@@ -427,7 +427,7 @@ Sometimes, tickets and patches don’t get the attention they need and linger in
 ## ミーティング
 
 <!--
-Alert:  This section needs to be created.
+ This section needs to be created.
 -->
 
 \[alert\]このセクションを作成する必要があります。\[/alert\]

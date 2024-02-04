@@ -5,7 +5,7 @@
 # コードリポジトリ (Git)
 
 <!--
-Alert: Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
+Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
 -->
 
 \[alert\]WordPress の貢献者は、**Git** または [SVN](https://ja.wordpress.org/team/handbook/core/contribute/svn/) で作成したパッチを提出できます。このドキュメントは、**Git** オプションにフォーカスしています。\[/alert\]

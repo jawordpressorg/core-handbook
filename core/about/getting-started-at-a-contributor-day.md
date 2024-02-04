@@ -161,8 +161,8 @@ The first step is to get set up with a local environment:
 最初のステップは、ローカル環境をセットアップすることです。
 
 <!--
-1\. Install SVN: [Installing a VCS](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)
-2\. Install a local server: [Mac](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/) | [Windows](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/) | [Windows](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-wampserver/) (alternative)
+1\. Install SVN: [Installing a VCS](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/)  
+2\. Install a local server: [Mac](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/) | [Windows](https://make.wordpress.org/core/handbook/installing-a-local-server/installing-xampp/) | [Windows](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/) (alternative)  
 3\. [Check out the WordPress codebase using SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 -->
 
@@ -221,7 +221,7 @@ Some easy tasks for a first time contributor to get started at a contributor day
 
 <!--
 *   Check the [good first bug tag](https://core.trac.wordpress.org/query?status=!closed&keywords=~good-first-bug) for easy wins
-*   Update the [Inline Docs](https://make.wordpress.org/docs/handbook/core/inline-docs/)
+*   Update the [Inline Docs](https://developer.wordpress.org/coding-standards/inline-documentation-standards/)
 *   Work on the user interface, check out the [UI focus](https://core.trac.wordpress.org/focus/ui)
 *   Provide [Developer feedback](https://core.trac.wordpress.org/tickets/dev-feedback)
 *   Provide [Design feedback](https://core.trac.wordpress.org/tickets/ux-feedback)
@@ -274,7 +274,7 @@ npm のバージョンが最新かどうかわからない場合は、以下の�
 *    Docker – https://docs.docker.com/install/
 
 <!--
-A handy guide to setting up your local environment can be found in [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/master/CONTRIBUTING.md) in the Gutenberg github repository. There you will find commands to help get your local environment up and running.
+A handy guide to setting up your local environment can be found in [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/trunk/CONTRIBUTING.md) in the Gutenberg github repository. There you will find commands to help get your local environment up and running.  
 -->
 
 Gutenberg の GitHub リポジトリにある [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/master/CONTRIBUTING.md) に、ローカル環境を構築するための便利なガイドがあります。そこには、ローカル環境の起動と実行に役立つコマンドが記載されています。

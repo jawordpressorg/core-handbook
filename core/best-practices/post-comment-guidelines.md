@@ -200,6 +200,10 @@ When writing up an idea aimed at generating feedback and assessing a potential c
 
 コア貢献者コミュニティからフィードバックを得て、変更の可能性を評価することを目的としてアイデアを書き上げる場合、書かれていることが提案であり最終決定ではないことを明確にすることが重要です。これを達成するために、提案はタイトルの最初に「提案」という単語を含み、最終決定がまだなされていないことを説明する文章を本文に含めなければなりません。
 
+### Comments on Posts
+
+Comments on posts will automatically close after 180 days (about 6 months). If you need to keep comments open, you can use the tag `#keep-comments-open` but this should only be used with a specific timeframe in mind rather than allowing comments to stay open forever.
+
 <!--
 ## Comments
 -->

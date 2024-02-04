@@ -83,10 +83,6 @@ Some workflows require more set-up than others, when in doubt, we recommend you 
 4.  Composer を使わずに PHPUnit PHAR ファイルを実行する
 
 <!--
-Note:
--->
-
-<!--
 **Pre-requisite for non-Docker workflows:**
 -->
 
@@ -351,10 +347,10 @@ Once the PHPUnit PHAR and Polyfills are installed, you can run the tests from th
 PHPUnit PHAR とポリフィルをインストールしたら、コマンドラインから次のコマンドを使用してテストを実行できます: `[path/to/]phpunit`
 
 <!--
-Note: If you use this workflow, please ensure you keep your local clone of the PHPUnit Polyfills up to date.
+If you use this workflow, please ensure you keep your local clone of the PHPUnit Polyfills up to date.  
 -->
 
-備考: このワークフローを使用する場合は、PHPUnit ポリフィルのローカルクローンを常に最新の状態にしておくようにしましょう。
+\[info\]このワークフローを使用する場合は、PHPUnit ポリフィルのローカルクローンを常に最新の状態にしておくようにしましょう。\[/info\]
 
 <!--
 ## Running the Test Suite
@@ -363,22 +359,18 @@ Note: If you use this workflow, please ensure you keep your local clone of the P
 ## テストスイートの実行
 
 <!--
-Note:
--->
-
-備考:
-
-<!--
 Once you have chosen your preferred workflow and set up your machine according to the above instructions, you can run the tests via the command listed with your preferred workflow above.
 -->
-
-好みのワークフローを選び、上記の手順に従ってマシンをセットアップしたら、上記の好みのワークフローに記載されているコマンドでテストを実行できます。
 
 <!--
 All examples below will use `phpunit`. Replace this with your workflow specific command for running these examples locally.
 -->
 
+\[info\]
+好みのワークフローを選び、上記の手順に従ってマシンをセットアップしたら、上記の好みのワークフローに記載されているコマンドでテストを実行できます。
+
 以下のすべての例では `phpunit` を使用します。これらの例をローカルで実行する場合は、このコマンドをワークフロー固有のコマンドに置き換えてください。
+\[/info\]
 
 <!--
 You should see output that looks roughly like the following:
@@ -428,10 +420,10 @@ What each symbol means:
 *   `I` は、テストが不完全である、たとえばまだ実装されていないことを意味します。
 
 <!--
-Note: On Windows and seeing weird codes in your command-line screen output? Try running with `--colors=never`.
+On Windows and seeing weird codes in your command-line screen output? Try running with `--colors=never`.
 -->
 
-備考: Windows で、コマンドラインの画面出力に奇妙なコードが表示されていますか ? `--colors=never` で実行してみてください。
+\[info\]Windows で、コマンドラインの画面出力に奇妙なコードが表示されていますか ? `--colors=never` で実行してみてください。\[/info\]
 
 <!--
 ### Running Specific Tests
@@ -494,22 +486,18 @@ OK (229 tests, 417 assertions)
 ```
 
 <!--
-Note:
--->
-
-備考:
-
-<!--
 Many tests are marked with a `@ticket` annotation, which indicates they were the result of that WordPress Trac ticket.
 -->
-
-多くのテストには `@ticket` というアノテーションがついており、WordPress の Trac チケットの結果であることを示しています。
 
 <!--
 The `@ticket` annotation is an alias for the `@group` annotation, so any tests linked to any individual Trac ticket can be run by passing the Trac ticket number as the “group”.
 -->
 
+\[info\]
+多くのテストには `@ticket` というアノテーションがついており、WordPress の Trac チケットの結果であることを示しています。
+
 `@ticket` アノテーションは `@group` アノテーションのエイリアスであるため、Trac チケット番号を「group」として渡すことで、個々の Trac チケットにリンクされたテストを実行できます。
+\[/info\]
 
 <!--
 To view all groups:

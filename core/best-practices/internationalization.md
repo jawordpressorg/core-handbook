@@ -5,7 +5,7 @@
 # 国際化 (i18n)
 
 <!--
-Alert: This page is still a draft and being actively written.
+This page is still a draft and being actively written.
 -->
 
 \[alert\]このページはまだ下書きで、執筆中です。\[/alert\]

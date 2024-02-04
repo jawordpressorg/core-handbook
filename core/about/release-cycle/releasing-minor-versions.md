@@ -163,7 +163,7 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   start by making an announcement (using the `/here` Slack command) welcoming people to the release party
     *   post a request that committers hold off on any commits until the conclusion of the release, for example: `@committers please refrain from committing during the release process`.
 *   Version bumps need to be committed on all relevant branches. [Here’s an example.](https://core.trac.wordpress.org/changeset/44078) Any core committer can do this step. When committing a version bump on the most recent branch please update both the version.php and about.php files. The package.json file should already be updated for the current branch but will need to be updated for any previous branches ([example](https://core.trac.wordpress.org/changeset/39862)).
-    *   `package.json` has a single simple bump to `X.Y.Z`.
+    *   `package.json` has a single simple bump to `X.Y.Z` (this will likely already be correct, due to the post-release version bump described later in this doc).
     *   `version.php` has one bump to `X.Y.Z-src`. Note the `-src` suffix that should always be included when committing to develop.svn.
     *   `about.php` needs a number bump to `Z` in the “Maintenance and Security Release(s)” heading and a paragraph added describing the changes in the release, using existing strings as defined at the bottom. These strings differ from branch to branch, so please make sure to use the ones from the correct version. It is easiest to copy and paste the appropriate paragraph from elsewhere. If this is the first minor release for a branch, there is also a wrapping div and the aforementioned `h3` to add after the nav tabs. Make note of the possible string combinations for single and multiple security and/or bug fixes. Checkout [a more complete explanation](#selecting-strings) of the differences.
     *   Prepare these changes well in advance and ask for a review. This will help avoid hold-ups during the release process. The version bump and about page can be committed together, they do not need to be separate.
@@ -187,11 +187,10 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   Add [minor release version page](https://wordpress.org/support/wordpress-version/version-5-7-1/) with the [file diff list](https://codex.wordpress.org/Template:Release) and the link to the news post.
     *   Add version info and link to version page on [WordPress Versions](https://wordpress.org/support/article/wordpress-versions/).
 *   Update the Codex [CurrentVersion Template](https://codex.wordpress.org/Template:CurrentVersion) with the new version.
-*   Add new versions to the Codex [WordPress Versions](https://codex.wordpress.org/WordPress_Versions) page.
 *   If there were any changes to the REST API, update the [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) over at dev hub.
 *   In Trac, create (a) [new milestone](https://core.trac.wordpress.org/admin/ticket/milestones)(s) for `X.Y.Z+1` and mark the old milestone(s) as completed. This must be done by a Trac admin.
 *   In Trac, create a [new version](https://core.trac.wordpress.org/admin/ticket/versions) for the `X.Y.Z+1` release (including the most recent branch with backports). Delete the date from the `Released` date field. This too must be done by a Trac admin.
-*   Bump the latest stable branch version to `X.Y.Z+1-alpha-$REVNUM-src` along with the corresponding `package.json` and readme changes.
+*   Bump the latest stable branch version to `X.Y.Z+1-alpha-$REVNUM-src` and the `package.json` version to `X.Y.Z+1` for the next release. After updating, you will also need to run `npm install` to update the `package-lock.json` fie ([example commit](https://core.trac.wordpress.org/changeset/56924)).
 *   Rebuild the latest stable branch’s nightly
 -->
 
@@ -223,7 +222,6 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   [マイナーリリース版ページ](https://wordpress.org/support/wordpress-version/version-5-7-1/)に[ファイルの差分リスト](https://codex.wordpress.org/Template:Release)とニュース記事へのリンクを追加します。
     *   [WordPress Versions](https://wordpress.org/support/article/wordpress-versions/) にバージョン情報とバージョンページへのリンクを追加します。
 *   Codex の [CurrentVersion テンプレート](https://codex.wordpress.org/Template:CurrentVersion)を新しいバージョンに更新します。
-*   Codex [WordPress Versions](https://codex.wordpress.org/WordPress_Versions) ページに新しいバージョンを追加します。
 *   REST API に変更があった場合は、dev hub の [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) を更新してください。
 *   Trac で、`X.Y.Z+1` の[新しいマイルストーン](https://core.trac.wordpress.org/admin/ticket/milestones)を作成し、古いマイルストーンを完了としてマークしてください。これは Trac の管理者が行う必要があります。
 *   Trac で、`X.Y.Z+1` リリース (バックポートを含む最新のブランチ) の[新しいバージョン](https://core.trac.wordpress.org/admin/ticket/versions)を作成してください。`Released` 日付フィールドから日付を削除してください。これも Trac の管理者が行う必要があります。

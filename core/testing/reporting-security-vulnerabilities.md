@@ -165,7 +165,7 @@ In WordPress Multisite, only Super Admins can publish unfiltered HTML, as all ot
 WordPress のマルチサイトでは、(サイト管理者を含む) 他のすべてのユーザーは信頼できないとみなされ、特権管理者のみがフィルタリングされていない HTML を公開できます。
 
 <!--
-To disable unfiltered HTML for all users, including administrators, you can add `define( 'DISALLOW_UNFILTERED_HTML', true );` to `wp-config.php`.
+To disable unfiltered HTML for all users, including administrators, you can add `define( 'DISALLOW_UNFILTERED_HTML', true );` to `wp-config.php`.
 -->
 
 管理者を含むすべてのユーザーに対してフィルタリングされていない HTML を無効にするには、`wp-config.php` に `define( 'DISALLOW_UNFILTERED_HTML', true );` を追加します。
