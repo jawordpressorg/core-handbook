@@ -10,7 +10,6 @@ A group of contributors from different Make teams leads each WordPress release c
 
 異なる Make チームからの貢献者のグループが、WordPress の各リリースサイクルをリードしています。
 
-
 <!--
 A release cycle usually lasts around 4 months, from the initial scoping meeting to the launch of the version.
 -->
