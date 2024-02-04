@@ -320,9 +320,8 @@ An example asynchronous triage session held during the WordPress 6.3 release cyc
 
 WordPress 6.3のリリースサイクル中に開催された非同期トリアージセッションの例。
 
-### Assigning tasks from the board
 <!--
-**Assigning Tasks From the Board**
+### Assigning tasks from the board
 -->
 
 #### ボードからのタスクを割り当てる
