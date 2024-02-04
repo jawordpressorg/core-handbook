@@ -1,3 +1,6 @@
+> **Note**
+> 「Host script based on Beta releases (ベータリリースにもとづく開催スクリプト)」のセクションは、GitHub 原文ではセル内で改行されており、またインラインハイライトが使用されています。どちらもマークダウン上では利用出来ないため、セル内の改行については `<br />` タグに置き換えています。このセクションの更新を WordPres ページに反映するときは、原文を参照の上、適切に改行・ハイライトを行って下さい。
+
 <!--
 # Hosting Release Parties
 -->
@@ -33,9 +36,6 @@ Note: Some or all of these roles may be performed by the same contributor, depen
 -->
 
 備考: これらの役割の一部または全部は、都合により同じ貢献者が行う場合があります。
-
-> **Note**
-> 「Host script based on Beta releases (ベータリリースにもとづく開催スクリプト)」のセクションは、GitHub 原文ではセル内で改行されており、またインラインハイライトが使用されています。どちらもマークダウン上では利用出来ないため、セル内の改行については `<br />` タグに置き換えています。このセクションの更新を WordPres ページに反映するときは、原文を参照の上、適切に改行・ハイライトを行って下さい。
 
 <!--
 *   **A Party Host** (referred to as `@emcee` in this document). Typically, this is one of the release coordinators. If a release coordinator is not available, an alternate from the release squad can fill in. As a last resort, the role can be filled by a trusted contributor not part of the current squad.
