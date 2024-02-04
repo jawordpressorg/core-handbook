@@ -354,50 +354,6 @@ No string changes should happen after RC1, but exceptions are made, for example 
 
 RC1以降に文字列の変更は行うべきではありませんが、技術的に不正確な場合などは例外が発生します。
 
-## Development
-
-While the “About page” typically means `/wp-admin/about.php`, the updates in this ticket usually also apply to the whole section, `/wp-admin/contribute.php`, `/wp-admin/credits.php`, `/wp-admin/freedoms.php`, and `/wp-admin/privacy.php`. The content on the other pages rarely changes.
-
-Once a content draft & layout have been signed off by the marketing & design teams, the page can begin in code.
-
-### Copy content from the doc
-
-Lay the content out in sections & columns to match the design. Make sure to wrap content in translation functions. If there are links, use `printf` and placeholders, and maybe translate the destination link too.
-
-### Update the color custom properties
-
-If the colors have changed, update these in `/css/about.css`. Sometimes some color properties are not used, you can leave them alone — some are used on other pages (for example, contribute uses `has-subtle-background-color`). Use the [about-patterns plugin](https://github.com/ryelle/about-patterns) to help test out your CSS changes.
-
-### Export assets from Figma
-
-The following are exported as SVG and saved locally. Use something like [svgomgui](https://jakearchibald.github.io/svgomg/) to optimize SVGs before saving them in `/wp-admin/images/`.
-
-*   Page headers, export without the text, `about-header-*.svg`
-*   Illustrations on freedoms, privacy, and contribute, `freedom-1.svg`, `freedom-2.svg`, etc; `privacy.svg`, `contribute-1.svg`, etc.
-*   Release badge, `about-release-badge.svg`
-
-The icons in the About page content are SVGs used inline, so export those and make sure `aria-hidden="true" focusable="false"` are on the `svg` tag.
-
-The feature screenshots are raster images, export these at 2x and convert to webp. They’re added to the page from external links, so use make.w.org if they’re still in flux. When finalized, upload to the s.w.org CDN (needs dotorg committer).
-
-### Update URLs in the content
-
-Local images usually use a query string to break caching, so update the version before release. For example, [see this line in freedoms.php](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/freedoms.php#L61). This is not necessary for CDN images since those URLs change each release.
-
-The [field guide URL in `about.php`](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/about.php#L272) should also be updated when that post is published (usually around RC). The release notes URL is generated and should work once that page is published, but [the version number should be updated here](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/about.php#L285-L298).
-
-If any content in the page had links using placeholders, update those.
-
-### Development timeline
-
-The timeline for this page depends on multiple teams, and there are a lot of things to wrangle, so the timeline needs to be flexible.
-
-*   beta3 (or the last beta before release): Commit the first-final draft of the page, basic layout and design.
-*   RC1: Commit the final draft of the page, update any finalized assets.
-*   During RC: Upload and commit the feature screenshots, update any URLs, update finalized assets.
-
-No string changes should happen after RC1, but exceptions are made, for example if something is technically inaccurate.
-
 ## Props
 
 <!--
