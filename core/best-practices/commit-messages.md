@@ -178,7 +178,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   ユーザー名は `@` (アット) 記号で始めることはできません。
 *   ユーザー名はカンマとスペースで区切ってください。正規表現: `/^props (\s*([^,]+),?)+$/`
 *   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
-*   ユーザーの表示名にスペースがある場合は、w.org プロフィールの URL のスラッグを使用してください。たとえば、Trac の `Frank Klein` は `frank-klein` として props を取得する必要があります。
+*   ユーザーの表示名にスペースがある場合は、w.org プロフィールの URL のスラッグを使用してください。たとえば、Trac の Frank Klein は frank-klein として props を取得する必要があります。
 *   The props line should only include the word props, wordpress.org usernames, spaces, and punctuation.
 *   The `props` line must end with a period.
 

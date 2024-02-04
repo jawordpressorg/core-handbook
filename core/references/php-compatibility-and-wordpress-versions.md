@@ -53,7 +53,7 @@ Past changes to supported PHP versions have been as followed:
 *   WordPress 6.1: PHP 8.2を「ベータサポート」。
 *   WordPress 6.3:
     *   [PHP 5.6をサポート廃止](https://make.wordpress.org/core/2023/07/05/dropping-support-for-php-5/).
-    *   例外を除き、PHP 8.0と互換性のあるレベルに引き上げました (dev note は保留中)。
+    *   例外を除き、PHP 8.0と互換性のあるレベルに引き上げました。
         *   例外:
             *   名前付きパラメータ。WordPress は名前付きパラメータをサポートしていません。
             *   [接続に失敗したときのファイルシステムである `WP_Filesystem_FTPext` と `WP_Filesystem_SSH2`](https://core.trac.wordpress.org/ticket/48689)。
