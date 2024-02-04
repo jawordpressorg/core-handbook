@@ -222,7 +222,6 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   [マイナーリリース版ページ](https://wordpress.org/support/wordpress-version/version-5-7-1/)に[ファイルの差分リスト](https://codex.wordpress.org/Template:Release)とニュース記事へのリンクを追加します。
     *   [WordPress Versions](https://wordpress.org/support/article/wordpress-versions/) にバージョン情報とバージョンページへのリンクを追加します。
 *   Codex の [CurrentVersion テンプレート](https://codex.wordpress.org/Template:CurrentVersion)を新しいバージョンに更新します。
-*   Codex [WordPress Versions](https://codex.wordpress.org/WordPress_Versions) ページに新しいバージョンを追加します。
 *   REST API に変更があった場合は、dev hub の [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) を更新してください。
 *   Trac で、`X.Y.Z+1` の[新しいマイルストーン](https://core.trac.wordpress.org/admin/ticket/milestones)を作成し、古いマイルストーンを完了としてマークしてください。これは Trac の管理者が行う必要があります。
 *   Trac で、`X.Y.Z+1` リリース (バックポートを含む最新のブランチ) の[新しいバージョン](https://core.trac.wordpress.org/admin/ticket/versions)を作成してください。`Released` 日付フィールドから日付を削除してください。これも Trac の管理者が行う必要があります。
