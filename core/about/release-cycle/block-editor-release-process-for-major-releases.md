@@ -568,7 +568,6 @@ Outside of reviewing unlabeled issues, it’s important to review all reported i
 
 ラベルのない issue をレビューすること以外では、解決すべき重要な issue を見つけるために、メジャーリリース以降に報告されたすべての issue を時間をかけてレビューすることが重要です。これは主にエディタートリアージリードの仕事ですが、他の貢献者に分担させることもできるすばらしいタスクです。
 
-
 <!--
 ### Determining how critical a bug is
 -->
@@ -593,10 +592,8 @@ After the first Beta, you can only include bug fixes for issues that regressed d
 
 ## 最初の WordPress ベータリリースの管理
 
-**Beta 1 is a very significant deadline.** 
-
 <!--
-**Beta 1 is a very significant deadline.**
+**Beta 1 is a very significant deadline.** 
 -->
 
 ### 最初のベータ版は非常に重要な期限です
@@ -619,7 +616,6 @@ As the volume of changes for each release is quite high, it helps to start addin
 
 各リリースの変更の量は非常に多いため、サイクルのできるだけ早い段階でコア trunk に新機能の追加を開始することが役立ちます。これは、コアによって使用される `@wordpress` npm パッケージを更新することと、Gutenberg の `lib` フォルダーと `phpunit` フォルダーから PHP の変更を手動で同期することの両方を意味します。
 
-**Make sure any experimental features are behind feature flags in Gutenberg, so they don’t accidentally get included in Core.**
 <!--
 **Make sure any experimental features are behind feature flags in Gutenberg, so they don’t accidentally get included in Core.**
 -->
