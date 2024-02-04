@@ -32,7 +32,6 @@ Want to learn more? Here is a list of “Potentially Asked Questions”.
 You! Leading a Bug Scrub is something **any** interested community member can do.
 -->
 
-
 あなたです ! バグスクラブをリードすることは、興味のあるコミュニティメンバーであれば**誰でも**行うことができます。
 
 <!--
