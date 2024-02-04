@@ -164,6 +164,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 
 #### ガイドライン
 
+<!--
 *   Props must be preceded by a blank line.
 *   Usernames must not start with an @ (at) sign.
 *   Separate usernames by comma + space. Think: /^props (\\s\*(\[^,\]+),?)+$/
@@ -171,6 +172,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   If the user has a space in their displayed name, use the slug from their w.org profile URL. For example, Frank Klein on Trac should get props as frank-klein.
 *   The props line should only include the word props, wordpress.org usernames, spaces, and punctuation.
 *   The `props` line must end with a period.
+-->
 
 *   先頭には空白行が必要です。
 *   ユーザー名は `@` (アット) 記号で始めることはできません。
