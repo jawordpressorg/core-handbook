@@ -481,7 +481,9 @@ To get started, here’s a script to use to begin auditing the experimental APIs
 
 [https://raw.githubusercontent.com/WordPress/gutenberg/trunk/bin/list-experimental-api-matches.sh](https://raw.githubusercontent.com/WordPress/gutenberg/trunk/bin/list-experimental-api-matches.sh)
 
+<!--
 It can help to group related experimental APIs from the report and any information manually collected to get a sense of what’s currently in place. From there, use git blame to know which contributors were involved in each API to ping them and inquire if the API can be stabilized. You can then create a new overview issue in GitHub that lists out a checkbox for each API where you can easily see whether a decision has been made around stabilizing the API.
+-->
 
 レポートや手動で収集した情報から、関連する実験的な API をグループ化し、現在何があるのかを把握できます。そこから git blame を使って、それぞれの API にどの貢献者が関わっているかを把握し、API を安定できるかどうかを確認します。そして GitHub に新しい概要の issue を作成し、各 API のチェックボックスをリストアップすれば、API の安定化に関する決定が行われたかどうかを簡単に確認できます。
 
