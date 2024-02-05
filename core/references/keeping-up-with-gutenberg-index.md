@@ -22,7 +22,7 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 *   Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/) Core
 -->
 
-*   下部の「[説明](https://make.wordpress.org/core/wp-admin/post.php?post=101683&action=edit#explanations)」をご覧ください。
+*   下部の「[説明](#%e8%aa%ac%e6%98%8e)」をご覧ください。
 *   議論は **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack チャンネルで、開発は [Gutenberg GitHub リポジトリ](https://github.com/WordPress/gutenberg/issues) で行われています。
 *   [WordPress コアにおける Gutenberg のバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 
