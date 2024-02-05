@@ -167,7 +167,7 @@ The first step is to get set up with a local environment:
 -->
 
 1. SVN のインストール: [バージョン管理システムのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)
-2. ローカルサーバーのインストール: [Mac](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-xampp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-wampserver/) (代替)
+2. ローカルサーバーのインストール: [Mac](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-xampp/) | [Windows](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/wampserver/) (代替)
 3. [SVN を使用して WordPress コードベースを確認する](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)
 
 <!--
@@ -232,7 +232,7 @@ Some easy tasks for a first time contributor to get started at a contributor day
 -->
 
 *   [good first bug タグ](https://core.trac.wordpress.org/query?status=!closed&keywords=~good-first-bug)をチェックする
-*   [インラインドキュメント](https://make.wordpress.org/docs/handbook/core/inline-docs/)を更新する
+*   [インラインドキュメント](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/)を更新する
 *   ユーザーインターフェイスに取り組み、[UI フォーカス](https://core.trac.wordpress.org/focus/ui)を確認する
 *   [開発者フィードバック](https://core.trac.wordpress.org/tickets/dev-feedback)を提供する
 *   [デザインに関するフィードバック](https://core.trac.wordpress.org/tickets/ux-feedback)を提供する
@@ -277,7 +277,7 @@ npm のバージョンが最新かどうかわからない場合は、以下の�
 A handy guide to setting up your local environment can be found in [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/trunk/CONTRIBUTING.md) in the Gutenberg github repository. There you will find commands to help get your local environment up and running.  
 -->
 
-Gutenberg の GitHub リポジトリにある [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/master/CONTRIBUTING.md) に、ローカル環境を構築するための便利なガイドがあります。そこには、ローカル環境の起動と実行に役立つコマンドが記載されています。
+Gutenberg の GitHub リポジトリにある [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/trunk/CONTRIBUTING.md) に、ローカル環境を構築するための便利なガイドがあります。そこには、ローカル環境の起動と実行に役立つコマンドが記載されています。
 
 <!--
 Largely, the setup process can be finished end to end by running the following command from the Gutenberg directory (Powershell works well if you are on Windows.):
