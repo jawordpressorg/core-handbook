@@ -176,7 +176,7 @@ These are the prescribed steps to take when releasing a beta version of WordPres
         *   例: [@committers](https://wordpress.slack.com/admin/user_groups) Feel free to resume committing. Reminder that we are now in the RC period so all commits will require double-signoff using the `dev-feedback` and `dev-reviewed` Trac keywords on each ticket.
 *   ベータ版のリリースプロセスでテストやその他の手伝いをしてくれた人全員に感謝し、賛辞を贈るメッセージを [#props](https://wordpress.slack.com/messages/C0FRG66LR) チャンネルに書き込みます。
     *   例: Props to @mention, @mention2, …, @mentionN for helping test today’s 5.8 Beta 1 release!
-*   For a major Beta/RC release, update the Make/Core page for the cycle with details for the release, including links to the release post, Slack Archive, and the Zip Download. Example: [https://make.wordpress.org/core/6-4/](https://make.wordpress.org/core/6-4/).
+*   ベータ/RC リリースの場合は、リリース投稿、Slack アーカイブ、Zip ダウンロードへのリンクなど、リリースの詳細を含むサイクルの Make/Core ページを更新します。例: [https://make.wordpress.org/core/6-4/](https://make.wordpress.org/core/6-4/)。
 *  リリースサイクルの最初のベータ版の場合:
     *   次のリリースバージョンの新しいマイルストーンをコア Trac に追加します。たとえば、WordPress `5.0` をリリースするときに、`5.1` のマイルストーンを追加します。**これを行うには、Trac の管理者権限を持つ人に依頼する必要があるかもしれません。**
     *   セキュリティチームのメンバーは、HackerOne プログラムの参加者にメールを送り、[安定版リリースに入る前に新しい脆弱性を見つけてください](https://make.wordpress.org/security/2019/02/13/doubling-bounties-for-vulnerabilities-discovered-before-release/)と促すべきです。詳細は、セキュリティチームハンドブックを参照してください。
