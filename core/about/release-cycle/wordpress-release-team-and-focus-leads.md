@@ -396,7 +396,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 This work is done in collaboration and coordination with the Core Tech leads so please refer to [Block Editor Release Process for Major Releases](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor-release-process-for-major-releases/) for a more detailed and practical look.
 -->
 
-この作業は コアテックリードとの協力と調整によって行われるため、より詳細で実践的な内容については[ブロックエディター メジャーリリース時のリリースプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/block-editor-release-process-for-major-releases/)を参照してください。
+この作業はコアテックリードとの協力と調整によって行われるため、より詳細で実践的な内容については[ブロックエディター メジャーリリース時のリリースプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/block-editor-release-process-for-major-releases/)を参照してください。
 
 <!--
 ### Editor Design Lead
