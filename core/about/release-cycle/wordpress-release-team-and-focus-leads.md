@@ -392,7 +392,11 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   コアエディターのテックリードとコミュニケーションをとり、より多くのリソースや注意が必要な箇所を把握する。
 *   リリースサイクルを通して重要な問題に優先順位をつけ、緊急性の高い問題が迅速に解決されるようにする。
 
+<!--
 This work is done in collaboration and coordination with the Core Tech leads so please refer to [Block Editor Release Process for Major Releases](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor-release-process-for-major-releases/) for a more detailed and practical look.
+-->
+
+この作業は コアテックリードとの協力と調整によって行われるため、より詳細で実践的な内容については[ブロックエディター メジャーリリース時のリリースプロセス](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor)を参照してください。
 
 <!--
 ### Editor Design Lead

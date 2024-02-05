@@ -292,7 +292,7 @@ A Release Candidate version is released as the last stage of the release cycle b
 *   [RC リリースのプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-beta-versions/)については、別のハンドブックのページに詳しく書かれています。
 *   最初のリリース候補に続いてリリース用のブランチを作成し、次のリリースに向けて trunk の初期作業を開始できるようにします。
 *   リリースサイクルの特定の部分をより明確にし、コミュニティを準備するために、リリース候補のフェーズ ([6.0の例](https://make.wordpress.org/core/2022/05/04/wordpress-6-0-release-candidate-phase/)) と上記のさまざまなプロトコルについて Make Core でアナウンスする必要があります。
-*   At this point, two Make Core posts should be published to begin gathering nominations for folks interested and able to (1) participate in the Minor Release Squad that follows this major release cycle and to (2) participate in the Major Release Square that’s up next.
+*   この時点で、2つの Make Core 投稿を公開して、興味があり、(1) このメジャーリリースサイクルに続くマイナーリリースチームに参加できる人、および (2) 次のメジャーリリースチームに参加できる人たちの候補を集め始める必要があります。
 
 ### translate.WordPress.org
 

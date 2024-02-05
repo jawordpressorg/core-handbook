@@ -218,7 +218,7 @@ Awesome! Thank you!
 You are welcome to schedule a scrub at any time. You will get the most attendees by ensuring it is announced and publicized in advance. Three ways to ensure that happen are: pinging the Core Triage lead for the current release, announcing it during the Core Dev chat open floor time, or by commenting on the Core Dev chat agenda/summary posts with your interest.
 -->
 
-現在のリリースのコアトリアージリードに通知するか、コア開発者チャットのオープンフロアにボランティアとして参加するか、コア開発者チャットの要約の投稿にコメントすることで、バグスクラブをスケジュールできます。
+バグスクラブはいつでもスケジュールできます。事前に発表し知らせることで、最も多くの参加者を得ることができます。これを確実に実現する3つの方法は、現在のリリースのコアトリアージリードに 連絡すること、コア開発者チャットのオープンフロア時間中に発表すること、またはコア開発者チャットの議題や要約の投稿に興味のある内容をコメントすることです。
 
 <!--
 Have the report or list of tickets that you want to go through in mind, and someone will make sure your scrub is scheduled in the most appropriate Slack room.
