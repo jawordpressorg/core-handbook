@@ -225,7 +225,7 @@ You’ve made it. Release day can be stressful. The best way to survive release 
 *   REST API に変更があった場合は、dev hub の [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) を更新してください。
 *   Trac で、`X.Y.Z+1` の[新しいマイルストーン](https://core.trac.wordpress.org/admin/ticket/milestones)を作成し、古いマイルストーンを完了としてマークしてください。これは Trac の管理者が行う必要があります。
 *   Trac で、`X.Y.Z+1` リリース (バックポートを含む最新のブランチ) の[新しいバージョン](https://core.trac.wordpress.org/admin/ticket/versions)を作成してください。`Released` 日付フィールドから日付を削除してください。これも Trac の管理者が行う必要があります。
-*   次のリリースに備えて、最新の安定版ブランチのバージョンを `X.Y.Z+1-alpha-$REVNUM-src` に、`package.json` のバージョンを `X.Y.Z+1` にバージョンアップします。更新した後に、`npm install` を実行して `package-lock.json` ファイル ([コミット例](https://core.trac.wordpress.org/changeset/56924)) を更新する必要もあります。
+*   次のリリースに備えて、最新の安定版ブランチのバージョンを `X.Y.Z+1-alpha-$REVNUM-src` に、`package.json` のバージョンを `X.Y.Z+1` にバージョンアップします。更新した後に、`npm install` を実行して `package-lock.json` ファイルを更新する必要もあります ([コミット例](https://core.trac.wordpress.org/changeset/56924))。
 *   最新の安定版ブランチのナイトリーバージョンを再ビルドします。
 
 <!--
