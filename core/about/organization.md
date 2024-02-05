@@ -180,7 +180,7 @@ The [WordPress mobile applications](https://apps.wordpress.org/) are open sourc
 ### Theme Reviewers
 -->
 
-### テーマレビューア
+### テーマレビュアー
 
 <!--
 Themes submitted to the WordPress Themes Directory are reviewed by a team of volunteers to ensure compliance with the [WordPress.org theme guidelines](https://make.wordpress.org/themes/handbook/). The [team](https://make.wordpress.org/themes/handbook/the-team/members/) is made up of community leaders and contributors who work together on developing standards and reviewing themes.
@@ -192,7 +192,7 @@ WordPress テーマディレクトリに申請されたテーマはボランテ�
 ### Plugin Reviewers
 -->
 
-### プラグインレビューア
+### プラグインレビュアー
 
 <!--
 Plugins submitted to the WordPress Plugins Directory are reviewed by a team of volunteers to ensure they meet [WordPress.org guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) before being included in the plugin directory. The team rep is **Boone Gorges**, with volunteers **Pippin Williamson**, **Scott Reilly**, **Samuel Wood**, **Mika Epstein**, **Kailey Lampert**, **Daniel Bachhuber**, and **Mark Riley** (Reviewer Emeritus) reviewing plugins and developing standards.
