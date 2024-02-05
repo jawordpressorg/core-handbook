@@ -200,7 +200,7 @@ You’ve made it. Release day can be stressful. The best way to survive release 
     *   (`/here` Slack コマンドを使用して) リリースパーティーへの参加を歓迎するアナウンスを行うことから始めます。
     *   コミッターに対して、リリースが完了するまでコミットを控えるようリクエストを投稿します。例: `@committers please refrain from committing during the release process`。
 *   バージョンアップは関連するすべてのブランチでコミットする必要があります。[これがその例です](https://core.trac.wordpress.org/changeset/44078)。コアコミッターであれば誰でもこのステップを実行できます。最新のブランチでバージョンアップをコミットする際には、version.php と about.php の両方を更新してください。package.json ファイルは現在のブランチですでに更新されているはずですが、それ以前のブランチでは更新する必要があります ([例](https://core.trac.wordpress.org/changeset/39862))。
-    *   `package.json` には `X.Y.Z` への単純なバージョンアップが1つあります。
+    *   `package.json` には `X.Y.Z` への単純なバージョンアップが1つあります (このドキュメントで後述するリリース後のバージョンアップのため、これはおそらくすでに正しいでしょう)。
     *   `version.php` には `X.Y.Z-src` へのバージョンアップが一つあります。接尾辞の `-src` は、develop.svn にコミットする際に常に含める必要があることに注意してください。
     * `about.php` の見出しである「Maintenance and Security Release(s)」に `Z` という数字を追加し、下部にある既存の文字列を使用して、リリースの変更点を説明する段落を追加する必要があります。これらの文字列はブランチによって異なりますので、必ず正しいバージョンのものを使用してください。他の場所から適切な段落をコピー & ペーストすることが一番簡単です。これがブランチの最初のマイナーリリースである場合、ナビゲ―ションタブの後に追加するラッパー div と前述の `h3` もあります。単一または複数のセキュリティやバグの修正について、考えられる文字列の組み合わせをメモしておきます。違いについては、[より完全な説明](#%e3%82%a2%e3%83%90%e3%82%a6%e3%83%88%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ae%e6%96%87%e5%ad%97%e5%88%97%e3%82%92%e9%81%b8%e6%8a%9e%e3%81%99%e3%82%8b)をチェックしてください。
     *   これらの変更を事前に十分に準備し、レビューを依頼しましょう。そうすることで、リリースプロセスの停滞を避けることができます。バージョンアップとアバウトページは一緒にコミットでき、別々に行う必要はありません。
@@ -225,7 +225,7 @@ You’ve made it. Release day can be stressful. The best way to survive release 
 *   REST API に変更があった場合は、dev hub の [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) を更新してください。
 *   Trac で、`X.Y.Z+1` の[新しいマイルストーン](https://core.trac.wordpress.org/admin/ticket/milestones)を作成し、古いマイルストーンを完了としてマークしてください。これは Trac の管理者が行う必要があります。
 *   Trac で、`X.Y.Z+1` リリース (バックポートを含む最新のブランチ) の[新しいバージョン](https://core.trac.wordpress.org/admin/ticket/versions)を作成してください。`Released` 日付フィールドから日付を削除してください。これも Trac の管理者が行う必要があります。
-*   最新の安定版ブランチのバージョンを `X.Y.Z+1-alpha-$REVNUM-src` にバージョンアップし、対応する `package.json` と readme を変更します。
+*   次のリリースに備えて、最新の安定版ブランチのバージョンを `X.Y.Z+1-alpha-$REVNUM-src` に、`package.json` のバージョンを `X.Y.Z+1` にバージョンアップします。更新した後に、`npm install` を実行して `package-lock.json` ファイル ([コミット例](https://core.trac.wordpress.org/changeset/56924)) を更新する必要もあります。
 *   最新の安定版ブランチのナイトリーバージョンを再ビルドします。
 
 <!--
