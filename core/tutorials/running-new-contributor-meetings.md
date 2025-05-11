@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Running New Contributor Meetings
-
-This is a general script for running new contributor meetings, feel free to edit as you see fit.
-=======
 <!--
 # Running New Contributor Meetings
 -->
@@ -14,7 +9,6 @@ This is a general script for running new contributor meetings, feel free to edit
 -->
 
 これは、新しい貢献者ミーティングを実施するための一般的なスクリプトであり、自由に編集できます。
->>>>>>> main
 
 * * *
 
@@ -26,11 +20,7 @@ Awesome, welcome everyone!
   
 Let’s do an open floor section for general questions for the first 20-30 minutes, and then switch to questions on specific tickets for the remainder of the meeting. We usually end 10-15 minutes before the top of the hour to leave a little breathing room for the weekly dev chat.  
   
-<<<<<<< HEAD
-@desrosj, @flixos90, @adamsilverstein, @welcher, @audrasjb, @kirasong, @OGlekler, @james-roberts, and @sergey are facilitators for these meetings. If you have any questions after the meeting, or anything that you are uncomfortable asking here, you are more than welcome to ping us throughout the week.  
-=======
-@desrosj, @flixos90, @adamsilverstein, @welcher, @audrasjb, @costdev, @mike, @OGlekler, and @sergey are facilitators for these meetings. If you have any questions after the meeting, or anything that you are uncomfortable asking here, you are more than welcome to ping us throughout the week.  
->>>>>>> main
+@desrosj, @flixos90, @adamsilverstein, @welcher, @audrasjb, @kirasong, @OGlekler, @james-roberts, and @sergey are facilitators for these meetings. If you have any questions after the meeting, or anything that you are uncomfortable asking here, you are more than welcome to ping us throughout the week.   
   
 If you have any feedback or ideas on making these meetings more helpful, please do suggest 🙂  
   
@@ -108,8 +98,4 @@ Per https://make.wordpress.org/meetings/, the next meeting is in two weeks, Augu
   
 </new-contributor-meeting>  
   
-<<<<<<< HEAD
 Thanks everyone! Happy contributing! 🙌 💪 :wordpress: :community:
-=======
-Thanks everyone! Happy contributing! 🙌 💪 :wordpress: :community:
->>>>>>> main
