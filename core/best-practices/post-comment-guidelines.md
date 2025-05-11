@@ -46,19 +46,23 @@ In order to ensure the best experience possible for the developer community, the
 ## Posting
 -->
 
-<<<<<<< HEAD
-### Getting Access to Post
-
-Access to posting and editing on make/core is managed in the [#core room in Slack](https://wordpress.slack.com/archives/C02RQBWTW). It is best to have someone who already has access to ask on your behalf, but if you feel you should have access to create a post, please don’t hesitate to ask for yourself. The same process is used for changing roles.
-
-### When to Write a Post
-=======
 ## 投稿
 
 <!--
-### When to write a post
+### Getting Access to Post
 -->
->>>>>>> main
+
+### 投稿へのアクセス権限の取得
+
+<!--
+Access to posting and editing on make/core is managed in the [#core room in Slack](https://wordpress.slack.com/archives/C02RQBWTW). It is best to have someone who already has access to ask on your behalf, but if you feel you should have access to create a post, please don’t hesitate to ask for yourself. The same process is used for changing roles.
+-->
+
+make/core への投稿と編集権限は、[Slack の #core ルーム](https://wordpress.slack.com/archives/C02RQBWTW) で管理されています。既にアクセス権限を持っている方に代理でアクセス権限を申請してもらうのが最善ですが、投稿作成権限が必要と思われる場合は、ご自身でアクセス権限を申請してください。権限の変更も同様の手順で行えます。
+
+<!--
+### When to Write a Post
+-->
 
 ### 記事を書くタイミング
 
@@ -90,11 +94,8 @@ make/core でのフィードバックは、Trac チケットでのフィード�
 ### Peer Review
 -->
 
-<<<<<<< HEAD
-Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps make sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
-=======
 ### 査読
->>>>>>> main
+
 
 <!--
 Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps make sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
@@ -210,12 +211,6 @@ For each of the following types of post, there are some things to keep in mind:
 When writing up an idea aimed at generating feedback and assessing a potential change from the core contributor community it is important that it is clear that what is being written is a proposal and not a final decision. To help achieve that, proposals must include the word “Proposal” at the start of the title and include text in the body explaining that a final decision has not yet been made.
 -->
 
-<<<<<<< HEAD
-### Comments on Posts
-
-Comments on posts will automatically close after 180 days (about 6 months). If you need to keep comments open, you can use the tag `#keep-comments-open` but this should only be used with a specific timeframe in mind rather than allowing comments to stay open forever.
-
-=======
 コア貢献者コミュニティからフィードバックを得て、変更の可能性を評価することを目的としてアイデアを書き上げる場合、書かれていることが提案であり最終決定ではないことを明確にすることが重要です。これを達成するために、提案はタイトルの最初に「提案」という単語を含み、最終決定がまだなされていないことを説明する文章を本文に含めなければなりません。
 
 <!--
@@ -231,15 +226,10 @@ Comments on posts will automatically close after 180 days (about 6 months). If y
 投稿へのコメントは180日 (約6ヵ月) 後に自動的に閉じられます。コメントを開いたままにしておく必要がある場合は、`#keep-comments-open` タグを使用できますが、これはコメントを永久に開いたままにするのではなく、特定の期間を念頭に置いて使用する必要があります。
 
 <!--
->>>>>>> main
 ## Comments
 -->
 
-<<<<<<< HEAD
-Discussion and criticism of ideas are important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.
-=======
 ## コメント
->>>>>>> main
 
 <!--
 Discussion and criticism of ideas are important to the long-term success of WordPress. In support of this, all make/core posts have open comments. As a result, **commenters should be respectful and professional**, understanding that many other commenters and readers do not speak English as a first language. At times, it may make sense to over-communicate and be extra polite to ensure no misunderstandings occur.
