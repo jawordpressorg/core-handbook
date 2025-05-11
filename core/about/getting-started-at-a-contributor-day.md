@@ -128,7 +128,7 @@ Prior knowledge that you’ll find helpful for working on core is:
 -->
 
 *   バージョン管理システム: [SVN](http://sourceforge.net/projects/win32svn/) または [Git](http://git-scm.com/)
-*   ローカル開発環境。例: [MAMP](http://www.mamp.info/en/index.html)、[WAMP](http://www.wampserver.com/en/)、[Vagrant](//www.vagrantup.com/)、[XAMPP](http://www.apachefriends.org/index.html)、または [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
+*   [ローカル開発環境](https://ja.wordpress.org/team/handbook/core/contribute/#local-development-overview)
 *   ユニットテストの場合、[PHPUnit](http://phpunit.de/)
 *   アセットのコンパイル、リリースパッケージのビルド、JavaScript と PHP のテストのための [Grunt](http://gruntjs.com/)
 *  Javascript テストのための [QUnit](http://qunitjs.com/)
@@ -273,13 +273,9 @@ npm のバージョンが最新かどうかわからない場合は、以下の�
 
 *    Docker – https://docs.docker.com/install/
 
-<<<<<<< HEAD
-A handy guide to setting up your local environment can be found in [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/trunk/CONTRIBUTING.md) in the Gutenberg github repository. There you will find commands to help get your local environment up and running.  
-=======
 <!--
 A handy guide to setting up your local environment can be found in [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/trunk/CONTRIBUTING.md) in the Gutenberg github repository. There you will find commands to help get your local environment up and running.  
 -->
->>>>>>> main
 
 Gutenberg の GitHub リポジトリにある [**Contributing.md**](https://github.com/WordPress/gutenberg/blob/trunk/CONTRIBUTING.md) に、ローカル環境を構築するための便利なガイドがあります。そこには、ローカル環境の起動と実行に役立つコマンドが記載されています。
 
