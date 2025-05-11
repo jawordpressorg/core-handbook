@@ -24,13 +24,9 @@ IDE や Subversion クライアントを使用している場合、パッチは�
 
 ### Windows
 
-<<<<<<< HEAD
-**If you are on Windows,** consider using [Tortoise SVN](http://tortoisesvn.net/). You can [read our tutorial on creating a patch with Tortoise SVN](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn).
-=======
 <!--
 **If you are on Windows,** consider using [Tortoise SVN](http://tortoisesvn.net/). You can [read our tutorial on creating a patch with Tortoise SVN](https://make.wordpress.org/core/handbook/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn).
 -->
->>>>>>> main
 
 **Windows の場合、** [Tortoise SVN](http://tortoisesvn.net/) の使用を検討してください。[Tortoise SVN でパッチを作成するためのチュートリアルを読む](https://ja.wordpress.org/team/handbook/core/tutorials/working-with-patches/#creating-a-patch-with-tortoisesvn)ことができます。
 
