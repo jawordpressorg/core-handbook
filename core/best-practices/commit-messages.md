@@ -168,7 +168,7 @@ When the commit is directly related to some previous work such as adding tests f
 When [backporting code](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/), use the `Reviewed By and Merges` section to indicate the code that is being merged and who reviewed it. Please specify the branch this is being merged into to help people seeing the commit in chat or email. It’s a best practice for the review to be noted in trac with the `[dev-reviewed](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords)` keyword.
 -->
 
-[コードをバックポートする](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/)場合、マージされるコードとレビューした人を示すために `Reviewed By and Merges` セクションを使用します。チャットやメールでコミットを確認できるように、マージ先のブランチを指定してください。レビューのために、`[dev-reviewed](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords)` キーワードを使用して Trac に記録することをおすすめします。
+[コードをバックポートする](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/)場合、マージされるコードとレビューした人を示すために `Reviewed By and Merges` セクションを使用します。チャットやメールでコミットを確認できるように、マージ先のブランチを指定してください。レビューのために、[`dev-reviewed`](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords) キーワードを使用して Trac に記録することをおすすめします。
 
 <!--
 #### Guidelines
