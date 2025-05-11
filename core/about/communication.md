@@ -62,7 +62,7 @@
 *   [make/polyglots](https://make.wordpress.org/polyglots/): 翻訳者のためのブログ。
 *   [make/support](https://make.wordpress.org/support/): サポートチーム (フォーラム、IRC など) のブログ。
 *   [make/systems](https://make.wordpress.org/systems/): WordPress.org サイトとインフラに携わる人のためのブログ。
-*   [make/themes](https://make.wordpress.org/themes/): テーマレビューチームのブログ。
+*   [make/themes](https://make.wordpress.org/themes/): テーマチームのブログ。
 *   [make/training](https://make.wordpress.org/training/): Make/Community の一部である WordPress トレーニング貢献者サブグループのブログ。
 *   [make/ui](https://make.wordpress.org/ui/): UI チームのブログ。UI 作業の多くはコアの傘下で行われていますが、**make/ui** はユーザーテストやデザインに関する議論に使用されています。
 
