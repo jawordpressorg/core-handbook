@@ -225,9 +225,6 @@ Cascading Style Sheets. [#](https://make.wordpress.org/core/handbook/glossary/#c
 **dev note**
 -->
 
-<<<<<<< HEAD
-Each important change in WordPress Core is documented in a developers note, (usually called dev note). Good dev notes generally include a description of the change, the decision that led to this change, and a description of how developers are supposed to work with that change. Dev notes are published on Make/Core blog during the beta phase of WordPress release cycle. Publishing dev notes is particularly important when plugin/theme authors and WordPress developers need to be aware of those changes.In general, all dev notes are compiled into a Field Guide at the beginning of the release candidate phase. [#](https://make.wordpress.org/core/handbook/glossary/#dev-note)
-=======
 ## dev note / 開発者ノート
 
 <!--
@@ -235,7 +232,6 @@ Each important change in WordPress Core is documented in a developers note, (usu
 -->
 
 Developer Note の省略形。開発者ノート。WordPress コアの重要な変更点はすべて、開発者ノートにドキュメント化されます。優れた開発者ノートには一般的に、変更点、その変更に至った決定、開発者がその変更点をどのように取り組むべきかについての説明が書かれています。開発者ノートは WordPress のリリースサイクルのベータフェーズで Make/Core ブログで公開されます。開発者ノートの公開は、プラグイン/テーマの作者や WordPress の開発者がそれらの変更を認識する必要がある場合に特に重要です。一般的に、すべての開発者ノートはリリース候補フェーズの最初にフィールドガイドにまとめられます。
->>>>>>> main
 
 <!--
 **docblock**
@@ -381,17 +377,13 @@ A resolution on the bug tracker (and generally common in software development, s
 **IRC**
 -->
 
-<<<<<<< HEAD
+<!--
 Internet Relay Chat, a network where users can have conversations online. IRC channels are used widely by open source projects, and by WordPress. The primary WordPress channels are **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** and **[#wordpress-dev](https://make.wordpress.org/core/tag/wordpress-dev/)**, on irc.freenode.net. [#](https://make.wordpress.org/core/handbook/glossary/#irc)
-=======
+-->
+
 ## IRC
 
-<!--
-Internet Relay Chat, a network where users can have conversations online. IRC channels are used widely by open source projects, and by WordPress. The primary WordPress channels are **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** and **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)\-dev**, on irc.freenode.net. [#](https://make.wordpress.org/core/handbook/glossary/#irc)
--->
->>>>>>> main
-
-インターネット・リレー・チャット。ユーザーがオンラインで会話できるネットワーク。IRC チャンネルは、オープンソースプロジェクトや WordPress で広く使用されています。主要な WordPress チャンネルは、irc.freenode.net 上の **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** と **[#wordpress](https://make.wordpress.org/core)\-dev** です。
+インターネット・リレー・チャット。ユーザーがオンラインで会話できるネットワーク。IRC チャンネルは、オープンソースプロジェクトや WordPress で広く使用されています。主要な WordPress チャンネルは、irc.freenode.net 上の **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** と **[#wordpress-dev](https://make.wordpress.org/core/tag/wordpress-dev/)** です。
 
 <!--
 **JS**
@@ -505,17 +497,11 @@ A special text file that describes changes to code, by identifying the files and
 **PHP**
 -->
 
-<<<<<<< HEAD
-The web scripting language in which WordPress is primarily architected. WordPress requires PHP 7.4 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php)
-=======
 ## PHP
 
-<!--
-The web scripting language in which WordPress is primarily architected. WordPress requires PHP 5.6.20 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php)
--->
->>>>>>> main
+<!-- The web scripting language in which WordPress is primarily architected. WordPress requires PHP 7.4 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php) -->
 
-WordPress が主に設計されている Web スクリプト言語。WordPress には PHP 7.0以上が必要です。
+WordPress が主に設計されている Web スクリプト言語。WordPress には PHP 7.4以上が必要です。
 
 <!--
 **PHPDoc**
