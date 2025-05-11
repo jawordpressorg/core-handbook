@@ -1,15 +1,35 @@
+<!--
 # Gutenberg Index 2021
+-->
 
+<<<<<<< HEAD
 **Other years: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)** | **[2022](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2022/)**** | **[2023](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2023)** | [**2024**](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2024/)
 
+=======
+# Gutenberg インデックス2021
+
+<!--
+>>>>>>> main
 This page is the one place you can bookmark for Gutenberg\-related team posts of Core, Core-Editor, Core-js, Core-css, Design, Meta, and Themes, and other teams, when relevant. It’s a chronological listing, not topical. Latest on top.
+-->
 
+このページは、Core、Core-Editor、Core-js、Core-css、Design、Meta、Themes の Gutenberg 関連チームの投稿を、ブックマークできるようにするためのものです。時系列順で掲載されており、トピックスではありません。最新のものから並んでいます。
+
+<!--
 Discussions are in the **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack channel and development happens in the [Gutenberg GitHub repository](https://github.com/WordPress/gutenberg/issues).
+-->
 
+議論は **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack チャンネルで、開発は [Gutenberg GitHub リポジトリ](https://github.com/WordPress/gutenberg/issues) で行われています。
+
+<!--
 See *[Explanations](#explanations)* on the bottom.
+-->
+
+下部の「[説明](#%e8%aa%ac%e6%98%8e)」をご覧ください。
 
 * * *
 
+<!--
 [**WordPress 5.9 Development Cycle**](https://make.wordpress.org/core/5-9/)
 
 [WordPress 5.9 Revised Release Schedule](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)
@@ -19,6 +39,13 @@ See *[Explanations](#explanations)* on the bottom.
 [Gutenberg Index 2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/)
 
 [Versions on WordPress](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
+-->
+
+-   [**WordPress 5.9の開発サイクル**](https://make.wordpress.org/core/5-9/)
+-   [WordPress 5.9の改訂版リリーススケジュール](https://make.wordpress.org/core/2021/11/22/wordpress-5-9-revised-release-schedule/)
+-   📗 WordPress 5.9の開発者ノート
+-   [Gutenberg インデックス2020](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/)
+-   [WordPress におけるバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 
 * * *
 
@@ -101,6 +128,7 @@ See *[Explanations](#explanations)* on the bottom.
 2021-11-17 **[#core](https://make.wordpress.org/core/tag/core/)** [WordPress 5.9 Beta 1 delayed](https://make.wordpress.org/core/2021/11/17/wordpress-5-9-beta-1-delayed/) (u)
 
 2021-11-16 **[#design](https://make.wordpress.org/core/tag/design/)** [Show and Tell for Nov. 2021](https://make.wordpress.org/design/2021/11/16/show-and-tell-for-nov-2021/) (u) (*link to the recording is in the comments*)
+
 
 * * *
 
@@ -884,8 +912,13 @@ See *[Explanations](#explanations)* on the bottom.
 
 * * *
 
-## Explanations
+<!--
+**Explanations**
+-->
 
+## 説明
+
+<!--
 *   **[#team](https://make.wordpress.org/core/tag/team/)** identifies a team’s WordPress Slack channel. [Join the Slack space](https://chat.wordpress.org/).
 *   (m) = Meeting Summaries/Notes, [check here for meeting days and times](http://make.wordpresss.org/meetings)
 *   (r) = general resource
@@ -893,9 +926,30 @@ See *[Explanations](#explanations)* on the bottom.
 *   We use universal date format in yyyy-mm-dd to indicate publication date.
 *   Separators divide the list by weeks
 *   *This page started in January 2021. The index started in July 2020*
+-->
 
+*   **[#team](https://make.wordpress.org/core/tag/team/)** は、チームの WordPress Slack チャンネルを特定します。[Slack スペースに参加する](https://chat.wordpress.org/)。
+*   (m) = ミーティングサマリーやノート。[ミーティング日時はこちらでご確認ください](http://make.wordpresss.org/meetings)。
+*   (r) = 一般的なリソース
+*   (u) = ソフトウェア、方法、プロセス、または議論の更新を示します
+*   投稿日を示すために、yyyy-mm-dd の世界共通の日付形式を使用しています。
+*   セパレーターでリストを週ごとに分割しています。
+*   このページは2021年1月にスタートしました。インデックスは2020年7月より開始しました。
+
+<!--
 Big thanks to Anne McCarthy @annezazu and William Patton @williampatton for support and review.
+-->
 
+Anne McCarthy @annezazu と William Patton @williampatton のサポートとレビューに感謝します。
+
+<!--
 If you find a post missing or you would like to help with this effort, ping Birgit Pauli-Haack (@bph) on Slack with the link and she will add it as soon as possible.
+-->
 
+もし、投稿がないのを見つけたり、この取り組みに協力したい場合は、Slack の Birgit Pauli-Haack (@bph) に連絡していただければ、できるだけ早く追加します。
+
+<!--
 Featured Image: Photo by [Raphael Schaller](https://unsplash.com/@raphaelphotoch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/block-type?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+-->
+
+アイキャッチ画像: [Unsplash](https://unsplash.com/s/photos/block-type?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) の [Raphael Schaller](https://unsplash.com/@raphaelphotoch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) による写真

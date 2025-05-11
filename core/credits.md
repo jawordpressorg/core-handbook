@@ -1,6 +1,14 @@
+<!--
 # Credits
+-->
 
+# クレジット
+
+<!--
 The following people have made contributions to the Core Contributor Handbook.
+-->
+
+コアコントリビューターハンドブックは以下の貢献者によって作成されました。
 
 *   **[@aaroncampbell](https://profiles.wordpress.org/aaroncampbell/)**
 *   **[@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/)**
