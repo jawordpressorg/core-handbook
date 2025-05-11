@@ -243,17 +243,13 @@ Once you have completed the installation process, test that your installation is
 ![WampServer Homepage Screen](https://make.wordpress.org/core/files/2013/06/wampserver-homepage.png)
 -->
 
-<<<<<<< HEAD:core/tutorials/installing-wordpress-locally/wampserver.md
-If the WampServer homepage does not display, you will want to check that your [hosts file](http://en.wikipedia.org/wiki/Hosts_\(file\)) has **localhost mapped to 127.0.0.1**, and you aren’t running any other services on port 80, such as XAMPP or another local server, WebDAV, or Skype.
-=======
 ![WampServer のホームページ画面](https://make.wordpress.org/core/files/2013/06/wampserver-homepage.png)
 
 <!--
-If the WampServer homepage does not display, you will want to check that your [hosts file](http://en.wikipedia.org/wiki/Hosts_(file)) has **localhost mapped to 127.0.0.1**, and you aren’t running any other services on port 80, such as another local server (XAMPP, DesktopServer, etc.), WebDAV, or Skype.
+If the WampServer homepage does not display, you will want to check that your [hosts file](http://en.wikipedia.org/wiki/Hosts_\(file\)) has **localhost mapped to 127.0.0.1**, and you aren’t running any other services on port 80, such as XAMPP or another local server, WebDAV, or Skype.
 -->
->>>>>>> main:core/tutorials/installing-a-local-server/wampserver.md
 
-WampServer のホームページが表示されない場合は、[hosts ファイル](http://en.wikipedia.org/wiki/Hosts_(file))で **localhost が127.0.0.1にマッピングされているか**、他のローカルサーバー (XAMPP、DesktopServer など)、WebDAV、Skype などがポート80で他のサービスを実行していないかを確認してください。
+WampServer のホームページが表示されない場合は、[hosts ファイル](http://en.wikipedia.org/wiki/Hosts_(file))で **localhost が127.0.0.1にマッピングされているか**、XAMPP などの他のローカルサーバーがポート80で他のサービスを実行していないかを確認してください。
 
 <!--
 You also need to check that phpMyAdmin is working by going to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) in your browser. If you get the **Cannot connect: invalid settings** error message, then you’ll need to edit the **C:\\wamp\\apps\\phpmyadmin3.5.1\\config.inc.php** file in a plain text editor (your version number may be different), and ensure this option is set to **true**:
