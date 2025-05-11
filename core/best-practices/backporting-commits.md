@@ -56,7 +56,7 @@ Sometimes multiple changes to the same code are made in `trunk` before they are
 To add the merge info afterwards you can run `svn merge --record-only -c 12345 '^/trunk'`.
 -->
 
-The branch commit message will largely be copied from the `trunk` commit(s) with a few updates. Please see the commit message documentation, especially the sections on [Merges and Reviewed By.](https://make.wordpress.org/core/handbook/best-practices/commit-messages/#reviewed-by-and-merges)
+マージ情報を後から追加するには、`svn merge --record-only -c 12345 '^/trunk'` を実行してください。
 
 <!--
 The branch commit message will largely be copied from the `trunk` commit(s) with a few updates. Please see the commit message documentation, especially the sections on [Merges and Reviewed By.](https://make.wordpress.org/core/handbook/best-practices/commit-messages/#reviewed-by-and-merges)
