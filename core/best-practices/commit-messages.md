@@ -28,9 +28,11 @@ Remember: Do not commit to multiple branches in the same commit. This will, at a
 
 ## フォーマット
 
+<!--
 The full format for a commit message is as follows:
+-->
 
-コミットメッセージの一般的な形式は次のとおりです:
+コミットメッセージの完全な形式は次のとおりです:
 
 > Component: Brief summary.
 >
@@ -46,14 +48,27 @@ The full format for a commit message is as follows:
 > Props person, another.  
 > Fixes [#30000](https://core.trac.wordpress.org/ticket/30000). See [#20202](https://core.trac.wordpress.org/ticket/20202), #105.
 
+<!--
 ### Global Guidelines
+-->
 
+### グローバルガイドライン
+
+<!--
 *   Each line should begin with a capital letter and end with a full stop/period.
 *   Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack.
 *   Outside of the brief summary, there are no character limits. Don’t manually wrap lines.
 *   Pay attention to places that should have a blank line before them and areas that should not.
 *   Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
 *   Outside of the `props` section, avoid using the word `props` in order to not confuse the tools that generate contributor statistics. If talking about properties, use the full word. Otherwise, consult a [thesaurus](https://www.thesaurus.com/browse/prop).
+-->
+
+*   各行は大文字で始まり、ピリオドで終わらせます。
+*   Trac と Slack で適切な書式設定が適用されるようにするために、関数名やフック名などのコードはバッククオートの内側に表示します。
+*   概要以外は文字数制限はありません。手動で行を折り返さないでください。
+*   空白行を入れるべき箇所と入れるべきではない箇所に注意してください。
+*   チケット番号の前には番号記号 [#20202](https://core.trac.wordpress.org/ticket/20202) が付き、角括弧内のリビジョン番号 [\[30000\]](https://core.trac.wordpress.org/changeset/30000) は、Trac、Slack、そして make/core で自動リンクされます。
+*   貢献者の統計を生成するツールが混同しないように、`props` セクションの外では `props` という単語の使用を避けてください。プロパティについて話す場合は、完全な単語を使用してください。それ以外の場合は、[類義語辞典](https://www.thesaurus.com/browse/prop) を参照してください。
 
 <!--
 ### Brief summary
@@ -103,36 +118,77 @@ The longer description of a commit should include more details about the commit 
 
 #### ガイドライン
 
+<!--
 *   Must be separated from the summary by a blank line.
 *   Can be multiple paragraphs if necessary, separated by blank lines. It is not unreasonable for a commit message to be more verbose than the final changeset itself.
 *   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves if they need to.
 *   At times it is best to use lists instead of paragraphs, this is at the discretion of the committer.
 *   The words `props`, `backport`, `backports` should be avoided.
+-->
 
-*   要約と説明の間は空白行で区切ってください。
-*   必要であれば、空白行で区切って複数の段落にできます。コミットメッセージが最終的な変更セットそのものよりも冗長である場合もあります。
-*   要約とは異なり、行を手動で折り返す必要はありません。必要に応じて、ログビューアが自動で説明を折り返します。
+*   要約と空白行で区切ってください。
+*   必要に応じて、空白行で区切って複数の段落にできます。コミットメッセージが最終的なチェンジセット自体よりも冗長になることは不合理ではありません。
+*   要約とは異なり、行を手動で折り返す必要はありません。必要に応じて、ログビューアが説明を自分で折り返すことができます。
+*   段落の代わりにリストを使用することが良い場合がありますが、これはコミッターの裁量によって決まります。
+*   `props`、`backport`、`backports` という単語は避けてください。
 
+<!--
 ### Follow-up to
+-->
 
+### Follow-up to (フォローアップ)
+
+<!--
 When the commit is directly related to some previous work such as adding tests for a specific changeset or fast follow fixes, “Follow-up to” must be used with a link to those changesets. If you are backporting a commit, please follow the “Reviewed By and Merges” section instead.
+-->
 
+特定のチェンジセットのテストの追加や修正の迅速なフォローなど、コミットが以前の作業に直接関連している場合は、それらのチェンジセットへのリンクとともに「フォローアップ」を使用する必要があります。コミットをバックポートする場合は、代わりに「レビューした人とマージ」セクションに従ってください。
+
+<!--
 #### Guidelines
+-->
 
+#### ガイドライン
+
+<!--
 *   Must be preceded by a blank line.
 *   Must wrap changesets in square brackets.
+-->
 
+*   先頭には空白行が必要です。
+*   チェンジセットは角括弧で囲んでください。
+
+<!--
 ### Reviewed By and Merges
+-->
 
+### Reviewed By and Merges (レビューした人とマージ)
+
+<!--
 When [backporting code](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/), use the `Reviewed By and Merges` section to indicate the code that is being merged and who reviewed it. Please specify the branch this is being merged into to help people seeing the commit in chat or email. It’s a best practice for the review to be noted in trac with the `[dev-reviewed](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords)` keyword.
+-->
 
+[コードをバックポートする](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/)場合、マージされるコードとレビューした人を示すために `Reviewed By and Merges` セクションを使用します。チャットやメールでコミットを確認できるように、マージ先のブランチを指定してください。レビューのために、`[dev-reviewed](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords)` キーワードを使用して Trac に記録することをおすすめします。
+
+<!--
 #### Guidelines
+-->
 
+#### ガイドライン
+
+<!--
 *   This set of two lines must be preceded by a blank line.
 *   There should be a hard return between the Reviewed By and Merges lines but there must not be a blank line between them.
 *   Multiple core committers may be mentioned as reviewers. When this happens, please separate them with a comma.
 *   While the task of moving the code is called backporting, the words `backport`, `backports`, and `backporting` should not be used anywhere in the commit message.
 *   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves, if they need to.
+-->
+
+*   この2行セットの前には空白行が必要です。
+*   「Reviewed By」の行と「Merges」の行の間には改行が必要ですが、間に空白行があってはなりません。
+*   複数のコアコミッターがレビュアーとして言及される場合がありますが、その場合はカンマで区切ってください。
+*   コードを移動するタスクはバックポートと呼ばれますが、`backport`、`backports`、および `backporting` という単語はコミットメッセージ内のどこにも使用しないでください。
+*   要約とは異なり、行を手動で折り返す必要はありません。必要に応じて、ログビューアが説明を自分で折り返すことができます。
 
 <!--
 ### Props
@@ -179,8 +235,8 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   ユーザー名はカンマとスペースで区切ってください。正規表現: `/^props (\s*([^,]+),?)+$/`
 *   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
 *   ユーザーの表示名にスペースがある場合は、w.org プロフィールの URL のスラッグを使用してください。たとえば、Trac の Frank Klein は frank-klein として props を取得する必要があります。
-*   The props line should only include the word props, wordpress.org usernames, spaces, and punctuation.
-*   The `props` line must end with a period.
+*   props 行には、props、wordpress.org ユーザー名、スペース、句読点のみを含めてください。
+*   `props` 行はピリオドで終わらせます。
 
 <!--
 #### Self props
@@ -200,7 +256,11 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   コミッターがコミットの前にスタイルを調整したり、ロジックを並べ替えたり、あるいは単純なエッジケースを考慮したりするのはよくあることです。このような場合、自分自身を省略してください。コミット上のあなたの名前は、あなたがそれをレビューしてテストしたことを暗示しており、これはコミットの内容と同じくらい重要です。
 *   自分自身のコードをコミットする場合は、props が前提となりますので、ここでも自分自身を省略します。
 
+<!--
 For a more detailed guide about giving props to contributors, see the [Contributor Attribution (“Props”) page in the handbook](https://make.wordpress.org/core/handbook/best-practices/contributor-attribution-props/).
+-->
+
+貢献者へ props を付与することに関する詳細なガイドについては、[ハンドブックの貢献者の帰属 (「props」) ページ](https://make.wordpress.org/core/handbook/best-practices/contributor-attribution-props) を参照してください。
 
 <!--
 ### Ticket references
