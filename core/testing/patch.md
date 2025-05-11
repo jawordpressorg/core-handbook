@@ -2,11 +2,7 @@
 # Testing a Patch
 -->
 
-<<<<<<< HEAD
-This page is under construction and may contain inaccurate information. Want to help fix it? Ping the [#docs](https://make.wordpress.org/core/tag/docs/) channel in WordPress Slack.
-=======
 # パッチをテストする
->>>>>>> main
 
 <!--
 This page is under construction and may contain inaccurate information. Want to help fix it? Ping the [#docs](https://make.wordpress.org/core/tag/docs/) channel in WordPress Slack.
@@ -18,16 +14,17 @@ This page is under construction and may contain inaccurate information. Want to 
 Testing patches is an important part of ensuring the quality of WordPress releases.
 -->
 
-<<<<<<< HEAD
-## Testing Core tickets with Playground
-
-Some tickets can be tested without setting up your own local environment by using [WordPress Playground](https://wordpress.github.io/wordpress-playground/), an online platform that allows you to experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can play around with different features, designs, and settings in a safe and controlled environment. [Learn more about WordPress Playground here](https://wordpress.github.io/wordpress-playground/), and [see the testing team handbook for instructions on testing a core patch in Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/).
-
-=======
 パッチのテストは、WordPress のリリースの品質を保証する重要なパートです。
 
+## Testing Core tickets with Playground
+
 <!--
->>>>>>> main
+Some tickets can be tested without setting up your own local environment by using [WordPress Playground](https://wordpress.github.io/wordpress-playground/), an online platform that allows you to experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can play around with different features, designs, and settings in a safe and controlled environment. [Learn more about WordPress Playground here](https://wordpress.github.io/wordpress-playground/), and [see the testing team handbook for instructions on testing a core patch in Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/).
+-->
+
+一部のチケットは、[WordPress Playground](https://wordpress.github.io/wordpress-playground/) を使用することで、独自のローカル環境を構築することなくテストできます。WordPress Playground は、実際の Web サイトに影響を与えることなく、WordPress を試したり学習したりできるオンラインプラットフォームです。安全で管理された環境で、さまざまな機能、デザイン、設定を試すことができる仮想サンドボックスです。[WordPress Playground の詳細についてはこちら](https://wordpress.github.io/wordpress-playground/)をご覧ください。また、[Playground でコアパッチをテストする方法については、テストチームのハンドブック](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/)をご覧ください。
+
+<!--
 ## Setting up without VVV
 -->
 
