@@ -2,11 +2,7 @@
 # Usability
 -->
 
-<<<<<<< HEAD
-This document is a working draft.
-=======
 # ユーザビリティ
->>>>>>> main
 
 <!--
 This document is a working draft.
