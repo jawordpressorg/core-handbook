@@ -294,7 +294,7 @@ All associated props for each release should always be listed towards the bottom
 In major release posts, props should be listed using the `[wpcredits x.y]` shortcode. For example, the following is how the shortcode would be used for WordPress 6.5: `[wpcredits 6.5]`. 
 -->
 
-メジャーリリースの投稿では、props は `[wpcredits x.y]` ショートコードを使用して記載する必要があります。たとえば、WordPress 6.5の場合は `[wpcredits 6.5]` というショートコードを使用します。
+メジャーリリースの投稿では、props は `&#91;wpcredits x.y&#93;` ショートコードを使用して記載する必要があります。たとえば、WordPress 6.5の場合は `&#91;wpcredits 6.5&#93;` というショートコードを使用します。
 
 <!--
 The Credits API does support listing credits for each minor version. Instead, contributors for minor versions that did not also contribute to the corresponding major version are just added to the API under the major version. Because of this, an HTML list should be used instead of the shortcode. Someone with access to a wordpress.org sandbox will be able to generate this list using a script. Each contributor’s name as configured on their w.org profile, should be used and linked to their profile page.
