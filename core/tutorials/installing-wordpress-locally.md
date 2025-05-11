@@ -11,7 +11,7 @@ There are two steps to installing WordPress on your computer for contributing to
 1.  Choose and install a local server
 2.  Install WordPress trunk
 
-If you haven’t [installed a local server](https://make.wordpress.org/core/handbook/installing-a-local-server/) yet, you’ll need to do that before continuing.
+If you haven’t [installed a local server](https://make.wordpress.org/core/handbook/contribute/#local-development-overview) yet, you’ll need to do that before continuing.
 
 ## Zip File, SVN, or Git?
 

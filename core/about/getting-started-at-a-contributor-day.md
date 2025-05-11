@@ -45,7 +45,7 @@ Prior knowledge that you’ll find helpful for working on core is:
 ## Tools
 
 *   A version control system: either [SVN](http://sourceforge.net/projects/win32svn/) or [Git](http://git-scm.com/)
-*   a local development environment; for example, [MAMP](http://www.mamp.info/en/index.html), [WAMP](http://www.wampserver.com/en/), [Vagrant](//www.vagrantup.com/) [XAMPP](http://www.apachefriends.org/index.html), or [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
+*   a [local development environment](https://make.wordpress.org/core/handbook/contribute/#local-development-overview)
 *   for unit testing, [PHPUnit](http://phpunit.de/)
 *   [Grunt](http://gruntjs.com/) for compiling assets, building release packages, and JavaScript and PHP testing
 *   [QUnit](http://qunitjs.com/) for Javascript testing

@@ -15,7 +15,11 @@ In order to ensure the best experience possible for the developer community, the
 
 ## Posting
 
-### When to write a post
+### Getting Access to Post
+
+Access to posting and editing on make/core is managed in the [#core room in Slack](https://wordpress.slack.com/archives/C02RQBWTW). It is best to have someone who already has access to ask on your behalf, but if you feel you should have access to create a post, please don’t hesitate to ask for yourself. The same process is used for changing roles.
+
+### When to Write a Post
 
 Posting on make/core should be a common occurrence for committers, component maintainers, and other core contributors. There are many kinds of posts that should be written on a schedule:
 

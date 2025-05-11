@@ -12,13 +12,6 @@ Some local server programs have **AMP** in their name, which stands for **A**pac
 
 ## Which local server should I install?
 
-Some popular local servers are:
-
-*   [Docker](https://www.docker.com/) (Mac, Windows, Linux)
-*   [Local](https://localwp.com/) (Mac, Windows, Linux)
-*   [MAMP](https://www.mamp.info/) (Mac & Windows)
-*   [Varying Vagrant Vagrants](https://varyingvagrantvagrants.org/) (VVV – WordPress specific Vagrant configuration for Windows, Mac, Linux)
-*   [WampServer](https://www.wampserver.com/) (Windows)
-*   [XAMPP](https://www.apachefriends.org/) (Windows, Mac, Linux)
-
 Your choice of a local server program will primarily depend on which operating system you run on your computer. There are a couple that work on multiple operating systems, and all will give you a solid local development environment.
+
+The [Advanced Administration handbook](https://developer.wordpress.org/advanced-administration/before-install/development/#installing-wordpress-on-your-computer) has a list of many popular options in the WordPress community.

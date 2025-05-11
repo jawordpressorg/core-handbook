@@ -128,7 +128,7 @@ A resolution on the bug tracker (and generally common in software development, s
 
 **IRC**
 
-Internet Relay Chat, a network where users can have conversations online. IRC channels are used widely by open source projects, and by WordPress. The primary WordPress channels are **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** and **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)\-dev**, on irc.freenode.net. [#](https://make.wordpress.org/core/handbook/glossary/#irc)
+Internet Relay Chat, a network where users can have conversations online. IRC channels are used widely by open source projects, and by WordPress. The primary WordPress channels are **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** and **[#wordpress-dev](https://make.wordpress.org/core/tag/wordpress-dev/)**, on irc.freenode.net. [#](https://make.wordpress.org/core/handbook/glossary/#irc)
 
 **JS**
 
@@ -168,7 +168,7 @@ A special text file that describes changes to code, by identifying the files and
 
 **PHP**
 
-The web scripting language in which WordPress is primarily architected. WordPress requires PHP 5.6.20 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php)
+The web scripting language in which WordPress is primarily architected. WordPress requires PHP 7.4 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php)
 
 **PHPDoc**
 

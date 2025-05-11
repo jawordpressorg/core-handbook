@@ -18,8 +18,8 @@ To get started, install the [**WordPress Beta Tester**](https://wordpress.org/ex
 
 Once the plugin is installed, navigate to Tools > Beta Testing and review the settings:
 
-*   **Point release nightlies.** The current release is 5.2.3. Selecting this will put you on the track for 5.2.x development.
-*   **Bleeding edge nightlies.** Selecting this will put you on the track for 5.3 development.
+*   **Point release nightlies.** This keeps you on the same major version but provides nightly builds for the next minor version. For example, when the stable version is 6.6.2, selecting this will provide updates being prepared for the unreleased 6.6.3 version. After 6.6.3 is released, this will provide the nightly build of 6.6.4.
+*   **Bleeding edge nightlies.** Selecting this will put you on the track for the next major version and provide nightly builds. These are often unstable and changes will happen frequently.
 *   **Beta/RC.** Selecting this will update to the next released beta or RC on whichever branch you are currently running.
 
 You can also use WP CLI to directly update your WordPress to trunk version by doing:

@@ -18,6 +18,12 @@ Generally, security issues are complex problems. If you want to report a securit
 
 The security reporting system is NOT for support. Don’t send general problems there.
 
+## Enhanced bounty rewards during Beta and Release Candidate phases
+
+To encourage proactive security assessments, the WordPress community offers monetary rewards for reporting new, unreleased security vulnerabilities. Notably, these rewards are doubled during the period between the release of Beta 1 and the final Release Candidate (RC) of a major WordPress version.
+
+For instance, in the [WordPress 6.5 release cycle](https://make.wordpress.org/core/6-5/), this enhanced bounty period spanned from February 13, 2024 (Beta 1) to March 28, 2024 (final RC). *[source](https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/)*
+
 ## Where do I report security issues?
 
 *   If you are here to report any sort of security issue with [a site hosted on **WordPress.com**](https://en.support.wordpress.com/com-vs-org/), then please [submit a report at the Automattic HackerOne page](https://hackerone.com/automattic). If the issue you’re trying to report is on WordPress.com and is **not** a security issue, then please use their [support forums](https://en.forums.wordpress.com/) instead.
@@ -62,6 +68,8 @@ To disable unfiltered HTML for all users, including administrators, you can add 
 ## Why are disclosures of usernames or user IDs not a security issue?
 
 The WordPress project doesn’t consider usernames or user ids to be private or secure information. A username is part of your online identity. It is meant to identify, not verify, who you are saying you are. Verification is the job of the password.
+
+This includes, for example, retrieving the list of site users through the [REST API Users endpoint](https://developer.wordpress.org/rest-api/reference/users/), `GET /wp-json/wp/v2/users`. Making this publicly accessible is intentional.
 
 Generally speaking, people do not consider usernames to be secret, often sharing them openly. Additionally, many major online establishments — such as Google and Facebook — have done away with usernames in favor of email addresses, which are shared around constantly and freely. WordPress has also moved this way, allowing users to log in with an email address or username since version 4.5.
 

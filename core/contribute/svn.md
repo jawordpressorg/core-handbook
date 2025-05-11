@@ -16,7 +16,7 @@ The WordPress repository of code is organized into three main directories: [tags
 
 Most popular IDE (Integrated Developer Environment) applications include built-in support for SVN. Some also include enhanced support for WordPress development. This makes it very convenient to perform all source code version control tasks: synchronize, manage local copies, create patches, etc.
 
-Alternatively some developers run SVN commands using the [command line interface](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI), such as [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) on the Mac. Even though most basic commands are simple, the command line is reasonably intimidating for many users. Many developers do rely on [GUI](http://en.wikipedia.org/wiki/GUI) applications though, either for regular use, or to handle complex actions more effectively.
+Alternatively some developers run SVN commands using the [command line interface](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI), such as [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) on the Mac. Even though most basic commands are simple, the command line is reasonably intimidating for many users. Many developers do rely on [GUI](http://en.wikipedia.org/wiki/GUI) applications though, either for regular use, or to handle complex actions more effectively.
 
 When not using an IDE, or if a stand-alone GUI application is required, for Windows the recommended SVN client is [TortoiseSVN](http://tortoisesvn.net/), which is free and open source.
 

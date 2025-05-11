@@ -9,6 +9,7 @@ The following people have made contributions to the Core Contributor Handbook.
 *   **[@audrasjb](https://profiles.wordpress.org/audrasjb)**
 *   **[@bassgang](https://profiles.wordpress.org/bassgang/)**
 *   **[@beaulebens](https://profiles.wordpress.org/beaulebens/)**
+*   [**@benjamin\_zekavica**](https://profiles.wordpress.org/benjamin_zekavica/)
 *   **[@bpetty](https://profiles.wordpress.org/bpetty/)**
 *   **[@bph](https://profiles.wordpress.org/bph)**
 *   **[@bradley](https://profiles.wordpress.org/bradley/)**

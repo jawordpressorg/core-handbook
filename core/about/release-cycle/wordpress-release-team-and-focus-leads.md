@@ -34,10 +34,10 @@ To cover all situations, ideally each lead role in a release should have at leas
 
 These are tasks and responsibilities that may be documented for specific roles below but can be taken on by anyone throughout the release cycle.
 
-*   Communicating publicly as much as possible (on tickets, in component chats, Make/Core posts, etc.).
+*   Communicating publicly as much as possible (on tickets, in component chats, Make/Core posts, issue and PR threads on Github, etc.).
 *   Identifying blockers to progress and asking for help from buddies, team leads, and/or the Release Lead.
 *   Being mindful of deadlines.
-*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notes, marketing, etc.).
+*   Identifying changes that require documentation, HelpHub articles, or communication to the community at large (through dev notes, marketing, P2 posts, etc.), and communicating with the documentation team about such changes.
 *   Leading bug scrubs focused on your team’s tickets and tasks.
 *   Facilitating and participating in inter-team discussions.
 *   Always be testing!
@@ -46,33 +46,29 @@ These are tasks and responsibilities that may be documented for specific roles b
 
 **Responsibilities**
 
-*   Set the overall goals for the release
-*   Make final decisions on merging feature plugins
-*   Give final review to and publishing News blog post announcing the release
-*   Coordinate with Matt to select release jazz musician
+*   Set the overall goals and main focus for the release
+*   Make final decisions on merging [feature plugins](https://make.wordpress.org/core/handbook/about/release-cycle/features-as-plugins/)
+*   Give final review to and publish news blog post announcing the release. Older ones can be [found on this page](https://wordpress.org/news/category/releases/)
 
-### Release Coordinator
+### Release Coordination
 
 **Responsibilities**
 
-*   Publish the weekly dev chat agendas
-*   Run the weekly dev chat in [#core](https://make.wordpress.org/core/tag/core/)
-*   Run various release processes in Slack (beta, release candidate, release)
-*   Write blog posts for various milestones
-*   Keep an eye on the deadlines in the handbook and contact the different teams involved (ping plugin, theme, ping polyglots, etc.)
-*   Remind people of said deadlines
-*   Take notes on the procedures outlined in the handbook to propose changes if needed
-*   Facilitate inter-team discussions if needed
-*   Maintain a birds-eye view of the moving parts for any red flags, blockers, or additional help needed for teams
+*   Run various release processes in Slack (beta, release candidate, release).
+*   Write [blog posts for various milestones](https://make.wordpress.org/core/tag/releases/).
+*   Keep an eye on the deadlines in the handbook and contact the different teams involved (ping plugin, theme, ping polyglots, etc.). Remind people of said deadlines when needed.
+*   Take notes on the procedures outlined in the handbook to propose changes if needed.
+*   Facilitate inter-team discussions if needed.
+*   Maintain a birds-eye view of the moving parts for any red flags, blockers, or additional help needed for teams.
+*   Coordinate with the WordPress Executive Director to ensure a jazz musician is selected to name the release. This involves reaching out to the WordPress Executive Director to start the process in the week before the final Release Candidate. The WordPress Executive Director will then work with Matt Mullenweg to finalize. This is only done for major releases and should be done in the week before the last planned Release Candidate. Past jazzers are documented on the [WordPress versions](https://wordpress.org/documentation/article/wordpress-versions/) page.
 
 ### Core Triage Lead
 
 **Responsibilities**
 
-*   Run Bug Scrubs
-*   Run dev chats when Release Coordinator is unavailable
-*   Run various release processes in Slack with the Release Coordinator (beta, release candidate, release)
-*   Attempt to triage tickets in the release’s milestone
+*   [Run Bug Scrubs](https://make.wordpress.org/core/handbook/tutorials/leading-bug-scrubs/)
+*   Run various release processes in Slack with the Release Coordinator (beta, release candidate, release). These are detailed in the process [detailed in this document](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions).
+*   Attempt to triage core tickets(in trac) in the release’s milestone
 *   Prioritize tickets to ensure that the most time-sensitive and urgent issues are given the necessary exposure within the group to garner a fast resolution
 *   Communicate with component maintainers to gauge where more resources/attention is needed
 
@@ -80,46 +76,53 @@ These are tasks and responsibilities that may be documented for specific roles b
 
 **Responsibilities**
 
-*   Review patches and changesets for feasibility, code quality, technical design, and coding standards compliance. Ensure they follow the overall software architecture
-*   Provide a “second opinion” and technical guidance where requested or needed
-*   Ensure the release cycle stages are followed by all contributors. For example, no enhancements during the beta, unless an exception was proposed and approved by project leadership
+*   Review core patches and changesets for feasibility, code quality, technical design, and [coding standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/) compliance. Ensure they follow the overall software architecture.
+*   Provide a “second opinion” and technical guidance where requested or needed.
+*   Ensure the release cycle stages are followed by all contributors. For example — no enhancements during the beta, unless an exception was proposed and approved by project leadership
 *   Ensure the beta, RC and final release processes run as smoothly as possible on the technical side, and all release steps are completed
-*   This role is also responsible for escalating cases and helping to make decisions when new features, enhancements, and (large) bug-fixes are not ready in time. For example, if a new feature is not 100% complete before beta, and/or the code is still “alpha” quality and needs more work, facilitate reviews and gather more information in order to make a decision whether to proceed with the feature or add it in the next release. These cases are usually escalated to project leadership
+*   This role is also responsible for escalating cases and helping to make decisions when new features, enhancements, and (large) bug-fixes are not ready in time. For example — if a new feature is not 100% complete before beta, and/or the code is still “alpha” quality and needs more work. In such cases, the core tech lead would facilitate reviews and gather more information to decide whether to proceed with the feature or add it in the next release. These cases are usually escalated to project leadership.
 
-### Core Design Lead
+### Design Lead
 
 **Responsibilities**
 
-*   Provide design input, guidance, and mockups for key Trac tickets
+*   This role is split into two main areas – Product, and release.
+    *   The “product” area comprises the work going into the actual UI/UX of WordPress.
+    *   The “release” area includes coordinating release-specific materials (like the About page).
+*   Provide guidance and decision-making on core and block editor tickets that need any design input.
+*   Coordinate design and copy for various release assets.
+    *   Guiding the creation of the highlight grid and microsite for each WordPress release. This includes the unique about page that ships with each major release, and shows up in wp-admin. Examples of previous highlight grids for reference:
+        *   [6.5 microsite](https://wordpress.org/download/releases/6-5/)
+        *   [6.4 microsite](https://wordpress.org/download/releases/6-4/)
+        *   [6.3 microsite](https://wordpress.org/download/releases/6-3/)
+    *   Work on, and provide design support for creating social media assets for each release.
+    *   Decide and design the artwork for the jazz musician associated with each major release
 
 ### Documentation Wrangling
 
 **Responsibilities**
 
-*   Keep track of changes within the release that require dev notes
-*   Coordinate with the participants of those tickets with the best understanding of the changes (the committer, component maintainers, contributors owned a ticket, and lead the charge) to draft dev notes
-*   Ensure all dev notes are written with enough time to proofread, reviewed, and published prior to the field guide (which publishes at the same time as release candidate 1)
-*   If a ticket participant is not available to write a dev note, finding someone to write one, or writing one yourself
-*   Ensure any documentation pages required for new features are created before the release
-*   Write and publish the release changelog on HelpHub
-*   Update WordPress versions page on the Codex
-
-### Documentation Review
-
-**Responsibilities**
-
-*   Proofread and review dev notes as they are available from the Documentation Wrangling team
-*   Verify code examples
-*   Make suggestions for additional examples
-*   Ensure the developer notes accurately and thoroughly describe the problem, solution, and identify proper usage of the changes
+*   [Write and publish the Field Guide](https://make.wordpress.org/core/handbook/tutorials/publishing-the-field-guide/) on RC1 release date ([Example from the WP 6.6 release](https://make.wordpress.org/core/2024/06/25/wordpress-6-6-field-guide/)) 
+*   Manage [writing and publishing of dev notes](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)
+    *   Keep track of changes within the release that require dev notes. This includes Gutenberg PRs for all releases of the plugin between two core releases
+    *   Coordinate with the participants of those tickets/PRs with the best understanding of the changes (the committer, component maintainers, contributors who own a ticket/PR) to draft dev notes
+    *   Ensure all dev notes are written with enough time to proofread, reviewed, and published before the Field Guide (which publishes at the same time as Release Candidate 1)
+    *   Proofread and review dev notes before publication.
+    *   If a ticket participant is not available to write a dev note, finding someone to write one, or writing one yourself
+*   Ensure any documentation pages required for new features are created before the release. Check out the [Documentation process during a major version release](https://make.wordpress.org/docs/handbook/workflows/documentation-process-during-a-major-version-release/) to prepare for release day.
 
 ### MarComms (Marketing and Communications) Lead
 
 **Responsibilities**
 
-*   Work with leads to draft the About page seen in the WordPress Admin after upgrading
-*   Work with leads to draft the WordPress.org News blog announcement post
-*   [View a comprehensive guide for this role’s tasks here.](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)
+*   Collaborate with release leads and contributors to draft Marketing and Communications (MarComms) deliverables, including:
+    *   Beta & Release Candidate announcement posts
+    *   General release announcement post
+    *   About page and microsite content
+*   Ensure the content for these deliverables is written and ready for proofreading and review with enough time, follows the [WordPress.org Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), and accurately reflects the release features and benefits.
+*   Collaborate with release design contributors on creative and visual assets such as the highlight grid, featurettes, and/or other social media visuals for release marketing and communication purposes.
+*   Help develop or collaborate with marketing contributors on a social media posting plan to promote the release milestones and key features.
+*   For a comprehensive guide to this role’s tasks, visit the [Marketing Communications Release Cycle Guide](https://make.wordpress.org/marketing/handbook/resources/marketing-communications-release-cycle-guide/).
 
 ### Editor Tech Lead 
 
@@ -128,32 +131,27 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Loosely help define what Gutenberg features can/should get included in the release
 *   Triage and review patches and PRs, test RCs, and coordinates meetings for the block editor
 *   Ensure all Gutenberg features and bug fixes land on time before each Core beta/RC
-*   Gather a list of important Gutenberg bugs and regressions that need to be fixed on each release. Ensure the contributors know about these and their importance (Project board)
-*   Help with Gutenberg ⇔ Core sync/updates through Trac tickets
+*   Gather a list of important Gutenberg bugs and regressions that need to be fixed on each release. Ensure the contributors know about these and their importance ([Project board example](https://github.com/orgs/WordPress/projects/179))
+*   Help with Gutenberg ⇔ Core sync/updates through Trac tickets ([More details here](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor-release-process-for-major-releases/))
 *   Make sure the Gutenberg props get collected properly
-*   Make sure the Gutenberg release notes get published on time
 *   Communication with the rest of the release squad about:
-    *   document the updates from Gutenberg included in the release and on each Core beta/RC
-    *   highlight the important features and updates for the marketing team and for the About page.
-    *   co-ordination with other leads
-*   Make sure Gutenberg updates get shipped in Core releases on time, with as few bugs as possible, and get communicated properly
+    *   Documenting the updates from Gutenberg included in the release and on each Core beta/RC
+    *   Highlighting the important features and updates for the marketing team and for the About page.
+    *   Co-ordination with other leads
+*   Make sure Gutenberg updates get shipped in Core releases on time, with as few bugs as possible, and get communicated properly. 
+*   Communication with all contributors to get features and enhancements ready in time, help them out if needed.
 
 ### Editor Triage Lead
 
 **Responsibilities**
 
-*   Run Bug Scrubs focused on Editor items.
+*   This role is similar to the Core triage lead role, but focuses mainly on the development of the block editor, and integrating it in core releases.
+*   Run Bug Scrubs focused on Editor items. This is done in the [#core-editor](https://make.wordpress.org/core/tag/core-editor/) channel on Slack.
 *   Review incoming tickets to the [Gutenberg GitHub repo](https://github.com/WordPress/gutenberg/issues) to ensure items are labeled appropriately for further review, including adding anything necessary to the appropriate release specific project board.
 *   Communicate with the Core Editor Tech leads to help gauge where more resources/attention is needed.
 *   Help prioritize any key issues throughout the release cycle to ensure time sensitive and urgent problems are resolved promptly.
 
 This work is done in collaboration and coordination with the Core Tech leads so please refer to [Block Editor Release Process for Major Releases](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor-release-process-for-major-releases/) for a more detailed and practical look.
-
-### Editor Design Lead
-
-**Responsibilities**
-
-*   Provide design input, guidance, and mockups for key block editor tickets
 
 ### Accessibility Lead
 
@@ -163,7 +161,7 @@ This work is done in collaboration and coordination with the Core Tech leads so 
 *   Triage all other tickets that are not in the main priority for the release and make choices based on priority/severity
 *   Organize/run accessibility bug scrubs (1 accessibility focused scrub per week)
 *   Contribute to tickets from various components to give accessibility feedback on both Trac and Gutenberg GitHub repository
-*   Write accessibility-related documentation and publish it on Make/Core (dev notes) or HelpHub as necessary
+*   Write accessibility-related documentation and publish it on Make/Core ([dev notes](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)) or [HelpHub](https://wordpress.org/documentation/) as necessary
 *   Coordinate with the design and media teams to keep the release scope on its way.
 *   Open tickets/issues on Trac/GitHub to handle potential accessibility regressions on all the components during the entirety of the release process
 *   Communicate about the release scope and progress updates on Make/Accessibility and during core dev chats
@@ -190,6 +188,8 @@ This work is done in collaboration and coordination with the Core Tech leads so 
 *   Work with the Documentation Lead to ensure timely publishing of performance related dev note posts prior to or early in the beta phase
 *   Support team members contributing to tickets in the performance focus, e.g. through triaging, coordinating team members to help with feedback, code review, and benchmarking, as well as guidance on communication and documentation related tasks such as enhancing WordPress core documentation or writing dev notes
 *   Coordinate the contributions to tickets, pull requests/patches, tests, performance benchmarks, code reviews, etc.
+*   Run benchmarks to assess the performance of the release compared to the previous stable release, once the Beta or RC is available
+*   Draft and publish a Make Core post highlighting the release’s performance improvements and sharing key metrics from the benchmarks
 
 ### Default Theme
 
@@ -259,3 +259,5 @@ The section above outlines the roles for the Release Team rather than the work o
 > [How the Release Cycle Works](https://make.wordpress.org/core/handbook/about/release-cycle/)
 
 > [Releasing Major Versions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions/)
+
+[#core](https://make.wordpress.org/core/tag/core/)

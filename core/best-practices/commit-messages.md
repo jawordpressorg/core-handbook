@@ -10,19 +10,28 @@ Remember: Do not commit to multiple branches in the same commit. This will, at a
 
 The full format for a commit message is as follows:
 
-> Component: Brief summary.
-> 
-> Longer description with more details, such as a \`new\_hook\` being introduced with the context of a \`$post\` and a \`$screen\`.
-> 
-> More paragraphs can be added as needed.
-> 
-> Follow-up to [\[27195\]](https://core.trac.wordpress.org/changeset/27195), [\[41062\]](https://core.trac.wordpress.org/changeset/41062).
-> 
-> Reviewed by a-fellow-committer, maybe-multiple.  
-> Merges [\[26851\]](https://core.trac.wordpress.org/changeset/26851) to the to the x.x branch.
-> 
-> Props person, another.  
-> Fixes [#30000](https://core.trac.wordpress.org/ticket/30000). See [#20202](https://core.trac.wordpress.org/ticket/20202), #105.
+```
+Component: Brief summary.
+
+Longer description with more details, such as a `new_hook` being introduced with the context of a `$post` and a `$screen`.
+
+More paragraphs can be added as needed.
+
+Example usage:
+
+{{{
+// multi-line code snippet
+$add_filter(‘some_new_filter’, ‘some_filter_callback’);
+}}}
+
+Follow-up to [27195], [41062].
+
+Reviewed by a-fellow-committer, maybe-multiple.
+Merges [26851] to the x.x branch.
+
+Props person, another.
+Fixes #30000. See #20202, #105.
+```
 
 ### Global Guidelines
 
@@ -75,6 +84,7 @@ When [backporting code](https://make.wordpress.org/core/handbook/best-practices/
 *   There should be a hard return between the Reviewed By and Merges lines but there must not be a blank line between them.
 *   Multiple core committers may be mentioned as reviewers. When this happens, please separate them with a comma.
 *   While the task of moving the code is called backporting, the words `backport`, `backports`, and `backporting` should not be used anywhere in the commit message.
+*   When backporting a commit made by another committer, add their username to the list of props if it is not already included.
 
 ### Props
 
@@ -87,6 +97,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 #### Guidelines
 
 *   Props must be preceded by a blank line.
+*   There should be no semi-colon (`:`) between “Props” and the w.org usernames.
 *   Usernames must not start with an @ (at) sign.
 *   Separate usernames by comma + space. Think: /^props (\\s\*(\[^,\]+),?)+$/
 *   Copy/paste usernames to avoid typos. (Sorry, rmccue; or is that rmmcue?)
@@ -118,22 +129,28 @@ Trac will add commit messages as comments on all tickets referenced as “fixes�
 
 Bad:
 
-> Don’t use strict comparisons for term IDs. props booneiscool. fixes [#3398](https://core.trac.wordpress.org/ticket/3398).
+```
+Don't use strict comparisons for term IDs. props booneiscool. fixes #3398.
+```
 
 Meh:
 
-> Fixing \`wp\_dropdown\_categories()\` and other places that use term IDs.
-> 
-> props boonerocks. fixes [#20000](https://core.trac.wordpress.org/ticket/20000).
+```
+Fixing `wp_dropdown_categories()` and other places that use term IDs.
+
+props boonerocks. fixes #20000.
+```
 
 Good:
 
-> Taxonomy: Relax term ID comparisons.
-> 
-> Term IDs are sometimes provided as strings. This is particularly evident in \`wp\_dropdown\_categories()\`, where the \`selected\` argument was not being respected. Plugin authors should also be wary of using strict comparisons for term IDs.
-> 
-> Props booneistheman.  
-> Fixes [#13237](https://core.trac.wordpress.org/ticket/13237).
+```
+Taxonomy: Relax term ID comparisons.
+
+Term IDs are sometimes provided as strings. This is particularly evident in `wp_dropdown_categories()`, where the `selected` argument was not being respected. Plugin authors should also be wary of using strict comparisons for term IDs.
+
+Props booneistheman.
+Fixes #13237.
+```
 
 ## Automatically Pre-fill Commit Message
 

@@ -1,7 +1,5 @@
 # Project Organization
 
-This page is out of date. Let someone in [#core](https://wordpress.slack.com/messages/C02RQBWTW) know if you want to help update it!
-
 ## About the Project
 
 The WordPress project is run by a core leadership team and led by co-founder and lead developer **Matt Mullenweg**. The team governs all aspects of the project, including core development, WordPress.org, and community initiatives.
@@ -26,19 +24,23 @@ The lead developers are **Helen Hou-Sandi**, **Dion Hulse**, **Mark Jaquith**, 
 
 Current committers include:
 
-**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Dennis Snell**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, and **Grzegorz Ziółkowski**.
+**Robert Anderson, Michael Arestad, Joen Asmussen, Felix Arntz, Marin Atanasov, Jean-Baptiste Audras, Daniel Bachhuber, Rachel Baker, David Baumwald, Ian Belanger, Riad Benguella, Pascal Birchler, Sergey Biryukov, John Blackbourn, Carlos Bravo, Isabel Brison, Anthony Burchell, Aaron D. Campbell, Marco Ciampini, Kelly Choyce-Dwan, Allan Cole, Alex Concha, Jorge Costa, Michal Czaplinski, Glen Davies, Jonathan Desrosiers, Ramon Dodd, Joe Dolson, Andrei Draganescu, Ian Dunn, Ben Dwyer, Darren Ethier, Jeremy Felt, Andrea Fercia, Miguel Fonseca, Laurel Fulford, Herre Groen, Aki Hamano, Kai Hao, Jonny Harris, Luis Herranz, Timothy Jacobs, John James Jacoby, Drew Jaynes, Marius Jensen, Aaron Jorbin, Fabian Kägy, James Koster, Tammie Lister, George Mamadashvili, André Maneiro, Joe McGill, Lena Morita, Tonya Mork, Sarah Norris, Carolina Nymark, Jeff Ong, William Patton, Brandon Payton, Gary Pendergast, Juliette Reinders Folmer, Omar Reiss, Bernhard Reiter, Daniel Richards, Aaron Robertshaw, Weston Ruter, Dominik Schilling, Kira Schroder, Andrew Serong, Alex Shiels, Adam Silverstein, David Smith, Dennis Snell, Allen Snook, Jake Spurlock, Ari Stathopoulos, Colin Stewart, Jon Surrell, Rich Tabor, Anton Timmermans, Nik Tsekouras, Ella Van Durpe, Matias Ventura, K. Adam White, Peter Wilson, Adam Zieliński,** and **Grzegorz Ziółkowski.**
 
-Other contributing developers include **Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, and **Samuel Wood**.
+Other contributing developers include:
 
-### Core Contributors
+**Michael Adams, Nikolay Bachiyski, Jon Cave, Mel Choyce-Dwan, Andrew Duthie, Boone B. Gorges, Joe Hoyle, David A. Kennedy, Daryl Koopersmith, Konstantin Kovshenin, Eric Lewis, Matthew Riley MacPherson, Matt Miklic, Ryan McCue, James Nylen, Konstantin Obenland, Joseph Scott, Ian Stewart, Andy Skelton, Scott Taylor, Peter Westwood, Lance Willett,** and **Samuel Wood.**
 
-The core and contributing developers serve as guides for WordPress development. With every version, hundreds of developers contribute code to WordPress. These **core contributors** are volunteers who contribute to the core codebase in some way. All it takes is a single patch to make a difference.
+*Note that the most current list of committers can be viewed [in code](https://meta.trac.wordpress.org/browser/sites/trunk/trac.wordpress.org/templates/core/site-specific.html) and [on GitHub](https://github.com/orgs/WordPress/teams/wordpress-core).*
 
 ### Team Reps
 
 Since anyone who is an active contributor on a team can be elected as team rep, team reps will often have different levels of familiarity with other areas of the project, communication protocols, and general processes. To get everyone’s expectations in the same place, the [“job description” for team reps is located on Make/Updates](https://make.wordpress.org/updates/team-reps/).
 
-@hellofromtonya and @webcommsat are the current Core Team Reps for 2023. Team Rep elections happen every years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
+[@francina](https://profiles.wordpress.org/francina/), [@audrasjb](https://profiles.wordpress.org/audrasjb/) and [@benjamin\_zekavica](https://profiles.wordpress.org/benjamin_zekavica/) are the current Core Team Reps for 2025. Team Rep elections happen every year and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
+
+### Core Contributors
+
+The core and contributing developers serve as guides for WordPress development. With every version, hundreds of developers contribute code to WordPress. These **core contributors** are volunteers who contribute to the core codebase in some way. All it takes is a single patch to make a difference.
 
 ### UX and Design
 
@@ -64,7 +66,7 @@ Themes submitted to the WordPress Themes Directory are reviewed by a team of vol
 
 ### Plugin Reviewers
 
-Plugins submitted to the WordPress Plugins Directory are reviewed by a team of volunteers to ensure they meet [WordPress.org guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) before being included in the plugin directory. The team rep is **Boone Gorges**, with volunteers **Pippin Williamson**, **Scott Reilly**, **Samuel Wood**, **Mika Epstein**, **Kailey Lampert**, **Daniel Bachhuber**, and **Mark Riley** (Reviewer Emeritus) reviewing plugins and developing standards.
+Plugins submitted to the WordPress Plugins Directory are reviewed by a team of volunteers to ensure they meet [WordPress.org guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) before being included in the plugin directory.
 
 ### Community Blogs and Communication
 

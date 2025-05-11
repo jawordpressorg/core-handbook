@@ -39,6 +39,7 @@ When Core Committers deem a change ready and record a transaction in the canonic
 The full [commit message guide covers this](https://make.wordpress.org/core/handbook/best-practices/commit-messages/) in-depth, but the standard rules are:
 
 *   Props must be preceded by a blank line.
+*   There should be no semi-colon (`:`) between “Props” and the w.org usernames.
 *   Usernames must not start with an @ (at) sign.
 *   Separate usernames by comma + space. Think: /^props (\\s\*(\[^,\]+),?)+$/
 *   Copy/paste usernames to avoid typos. (Sorry, rmccue; or is that rmmcue?)
@@ -57,9 +58,10 @@ Some technical notes:
 *   The list of `Co-authored-by` trailers must be preceded by a blank line.
 *   `Co-authored-by` trailers should be the last thing in a commit message.
 *   The unlinked contributors must come before the `Co-authored-by` trailers.
-*   Unlinked contributors should be entered in one line preceded by `Unlinked contributors:`, each one separated by a comma and a space (`,` ), and a period after the last one. Example: `Unlinked contributors: nacin, wapuu.`
+*   Unlinked contributors should be entered in one line preceded by `Unlinked contributors:`, each one separated by a comma and a space (`,` ), and a period after the last one. Example: `Unlinked contributors: nacin, matt.`
 *   Usernames must not start with an `@` (at) sign.
-*   When manually adding someone, please only use their WordPress.org username in the following format: `Co-authored-by: dotorgusername <[dotorgusername@git.wordpress.org](mailto:dotorgusername@git.wordpress.org)>`. The only exception to this rule is for bot accounts, such as `dependabot` or `github-actions`. It’s important to include them so future contributors know they were involved in the changes.
+*   When manually adding someone, please only use their GitHub and WordPress.org usernames in the following format: `Co-authored-by: githubusername <[dotorgusername@git.wordpress.org](mailto:dotorgusername@git.wordpress.org)>`.
+*   The only accounts that are allowed to be noted with a non-w.org email are bot accounts (`dependabot` or `github-actions`). It’s important to leave these bots as listed by the GitHub generated `Co-authored-by` trailer so future contributors know which bots were involved in the changes.
 *   If there are contributors already noted with `Co-authored-by` in the suggested commit message, verify they are also included in the list provided by Props Bot before removing. These will be in **GitHub format and should be converted to the above w.org format**. Deleting the GitHub formatted ones will ensure an accurate contributor count for each commit, but it’s not required. Non w.org emails will be ignored by the props parsing scripts.
 *   If a contributor’s w.org username is unknown, add their GitHub username to the “Unlinked contributors” list.
 *   If there are `Signed-off-by` trailers in the suggested commit message, leave them in place above `Co-authored-by` trailers. These serve a different purpose and are ignored in the context of collecting props.
@@ -84,7 +86,7 @@ A GitHub Action, [WordPress Props](https://github.com/WordPress/props-bot-action
 
 ### GitHub specific notes
 
-*   Always include yourself in the props list, even if it’s noted that you will be the author of the merge commit. The w.org style credit is required attribute your contribution to your w.org profile.
+*   **Always include yourself in the props list, even if it’s noted that you will be the author of the merge commit.** The w.org style credit is required attribute your contribution to your w.org profile. See [WordPress/props-bot-action#46](https://github.com/WordPress/props-bot-action/issues/46) for more context.
 *   **Do not use personal emails or GitHub-specific emails** ([`ID+USERNAME@users.noreply.github.com`](mailto:ID+USERNAME@users.noreply.github.com) or `USERNAME@users.noreply.github.com`).
 *   There’s currently no automated way to add a contributor who is not included in the list prepared by Props Bot. To find someone’s w.org profile, visit `[https://profiles.wordpress.org/github:GHUSERNAME](https://profiles.wordpress.org/github:GHUSERNAME)`, replacing `GHUSERNAME` with the contributor’s GitHub username. This will redirect you to the person’s w.org profile if they have connected their account. Add their GitHub username (without an `@`) to the `Unlinked contributors:` list when there’s no connection.
 

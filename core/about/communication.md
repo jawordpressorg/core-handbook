@@ -21,7 +21,7 @@
 *   [make/polyglots](https://make.wordpress.org/polyglots/): The blog for translators.
 *   [make/support](https://make.wordpress.org/support/): The blog for the support team (forums, IRC, etc).
 *   [make/systems](https://make.wordpress.org/systems/): The blog for those working on the WordPress.org site and infrastructure.
-*   [make/themes](https://make.wordpress.org/themes/): The blog for the theme review team.
+*   [make/themes](https://make.wordpress.org/themes/): The blog for the themes team.
 *   [make/training](https://make.wordpress.org/training/): The blog for the WordPress Training contributor sub-group, part of Make/Community.
 *   [make/ui](https://make.wordpress.org/ui/): The blog for the UI team. Much of the UI work is done under the umbrella of core, but **make/ui** is used for discussion of user testing and design issues.
 

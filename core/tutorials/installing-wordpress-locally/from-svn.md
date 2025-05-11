@@ -7,14 +7,13 @@ This article will walk you through installing the latest WordPress development v
 ### What You Will Need Before Starting
 
 *   Create a new database in your local web server using phpMyAdmin. \[[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/)\]
-    *   **Note:** If you are using DesktopServer as your local server, you’ll need to choose the **Blank (WordPress SVN)** option from the Blueprint dropdown when creating a new local development site. That will create your database and `wp-config.php` file. Once you’ve created the site, delete the `index.html` and `wp-config-sample.php` files in the development site’s folder (**wordpress-svn.dev**) before you check out a copy of WordPress trunk.
 *   Subversion installed on your computer:
     *   Installing SVN on Windows
     *   [Installing SVN on MAC](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/#installing-subversion-on-a%c2%a0mac)
     *   [Installing TortoiseSVN](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/#installing-tortoisesvn) (Windows)
 *   A command line client installed on your computer:
     *   Windows: [Cygwin](http://cygwin.com/)
-    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
+    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) or [Bash](http://www.gnu.org/software/bash/)
 
 ## Installing WordPress Using Subversion
 
@@ -99,7 +98,7 @@ Remember that you will need to **create a MySQL database** to install WordPress 
 
 In your web browser, navigate to [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) to run the installation process.
 
-**For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v16.x/](https://nodejs.org/download/release/latest-v16.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
+**For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v20.x/](https://nodejs.org/download/release/latest-v20.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
 `npm install grunt --save-dev`  
 `npm run dev` should now complete the process of unpacking the WordPress install.
 

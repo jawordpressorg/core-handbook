@@ -4,8 +4,6 @@ A group of contributors from different Make teams leads each WordPress release c
 
 A release cycle usually lasts around 4 months, from the initial scoping meeting to the launch of the version.
 
-The [6.2 release cycl](https://make.wordpress.org/core/6-2/)e ended on March 29, 2023.
-
 A release cycle follows the following pattern:
 
 *   **Phase 1: Planning and securing team leads.** This is done in the **[#core](https://wordpress.slack.com/messages/C02RQBWTW)** channel. The release lead discusses features for the next release of WordPress. WordPress contributors get involved in that discussion. The release lead will identify focus leads for each of the features.

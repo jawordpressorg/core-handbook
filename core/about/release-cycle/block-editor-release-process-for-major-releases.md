@@ -18,7 +18,7 @@ Here’s a list of the significant time-critical tasks, sorted by when they shou
 
 *   Set up the release project board on GitHub
 *   Audit experimental APIs in Gutenberg
-*   Create an overview issue of PHP changes that need to be manually added in Core
+*   Create an overview issue for PHP changes that need to be manually added in Core. The issue should have the label “🤖 Sync Backport Changelog” and the WP version x.x in the title, so that the PR list is auto-generated.
 
 **One month before Beta 1**
 
@@ -27,13 +27,15 @@ Here’s a list of the significant time-critical tasks, sorted by when they shou
 
 **Between Beta 1 and the last RC**
 
+*   Create a label “Backport to WP x.x Beta/RC”.
 *   Triage recent bug reports and unlabelled issues for critical regressions
 *   Fix all critical regressions and as many bug fixes related to the release as possible
 
 **The week before each Beta/RC release**
 
-*   Go through all merged PRs labeled [`Backport to WP Beta/RC`](https://github.com/WordPress/gutenberg/issues?q=label%3A%22Backport+to+WP+Beta%2FRC%22+is%3Aclosed) and check that they are ok to include in the release
+*   Go through all PRs labeled “Backport to WP x.x Beta/RC” and check that they are ok to include in the release. Check the merged PRs with this label for any auto-cherry-pick failures.
 *   Review any open PRs with the same label
+*   Go through the commits on the wp/x.x branch to ensure the PR should be included in the release.
 *   Start package update/core patch process
 
 ## Planning before the first Major Release Beta
@@ -89,7 +91,7 @@ After you have created the project board, make sure to review the project board 
 
 An example of the WordPress 6.4 Editor Tasks project board.
 
-Note that “punting” is a sports metaphor from [American football](https://en.wikipedia.org/wiki/Punt_(gridiron_football)). If you punt something, you decide not to include it in the current release, and it’s “punted” to the next minor or major release.
+Note that “punting” is a sports metaphor from [American football](https://en.wikipedia.org/wiki/Punt_\(gridiron_football\)). If you punt something, you decide not to include it in the current release, and it’s “punted” to the next minor or major release.
 
 ### Keeping the project board updated
 
@@ -162,6 +164,25 @@ Since the [private-apis](https://github.com/WordPress/gutenberg/tree/trunk/packa
 
 However, there are still many older experimental APIs in Gutenberg that can be recognized by the `__experimental` prefix. These can be functions, properties, or variables found throughout the codebase. For every release, it’s customary to audit these and check if any are ready for stabilization. Stabilization must be done before the Beta 1 release (ideally at least two weeks beforehand), as renames during the Beta phase are not possible.
 
+There’s two solutions to an experimental/unstable API: either make it public, or make it completely private. In either case the original function should be kept and deprecated.
+
+### Updating the Private API consent string
+
+The consent string for unlocking private APIs is intended to change on a regular basis. To update the consent string:
+
+1.  Come up with a new consent string, the string should mention that themes or plugins opting in to unstable and private features will break in future versions of WordPress.
+2.  Ensure the consent string has not being used previously.
+3.  Append the new string to the history list in the Private API package’s read me.
+4.  Replace the consent string in the following locations:
+    *   in the getting started section of the Private API package’s read me
+    *   in the `src/implementation.js` file of the Private API package
+    *   in the `src/lock-unlock.js` file located in packages consuming private APIs
+    *   search the full code base for any other occurrences
+
+**Note**: The consent string is not used for user facing content and as such should *not* be made translatable via the internationalization features of WordPress.
+
+Updating the consent string is considered a task and can be done during the late stages of a WordPress release.
+
 ### How to run the audit
 
 Generally speaking, the process is as follows:
@@ -193,6 +214,10 @@ When doing so, ping the people with PRs needing dev notes to contribute to this 
 Keep in mind that dev notes are extremely collaborative efforts requiring help from many people. This might mean that some people you need information from didn’t see the ping the first time or are unavailable to write a note. It’s okay and expected that follow-up will be required, likely in the form of additional pings or even DMs in Slack to get updates. When each section is done for each dev note, you can check the checkbox to show progress and help others see what’s left. 
 
 As you compile each dev note, particularly if you combine multiple PRs into one dev note, ensure you share the posts with those involved for review so everyone is on the same page. Once there’s consensus, share the dev notes with those involved in the major release squad for a final review. 
+
+### Getting a list of commits
+
+Release coordinators may require total numbers of Editor commits made during the major cycle. To do this go to the Gutenberg
 
 ## General triage management
 
@@ -226,7 +251,12 @@ In order to safely update the npm packages in Core, experimental Gutenberg featu
 
 **List PHP changes to be manually synced.**
 
-Create an overview issue of all the changes from the `lib` and `phpunit` folders that need to be manually synced. Using git blame, find the authors of those changes and ping them to create Core PRs for each change.
+Create an overview issue of all the changes from the `lib` and `phpunit` folders that need to be manually synced.
+
+There is now automation available in the Gutenberg repo to create the contents of this Issue for you:
+
+*   Create an issue with the WP version number in the title, e.g. “Backports for WP x.x”. Add the label “🤖 Sync Backport Changelog”, and whenever trunk is updated, new entries in the [backport-changelog](https://github.com/WordPress/gutenberg/tree/trunk/backport-changelog) folder will be synced to this issue.
+*   Github will add link previews so it’s easy to see the status of each core PR.
 
 The PHP files in `block-library` package don’t need to be manually synced, as they are auto-generated in Core based on the npm package.
 
@@ -242,39 +272,78 @@ When PRs are submitted for issues on the project board, add the `Backport to WP 
 
 Outside of looking for issues that need to be added to the project board, it’s important to ensure all issues on the board are assigned to someone to resolve, especially with Beta releases occurring on a weekly schedule.
 
-### Cherry-picking PRs for release
+### Syncing Gutenberg code to WordPress Core
 
 Once PRs on the project board are completed, they must be backported into the Core to be available on the next Beta or RC version. Follow this process:
 
-*   If a `wp/x.x` (use the correct WordPress release number) has yet to be created, create it and push it to the remote repository.
-*   Review all PRs labeled [`Backport to WP Beta/RC`](https://github.com/WordPress/gutenberg/pulls?q=label%3A%22Backport+to+WP+Core%22+sort%3Acreated-desc+). Verify that everything looks good and that the PRs are not “too risky” to go into a Core release. Refer to the Editor Tech Leads and Core Tech Leads for guidance.
-*   Remove the label from any PRs that were closed without merging. Otherwise, they’ll mess with the automated cherry-pick script.
-*   Create a branch based on the format of `wp/x.x`
-*   Cherry-pick each PR into the newly created branch.
+#### Review the PRs
+
+*   Review all the closed PRs marked with “Backport to WP x.x Beta/RC” label, and PRs auto-cherry-picked to the wp/x.x branch.
+*   Check for PRs that contain [PHP changes that might require a *manual* backport](https://github.com/WordPress/gutenberg/blob/trunk/docs/contributors/code/back-merging-to-wp-core.md). If any are required, either raise the backport PR in the WP Core repo or prompt the contributor to do so.
+*   Audit the PRs and confirm they are suitable to be included in the current phase of the release. For example, the RC phase is intended as “complete software” has specific requirements. Refer to the Editor Tech Leads and Core Tech Leads for guidance.
+
+#### Cherry Picking PRs
+
+Cherry picking PRs has been completely automated. If a PR has the “Backport to WP x.x Beta/RC” label, it will be cherry-picked to the wp/x.x branch on merge. Applying the label after merge will also trigger a cherry-pick.
+
+Please note that the automation can fail when there are conflicts, so you must still check the “Backport to WP x.x Beta/RC” label for closed PRs. Normally an automated comment is left to encourge the PR author to create a manual cherry-pick PR (with wp/x.x as the base). After merging the manual cherry-pick, you should remove the “Backport to WP x.x Beta/RC” label and add the “Backported to WP Core” label to the *original* PR.
+
+Pre-automation instructions, in case it completely failed.
+
+Only follow these steps if automation *completely* fails for *all* PRs. Do not use these steps for conflict failures!
+
+*   If a `wp/x.x` (use the correct WordPress release number) has yet to be created, create it and push it to the Gutenberg remote repository.
+*   Create *another* branch (the “cherry picking” branch) *based on* the `wp/x.x` branch.
+*   Cherry-pick each PR into the newly created branch:
     *   There is [cherry-picking automation](https://developer.wordpress.org/block-editor/contributors/code/release/auto-cherry-picking/) available via `npm run other:cherry-pick`. It finds all merged PRs with the `Backport to WP Beta/RC` label, cherry-picks them, and asks whether to automatically comment on the relevant PRs and push the branch to GitHub. You can also pass another label as the first argument.
     *   You can also do it manually. The hash of the commit is extracted from the GitHub pull request page. To avoid merge conflicts, cherry-pick the commits in the same order they were made in trunk. The order will likely not be the same as the PRs appear in the label view, so double-check the merge date and refer to the [commit history](https://github.com/WordPress/gutenberg/commits/master). You can combine multiple commits in a single command, like so: `git cherry-pick c82094d8389b1756f05d4079ba98e4ee25961502 && git cherry-pick 548e600f14924d7fcfdb5250f45f718d3759d022 && git cherry-pick b72b41e27f008540410c45023b655c8ee20b67ae`
 *   Merge conflicts may still happen. If they do, you will have to resolve them. If you need help with this, message the PR author for assistance.
 *   Sometimes a conflict happens because the cherry-picked commit depends on another commit that wasn’t included in the release branch. This may be an accidental omission, so it’s good to double-check by pinging the authors of the PRs.
-*   After manually solving a conflict, return to the original PR and remove the `Backport to WP Beta/RC` label.
-*   Create a pull request on GitHub from the branch you created into the `wp/x.x` branch.
+*   After manually solving a conflict, return to the original PR and
+    *   remove the `Backport to WP Beta/RC` label.
+    *   *add* the `Backported to WP Core` label.
+    *   comment that the PR was cherry picked into `{link_to_your_branch}`.
+*   Create a pull request on GitHub from the cherry pick branch and use the Github UI to set it to merge into the `wp/x.x` branch.
 *   Verify that continuous integration is executed with success for the PR.
-*   If there were merge conflicts to solve, you should ping the authors of the conflicting commits to double-check they were solved correctly. Otherwise, if all tests pass on CI, merging the PR to the release branch is fine.
-*   After merging, run the package publish task from the release branch:
-    *   On [this page](https://github.com/WordPress/gutenberg/actions/workflows/publish-npm-packages.yml), click the “Run workflow” button and choose the release branch. The release type should be `wp`, and the release version should be added underneath.
-    *   Once the workflow appears in the list below, click through to authorize it. If you don’t have `gutenberg-core` access, ask someone who does to approve it for you.
-    *   This workflow will publish the npm packages with a dist tag corresponding to the release, which can then be used to select the correct package versions in Core.
+*   If there were merge conflicts to solve, you should ping the authors of the conflicting commits to double-check they were solved correctly.
+*   Before merging, always [double-check that *all* the necessary PRs have been identified and cherry picked](https://github.com/WordPress/gutenberg/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Backport+to+WP+Beta%2FRC%22) as the automation is prone to occasional errors.
+*   Once all tests pass on CI, use the Github UI to `Rebase and Merge` the branch (check the target branch is the `wp/X.X` branch). Be sure to change to `Rebase` and not the default `Squash` as this allows for a full history of commits to the `wp/X.X` branch.
 
-### Package updates and Core patches
+#### Publish Packages to NPM
+
+*   After merging, check the CI tests pass on the `wp/X.X` branch.
+*   If they do, now it’s time to run the package publish task from the release branch so that the `@wordpress/*` packages will be published to NPM under the correct `dist-tag` .
+*   On [the Actions tab in the Gutenberg repository in Github](https://github.com/WordPress/gutenberg/actions/workflows/publish-npm-packages.yml), click the “Run workflow” button and choose:
+    *   Use workflow from: `trunk`
+    *   Release type: `wp`
+    *   WordPress major version: `X.X`
+*   Once the workflow appears in the list below, click through to authorize it. If you don’t have `gutenberg-core` access, ask someone who does to approve it for you.
+*   This workflow will publish the npm packages with a dist tag corresponding to the release, which can then be used to select the correct package versions in Core.
+*   Once workflow is complete check `npm` registry has updated
+    *   pick a `@wordpress/*` package (e.g. `@wordpress/block-library` )
+    *   goto [https://www.npmjs.com/package/@wordpress/block-library?activeTab=versions](https://www.npmjs.com/package/@wordpress/block-library?activeTab=versions)
+    *   click the `Versions` tab.
+    *   Scroll down to find the `Tag` for the release (e.g. `wp-6.5` ). Note the release number.
+    *   Scroll down further to find the `Version History` heading and check that the release number is the same as the latest release.
+
+#### Package updates and Core patches
 
 *   Once the npm packages are published, they can be updated in the `wp-develop` repo using the automated script: `npm run sync-gutenberg-packages -- --dist-tag=wp-<VERSION>`. Remember to use the same dist-tag as the newly released `@wordpress` packages, e.g. `wp-6.2` for the 6.2 major version.
 *   Then run `npm run postsync-gutenberg-packages` in the `wordpress-develop` folder. It includes any new Gutenberg blocks in Core and runs the required builds.
 *   If any new front-end scripts have been added to dynamic blocks, these need to be referenced manually in the [webpack block config](https://github.com/WordPress/wordpress-develop/blob/trunk/tools/webpack/blocks.js#L67).
 *   After running both sync and postsync tasks, verify that the correct files have been updated for any blocks with changes to their PHP or block.json files and that files have been generated for any brand new blocks.
+*   **Note**: changes to `script-loader-packages.min.php` should only be expected *if* there are **JavaScript** changes in the packages update. If there are no JavaScript changes (for example when changes are purely CSS) then the hashes remain the same because the compiled contents are identical.
 *   In your local WordPress development environment, check that the issues that were supposed to be resolved are in fact resolved.
 *   Create a [Trac](https://core.trac.wordpress.org/) ticket for the package updates in Core.
-*   Submit a PR against `wordpress-develop` to ensure the continuous integration tests pass, and add the Trac ticket number to the description. This ensures the PR gets linked to the ticket, and the patch will then be created automatically ([previous example](https://github.com/WordPress/wordpress-develop/pull/2564)).
+*   Submit a PR against `wordpress-develop` to ensure the continuous integration tests pass, and add the Trac ticket number to the description. This ensures the PR gets linked to the ticket, and the patch will then be created automatically ([previous example](https://github.com/WordPress/wordpress-develop/pull/2564)). You should include a list of all the PRs included in the sync (see below).
+*   To get a list of the PRs that were committed since the last release you can use this command substituting `{LAST_COMMIT_HASH}` for the commit hash of the last published commit:
+
+```
+git --no-pager log --pretty='format:%s' {LAST_COMMIT_HASH}..HEAD
+```
+
 *   Ask for reviews. During the Beta stage, a review is recommended but not mandatory. A double signoff by two different committers is required during the RC process. If you are a committer and are confident with the changes, you can be one of the approvers and add the “dev-feedback” keyword.
 *   When approved, commit the patch or coordinate with a committer to ensure it’s committed if you are not a committer.
-*   If a branch for the WordPress release already exists, backporting the commit from trunk to the release branch is required.
+*   If a branch in SVN for the WordPress release already exists (usually happens shortly after RC1), [backporting the commit from the `trunk` to the release branch](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/) is required. This must be undertaken by a different committer than the person who committed to `trunk`.
 
 [#core-editor](https://make.wordpress.org/core/tag/core-editor/)

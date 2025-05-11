@@ -22,7 +22,7 @@ There are many [pre-generated reports](https://make.wordpress.org/core/reports/)
 *   focus oriented ones such as for [JavaScript](https://core.trac.wordpress.org/focus/javascript)
 *   [all tickets requesting dev feedback](https://core.trac.wordpress.org/tickets/dev-feedback)
 
-You can also create a custom query. For example, here’s one for [defects discussed during the last cycle that don’t have a resolution yet](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+(bug)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
+You can also create a custom query. For example, here’s one for [defects discussed during the last cycle that don’t have a resolution yet](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+\(bug\)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
 
 ### What does it mean to move tickets towards a resolution?
 

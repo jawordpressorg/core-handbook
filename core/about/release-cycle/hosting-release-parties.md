@@ -16,9 +16,9 @@ Note: Some or all of these roles may be performed by the same contributor, depen
 *   **A person with Mission Control access** (`@mcpilot`). A contributor with this level of access is needed to package the release and refresh the nightly. The list of active contributors with this access is very small, so finding a person to fill this role ahead of time is crucial.
 *   **A member of the marketing team, or a marketing release lead** (`@marketingteamember`). The person in charge of drafting the release announcement post.
 
-## Pre-release check-in – one hour before the party starts
+## Pre-release check-in – one hour before the code freeze starts
 
-Before the scheduled time, check the current release leads channel (usually named `#x.x-release-leads`) to confirm that all relevant teams are prepared. If more time is needed and a delay is necessary, a message in the [#core](https://make.wordpress.org/core/tag/core/) channel should note the reason for the delay along with an expected time that the party will start.
+Before the scheduled time, check the current release leads channel (usually named `#x.x-release-leads`) to confirm that all relevant teams are prepared. If more time is needed and a delay for code freeze is necessary, a message in the [#core](https://make.wordpress.org/core/tag/core/) channel should note the reason for the delay along with an expected time that the party will start.
 
 ## Host script based on Beta releases
 
@@ -37,7 +37,7 @@ For those who haven’t attended a release party before, welcome! Here’s the s
 A public preview should be made available so anyone wanting to help proofread the post can do so. Just double-check the `@props` to credit them. | Marketing Leads |
 | **Step 2:** Announce in Core to pause commits and don’t share links to the package until tested | @committers. Please refrain from committing until `X.Y-Z` has been released. :thank-you:  
   
-:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren: | All attendees |
+:siren: Please remember not to share links to the package publicly until the announcement post is published on WordPress.org. :siren: | All attendees |
 | **Step 3:** Run all unit tests locally | Time to run all unit tests. @corecommitter, please confirm. | Core Committer |
 | **Step 4:** Verify that the latest [GitHub Action checks](https://github.com/WordPress/wordpress-develop/actions) are passing. | @corecommitter, can you also confirm that GitHub Action checks are passing? | Core Committer |
 | **Step 5:** Ask a Security team member to verify the private security unit tests are passing for the most recent commit to ensure no regressions are introduced. | @securityteammember, please verify the private security unit tests pass for the latest commit. Thanks! | Security Team Member |
@@ -47,7 +47,7 @@ A public preview should be made available so anyone wanting to help proofread th
 | **Step 7:** Build the packages. | @mcpilot please proceed to package the release and post the link to the package here. | Core Committer |
 | **Step 8:** Package Reminder | \[*While the package is being built, once again, remind attendees not to publicly share the link to the package until it’s been tested and the release post has been published. Sometimes, errors can happen during packaging, and the package needs to be rebuilt.*\]  
   
-:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren:  
+:siren: Please remember not to share links to the package publicly until the announcement post is published on WordPress.org. :siren:  
   
 *\[Wait until the link to the \*.zip file is posted\]* | Emcee |
 | **Step 8:** Testing | I**t’s testing time**!  
@@ -72,7 +72,9 @@ You can report back by sharing how you tested and what the result was with an em
 If it works, add :white\_check\_mark:  
 If any issues happen, add :red\_circle: so we can investigate.  
   
-Please note that language packs are built in a later step of the process, so it is normal for there to be notices such as `**Warning: Checksums not available for WordPress 6.3.2/fr_FR. Please cleanup files manually.**` | Everyone |
+Please note that language packs are built in a later step of the process, so it is normal for there to be notices such as `**Warning: Checksums not available for WordPress 6.3.2/fr_FR. Please cleanup files manually.**`  
+  
+After thorough testing, ask the @mcpilot if they are satisfied with the amount and level of testing and comfortable with proceeding with the release. | Everyone |
 | **Optional**: Summarize any issues found | *\[If any issues are found during testing, rely on this section*.\]  
 Thanks, everyone, for testing! For now, we’re tracking the following issues: | Emcee |
 | **Step 9:** Second version bump | Please, @corecommitter, proceed with the second version bump.  

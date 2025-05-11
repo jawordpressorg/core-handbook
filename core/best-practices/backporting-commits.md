@@ -28,6 +28,15 @@ Make sure to run the above commands from the branch root, and not from a sub dir
 
 At the bottom of https://core.trac.wordpress.org/browser/branches/5.9 you see two links, ‘merged’ and ‘eligible’. The second one shouldn’t list commits which are already merged.
 
+## Backport Process
+
+The standard process for any commit not to trunk is “double signoff”. Essentially, another committer must review and comment with their agreement before the code is backported. In practice, this process looks as follows:
+
+1.  Make a commit to trunk.
+2.  Reopen the ticket and add the `dev-feedback` keyword. You should also remove the `commit` keyword if that had previously been applied. A comment along the lines of “Reopening [#15705](https://core.trac.wordpress.org/ticket/15705) to request backporting [\[27195\]](https://core.trac.wordpress.org/changeset/27195) to 2.4 branch”.
+3.  A second committer should add a comment approving the backport and add the `dev-reviewed` keyword.
+4.  Follow the technical steps above.
+
 ### Security Backports
 
 Security fixes are backported to many versions, and are not committed until the day of a release. Because of this, the process can be streamlined a bit.

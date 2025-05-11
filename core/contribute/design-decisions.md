@@ -64,7 +64,7 @@ Individually, these are all very anecdotal. But when considered holistically, it
 
 Users with Administrator or Editor roles are allowed to publish unfiltered HTML in post titles, post content, and comments. WordPress is, after all, a publishing tool, and people need to be able to include whatever markup they need to communicate. Users with lesser privileges are not allowed to post unfiltered content.
 
-If you are running security tests against WordPress, use a lesser privileged user so that all content is filtered. You may report security issues to security@wordpress.org. For more, see [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/).
+If you are running security tests against WordPress, use a lesser privileged user so that all content is filtered. See the [Reporting Security Vulnerabilities](https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/) page for further information.
 
 If you are concerned about an Administrator putting XSS into content and stealing cookies, note that all cookies are marked for HTTP only delivery and are divided into privileged cookies used for admin pages and lesser-privileged cookies used for public-facing pages. Content is never displayed unfiltered in the admin. Regardless, an Administrator has wide-ranging super powers among which unfiltered HTML is a lesser one.
 

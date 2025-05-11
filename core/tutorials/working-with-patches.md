@@ -12,7 +12,7 @@ For beta testing the latest development version of WordPress, you will need to b
 
 Many developers prefer to work with Subversion (SVN) using the [command line interface](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI), while others prefer to use a [GUI](http://en.wikipedia.org/wiki/GUI) application. Both are acceptable, and will allow you to create, apply, and revert patches.
 
-For command line users, there are programs such as [Cygwin](http://cygwin.com/) (Windows), [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) (Mac), and [Bash](http://www.gnu.org/software/bash/) (Mac).
+For command line users, there are programs such as [Cygwin](http://cygwin.com/) (Windows), [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) (Mac), and [Bash](http://www.gnu.org/software/bash/) (Mac).
 
 If you prefer to use a GUI application, the recommended SVN clients are [TortoiseSVN](http://tortoisesvn.net/) (Windows, free/open-source), and [Cornerstone](http://www.zennaware.com/cornerstone/) (Mac, purchase).
 
@@ -130,7 +130,7 @@ This article will walk you through creating, applying, and reverting a patch usi
 *   A copy of WordPress trunk, [checked out via SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 *   A command line client installed on your computer:
     *   Windows: [Cygwin](http://cygwin.com/)
-    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
+    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) or [Bash](http://www.gnu.org/software/bash/)
 
 ### Creating a Patch with the Command Line
 

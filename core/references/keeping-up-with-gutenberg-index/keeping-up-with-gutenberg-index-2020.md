@@ -1,17 +1,26 @@
 # Gutenberg Index 2020
 
+**Other years: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)** | **[2022](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2022/)**** | **[2023](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2023)** | [**2024**](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2024/)
+
 This page is the one place you can bookmark for Gutenberg\-related team posts of Core, Core-Editor, Core-js, Core-css, Design, Meta, and Themes, and other teams, when relevant. It’s a chronological listing, not topical. Latest on top.
 
 Discussions are in the **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack channel and development happens in the [Gutenberg GitHub repository](https://github.com/WordPress/gutenberg/issues).
 
 See *[Explanations](#explanations)* on the bottom.
 
-[2021 Index](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index-2021)
+[June](#2020-06)
 
-[2022 Index](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/)
+[July](#july2020)
 
-[June](#2020-06) | [July](#july2020) | [August](#august2020) | [September](#september2020)  
-[October](#october2020) |[November](#november2020) | [December](#december2020)
+[August](#august2020)
+
+[September](#september2020)
+
+[October](#october2020)
+
+[November](#november2020)
+
+[December](#december2020)
 
 ## December 2020
 

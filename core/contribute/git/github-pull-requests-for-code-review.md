@@ -6,6 +6,14 @@ An experimental feature has been added to Trac that will let you link GitHub pul
 
 **Note:** Pull requests on GitHub will **not** be merged. Code changes are still required to be made to the SVN repository by trusted long term contributors granted commit access.
 
+## Link your WordPress profile to GitHub
+
+*   [Edit your WordPress profile](https://profiles.wordpress.org/me/edit)
+*   Navigate to the “Account & Security” tab
+*   In the “Connections” section, click the link to connect your account
+*   Once redirected to GitHub approve the connection
+*   You will then be redirected back to your WordPress profile page
+
 ## In GitHub
 
 *   Fork the official [WordPress Develop mirror](https://github.com/wordpress/wordpress-develop) on GitHub.

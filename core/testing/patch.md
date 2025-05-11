@@ -4,6 +4,10 @@ This page is under construction and may contain inaccurate information. Want to 
 
 Testing patches is an important part of ensuring the quality of WordPress releases.
 
+## Testing Core tickets with Playground
+
+Some tickets can be tested without setting up your own local environment by using [WordPress Playground](https://wordpress.github.io/wordpress-playground/), an online platform that allows you to experiment and learn about WordPress without affecting your live website. It’s a virtual sandbox where you can play around with different features, designs, and settings in a safe and controlled environment. [Learn more about WordPress Playground here](https://wordpress.github.io/wordpress-playground/), and [see the testing team handbook for instructions on testing a core patch in Playground](https://make.wordpress.org/test/handbook/get-setup-for-testing/test-core-tickets-with-playground/).
+
 ## Setting up without VVV
 
 If you use VVV, skip to the section below.

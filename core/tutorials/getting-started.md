@@ -18,22 +18,20 @@ In order to contribute to WordPress core, you need a local development environme
 
 ### Setting up a local server
 
-Download and install a local development environment on your machine. You have a few options here:
-
-*   The recommended way is to use a software called [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org), which is a Vagrant configuration tailored specifically for WordPress development. Please follow the handbook instructions on [how to install VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
-*   If you already have an environment that includes a webserver with PHP, MySQL/MariaDB and SSH access and you prefer working with that system, it is perfectly fine to decide on using another environment. Popular alternatives include [DesktopServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/), [MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/), [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/), and others. Be aware though that none of them is optimized for WordPress core development, so a little more groundwork will be necessary in that case.
+Check out [options to download and install a local development environment](https://make.wordpress.org/core/handbook/contribute/#local-development-overview) on your machine.
 
 ### Setting up a version control system
 
 Install a version control system to use for WordPress core. Here you have two options:
 
-*   WordPress core by default uses Subversion (or SVN) for version control, which works relatively similar to Git, but is a little older. While most people prefer working with Git, the SVN commands you typically use when developing for WordPress core are trivial and almost the same as their Git counterparts. VVV already has SVN pre-installed. If you are using another environment or prefer to also use SVN directly on your computer, there is a [handbook tutorial guiding you through the process](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/).
+*   WordPress core by default uses Subversion (or SVN) for version control, which works relatively similar to Git, but is a little older. While most people prefer working with Git, the SVN commands you typically use when developing for WordPress core are trivial and almost the same as their Git counterparts. If you are using a [local environment like VVV](https://make.wordpress.org/core/handbook/contribute/#local-development-overview) your environment may already have SVN pre-installed. If you are using another environment or prefer to also use SVN directly on your computer, there is a [handbook tutorial guiding you through the process](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/).
 *   Alternatively, you can install Git from the [Git project website](https://git-scm.com/). On many environments, for example VVV, you will already find it pre-installed. If you prefer using a visual UI in addition, feel free to use a client app such as [Sourcetree](https://www.atlassian.com/software/sourcetree), or [GitHub Desktop](https://desktop.github.com/) (which works particularly well when used together with GitHub).
 
-### Setting up a WordPress development repository
+### Setting up the WordPress development repository
 
-Set up the development version of WordPress in your development environment. Again, this is a significantly easier process if you are using VVV for your setup. How you proceed depends on whether you decided to use SVN or Git for version control in the second step:
+Set up the development version of WordPress in your development environment. How you proceed depends on whether you decided to use SVN or Git for version control in the second step:
 
+*   If you are [cloning from GitHub](https://github.com/WordPress/wordpress-develop) and using the built-in [Docker](https://www.docker.com/) environment, you can run `npm run env:start` and `npm run env:install` from your WordPress Develop repository checkout to start a local server on `localhost`.
 *   If you are using SVN and VVV, everything is already setup after the initial booting process. You can access your development version of WordPress under [http://src.wordpress-develop.test](http://src.wordpress-develop.test) with your VVV running. If you’re using SVN on another environment than VVV, please [follow the instructions on how to install WordPress from SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/).
 *   If you’re using Git and VVV, please [follow the optional instructions on how to change the included WordPress development repository to use Git instead of the default SVN](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/#5-create-github-repo-optional). If you’re using Git on another environment than VVV, create a GitHub fork of the [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) repository. Afterwards, you can proceed with the above instructions, just skip the first three points and instead of using develop.git.wordpress.org as upstream repository, use the GitHub version.
 
