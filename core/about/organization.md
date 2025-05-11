@@ -2,8 +2,6 @@
 # Project Organization
 -->
 
-<<<<<<< HEAD
-=======
 # プロジェクト体制
 
 <!--
@@ -13,7 +11,6 @@ This page is out of date. Let someone in [#core](https://wordpress.slack.com/mes
 \[alert\]このページは古くなっています。更新を手伝いたい方は、[#core](https://wordpress.slack.com/messages/C02RQBWTW) の誰かに知らせてください !\[/alert\]
 
 <!--
->>>>>>> main
 ## About the Project
 -->
 
@@ -83,26 +80,37 @@ The lead developers are **Helen Hou-Sandi**, **Dion Hulse**, **Mark Jaquith**, 
 Current committers include:
 -->
 
-<<<<<<< HEAD
+現在のコミッターです。
+
 **Robert Anderson, Michael Arestad, Joen Asmussen, Felix Arntz, Marin Atanasov, Jean-Baptiste Audras, Daniel Bachhuber, Rachel Baker, David Baumwald, Ian Belanger, Riad Benguella, Pascal Birchler, Sergey Biryukov, John Blackbourn, Carlos Bravo, Isabel Brison, Anthony Burchell, Aaron D. Campbell, Marco Ciampini, Kelly Choyce-Dwan, Allan Cole, Alex Concha, Jorge Costa, Michal Czaplinski, Glen Davies, Jonathan Desrosiers, Ramon Dodd, Joe Dolson, Andrei Draganescu, Ian Dunn, Ben Dwyer, Darren Ethier, Jeremy Felt, Andrea Fercia, Miguel Fonseca, Laurel Fulford, Herre Groen, Aki Hamano, Kai Hao, Jonny Harris, Luis Herranz, Timothy Jacobs, John James Jacoby, Drew Jaynes, Marius Jensen, Aaron Jorbin, Fabian Kägy, James Koster, Tammie Lister, George Mamadashvili, André Maneiro, Joe McGill, Lena Morita, Tonya Mork, Sarah Norris, Carolina Nymark, Jeff Ong, William Patton, Brandon Payton, Gary Pendergast, Juliette Reinders Folmer, Omar Reiss, Bernhard Reiter, Daniel Richards, Aaron Robertshaw, Weston Ruter, Dominik Schilling, Kira Schroder, Andrew Serong, Alex Shiels, Adam Silverstein, David Smith, Dennis Snell, Allen Snook, Jake Spurlock, Ari Stathopoulos, Colin Stewart, Jon Surrell, Rich Tabor, Anton Timmermans, Nik Tsekouras, Ella Van Durpe, Matias Ventura, K. Adam White, Peter Wilson, Adam Zieliński,** and **Grzegorz Ziółkowski.**
 
+<!--
 Other contributing developers include:
+-->
+
+他の貢献開発者は次のとおりです。
 
 **Michael Adams, Nikolay Bachiyski, Jon Cave, Mel Choyce-Dwan, Andrew Duthie, Boone B. Gorges, Joe Hoyle, David A. Kennedy, Daryl Koopersmith, Konstantin Kovshenin, Eric Lewis, Matthew Riley MacPherson, Matt Miklic, Ryan McCue, James Nylen, Konstantin Obenland, Joseph Scott, Ian Stewart, Andy Skelton, Scott Taylor, Peter Westwood, Lance Willett,** and **Samuel Wood.**
 
-*Note that the most current list of committers can be viewed [in code](https://meta.trac.wordpress.org/browser/sites/trunk/trac.wordpress.org/templates/core/site-specific.html) and [on GitHub](https://github.com/orgs/WordPress/teams/wordpress-core).*
-=======
-現在のコミッターです。
-
-**Robert Anderson**, **Michael Arestad**, **Joen Asmussen**, **Felix Arntz**, **Jean-Baptiste Audras**, **Rachel Baker**, **David Baumwald**, **Ian Belanger**, **Riad Benguella**, **Pascal Birchler**, **Sergey Biryukov**, **John Blackbourn**, **Isabel Brison**, **Anthony Burchell**, **Aaron D. Campbell**, **Allan Cole**, **Mel Choyce-Dwan**, **Kelly Choyce-Dwan**, **Jorge Costa**, **Jonathan Desrosiers**, **Joe Dolson**, **Ian Dunn**, **Andrew Duthie**, **Andrea Fercia**, **Miguel Fonseca**, **Laurel Fulford**, **Herre Groen**, **Jonny Harris**, **Timothy Jacobs**, **John James Jacoby**, **Drew Jaynes**, **Aaron Jorbin**, **Tammie Lister**, **Joe McGill**, **Tonya Mork**, **Jeff Ong**, **William Patton**, **Gary Pendergast**, **Juliette Reinders Folmer**, **Brandon Payton**, **Omar Reiss**, **Bernhard Reiter**, **Daniel Richards**, **Weston Ruter**, **Dominik Schilling**, **Mike Schroder**, **Alex Shiels**, **Adam Silverstein**, **Dennis Snell**, **Allen Snook**, **Jake Spurlock**, **Scott Taylor**, **Anton Timmermans**, **Ella Van Durpe**, **Matias Ventura**, **K. Adam White**, **Peter Wilson**, **Adam Zieliński**, and **Grzegorz Ziółkowski**.
-
 <!--
-Other contributing developers include **Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, and **Samuel Wood**.
+*Note that the most current list of committers can be viewed [in code](https://meta.trac.wordpress.org/browser/sites/trunk/trac.wordpress.org/templates/core/site-specific.html) and [on GitHub](https://github.com/orgs/WordPress/teams/wordpress-core).*
 -->
 
-その他の貢献開発者 (contributing developer) です。
+<!--
+最新のコミッター リストは[コード内](https://meta.trac.wordpress.org/browser/sites/trunk/trac.wordpress.org/templates/core/site-specific.html)および [GitHub](https://github.com/orgs/WordPress/teams/wordpress-core) で確認できます。
+-->
 
-**Michael Adams**, **Nikolay Bachiyski**, **Jon Cave**, **Jeremy Felt**, **Boone B. Gorges**, **Joe Hoyle**, **David A. Kennedy**, **Daryl Koopersmith**, **Konstantin Kovshenin**, **Eric Lewis**, **Matthew Riley MacPherson**, **Matt Miklic**, **Ryan McCue**, **James** **Nylen**, **Konstantin Obenland**, **Joseph Scott**, **Ian Stewart**, **Andy Skelton**, **Peter Westwood**, **Lance Willett**, **Samuel Wood**.
+<!--
+### Team Reps
+-->
+
+### チーム代表 (チームレップ)
+
+<!--
+[@francina](https://profiles.wordpress.org/francina/), [@audrasjb](https://profiles.wordpress.org/audrasjb/) and [@benjamin\_zekavica](https://profiles.wordpress.org/benjamin_zekavica/) are the current Core Team Reps for 2025. Team Rep elections happen every year and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
+-->
+
+[@francina](https://profiles.wordpress.org/francina/)、[@audrasjb](https://profiles.wordpress.org/audrasjb/)、[@benjamin\_zekavica](https://profiles.wordpress.org/benjamin_zekavica/) は、2025 年の現在のコアチーム代表です。チーム代表の選挙は毎年行われ、[指名](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/)、[投票](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/)、および新しい担当者の[発表](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/)を含む[特定のプロセス](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/)に従います。
 
 <!--
 ### Core Contributors
@@ -113,29 +121,8 @@ Other contributing developers include **Michael Adams**, **Nikolay Bachiyski**, 
 <!--
 The core and contributing developers serve as guides for WordPress development. With every version, hundreds of developers contribute code to WordPress. These **core contributors** are volunteers who contribute to the core codebase in some way. All it takes is a single patch to make a difference.
 -->
->>>>>>> main
 
-コア開発者と貢献開発者は、WordPress 開発のガイド役を務めています。バージョンごとに、何百人もの開発者が WordPress のコードに貢献しています。これらの **コア貢献者 (コアコントリビューター)** は、何らかの形でコアコードに貢献するボランティアです。たった1つのパッチが、WordPress を大きく変えるのです。
-
-<!--
-### Team Reps
--->
-
-### チーム代表 (チームレップ)
-
-<!--
-Since anyone who is an active contributor on a team can be elected as team rep, team reps will often have different levels of familiarity with other areas of the project, communication protocols, and general processes. To get everyone’s expectations in the same place, the [“job description” for team reps is located on Make/Updates](https://make.wordpress.org/updates/team-reps/).
--->
-
-<<<<<<< HEAD
-[@francina](https://profiles.wordpress.org/francina/), [@audrasjb](https://profiles.wordpress.org/audrasjb/) and [@benjamin\_zekavica](https://profiles.wordpress.org/benjamin_zekavica/) are the current Core Team Reps for 2025. Team Rep elections happen every year and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
-
-### Core Contributors
-
-The core and contributing developers serve as guides for WordPress development. With every version, hundreds of developers contribute code to WordPress. These **core contributors** are volunteers who contribute to the core codebase in some way. All it takes is a single patch to make a difference.
-=======
-チームのアクティブな貢献者であれば誰でも、チーム代表に選ばれる可能性があるため、チーム代表はプロジェクトの他の領域、コミュニケーションプロトコル、一般的なプロセスについて、しばしば異なるレベルの知識を持ちます。全員の期待を同じ場所に集めるため、[チーム代表のための仕事の定義が Make/Updates にあります](https://make.wordpress.org/updates/team-reps/)。
->>>>>>> main
+コア開発者と貢献開発者は、WordPress 開発のガイド役を務めます。バージョンごとに、何百人もの開発者が WordPress にコードを提供しています。これらの **コア貢献者** は、何らかの形でコアコードベースに貢献するボランティアです。たった一つのパッチで変化をもたらすことができます。
 
 <!--
 @hellofromtonya and @webcommsat are the current Core Team Reps for 2023. Team Rep elections happen every years and follow a [specific process](https://make.wordpress.org/core/2020/04/17/proposal-core-team-rep-elections/) that includes [nominations](https://make.wordpress.org/core/2020/04/29/nominations-for-core-team-reps/), [voting](https://make.wordpress.org/core/2020/05/15/core-team-reps-submit-your-votes/), and [announcing](https://make.wordpress.org/core/2020/06/03/core-team-reps-for-2020-and-beyond/) the new reps.
@@ -153,12 +140,9 @@ The core and contributing developers serve as guides for WordPress development.
 The [design team](https://make.wordpress.org/ui/) is made up of core contributors who work on the design and user interface of WordPress.
 -->
 
-<<<<<<< HEAD
-=======
 [デザインチーム](https://make.wordpress.org/ui/)は、WordPress のデザインとユーザーインターフェースに携わるコア貢献者で構成されています。
 
 <!--
->>>>>>> main
 ### Support
 -->
 
@@ -174,17 +158,11 @@ The [support forums](https://wordpress.org/support/) are run by a team of volunt
 ### Documentation
 -->
 
-<<<<<<< HEAD
-The Documentation team is responsible for all things documentation, including [HelpHub](https://wordpress.org/support) (end-users documentation), [DevHub](https://developer.wordpress.org) (developer-oriented documentation), handbooks, admin help, inline docs, and other general wordsmithing across the WordPress project.
-
-This handbook and HelpHub/DevHub are the primary sources of information for learning how to develop, improve, and troubleshoot WordPress. These resources are curated by a group of volunteers. Everyone is welcome to contribute.
-=======
 ### ドキュメンテーション
 
 <!--
 The Documentation team is responsible for all things documentation, including [HelpHub](https://wordpress.org/support) (end-users documentation), [DevHub](https://developer.wordpress.org) (developer-oriented documentation), handbooks, admin help, inline docs, and other general wordsmithing across the WordPress project.
 -->
->>>>>>> main
 
 ドキュメンテーションチームはドキュメントに関するすべてに責任を持ちます。これには [HelpHub](https://wordpress.org/support) (エンドユーザードキュメント)、[DevHub](https://developer.wordpress.org) (開発者向けドキュメント)、ハンドブック、管理者向けのヘルプ、インラインドキュメント、その他 WordPress プロジェクト全体にわたる一般的なドキュメント作成が含まれます。
 
@@ -222,17 +200,13 @@ WordPress テーマディレクトリに申請されたテーマはボランテ�
 ### Plugin Reviewers
 -->
 
-<<<<<<< HEAD
-Plugins submitted to the WordPress Plugins Directory are reviewed by a team of volunteers to ensure they meet [WordPress.org guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) before being included in the plugin directory.
-=======
 ### プラグインレビュアー
 
 <!--
-Plugins submitted to the WordPress Plugins Directory are reviewed by a team of volunteers to ensure they meet [WordPress.org guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) before being included in the plugin directory. The team rep is **Boone Gorges**, with volunteers **Pippin Williamson**, **Scott Reilly**, **Samuel Wood**, **Mika Epstein**, **Kailey Lampert**, **Daniel Bachhuber**, and **Mark Riley** (Reviewer Emeritus) reviewing plugins and developing standards.
+Plugins submitted to the WordPress Plugins Directory are reviewed by a team of volunteers to ensure they meet [WordPress.org guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) before being included in the plugin directory.
 -->
->>>>>>> main
 
-WordPress プラグインディレクトリに申請されたプラグインは、プラグインディレクトリに登録される前に、ボランティアのチームによって審査され [WordPress.org ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を満たしているかが確認されます。チーム代表は **Boone Gorges** で、ボランティアの **Pippin Williamson**, **Scott Reilly**, **Samuel Wood**, **Mika Epstein**, **Kailey Lampert**, **Daniel Bachhuber**, **Mark Riley** (Reviewer Emeritus) がプラグインのレビューと標準の開発を行っています。
+WordPress プラグインディレクトリに申請されたプラグインは、プラグインディレクトリに登録される前に、ボランティアのチームによって審査され [WordPress.org ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を満たしているかが確認されます。
 
 <!--
 ### Community Blogs and Communication
