@@ -1,4 +1,8 @@
+<!--
 # Inline Docs
+-->
+
+# インラインドキュメント
 
 **Inline documentation**
 
