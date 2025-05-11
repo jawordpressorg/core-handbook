@@ -34,7 +34,7 @@ Some things to know when making your first few commits:
 
 最初の数回のコミットを行うときに知っておくべきこと:
 
-<!-->
+<!--
 *   Please ask a relevant committer to peer-review your first few prospective patches and commit messages before you commit them. This serves as a safety check to make sure you know what to look out for before you actually commit. It also gives you a chance to ask any questions you have about process, standards, norms, etc.
 *   It can also be a good idea to ask for peer-review from another committer whenever you have any doubts about a patch, especially if you’re committing outside an area that you normally work on.
 *   When attending contributor day of WordCamps, you are strongly encouraged to commit someone else’s code, ideally, an attendee that is there working on a patch. It’s also good to encourage innactive committers to dip their toes back in at these events.

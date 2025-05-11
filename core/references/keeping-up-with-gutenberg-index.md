@@ -191,7 +191,7 @@ January 2024
 2024-01-02 **[#design](https://make.wordpress.org/core/tag/design/)** [Design Share: Dec 1-Dec 29](https://make.wordpress.org/design/2024/01/02/design-share-dec-1-dec-29/) (u)
 -->
 
-<!-->
+<!--
 **Happy New Year!** 🎆 🙌 🎉🥂 *Welcome to the 5th year of Gutenberg Index.*
 -->
 
