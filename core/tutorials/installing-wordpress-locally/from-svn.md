@@ -30,12 +30,8 @@ This article will walk you through installing the latest WordPress development v
     *   [Installing TortoiseSVN](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/#installing-tortoisesvn) (Windows)
 *   A command line client installed on your computer:
     *   Windows: [Cygwin](http://cygwin.com/)
-<<<<<<< HEAD
     *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) or [Bash](http://www.gnu.org/software/bash/)
-=======
-    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
 -->
->>>>>>> main
 
 *   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/)\]
     *   **備考**: ローカルサーバーとして DesktopServer を使用している場合、新しいローカル開発サイトを作成する際に、Blueprint ドロップダウンから **Blank (WordPress SVN)** オプションを選択する必要があります。これにより、データベースと `wp-config.php` ファイルが作成されます。サイトを作成したら、WordPress trunk のコピーをチェックアウトする前に、開発サイトのフォルダー (**wordpress-svn.dev**) にある `index.html` と `wp-config-sample.php` ファイルを削除してください。
@@ -238,23 +234,15 @@ WordPress をインストールするために、**MySQL データベースを�
 In your web browser, navigate to [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) to run the installation process.
 -->
 
-<<<<<<< HEAD
-**For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v20.x/](https://nodejs.org/download/release/latest-v20.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
-`npm install grunt --save-dev`  
-`npm run dev` should now complete the process of unpacking the WordPress install.
-
-Upon browser refresh you should get the response as described below. These directions are described in more detail at [https://gruntjs.com/getting-started](https://gruntjs.com/getting-started).
-
-=======
 Web ブラウザーで [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) に移動し、インストール作業を実行します。
 
 <!--
-**For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v16.x/](https://nodejs.org/download/release/latest-v16.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
+**For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v20.x/](https://nodejs.org/download/release/latest-v20.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
 `npm install grunt --save-dev`  
 `npm run dev` should now complete the process of unpacking the WordPress install.
 -->
 
-**Windows 11をお使いの方へ**: npm と grunt をインストールしていない場合、npm コマンドのエラーが表示されます。ここから Node.js をダウンロードし、インストールしてください: [https://nodejs.org/download/release/latest-v16.x/](https://nodejs.org/download/release/latest-v16.x/)。npm コマンドを実行する前に、コマンドウィンドウを開き、wordpress-svn ディレクトリに移動し、以下のコマンドを実行します。`npm install -g grunt-cli` - これは、grunt クライアントをインストールします。そして、次のコマンドを実行して、wordpress インスタンスに grunt を追加します。
+**Windows 11をお使いの方へ**: npm と grunt をインストールしていない場合、npm コマンドのエラーが表示されます。ここから Node.js をダウンロードし、インストールしてください: [https://nodejs.org/download/release/latest-v20.x/](https://nodejs.org/download/release/latest-v20.x/)。npm コマンドを実行する前に、コマンドウィンドウを開き、wordpress-svn ディレクトリに移動し、以下のコマンドを実行します。`npm install -g grunt-cli` - これは、grunt クライアントをインストールします。そして、次のコマンドを実行して、wordpress インスタンスに grunt を追加します。
 `npm install grunt --save-dev`
 `npm run dev` で、WordPress インストールの解凍が完了するはずです。
 
@@ -265,7 +253,6 @@ Upon browser refresh you should get the response as described below. These direc
 ブラウザーを更新すると、以下のような応答が得られるはずです。これらの方法は、[https://gruntjs.com/getting-started](https://gruntjs.com/getting-started) でより詳細に説明されています。
 
 <!--
->>>>>>> main
 **If you created your `wp-config.php` file manually**, you will be presented with the standard WordPress installation screen. You will do the famous “5 minute install” – enter your site title, desired username, choice of a password (twice), and your e-mail address, then **click Install WordPress** to complete the installation. **Click Log In** on the Success screen, enter your username and password, and configure the settings for your preferences.
 -->
 
