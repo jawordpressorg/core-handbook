@@ -454,13 +454,9 @@ You can also download a patch via command line. Make sure that you are in the **
 curl -O https://core.trac.wordpress.org/raw-attachment/ticket/00000/00000.diff
 ```
 
-<<<<<<< HEAD
-If you download the patch this way, make sure that it is coming from the **raw-attachment** directory on the Trac server. You can get this URL by clicking on the patch in Trac, then grabbing the URL linked to by **Original Format** at the bottom of the page.
-=======
 <!--
 If you download the patch this way, make sure that it is coming from the **raw-attachment** directory on the Trac server. You can get this URL by clicking on the patch in Trac, then grabbing the URL linked to by **Original Format** at the bottom of the page.
 -->
->>>>>>> main
 
 \[info\]この方法でパッチをダウンロードする場合、Trac サーバーの **raw-attachment** ディレクトリからダウンロードされていることを確認してください。この URL は、Trac でパッチをクリックし、ページ下部の **Original Format** でリンクされている URL を取得することで取得できます。\[/info\]
 
@@ -478,11 +474,7 @@ patch -p 0 < 00000.diff
 Now, the **wordpress-svn** code has been patched with the file you downloaded, giving you the version of the code that the developer who submitted that patch was working with.
 -->
 
-<<<<<<< HEAD
-If the patch fails to apply cleanly, you will need to leave a note on the Trac ticket that the patch needs to be refreshed, and add the **needs-refresh** keyword to the ticket.
-=======
 これで、ダウンロードしたパッチファイルが **wordpress-svn** のコードに適用され、そのパッチを提出した開発者が作業していたバージョンのコードになります。
->>>>>>> main
 
 <!--
 If the patch fails to apply cleanly, you will need to leave a note on the Trac ticket that the patch needs to be refreshed, and add the **needs-refresh** keyword to the ticket.
