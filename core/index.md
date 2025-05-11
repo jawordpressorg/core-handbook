@@ -110,9 +110,6 @@ WordPress の開発は初めてですか ? このセクションでは、セッ�
 We all start somewhere. If you’re having trouble getting involved with contributing to WordPress core, come find us on [Slack](https://chat.wordpress.org/) in [#core](https://make.wordpress.org/core/tag/core/). We don’t bite. 😊
 -->
 
-<<<<<<< HEAD
-If you’re interested in improving this handbook, leave a message in #core\-docs.
-=======
 皆、どこかしらから始めています。もし WordPress のコアへの貢献について悩んでいるなら、[Slack](https://chat.wordpress.org/) の [#core](https://make.wordpress.org/core/tag/core/) へ来てください。噛みついたりしませんよ😊
 
 <!--
@@ -120,4 +117,3 @@ If you’re interested in improving this handbook, leave a message in #core\-do
 -->
 
 \[info\]このハンドブックの改善に興味がある方は、#core\-docs にメッセージを残してください。\[/info\]
->>>>>>> main
