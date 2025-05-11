@@ -2,11 +2,7 @@
 # Internationalization
 -->
 
-<<<<<<< HEAD
-This page is still a draft and being actively written.
-=======
 # 国際化 (i18n)
->>>>>>> main
 
 <!--
 This page is still a draft and being actively written.
