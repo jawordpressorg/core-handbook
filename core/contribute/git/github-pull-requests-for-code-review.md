@@ -20,7 +20,8 @@ Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git �
 **Note:** Pull requests on GitHub will **not** be merged. Code changes are still required to be made to the SVN repository by trusted long term contributors granted commit access.
 -->
 
-<<<<<<< HEAD
+**備考**: GitHub 上のプルリクエストはマージ**されません。** コードの変更は、コミット権限が付与された信頼できる長期的な貢献者によって、SVN リポジトリに行われる必要があります。
+
 ## Link your WordPress profile to GitHub
 
 *   [Edit your WordPress profile](https://profiles.wordpress.org/me/edit)
@@ -29,11 +30,27 @@ Trac に実験的な機能が追加され、公式の [WordPress 開発用 Git �
 *   Once redirected to GitHub approve the connection
 *   You will then be redirected back to your WordPress profile page
 
-=======
-**備考**: GitHub 上のプルリクエストはマージ**されません。** コードの変更は、コミット権限が付与された信頼できる長期的な貢献者によって、SVN リポジトリに行われる必要があります。
+<!--
+## Link your WordPress profile to GitHub
+-->
+
+## WordPress プロフィールを GitHub にリンクする
 
 <!--
->>>>>>> main
+*   [Edit your WordPress profile](https://profiles.wordpress.org/me/edit)
+*   Navigate to the “Account & Security” tab
+*   In the “Connections” section, click the link to connect your account
+*   Once redirected to GitHub approve the connection
+*   You will then be redirected back to your WordPress profile page
+-->
+
+*   [WordPress プロフィールを編集します](https://profiles.wordpress.org/me/edit)
+*   「アカウントとセキュリティ」タブに移動します
+*   「接続」セクションで、アカウントを接続するためのリンクをクリックします
+*   GitHub にリダイレクトされたら、接続を承認します
+*   その後、WordPress プロフィールページにリダイレクトされます
+
+<!--
 ## In GitHub
 -->
 
