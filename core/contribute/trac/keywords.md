@@ -118,12 +118,6 @@ UI を変更するパッチやコミットにはスクリーンショットが�
 The ticket has been reviewed, found to be desirable to solve, and we would like some unit tests written to test the functionality and any patch that may exist before committing a change, as the risk of causing other issues is high.
 -->
 
-<<<<<<< HEAD
-**phpNN**
-
-When paired with the `php-compatibility` focus, this manually added keyword identifies the specific PHP version (i.e. `NN`) that first introduced a compatibility issue or task. For example, `php80` keyword identifies that PHP 8.0 is the version that first introduced the incompatibility.
-
-=======
 このチケットはレビューされ、解決することが望ましいと判断されました。そして、他の問題を引き起こすリスクが高いため、機能および存在する可能性のあるパッチをテストするために、変更をコミットする前にいくつかのユニットテストを書くことが推奨されています。
 
 **phpNN**
@@ -135,7 +129,6 @@ When paired with the `php-compatibility` focus, this manually added keyword iden
 このキーワードは `php-compatibility` フォーカスと組み合わせると、互換性の問題やタスクを最初に導入した PHP のバージョン (つまり `NN`) を特定します。たとえば、`php80` キーワードは PHP 8.0が最初に非互換性を導入したバージョンであることを示します。
 
 <!--
->>>>>>> main
 ## Action-based Keywords
 -->
 
@@ -159,15 +152,11 @@ The patch has been reviewed and tested by a trusted member of the development co
 
 **dev-feedback**
 
-<<<<<<< HEAD
-A response is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or trusted members of the development community. For example, use this keyword when double sign-off is required to [backport changes during RC](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/#backport-process).
-=======
 <!--
-A response is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or trusted members of the development community.
+A response is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or trusted members of the development community. For example, use this keyword when double sign-off is required to [backport changes during RC](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/#backport-process).
 -->
 
-[コア開発者](https://ja.wordpress.org/team/handbook/core/about/organization/#the-wordpress-core-team)または開発コミュニティの信頼できるメンバーからの回答が求められています。
->>>>>>> main
+[コア開発者](https://ja.wordpress.org/team/handbook/core/about/organization/#the-wordpress-core-team)または開発コミュニティの信頼できるメンバーからの回答が必要です。例えば、[RC 中の変更をバックポートする](https://ja.wordpress.org/team/handbook/core/best-practices/backporting-commits/#backport-process)ときに二重承認が必要な場合にこのキーワードを使用します。
 
 **dev-reviewed**
 
