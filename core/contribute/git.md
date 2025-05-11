@@ -2,11 +2,7 @@
 # The Code Repository (Git)
 -->
 
-<<<<<<< HEAD
-Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
-=======
 # コードリポジトリ (Git)
->>>>>>> main
 
 <!--
 Contributors to WordPress may submit patches created via either **Git** or **[SVN](https://make.wordpress.org/core/handbook/contribute/svn/)**. This documentation focuses on the **Git** option.
@@ -48,12 +44,9 @@ WordPress の標準的なリポジトリは Subversion で管理されていま�
 The WordPress Git mirror contains a complete history of the codebase. Each Subversion commit is represented by a Git changeset. Use the `git log` utility to browse the history of the project. The layout of the repository is as follows:
 -->
 
-<<<<<<< HEAD
-=======
 WordPress の Git ミラーは、コードベースの完全な履歴を含んでいます。Subversion の各コミットは、Git のチェンジセットで示されています。プロジェクトの履歴を見るには、`git log` ユーティリティを使います。リポジトリのレイアウトは次のとおりです。
 
 <!--
->>>>>>> main
 *   The **trunk** branch, which corresponds to SVN **trunk**. This is the bleeding-edge branch, containing the alpha version of the next major release. Except in special cases, contributors should prepare their patches against the trunk branch.
 *   A branch exists corresponding to each major release series, named using the first two digits of versions in that series. For example, 4.5.1 was released from the `4.5` branch. Use `git branch -r` to view a complete list of branches in the remote repository, and use commands like `git checkout -b 4.5.x origin/4.5` to create local branches that track remote branches.
 *   All WP releases (starting with 1.5.0) are represented by Git tags. Use `git tag` to see the list.
@@ -127,9 +120,6 @@ svn co \
 ### Usage Notes for Git
 -->
 
-<<<<<<< HEAD
-† If your `trunk` branch has changed since you last worked on your patch (for example, if you’ve pulled down the latest code), you’ll need to [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) your branch against the latest code. This is a great way to keep your patches up to date, and it’s much easier with Git than with svn. Here is an example sequence of commands to update your `trunk` branch then refresh your patch on top of the latest code (make sure you have [no uncommitted changes in your repository](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git) first):
-=======
 ### Git を使用するときの注意点
 
 <!--
@@ -137,7 +127,6 @@ svn co \
 -->
 
 脚注: 前回パッチを作成したときから `trunk` ブランチが変更された場合 (たとえば最新のコードを取り込んだ場合)、最新のコードに対してブランチの [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) を行う必要があります。これは、パッチを最新の状態に保つためのすばらしい方法であり、svn よりも Git の方がずっと簡単です。以下は、`trunk` ブランチを更新してパッチを最新のコードに更新するためのコマンドの例です (最初に[あなたのリポジトリにコミットされていない変更がないこと](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git)を確認しましょう)。
->>>>>>> main
 
 ```
 git fetch origin
@@ -145,8 +134,4 @@ git checkout origin/trunk -B trunk
 git checkout 30000-add-more-alots
 git rebase trunk
 git diff trunk 30000-add-more-alots > 30000.x.diff
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> main
