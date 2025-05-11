@@ -54,18 +54,21 @@ Generally, security issues are complex problems. If you want to report a securit
 The security reporting system is NOT for support. Don’t send general problems there.
 -->
 
-<<<<<<< HEAD
-## Enhanced bounty rewards during Beta and Release Candidate phases
-
-To encourage proactive security assessments, the WordPress community offers monetary rewards for reporting new, unreleased security vulnerabilities. Notably, these rewards are doubled during the period between the release of Beta 1 and the final Release Candidate (RC) of a major WordPress version.
-
-For instance, in the [WordPress 6.5 release cycle](https://make.wordpress.org/core/6-5/), this enhanced bounty period spanned from February 13, 2024 (Beta 1) to March 28, 2024 (final RC). *[source](https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/)*
-
-=======
 セキュリティ報告システムはサポート用ではありません。一般的な問題をそこに送らないでください。
 
+## Enhanced bounty rewards during Beta and Release Candidate phases
+
 <!--
->>>>>>> main
+To encourage proactive security assessments, the WordPress community offers monetary rewards for reporting new, unreleased security vulnerabilities. Notably, these rewards are doubled during the period between the release of Beta 1 and the final Release Candidate (RC) of a major WordPress version.
+-->
+
+WordPress コミュニティは、積極的なセキュリティ評価を促進するため、未公開のセキュリティ脆弱性の報告に対して金銭的な報奨金を提供しています。特に注目すべきは、WordPress のメジャーバージョンのベータ1のリリースから最終リリース候補版 (RC) までの期間は、報奨金が2倍になることです。
+
+<!-- For instance, in the [WordPress 6.5 release cycle](https://make.wordpress.org/core/6-5/), this enhanced bounty period spanned from February 13, 2024 (Beta 1) to March 28, 2024 (final RC). *[source](https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/)* -->
+
+たとえば、[WordPress 6.5リリースサイクル](https://make.wordpress.org/core/6-5/)では、この報奨金の強化期間は2024年2月13日 (ベータ1) から2024年3月28日 (最終 RC) まででした。[出典](https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/)
+
+<!--
 ## Where do I report security issues?
 -->
 
@@ -171,11 +174,7 @@ WordPress に対してセキュリティテストを実行する場合は、す�
 In WordPress Multisite, only Super Admins can publish unfiltered HTML, as all other users (including site Administrators) are considered untrusted.
 -->
 
-<<<<<<< HEAD
-To disable unfiltered HTML for all users, including administrators, you can add `define( 'DISALLOW_UNFILTERED_HTML', true );` to `wp-config.php`.
-=======
 WordPress のマルチサイトでは、(サイト管理者を含む) 他のすべてのユーザーは信頼できないとみなされ、特権管理者のみがフィルタリングされていない HTML を公開できます。
->>>>>>> main
 
 <!--
 To disable unfiltered HTML for all users, including administrators, you can add `define( 'DISALLOW_UNFILTERED_HTML', true );` to `wp-config.php`.
@@ -193,14 +192,15 @@ To disable unfiltered HTML for all users, including administrators, you can add 
 The WordPress project doesn’t consider usernames or user ids to be private or secure information. A username is part of your online identity. It is meant to identify, not verify, who you are saying you are. Verification is the job of the password.
 -->
 
-<<<<<<< HEAD
-This includes, for example, retrieving the list of site users through the [REST API Users endpoint](https://developer.wordpress.org/rest-api/reference/users/), `GET /wp-json/wp/v2/users`. Making this publicly accessible is intentional.
-
-=======
 WordPress プロジェクトは、ユーザー名やユーザー ID を個人情報または安全な情報とはみなしません。ユーザー名はオンライン ID の一部です。これは、あなたが誰であるかを確認することではなく、識別するためのものです。検証はパスワードの仕事です。
 
 <!--
->>>>>>> main
+This includes, for example, retrieving the list of site users through the [REST API Users endpoint](https://developer.wordpress.org/rest-api/reference/users/), `GET /wp-json/wp/v2/users`. Making this publicly accessible is intentional.
+-->
+
+これには、たとえば、[REST API ユーザーエンドポイント](https://developer.wordpress.org/rest-api/reference/users/)の `GET /wp-json/wp/v2/users` を通じてサイトユーザーのリストを取得することが含まれます。このアクセスは意図的に公開されています。
+
+<!--
 Generally speaking, people do not consider usernames to be secret, often sharing them openly. Additionally, many major online establishments — such as Google and Facebook — have done away with usernames in favor of email addresses, which are shared around constantly and freely. WordPress has also moved this way, allowing users to log in with an email address or username since version 4.5.
 -->
 
