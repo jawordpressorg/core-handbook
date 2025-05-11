@@ -26,11 +26,7 @@ Want to learn more? Here is a list of “Potentially Asked Questions”.
 ### Who can run a Bug Scrub?
 -->
 
-<<<<<<< HEAD
-You! Leading a Bug Scrub is something **any** interested community member can do.
-=======
 ### バグスクラブを実施できるのは誰ですか ?
->>>>>>> main
 
 <!--
 You! Leading a Bug Scrub is something **any** interested community member can do.
@@ -68,17 +64,13 @@ There are many [pre-generated reports](https://make.wordpress.org/core/reports/)
 *   [all tickets requesting dev feedback](https://core.trac.wordpress.org/tickets/dev-feedback)
 -->
 
-<<<<<<< HEAD
-You can also create a custom query. For example, here’s one for [defects discussed during the last cycle that don’t have a resolution yet](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+\(bug\)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
-=======
 *   [Bootstrap/Load](https://core.trac.wordpress.org/component/Bootstrap/Load) などの特定のコンポーネントに関するレポート
 *   [JavaScript](https://core.trac.wordpress.org/focus/javascript) などのフォーカス指向のもの
 *   [開発者のフィードバックをリクエストするすべてのチケット](https://core.trac.wordpress.org/tickets/dev-feedback)
 
 <!--
-You can also create a custom query. For example, here’s one for [defects discussed during the last cycle that don’t have a resolution yet](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+(bug)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
+You can also create a custom query. For example, here’s one for [defects discussed during the last cycle that don’t have a resolution yet](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+\(bug\)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority).
 -->
->>>>>>> main
 
 カスタムクエリーも作成できます。たとえば、これは[前回のサイクルで議論されたまだ解決していない不具合](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&changetime=04%2F12%2F16..08%2F16%2F16&type=defect+(bug)&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority)に関するものです。
 
@@ -220,11 +212,7 @@ Running a Bug Scrub involves [Bug Gardening](https://make.wordpress.org/core/han
 Awesome! Thank you!
 -->
 
-<<<<<<< HEAD
-You are welcome to schedule a scrub at any time. You will get the most attendees by ensuring it is announced and publicized in advance. Three ways to ensure that happen are: pinging the Core Triage lead for the current release, announcing it during the Core Dev chat open floor time, or by commenting on the Core Dev chat agenda/summary posts with your interest.
-=======
 すばらしい ! ありがとう !
->>>>>>> main
 
 <!--
 You are welcome to schedule a scrub at any time. You will get the most attendees by ensuring it is announced and publicized in advance. Three ways to ensure that happen are: pinging the Core Triage lead for the current release, announcing it during the Core Dev chat open floor time, or by commenting on the Core Dev chat agenda/summary posts with your interest.
