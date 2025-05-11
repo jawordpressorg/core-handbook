@@ -96,9 +96,7 @@ Other contributing developers include:
 *Note that the most current list of committers can be viewed [in code](https://meta.trac.wordpress.org/browser/sites/trunk/trac.wordpress.org/templates/core/site-specific.html) and [on GitHub](https://github.com/orgs/WordPress/teams/wordpress-core).*
 -->
 
-<!--
 最新のコミッター リストは[コード内](https://meta.trac.wordpress.org/browser/sites/trunk/trac.wordpress.org/templates/core/site-specific.html)および [GitHub](https://github.com/orgs/WordPress/teams/wordpress-core) で確認できます。
--->
 
 <!--
 ### Team Reps
