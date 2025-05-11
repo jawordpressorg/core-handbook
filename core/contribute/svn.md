@@ -2,11 +2,7 @@
 # The Code Repository (SVN)
 -->
 
-<<<<<<< HEAD
-WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
-=======
 # コードリポジトリ (SVN)
->>>>>>> main
 
 <!--
 WordPress supports patches being created from both [GIT](https://make.wordpress.org/core/handbook/contribute/git/) and SVN. This documentation focuses on the SVN option.
@@ -52,15 +48,11 @@ WordPress のコードのリポジトリは、主に3つのディレクトリで
 Most popular IDE (Integrated Developer Environment) applications include built-in support for SVN. Some also include enhanced support for WordPress development. This makes it very convenient to perform all source code version control tasks: synchronize, manage local copies, create patches, etc.
 -->
 
-<<<<<<< HEAD
-Alternatively some developers run SVN commands using the [command line interface](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI), such as [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) on the Mac. Even though most basic commands are simple, the command line is reasonably intimidating for many users. Many developers do rely on [GUI](http://en.wikipedia.org/wiki/GUI) applications though, either for regular use, or to handle complex actions more effectively.
-=======
 一般的な IDE (統合開発環境) アプリケーションの多くは、SVN をビルトインでサポートしています。また、WordPress の開発用にサポートが強化されているものもあります。これにより、同期、ローカルコピーの管理、パッチの作成など、あらゆるソースコードのバージョン管理作業を行うことができ、非常に便利になります。
 
 <!--
-Alternatively some developers run SVN commands using the [command line interface](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI), such as [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) on the Mac. Even though most basic commands are simple, the command line is reasonably intimidating for many users. Many developers do rely on [GUI](http://en.wikipedia.org/wiki/GUI) applications though, either for regular use, or to handle complex actions more effectively.
+Alternatively some developers run SVN commands using the [command line interface](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI), such as [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) on the Mac. Even though most basic commands are simple, the command line is reasonably intimidating for many users. Many developers do rely on [GUI](http://en.wikipedia.org/wiki/GUI) applications though, either for regular use, or to handle complex actions more effectively.
 -->
->>>>>>> main
 
 あるいは、Mac の[ターミナル](http://en.wikipedia.org/wiki/Terminal_(OS_X))などの[コマンドラインインターフェース](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI) を使って SVN コマンドを実行する開発者もいます。ほとんどの基本的なコマンドは簡単ですが、コマンドラインは多くのユーザーにとってとっつきにくいものです。しかし、多くの開発者は、通常の使用や複雑な操作をより効果的に行うために、[GUI](http://en.wikipedia.org/wiki/GUI) アプリケーションに頼っています。
 
