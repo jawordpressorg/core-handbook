@@ -377,11 +377,11 @@ A resolution on the bug tracker (and generally common in software development, s
 **IRC**
 -->
 
+## IRC
+
 <!--
 Internet Relay Chat, a network where users can have conversations online. IRC channels are used widely by open source projects, and by WordPress. The primary WordPress channels are **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** and **[#wordpress-dev](https://make.wordpress.org/core/tag/wordpress-dev/)**, on irc.freenode.net. [#](https://make.wordpress.org/core/handbook/glossary/#irc)
 -->
-
-## IRC
 
 インターネット・リレー・チャット。ユーザーがオンラインで会話できるネットワーク。IRC チャンネルは、オープンソースプロジェクトや WordPress で広く使用されています。主要な WordPress チャンネルは、irc.freenode.net 上の **[#wordpress](https://make.wordpress.org/core/tag/wordpress/)** と **[#wordpress-dev](https://make.wordpress.org/core/tag/wordpress-dev/)** です。
 
@@ -499,7 +499,9 @@ A special text file that describes changes to code, by identifying the files and
 
 ## PHP
 
-<!-- The web scripting language in which WordPress is primarily architected. WordPress requires PHP 7.4 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php) -->
+<!--
+The web scripting language in which WordPress is primarily architected. WordPress requires PHP 7.4 or higher [#](https://make.wordpress.org/core/handbook/glossary/#php)
+-->
 
 WordPress が主に設計されている Web スクリプト言語。WordPress には PHP 7.4以上が必要です。
 
