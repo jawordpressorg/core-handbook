@@ -56,7 +56,11 @@ The security reporting system is NOT for support. Don’t send general problems 
 
 セキュリティ報告システムはサポート用ではありません。一般的な問題をそこに送らないでください。
 
+<!--
 ## Enhanced bounty rewards during Beta and Release Candidate phases
+-->
+
+## ベータ版およびリリース候補版フェーズでの報奨金の強化
 
 <!--
 To encourage proactive security assessments, the WordPress community offers monetary rewards for reporting new, unreleased security vulnerabilities. Notably, these rewards are doubled during the period between the release of Beta 1 and the final Release Candidate (RC) of a major WordPress version.
