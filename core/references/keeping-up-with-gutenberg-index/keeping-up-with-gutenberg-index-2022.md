@@ -1,24 +1,14 @@
-<<<<<<< HEAD
-# Gutenberg Index 2022
-
-**Other years: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)** | **[2022](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2022/)**** | **[2023](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2023)** | [**2024**](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2024/)
-
-This page is the one place you can bookmark for Gutenberg\-related team posts of Core, Core-Editor, Core-js, Core-css, Design, Meta, and Themes, and other teams, when relevant. It’s a chronological listing, not topical. Latest on top.
-
-Discussions are in the **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack channel and development happens in the [Gutenberg GitHub repository](https://github.com/WordPress/gutenberg/issues).
-
-See *[Explanations](#explanations)* on the bottom.
-
-* * *
-
-**[WordPress 6.2 Development Cycle](https://make.wordpress.org/core/6-2/)**
-
-=======
 <!--
 # Gutenberg Index 2022
 -->
 
 # Gutenberg インデックス2022
+
+<!--
+**Other years: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)** | **[2022](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2022/)**** | **[2023](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2023)** | [**2024**](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/gutenberg-index-2024/)
+-->
+
+**他の年: **[2020](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)** | **[2022](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2022/)**** | **[2023](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/gutenberg-index-2023/)** | [**2024**](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/gutenberg-index-2024/)
 
 <!--
 This page is the one place you can bookmark for Gutenberg\-related team posts of Core, Core-Editor, Core-js, Core-css, Design, Meta, and Themes, and other teams, when relevant. It’s a chronological listing, not topical. Latest on top.
@@ -43,9 +33,6 @@ See *[Explanations](#explanations)* on the bottom.
 <!--
 **[WordPress 6.2 Development Cycle](https://make.wordpress.org/core/6-2/)**
 
-Previous years of **Gutenberg Index**: **[2020](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)**
-
->>>>>>> main
 Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 
 📗 [Devnotes WordPress 5.9](#devnotes-wordpress-5-9)
@@ -53,15 +40,9 @@ Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/c
 📙 [Devnotes WordPress 6.0](https://make.wordpress.org/core/tag/dev-notes-6-0/)
 
 📘 [Devnotes WordPress 6.1](https://make.wordpress.org/core/tag/dev-notes+6.1/)
-<<<<<<< HEAD
-
-* * *
-
-=======
 -->
 
 -   **[WordPress 6.2の開発サイクル](https://make.wordpress.org/core/6-2/)**
--   過去の **Gutenberg インデックス**: **[2020](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2020/) | [2021](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/)**
 -   [WordPress における Gutenberg のバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 -   📗 [WordPress 5.9の開発者ノート](#devnotes-wordpress-5-9)
 -   📙 [WordPress 6.0の開発者ノート](https://make.wordpress.org/core/tag/dev-notes-6-0/)
@@ -70,7 +51,6 @@ Gutenberg [Versions in WordPress](https://developer.wordpress.org/block-editor/c
 * * *
 
 <!--
->>>>>>> main
 [January](#jan)
 
 [February](#feb)
@@ -92,10 +72,7 @@ April
 [October](#oct)
 
 [November](#nov)
-<<<<<<< HEAD
-=======
 -->
->>>>>>> main
 
 **December 2022**
 
@@ -763,11 +740,6 @@ April
 
 2022-01-02 **[#core](https://make.wordpress.org/core/tag/core/)** The December 2021 Team posts moved [to the Index 2021 child page](https://make.wordpress.org/core/handbook/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2021/). This page was prepped for this year. (u)
 
-<<<<<<< HEAD
-**Happy New Year!** 🎆 🙌 🎉🥂 *Welcome to the 3rd year of Gutenberg Index.*
-
-**DevNotes WordPress 5.9**
-=======
 <!--
 **Happy New Year!** 🎆 🙌 🎉🥂 *Welcome to the 3rd year of Gutenberg Index.*
 -->
@@ -779,7 +751,6 @@ April
 -->
 
 **WordPress 5.9の開発者ノート**
->>>>>>> main
 
 *   [Cover Block Refactor Dev Note](https://make.wordpress.org/core/2022/02/09/cover-block-refactor-dev-note/)
 *   [Theme-focused changes and filters in WordPress 5.9](https://make.wordpress.org/core/2022/01/07/theme-focused-changes-and-filters-in-wordpress-5-9/)
@@ -796,10 +767,6 @@ April
 
 * * *
 
-<<<<<<< HEAD
-**Explanations**
-
-=======
 <!--
 **Explanations**
 -->
@@ -807,7 +774,6 @@ April
 ## 説明
 
 <!--
->>>>>>> main
 *   **[#team](https://make.wordpress.org/core/tag/team/)** identifies a team’s WordPress Slack channel. [Join the Slack space](https://chat.wordpress.org/).
 *   (m) = Meeting Summaries/Notes, [check here for meeting days and times](http://make.wordpresss.org/meetings)
 *   (r) = general resource
@@ -815,16 +781,6 @@ April
 *   We use universal date format in yyyy-mm-dd to indicate publication date.
 *   Separators divide the list by weeks
 *   *This page started in January 2021. The index started in July 2020*
-<<<<<<< HEAD
-
-Big thanks to Anne McCarthy @annezazu and William Patton @williampatton for support and review.
-
-If you find a post missing or you would like to help with this effort, ping Birgit Pauli-Haack (@bph) on Slack with the link and she will add it as soon as possible.
-
-Featured Image: Photo by [Raphael Schaller](https://unsplash.com/@raphaelphotoch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/block-type?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-[#announcements](https://make.wordpress.org/core/tag/announcements/), [#core-edtior](https://make.wordpress.org/core/tag/core-edtior/), [#core-media](https://make.wordpress.org/core/tag/core-media/), [#core-privacy](https://make.wordpress.org/core/tag/core-privacy/), [#core-restapi](https://make.wordpress.org/core/tag/core-restapi/), [#core-themes](https://make.wordpress.org/core/tag/core-themes/), [#designer](https://make.wordpress.org/core/tag/designer/), [#forums](https://make.wordpress.org/core/tag/forums/), [#fse-outreach-experiement](https://make.wordpress.org/core/tag/fse-outreach-experiement/), [#mobile](https://make.wordpress.org/core/tag/mobile/), [#news](https://make.wordpress.org/core/tag/news/), [#plugins](https://make.wordpress.org/core/tag/plugins/), [#themes](https://make.wordpress.org/core/tag/themes/), [#themesreview](https://make.wordpress.org/core/tag/themesreview/), [#updates](https://make.wordpress.org/core/tag/updates/)
-=======
 -->
 
 *   **[#team](https://make.wordpress.org/core/tag/team/)** は、チームの WordPress Slack チャンネルを特定します。[Slack スペースに参加する](https://chat.wordpress.org/)。
@@ -854,4 +810,3 @@ Featured Image: Photo by [Raphael Schaller](https://unsplash.com/@raphaelphotoch
 アイキャッチ画像: [Unsplash](https://unsplash.com/s/photos/block-type?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) の [Raphael Schaller](https://unsplash.com/@raphaelphotoch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) による写真
 
 [#announcements](https://make.wordpress.org/core/tag/announcements/), [#core-edtior](https://make.wordpress.org/core/tag/core-edtior/), [#core-media](https://make.wordpress.org/core/tag/core-media/), [#core-privacy](https://make.wordpress.org/core/tag/core-privacy/), [#core-restapi](https://make.wordpress.org/core/tag/core-restapi/), [#core-themes](https://make.wordpress.org/core/tag/core-themes/), [#designer](https://make.wordpress.org/core/tag/designer/), [#forums](https://make.wordpress.org/core/tag/forums/), [#fse-outreach-experiement](https://make.wordpress.org/core/tag/fse-outreach-experiement/), [#mobile](https://make.wordpress.org/core/tag/mobile/), [#news](https://make.wordpress.org/core/tag/news/), [#plugins](https://make.wordpress.org/core/tag/plugins/), [#themes](https://make.wordpress.org/core/tag/themes/), [#themesreview](https://make.wordpress.org/core/tag/themesreview/), [#updates](https://make.wordpress.org/core/tag/updates/)
->>>>>>> main
