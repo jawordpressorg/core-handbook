@@ -152,14 +152,6 @@ Some items to watch for:
 Examples of how the boxes can look like:
 -->
 
-<<<<<<< HEAD
-[![](https://make.wordpress.org/core/files/2021/06/about-demo-2col-162x300.png)](https://make.wordpress.org/core/files/2021/06/about-demo-2col.png)
-
-[![](https://make.wordpress.org/core/files/2021/06/about-demo-3col-1024x488.png)](https://make.wordpress.org/core/files/2021/06/about-demo-3col.png)
-
-[![](https://make.wordpress.org/core/files/2021/06/about-demo-4col-1024x432.png)](https://make.wordpress.org/core/files/2021/06/about-demo-4col.png)
-
-=======
 ボックスがどのように見えるかの例:
 
 [![](https://make.wordpress.org/core/files/2021/06/about-demo-2col-162x300.png)](https://make.wordpress.org/core/files/2021/06/about-demo-2col.png)
@@ -168,18 +160,13 @@ Examples of how the boxes can look like:
 
 [![](https://make.wordpress.org/core/files/2021/06/about-demo-4col-1024x432.png)](https://make.wordpress.org/core/files/2021/06/about-demo-4col.png)
 
->>>>>>> main
 [![](https://make.wordpress.org/core/files/2023/07/Screen-Shot-2023-07-18-at-14.40.20-1024x296.png)](https://make.wordpress.org/core/files/2023/07/Screen-Shot-2023-07-18-at-14.40.20.png)
 
 <!--
 ### Images
 -->
 
-<<<<<<< HEAD
-For better understanding see the image above. Some things to consider:
-=======
 ### 画像
->>>>>>> main
 
 <!--
 For better understanding see the image above. Some things to consider:
@@ -193,8 +180,6 @@ For better understanding see the image above. Some things to consider:
 *   Images should be decorative, just illustrating the content they’re next to — if an image conveys meaning, it needs to have alt text.
 *   Images should limit or avoid English text, including UI text, because we don’t currently have a method for [translating screenshots](https://core.trac.wordpress.org/ticket/58354).
 *   Use icons to accent smaller columns/content
-<<<<<<< HEAD
-=======
 -->
 
 *   画像は端から端まで表示することも、4辺すべてに32ピクセルのパディングを付けることもできます。
@@ -202,23 +187,16 @@ For better understanding see the image above. Some things to consider:
 *   画像は、隣にあるコンテンツを示すだけの装飾的なものである必要があります。画像が意味を伝える場合は、代替テキストが必要です。
 *   [スクリーンショットを翻訳する](https://core.trac.wordpress.org/ticket/58354)方法が現在ないので、画像は UI テキストを含む英語のテキストを制限するか避けるべきです。
 *   アイコンを使用して小さなカラム/コンテンツを強調します。
->>>>>>> main
 
 <!--
 ### Videos
 -->
 
-<<<<<<< HEAD
-**For accessibility,** if the video has voice audio, a text equivalent needs to be provided. If the video shows a flow or action being performed, then the process needs to be described in the text. The key thing is remembering the audience for the text description need to get the same level of information as a sighted audience gets from watching.
-
-What matters is that it’s clear that the video’s description is associated with the video, use figure and figcaption for this.
-=======
 ### ビデオ
 
 <!--
 **For accessibility,** if the video has voice audio, a text equivalent needs to be provided. If the video shows a flow or action being performed, then the process needs to be described in the text. The key thing is remembering the audience for the text description need to get the same level of information as a sighted audience gets from watching.
 -->
->>>>>>> main
 
 **アクセシビリティのため、** ビデオに音声が含まれる場合は、同等のテキストを提供する必要があります。ビデオでフローやアクションの実行が示されている場合は、そのプロセスをテキストで説明する必要があります。重要なことは、テキストによる説明を読む人は、視聴者が観るものと同じレベルの情報を得る必要があることを覚えておくことです。
 
@@ -232,12 +210,9 @@ What matters is that it’s clear that the video’s description is associated w
 **Tech reqs**
 -->
 
-<<<<<<< HEAD
-=======
 **技術的な要件**
 
 <!--
->>>>>>> main
 *   Videos must be 480px wide (in general, most users will see this video at 436px wide, large phone sizes might see it up to 488px)
 *   The space for a full-width video is 1000px wide, and for a wider 2 column layout is 536px.
 *   Record using Kap (this is different than the recommendation in the post but @joen recommended this instead of Screeny)
