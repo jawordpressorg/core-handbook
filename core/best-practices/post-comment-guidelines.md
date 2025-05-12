@@ -96,7 +96,6 @@ make/core でのフィードバックは、Trac チケットでのフィード�
 
 ### 査読
 
-
 <!--
 Whether it’s your first time posting or your millionth, it is strongly encouraged to ask a committer to proofread a post before publishing it. Peer review (like code review) helps make sure your words are clear and working as intended, but also helps identify any phrases that might not translate well. Some posts (like weekly agendas) do not necessarily need peer review, but if it’s your first few times posting on make/core, it doesn’t hurt to ask.
 -->
