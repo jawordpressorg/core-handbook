@@ -29,13 +29,6 @@ Create a new database in your local web server using phpMyAdmin. \[[MAMP](https:
 phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/mamp/#5-creating-a-mysql-database-with-mamp)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/wampserver/#5-creating-a-mysql-database-with-wampserver)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/installing-xampp/#6-creating-a-mysql-database-with-xampp)\]
 
 <!--
-**Note:** If you are using DesktopServer as your local server, you’ll need to follow those [instructions for creating a new local development site](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site) instead of the instructions listed below.
--->
-
-**備考**: DesktopServer をローカルサーバーとして使用している場合は、以下の手順ではなく、この[新しいローカル開発サイトの作成手順](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/#5-creating-a-new-local-site)に従う必要があります。
-
-
-<!--
 ## Installing WordPress Trunk from a Zip File
 -->
 
@@ -111,7 +104,7 @@ Web ブラウザで [http://localhost/wordpress-trunk/](http://localhost/wordpre
 **If you created your `wp-config.php` file manually**, you will be presented with the standard WordPress installation screen. You will do the famous “5 minute install” – enter your site title, desired username, choice of a password (twice), and your e-mail address, then **click Install WordPress** to complete the installation. **Click Log In** on the Success screen, enter your username and password, and configure the settings for your preferences.
 -->
 
-**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定を行います。
+**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定します。
 
 <!--
 **If you prefer to let WordPress create the file**, you will be presented with a screen asking if you want to create the file now. **Click Create a Configuration File** to continue. Enter your database credentials for your local web server on the third screen, as well as the database table prefix you want to use (default is `wp_`). After you complete all the fields, **click Submit**. WordPress will check that it can connect to your database with the information you provided. If successful, **click Run the install** to proceed.

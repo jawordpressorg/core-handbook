@@ -49,7 +49,19 @@ In order to ensure the best experience possible for the developer community, the
 ## 投稿
 
 <!--
-### When to write a post
+### Getting Access to Post
+-->
+
+### 投稿へのアクセス権限の取得
+
+<!--
+Access to posting and editing on make/core is managed in the [#core room in Slack](https://wordpress.slack.com/archives/C02RQBWTW). It is best to have someone who already has access to ask on your behalf, but if you feel you should have access to create a post, please don’t hesitate to ask for yourself. The same process is used for changing roles.
+-->
+
+make/core への投稿と編集権限は、[Slack の #core ルーム](https://wordpress.slack.com/archives/C02RQBWTW) で管理されています。既にアクセス権限を持っている方に代理でアクセス権限を申請してもらうのが最善ですが、投稿作成権限が必要と思われる場合は、ご自身でアクセス権限を申請してください。権限の変更も同様の手順で行えます。
+
+<!--
+### When to Write a Post
 -->
 
 ### 記事を書くタイミング

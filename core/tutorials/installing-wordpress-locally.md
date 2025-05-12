@@ -37,10 +37,10 @@ There are two steps to installing WordPress on your computer for contributing to
 2.  WordPress trunk のインストール
 
 <!--
-If you haven’t [installed a local server](https://make.wordpress.org/core/handbook/installing-a-local-server/) yet, you’ll need to do that before continuing.
+If you haven’t [installed a local server](https://make.wordpress.org/core/handbook/contribute/#local-development-overview) yet, you’ll need to do that before continuing.
 -->
 
-もし、まだ[ローカルサーバーをインストール](https://ja.wordpress.org/team/handbook/core/installing-a-local-server/)していないなら、先にそれを行うする必要があります。
+もし、まだ[ローカルサーバーをインストール](https://ja.wordpress.org/team/handbook/core/contribute/#local-development-overview)していないなら、先にそれを行うする必要があります。
 
 <!--
 ## Zip File, SVN, or Git?

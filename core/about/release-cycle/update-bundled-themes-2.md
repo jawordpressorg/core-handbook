@@ -18,20 +18,24 @@ Every release, if there have been any changes in a bundled theme, we ship a new
 
 <!--
 1.  Read each theme’s changelog in Trac, and create a changelog file with the highlights (used in Trac tickets, both core and theme review). The changelog should start at the last version of the theme released.
-    *   [Twenty Twenty-Two](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
-    *   [Twenty Twenty-One](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
-    *   [Twenty Twenty](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwenty/)
-    *   [Twenty Nineteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentynineteen/)
-    *   [Twenty Seventeen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyseventeen/)
-    *   [Twenty Sixteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentysixteen/)
-    *   [Twenty Fifteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfifteen/)
-    *   [Twenty Fourteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfourteen/)
-    *   [Twenty Thirteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentythirteen/)
-    *   [Twenty Twelve](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwelve/)
-    *   [Twenty Eleven](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyeleven/)
-    *   [Twenty Ten](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyten/)
+    *   [Twenty Twenty-Four log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyfour/)
+    *   [Twenty Twenty-Three log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentythree/)
+    *   [Twenty Twenty-Two log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentytwo/)
+    *   [Twenty Twenty-One log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
+    *   [Twenty Twenty log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwenty/)
+    *   [Twenty Nineteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentynineteen/)
+    *   [Twenty Seventeen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyseventeen/)
+    *   [Twenty Sixteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentysixteen/)
+    *   [Twenty Fifteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfifteen/)
+    *   [Twenty Fourteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfourteen/)
+    *   [Twenty Thirteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentythirteen/)
+    *   [Twenty Twelve log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwelve/)
+    *   [Twenty Eleven log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyeleven/)
+    *   [Twenty Ten log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyten/)
 2.  Create a new core Trac ticket (like [#54783](https://core.trac.wordpress.org/ticket/54783)) to bump the POT and versions for each theme.
 3.  Locally, check out the current version of the theme from the WordPress.org theme directory, e.g., the largest number in each of these directories:
+    *   [Twenty Twenty-Four](https://themes.svn.wordpress.org/twentytwentyfour/)
+    *   [Twenty Twenty-Three](https://themes.svn.wordpress.org/twentytwentythree/)
     *   [Twenty Twenty-Two](https://themes.svn.wordpress.org/twentytwentytwo/)
     *   [Twenty Twenty-One](https://themes.svn.wordpress.org/twentytwentyone/)
     *   [Twenty Twenty](https://themes.svn.wordpress.org/twentytwenty/)
@@ -47,7 +51,7 @@ Every release, if there have been any changes in a bundled theme, we ship a new
 4.  Compare with a diff tool to the theme versions in core trunk, is there anything to test or note specifically? Any big unexpected changes?
 5.  Test! Load the themes on all recent versions of WordPress (five back is a good place to start). Run the [Theme Check plugin](https://wordpress.org/plugins/theme-check/), and check for any errors or things we didn’t catch in the core cycle.
 6.  Bump the theme versions by 0.1 in core, in each stylesheet.
-7.  Bump the theme versions by 0.1 in core, in each `package.json` and `package-lock.json` file.
+7.  For themes with a `package.json` and/or `composer.json` file, the `version` should be bumped by 0.1. The `package-lock.json` must also be updated by running `npm install`.
 8.  Update “Tested up to” in each readme.
 9.  If you’re updating Twenty Ten or Twenty Eleven, wait for the POT update for each theme to be committed, then proceed to make the ZIP packages (a committer is needed to trigger the POT files update). This can be done like this example `php makepot.php wp-theme ../../src/wp-content/themes/twentyeleven twentyeleven.pot`. Run that from the `tools/i18n` directory. For all other default themes, translations are managed by WordPress.org GlotPress, outside of the theme. So this step isn’t necessary for Twenty Twelve and later.
 10.  Run the theme build script when one is present (currently Twenty Nineteen, Twenty Twenty, and Twenty Twenty-One). Some themes copy the version into generated files (RTL stylesheets, etc.).
@@ -60,20 +64,24 @@ Every release, if there have been any changes in a bundled theme, we ship a new
 -->
 
 1.  Trac で各テーマの変更履歴を読み、ハイライトを含む変更履歴ファイルを作成します (Trac チケット、コアとテーマレビューの両方で使用します)。変更履歴はテーマがリリースされた最後のバージョンから始めてください。
-    *   [Twenty Twenty-Two](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
-    *   [Twenty Twenty-One](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
-    *   [Twenty Twenty](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwenty/)
-    *   [Twenty Nineteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentynineteen/)
-    *   [Twenty Seventeen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyseventeen/)
-    *   [Twenty Sixteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentysixteen/)
-    *   [Twenty Fifteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfifteen/)
-    *   [Twenty Fourteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfourteen/)
-    *   [Twenty Thirteen](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentythirteen/)
-    *   [Twenty Twelve](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwelve/)
-    *   [Twenty Eleven](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyeleven/)
-    *   [Twenty Ten](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyten/)
+    *   [Twenty Twenty-Four log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyfour/)
+    *   [Twenty Twenty-Three log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentythree/)
+    *   [Twenty Twenty-Two log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentytwo/)
+    *   [Twenty Twenty-One log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwentyone/)
+    *   [Twenty Twenty log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwenty/)
+    *   [Twenty Nineteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentynineteen/)
+    *   [Twenty Seventeen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyseventeen/)
+    *   [Twenty Sixteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentysixteen/)
+    *   [Twenty Fifteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfifteen/)
+    *   [Twenty Fourteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyfourteen/)
+    *   [Twenty Thirteen log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentythirteen/)
+    *   [Twenty Twelve log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentytwelve/)
+    *   [Twenty Eleven log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyeleven/)
+    *   [Twenty Ten log](https://core.trac.wordpress.org/log/trunk/src/wp-content/themes/twentyten/)
 2.  各テーマの POT とバージョンを更新するために、新しいコア Trac チケット (例: [#54783](https://core.trac.wordpress.org/ticket/54783)) を作成します。
 3.  ローカルで、WordPress.org のテーマディレクトリからテーマの現在のバージョンをチェックします。たとえば、これらの各ディレクトリの中で最も大きい番号のものをチェックします:
+    *   [Twenty Twenty-Four](https://themes.svn.wordpress.org/twentytwentyfour/)
+    *   [Twenty Twenty-Three](https://themes.svn.wordpress.org/twentytwentythree/)
     *   [Twenty Twenty-Two](https://themes.svn.wordpress.org/twentytwentytwo/)
     *   [Twenty Twenty-One](https://themes.svn.wordpress.org/twentytwentyone/)
     *   [Twenty Twenty](https://themes.svn.wordpress.org/twentytwenty/)
@@ -89,7 +97,7 @@ Every release, if there have been any changes in a bundled theme, we ship a new
 4.  コア trunk のテーマバージョンと差分ツールで比較してみて、特にテストすべき点や注意すべき点はありませんか ? 予期せぬ大きな変更はありませんか ?
 5.  テストしましょう ! WordPress のすべての最新バージョンでテーマを読み込みます (5つ前のバージョンから始めるのが良いでしょう)。[Theme Check プラグイン](https://wordpress.org/plugins/theme-check/)を実行し、エラーやコアサイクルで見つけられなかったものをチェックします。
 6.  コアのそれぞれのスタイルシートで、テーマのバージョンを0.1上げます。
-7.  コアのそれぞれの `package.json` と `package-lock.json` ファイルで、テーマのバージョンを0.1ずつ上げます。
+7.  `package.json` および/または `composer.json` ファイルを含むテーマの場合、`version` を 0.1 増やす必要があります。また、`npm install` を実行して `package-lock.json` も更新する必要があります。
 8.  それぞれの readme の「Tested up to」を更新します。
 9.  Twenty Ten または Twenty Eleven を更新する場合は、各テーマの POT の更新がコミットされるのを待ってから、ZIP パッケージの作成に進んでください (POT ファイルのアップデートをトリガーするにはコミッターが必要です)。これは次の例のように行うことができます: `php makepot.php wp-theme ../../src/wp-content/themes/twentyeleven twentyeleven.pot`。これを `tools/i18n` ディレクトリから実行します。他のすべてのデフォルトテーマでは、翻訳は WordPress.org の GlotPress によって管理されています。そのため、Twenty Twelve 以降ではこのステップは必要ありません。
 10.  テーマにビルドスクリプトがある場合は、それを実行します (今のところ Twenty Nineteen、Twenty Twenty、Twenty Twenty-One)。テーマによっては、生成されたファイル (RTL スタイルシートなど) にバージョンをコピーします。
@@ -97,7 +105,7 @@ Every release, if there have been any changes in a bundled theme, we ship a new
     *   コアリポジトリからローカルハードディスクの一時的な場所に `svn export` します。
     *   最終確認のために、前のバージョンとの簡単な差分をもう一度チェックします。
     *   Zip で圧縮します: `zip -r [name].zip name` **(ファイル名がテーマディレクトリのパスと同じであることを確認してください。そうでないと、テーマリポジトリはアップロード時に新しいテーマとみなします)**
-12.  WordPress Core のコミットアクセス権を持つすべての貢献者は、[theme uploader](https://wordpress.org/themes/getting-started/) を通じて WordPress.org にデフォルトテーマの新バージョンをアップロードできます。**注意**: テーマのアップデートは、テーマチームまたはメタチームによる手動での介入が事前に行われない場合、*自動的に*開始されます。これを望ましくない場合は、稼働開始プロセスを止めるために、まずは彼らに連絡してください。必要であれば、チケットに「コアリリースと調整したいので、まだ承認しないでください」と記載しておきましょう。
+12.  WordPress Core のコミットアクセス権を持つすべての貢献者は、[theme uploader](https://wordpress.org/themes/getting-started/) を通じて WordPress.org にデフォルトテーマの新バージョンをアップロードできます。**注意**: テーマのアップデートは、テーマチームまたはメタチームによる手動での介入が事前に行われない場合、**自動的に** 開始されます。これを望ましくない場合は、稼働開始プロセスを止めるために、まずは彼らに連絡してください。必要であれば、チケットに「コアリリースと調整したいので、まだ承認しないでください」と記載しておきましょう。
 13.  リリースリードに連絡し、メインのリリースプロセスを調整します。アップデートは自動的に承認されるはずです。[@Otto42](https://profiles.wordpress.org/Otto42/) は何か問題が発生したときに助けてくれるでしょう。リリースはすべてがアップロードされ、有効になったときにわかるはずです。
 
 <!--

@@ -34,19 +34,28 @@ The full format for a commit message is as follows:
 
 コミットメッセージの完全な形式は次のとおりです:
 
-> Component: Brief summary.
->
-> Longer description with more details, such as a \`new\_hook\` being introduced with the context of a \`$post\` and a \`$screen\`.
->
-> More paragraphs can be added as needed.
-> 
-> Follow-up to [\[27195\]](https://core.trac.wordpress.org/changeset/27195), [\[41062\]](https://core.trac.wordpress.org/changeset/41062).
-> 
-> Reviewed by a-fellow-committer, maybe-multiple.  
-> Merges [\[26851\]](https://core.trac.wordpress.org/changeset/26851) to the to the x.x branch.
-> 
-> Props person, another.  
-> Fixes [#30000](https://core.trac.wordpress.org/ticket/30000). See [#20202](https://core.trac.wordpress.org/ticket/20202), #105.
+```
+Component: Brief summary.
+
+Longer description with more details, such as a `new_hook` being introduced with the context of a `$post` and a `$screen`.
+
+More paragraphs can be added as needed.
+
+Example usage:
+
+{{{
+// multi-line code snippet
+$add_filter(‘some_new_filter’, ‘some_filter_callback’);
+}}}
+
+Follow-up to [27195], [41062].
+
+Reviewed by a-fellow-committer, maybe-multiple.
+Merges [26851] to the x.x branch.
+
+Props person, another.
+Fixes #30000. See #20202, #105.
+```
 
 <!--
 ### Global Guidelines
@@ -181,14 +190,14 @@ When [backporting code](https://make.wordpress.org/core/handbook/best-practices/
 *   There should be a hard return between the Reviewed By and Merges lines but there must not be a blank line between them.
 *   Multiple core committers may be mentioned as reviewers. When this happens, please separate them with a comma.
 *   While the task of moving the code is called backporting, the words `backport`, `backports`, and `backporting` should not be used anywhere in the commit message.
-*   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves, if they need to.
+*   When backporting a commit made by another committer, add their username to the list of props if it is not already included.
 -->
 
 *   この2行セットの前には空白行が必要です。
 *   「Reviewed By」の行と「Merges」の行の間には改行が必要ですが、間に空白行があってはなりません。
 *   複数のコアコミッターがレビュアーとして言及される場合がありますが、その場合はカンマで区切ってください。
 *   コードを移動するタスクはバックポートと呼ばれますが、`backport`、`backports`、および `backporting` という単語はコミットメッセージ内のどこにも使用しないでください。
-*   要約とは異なり、行を手動で折り返す必要はありません。必要に応じて、ログビューアが説明を自分で折り返すことができます。
+*   別のコミッターによって行われたコミットをバックポートする場合、そのコミッターのユーザー名がまだ含まれていない場合は、props のリストに追加します。
 
 <!--
 ### Props
@@ -222,6 +231,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 
 <!--
 *   Props must be preceded by a blank line.
+*   There should be no semi-colon (`:`) between “Props” and the w.org usernames.
 *   Usernames must not start with an @ (at) sign.
 *   Separate usernames by comma + space. Think: /^props (\\s\*(\[^,\]+),?)+$/
 *   Copy/paste usernames to avoid typos. (Sorry, rmccue; or is that rmmcue?)
@@ -231,6 +241,7 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 -->
 
 *   先頭には空白行が必要です。
+*   「Props」と w.org ユーザー名の間にはセミコロン (`:`) を入れないでください。
 *   ユーザー名は `@` (アット) 記号で始めることはできません。
 *   ユーザー名はカンマとスペースで区切ってください。正規表現: `/^props (\s*([^,]+),?)+$/`
 *   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
@@ -304,7 +315,9 @@ Bad:
 
 悪い:
 
-> Don’t use strict comparisons for term IDs. props booneiscool. fixes [#3398](https://core.trac.wordpress.org/ticket/3398).
+```
+Don't use strict comparisons for term IDs. props booneiscool. fixes #3398.
+```
 
 <!--
 Meh:
@@ -312,9 +325,11 @@ Meh:
 
 まあまあ良い:
 
-> Fixing \`wp\_dropdown\_categories()\` and other places that use term IDs.
->
-> props boonerocks. fixes [#20000](https://core.trac.wordpress.org/ticket/20000).
+```
+Fixing `wp_dropdown_categories()` and other places that use term IDs.
+
+props boonerocks. fixes #20000.
+```
 
 <!--
 Good:
@@ -322,12 +337,14 @@ Good:
 
 良い:
 
-> Taxonomy: Relax term ID comparisons.
->
-> Term IDs are sometimes provided as strings. This is particularly evident in \`wp\_dropdown\_categories()\`, where the \`selected\` argument was not being respected. Plugin authors should also be wary of using strict comparisons for term IDs.
->
-> Props booneistheman.
-> Fixes [#13237](https://core.trac.wordpress.org/ticket/13237).
+```
+Taxonomy: Relax term ID comparisons.
+
+Term IDs are sometimes provided as strings. This is particularly evident in `wp_dropdown_categories()`, where the `selected` argument was not being respected. Plugin authors should also be wary of using strict comparisons for term IDs.
+
+Props booneistheman.
+Fixes #13237.
+```
 
 <!--
 ## Automatically Pre-fill Commit Message

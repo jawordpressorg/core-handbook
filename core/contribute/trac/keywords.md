@@ -153,10 +153,10 @@ The patch has been reviewed and tested by a trusted member of the development co
 **dev-feedback**
 
 <!--
-A response is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or trusted members of the development community.
+A response is wanted from a [core developer](https://make.wordpress.org/core/handbook/about/organization/#the-wordpress-core-team) or trusted members of the development community. For example, use this keyword when double sign-off is required to [backport changes during RC](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/#backport-process).
 -->
 
-[コア開発者](https://ja.wordpress.org/team/handbook/core/about/organization/#the-wordpress-core-team)または開発コミュニティの信頼できるメンバーからの回答が求められています。
+[コア開発者](https://ja.wordpress.org/team/handbook/core/about/organization/#the-wordpress-core-team)または開発コミュニティの信頼できるメンバーからの回答が必要です。たとえば、[RC 中の変更をバックポートする](https://ja.wordpress.org/team/handbook/core/best-practices/backporting-commits/#backport-process)ときに二重承認が必要な場合にこのキーワードを使用します。
 
 **dev-reviewed**
 

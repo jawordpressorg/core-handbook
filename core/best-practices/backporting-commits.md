@@ -66,15 +66,37 @@ The branch commit message will largely be copied from the `trunk` commit(s) wit
 
 <!--
 Make sure to run the above commands from the branch root, and not from a sub directory. The reason for this is that the `svn:mergeinfo` is a SVN property on `/branches/5.9` which the SVN client sets, it’s not a server side thing.
+
+At the bottom of https://core.trac.wordpress.org/browser/branches/5.9 you see two links, ‘merged’ and ‘eligible’. The second one shouldn’t list commits which are already merged.
 -->
 
 \[info\]上記のコマンドは、サブディレクトリからではなく、必ずブランチのルートから実行してください。なぜなら、`svn:mergeinfo` は `/branches/5.9` の SVN プロパティで、SVN クライアントが設定するものであり、サーバーサイドのものではないからです。
 
+https://core.trac.wordpress.org/browser/branches/5.9 の一番下に、「'merged」と「eligible」という2つのリンクがあります。2番目のリンクは、すでにマージされたコミットでは表示されないはずです。\[/info\]
+
 <!--
-At the bottom of https://core.trac.wordpress.org/browser/branches/5.9 you see two links, ‘merged’ and ‘eligible’. The second one shouldn’t list commits which are already merged.
+## Backport Process
 -->
 
-https://core.trac.wordpress.org/browser/branches/5.9 の一番下に、「'merged」と「eligible」という2つのリンクがあります。2番目のリンクは、すでにマージされたコミットでは表示されないはずです。\[/info\]
+## バックポートプロセス
+
+<!--
+The standard process for any commit not to trunk is “double signoff”. Essentially, another committer must review and comment with their agreement before the code is backported. In practice, this process looks as follows:
+-->
+
+trunk にコミットしない場合の標準的なプロセスは「ダブルサインオフ」です。基本的に、コードをバックポートする前に、別のコミッターがレビューし、同意を示すコメントを付ける必要があります。実際には、このプロセスは以下のようになります。
+
+<!--
+1.  Make a commit to trunk.
+2.  Reopen the ticket and add the `dev-feedback` keyword. You should also remove the `commit` keyword if that had previously been applied. A comment along the lines of “Reopening [#15705](https://core.trac.wordpress.org/ticket/15705) to request backporting [\[27195\]](https://core.trac.wordpress.org/changeset/27195) to 2.4 branch”.
+3.  A second committer should add a comment approving the backport and add the `dev-reviewed` keyword.
+4.  Follow the technical steps above.
+-->
+
+1. trunk にコミットします。
+2. チケットを再オープンし、`dev-feedback` キーワードを追加します。以前に `commit` キーワードが適用されていた場合は、削除する必要があります。「[#15705](https://core.trac.wordpress.org/ticket/15705) を再オープンし、[\[27195\]](https://core.trac.wordpress.org/changeset/27195) を2.4ブランチにバックポートすることをリクエストします」といった内容のコメントを追加します。
+3. 2人目のコミッターが、バックポートを承認するコメントと `dev-reviewed` キーワードを追加します。
+4. 上記の技術的な手順に従います。
 
 <!--
 ### Security Backports

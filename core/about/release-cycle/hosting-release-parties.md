@@ -1,6 +1,3 @@
-> **Note**
-> 「Host script based on Beta releases (ベータリリースにもとづく開催スクリプト)」のセクションは、GitHub 原文ではセル内で改行されており、またインラインハイライトが使用されています。どちらもマークダウン上では利用出来ないため、セル内の改行については `<br />` タグに置き換えています。このセクションの更新を WordPres ページに反映するときは、原文を参照の上、適切に改行・ハイライトを行って下さい。
-
 <!--
 # Hosting Release Parties
 -->
@@ -52,16 +49,16 @@ Note: Some or all of these roles may be performed by the same contributor, depen
 *   **マーケティングチームのメンバー、またはマーケティングリリースリード** (`@marketingteamember`)。リリースアナウンスの投稿を下書きする担当者。
 
 <!--
-## Pre-release check-in – one hour before the party starts
+## Pre-release check-in – one hour before the code freeze starts
 -->
 
-## リリース前のチェックイン – パーティが始まる1時間前
+## リリース前のチェックイン – コードフリーズが始まる1時間前
 
 <!--
-Before the scheduled time, check the current release leads channel (usually named `#x.x-release-leads`) to confirm that all relevant teams are prepared. If more time is needed and a delay is necessary, a message in the [#core](https://make.wordpress.org/core/tag/core/) channel should note the reason for the delay along with an expected time that the party will start.
+Before the scheduled time, check the current release leads channel (usually named `#x.x-release-leads`) to confirm that all relevant teams are prepared. If more time is needed and a delay for code freeze is necessary, a message in the [#core](https://make.wordpress.org/core/tag/core/) channel should note the reason for the delay along with an expected time that the party will start.
 -->
 
-予定時刻の前に、現在のリリースリードチャンネル (通常 `#x.x-release-leads` という名前) をチェックして、関連するすべてのチームが準備できていることを確認します。さらに時間がかかり遅延が必要な場合は、[#core](https://make.wordpress.org/core/tag/core/) チャンネルに遅延の理由とパーティの開始予定時刻をメッセージで知らせる必要があります。
+予定時刻の前に、現在のリリースリードチャンネル (通常 `#x.x-release-leads` という名前) をチェックして、関連するすべてのチームが準備できていることを確認します。コードフリーズのためにさらに時間がかかり遅延が必要な場合は、[#core](https://make.wordpress.org/core/tag/core/) チャンネルに遅延の理由とパーティの開始予定時刻をメッセージで知らせる必要があります。
 
 <!--
 ## Host script based on Beta releases
@@ -89,7 +86,7 @@ For those who haven’t attended a release party before, welcome! Here’s the s
 A public preview should be made available so anyone wanting to help proofread the post can do so. Just double-check the `@props` to credit them. | Marketing Leads |
 | **Step 2:** Announce in Core to pause commits and don’t share links to the package until tested | @committers. Please refrain from committing until `X.Y-Z` has been released. :thank-you:  
   
-:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren: | All attendees |
+:siren: Please remember not to share links to the package publicly until the announcement post is published on WordPress.org. :siren: | All attendees |
 | **Step 3:** Run all unit tests locally | Time to run all unit tests. @corecommitter, please confirm. | Core Committer |
 | **Step 4:** Verify that the latest [GitHub Action checks](https://github.com/WordPress/wordpress-develop/actions) are passing. | @corecommitter, can you also confirm that GitHub Action checks are passing? | Core Committer |
 | **Step 5:** Ask a Security team member to verify the private security unit tests are passing for the most recent commit to ensure no regressions are introduced. | @securityteammember, please verify the private security unit tests pass for the latest commit. Thanks! | Security Team Member |
@@ -99,7 +96,7 @@ A public preview should be made available so anyone wanting to help proofread th
 | **Step 7:** Build the packages. | @mcpilot please proceed to package the release and post the link to the package here. | Core Committer |
 | **Step 8:** Package Reminder | \[*While the package is being built, once again, remind attendees not to publicly share the link to the package until it’s been tested and the release post has been published. Sometimes, errors can happen during packaging, and the package needs to be rebuilt.*\]  
   
-:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren:  
+:siren: Please remember not to share links to the package publicly until the announcement post is published on WordPress.org. :siren:  
   
 *\[Wait until the link to the \*.zip file is posted\]* | Emcee |
 | **Step 8:** Testing | I**t’s testing time**!  
@@ -124,7 +121,9 @@ You can report back by sharing how you tested and what the result was with an em
 If it works, add :white\_check\_mark:  
 If any issues happen, add :red\_circle: so we can investigate.  
   
-Please note that language packs are built in a later step of the process, so it is normal for there to be notices such as `**Warning: Checksums not available for WordPress 6.3.2/fr_FR. Please cleanup files manually.**` | Everyone |
+Please note that language packs are built in a later step of the process, so it is normal for there to be notices such as `**Warning: Checksums not available for WordPress 6.3.2/fr_FR. Please cleanup files manually.**`  
+  
+After thorough testing, ask the @mcpilot if they are satisfied with the amount and level of testing and comfortable with proceeding with the release. | Everyone |
 | **Optional**: Summarize any issues found | *\[If any issues are found during testing, rely on this section*.\]  
 Thanks, everyone, for testing! For now, we’re tracking the following issues: | Emcee |
 | **Step 9:** Second version bump | Please, @corecommitter, proceed with the second version bump.  
@@ -149,14 +148,14 @@ Thanks, everyone, for joining in and helping make WordPress! Hope to see you at 
 | --- | --- | --- |
 |  | `/here` Welcome to the WordPress `X.Y-Z` release party.<br /><br />I will be your host for this event, with @corecommitter and @mcpilot acting as behind-the-scenes drivers. (Be sure to adapt this message to the actual participants, taking into account any contributor filling multiple roles).<br /><br />For those who haven’t attended a release party before, welcome! Here’s the step-by-step guide from the handbook that details the release process: [https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) |  |
 | **ステップ1:** ブログのアナウンス記事が準備できていることを確認する | Let’s start by ensuring the release post is ready to be published. @marketingteammember, what’s the status of the post?<br /><br />A public preview should be made available so anyone wanting to help proofread the post can do so. Just double-check the `@props` to credit them. | マーケティングリード |
-| **ステップ2:** コミットを一時停止し、テストされるまでパッケージへのリンクを共有しないようアナウンスする | @committers. Please refrain from committing until `X.Y-Z` has been released. :thank-you:<br /><br />:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren: | すべての参加者 |
+| **ステップ2:** コミットを一時停止し、テストされるまでパッケージへのリンクを共有しないようアナウンスする | @committers. Please refrain from committing until `X.Y-Z` has been released. :thank-you:<br /><br />:siren: Please remember not to share links to the package publicly until the announcement post is published on WordPress.org. :siren: | すべての参加者 |
 | **ステップ3:** すべてのユニットテストをローカルで実行する | Time to run all unit tests. @corecommitter, please confirm. | コアコミッター |
 | **ステップ4:** 最新の [GitHub Action checks](https://github.com/WordPress/wordpress-develop/actions) がパスしていることを確認する | @corecommitter, can you also confirm that GitHub Action checks are passing? | コアコミッター |
 | **ステップ5:** セキュリティチームのメンバーに、最新のコミットでプライベートセキュリティユニットテストがパスしていることを確認してもらい、リグレッションが発生していないことを確認してもらう | @securityteammember, please verify the private security unit tests pass for the latest commit. Thanks! | セキュリティチームのメンバー |
 | **ステップ6:** バージョンアップ | @corecommitter, will you please commit the first version bump?<br /><br />**\[コミットされるのを待つ\]** | コアコミッター |
 | **ステップ7:** パッケージをビルドする | @mcpilot please proceed to package the release and post the link to the package here. | コアコミッター |
-| **ステップ8:** パッケージに関するお知らせ | \[**パッケージがビルドされている間は、テストが終わってリリースの投稿が公開されるまで、パッケージへのリンクを公の場に共有しないよう、もう一度参加者に注意してください。パッケージング中にエラーが起こり、パッケージの再構築が必要になることがあります。**\]<br /><br />:siren: Please remember not to share links to the package publicly until the “all clear” is given after testing and the announcement post is published on WordPress.org. :siren:<br /><br />**\[.zip ファイルへのリンクが貼られるまで待つ。\]** | ホスト |
-| **ステップ8:** テスト | I**t’s testing time**!<br /><br />There are several ways to test, so pick whatever feels most comfortable and report back as you go:<br /><br />1\. Install and activate the [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/) plugin. Select the Bleeding edge channel and then Beta/RC Only stream.<br />2\. Use WP-CLI to test: wp core update –version=`X.Y-Z`<br />3\. Directly download the Beta/RC version from https://wordpress.org/wordpress-`X.Y-Z`.zip<br /><br />**Here are a few scenarios to test:**<br />– Test from latest in 4.0.\* release series (e.g., 4.0.35 > `X.Y-Z`)<br />– Test from latest in 4.9.\* release series (e.g., 4.9.21 > `X.Y-Z`)<br />– Test from the latest version in the current major release series (e.g., 6.1.1 > `X.Y-Z`) – Test from the most recent Beta/RC release (e.g., Beta 4 > `X.Y-Z`) – Test fresh installation<br />– Remove `wp-config.php` file and test a fresh installation<br />– Test single site and multisite/network (both subdirectory and subdomain) installations<br /><br />You can report back by sharing how you tested and what the result was with an emoji. For example:<br />– 6.2-beta1 > `X.Y-Z` via beta tester<br />If it works, add :white\_check\_mark:<br />If any issues happen, add :red\_circle: so we can investigate. <br /><br />Please note that language packs are built in a later step of the process, so it is normal for there to be notices such as `**注意: チェックサムは WordPress 6.3.2/fr_FR では利用できません。ファイルを手動でクリーンアップしてください。**`| 全員 |
+| **ステップ8:** パッケージに関するお知らせ | \[**パッケージがビルドされている間は、テストが終わってリリースの投稿が公開されるまで、パッケージへのリンクを公の場に共有しないよう、もう一度参加者に注意してください。パッケージング中にエラーが起こり、パッケージの再構築が必要になることがあります。**\]<br /><br />:siren: Please remember not to share links to the package publicly until the announcement post is published on WordPress.org. :siren:<br /><br />**\[.zip ファイルへのリンクが貼られるまで待つ。\]** | ホスト |
+| **ステップ8:** テスト | I**t’s testing time**!<br /><br />There are several ways to test, so pick whatever feels most comfortable and report back as you go:<br /><br />1\. Install and activate the [WordPress Beta Tester](https://wordpress.org/plugins/wordpress-beta-tester/) plugin. Select the Bleeding edge channel and then Beta/RC Only stream.<br />2\. Use WP-CLI to test: wp core update –version=`X.Y-Z`<br />3\. Directly download the Beta/RC version from https://wordpress.org/wordpress-`X.Y-Z`.zip<br /><br />**Here are a few scenarios to test:**<br />– Test from latest in 4.0.\* release series (e.g., 4.0.35 > `X.Y-Z`)<br />– Test from latest in 4.9.\* release series (e.g., 4.9.21 > `X.Y-Z`)<br />– Test from the latest version in the current major release series (e.g., 6.1.1 > `X.Y-Z`) – Test from the most recent Beta/RC release (e.g., Beta 4 > `X.Y-Z`) – Test fresh installation<br />– Remove `wp-config.php` file and test a fresh installation<br />– Test single site and multisite/network (both subdirectory and subdomain) installations<br /><br />You can report back by sharing how you tested and what the result was with an emoji. For example:<br />– 6.2-beta1 > `X.Y-Z` via beta tester<br />If it works, add :white\_check\_mark:<br />If any issues happen, add :red\_circle: so we can investigate. <br /><br />Please note that language packs are built in a later step of the process, so it is normal for there to be notices such as `**Warning: Checksums not available for WordPress 6.3.2/fr_FR. Please cleanup files manually.**`<br />After thorough testing, ask the @mcpilot if they are satisfied with the amount and level of testing and comfortable with proceeding with the release. | 全員 |
 | **Optional**: 見つかった問題点をまとめる | **\[テスト中に問題が見つかった場合は、このセクションを参照してください。\]**<br />Thanks, everyone, for testing! For now, we’re tracking the following issues: | ホスト |
 | **ステップ9:** 2番目のバージョンアップ | Please, @corecommitter, proceed with the second version bump.<br /><br />**\[コミットされるのを待つ\]** | コアコミッター |
 | **ステップ10:** ミッションコントロールでナイトリーパッケージを再ビルドする | @mcpilot, can you please refresh the nightly build?<br /><br />**\[確認を待つ\]** | ミッションコントロール |
@@ -197,3 +196,6 @@ Before we go, here are a few reminders: 
 *   公開リリースは、**(現在のサイクルのリリース日が入ります)** に予定されています。正確な時間はドライラン終了後に発表されます。このリリースシーズン最大のイベントに、再びご招待します !
 *   バグスクラブスケジュール **(Make/Core にピン留めされた投稿へのリンクを挿入)** によると、安定版リリースパーティまでに残っているバグスクラブは以下の通りです:
     *   **日程一覧**
+
+> **Note**
+> 「Host script based on Beta releases (ベータリリースにもとづく開催スクリプト)」のセクションは、GitHub 原文ではセル内で改行されており、またインラインハイライトが使用されています。どちらもマークダウン上では利用出来ないため、セル内の改行については `<br />` タグに置き換えています。このセクションの更新を WordPres ページに反映するときは、原文を参照の上、適切に改行・ハイライトを行って下さい。

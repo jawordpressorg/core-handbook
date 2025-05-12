@@ -120,7 +120,7 @@ Prior knowledge that you’ll find helpful for working on core is:
 
 <!--
 *   A version control system: either [SVN](http://sourceforge.net/projects/win32svn/) or [Git](http://git-scm.com/)
-*   a local development environment; for example, [MAMP](http://www.mamp.info/en/index.html), [WAMP](http://www.wampserver.com/en/), [Vagrant](//www.vagrantup.com/) [XAMPP](http://www.apachefriends.org/index.html), or [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
+*   a [local development environment](https://make.wordpress.org/core/handbook/contribute/#local-development-overview)
 *   for unit testing, [PHPUnit](http://phpunit.de/)
 *   [Grunt](http://gruntjs.com/) for compiling assets, building release packages, and JavaScript and PHP testing
 *   [QUnit](http://qunitjs.com/) for Javascript testing
@@ -128,7 +128,7 @@ Prior knowledge that you’ll find helpful for working on core is:
 -->
 
 *   バージョン管理システム: [SVN](http://sourceforge.net/projects/win32svn/) または [Git](http://git-scm.com/)
-*   ローカル開発環境。例: [MAMP](http://www.mamp.info/en/index.html)、[WAMP](http://www.wampserver.com/en/)、[Vagrant](//www.vagrantup.com/)、[XAMPP](http://www.apachefriends.org/index.html)、または [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/)
+*   [ローカル開発環境](https://ja.wordpress.org/team/handbook/core/contribute/#local-development-overview)
 *   ユニットテストの場合、[PHPUnit](http://phpunit.de/)
 *   アセットのコンパイル、リリースパッケージのビルド、JavaScript と PHP のテストのための [Grunt](http://gruntjs.com/)
 *  Javascript テストのための [QUnit](http://qunitjs.com/)

@@ -116,6 +116,7 @@ The full [commit message guide covers this](https://make.wordpress.org/core/hand
 
 <!--
 *   Props must be preceded by a blank line.
+*   There should be no semi-colon (`:`) between “Props” and the w.org usernames.
 *   Usernames must not start with an @ (at) sign.
 *   Separate usernames by comma + space. Think: /^props (\\s\*(\[^,\]+),?)+$/
 *   Copy/paste usernames to avoid typos. (Sorry, rmccue; or is that rmmcue?)
@@ -125,6 +126,7 @@ The full [commit message guide covers this](https://make.wordpress.org/core/hand
 -->
 
 *   先頭には空白行が必要です。
+*   「Props」と w.org ユーザー名の間にはセミコロン (`:`) を入れないでください。
 *   ユーザー名は `@` (アット) 記号で始めることはできません。
 *   ユーザー名はカンマとスペースで区切ってください。正規表現: `/^props (\s*([^,]+),?)+$/`
 *   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
@@ -160,9 +162,10 @@ Some technical notes:
 *   The list of `Co-authored-by` trailers must be preceded by a blank line.
 *   `Co-authored-by` trailers should be the last thing in a commit message.
 *   The unlinked contributors must come before the `Co-authored-by` trailers.
-*   Unlinked contributors should be entered in one line preceded by `Unlinked contributors:`, each one separated by a comma and a space (`,` ), and a period after the last one. Example: `Unlinked contributors: nacin, wapuu.`
+*   Unlinked contributors should be entered in one line preceded by `Unlinked contributors:`, each one separated by a comma and a space (`,` ), and a period after the last one. Example: `Unlinked contributors: nacin, matt.`
 *   Usernames must not start with an `@` (at) sign.
-*   When manually adding someone, please only use their WordPress.org username in the following format: `Co-authored-by: dotorgusername <[dotorgusername@git.wordpress.org](mailto:dotorgusername@git.wordpress.org)>`. The only exception to this rule is for bot accounts, such as `dependabot` or `github-actions`. It’s important to include them so future contributors know they were involved in the changes.
+*   When manually adding someone, please only use their GitHub and WordPress.org usernames in the following format: `Co-authored-by: githubusername <[dotorgusername@git.wordpress.org](mailto:dotorgusername@git.wordpress.org)>`.
+*   The only accounts that are allowed to be noted with a non-w.org email are bot accounts (`dependabot` or `github-actions`). It’s important to leave these bots as listed by the GitHub generated `Co-authored-by` trailer so future contributors know which bots were involved in the changes.
 *   If there are contributors already noted with `Co-authored-by` in the suggested commit message, verify they are also included in the list provided by Props Bot before removing. These will be in **GitHub format and should be converted to the above w.org format**. Deleting the GitHub formatted ones will ensure an accurate contributor count for each commit, but it’s not required. Non w.org emails will be ignored by the props parsing scripts.
 *   If a contributor’s w.org username is unknown, add their GitHub username to the “Unlinked contributors” list.
 *   If there are `Signed-off-by` trailers in the suggested commit message, leave them in place above `Co-authored-by` trailers. These serve a different purpose and are ignored in the context of collecting props.
@@ -171,9 +174,10 @@ Some technical notes:
 *   `Co-authored-by` のリストの前には空白行が必要です。
 *   `Co-authored-by` はコミット メッセージの最後に置く必要があります。
 *   リンクされていない貢献者は、`Co-authored-by` の前に来なければなりません。
-リンクされていない貢献者は、`Unlinked contributors:` を先頭に付けて1行に入力し、各貢献者をカンマとスペース (`,`) で区切り、最後の貢献者の後にピリオドを付けます。例: `Unlinked contributors: nacin, wapuu.`
+リンクされていない貢献者は、`Unlinked contributors:` を先頭に付けて1行に入力し、各貢献者をカンマとスペース (`,`) で区切り、最後の貢献者の後にピリオドを付けます。例: `Unlinked contributors: nacin, matt.`
 *   ユーザー名は `@` (アット) 記号で始まってはいけません。
-*   手動で追加する場合は、次の形式で WordPress.org のユーザー名のみを使用してください: `Co-authored-by: dotorgusername <[dotorgusername@git.wordpress.org](mailto:dotorgusername@git.wordpress.org)>`。このルールの唯一の例外は、`dependabot` や `github-actions` などのボットアカウントです。将来の貢献者が変更に関与したことがわかるように、これらのアカウントも含めることが重要です。
+* 手動で追加する場合は、次の形式で GitHub および WordPress.org のユーザー名のみを使用してください: `Co-authored-by: githubusername <[dotorgusername@git.wordpress.org](mailto:dotorgusername@git.wordpress.org)>`。
+*   w.org 以外のメールアドレスで記載できるアカウントは、ボットアカウント (`dependabot` または `github-actions`) のみです。これらのボットは、GitHub が生成した `Co-authored-by` にリストされているとおりに残しておくことが重要です。そうすることで、将来の貢献者がどのボットが変更に関与したかを把握できるようになります。
 *   提案されたコミットメッセージにすでに `Co-authored-by` で貢献者が記載されている場合は、削除する前に、Props Bot が提供するリストにも含まれていることを確認してください。これらの貢献者は**GitHub 形式であるため、上記の w.org 形式に変換する必要があります**。GitHub 形式の貢献者を削除すると、各コミットの貢献者数が正確に把握できますが、必須ではありません。w.org 以外のメールアドレスは、props 解析スクリプトによって無視されます。
 *   貢献者の w.org ユーザー名が不明な場合は、GitHub ユーザー名を「Unlinked contributors」リストに追加してください。
 *   提案されたコミットメッセージに `Signed-off-by` が含まれている場合は、`Co-authored-by` の上に残してください。これらは別の目的で使用され、props 収集のコンテキストでは無視されます。

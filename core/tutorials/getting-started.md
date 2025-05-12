@@ -57,18 +57,10 @@ WordPress コアに貢献するには、ローカルの開発環境と WordPress
 ### ローカルサーバーのセットアップ
 
 <!--
-Download and install a local development environment on your machine. You have a few options here:
+Check out [options to download and install a local development environment](https://make.wordpress.org/core/handbook/contribute/#local-development-overview) on your machine.
 -->
 
-ローカル開発環境をダウンロードしてマシンにインストールします。ここでいくつかの選択肢があります:
-
-<!--
-*   The recommended way is to use a software called [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org), which is a Vagrant configuration tailored specifically for WordPress development. Please follow the handbook instructions on [how to install VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
-*   If you already have an environment that includes a webserver with PHP, MySQL/MariaDB and SSH access and you prefer working with that system, it is perfectly fine to decide on using another environment. Popular alternatives include [DesktopServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/), [MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/), [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/), and others. Be aware though that none of them is optimized for WordPress core development, so a little more groundwork will be necessary in that case.
--->
-
-*   推奨される方法は、WordPress 開発専用に調整された Vagrant 構成である [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org) と呼ばれるソフトウェアを使うことです。[VVV のインストール方法](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/)を参考にしてください。
-*   PHP、MySQL/MariaDB、SSH アクセスが可能な Web サーバーを含む環境がすでにあり、そのシステムで作業することを好む場合、他の環境を使用することはまったく問題ありません。[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/) などが有名です。ただし、いずれも WordPress コアの開発用には最適化されていないので、その場合はもう少し下準備する必要があります。
+お使いのマシンに[ローカル開発環境をダウンロードしてインストールするためのオプション](https://ja.wordpress.org/team/handbook/core/contribute/#local-development-overview)を確認してください。
 
 <!--
 ### Setting up a version control system
@@ -80,33 +72,33 @@ Download and install a local development environment on your machine. You have a
 Install a version control system to use for WordPress core. Here you have two options:
 -->
 
-WordPress コアに使用するバージョン管理システムをインストールします。ここには2つの選択肢があります:
-
 <!--
-*   WordPress core by default uses Subversion (or SVN) for version control, which works relatively similar to Git, but is a little older. While most people prefer working with Git, the SVN commands you typically use when developing for WordPress core are trivial and almost the same as their Git counterparts. VVV already has SVN pre-installed. If you are using another environment or prefer to also use SVN directly on your computer, there is a [handbook tutorial guiding you through the process](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/).
+*   WordPress core by default uses Subversion (or SVN) for version control, which works relatively similar to Git, but is a little older. While most people prefer working with Git, the SVN commands you typically use when developing for WordPress core are trivial and almost the same as their Git counterparts. If you are using a [local environment like VVV](https://make.wordpress.org/core/handbook/contribute/#local-development-overview) your environment may already have SVN pre-installed. If you are using another environment or prefer to also use SVN directly on your computer, there is a [handbook tutorial guiding you through the process](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/).
 *   Alternatively, you can install Git from the [Git project website](https://git-scm.com/). On many environments, for example VVV, you will already find it pre-installed. If you prefer using a visual UI in addition, feel free to use a client app such as [Sourcetree](https://www.atlassian.com/software/sourcetree), or [GitHub Desktop](https://desktop.github.com/) (which works particularly well when used together with GitHub).
 -->
 
-*   WordPress コアは、デフォルトでバージョン管理に Subversion (または SVN) を使用します。これは Git と比較的似た動作をしますが、少し古いものです。ほとんどの人は Git で作業することを好みますが、WordPress コアの開発時に通常使う SVN コマンドは簡単なもので、Git とほとんど同じです。VVV にはすでに SVN がプリインストールされています。他の環境を使用している場合や、コンピューター上で直接 SVN を使用したい場合は、[手順をガイドするハンドブックチュートリアル](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/)を参照してください。
+*   WordPress コアはデフォルトでバージョン管理に Subversion (または SVN) を使用しています。これは Git と比較的似たしくみですが、少し古いものです。多くの人は Git での作業を好みますが、WordPress コアの開発時に一般的に使用する SVN コマンドは簡単で、Git のコマンドとほぼ同じです。[VVV のようなローカル環境](https://ja.wordpress.org/team/handbook/core/contribute/#local-development-overview) を使用している場合は、すでに SVN が環境にプリインストールされている可能性があります。別の環境を使用している場合、またはコンピューター上で直接 SVN を使用したい場合は、[手順を説明したハンドブックチュートリアル](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/) があります。
 *   あるいは、[Git プロジェクトのWeb サイト](https://git-scm.com/)から Git をインストールできます。VVV などの多くの環境では、すでにプリインストールされています。さらにビジュアルな UI を使いたい場合は、[Sourcetree](https://www.atlassian.com/software/sourcetree) や [GitHub Desktop](https://desktop.github.com/) (GitHub と一緒に使うと特に効果的です) のようなクライアントアプリを自由に使ってください。
 
 <!--
-### Setting up a WordPress development repository
+### Setting up the WordPress development repository
 -->
 
 ### WordPress 開発リポジトリのセットアップ
 
 <!--
-Set up the development version of WordPress in your development environment. Again, this is a significantly easier process if you are using VVV for your setup. How you proceed depends on whether you decided to use SVN or Git for version control in the second step:
+Set up the development version of WordPress in your development environment. How you proceed depends on whether you decided to use SVN or Git for version control in the second step:
 -->
 
-開発環境に WordPress の開発バージョンをセットアップします。繰り返しになりますが、VVV を使ってセットアップしている場合、これは非常に簡単な作業です。どのように進めるかは、2番目のステップでバージョン管理に SVN と Git のどちらを使うかによって異なります:
+開発環境に WordPress の開発バージョンをセットアップします。手順は、2番目のステップでバージョン管理に SVN と Git のどちらを使用するかによって異なります。
 
 <!--
+*   If you are [cloning from GitHub](https://github.com/WordPress/wordpress-develop) and using the built-in [Docker](https://www.docker.com/) environment, you can run `npm run env:start` and `npm run env:install` from your WordPress Develop repository checkout to start a local server on `localhost`.
 *   If you are using SVN and VVV, everything is already setup after the initial booting process. You can access your development version of WordPress under [http://src.wordpress-develop.test](http://src.wordpress-develop.test) with your VVV running. If you’re using SVN on another environment than VVV, please [follow the instructions on how to install WordPress from SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/).
 *   If you’re using Git and VVV, please [follow the optional instructions on how to change the included WordPress development repository to use Git instead of the default SVN](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/#5-create-github-repo-optional). If you’re using Git on another environment than VVV, create a GitHub fork of the [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) repository. Afterwards, you can proceed with the above instructions, just skip the first three points and instead of using develop.git.wordpress.org as upstream repository, use the GitHub version.
 -->
 
+*   [GitHub からクローン](https://github.com/WordPress/wordpress-develop)し、組込みの [Docker](https://www.docker.com/) 環境を使用している場合は、WordPress Develop リポジトリのチェックアウトから `npm run env:start` と `npm run env:install` を実行して、`localhost` でローカル サーバーを起動できます。
 *   SVN および VVV を使用している場合は、最初の起動プロセスの後にすべてがすでにセットアップされています。VVV を実行している状態で、[http://src.wordpress-develop.test](http://src.wordpress-develop.test) にある WordPress の開発バージョンにアクセスできます。VVV とは別の環境で SVN を使用している場合は、[SVN から WordPress をインストールする方法の手順に従ってください](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/)。
 *   Git と VVV を使用している場合は、[デフォルトの SVN の代わりに Git を使用するために同梱の WordPress 開発リポジトリを変更する方法に関するオプションの手順に従ってください](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/#6-create-a-github-repo-optional)。VVV 以外の環境で Git を使用している場合は、[WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop) リポジトリの GitHub フォークを作成します。その後は上記の手順で進めますが、最初の3つのポイントをスキップして、develop.git.wordpress.org をアップストリームリポジトリとして使用する代わりに、GitHub バージョンを使用します。
 

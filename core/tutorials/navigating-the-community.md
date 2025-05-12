@@ -305,7 +305,7 @@ There might be push-back to a solution or idea you propose—try not to take it 
 If you have an initial idea or question, sharing in WordPress.org slack channels can be a good place to start. Sometimes this isn’t necessary, and you can go straight to [GitHub](https://github.com/wordpress/gutenberg/) or [Trac](https://make.wordpress.org/core/reports/) though! 
 -->
 
-アイデアや質問がある場合は、WordPress.org の Slack チャンネルで共有することからはじめると良いでしょう。場合によってはその必要はなく、[GitHub](https://github.com/wordpress/gutenberg/) や [Trac](https://make.wordpress.org/core/reports/) に直接アクセスすることもできます !
+アイデアや質問がある場合は、WordPress.org の Slack チャンネルで共有することからはじめると良いでしょう。場合によってはその必要はなく、[GitHub](https://github.com/wordpress/gutenberg/) や [Trac](https://make.wordpress.org/core/reports/) に直接アクセスできます !
 
 <!--
 **Create a GitHub or Trac issue**

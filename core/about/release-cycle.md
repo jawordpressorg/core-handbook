@@ -17,12 +17,6 @@ A release cycle usually lasts around 4 months, from the initial scoping meeting 
 リリースサイクルは、最初のスコープミーティングからバージョンのローンチまで、通常4ヵ月程度です。
 
 <!--
-The [6.2 release cycl](https://make.wordpress.org/core/6-2/)e ended on March 29, 2023.
--->
-
-[6.2のリリースサイクル](https://make.wordpress.org/core/5-7/)は、2023年3月29日に終了しました。
-
-<!--
 A release cycle follows the following pattern:
 -->
 

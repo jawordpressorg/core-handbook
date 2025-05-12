@@ -41,7 +41,7 @@ Many developers prefer to work with Subversion (SVN) using the [command line int
 多くの開発者は、[コマンドラインインターフェイス](https://make.wordpress.org/core/glossary/#command-line-interface) (CLI) を使って Subversion (SVN) を操作することを好みますが、[GUI](http://en.wikipedia.org/wiki/GUI) アプリケーションを使うことを好む人もいます。どちらも問題なく、パッチの作成、適用、およびそれらを元に戻すことができます。
 
 <!--
-For command line users, there are programs such as [Cygwin](http://cygwin.com/) (Windows), [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) (Mac), and [Bash](http://www.gnu.org/software/bash/) (Mac).
+For command line users, there are programs such as [Cygwin](http://cygwin.com/) (Windows), [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) (Mac), and [Bash](http://www.gnu.org/software/bash/) (Mac).
 -->
 
 コマンドラインユーザーのために、[Cygwin](http://cygwin.com/) (Windows)、[Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) (Mac)、[Bash](http://www.gnu.org/software/bash/) (Mac) などのプログラムがあります。
@@ -349,8 +349,8 @@ This article will walk you through creating, applying, and reverting a patch usi
 *   A copy of WordPress trunk, [checked out via SVN](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/from-svn/)
 *   A command line client installed on your computer:
     *   Windows: [Cygwin](http://cygwin.com/)
-    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
-    -->
+    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) or [Bash](http://www.gnu.org/software/bash/)
+-->
 
 *   [Notepad++](http://notepad-plus-plus.org/) (Windows) や [TextMate](http://macromates.com/) (Mac) などのプレーンテキストエディターがコンピューターにインストールされていること
 *   [SVN 経由でチェックアウトした](https://ja.wordpress.org/team/handbook/core/tutorials/installing-wordpress-locally/from-svn/) WordPress trunk のコピー

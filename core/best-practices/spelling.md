@@ -8,13 +8,12 @@
 ## Terminology
 -->
 
-## 用語
-
 <!--
-The following conventions of spelling and terminology apply to the manuals, web pages, comments, and (except where they require spaces or hyphens to be used) function and variable names, although consistency in user-visible documentation and diagnostics is more important than that in comments and code. Also don’t forget that the [Code Reference](https://developer.wordpress.org/reference/) is auto-generated from the code. The following table lists some simple cases:
+The following conventions of spelling and terminology apply to the manuals, web pages, comments, and (except where they require spaces or hyphens to be used) function and variable names, although consistency in user-visible documentation and diagnostics is more important than that in comments and code. Also don’t forget that the [Code Reference](https://developer.wordpress.org/reference/) is auto-generated from the code (*if you’re writing prose instead of code, don’t forget the [Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/)*). The following table lists some simple cases:
 -->
 
-次のスペリングと用語の規則は、マニュアル、Web ページ、コメント、(スペースやハイフンの使用が必要な場合を除く) 関数名と変数名に適用されます。ただし、ユーザーに表示されるドキュメントの一貫性は、コメントやコードの一貫性よりも重要です。[コードリファレンス](https://developer.wordpress.org/reference/)がコードから自動生成されることも忘れないでください。次の表に、いくつかの単純なケースを示します。
+次のスペリングと用語の規則は、マニュアル、Web ページ、コメント、(スペースやハイフンの使用が必要な場合を除く) 関数名と変数名に適用されます。ただし、ユーザーに表示されるドキュメントの一貫性は、コメントやコードの一貫性よりも重要です。また、[コードリファレンス](https://developer.wordpress.org/reference/)はコードから自動生成されることも忘れないでください (**コードではなく文章を書いている場合は、[スタイルガイド](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/)もお忘れないでください**) 。次の表に、いくつかの単純なケースを示します。
+
 
 <!-- | Use… | …instead of | Notes |
 | --- | --- | --- |

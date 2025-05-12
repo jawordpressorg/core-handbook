@@ -24,18 +24,16 @@ This article will walk you through installing the latest WordPress development v
 
 <!--
 *   Create a new database in your local web server using phpMyAdmin. \[[MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/)\]
-    *   **Note:** If you are using DesktopServer as your local server, you’ll need to choose the **Blank (WordPress SVN)** option from the Blueprint dropdown when creating a new local development site. That will create your database and `wp-config.php` file. Once you’ve created the site, delete the `index.html` and `wp-config-sample.php` files in the development site’s folder (**wordpress-svn.dev**) before you check out a copy of WordPress trunk.
 *   Subversion installed on your computer:
     *   Installing SVN on Windows
     *   [Installing SVN on MAC](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/#installing-subversion-on-a%c2%a0mac)
     *   [Installing TortoiseSVN](https://make.wordpress.org/core/handbook/tutorials/installing-a-vcs/#installing-tortoisesvn) (Windows)
 *   A command line client installed on your computer:
     *   Windows: [Cygwin](http://cygwin.com/)
-    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_(OS_X)) or [Bash](http://www.gnu.org/software/bash/)
+    *   MAC: [Terminal](http://en.wikipedia.org/wiki/Terminal_\(OS_X\)) or [Bash](http://www.gnu.org/software/bash/)
 -->
 
 *   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/)\]
-    *   **備考**: ローカルサーバーとして DesktopServer を使用している場合、新しいローカル開発サイトを作成する際に、Blueprint ドロップダウンから **Blank (WordPress SVN)** オプションを選択する必要があります。これにより、データベースと `wp-config.php` ファイルが作成されます。サイトを作成したら、WordPress trunk のコピーをチェックアウトする前に、開発サイトのフォルダー (**wordpress-svn.dev**) にある `index.html` と `wp-config-sample.php` ファイルを削除してください。
 *   コンピューターに Subversion がインストールされていること:
     *   Windows に SVN をインストールする
     *   [MACに SVN をインストールする](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/#installing-subversion-on-a-mac)
@@ -60,7 +58,7 @@ The 3.7 release cycle brought a [restructuring of the SVN repository](https://ma
 You can still check out just the source code from [https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) to install and test with; however, if you plan on contributing to core, it is recommended that you check out the source code, unit tests, and tools from the new repository to test, fix bugs, and create patches and unit tests with.
 -->
 
-[https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) からソースコードだけをチェックアウトして、インストールしたりテストしたりすることはできます。しかし、もしコアに貢献するつもりなら、新しいリポジトリからソースコード、ユニットテスト、ツールをチェックアウトして、テスト、バグ修正、パッチやユニットテストの作成に利用することをおすすめします。
+[https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) からソースコードだけをチェックアウトして、インストールしたりテストしたりできます。しかし、もしコアに貢献するつもりなら、新しいリポジトリからソースコード、ユニットテスト、ツールをチェックアウトして、テスト、バグ修正、パッチやユニットテストの作成に利用することをおすすめします。
 
 
 <!--
@@ -238,12 +236,12 @@ In your web browser, navigate to [http://localhost/wordpress-svn/src/](http://lo
 Web ブラウザーで [http://localhost/wordpress-svn/src/](http://localhost/wordpress-svn/src/) に移動し、インストール作業を実行します。
 
 <!--
-**For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v16.x/](https://nodejs.org/download/release/latest-v16.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
+**For those using Windows 11**: If you have not previously installed npm and grunt you will get an error with suggested npm commands. Download and install Node.js from here: [https://nodejs.org/download/release/latest-v20.x/](https://nodejs.org/download/release/latest-v20.x/). Before attempting to run the suggested npm commands, open a command window and navigate to your wordpress-svn directory. Issue the following command: `npm install -g grunt-cli` – This installs the grunt client. Then add grunt to your wordpress instance using:  
 `npm install grunt --save-dev`  
 `npm run dev` should now complete the process of unpacking the WordPress install.
 -->
 
-**Windows 11をお使いの方へ**: npm と grunt をインストールしていない場合、npm コマンドのエラーが表示されます。ここから Node.js をダウンロードし、インストールしてください: [https://nodejs.org/download/release/latest-v16.x/](https://nodejs.org/download/release/latest-v16.x/)。npm コマンドを実行する前に、コマンドウィンドウを開き、wordpress-svn ディレクトリに移動し、以下のコマンドを実行します。`npm install -g grunt-cli` - これは、grunt クライアントをインストールします。そして、次のコマンドを実行して、wordpress インスタンスに grunt を追加します。
+**Windows 11をお使いの方へ**: npm と grunt をインストールしていない場合、npm コマンドのエラーが表示されます。ここから Node.js をダウンロードし、インストールしてください: [https://nodejs.org/download/release/latest-v20.x/](https://nodejs.org/download/release/latest-v20.x/)。npm コマンドを実行する前に、コマンドウィンドウを開き、wordpress-svn ディレクトリに移動し、以下のコマンドを実行します。`npm install -g grunt-cli` - これは、grunt クライアントをインストールします。そして、次のコマンドを実行して、wordpress インスタンスに grunt を追加します。
 `npm install grunt --save-dev`
 `npm run dev` で、WordPress インストールの解凍が完了するはずです。
 
@@ -257,7 +255,7 @@ Upon browser refresh you should get the response as described below. These direc
 **If you created your `wp-config.php` file manually**, you will be presented with the standard WordPress installation screen. You will do the famous “5 minute install” – enter your site title, desired username, choice of a password (twice), and your e-mail address, then **click Install WordPress** to complete the installation. **Click Log In** on the Success screen, enter your username and password, and configure the settings for your preferences.
 -->
 
-**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定を行います。**成功の画面でログイン**をクリックし、ユーザー名とパスワードを入力し、お好みの設定を行います。
+**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定します。**成功の画面でログイン**をクリックし、ユーザー名とパスワードを入力し、お好みの設定を行います。
 
 
 <!--

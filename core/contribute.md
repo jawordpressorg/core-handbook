@@ -173,10 +173,10 @@ Contributors follow the same process, but they generate a patch that shows their
 貢献者も同じプロセスに従いますが、中央のリポジトリを直接変更できないため、自分の変更点を示すパッチを作成します。このパッチは他の貢献者やコミッターの個々の作業コピーに適用され、レビュー、テストが行われ、そしてコミットされる可能性があります。
 
 <!--
-When writing a patch, it is important to always update to the latest version of trunk. Patches should never be written against a released version, such as a tag or branch, with very rare exceptions (e.g. during the preparation of [point releases](https://make.wordpress.org/core/glossary/#point-release)). Trunk is, however, a moving target, which can cause patches to become **stale** and require a **refresh** – they no longer apply properly, because code in the central repository no longer matches what the patch is attempting to change. Patches that alter a significant number of lines or files should generally be brought to the attention of committers sooner rather than later. \[Link: Getting Your Patch Committed\]
+When [writing a patch](https://make.wordpress.org/core/handbook/best-practices/writing-patches/), it is important to always update to the latest version of trunk. Patches should never be written against a released version, such as a tag or branch, with very rare exceptions (e.g. during the preparation of [point releases](https://make.wordpress.org/core/glossary/#point-release)). Trunk is, however, a moving target, which can cause patches to become **stale** and require a **refresh** – they no longer apply properly, because code in the central repository no longer matches what the patch is attempting to change. Patches that alter a significant number of lines or files should generally be brought to the attention of committers sooner rather than later.
 -->
 
-パッチを書くときは、常に trunk の最新バージョンに更新することが重要です。パッチは、非常にまれな例外を除いて、タグやブランチのようなリリースされたバージョンに対して書かれてはいけません (例: [ポイントリリース](https://make.wordpress.org/core/glossary/#point-release)の準備中)。しかし、trunk は目標が移動するため、パッチが**古く**なり、**更新**を必要とすることがあります。なぜなら、中央リポジトリにあるコードが、パッチが変更しようとしている内容と一致しなくなったからです。重要な行やファイルを変更するパッチは、一般的に、遅かれ早かれコミッターに注目されます。\[リンク: パッチをコミットさせる\]
+[パッチを書く](https://ja.wordpress.org/team/handbook/core/best-practices/writing-patches/)ときは、常に trunk の最新バージョンに更新することが重要です。パッチは、非常にまれな例外を除いて、タグやブランチのようなリリースされたバージョンに対して書かれてはいけません (例: [ポイントリリース](https://make.wordpress.org/core/glossary/#point-release)の準備中)。しかし、trunk は目標が移動するため、パッチが**古く**なり、**更新**を必要とすることがあります。なぜなら、中央リポジトリにあるコードが、パッチが変更しようとしている内容と一致しなくなったからです。重要な行やファイルを変更するパッチは、一般的に、遅かれ早かれコミッターに注目されます。
 
 <!--
 ## Local Development Overview
@@ -185,16 +185,28 @@ When writing a patch, it is important to always update to the latest version of 
 ## ローカル開発の概要
 
 <!--
-In order to contribute to core, we strongly recommend that you install a local instance of WordPress. With WordPress running on your machine, you’ll be able to make changes and test patches without interfering with a live site. There are a variety of ways you can configure a local dev environment. We have tutorials on the following methods: [VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/), [DesktopServer,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/) [MAMP,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/) [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/).
+In order to contribute to core, we strongly recommend that you install a local instance of WordPress. With WordPress running on your machine, you’ll be able to make changes and test patches without interfering with a live site.
 -->
 
-コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。WordPress があなたのマシンで動作していれば、稼働中のサイトに影響を与えることなく変更やパッチのテストを行うことができます。ローカルの開発環境を構築する方法はさまざまです。私たちは、[VVV](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/)、[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/) のチュートリアルを用意しています。
+コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。
 
 <!--
-If you’re not sure which to choose, we recommend the [VVV (sometimes referred to as Vagrant) method](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
+If you already have an environment that includes a webserver with PHP, MySQL/MariaDB and SSH access and you prefer working with that system, it is perfectly fine to decide on using another environment. Popular alternatives include [MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/), [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/installing-xampp/), and others. Be aware though that none of them is optimized for WordPress core development, so a little more groundwork will be necessary in that case.
 -->
 
-どれを選ぶか迷った場合は、[VVV (Vagrant と表記されることもあります)](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/) を推奨します。
+PHP、MySQL/MariaDB、SSH アクセスを備えた Web サーバーを含む環境がすでにあり、そのシステムで作業したい場合は、別の環境を使用することを決定してもまったく問題ありません。人気のある代替環境としては、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/)などがあります。ただし、いずれも WordPress コア開発用に最適化されていないため、その場合はもう少し準備が必要になることに注意してください。
+
+<!--
+The recommended local environment is the [Docker](https://www.docker.com/) environment built into the WordPress Development repository, which can be started using `npm run env:start` regardless of whether you are using Git or SVN for source control. You can also use the [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/) package to configure a local dev environment more specific to your needs. (`wp-env` may replace the current `env:start` Docker configuration in the future.)
+-->
+
+推奨されるローカル環境は、WordPress 開発リポジトリに組み込まれている [Docker](https://www.docker.com/) 環境です。これは、ソース管理に Git または SVN を使用しているかどうかに関係なく、`npm run env:start` で起動できます。また、[WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/) パッケージを使用して、ニーズに合わせてより具体的なローカル開発環境を構成できます。(`wp-env` は将来、現在の `env:start` Docker 構成に置き換わる可能性があります。)
+
+<!--
+The previous recommended environment was a piece of software called [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org), which is a Vagrant configuration tailored specifically for WordPress development. Please follow the handbook instructions on [how to install VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
+-->
+
+以前の推奨環境は、[Varying Vagrant Vagrants (または VVV)](https://varyingvagrantvagrants.org) と呼ばれるソフトウェアで、WordPress 開発向けに特別にカスタマイズされた Vagrant 構成でした。[VVV のインストール方法]https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/) については、ハンドブックの指示に従ってください。
 
 <!--
 ## Introduction to Trac

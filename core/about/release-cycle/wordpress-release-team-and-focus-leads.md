@@ -114,10 +114,10 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Always be testing!
 -->
 
-*   可能な限り公の場でコミュニケーションをとる (チケット、コンポーネントチャット、Make/Core 投稿など)。
+*   可能な限り公の場でコミュニケーションをとる (チケット、コンポーネントチャット、Make/Core 投稿、GitHub での issue や PR のスレッドなどで)。
 *   進捗を妨げるものを特定し、仲間、チームリード、リリースリードに助けを求める。
 *   期限を守る。
-*   ドキュメント、HelpHub の記事、複数のコミュニティとの調整が必要な開発者ノート、マーケティングなど、他のコミュニティとの連携が必要な変更を特定する。
+*   ドキュメント、HelpHub の記事、または  (開発ノート、マーケティング、P2 投稿などを通じた) コミュニティ全体へのコミュニケーション を必要とする変更を特定し、そのような変更についてドキュメントチームとコミュニケーションをとる。
 *   自分のチームのチケットやタスクに焦点を当てたバグスクラブを実施する。
 *   チーム間のディスカッションを促進し参加する。
 *   常にテストすること !
@@ -135,22 +135,20 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Set the overall goals for the release
-*   Make final decisions on merging feature plugins
-*   Give final review to and publishing News blog post announcing the release
-*   Coordinate with Matt to select release jazz musician
+*   Set the overall goals and main focus for the release
+*   Make final decisions on merging [feature plugins](https://make.wordpress.org/core/handbook/about/release-cycle/features-as-plugins/)
+*   Give final review to and publish news blog post announcing the release. Older ones can be [found on this page](https://wordpress.org/news/category/releases/)
 -->
 
-*   リリースの全体的な目標を設定する
-*   機能プラグインのマージに関する最終決定を下す
-*   リリースを発表するニュースブログ記事の最終確認を行い公開する
-*   リリースのジャズミュージシャンを選ぶためにマットと調整する
+* リリースの全体的な目標と主な焦点を設定する
+* [機能プラグイン](https://ja.wordpress.org/team/handbook/core/about/release-cycle/features-as-plugins/)のマージに関する最終決定を行う
+* リリースを発表するニュースブログ記事を最終レビューし、公開する。過去の記事は[このページ](https://wordpress.org/news/category/releases/)でご覧いただけます
 
 <!--
-### Release Coordinator
+### Release Coordination
 -->
 
-### リリースコーディネーター
+### リリース調整
 
 <!--
 **Responsibilities**
@@ -159,26 +157,22 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Publish the weekly dev chat agendas
-*   Run the weekly dev chat in [#core](https://make.wordpress.org/core/tag/core/)
-*   Run various release processes in Slack (beta, release candidate, release)
-*   Write blog posts for various milestones
-*   Keep an eye on the deadlines in the handbook and contact the different teams involved (ping plugin, theme, ping polyglots, etc.)
-*   Remind people of said deadlines
-*   Take notes on the procedures outlined in the handbook to propose changes if needed
-*   Facilitate inter-team discussions if needed
-*   Maintain a birds-eye view of the moving parts for any red flags, blockers, or additional help needed for teams
+*   Run various release processes in Slack (beta, release candidate, release).
+*   Write [blog posts for various milestones](https://make.wordpress.org/core/tag/releases/).
+*   Keep an eye on the deadlines in the handbook and contact the different teams involved (ping plugin, theme, ping polyglots, etc.). Remind people of said deadlines when needed.
+*   Take notes on the procedures outlined in the handbook to propose changes if needed.
+*   Facilitate inter-team discussions if needed.
+*   Maintain a birds-eye view of the moving parts for any red flags, blockers, or additional help needed for teams.
+*   Coordinate with the WordPress Executive Director to ensure a jazz musician is selected to name the release. This involves reaching out to the WordPress Executive Director to start the process in the week before the final Release Candidate. The WordPress Executive Director will then work with Matt Mullenweg to finalize. This is only done for major releases and should be done in the week before the last planned Release Candidate. Past jazzers are documented on the [WordPress versions](https://wordpress.org/documentation/article/wordpress-versions/) page.
 -->
 
-*   毎週の開発チャットの要約を公開する
-*   毎週の開発チャットを [#core](https://make.wordpress.org/core/tag/core/) で実行する
-*   Slack でさまざまなリリースプロセス (ベータ、リリース候補、リリース) を実行する
-*   さまざまなマイルストーンのためのブログ記事を書く
-*   ハンドブックの期限に注意し、関係するさまざまなチームに連絡を取る (プラグイン、テーマ、Polyglots などに通知を送る)
-*   期限を知らせる
-*   ハンドブックに記載されている手順をメモし、必要であれば変更を提案する
-*   必要であれば、チーム間の議論を促進する
-*   危険信号、ブロッカー、またはチームに必要な追加支援のために、俯瞰的に見渡す
+*   Slack でさまざまなリリースプロセス (ベータ版、リリース候補版、リリース) を実行する。
+*   さまざまなマイルストーンに関するブログ記事](https://make.wordpress.org/core/tag/releases/)を作成する。
+*   ハンドブックに記載されている期限を常に把握し、関係するさまざまなチーム (プラグイン、テーマ、多言語対応チームなど) に連絡を取る。必要に応じて、期限を知らせる。
+*   ハンドブックに記載されている手順をメモし、必要に応じて変更を提案する。
+*   必要に応じて、チーム間の議論を促進する。
+*   進行中のプロジェクトを俯瞰的に把握し、危険信号、阻害要因、チームに必要な追加サポートなどを把握する。
+*   WordPress エグゼクティブディレクターと調整し、リリースの名称にジャズミュージシャンが選ばれるようにする。これには、最終リリース候補版の1週間前に WordPress エグゼクティブディレクターに連絡を取り、プロセスを開始することが含まれます。その後、WordPress エグゼクティブディレクターは Matt Mullenweg と協力して最終決定を行います。これはメジャーリリースのみで行われ、最終リリース候補版の1週間前に行う必要があります。過去のジャズバージョンについては、[WordPress バージョン](https://wordpress.org/documentation/article/wordpress-versions/) ページをご覧ください。
 
 <!--
 ### Core Triage Lead
@@ -193,18 +187,16 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Run Bug Scrubs
-*   Run dev chats when Release Coordinator is unavailable
-*   Run various release processes in Slack with the Release Coordinator (beta, release candidate, release)
-*   Attempt to triage tickets in the release’s milestone
+*   [Run Bug Scrubs](https://make.wordpress.org/core/handbook/tutorials/leading-bug-scrubs/)
+*   Run various release processes in Slack with the Release Coordinator (beta, release candidate, release). These are detailed in the process [detailed in this document](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-major-versions).
+*   Attempt to triage core tickets(in trac) in the release’s milestone
 *   Prioritize tickets to ensure that the most time-sensitive and urgent issues are given the necessary exposure within the group to garner a fast resolution
 *   Communicate with component maintainers to gauge where more resources/attention is needed
 -->
 
-*   バグスクラブを実行する
-*   リリースコーディネーターが不在のときに開発チャットを実行する
-*   リリースコーディネータと一緒に Slack でさまざまなリリースプロセスを実行する (ベータ版、リリース候補版、リリース版)
-*   リリースのマイルストーンでチケットのトリアージを試みる
+* [バグスクラブを実行する](https://ja.wordpress.org/team/handbook/core/tutorials/leading-bug-scrubs/)
+* リリースコーディネーターと Slack さまざまなリリースプロセス (ベータ版、リリース候補版、リリース版) を実行する。これらのプロセスの詳細は、[このドキュメントで詳しく説明されています](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/)。
+*   リリースのマイルストーンで (trac 内の) コアチケットのトリアージを試みる
 *   チケットの優先順位付けを行い、すぐに取り掛かる必要がある緊急性の高い問題に対してグループ内で注意喚起を行い、迅速な解決を図る
 *   コンポーネントメンテナーとのコミュニケーションを図り、より多くのリソースや注意が必要な箇所を把握する
 
@@ -221,24 +213,24 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Review patches and changesets for feasibility, code quality, technical design, and coding standards compliance. Ensure they follow the overall software architecture
-*   Provide a “second opinion” and technical guidance where requested or needed
-*   Ensure the release cycle stages are followed by all contributors. For example, no enhancements during the beta, unless an exception was proposed and approved by project leadership
+*   Review core patches and changesets for feasibility, code quality, technical design, and [coding standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/) compliance. Ensure they follow the overall software architecture.
+*   Provide a “second opinion” and technical guidance where requested or needed.
+*   Ensure the release cycle stages are followed by all contributors. For example — no enhancements during the beta, unless an exception was proposed and approved by project leadership
 *   Ensure the beta, RC and final release processes run as smoothly as possible on the technical side, and all release steps are completed
-*   This role is also responsible for escalating cases and helping to make decisions when new features, enhancements, and (large) bug-fixes are not ready in time. For example, if a new feature is not 100% complete before beta, and/or the code is still “alpha” quality and needs more work, facilitate reviews and gather more information in order to make a decision whether to proceed with the feature or add it in the next release. These cases are usually escalated to project leadership
+*   This role is also responsible for escalating cases and helping to make decisions when new features, enhancements, and (large) bug-fixes are not ready in time. For example — if a new feature is not 100% complete before beta, and/or the code is still “alpha” quality and needs more work. In such cases, the core tech lead would facilitate reviews and gather more information to decide whether to proceed with the feature or add it in the next release. These cases are usually escalated to project leadership.
 -->
 
-*   パッチやチェンジセットの実現可能性、コードの品質、技術設計、コーディング規約への準拠をレビューする。全体的なソフトウェアアーキテクチャーに従っていることを確認する
-*   要求または必要に応じて「セカンドオピニオン」と技術的なガイダンスを提供する
+*   パッチやチェンジセットの実現可能性、コードの品質、技術設計、[コーディング規約](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/)への準拠をレビューする。全体的なソフトウェアアーキテクチャーに従っていることを確認する。
+*   要求または必要に応じて「セカンドオピニオン」と技術的なガイダンスを提供する。
 *   すべての貢献者がリリースサイクルのフェーズに従っていることを確認する。たとえば、例外が提案され、プロジェクトリーダーによって承認されない限り、ベータ版の間は機能強化を行いません
 *   ベータ、RC、最終リリースの各プロセスが、技術面で可能な限りスムーズに実行され、すべてのリリース手順が完了していることを確認する
-*   この役割は、新機能や機能強化、(大規模な) バグ修正が間に合わない場合、ケースをエスカレーションし、意思決定を支援する責任もあります。たとえば、新機能がベータ版までに100%完成していない場合や、コードがまだ「アルファ」品質でさらに作業が必要な場合、その機能を進めるか、次のリリースで追加するかを決定するために、レビューを促進し、より多くの情報を収集します。このようなケースは、通常プロジェクトリーダーにエスカレーションされます
+*   この役割は、新機能や機能強化、(大規模な) バグ修正が間に合わない場合、ケースをエスカレーションし、意思決定を支援する責任もあります。たとえば、新機能がベータ版までに100%完成していない場合や、コードがまだ「アルファ」品質でさらに作業が必要な場合などです。コアテックリードはレビューを促し、より多くの情報を収集して、その機能を継続するか、次のリリースで追加するかを決定します。これらのケースは通常、プロジェクトリーダーにエスカレーションされます。
 
 <!--
-### Core Design Lead
+### Design Lead
 -->
 
-### コアデザインリード
+### デザインリード
 
 <!--
 **Responsibilities**
@@ -247,10 +239,30 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Provide design input, guidance, and mockups for key Trac tickets
+*   This role is split into two main areas – Product, and release.
+    *   The “product” area comprises the work going into the actual UI/UX of WordPress.
+    *   The “release” area includes coordinating release-specific materials (like the About page).
+*   Provide guidance and decision-making on core and block editor tickets that need any design input.
+*   Coordinate design and copy for various release assets.
+    *   Guiding the creation of the highlight grid and microsite for each WordPress release. This includes the unique about page that ships with each major release, and shows up in wp-admin. Examples of previous highlight grids for reference:
+        *   [6.5 microsite](https://wordpress.org/download/releases/6-5/)
+        *   [6.4 microsite](https://wordpress.org/download/releases/6-4/)
+        *   [6.3 microsite](https://wordpress.org/download/releases/6-3/)
+    *   Work on, and provide design support for creating social media assets for each release.
+    *   Decide and design the artwork for the jazz musician associated with each major release
 -->
 
-*   主要な Trac チケットのデザインアイデア、ガイダンス、モックアップを提供する
+*   この役割は、製品とリリースという2つの主要な領域に分かれています。
+    *   「製品」領域は、WordPress の実際の UI/UX に関わる作業です。
+    *   「リリース」領域には、リリース固有の資料 (アバウトページなど) の調整が含まれます。
+*   デザインに関するインプットが必要なコアエディターおよびブロックエディターのチケットについて、ガイダンスと意思決定を提供します。
+*   さまざまなリリースアセットのデザインとコピーを調整します。
+    *   各 WordPress リリースのハイライトグリッドとマイクロサイトの作成をガイドします。これには、各メジャーリリースに同梱され、wp-admin に表示される独自の アバウトページも含まれます。参考までに、過去のハイライトグリッドの例を以下に示します。
+        *   [6.5 マイクロサイト](https://wordpress.org/download/releases/6-5/)
+        *   [6.4 マイクロサイト](https://wordpress.org/download/releases/6-4/)
+        *   [6.3 マイクロサイト](https://wordpress.org/download/releases/6-3/)
+    *   各リリースのソーシャルメディアアセット作成に携わり、デザインサポートを提供します。
+    *   各メジャーリリースに関連するジャズミュージシャンのアートワークを決定し、デザインします。
 
 <!--
 ### Documentation Wrangling
@@ -265,22 +277,24 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Keep track of changes within the release that require dev notes
-*   Coordinate with the participants of those tickets with the best understanding of the changes (the committer, component maintainers, contributors owned a ticket, and lead the charge) to draft dev notes
-*   Ensure all dev notes are written with enough time to proofread, reviewed, and published prior to the field guide (which publishes at the same time as release candidate 1)
-*   If a ticket participant is not available to write a dev note, finding someone to write one, or writing one yourself
-*   Ensure any documentation pages required for new features are created before the release
-*   Write and publish the release changelog on HelpHub
-*   Update WordPress versions page on the Codex
+*   [Write and publish the Field Guide](https://make.wordpress.org/core/handbook/tutorials/publishing-the-field-guide/) on RC1 release date ([Example from the WP 6.6 release](https://make.wordpress.org/core/2024/06/25/wordpress-6-6-field-guide/)) 
+*   Manage [writing and publishing of dev notes](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)
+    *   Keep track of changes within the release that require dev notes. This includes Gutenberg PRs for all releases of the plugin between two core releases
+    *   Coordinate with the participants of those tickets/PRs with the best understanding of the changes (the committer, component maintainers, contributors who own a ticket/PR) to draft dev notes
+    *   Ensure all dev notes are written with enough time to proofread, reviewed, and published before the Field Guide (which publishes at the same time as Release Candidate 1)
+    *   Proofread and review dev notes before publication.
+    *   If a ticket participant is not available to write a dev note, finding someone to write one, or writing one yourself
+*   Ensure any documentation pages required for new features are created before the release. Check out the [Documentation process during a major version release](https://make.wordpress.org/docs/handbook/workflows/documentation-process-during-a-major-version-release/) to prepare for release day.
 -->
 
-*   開発者ノートを必要とするリリース内の変更点を追跡する
-*   変更点を最もよく理解しているチケットの参加者 (コミッター、コンポーネントメンテナー、チケットを所有する貢献者、担当者) と調整し、開発者ノートの下書きを作成する
-*   すべての開発者ノートが、(リリース候補1と同時に発行される) フィールドガイドの前に、校正、レビュー、公開するために十分な時間をかけて作成されていることを確認する
-*   チケット参加者が開発者ノートを書けない場合、書いてくれる人を見つけるか、自分で書く
-*   新機能に必要なドキュメントページがリリース前に作成されていることを確認する
-*   リリースの変更履歴を書き、HelpHub に公開する
-*   Codex の WordPress バージョンページを更新する
+*   RC1リリース日に[フィールドガイドの作成と公開](https://ja.wordpress.org/team/handbook/core/tutorials/publishing-the-field-guide/)を行う ([WP 6.6リリースの例](https://make.wordpress.org/core/2024/06/25/wordpress-6-6-field-guide/))
+*   [開発ノートの作成と公開](https://ja.wordpress.org/team/handbook/core/tutorials/writing-developer-notes/)を管理する
+    *   開発ノートが必要となるリリース内の変更を追跡する。これには、2つのコアリリース間のプラグインのすべてのリリースに対する Gutenberg PR が含まれます。
+    *   変更内容を最もよく理解しているチケットや PR の参加者 (コミッター、コンポーネントメンテナー、チケット/PR の所有者である貢献者) と調整し、開発ノートの草稿を作成します。
+    *   (リリース候補1と同時に公開される) フィールドガイドの前に、すべての開発ノートが十分な時間をかけて校正、レビュー、公開されるように作成します。
+    *   公開前に開発ノートの校正とレビューを行います。
+    *   チケットに関わった人が開発ノートを作成できない場合は、作成してくれる人を探すか、自分で作成します。
+*   新機能に必要なドキュメントページは、リリース前に作成します。[メジャーバージョンリリース中のドキュメント作成プロセス](https://make.wordpress.org/docs/handbook/workflows/documentation-process-during-a-major-version-release/)を確認し、リリース当日の準備を進めてください。
 
 <!--
 ### Documentation Review
@@ -319,14 +333,24 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Work with leads to draft the About page seen in the WordPress Admin after upgrading
-*   Work with leads to draft the WordPress.org News blog announcement post
-*   [View a comprehensive guide for this role’s tasks here.](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)
+*   Collaborate with release leads and contributors to draft Marketing and Communications (MarComms) deliverables, including:
+    *   Beta & Release Candidate announcement posts
+    *   General release announcement post
+    *   About page and microsite content
+*   Ensure the content for these deliverables is written and ready for proofreading and review with enough time, follows the [WordPress.org Brand Writing Style Guide](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/), and accurately reflects the release features and benefits.
+*   Collaborate with release design contributors on creative and visual assets such as the highlight grid, featurettes, and/or other social media visuals for release marketing and communication purposes.
+*   Help develop or collaborate with marketing contributors on a social media posting plan to promote the release milestones and key features.
+*   For a comprehensive guide to this role’s tasks, visit the [Marketing Communications Release Cycle Guide](https://make.wordpress.org/marketing/handbook/resources/marketing-communications-release-cycle-guide/).
 -->
 
-*   リードと協力して、アップグレード後の WordPress 管理画面に表示されるアバウトページの下書きを作成する
-*   リードと協力して、WordPress.org ニュースブログのアナウンス記事の下書きを作成する
-*   [この役割のタスクに関する包括的なガイドはこちらです](https://make.wordpress.org/marketing/handbook/resources/marketing-communicationsrelease-cycle-guide/)
+*   リリースリーダーおよび貢献者と協力し、マーケティングおよびコミュニケーション (MarComms) 成果物 (以下を含む) のドラフトを作成します。
+    *   ベータ版およびリリース候補版のアナウンス投稿
+    *   リリース全般のアナウンス投稿
+    *   アバウトページおよびマイクロサイトのコンテンツ
+*   これらの成果物のコンテンツが、十分な時間を確保して校正およびレビューの準備が整っていること、[WordPress.org ブランドライティングスタイルガイド](https://make.wordpress.org/marketing/handbook/resources/style-guide-and-brand-book/)に準拠し、リリースの機能とメリットを正確に反映していることを確認します。
+*   リリースマーケティングおよびコミュニケーションを目的として、ハイライトグリッド、特集記事、その他のソーシャルメディアビジュアルなどのクリエイティブおよびビジュアルアセットについて、リリースデザイン貢献者と協力します。
+*   リリースのマイルストーンと主要機能を宣伝するためのソーシャルメディア投稿計画の策定を支援し、マーケティング貢献者と協力します。
+*   この役割のタスクに関する包括的なガイドについては、[マーケティング・コミュニケーション・リリースサイクルガイド](https://make.wordpress.org/marketing/handbook/resources/marketing-communications-release-cycle-guide/)をご覧ください。
 
 <!--
 ### Editor Tech Lead 
@@ -344,29 +368,29 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Loosely help define what Gutenberg features can/should get included in the release
 *   Triage and review patches and PRs, test RCs, and coordinates meetings for the block editor
 *   Ensure all Gutenberg features and bug fixes land on time before each Core beta/RC
-*   Gather a list of important Gutenberg bugs and regressions that need to be fixed on each release. Ensure the contributors know about these and their importance (Project board)
-*   Help with Gutenberg ⇔ Core sync/updates through Trac tickets
+*   Gather a list of important Gutenberg bugs and regressions that need to be fixed on each release. Ensure the contributors know about these and their importance ([Project board example](https://github.com/orgs/WordPress/projects/179))
+*   Help with Gutenberg ⇔ Core sync/updates through Trac tickets ([More details here](https://make.wordpress.org/core/handbook/about/release-cycle/block-editor-release-process-for-major-releases/))
 *   Make sure the Gutenberg props get collected properly
-*   Make sure the Gutenberg release notes get published on time
 *   Communication with the rest of the release squad about:
-    *   document the updates from Gutenberg included in the release and on each Core beta/RC
-    *   highlight the important features and updates for the marketing team and for the About page.
-    *   co-ordination with other leads
-*   Make sure Gutenberg updates get shipped in Core releases on time, with as few bugs as possible, and get communicated properly
+    *   Documenting the updates from Gutenberg included in the release and on each Core beta/RC
+    *   Highlighting the important features and updates for the marketing team and for the About page.
+    *   Co-ordination with other leads
+*   Make sure Gutenberg updates get shipped in Core releases on time, with as few bugs as possible, and get communicated properly. 
+*   Communication with all contributors to get features and enhancements ready in time, help them out if needed.
 -->
 
 *   どの Gutenberg の機能がリリースに含まれるのか、含まれるべきなのかを大まかに定義する
 *   パッチやプルリクエストのトリアージとレビューを行い、RC のテスト、ブロックエディターのミーティングを調整する
 *   すべての Gutenberg に関する機能とバグ修正が、各コアベータ版、RC の前に予定通りに行われるようにする
-*   各リリースで修正が必要な Gutenberg の重要なバグやリグレッションのリストを集める。貢献者がこれらのバグと重要性を理解できるようにする (プロジェクトボード)
-*   Trac チケットを通して、Gutenberg とコアの同期・更新を手伝う
+*   各リリースで修正が必要な Gutenberg の重要なバグやリグレッションのリストを集める。貢献者がこれらのバグと重要性を理解できるようにする ([プロジェクトボードの例](https://github.com/orgs/WordPress/projects/179))
+*   Trac チケットを通して、Gutenberg とコアの同期・更新を手伝う ([詳細はこちら](https://ja.wordpress.org/team/handbook/core/about/release-cycle/block-editor-release-process-for-major-releases/))
 *   Gutenberg の props が適切に収集されていることを確認する
-*   Gutenberg のリリースノートが期限内に公開されるようにする
 *   リリースチームの残りのメンバーと次の点についてコミュニケーションをとる:
-    *   リリースおよび各コアベータ、RC に含まれる Gutenberg からの更新をドキュメント化する
-    *   マーケティングチームとアバウトページのために、重要な機能とアップデートを強調する
-    *   他のリードと調整を行う
-*   Gutenberg のアップデートが、できるだけバグが修正されたうえでコアリリースに予定どおりに含まれ、適切に伝達されるようにする
+    *   リリースおよび各 コアベータ版/RC に含まれる Gutenberg の更新内容を文書化する
+    *   マーケティングチームと アバウトページ向けに重要な機能と更新内容をハイライトする
+    *   他のリーダーと連携する
+*   Gutenberg の更新が可能な限りバグが少なく、適切に伝達され、予定どおりにコアリリースに出荷されることを確認する
+*   機能と拡張機能を期限内に準備するために、すべての貢献者とコミュニケーションを取り、必要に応じてサポートする
 
 <!--
 ### Editor Triage Lead
@@ -381,12 +405,14 @@ These are tasks and responsibilities that may be documented for specific roles b
 **責任**
 
 <!--
-*   Run Bug Scrubs focused on Editor items.
+*   This role is similar to the Core triage lead role, but focuses mainly on the development of the block editor, and integrating it in core releases.
+*   Run Bug Scrubs focused on Editor items. This is done in the [#core-editor](https://make.wordpress.org/core/tag/core-editor/) channel on Slack.
 *   Review incoming tickets to the [Gutenberg GitHub repo](https://github.com/WordPress/gutenberg/issues) to ensure items are labeled appropriately for further review, including adding anything necessary to the appropriate release specific project board.
 *   Communicate with the Core Editor Tech leads to help gauge where more resources/attention is needed.
 *   Help prioritize any key issues throughout the release cycle to ensure time sensitive and urgent problems are resolved promptly.
 -->
 
+*   この役割はコアトリアージリードの役割に似ていますが、主にブロックエディターの開発と、それをコアリリースに統合することに重点を置いています。
 *   エディターに関する項目にフォーカスしたバグスクラブを実行する。
 *   [Gutenberg GitHub リポジトリ](https://github.com/WordPress/gutenberg/issues)に送られてくるチケットをレビューし、適切なリリース固有のプロジェクトボードに必要なものを追加するなど、さらなるレビューのために項目が適切にラベル付けされていることを確認する。
 *   コアエディターのテックリードとコミュニケーションをとり、より多くのリソースや注意が必要な箇所を把握する。
@@ -397,24 +423,6 @@ This work is done in collaboration and coordination with the Core Tech leads so 
 -->
 
 この作業はコアテックリードとの協力と調整によって行われるため、より詳細で実践的な内容については[ブロックエディター メジャーリリース時のリリースプロセス](https://ja.wordpress.org/team/handbook/core/about/release-cycle/block-editor-release-process-for-major-releases/)を参照してください。
-
-<!--
-### Editor Design Lead
--->
-
-### エディターデザインリード
-
-<!--
-**Responsibilities**
--->
-
-**責任**
-
-<!--
-*   Provide design input, guidance, and mockups for key block editor tickets
--->
-
-*   主要なブロックエディターチケットに関するデザインアイデア、ガイダンス、モックアップを提供する
 
 <!--
 ### Accessibility Lead
@@ -433,7 +441,7 @@ This work is done in collaboration and coordination with the Core Tech leads so 
 *   Triage all other tickets that are not in the main priority for the release and make choices based on priority/severity
 *   Organize/run accessibility bug scrubs (1 accessibility focused scrub per week)
 *   Contribute to tickets from various components to give accessibility feedback on both Trac and Gutenberg GitHub repository
-*   Write accessibility-related documentation and publish it on Make/Core (dev notes) or HelpHub as necessary
+*   Write accessibility-related documentation and publish it on Make/Core ([dev notes](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)) or [HelpHub](https://wordpress.org/documentation/) as necessary
 *   Coordinate with the design and media teams to keep the release scope on its way.
 *   Open tickets/issues on Trac/GitHub to handle potential accessibility regressions on all the components during the entirety of the release process
 *   Communicate about the release scope and progress updates on Make/Accessibility and during core dev chats
@@ -446,7 +454,7 @@ This work is done in collaboration and coordination with the Core Tech leads so 
 *   リリースの主な優先順位にない他のすべてのチケットをトリアージし、優先度や重要度にもとづいて選択する
 *   アクセシビリティのバグスクラブを計画し実行する (アクセシビリティに焦点を当てたスクラブを週に1回行う)
 *   さまざまなコンポーネントのチケットに貢献し、Trac と Gutenberg GitHub リポジトリの両方でアクセシビリティフィードバックを行う
-*   アクセシビリティ関連のドキュメントを作成し、必要に応じて Make/Core (開発者ノート) や HelpHub で公開する
+*   アクセシビリティ関連のドキュメントを作成し、必要に応じて Make/Core ([開発者ノート](https://ja.wordpress.org/team/handbook/core/tutorials/writing-developer-notes/))または [HelpHub](https://wordpress.org/documentation/) で公開する
 *   リリースの範囲を計画通りに進めるために、デザインチームやメディアチームと調整する
 *   リリースプロセス全体を通じて、すべてのコンポーネントのアクセシビリティに関する潜在的なリグレッションに対処するために、Trac/GitHub 上でチケット/issue を開く
 *   Make/Accessibility やコア開発者チャットで、リリースの範囲や進捗状況を伝える
@@ -482,6 +490,8 @@ This work is done in collaboration and coordination with the Core Tech leads so 
 *   Work with the Documentation Lead to ensure timely publishing of performance related dev note posts prior to or early in the beta phase
 *   Support team members contributing to tickets in the performance focus, e.g. through triaging, coordinating team members to help with feedback, code review, and benchmarking, as well as guidance on communication and documentation related tasks such as enhancing WordPress core documentation or writing dev notes
 *   Coordinate the contributions to tickets, pull requests/patches, tests, performance benchmarks, code reviews, etc.
+*   Run benchmarks to assess the performance of the release compared to the previous stable release, once the Beta or RC is available
+*   Draft and publish a Make Core post highlighting the release’s performance improvements and sharing key metrics from the benchmarks
 -->
 
 *   リリースの優先順位を設定し、[パフォーマンスフォーカス](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&focuses=~performance)の一般的な範囲を定義する。水平的な影響 (「どれだけのサイトに適用されるか ?」) と垂直的な影響 (「適用されるサイトのパフォーマンスをどれだけ向上させるか ?」) の両方を判断する
@@ -499,6 +509,8 @@ This work is done in collaboration and coordination with the Core Tech leads so 
 *   ドキュメンテーションリードと協力して、ベータフェーズの前または初期に、パフォーマンス関連の開発者ノートの投稿をタイムリーに公開する
 *   パフォーマンス関連のチケットに貢献しているチームメンバーをサポートする。たとえば、トリアージ、フィードバック、コードレビュー、ベンチマーキングを支援するチームメンバーの調整や、コミュニケーションやドキュメント関連タスク (WordPress のコアドキュメントの強化や開発者ノートの執筆) のガイダンスなど
 *   チケット、プルリクエスト/パッチ、テスト、パフォーマンスベンチマーク、コードレビューなどへの貢献を調整する
+*   ベータ版または RC 版が利用可能になったら、ベンチマークを実行し、リリースのパフォーマンスを以前の安定版リリースと比較して評価する
+*   リリースのパフォーマンス改善点を強調し、ベンチマークから得られた主要な指標を共有する Make Core 投稿の下書きを作成して公開する
 
 <!--
 ### Default Theme
@@ -676,5 +688,3 @@ The section above outlines the roles for the Release Team rather than the work o
 
 *   [リリースサイクルの仕組み](https://ja.wordpress.org/team/handbook/core/about/release-cycle/)
 *   [メジャーバージョンのリリース](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/)
-
-
