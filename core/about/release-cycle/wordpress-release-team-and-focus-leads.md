@@ -332,6 +332,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 
 **責任**
 
+<!--
 *   Collaborate with release leads and contributors to draft Marketing and Communications (MarComms) deliverables, including:
     *   Beta & Release Candidate announcement posts
     *   General release announcement post
@@ -340,6 +341,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Collaborate with release design contributors on creative and visual assets such as the highlight grid, featurettes, and/or other social media visuals for release marketing and communication purposes.
 *   Help develop or collaborate with marketing contributors on a social media posting plan to promote the release milestones and key features.
 *   For a comprehensive guide to this role’s tasks, visit the [Marketing Communications Release Cycle Guide](https://make.wordpress.org/marketing/handbook/resources/marketing-communications-release-cycle-guide/).
+-->
 
 *   リリースリーダーおよび貢献者と協力し、マーケティングおよびコミュニケーション (MarComms) 成果物 (以下を含む) のドラフトを作成します。
     *   ベータ版およびリリース候補版のアナウンス投稿
