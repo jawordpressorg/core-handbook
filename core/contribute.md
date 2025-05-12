@@ -2,11 +2,7 @@
 # Contribute with Code
 -->
 
-<<<<<<< HEAD
-This page is being actively worked on, expanded, and improved.
-=======
 # コードによる貢献
->>>>>>> main
 
 <!--
 This page is being actively worked on, expanded, and improved.
@@ -18,11 +14,7 @@ This page is being actively worked on, expanded, and improved.
 Thank you for your interest in contributing to WordPress! This Quick Start Guide to contributing code to WordPress Core is a central hub where you can find all resources needed to take you through the process of submitting your first patch.
 -->
 
-<<<<<<< HEAD
-Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
-=======
 WordPress への貢献に興味を持っていただきありがとうございます。WordPress コアへのコード貢献のためのこのクイックスタートガイドは、最初のパッチを提出するために必要なすべてのリソースを見つけることができる、中心的なハブとなっています。
->>>>>>> main
 
 <!--
 Interested in contributing to another part of WordPress? Visit [make.wordpress.org](https://make.wordpress.org) to see the many ways you can contribute to WordPress.
@@ -34,11 +26,7 @@ Interested in contributing to another part of WordPress? Visit [make.wordpress.o
 This guide is geared toward new contributors, giving you quick access to resources and answering some of the more common questions new contributors have when diving in. As a collaboration between new and veteran contributors, this guide has been developed to better identify the pain points in getting started and will be continuously updated with improvements.
 -->
 
-<<<<<<< HEAD
-There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
-=======
 このガイドは、新しい貢献者を対象としており、リソースにすばやくアクセスできるようにし、新しい貢献者が取り組む際によくある一般的な質問に答えます。新しい貢献者とベテランの貢献者のコラボレーションにより、開始にあたっての課題をより明確にし、改善されながら継続的に更新される予定です。
->>>>>>> main
 
 <!--
 There are no wrong questions. The WordPress community is always more than happy to help. Have questions along the way? Join #core in Slack and ask away.
@@ -92,11 +80,7 @@ One of the best places to find contributors is at WordCamps, where you shouldn�
 ## Committers
 -->
 
-<<<<<<< HEAD
- This section needs to be expanded. Perhaps we should also include a link to [Nacin’s post](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/).
-=======
 ## コミッター
->>>>>>> main
 
 <!--
  This section needs to be expanded. Perhaps we should also include a link to [Nacin’s post](https://nacin.com/2014/02/07/how-wordpress-chooses-committers/).
@@ -156,11 +140,7 @@ The [develop repository](https://develop.svn.wordpress.org/trunk/) is available 
 It’s also possible to contribute to WordPress core using `git`. For more information about this process, see [The Code Repository (Git)](https://make.wordpress.org/core/handbook/contribute/git/).
 -->
 
-<<<<<<< HEAD
-If you would like to use Github, please see the handbook page on [using github pull requests](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) for more information.
-=======
 また、`git` を使用して WordPress コアに貢献することもできます。このプロセスについては、[コードリポジトリ (Git)](https://ja.wordpress.org/team/handbook/core/contribute/git/) を参照してください。
->>>>>>> main
 
 <!--
 If you would like to use Github, please see the handbook page on [using github pull requests](https://make.wordpress.org/core/handbook/contribute/git/github-pull-requests-for-code-review/) for more information.
@@ -190,45 +170,43 @@ Patches are created using a working copy of WordPress trunk that has been checke
 Contributors follow the same process, but they generate a patch that shows their changes, since they cannot modify the central repository directly. This patch can then be applied to the individual working copies of other contributors or committers, so it may be reviewed, tested, and potentially committed.
 -->
 
-<<<<<<< HEAD
-When [writing a patch](https://make.wordpress.org/core/handbook/best-practices/writing-patches/), it is important to always update to the latest version of trunk. Patches should never be written against a released version, such as a tag or branch, with very rare exceptions (e.g. during the preparation of [point releases](https://make.wordpress.org/core/glossary/#point-release)). Trunk is, however, a moving target, which can cause patches to become **stale** and require a **refresh** – they no longer apply properly, because code in the central repository no longer matches what the patch is attempting to change. Patches that alter a significant number of lines or files should generally be brought to the attention of committers sooner rather than later.
-=======
 貢献者も同じプロセスに従いますが、中央のリポジトリを直接変更できないため、自分の変更点を示すパッチを作成します。このパッチは他の貢献者やコミッターの個々の作業コピーに適用され、レビュー、テストが行われ、そしてコミットされる可能性があります。
 
 <!--
-When writing a patch, it is important to always update to the latest version of trunk. Patches should never be written against a released version, such as a tag or branch, with very rare exceptions (e.g. during the preparation of [point releases](https://make.wordpress.org/core/glossary/#point-release)). Trunk is, however, a moving target, which can cause patches to become **stale** and require a **refresh** – they no longer apply properly, because code in the central repository no longer matches what the patch is attempting to change. Patches that alter a significant number of lines or files should generally be brought to the attention of committers sooner rather than later. \[Link: Getting Your Patch Committed\]
+When [writing a patch](https://make.wordpress.org/core/handbook/best-practices/writing-patches/), it is important to always update to the latest version of trunk. Patches should never be written against a released version, such as a tag or branch, with very rare exceptions (e.g. during the preparation of [point releases](https://make.wordpress.org/core/glossary/#point-release)). Trunk is, however, a moving target, which can cause patches to become **stale** and require a **refresh** – they no longer apply properly, because code in the central repository no longer matches what the patch is attempting to change. Patches that alter a significant number of lines or files should generally be brought to the attention of committers sooner rather than later.
 -->
->>>>>>> main
 
-パッチを書くときは、常に trunk の最新バージョンに更新することが重要です。パッチは、非常にまれな例外を除いて、タグやブランチのようなリリースされたバージョンに対して書かれてはいけません (例: [ポイントリリース](https://make.wordpress.org/core/glossary/#point-release)の準備中)。しかし、trunk は目標が移動するため、パッチが**古く**なり、**更新**を必要とすることがあります。なぜなら、中央リポジトリにあるコードが、パッチが変更しようとしている内容と一致しなくなったからです。重要な行やファイルを変更するパッチは、一般的に、遅かれ早かれコミッターに注目されます。\[リンク: パッチをコミットさせる\]
+[パッチを書く](https://ja.wordpress.org/team/handbook/core/best-practices/writing-patches/)ときは、常に trunk の最新バージョンに更新することが重要です。パッチは、非常にまれな例外を除いて、タグやブランチのようなリリースされたバージョンに対して書かれてはいけません (例: [ポイントリリース](https://make.wordpress.org/core/glossary/#point-release)の準備中)。しかし、trunk は目標が移動するため、パッチが**古く**なり、**更新**を必要とすることがあります。なぜなら、中央リポジトリにあるコードが、パッチが変更しようとしている内容と一致しなくなったからです。重要な行やファイルを変更するパッチは、一般的に、遅かれ早かれコミッターに注目されます。
 
 <!--
 ## Local Development Overview
 -->
 
-<<<<<<< HEAD
-In order to contribute to core, we strongly recommend that you install a local instance of WordPress. With WordPress running on your machine, you’ll be able to make changes and test patches without interfering with a live site.
-
-If you already have an environment that includes a webserver with PHP, MySQL/MariaDB and SSH access and you prefer working with that system, it is perfectly fine to decide on using another environment. Popular alternatives include [MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/), [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/installing-xampp/), and others. Be aware though that none of them is optimized for WordPress core development, so a little more groundwork will be necessary in that case.
-
-The recommended local environment is the [Docker](https://www.docker.com/) environment built into the WordPress Development repository, which can be started using `npm run env:start` regardless of whether you are using Git or SVN for source control. You can also use the [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/) package to configure a local dev environment more specific to your needs. (`wp-env` may replace the current `env:start` Docker configuration in the future.)
-
-The previous recommended environment was a piece of software called [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org), which is a Vagrant configuration tailored specifically for WordPress development. Please follow the handbook instructions on [how to install VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
-=======
 ## ローカル開発の概要
 
 <!--
-In order to contribute to core, we strongly recommend that you install a local instance of WordPress. With WordPress running on your machine, you’ll be able to make changes and test patches without interfering with a live site. There are a variety of ways you can configure a local dev environment. We have tutorials on the following methods: [VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/), [DesktopServer,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/desktopserver/) [MAMP,](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/) [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/xampp/).
+In order to contribute to core, we strongly recommend that you install a local instance of WordPress. With WordPress running on your machine, you’ll be able to make changes and test patches without interfering with a live site.
 -->
 
-コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。WordPress があなたのマシンで動作していれば、稼働中のサイトに影響を与えることなく変更やパッチのテストを行うことができます。ローカルの開発環境を構築する方法はさまざまです。私たちは、[VVV](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/)、[DesktopServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/desktopserver/)、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/) のチュートリアルを用意しています。
+コアに貢献するためには、WordPress のローカルインスタンスをインストールすることを強く推奨します。
 
 <!--
-If you’re not sure which to choose, we recommend the [VVV (sometimes referred to as Vagrant) method](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
+If you already have an environment that includes a webserver with PHP, MySQL/MariaDB and SSH access and you prefer working with that system, it is perfectly fine to decide on using another environment. Popular alternatives include [MAMP](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/mamp/), [WampServer](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/wampserver/), [XAMPP](https://make.wordpress.org/core/handbook/tutorials/installing-wordpress-locally/installing-xampp/), and others. Be aware though that none of them is optimized for WordPress core development, so a little more groundwork will be necessary in that case.
 -->
->>>>>>> main
 
-どれを選ぶか迷った場合は、[VVV (Vagrant と表記されることもあります)](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/) を推奨します。
+PHP、MySQL/MariaDB、SSH アクセスを備えたウェブサーバーを含む環境が既にあり、そのシステムで作業したい場合は、別の環境を使用することを決定しても全く問題ありません。人気のある代替環境としては、[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)、[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)、[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/)などがあります。ただし、いずれも WordPress コア開発用に最適化されていないため、その場合はもう少し準備が必要になることに注意してください。
+
+<!--
+The recommended local environment is the [Docker](https://www.docker.com/) environment built into the WordPress Development repository, which can be started using `npm run env:start` regardless of whether you are using Git or SVN for source control. You can also use the [WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/) package to configure a local dev environment more specific to your needs. (`wp-env` may replace the current `env:start` Docker configuration in the future.)
+-->
+
+推奨されるローカル環境は、WordPress 開発リポジトリに組み込まれている [Docker](https://www.docker.com/) 環境です。これは、ソース管理に Git または SVN を使用しているかどうかに関係なく、`npm run env:start` で起動できます。また、[WP-ENV](https://make.wordpress.org/core/2020/03/03/wp-env-simple-local-environments-for-wordpress/) パッケージを使用して、ニーズに合わせてより具体的なローカル開発環境を構成することもできます。(`wp-env` は将来、現在の `env:start` Docker構成に置き換わる可能性があります。)
+
+<!--
+The previous recommended environment was a piece of software called [Varying Vagrant Vagrants (or VVV)](https://varyingvagrantvagrants.org), which is a Vagrant configuration tailored specifically for WordPress development. Please follow the handbook instructions on [how to install VVV](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/installing-vvv/).
+-->
+
+以前の推奨環境は、[Varying Vagrant Vagrants (または VVV)](https://varyingvagrantvagrants.org) と呼ばれるソフトウェアで、WordPress 開発向けに特別にカスタマイズされた Vagrant 構成でした。[VVV のインストール方法]https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/) については、ハンドブックの指示に従ってください。
 
 <!--
 ## Introduction to Trac
@@ -344,11 +322,7 @@ There are other, UI\-based ways to create patches as well. [SourceTree](http://w
 WordPress development happens through our official SVN and GIT repositories. As a result, we do not monitor or accept pull requests (PRs) from GitHub. However, you can still create a patch from your git repository and attach the patch to your ticket. To do so:
 -->
 
-<<<<<<< HEAD
-We need to add information on creating a Git patch here.
-=======
 WordPress の開発は、私たちの公式な SVN および Git リポジトリで行われます。そのため、GitHub からのプルリクエスト (PR) を監視したり、受け入れることはありません。しかし、Git リポジトリからパッチを作成し、チケットに添付できます。そのためには、
->>>>>>> main
 
 <!--
 We need to add information on creating a Git patch here.
@@ -378,11 +352,7 @@ As an example, look at [/wp-admin/media.php](https://core.trac.wordpress.org/bro
 ### Unit Testing
 -->
 
-<<<<<<< HEAD
-This section needs to be created. 
-=======
 ### ユニットテスト
->>>>>>> main
 
 <!--
 This section needs to be created. 
@@ -466,9 +436,6 @@ Sometimes, tickets and patches don’t get the attention they need and linger in
 ## Meetings
 -->
 
-<<<<<<< HEAD
- This section needs to be created.
-=======
 ## ミーティング
 
 <!--
@@ -476,4 +443,3 @@ Sometimes, tickets and patches don’t get the attention they need and linger in
 -->
 
 \[alert\]このセクションを作成する必要があります。\[/alert\]
->>>>>>> main
