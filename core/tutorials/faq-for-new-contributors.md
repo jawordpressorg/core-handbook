@@ -66,11 +66,7 @@ You also will want to go through the posts on [Make WordPress Core](https://make
 ## Are there specific people who can help me get started?
 -->
 
-<<<<<<< HEAD
-There are. [@desrosj](https://profiles.wordpress.org/desrosj/), [@flixos90](https://profiles.wordpress.org/flixos90/), [@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/), [@welcher](https://profiles.wordpress.org/welcher/), [@audrasjb](https://profiles.wordpress.org/audrasjb/), [@costdev](https://profiles.wordpress.org/costdev/), [@mike](https://profiles.wordpress.org/mike/), [@oglekler](https://profiles.wordpress.org/oglekler/), and [@SergeyBiryukov](https://profiles.wordpress.org/SergeyBiryukov/) run the New Core Contributors Bimonthly Chats on Slack; plan to start going to a few. The schedule is on [Make/Meetings](https://make.wordpress.org/meetings/), and they’ll welcome your questions.
-=======
 ## 手助けしてくれる人はいますか ?
->>>>>>> main
 
 <!--
 There are. [@desrosj](https://profiles.wordpress.org/desrosj/), [@flixos90](https://profiles.wordpress.org/flixos90/), [@adamsilverstein](https://profiles.wordpress.org/adamsilverstein/), [@welcher](https://profiles.wordpress.org/welcher/), [@audrasjb](https://profiles.wordpress.org/audrasjb/), [@costdev](https://profiles.wordpress.org/costdev/), [@mike](https://profiles.wordpress.org/mike/), [@oglekler](https://profiles.wordpress.org/oglekler/), and [@SergeyBiryukov](https://profiles.wordpress.org/SergeyBiryukov/) run the New Core Contributors Bimonthly Chats on Slack; plan to start going to a few. The schedule is on [Make/Meetings](https://make.wordpress.org/meetings/), and they’ll welcome your questions.
