@@ -250,7 +250,7 @@ These are tasks and responsibilities that may be documented for specific roles b
         *   [6.3 microsite](https://wordpress.org/download/releases/6-3/)
     *   Work on, and provide design support for creating social media assets for each release.
     *   Decide and design the artwork for the jazz musician associated with each major release
-    -->
+-->
 
 *   この役割は、製品とリリースという2つの主要な領域に分かれています。
     *   「製品」領域は、WordPress の実際の UI/UX に関わる作業です。
