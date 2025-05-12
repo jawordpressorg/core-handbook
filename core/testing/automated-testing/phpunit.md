@@ -77,15 +77,12 @@ Some workflows require more set-up than others, when in doubt, we recommend you 
 4.  PHPUnit PHAR file without Composer
 -->
 
-<<<<<<< HEAD
-=======
 1.  Docker コンテナ
 2.  Composer
 3.  PHPUnit PHAR ファイルを Composer で実行する
 4.  Composer を使わずに PHPUnit PHAR ファイルを実行する
 
 <!--
->>>>>>> main
 **Pre-requisite for non-Docker workflows:**
 -->
 
@@ -101,11 +98,7 @@ Docker 以外のワークフローでは、PHP と MySQL/MariaDB が利用可能
 For more information on setting up PHP and a database locally, please see the [Installing a local server](https://make.wordpress.org/core/handbook/tutorials/installing-a-local-server/) handbook pages.
 -->
 
-<<<<<<< HEAD
-Please note that both [PHPUnit](https://docs.phpunit.de/en/9.6/installation.html#requirements), as well as the WordPress test suite have requirements for [certain PHP extensions](https://make.wordpress.org/hosting/handbook/server-environment/#php-extensions) to be enabled in your install to be able to run the full test suite.
-=======
 PHP とデータベースをローカルにセットアップする方法については、[ローカルサーバーのインストール](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/)についてのハンドブックページを参照してください。
->>>>>>> main
 
 <!--
 Please note that both [PHPUnit](https://docs.phpunit.de/en/9.6/installation.html#requirements), as well as the WordPress test suite have requirements for [certain PHP extensions](https://make.wordpress.org/hosting/handbook/server-environment/#php-extensions) to be enabled in your install to be able to run the full test suite.
@@ -226,11 +219,7 @@ Composer の依存関係がインストールされたら、コマンドライ�
 **Step 1**: Install PHPUnit Phar
 -->
 
-<<<<<<< HEAD
-Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://docs.phpunit.de/en/9.6/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
-=======
 **ステップ1**: PHPUnit Phar をインストールする
->>>>>>> main
 
 <!--
 Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://docs.phpunit.de/en/9.6/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
@@ -290,11 +279,7 @@ This method is most suitable if you want to install PHPUnit and the PHPUnit Poly
 **Step 1**: Install PHPUnit PHAR
 -->
 
-<<<<<<< HEAD
-Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://docs.phpunit.de/en/9.6/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
-=======
 **ステップ1**: PHPUnit PHAR をインストールする
->>>>>>> main
 
 <!--
 Install the PHAR which is [appropriate for your PHP version](https://phpunit.de/supported-versions.html). Installation instructions can be found in [the PHPUnit manual](https://docs.phpunit.de/en/9.6/installation.html) or on [the PHPUnit website](https://phpunit.de/getting-started/phpunit-9.html).
@@ -359,11 +344,7 @@ or can be declared as a PHP constant in the `wp-tests-config.php` file.
 Once the PHPUnit PHAR and Polyfills are installed, you can run the tests from the root directory of your WordPress install via the command-line: `[path/to/]phpunit`.
 -->
 
-<<<<<<< HEAD
-If you use this workflow, please ensure you keep your local clone of the PHPUnit Polyfills up to date.  
-=======
 PHPUnit PHAR とポリフィルをインストールしたら、コマンドラインから次のコマンドを使用してテストを実行できます: `[path/to/]phpunit`
->>>>>>> main
 
 <!--
 If you use this workflow, please ensure you keep your local clone of the PHPUnit Polyfills up to date.  
@@ -375,12 +356,9 @@ If you use this workflow, please ensure you keep your local clone of the PHPUnit
 ## Running the Test Suite
 -->
 
-<<<<<<< HEAD
-=======
 ## テストスイートの実行
 
 <!--
->>>>>>> main
 Once you have chosen your preferred workflow and set up your machine according to the above instructions, you can run the tests via the command listed with your preferred workflow above.
 -->
 
@@ -434,16 +412,12 @@ What each symbol means:
 *   `I` means a test was marked as incomplete, i.e. not yet implemented.
 -->
 
-<<<<<<< HEAD
-On Windows and seeing weird codes in your command-line screen output? Try running with `--colors=never`.
-=======
 *   `.` – それぞれのドットは合格した一つの「テスト」を意味します。
 *   `S` はテストがスキップされたことを意味します。これは通常、テストがマルチサイトや特定の PHP 拡張モジュールを必要とするなど、特定の設定でのみ有効であることを意味します。
 *   `F` はテストが失敗したことを意味します。何がどこで失敗したのか、より詳細な出力が表示されます。
 *   `E` は、PHP のエラー、警告、通知によってテストが失敗したことを意味します。
 *   `R` はテストが「危険」と判定されたことを意味します。何が危険と判定されるかは、`phpunit.xml.dist` ファイルの設定に大きく依存します。これは、特に遅いテストやアサーションを実行しないテストなどです。
 *   `I` は、テストが不完全である、たとえばまだ実装されていないことを意味します。
->>>>>>> main
 
 <!--
 On Windows and seeing weird codes in your command-line screen output? Try running with `--colors=never`.
@@ -473,13 +447,9 @@ To run an **individual class**, use `--filter` with the name of the class:
 phpunit --filter Tests_Formatting_wpParseStr
 ```
 
-<<<<<<< HEAD
-The `--filter` option in PHPUnit is very flexible and has lots of supported options. Please see the [PHPUnit Manual](https://docs.phpunit.de/en/9.6/textui.html#textui-examples-filter-patterns) for more examples.
-=======
 <!--
 The `--filter` option in PHPUnit is very flexible and has lots of supported options. Please see the [PHPUnit Manual](https://docs.phpunit.de/en/9.6/textui.html#textui-examples-filter-patterns) for more examples.
 -->
->>>>>>> main
 
 PHPUnit の `--filter` オプションは非常に柔軟で、さまざまなオプションをサポートしています。[PHPUnit のマニュアル](https://docs.phpunit.de/en/9.6/textui.html#textui-examples-filter-patterns)を参照ください。
 
@@ -515,10 +485,7 @@ phpunit --group shortcode,17657,6562,14050
 OK (229 tests, 417 assertions)
 ```
 
-<<<<<<< HEAD
-=======
 <!--
->>>>>>> main
 Many tests are marked with a `@ticket` annotation, which indicates they were the result of that WordPress Trac ticket.
 -->
 
@@ -685,11 +652,7 @@ There are three primary ways to contribute:
 **Write new tests to improve our code coverage.** Many areas of WordPress do not have adequate test coverage. Pick a function, class, or component and write tests for it. You can submit these tests on [the WordPress Trac](https://core.trac.wordpress.org/).
 -->
 
-<<<<<<< HEAD
-**Fix or improve our existing test cases.** There are many opportunities for improvement in the existing tests. Some of them are ancient and others are slow or fragile. Some do not tests well in multisite or under certain conditions. Some individual tests try to test too much, and [could be improved by using](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html) data providers, dependencies, and more narrow assertions.
-=======
 **コードカバレッジを向上させるために新しいテストを作成する。** WordPress の多くの領域で、十分なテストカバレッジを持っていません。関数、クラス、コンポーネントを選んで、そのテストを作成してください。これらのテストは [WordPress Trac](https://core.trac.wordpress.org/) で提出できます。
->>>>>>> main
 
 <!--
 **Fix or improve our existing test cases.** There are many opportunities for improvement in the existing tests. Some of them are ancient and others are slow or fragile. Some do not tests well in multisite or under certain conditions. Some individual tests try to test too much, and [could be improved by using](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html) data providers, dependencies, and more narrow assertions.
@@ -713,12 +676,7 @@ JavaScript コードのユニットテストは、PHP のユニットテスト�
 ## Further Reading
 -->
 
-<<<<<<< HEAD
-*   [PHPUnit Manual](https://docs.phpunit.de/)
-*   [PHPUnit on Github](https://github.com/sebastianbergmann/phpunit)
-=======
 ## 参考資料
 
 *   [PHPUnit Manual](https://docs.phpunit.de/)
 *   [PHPUnit on Github](https://github.com/sebastianbergmann/phpunit)
->>>>>>> main
