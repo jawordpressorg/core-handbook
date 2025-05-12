@@ -34,7 +34,6 @@ This article will walk you through installing the latest WordPress development v
 -->
 
 *   phpMyAdmin を使用して、ローカルの Web サーバーに新しいデータベースを作成します。\[[MAMP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/mamp/)\] \[[WampServer](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/wampserver/)\] \[[XAMPP](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-xampp/)\]
-    *   **備考**: ローカルサーバーとして DesktopServer を使用している場合、新しいローカル開発サイトを作成する際に、Blueprint ドロップダウンから **Blank (WordPress SVN)** オプションを選択する必要があります。これにより、データベースと `wp-config.php` ファイルが作成されます。サイトを作成したら、WordPress trunk のコピーをチェックアウトする前に、開発サイトのフォルダー (**wordpress-svn.dev**) にある `index.html` と `wp-config-sample.php` ファイルを削除してください。
 *   コンピューターに Subversion がインストールされていること:
     *   Windows に SVN をインストールする
     *   [MACに SVN をインストールする](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-vcs/#installing-subversion-on-a-mac)
