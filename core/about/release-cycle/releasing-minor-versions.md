@@ -42,17 +42,13 @@ Depending on the focus of the minor release (security, maintenance, or both), t
 ### Security
 -->
 
-<<<<<<< HEAD
-**Security patches should be created well ahead of time**. Different patches may be necessary for trunk and stable branches. Currently, we make an effort to back port patches to [all versions of WordPress since 4.1](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/). However, back porting patches is not always possible and those versions of WordPress are not officially supported as a result.
-=======
 ### セキュリティ
->>>>>>> main
 
 <!--
-**Security patches should be created well ahead of time**. Different patches may be necessary for trunk and stable branches. Currently, we make an effort to back port patches to all versions of WordPress that support autoupdates (4.1+). However, back porting patches is not always possible and those versions of WordPress are not officially supported as a result.
+**Security patches should be created well ahead of time**. Different patches may be necessary for trunk and stable branches. Currently, we make an effort to back port patches to [all versions of WordPress since 4.1](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/). However, back porting patches is not always possible and those versions of WordPress are not officially supported as a result.
 -->
 
-**セキュリティパッチは、時間に余裕をもって作成すること**。trunk ブランチと安定版ブランチでは異なるパッチが必要になるかもしれません。現在、自動更新をサポートしている WordPress のすべてのバージョン (4.1以降) にパッチをバックポートするよう努めています。しかし、パッチのバックポートが常に可能であるとは限らず、そのため、これらのバージョンの WordPress は公式にはサポートされません。
+**セキュリティパッチは、時間に余裕をもって作成すること**。trunk ブランチと安定版ブランチでは異なるパッチが必要になるかもしれません。現在、自動更新をサポートしている [WordPress のすべてのバージョン (4.1以降)](https://wordpress.org/news/2022/09/dropping-security-updates-for-wordpress-versions-3-7-through-4-0/)にパッチをバックポートするよう努めています。しかし、パッチのバックポートが常に可能であるとは限らず、そのため、これらのバージョンの WordPress は公式にはサポートされません。
 
 <!--
 Follow the process in the Security team handbook to make sure that patches are adequately tested for back-compat, bypasses, and real-world cases.
@@ -118,7 +114,9 @@ Ideally, all patches land at least 48 hours before release and a release candida
 Regardless of which kind of release you’re planning, there are a number of things you need to do.
 -->
 
-<<<<<<< HEAD
+どのようなリリースを計画している場合でも、やるべきことが沢山あります。
+
+<!--
 1.  Check for breaking changes that would require a dev note. Ensure that those are published ahead of the release and tagged with the minor release number, related major release number, and the dev notes tag (e.g., “4.9, 4.9.2, dev notes”).
 2.  Verify that the latest version of Akismet is included in WordPress builds. You no longer need to reach out to the Akismet team to see if there is a plugin release coming soon to include in the update. This is is important and prevents a user from seeing an update prompt immediately after creating a new site. This has been automated ([related discussion](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647)). [Here’s an example](https://build.trac.wordpress.org/changeset/38478) of a commit to build.svn that bumps the Akismet external to the latest version (this is the old, manually method).
 3.  Ask a member of the Security team to run the private security unit test suite, to make sure no regressions are introduced. If any are found, avoid discussing the details publicly, because some sites (like wordpress.org) run `trunk` or beta/RCs in production. Instead, notify the Security team privately.
@@ -128,31 +126,17 @@ Regardless of which kind of release you’re planning, there are a number of thi
 7.  A news post is needed for the WordPress.org news blog. Generally speaking, you should start this at least a day ahead of time (the more time, the better). You can copy the format from [previous releases](https://wordpress.org/news/category/releases/). Be sure to grep logs to get a complete list of all contributors to the release. The list of props can most efficiently be gathered by someone who has access to a sandbox to run `wporg/bin/core/props-parser.php`.
 8.  Alert the systems team (e.g. @barry, @abbe, @sysmonk) about your release so they can plan to have someone available in case there are any issues. The sooner you’ve set a time for release, the sooner you can do this.
 9.  Prepare Codex pages for each version you intend to release, using the Wiki Template of [Release](https://codex.wordpress.org/Template:Release) (directions are included on that page). If your release is security-related, these pages can be mostly blank until the actual release day, but need to exist as we link to them in WordPress itself.
-=======
-どのようなリリースを計画している場合でも、やるべきことが沢山あります。
-
-<!--
-*   Check for breaking changes that would require a dev note. Ensure that those are published ahead of the release and tagged with the minor release number, related major release number, and the dev notes tag (e.g., “4.9, 4.9.2, dev notes”).
-*   Verify that the latest version of Akismet is included in WordPress builds. You no longer need to reach out to the Akismet team to see if there is a plugin release coming soon to include in the update. This is is important and prevents a user from seeing an update prompt immediately after creating a new site. This has been automated ([related discussion](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647)). [Here’s an example](https://build.trac.wordpress.org/changeset/38478) of a commit to build.svn that bumps the Akismet external to the latest version (this is the old, manually method).
-*   Ask a member of the Security team to run the private security unit test suite, to make sure no regressions are introduced. If any are found, avoid discussing the details publicly, because some sites (like wordpress.org) run `trunk` or beta/RCs in production. Instead, notify the Security team privately.
-*   You’ll want to notify hosts that a release is coming a couple of days ahead of time. Three days is the recommended time frame, but is not always possible depending on release timeline. The security team can assist you with the message to hosts. This message **should not go out until all security patches are ready** (if a security release).
-*   If there will be **string changes in your release, notify the Polyglots team ahead of time**.
-*   Do a diff on the `src/` directory between the last release tag and the release branch and confirm there are no new files introduced, since these will often break automatic upgrades.
-*   A news post is needed for the WordPress.org news blog. Generally speaking, you should start this at least a day ahead of time (the more time, the better). You can copy the format from [previous releases](https://wordpress.org/news/category/releases/). Be sure to grep logs to get a complete list of all contributors to the release. The list of props can most efficiently be gathered by someone who has access to a sandbox to run `wporg/bin/core/props-parser.php`.
-*   Alert the systems team (e.g. @barry, @abbe, @sysmonk) about your release so they can plan to have someone available in case there are any issues. The sooner you’ve set a time for release, the sooner you can do this.
-*   Prepare Codex pages for each version you intend to release, using the Wiki Template of [Release](https://codex.wordpress.org/Template:Release) (directions are included on that page). If your release is security-related, these pages can be mostly blank until the actual release day, but need to exist as we link to them in WordPress itself.
 -->
->>>>>>> main
 
-*   開発者ノートを必要とする重要な変更がないか確認します。これらはリリース前に公開され、マイナーリリース番号、関連するメジャーリリース番号、開発者ノートタグ (例:「4.9、4.9.2、dev notes」) がタグ付けされていることを確認してください。
-*   最新バージョンの Akismet が WordPress のビルドに含まれていることを確認します。現在では、Akismet チームに連絡して、アップデートに含めるプラグインのリリースが近いかどうかを確認する必要はありません。これは、ユーザーが新しいサイトを作成した直後にアップデートのプロンプトが表示されることを防ぐために重要なことです。これは自動化されています ([関連する議論](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647))。build.svn にコミットして Akismet external を最新バージョンに更新する例は[こちら](https://build.trac.wordpress.org/changeset/38478)です (これは手作業による古い方法です)。
-*   セキュリティチームのメンバーにプライベート・セキュリティ・ユニットテストスイートを実行してもらい、リグレッションが発生しないことを確認します。一部のサイト (wordpress.org など) では本番環境で `trunk` またはベータ/RC が稼働しているため、見つかった場合はその詳細について公の場で議論することは避けてください。代わりに、セキュリティ・チームに個人的に通知してください。
-*   数日前に、リリースが予定されていることをホストに通知するとよいでしょう。3日前が推奨されますが、リリースのスケジュールによっては不可能な場合もあります。セキュリティチームがホストへのメッセージについてお手伝いします。このメッセージは、(セキュリティリリースの場合) **すべてのセキュリティパッチが準備できるまで出してはいけません**。
-*   リリースに **文字列の変更がある場合は、事前に Polyglots チームに知らせてください**。
-*   最後のリリースタグとリリースブランチの間の `src/` ディレクトリの差分をとり、新しいファイルが追加されていないことを確認します。これらのファイルは自動アップグレードを妨げることが多いためです。
-*   WordPress.org のニュースブログへの投稿が必要です。一般的には、少なくとも1日前には始めるべきです (時間があればあるほどよいでしょう)。[以前のリリース](https://wordpress.org/news/category/releases/)からフォーマットをコピーできます。リリースに貢献したすべての人の完全なリストを得るために、必ずログを grep してください。props のリストは、サンドボックスにアクセスできる人が `wporg/bin/core/props-parser.php` を実行することで最も効率的に集めることができます。
-*   システムチーム (例: @barry、@abbe、@sysmonk) にリリースについて知らせておくことで、何か問題があった場合に備えて、誰かが対応できるように計画しておくことができます。リリースの時間を早く設定すればするほど、より早くこれを行うことができます。
-*   リリースするバージョンごとに、[リリース](https://codex.wordpress.org/Template:Release) の Wiki テンプレートを使って、Codex ページを用意してください (手順はそのページに記載されています)。リリースがセキュリティに関するものである場合、これらのページは実際のリリース日までほとんど空白でもかまいませんが、WordPress 自体にリンクするため、存在する必要があります。
+1.   開発者ノートを必要とする重要な変更がないか確認します。これらはリリース前に公開され、マイナーリリース番号、関連するメジャーリリース番号、開発者ノートタグ (例:「4.9、4.9.2、dev notes」) がタグ付けされていることを確認してください。
+2.   最新バージョンの Akismet が WordPress のビルドに含まれていることを確認します。現在では、Akismet チームに連絡して、アップデートに含めるプラグインのリリースが近いかどうかを確認する必要はありません。これは、ユーザーが新しいサイトを作成した直後にアップデートのプロンプトが表示されることを防ぐために重要なことです。これは自動化されています ([関連する議論](https://make.wordpress.org/systems/2020/03/20/build-svn-access-for-sergeybiryukov/#comment-1647))。build.svn にコミットして Akismet external を最新バージョンに更新する例は[こちら](https://build.trac.wordpress.org/changeset/38478)です (これは手作業による古い方法です)。
+3.   セキュリティチームのメンバーにプライベート・セキュリティ・ユニットテストスイートを実行してもらい、リグレッションが発生しないことを確認します。一部のサイト (wordpress.org など) では本番環境で `trunk` またはベータ/RC が稼働しているため、見つかった場合はその詳細について公の場で議論することは避けてください。代わりに、セキュリティ・チームに個人的に通知してください。
+4.   数日前に、リリースが予定されていることをホストに通知するとよいでしょう。3日前が推奨されますが、リリースのスケジュールによっては不可能な場合もあります。セキュリティチームがホストへのメッセージについてお手伝いします。このメッセージは、(セキュリティリリースの場合) **すべてのセキュリティパッチが準備できるまで出してはいけません**。
+5.   リリースに **文字列の変更がある場合は、事前に Polyglots チームに知らせてください**。
+6.   最後のリリースタグとリリースブランチの間の `src/` ディレクトリの差分をとり、新しいファイルが追加されていないことを確認します。これらのファイルは自動アップグレードを妨げることが多いためです。
+7.   WordPress.org のニュースブログへの投稿が必要です。一般的には、少なくとも1日前には始めるべきです (時間があればあるほどよいでしょう)。[以前のリリース](https://wordpress.org/news/category/releases/)からフォーマットをコピーできます。リリースに貢献したすべての人の完全なリストを得るために、必ずログを grep してください。props のリストは、サンドボックスにアクセスできる人が `wporg/bin/core/props-parser.php` を実行することで最も効率的に集めることができます。
+8.   システムチーム (例: @barry、@abbe、@sysmonk) にリリースについて知らせておくことで、何か問題があった場合に備えて、誰かが対応できるように計画しておくことができます。リリースの時間を早く設定すればするほど、より早くこれを行うことができます。
+9.   リリースするバージョンごとに、[リリース](https://codex.wordpress.org/Template:Release) の Wiki テンプレートを使って、Codex ページを用意してください (手順はそのページに記載されています)。リリースがセキュリティに関するものである場合、これらのページは実際のリリース日までほとんど空白でもかまいませんが、WordPress 自体にリンクするため、存在する必要があります。
 
 <!--
 Now that you’ve done all of that, it’s on to release day.
@@ -164,11 +148,21 @@ Now that you’ve done all of that, it’s on to release day.
 ## Release Day
 -->
 
-<<<<<<< HEAD
+## リリース日
+
+<!--
 You’ve made it. Release day can be stressful. The best way to survive release day is to *stay calm*. Things will go wrong. It’s okay, just regroup and keep moving forward. Ask for help from folks that have been through this before and have some confidence in yourself. But first, you need your release day team. You should try to get this team aligned one week before the release.
+-->
 
+リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。リリース日に行う必要があることのリストは次のとおりです:
+
+<!--
 Often times one person can fill multiple roles. If you’re unsure who can do each of these, welcome to the club. Ask in your release channel or ask an experienced committer and someone should be able to help guide you.
+-->
 
+多くの場合、1人の人が複数の役割を担うことができます。それぞれの役割を誰が担えるかわからない場合は、ぜひご参加ください。リリースチャンネルで質問するか、経験豊富なコミッターに尋ねれば、きっと誰かが助けてくれるはずです。
+
+<!--
 *   A core committer to update the version strings
 *   Someone with mission control access to build packages
 *   Someone with meta commit to build language packs and enable auto-updates
@@ -179,11 +173,32 @@ Often times one person can fill multiple roles. If you’re unsure who can do ea
 *   A security team member who can run the automated security tests
 *   Someone who can publish a post on /news
 *   Someone who can check the spelling and grammar of the /news post (seriously)
+-->
 
+* バージョン文字列を更新するコアコミッター
+* パッケージをビルドするためのミッションコントロール権限を持つ人
+* 言語パックをビルドし、自動更新を有効にするメタコミット権限を持つ人
+* NPM パッケージを作成・公開できる人 (gutenberg-core または github 管理者)
+* Trac 管理者
+* バージョンページを作成するためにヘルプハブにページを作成できる人
+* Slack でアナウンスできる人
+* 自動セキュリティテストを実行できるセキュリティチームメンバー
+* /news に投稿できる人
+* /news の投稿のスペルと文法をチェックできる人 (これは本当です)
+
+<!--
 When it’s time to start the release party, get yourself a glass of water and take a deep breath. There are two main phases of the release. Phase one is about about getting the release out and announced. Phase two is about setting up the next release for success.
+-->
 
+リリースパーティーを始める時間になったら、コップ一杯の水を用意して、深呼吸をしましょう。リリースには大きく分けて2つのフェーズがあります。フェーズ1はリリースの公開と発表です。フェーズ2は、次のリリースを成功させるための準備です。
+
+<!--
 ### Phase One
+-->
 
+### フェーズ1
+
+<!--
 1.  If there are any update to the NPM packages, those need to be built and published. Please refer to the relevant documentation. ([Link](https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/release.md#packages-releases-to-npm-and-wordpress-core-updates))
 2.  If you’re running a security release, security patches need to be committed to all relevant branches.
 3.  Ensure that all commits have synced to [https://build.trac.wordpress.org/](https://build.trac.wordpress.org/). If not, find someone that can raise a flag with the systems team.
@@ -200,36 +215,11 @@ When it’s time to start the release party, get yourself a glass of water and t
 8.  The release packages need to be built in mission control, from the tag of each version being released. Once it’s packaged, it needs to be tested well, including manually testing updates. You should encourage everyone who is around to test as well. See the [script for major release testing](https://make.wordpress.org/core/handbook/about/release-cycle/hosting-release-parties/#host-script-based-on-beta-releases) for some verbiage.
 9.  Kick off the [Installation Tests](https://github.com/WordPress/wordpress-develop/actions/workflows/install-testing.yml) and the [Upgrade Tests](https://github.com/WordPress/wordpress-develop/actions/workflows/upgrade-testing.yml) workflows once the packages have been built.
 10.  Autoupdates need to be enabled in the `versions.php` file, located in the dotorg repository. (This file requires access to a dotorg sandbox, so one of them must be on hand for this.) To enable autoupdates, set the `WP_CORE_LATEST_RELEASE` constant to be the new version number, and set the time that autoupdates should start in `WP_CORE_AUTOUPDATE_RAMP_START`, this should be a few minutes after the anticipated deploy. You should also update the array `wporg_get_version_equivalents()` to match all of the new versions, and the corresponding old version should be added to the array of old versions.
-=======
-## リリース日
-
-<!--
-You’ve made it. Release day can be stressful. The best way to survive release day is to *stay calm*. Things will go wrong. It’s okay, just regroup and keep moving forward. Here’s a list of things that need to get done on release day:
--->
-
-リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。リリース日に行う必要があることのリストは次のとおりです:
-
-<!--
-*   The relevant credits file needs to be updated to list any new contributors. That file lives [in the meta repository](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits).
-*   If you’re running a security release, security patches need to be committed to all relevant branches.
-*   Once any security patches are committed, move the release process to the [#core](https://make.wordpress.org/core/tag/core/) channel.
-    *   start by making an announcement (using the `/here` Slack command) welcoming people to the release party
-    *   post a request that committers hold off on any commits until the conclusion of the release, for example: `@committers please refrain from committing during the release process`.
-*   Version bumps need to be committed on all relevant branches. [Here’s an example.](https://core.trac.wordpress.org/changeset/44078) Any core committer can do this step. When committing a version bump on the most recent branch please update both the version.php and about.php files. The package.json file should already be updated for the current branch but will need to be updated for any previous branches ([example](https://core.trac.wordpress.org/changeset/39862)).
-    *   `package.json` has a single simple bump to `X.Y.Z` (this will likely already be correct, due to the post-release version bump described later in this doc).
-    *   `version.php` has one bump to `X.Y.Z-src`. Note the `-src` suffix that should always be included when committing to develop.svn.
-    *   `about.php` needs a number bump to `Z` in the “Maintenance and Security Release(s)” heading and a paragraph added describing the changes in the release, using existing strings as defined at the bottom. These strings differ from branch to branch, so please make sure to use the ones from the correct version. It is easiest to copy and paste the appropriate paragraph from elsewhere. If this is the first minor release for a branch, there is also a wrapping div and the aforementioned `h3` to add after the nav tabs. Make note of the possible string combinations for single and multiple security and/or bug fixes. Checkout [a more complete explanation](#selecting-strings) of the differences.
-    *   Prepare these changes well in advance and ask for a review. This will help avoid hold-ups during the release process. The version bump and about page can be committed together, they do not need to be separate.
-*   On all branches, the release [needs to be tagged](https://build.trac.wordpress.org/browser/tags/). Many people run releases from SVN and rely on the tags to do that. Tagging can be completed by using following commands (be sure to update with your relevant branch and release): `svn cp https://develop.svn.wordpress.org/branches/5.7 https://develop.svn.wordpress.org/tags/5.7.2 -m "Tag 5.7.2"` If you’ve double- and triple-checked to ensure that `https://develop.svn.wordpress.org` is the repository root for your checkout, you can use the `^` shortcut, which would result in this command: `svn cp ^/branches/5.7 ^/tags/5.7.2 -m "Tag 5.7.2"`
-*   The release packages need to be built in mission control, from the tag of each version being released. Once it’s packaged, it needs to be tested well, including manually testing updates. (How do you do that? Checkout the [docs](#testing-packages).)
-*   Autoupdates need to be enabled in the `versions.php` file, located in the dotorg repository. (This file requires access to a dotorg sandbox, so one of them must be on hand for this.) To enable autoupdates, set the `WP_CORE_LATEST_RELEASE` constant to be the new version number, and set the time that autoupdates should start in `WP_CORE_AUTOUPDATE_RAMP_START`, this should be a few minutes after the anticipated deploy. You should also update the array `wporg_get_version_equivalents()` to match all of the new versions, and the corresponding old version should be added to the array of old versions.
->>>>>>> main
     
     *   The percentage on offer will ramp up from 50% to 100% availability over the course of a specified time. This is controlled by the `WP_CORE_AUTOUPDATE_RAMP_START` and `WP_CORE_AUTOUPDATE_RAMP_PERIOD` constants. These work in conjunction with the previous `WP_CORE_AUTOUPDATE_PERCENT` constant to automate and remove the need for us to manually alter `WP_CORE_AUTOUPDATE_PERCENT` to a lower value during some releases.
     
     *   If it’s a security release, you should also bump `wporg_get_secure_versions()` to match the legacy versions within each branch that is not insecure.
     *   Deploy
-<<<<<<< HEAD
 11.  Verify that everything is working as expected, then bump `WP_CORE_AUTOUPDATE_RELEASE` and deploy.
 12.  Check auto update stats to make sure they’re normal (success rate above 99.9%, with the remaining 0.1% being safely aborted or rolled back).
 13.  Language packs for the release need to be built by bumping versions in `translate/bin/update-all-core-packs.sh` and deploying. (This file requires access to a dotorg sandbox.)
@@ -239,13 +229,56 @@ You’ve made it. Release day can be stressful. The best way to survive release 
 15.  The wordpress.org/news/ post needs to be published.
 16.  Thank attendees for their assistance testing during the release
 17.  let committers know they can commit again: `@committers feel free to commit as usual, thank you for your patience during the release`
+-->
 
+1.  NPM パッケージにアップデートがある場合は、ビルドして公開する必要があります。関連ドキュメントをご参照ください。([リンク](https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/code/release.md#packages-releases-to-npm-and-wordpress-core-updates))
+2.  セキュリティリリースを実行する場合、セキュリティパッチをすべての関連ブランチにコミットする必要があります。
+3.  すべてのコミットが [https://build.trac.wordpress.org/](https://build.trac.wordpress.org/) に同期されていることを確認してください。同期されていない場合は、システムチームに報告できる担当者を探してください。
+4.  セキュリティパッチがコミットされたら、リリースプロセスを [#core](https://make.wordpress.org/core/tag/core/) チャンネルに移動してください。
+    *   (`/here` Slack コマンドを使用して) リリースパーティーへの参加を歓迎するアナウンスを行うことから始めます。
+    *   コミッターに対して、リリースが完了するまでコミットを控えるようリクエストを投稿します。例: `@committers please refrain from committing during the release process`。
+5.   バージョンアップは関連するすべてのブランチでコミットする必要があります。[これがその例です](https://core.trac.wordpress.org/changeset/44078)。コアコミッターであれば誰でもこのステップを実行できます。最新のブランチでバージョンアップをコミットする際には、version.php と about.php の両方を更新してください。`package.json`、`package-lock.json`、`composer.json` ファイルは現在のブランチですでに更新されているはずですが、それ以前のブランチでは更新する必要があります ([例](https://core.trac.wordpress.org/changeset/39862))。
+    *   `package.json`、`package-lock.json`、`composer.json` には `X.Y.Z` への単純なバージョンアップが1つあります (このドキュメントで後述するリリース後のバージョンアップのため、これはおそらくすでに正しいでしょう)。
+    *   `version.php` には `X.Y.Z-src` へのバージョンアップが一つあります。接尾辞の `-src` は、develop.svn にコミットする際に常に含める必要があることに注意してください。
+    * `about.php` の見出しである「Maintenance and Security Release(s)」に `Z` という数字を追加し、下部にある既存の文字列を使用して、リリースの変更点を説明する段落を追加する必要があります。これらの文字列はブランチによって異なりますので、必ず正しいバージョンのものを使用してください。他の場所から適切な段落をコピー & ペーストすることが一番簡単です。これがブランチの最初のマイナーリリースである場合、ナビゲ―ションタブの後に追加するラッパー div と前述の `h3` もあります。単一または複数のセキュリティやバグの修正について、考えられる文字列の組み合わせをメモしておきます。違いについては、[より完全な説明](#%e3%82%a2%e3%83%90%e3%82%a6%e3%83%88%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ae%e6%96%87%e5%ad%97%e5%88%97%e3%82%92%e9%81%b8%e6%8a%9e%e3%81%99%e3%82%8b)をチェックしてください。
+    *   これらの変更を事前に十分に準備し、レビューを依頼しましょう。そうすることで、リリースプロセスの停滞を避けることができます。バージョンアップとアバウトページは一緒にコミットでき、別々に行う必要はありません。
+6.  もう一度言いますが、すべてのコミットが [https://build.trac.wordpress.org/](https://build.trac.wordpress.org/) に同期されていることを確認してください。同期されていない場合は、システムチームに報告できる担当者を探してください。これにより、リリースが少し遅れる可能性があります。
+7.  すべてのブランチで、リリースには[タグが必要です](https://build.trac.wordpress.org/browser/tags/)。多くの人は SVN からリリースし、そのためにタグに依存しています。タグ付けは以下のコマンドで完了します (関連ブランチとリリースで必ず更新してください): `svn cp https://develop.svn.wordpress.org/branches/5.7 https://develop.svn.wordpress.org/tags/5.7.2 -m "Tag 5.7.2"`
+8.  リリースパッケージは、リリースされる各バージョンのタグをもとにミッションコントロールでビルドする必要があります。パッケージ化されたら、手動での更新テストを含め、十分にテストする必要があります。周りの人全員にもテストを促しましょう。具体的な内容については、[メジャーリリースのテスト用スクリプト](https://ja.wordpress.org/team/handbook/core/about/release-cycle/hosting-release-parties/#host-script-based-on-beta-releases)をご覧ください。
+9.  パッケージがビルドされたら、[インストールテスト](https://github.com/WordPress/wordpress-develop/actions/workflows/install-testing.yml)と[アップグレードテスト](https://github.com/WordPress/wordpress-develop/actions/workflows/upgrade-testing.yml)ワークフローを開始します。
+10.  自動更新は dotorg リポジトリにある `versions.php` ファイルで有効にする必要があります。(このファイルは dotorg サンドボックスへのアクセスを必要とするため、サンドボックスが用意されている必要があります)。自動更新を有効にするには、`WP_CORE_LATEST_RELEASE` 定数に新しいバージョン番号を設定し、自動更新を開始する時間を `WP_CORE_AUTOUPDATE_RAMP_START` に設定します。これは予想されるデプロイの数分後であるはずです。また、すべての新しいバージョンと一致するように `wporg_get_version_equivalents()` 配列を更新し、対応する古いバージョンを古いバージョンの配列に追加する必要があります。
+    *   提供されるパーセンテージは、指定された時間の間に50%から100%まで上昇します。これは `WP_CORE_AUTOUPDATE_RAMP_START` 定数と `WP_CORE_AUTOUPDATE_RAMP_PERIOD` 定数によって制御されます。これらは以前の定数 `WP_CORE_AUTOUPDATE_PERCENT` と連携して動作し、いくつかのリリース中に手動で `WP_CORE_AUTOUPDATE_PERCENT` を低い値に変更する必要性をなくし、自動化します。
+    *   セキュリティリリースの場合は、`wporg_get_secure_versions()` を安全でない各ブランチ内のレガシーバージョンと一致させる必要があります。
+    *   デプロイ
+11.  すべてが期待通りに動作していることを確認してから、`WP_CORE_AUTOUPDATE_RELEASE` をバージョンアップしてデプロイします。
+12.  自動アップデートの統計が正常であることを確認してください (成功率は99.9%以上で、残りの0.1%は安全に中断またはロールバックされます)。
+13.  リリースの言語パックは、`translate/bin/update-all-core-packs.sh` のバージョンを上げてビルドし、デプロイする必要があります。(このファイルは dotorg サンドボックスへのアクセスを必要とします)。
+14.  新しいバージョンの HelpHub ページを公開します。これはニュース記事からリンクする必要があるため、最初に公開する必要があります。
+    *   [マイナーリリース版ページ](https://wordpress.org/support/wordpress-version/version-5-7-1/)に[ファイルの差分リスト](https://codex.wordpress.org/Template:Release)とニュース記事へのリンクを追加します。
+    *   [WordPress Versions](https://wordpress.org/support/article/wordpress-versions/) にバージョン情報とバージョンページへのリンクを追加します。
+15.  wordpress.org/news/ の投稿を公開する必要があります。
+16.  リリース中にテストに協力してくれた参加者に感謝します。
+17.  コミッターにコミットができるようになったことを伝えます: `@committers feel free to commit as usual, thank you for your patience during the release`
+
+<!--
 The release is now public, but your work is not done!
+-->
 
+リリースは公開されましたが、作業はまだ完了していません !
+
+<!--
 ### Phase Two
+-->
 
+### フェーズ2
+
+<!--
 Some of these tasks are ok to do over the course of the next few hours, so now is a good time to get a fresh glass of water if you need one.
+-->
 
+これらの作業のいくつかは、今後数時間かけて実行しても問題ありません。そのため、必要な場合は休憩をとってください。
+
+<!--
 1.  Open a [Request for Minor Release Amplification](https://github.com/WordPress/Marketing-Team/issues/new?assignees=bjmcsherry%2Ceidolonnight&labels=amplification-request%2Crelease-amplification&projects=&template=3-request-for-release-amplification.yml&title=%5BAMPLIFY+RELEASE%5D%3A+WordPress+X.Y.Z) issue on the Marketing Team’s issue tracker detailing the version number, type of release and a link to the announcement post.
 2.  Alert make/polyglots that you have released. Some locales produce their own builds instead of relying on the automatic builds and need to package things on their own. [Here’s an example](https://make.wordpress.org/polyglots/2021/04/15/35197/).
 3.  Update all HelpHub Version pages:
@@ -258,60 +291,20 @@ Some of these tasks are ok to do over the course of the next few hours, so now i
 8.  Bump the latest stable branch version to `X.Y.Z+1-alpha-$REVNUM-src` and the `version` in both the `package.json` and `composer.json` files to `X.Y.Z+1` for the next release. **Note:** After updating, you will also need to run `npm install` to update the `package-lock.json` fie ([example commit](https://core.trac.wordpress.org/changeset/56924)).
 9.  Rebuild the latest stable branch’s nightly (this is done by the person with MC access)
 10.  Rebuild the [Developer Code Reference](https://developer.wordpress.org/reference/) if necessary (This is done by someone with a sandbox)
-=======
-*   Verify that everything is working as expected, then bump `WP_CORE_AUTOUPDATE_RELEASE` and deploy.
-*   Check auto update stats to make sure they’re normal (success rate above 99.9%, with the remaining 0.1% being safely aborted or rolled back).
-*   Language packs for the release need to be built by bumping versions in `translate/bin/update-all-core-packs.sh` and deploying. (This file requires access to a dotorg sandbox.)
-*   The wordpress.org/news/ post needs to be published.
-*   At this point the release party is complete as only administrative tasks remains
-    *   thank attendees for their assistance testing during the release
-    *   let committers know they can commit again: `@committers feel free to commit as usual, thank you for your patience during the release`
-*   Alert make/polyglots that you have released. Some locales produce their own builds instead of relying on the automatic builds and need to package things on their own. [Here’s an example](https://make.wordpress.org/polyglots/2021/04/15/35197/).
-*   Update all HelpHub Version pages:
-    *   Add [minor release version page](https://wordpress.org/support/wordpress-version/version-5-7-1/) with the [file diff list](https://codex.wordpress.org/Template:Release) and the link to the news post.
-    *   Add version info and link to version page on [WordPress Versions](https://wordpress.org/support/article/wordpress-versions/).
-*   Update the Codex [CurrentVersion Template](https://codex.wordpress.org/Template:CurrentVersion) with the new version.
-*   If there were any changes to the REST API, update the [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) over at dev hub.
-*   In Trac, create (a) [new milestone](https://core.trac.wordpress.org/admin/ticket/milestones)(s) for `X.Y.Z+1` and mark the old milestone(s) as completed. This must be done by a Trac admin.
-*   In Trac, create a [new version](https://core.trac.wordpress.org/admin/ticket/versions) for the `X.Y.Z+1` release (including the most recent branch with backports). Delete the date from the `Released` date field. This too must be done by a Trac admin.
-*   Bump the latest stable branch version to `X.Y.Z+1-alpha-$REVNUM-src` and the `package.json` version to `X.Y.Z+1` for the next release. After updating, you will also need to run `npm install` to update the `package-lock.json` fie ([example commit](https://core.trac.wordpress.org/changeset/56924)).
-*   Rebuild the latest stable branch’s nightly
 -->
->>>>>>> main
 
-*   新しい貢献者をリストアップするために、関連するクレジットファイルを更新する必要があります。このファイルは [meta リポジトリ](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits)にあります。
-*   セキュリティリリースを実行する場合、セキュリティパッチをすべての関連ブランチにコミットする必要があります。
-*   セキュリティパッチがコミットされたら、リリースプロセスを [#core](https://make.wordpress.org/core/tag/core/) チャンネルに移動してください。
-    *   (`/here` Slack コマンドを使用して) リリースパーティーへの参加を歓迎するアナウンスを行うことから始めます。
-    *   コミッターに対して、リリースが完了するまでコミットを控えるようリクエストを投稿します。例: `@committers please refrain from committing during the release process`。
-*   バージョンアップは関連するすべてのブランチでコミットする必要があります。[これがその例です](https://core.trac.wordpress.org/changeset/44078)。コアコミッターであれば誰でもこのステップを実行できます。最新のブランチでバージョンアップをコミットする際には、version.php と about.php の両方を更新してください。package.json ファイルは現在のブランチですでに更新されているはずですが、それ以前のブランチでは更新する必要があります ([例](https://core.trac.wordpress.org/changeset/39862))。
-    *   `package.json` には `X.Y.Z` への単純なバージョンアップが1つあります (このドキュメントで後述するリリース後のバージョンアップのため、これはおそらくすでに正しいでしょう)。
-    *   `version.php` には `X.Y.Z-src` へのバージョンアップが一つあります。接尾辞の `-src` は、develop.svn にコミットする際に常に含める必要があることに注意してください。
-    * `about.php` の見出しである「Maintenance and Security Release(s)」に `Z` という数字を追加し、下部にある既存の文字列を使用して、リリースの変更点を説明する段落を追加する必要があります。これらの文字列はブランチによって異なりますので、必ず正しいバージョンのものを使用してください。他の場所から適切な段落をコピー & ペーストすることが一番簡単です。これがブランチの最初のマイナーリリースである場合、ナビゲ―ションタブの後に追加するラッパー div と前述の `h3` もあります。単一または複数のセキュリティやバグの修正について、考えられる文字列の組み合わせをメモしておきます。違いについては、[より完全な説明](#%e3%82%a2%e3%83%90%e3%82%a6%e3%83%88%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ae%e6%96%87%e5%ad%97%e5%88%97%e3%82%92%e9%81%b8%e6%8a%9e%e3%81%99%e3%82%8b)をチェックしてください。
-    *   これらの変更を事前に十分に準備し、レビューを依頼しましょう。そうすることで、リリースプロセスの停滞を避けることができます。バージョンアップとアバウトページは一緒にコミットでき、別々に行う必要はありません。
-*   すべてのブランチで、リリースには[タグが必要です](https://build.trac.wordpress.org/browser/tags/)。多くの人は SVN からリリースを実行し、そのためにタグに依存しています。タグ付けは以下のコマンドで完了します (関連ブランチとリリースで必ず更新してください): `svn cp https://develop.svn.wordpress.org/branches/5.7 https://develop.svn.wordpress.org/tags/5.7.2 -m "Tag 5.7.2"` `https://develop.svn.wordpress.org` がチェックアウトするリポジトリのルートであることを二重三重にチェックした場合は、`^` ショートカットを使用できます: `svn cp ^/branches/5.7 ^/tags/5.7.2 -m "Tag 5.7.2"`.
-*   リリースパッケージは、リリースされる各バージョンのタグをもとにミッションコントロールでビルドする必要があります。パッケージ化されたら、手動での更新テストを含め、十分にテストする必要があります。(どうやって行うのですか ? [ドキュメント](#%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%83%93%e3%83%ab%e3%83%89%e3%81%ae%e3%83%86%e3%82%b9%e3%83%88)をチェックしてください)。
-*   自動更新は dotorg リポジトリにある `versions.php` ファイルで有効にする必要があります。(このファイルは dotorg サンドボックスへのアクセスを必要とするため、サンドボックスが用意されている必要があります)。自動更新を有効にするには、`WP_CORE_LATEST_RELEASE` 定数に新しいバージョン番号を設定し、自動更新を開始する時間を `WP_CORE_AUTOUPDATE_RAMP_START` に設定します。これは予想されるデプロイの数分後であるはずです。また、すべての新しいバージョンと一致するように `wporg_get_version_equivalents()` 配列を更新し、対応する古いバージョンを古いバージョンの配列に追加する必要があります。
-    *   提供されるパーセンテージは、指定された時間の間に50%から100%まで上昇します。これは `WP_CORE_AUTOUPDATE_RAMP_START` 定数と `WP_CORE_AUTOUPDATE_RAMP_PERIOD` 定数によって制御されます。これらは以前の定数 `WP_CORE_AUTOUPDATE_PERCENT` と連携して動作し、いくつかのリリース中に手動で `WP_CORE_AUTOUPDATE_PERCENT` を低い値に変更する必要性をなくし、自動化します。
-    *   セキュリティリリースの場合は、`wporg_get_secure_versions()` を安全でない各ブランチ内のレガシーバージョンと一致させる必要があります。
-    *   デプロイ
-*   すべてが期待通りに動作していることを確認してから、`WP_CORE_AUTOUPDATE_RELEASE` をバージョンアップしてデプロイします。
-*   自動アップデートの統計が正常であることを確認してください (成功率は99.9%以上で、残りの0.1%は安全に中断またはロールバックされます)。
-*   リリースの言語パックは、`translate/bin/update-all-core-packs.sh` のバージョンを上げてビルドし、デプロイする必要があります。(このファイルは dotorg サンドボックスへのアクセスを必要とします)。
-*   wordpress.org/news/ の投稿を公開する必要があります。
-*   この時点でリリースパーティは完了し、管理タスクのみが残ります。
-    *   リリース中にテストに協力してくれた参加者に感謝します。
-    *   コミッターにコミットができるようになったことを伝えます: `@committers feel free to commit as usual, thank you for your patience during the release`
-*   リリースしたことを make/polyglots に知らせます。ロケールによっては、自動ビルドに頼らず独自のビルドを行い、独自にパッケージ化する必要があります。[これがその例です](https://make.wordpress.org/polyglots/2021/04/15/35197/)。
-*   すべての HelpHub バージョンページを更新します:
+1.  マーケティング チームの issue トラッカーで[マイナーリリースの拡張リクエスト](https://github.com/WordPress/Marketing-Team/issues/new?assignees=bjmcsherry%2Ceidolonnight&labels=amplification-request%2Crelease-amplification&projects=&template=3-request-for-release-amplification.yml&title=%5BAMPLIFY+RELEASE%5D%3A+WordPress+X.Y.Z) の issue を開き、バージョン番号、リリースの種類、アナウンス投稿へのリンクを詳細に記載します。
+2.  リリースしたことを make/polyglots に知らせます。ロケールによっては、自動ビルドに頼らず独自のビルドを行い、独自にパッケージ化する必要があります。[これがその例です](https://make.wordpress.org/polyglots/2021/04/15/35197/)。
+3.  すべての HelpHub バージョンページを更新します:
     *   [マイナーリリース版ページ](https://wordpress.org/support/wordpress-version/version-5-7-1/)に[ファイルの差分リスト](https://codex.wordpress.org/Template:Release)とニュース記事へのリンクを追加します。
     *   [WordPress Versions](https://wordpress.org/support/article/wordpress-versions/) にバージョン情報とバージョンページへのリンクを追加します。
-*   Codex の [CurrentVersion テンプレート](https://codex.wordpress.org/Template:CurrentVersion)を新しいバージョンに更新します。
-*   REST API に変更があった場合は、dev hub の [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) を更新してください。
-*   Trac で、`X.Y.Z+1` の[新しいマイルストーン](https://core.trac.wordpress.org/admin/ticket/milestones)を作成し、古いマイルストーンを完了としてマークしてください。これは Trac の管理者が行う必要があります。
-*   Trac で、`X.Y.Z+1` リリース (バックポートを含む最新のブランチ) の[新しいバージョン](https://core.trac.wordpress.org/admin/ticket/versions)を作成してください。`Released` 日付フィールドから日付を削除してください。これも Trac の管理者が行う必要があります。
-*   次のリリースに備えて、最新の安定版ブランチのバージョンを `X.Y.Z+1-alpha-$REVNUM-src` に、`package.json` のバージョンを `X.Y.Z+1` にバージョンアップします。更新した後に、`npm install` を実行して `package-lock.json` ファイルを更新する必要もあります ([コミット例](https://core.trac.wordpress.org/changeset/56924))。
-*   最新の安定版ブランチのナイトリーバージョンを再ビルドします。
+4.   Codex の [CurrentVersion テンプレート](https://codex.wordpress.org/Template:CurrentVersion)を新しいバージョンに更新します。
+5.   REST API に変更があった場合は、dev hub の [REST API changelog](https://developer.wordpress.org/rest-api/changelog/) を更新してください。
+6.   Trac で、`X.Y.Z+1` の[新しいマイルストーン](https://core.trac.wordpress.org/admin/ticket/milestones)を作成し、古いマイルストーンを完了としてマークしてください。これは Trac の管理者が行う必要があります。
+7.   Trac で、`X.Y.Z+1` リリース (バックポートを含む最新のブランチ) の[新しいバージョン](https://core.trac.wordpress.org/admin/ticket/versions)を作成してください。`Released` 日付フィールドから日付を削除してください。これも Trac の管理者が行う必要があります。
+8.   次のリリースに備えて、最新の安定版ブランチのバージョンを `X.Y.Z+1-alpha-$REVNUM-src` に、`package.json` と `composer.json` のバージョンを `X.Y.Z+1` にバージョンアップします。更新した後に、`npm install` を実行して `package-lock.json` ファイルを更新する必要もあります ([コミット例](https://core.trac.wordpress.org/changeset/56924))。
+9.   最新の安定版ブランチのナイトリーバージョンを再ビルドします (これは MC アクセス権を持つ人が行います)。
+10.   必要に応じて、[開発者コードリファレンス](https://developer.wordpress.org/reference/)を再構築します (これはサンドボックスを持つ誰かが行います)。
 
 <!--
 ## Schedule
