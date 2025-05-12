@@ -50,11 +50,7 @@ public function test_trailingslashit_should_add_slash_when_none_is_present() {
 The `assertSame()` method accepts two parameters: the *expected value* (in this case, the hardcoded string `'foo/'`), and the *actual value* (the value returned by `trailingslashit()`).
 -->
 
-<<<<<<< HEAD
-An [annotated list of common assertions](#using-assertions) can be found below.
-=======
 `assertSame()` メソッドは、**期待値** (この場合、ハードコードされた文字列 `'foo/'`) と **実際の値** (`trailingslashit()` によって返される値) の2つのパラメータを受け入れます。
->>>>>>> main
 
 <!--
 An [annotated list of common assertions](#using-assertions) can be found below.
@@ -136,11 +132,7 @@ Factory `create*()` methods accept an array of arguments, specific to that objec
 When all tests within a test class need the same fixtures to be available, it is common practice to abstract the creation of these fixtures out to a “set up” method. It is also good practice, to clean up after your test and remove any fixtures you have created.
 -->
 
-<<<<<<< HEAD
-[PHPUnit offers four methods](https://docs.phpunit.de/en/9.6/fixtures.html) which are automatically called to help with this: `setUpBeforeClass()`, `setUp()`, `tearDown()` and `tearDownAfterClass()`.
-=======
 テストクラス内のすべてのテストが同じフィクスチャを利用できるようにする必要がある場合、これらのフィクスチャの作成を「set up」メソッドに抽象化することが一般的です。また、テスト後にクリーンアップし、作成したフィクスチャを削除することも良い習慣です。
->>>>>>> main
 
 <!--
 [PHPUnit offers four methods](https://docs.phpunit.de/en/9.6/fixtures.html) which are automatically called to help with this: `setUpBeforeClass()`, `setUp()`, `tearDown()` and `tearDownAfterClass()`.
@@ -212,13 +204,9 @@ class Tests_Subset_functionName {
 }
 ```
 
-<<<<<<< HEAD
-For more information about when to use which method, please read through the [Fixtures chapter in the PHPUnit manual](https://docs.phpunit.de/en/9.6/fixtures.html).
-=======
 <!--
 For more information about when to use which method, please read through the [Fixtures chapter in the PHPUnit manual](https://docs.phpunit.de/en/9.6/fixtures.html).
 -->
->>>>>>> main
 
 どのメソッドをいつ使用するかについての詳細は、[PHPUnit マニュアルのフィクスチャの章](https://docs.phpunit.de/en/9.6/fixtures.html)を参照してください。
 
@@ -232,11 +220,7 @@ For more information about when to use which method, please read through the [Fi
 The most basic assertion available in PHPUnit is `assertSame()`, which performs a strict equality check `===` between the `$expected` and `$actual` parameters. Nearly any test can be written using this assertion.
 -->
 
-<<<<<<< HEAD
-For convenience, PHPUnit makes many more assertion methods available. It is strongly recommended to use the most specific assertion available. See [the official documentation](https://docs.phpunit.de/en/9.6/assertions.html) for information. As of WP 5.9, all assertions as available in PHPUnit 9.x can be used in the WordPress test suite and will work PHPUnit cross-version.
-=======
 PHPUnit で使用できるもっとも基本的なアサーションは `assertSame()` で、これは `$expected` パラメータと `$actual` パラメータが `===` であるかどうかを厳密にチェックします。ほぼすべてのテストは、このアサーションを使用して作成できます。
->>>>>>> main
 
 <!--
 For convenience, PHPUnit makes many more assertion methods available. It is strongly recommended to use the most specific assertion available. See [the official documentation](https://docs.phpunit.de/en/9.6/assertions.html) for information. As of WP 5.9, all assertions as available in PHPUnit 9.x can be used in the WordPress test suite and will work PHPUnit cross-version.
@@ -320,11 +304,7 @@ class Tests_Foo {
 ## Annotations
 -->
 
-<<<<<<< HEAD
-[PHPUnit annotations](https://docs.phpunit.de/en/9.6/annotations.html) are pieces of metadata, indicated by a `@`, placed in the docblock of a test method or class. WordPress’s tests use a number of PHPUnit annotations, as well as a few custom ones, to organize its tests. Note that annotations belonging to a class are automatically inherited by all member test methods, and should not be appended with a full stop.
-=======
 ## アノテーション
->>>>>>> main
 
 <!--
 [PHPUnit annotations](https://docs.phpunit.de/en/9.6/annotations.html) are pieces of metadata, indicated by a `@`, placed in the docblock of a test method or class. WordPress’s tests use a number of PHPUnit annotations, as well as a few custom ones, to organize its tests. Note that annotations belonging to a class are automatically inherited by all member test methods, and should not be appended with a full stop.
@@ -474,11 +454,7 @@ Some notes about shared fixtures:
 Whenever you have the inclination to copy and paste the code of a test method to test the same WordPress functionality with only slightly different arguments, please consider using a data provider instead.
 -->
 
-<<<<<<< HEAD
-A [data provider](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html#data-providers) is a secondary function which is linked to a test using a `@dataProvider` annotation in the docblock of the test method and is generally named after the test, replacing the `test` prefix in the method name with `data`.
-=======
 テストメソッドのコードをコピー & ペーストして、同じ WordPress の機能を少し異なる引数でテストしたくなったときは、代わりにデータプロバイダの使用を検討してください。
->>>>>>> main
 
 <!--
 A [data provider](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html#data-providers) is a secondary function which is linked to a test using a `@dataProvider` annotation in the docblock of the test method and is generally named after the test, replacing the `test` prefix in the method name with `data`.
@@ -490,11 +466,7 @@ A [data provider](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html#
 This second function must return an array of arrays, where each entry in this array is called a *data set* and passed to the test function as input parameters.
 -->
 
-<<<<<<< HEAD
-It is highly recommended to use [named data sets](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest1-php) in a data provider.
-=======
 この2番目の関数は、二次元配列を返す必要があります。この配列内の各エントリーは「データセット」と呼ばれ、入力パラメータとしてテスト関数に渡されます。
->>>>>>> main
 
 <!--
 It is highly recommended to use [named data sets](https://docs.phpunit.de/en/9.6/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest1-php) in a data provider.
