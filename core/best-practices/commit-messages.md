@@ -26,8 +26,13 @@ Remember: Do not commit to multiple branches in the same commit. This will, at a
 ## Format
 -->
 
-<<<<<<< HEAD
+## フォーマット
+
+<!--
 The full format for a commit message is as follows:
+-->
+
+コミットメッセージの完全な形式は次のとおりです:
 
 ```
 Component: Brief summary.
@@ -52,41 +57,9 @@ Props person, another.
 Fixes #30000. See #20202, #105.
 ```
 
-### Global Guidelines
-
-*   Each line should begin with a capital letter and end with a full stop/period.
-*   Code, such as the name of a function or a hook, should appear inside backticks, to ensure proper formatting in Trac and Slack.
-*   Outside of the brief summary, there are no character limits. Don’t manually wrap lines.
-*   Pay attention to places that should have a blank line before them and areas that should not.
-*   Ticket numbers preceded by a number sign [#20202](https://core.trac.wordpress.org/ticket/20202) and revision numbers inside square brackets [\[30000\]](https://core.trac.wordpress.org/changeset/30000) will auto-link in Trac, Slack, and here on make/core.
-*   Outside of the `props` section, avoid using the word `props` in order to not confuse the tools that generate contributor statistics. If talking about properties, use the full word. Otherwise, consult a [thesaurus](https://www.thesaurus.com/browse/prop).
-=======
-## フォーマット
-
-<!--
-The full format for a commit message is as follows:
--->
-
-コミットメッセージの完全な形式は次のとおりです:
-
-> Component: Brief summary.
->
-> Longer description with more details, such as a \`new\_hook\` being introduced with the context of a \`$post\` and a \`$screen\`.
->
-> More paragraphs can be added as needed.
-> 
-> Follow-up to [\[27195\]](https://core.trac.wordpress.org/changeset/27195), [\[41062\]](https://core.trac.wordpress.org/changeset/41062).
-> 
-> Reviewed by a-fellow-committer, maybe-multiple.  
-> Merges [\[26851\]](https://core.trac.wordpress.org/changeset/26851) to the to the x.x branch.
-> 
-> Props person, another.  
-> Fixes [#30000](https://core.trac.wordpress.org/ticket/30000). See [#20202](https://core.trac.wordpress.org/ticket/20202), #105.
-
 <!--
 ### Global Guidelines
 -->
->>>>>>> main
 
 ### グローバルガイドライン
 
@@ -140,11 +113,7 @@ The first line of a commit message is a brief summary of the changeset. The brie
 ### Description
 -->
 
-<<<<<<< HEAD
-The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notes and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and **why**.
-=======
 ### 説明
->>>>>>> main
 
 <!--
 The longer description of a commit should include more details about the commit and its repercussions for developers. These may include new hooks, “gotchas”, other solutions that were considered, or backstory. Consider your audiences when deciding what should go into the description: developers following along with the commit mailing list, volunteers collating information for each release’s dev notes and WordPress Core Weekly, and future code archaeologists trying to figure out who did what and **why**.
@@ -164,31 +133,7 @@ The longer description of a commit should include more details about the commit 
 *   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves if they need to.
 *   At times it is best to use lists instead of paragraphs, this is at the discretion of the committer.
 *   The words `props`, `backport`, `backports` should be avoided.
-<<<<<<< HEAD
-
-### Follow-up to
-
-When the commit is directly related to some previous work such as adding tests for a specific changeset or fast follow fixes, “Follow-up to” must be used with a link to those changesets. If you are backporting a commit, please follow the “Reviewed By and Merges” section instead.
-
-#### Guidelines
-
-*   Must be preceded by a blank line.
-*   Must wrap changesets in square brackets.
-
-### Reviewed By and Merges
-
-When [backporting code](https://make.wordpress.org/core/handbook/best-practices/backporting-commits/), use the `Reviewed By and Merges` section to indicate the code that is being merged and who reviewed it. Please specify the branch this is being merged into to help people seeing the commit in chat or email. It’s a best practice for the review to be noted in trac with the `[dev-reviewed](https://make.wordpress.org/core/handbook/contribute/trac/keywords/#action-based-keywords)` keyword.
-
-#### Guidelines
-
-*   This set of two lines must be preceded by a blank line.
-*   There should be a hard return between the Reviewed By and Merges lines but there must not be a blank line between them.
-*   Multiple core committers may be mentioned as reviewers. When this happens, please separate them with a comma.
-*   While the task of moving the code is called backporting, the words `backport`, `backports`, and `backporting` should not be used anywhere in the commit message.
-*   When backporting a commit made by another committer, add their username to the list of props if it is not already included.
-=======
 -->
->>>>>>> main
 
 *   要約と空白行で区切ってください。
 *   必要に応じて、空白行で区切って複数の段落にできます。コミットメッセージが最終的なチェンジセット自体よりも冗長になることは不合理ではありません。
@@ -212,10 +157,6 @@ When the commit is directly related to some previous work such as adding tests f
 #### Guidelines
 -->
 
-<<<<<<< HEAD
-*   Props must be preceded by a blank line.
-*   There should be no semi-colon (`:`) between “Props” and the w.org usernames.
-=======
 #### ガイドライン
 
 <!--
@@ -249,14 +190,14 @@ When [backporting code](https://make.wordpress.org/core/handbook/best-practices/
 *   There should be a hard return between the Reviewed By and Merges lines but there must not be a blank line between them.
 *   Multiple core committers may be mentioned as reviewers. When this happens, please separate them with a comma.
 *   While the task of moving the code is called backporting, the words `backport`, `backports`, and `backporting` should not be used anywhere in the commit message.
-*   Unlike the Summary, lines should not be manually wrapped – log viewers can take care of wrapping the description themselves, if they need to.
+*   When backporting a commit made by another committer, add their username to the list of props if it is not already included.
 -->
 
 *   この2行セットの前には空白行が必要です。
 *   「Reviewed By」の行と「Merges」の行の間には改行が必要ですが、間に空白行があってはなりません。
 *   複数のコアコミッターがレビュアーとして言及される場合がありますが、その場合はカンマで区切ってください。
 *   コードを移動するタスクはバックポートと呼ばれますが、`backport`、`backports`、および `backporting` という単語はコミットメッセージ内のどこにも使用しないでください。
-*   要約とは異なり、行を手動で折り返す必要はありません。必要に応じて、ログビューアが説明を自分で折り返すことができます。
+*   別のコミッターによって行われたコミットをバックポートする場合、そのコミッターのユーザー名がまだ含まれていない場合は、props のリストに追加します。
 
 <!--
 ### Props
@@ -290,20 +231,18 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 
 <!--
 *   Props must be preceded by a blank line.
->>>>>>> main
+*   There should be no semi-colon (`:`) between “Props” and the w.org usernames.
 *   Usernames must not start with an @ (at) sign.
 *   Separate usernames by comma + space. Think: /^props (\\s\*(\[^,\]+),?)+$/
 *   Copy/paste usernames to avoid typos. (Sorry, rmccue; or is that rmmcue?)
 *   If the user has a space in their displayed name, use the slug from their w.org profile URL. For example, Frank Klein on Trac should get props as frank-klein.
 *   The props line should only include the word props, wordpress.org usernames, spaces, and punctuation.
 *   The `props` line must end with a period.
-<<<<<<< HEAD
-=======
 -->
->>>>>>> main
 
 *   先頭には空白行が必要です。
 *   ユーザー名は `@` (アット) 記号で始めることはできません。
+*   「Props」と w.org ユーザー名の間にはセミコロン (`:`) を入れないでください。
 *   ユーザー名はカンマとスペースで区切ってください。正規表現: `/^props (\s*([^,]+),?)+$/`
 *   タイプミスを避けるため、ユーザー名はコピー & ペーストしてください。
 *   ユーザーの表示名にスペースがある場合は、w.org プロフィールの URL のスラッグを使用してください。たとえば、Trac の Frank Klein は frank-klein として props を取得する必要があります。
@@ -323,10 +262,6 @@ Check any tickets which were closed as a duplicate in case they contain contribu
 *   If committing your own code, props are assumed, so omit yourself here as well.
 -->
 
-<<<<<<< HEAD
-For a more detailed guide about giving props to contributors, see the [Contributor Attribution (“Props”) page in the handbook](https://make.wordpress.org/core/handbook/best-practices/contributor-attribution-props/).
-
-=======
 *   大きな機能、API、特にやっかいなバグなど、コミットが複数の人関わった多大な努力の結果である場合は、自分自身に props を与えてください。
 *   一般的に、貢献者にパッチに対するフィードバックを提供し、反復する機会を与えることが推奨されるプロセスです。ただし、コミッターであるあなたがパッチのアイデアを完成させる場合には、「props X for initial patch.」と書くこともできます。
 *   コミッターがコミットの前にスタイルを調整したり、ロジックを並べ替えたり、あるいは単純なエッジケースを考慮したりするのはよくあることです。このような場合、自分自身を省略してください。コミット上のあなたの名前は、あなたがそれをレビューしてテストしたことを暗示しており、これはコミットの内容と同じくらい重要です。
@@ -339,7 +274,6 @@ For a more detailed guide about giving props to contributors, see the [Contribut
 貢献者へ props を付与することに関する詳細なガイドについては、[ハンドブックの貢献者の帰属 (「props」) ページ](https://ja.wordpress.org/team/handbook/core/best-practices/contributor-attribution-props/) を参照してください。
 
 <!--
->>>>>>> main
 ### Ticket references
 -->
 
@@ -391,17 +325,11 @@ Meh:
 
 まあまあ良い:
 
-<<<<<<< HEAD
 ```
 Fixing `wp_dropdown_categories()` and other places that use term IDs.
 
 props boonerocks. fixes #20000.
 ```
-=======
-> Fixing \`wp\_dropdown\_categories()\` and other places that use term IDs.
->
-> props boonerocks. fixes [#20000](https://core.trac.wordpress.org/ticket/20000).
->>>>>>> main
 
 <!--
 Good:
@@ -409,7 +337,6 @@ Good:
 
 良い:
 
-<<<<<<< HEAD
 ```
 Taxonomy: Relax term ID comparisons.
 
@@ -418,14 +345,6 @@ Term IDs are sometimes provided as strings. This is particularly evident in `wp_
 Props booneistheman.
 Fixes #13237.
 ```
-=======
-> Taxonomy: Relax term ID comparisons.
->
-> Term IDs are sometimes provided as strings. This is particularly evident in \`wp\_dropdown\_categories()\`, where the \`selected\` argument was not being respected. Plugin authors should also be wary of using strict comparisons for term IDs.
->
-> Props booneistheman.
-> Fixes [#13237](https://core.trac.wordpress.org/ticket/13237).
->>>>>>> main
 
 <!--
 ## Automatically Pre-fill Commit Message
