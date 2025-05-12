@@ -38,7 +38,7 @@ WordPress のコードベースには、Subversion、Git、Trac (バグトラッ
 If you are using either of the Git or Subversion repositories mentioned above, the core codebase is in the `src` directory. A downloaded package serves a “built” version of this directory, thus placing these files in the root. The codebase consists of around 1000 files and directories. Initial bootstrap files, such as `index.php`, `wp-load.php`, `wp-blog-header.php`, and `wp-settings.php`, appear in this `src` directory. Special handlers such as the XML-RPC, trackback, and comment submission endpoints, are also in the root. The remaining files are divided into three distinct directories: **wp-admin**, **wp-includes**, and, to some extent, **wp-content**.
 -->
 
-上記の Git または Subversion リポジトリのいずれかを使用している場合、コアコードベースは `src` ディレクトリにあります。ダウンロードしたパッケージはこのディレクトリの「ビルド済み」バージョンを提供するため、これらのファイルはルートに配置されます。コードベースは約1000個のファイルとディレクトリで構成されています。`index.php`、`wp-load.php`、`wp-blog-header.php`、`wp-settings.php`などの初期ブートストラップファイルは、この `src` ディレクトリに配置されます。XML-RPC、トラックバック、コメント送信エンドポイントなどの特別なハンドラーもルートにあります。残りのファイルは、**wp-admin**、**wp-includes**、そしてある程度は **wp-content** という3つの異なるディレクトリに分割されています。
+上記の Git または Subversion リポジトリのいずれかを使用している場合、コアコードベースは `src` ディレクトリにあります。ダウンロードしたパッケージはこのディレクトリの「ビルド済み」バージョンを提供するため、これらのファイルはルートに配置されます。コードベースは約1000個のファイルとディレクトリで構成されています。`index.php`、`wp-load.php`、`wp-blog-header.php`、`wp-settings.php` などの初期ブートストラップファイルは、この `src` ディレクトリに配置されます。XML-RPC、トラックバック、コメント送信エンドポイントなどの特別なハンドラーもルートにあります。残りのファイルは、**wp-admin**、**wp-includes**、そしてある程度は **wp-content** という3つの異なるディレクトリに分割されています。
 
 ### wp-content
 

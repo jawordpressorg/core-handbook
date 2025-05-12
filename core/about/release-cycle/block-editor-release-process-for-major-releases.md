@@ -718,7 +718,7 @@ Gutenberg リポジトリでは、この Issue の内容を自動的に作成す
 -->
 
 *   タイトルに WordPress のバージョン番号 (例: "Backports for WP x.x")を付けて issue を作成してください。ラベルに "🤖 Sync Backport Changelog" を追加してください。トランクが更新されるたびに、[backport-changelog](https://github.com/WordPress/gutenberg/tree/trunk/backport-changelog) フォルダーの新しいエントリーがこの issue に同期されます。
-*   Github にリンクプレビューが追加され、各コアプルリクエストのステータスが簡単に確認できます。
+*   GitHub にリンクプレビューが追加され、各コアプルリクエストのステータスが簡単に確認できます。
 
 <!--
 The PHP files in `block-library` package don’t need to be manually synced, as they are auto-generated in Core based on the npm package.
@@ -854,7 +854,7 @@ Only follow these steps if automation *completely* fails for *all* PRs. Do not u
 *   プルリクエストの継続的インテグレーションが成功したことを確認します。
 *   解決すべきマージ競合があった場合は、競合するコミットの作成者に連絡し、正しく解決されているか再確認してください。
 *   マージする前に、必ず[必要な **すべての** プルリクエストが特定され、チェリーピックされていることを再確認してください](https://github.com/WordPress/gutenberg/issues?q=is%3Aissue+is%3Aclosed+label%3A%22Backport+to+WP+Beta%2FRC%22)。自動化では時々エラーが発生する可能性があるためです。
-*   CI ですべてのテストに合格したら、Github UI を使用してブランチを `Rebase and Merge` します (ターゲットブランチが `wp/X.X` ブランチであることを確認してください)。デフォルトの `Squash` ではなく、`Rebase` に変更してください。これにより、`wp/X.X` ブランチへのコミットの完全な履歴が保持されます。
+*   CI ですべてのテストに合格したら、GitHub UI を使用してブランチを `Rebase and Merge` します (ターゲットブランチが `wp/X.X` ブランチであることを確認してください)。デフォルトの `Squash` ではなく、`Rebase` に変更してください。これにより、`wp/X.X` ブランチへのコミットの完全な履歴が保持されます。
 
 <!--
 #### Publish Packages to NPM

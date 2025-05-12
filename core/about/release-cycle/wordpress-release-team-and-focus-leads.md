@@ -166,9 +166,9 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   Coordinate with the WordPress Executive Director to ensure a jazz musician is selected to name the release. This involves reaching out to the WordPress Executive Director to start the process in the week before the final Release Candidate. The WordPress Executive Director will then work with Matt Mullenweg to finalize. This is only done for major releases and should be done in the week before the last planned Release Candidate. Past jazzers are documented on the [WordPress versions](https://wordpress.org/documentation/article/wordpress-versions/) page.
 -->
 
-*   Slack で様々なリリースプロセス (ベータ版、リリース候補版、リリース) を実行する。
-*   [様々なマイルストーンに関するブログ記事](https://make.wordpress.org/core/tag/releases/)を作成する。
-*   ハンドブックに記載されている期限を常に把握し、関係する様々なチーム (プラグイン、テーマ、多言語対応チームなど) に連絡を取る。必要に応じて、期限を知らせる。
+*   Slack でさまざまなリリースプロセス (ベータ版、リリース候補版、リリース) を実行する。
+*   さまざまなマイルストーンに関するブログ記事](https://make.wordpress.org/core/tag/releases/)を作成する。
+*   ハンドブックに記載されている期限を常に把握し、関係するさまざまなチーム (プラグイン、テーマ、多言語対応チームなど) に連絡を取る。必要に応じて、期限を知らせる。
 *   ハンドブックに記載されている手順をメモし、必要に応じて変更を提案する。
 *   必要に応じて、チーム間の議論を促進する。
 *   進行中のプロジェクトを俯瞰的に把握し、危険信号、阻害要因、チームに必要な追加サポートなどを把握する。
@@ -195,7 +195,7 @@ These are tasks and responsibilities that may be documented for specific roles b
 -->
 
 * [バグスクラブを実行する](https://ja.wordpress.org/team/handbook/core/tutorials/leading-bug-scrubs/)
-* リリースコーディネーターと Slack で様々なリリースプロセス (ベータ版、リリース候補版、リリース版) を実行する。これらのプロセスの詳細は、[このドキュメントで詳しく説明されています](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/)。
+* リリースコーディネーターと Slack さまざまなリリースプロセス (ベータ版、リリース候補版、リリース版) を実行する。これらのプロセスの詳細は、[このドキュメントで詳しく説明されています](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-major-versions/)。
 *   リリースのマイルストーンで (trac 内の) コアチケットのトリアージを試みる
 *   チケットの優先順位付けを行い、すぐに取り掛かる必要がある緊急性の高い問題に対してグループ内で注意喚起を行い、迅速な解決を図る
 *   コンポーネントメンテナーとのコミュニケーションを図り、より多くのリソースや注意が必要な箇所を把握する
@@ -256,7 +256,7 @@ These are tasks and responsibilities that may be documented for specific roles b
     *   「製品」領域は、WordPress の実際の UI/UX に関わる作業です。
     *   「リリース」領域には、リリース固有の資料 (アバウトページなど) の調整が含まれます。
 *   デザインに関するインプットが必要なコアエディターおよびブロックエディターのチケットについて、ガイダンスと意思決定を提供します。
-*   様々なリリースアセットのデザインとコピーを調整します。
+*   さまざまなリリースアセットのデザインとコピーを調整します。
     *   各 WordPress リリースのハイライトグリッドとマイクロサイトの作成をガイドします。これには、各メジャーリリースに同梱され、wp-admin に表示される独自の アバウトページも含まれます。参考までに、過去のハイライトグリッドの例を以下に示します。
         *   [6.5 マイクロサイト](https://wordpress.org/download/releases/6-5/)
         *   [6.4 マイクロサイト](https://wordpress.org/download/releases/6-4/)

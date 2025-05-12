@@ -107,8 +107,8 @@ These are the prescribed steps to take when releasing a beta version of WordPres
     *   このベータ/RC リリースが元々計画されていなかった場合 (たとえば、RC の前に追加のベータをリリースしたり、最終リリースの前に追加の RC をリリースしたりした場合)、これらのアナウンス投稿は [wordpress.org/news/](https://wordpress.org/news/) では公開されず、代わりに [make.wordpress.org/core](https://make.wordpress.org/core/) で公開されるという意味で、歴史的に「サイレント」であることに注意してください (例: [5.7 RC 3](https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3/) や [6.2 Beta 5](https://make.wordpress.org/core/2023/03/07/wordpress-6-2-beta-5/))。
 *   ベータリリースの場合、マイルストーンから機能強化や機能追加のリクエストチケットが取り除かれていることを確認してください (例: [6.1の Trac クエリー](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&type=enhancement&type=feature+request&milestone=6.1&col=id&col=summary&col=status&col=owner&col=type&col=priority&col=milestone&order=priority))。ある機能強化や機能要求がリリースにとって重要であり、マイルストーンに残す必要があるという合意がリリースチーム内にある場合、そのチケットタイプは「Task (blessed)」に変更されるべきです。また、Gutenberg からの機能強化/機能マージも同様にマイルストーンからクリアされるか、「Task (blessed)」に変更されることをエディターテックリードと確認してください。
 *   RC リリースの場合、マイルストーンからすべてのチケットが削除されていることを確認するか、なぜチケットが残っているのかについてリリースチーム内で合意してください (例: [6.1の Trac クエリー](https://core.trac.wordpress.org/query?status=accepted&status=assigned&status=new&status=reopened&status=reviewing&milestone=6.1&col=id&col=summary&col=type&col=status&col=milestone&col=owner&col=priority&order=priority))。また、Gutenberg からのすべてのマージもマイルストーンからクリアされていることをエディターテックリードと確認してください。
-*   開始前に、少なくとも1時間のコードフリーズを行うことをお勧めします。これは、リリースパーティー開始前に、懸念事項を洗い出す最後の機会となり、作業中の人々に短い休憩を与えるためです。
-*   開始前に、すべてのユニットテストをローカルで実行します。これにより、ユニットテストなどの自動化されたアクションがリリースパーティー開始前に完了するようになります。
+*   開始前に、少なくとも1時間のコードフリーズを行うことをおすすめします。これは、リリースパーティー開始前に、懸念事項を洗い出す最後の機会となり、作業中の人々に短い休憩を与えるためです。
+*   開始前に、すべてのユニットテストをローカルで実行します。これにより、ユニットテストなどの自動化されたアクションがリリースパーティー開始前に完了します。
     *   これらのテストを実行する前に、npm パッケージが最新の変更を反映するようにローカルで更新されていることを確認します
     *   `phpunit --stop-on-failure`
     *   `phpunit --group ajax --stop-on-failure`
@@ -131,8 +131,8 @@ These are the prescribed steps to take when releasing a beta version of WordPres
         *   ベータ版の場合: `$wp_version = '5.8-beta1-src';`
         *   リリース候補版の場合: `$wp_version = '5.8.1-RC1-src';`
     *   Update the `version` in `package.json` if it has not been updated yet. The `version` in `package.json` should not contain `-beta1-src` or `-RC1-src`. For example, `5.8.1-RC1`/`5.8.1-RC1-src` should be just `5.8.1`. **Note:** the `package-lock.json` file must not be edited manually. Change the version specified in `package.json` and run `npm install` to update the lock file.
-    *   `package.json` の `version` がまだ更新されていない場合は更新してください。`package.json` の `version` には `-beta1-src` や `-RC1-src` を含めないでください。例えば、`5.8.1-RC1`/`5.8.1-RC1-src` の場合は `5.8.1` のみを指定してください。**注意:** `package-lock.json` ファイルは手動で編集しないでください。`package.json` で指定されているバージョンを変更し、`npm install` を実行してロックファイルを更新してください。
-    *   `composer.json` の `version` がまだ更新されていない場合は更新してください。`package.json` と同様に、バージョンには beta または RC というサフィックスを含めないでください。
+    *   `package.json` の `version` がまだ更新されていない場合は更新してください。`package.json` の `version` には `-beta1-src` や `-RC1-src` を含めないでください。たとえば、`5.8.1-RC1`/`5.8.1-RC1-src` の場合は `5.8.1` のみを指定してください。**注意:** `package-lock.json` ファイルは手動で編集しないでください。`package.json` で指定されているバージョンを変更し、`npm install` を実行してロックファイルを更新してください。
+    *   `composer.json` の `version` がまだ更新されていない場合は更新してください。`package.json` と同様に、バージョンには beta または RC という接尾辞を含めないでください。
     *   [https://build.trac.wordpress.org/](https://build.trac.wordpress.org/) にバージョンバンプが表示されていることを確認します。**これは Mission Control 経由でリリースする人が確認する必要があります**。
 *   パッケージをビルドします。
     *   リリースパッケージは [Mission Control](https://mc.wordpress.org/release/) でビルドする必要があります。上記の手順でビルドが表示された後、Mission Control がロード・更新される必要があります。

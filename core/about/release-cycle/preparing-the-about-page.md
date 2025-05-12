@@ -440,7 +440,7 @@ The feature screenshots are raster images, export these at 2x and convert to web
 Local images usually use a query string to break caching, so update the version before release. For example, [see this line in freedoms.php](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/freedoms.php#L61). This is not necessary for CDN images since those URLs change each release.
 -->
 
-ローカル画像は通常、キャッシュを解除するためにクエリ文字列を使用しているため、リリース前にバージョンを更新してください。例えば、[freedoms.php のこの行を参照してください](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/freedoms.php#L61)。CDN 画像の場合は、URL がリリースごとに変更されるため、この作業は不要です。
+ローカル画像は通常、キャッシュを解除するためにクエリー文字列を使用しているため、リリース前にバージョンを更新してください。たとえば、[freedoms.php のこの行を参照してください](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/freedoms.php#L61)。CDN 画像の場合は、URL がリリースごとに変更されるため、この作業は不要です。
 
 <!--
 The [field guide URL in `about.php`](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/about.php#L272) should also be updated when that post is published (usually around RC). The release notes URL is generated and should work once that page is published, but [the version number should be updated here](https://github.com/WordPress/wordpress-develop/blob/d6f72bad6f224a36627a5500a9c3e8ffb4eee524/src/wp-admin/about.php#L285-L298).
@@ -474,7 +474,7 @@ The timeline for this page depends on multiple teams, and there are a lot of thi
 
 *   ベータ3 (またはリリース前の最後のベータ): ページの最初の最終ドラフト、基本的なレイアウトとデザインをコミットします。
 *   RC1: ページの最終ドラフトをコミットし、確定済みのアセットを更新します。
-*   RC中: 機能のスクリーンショットをアップロードしてコミットし、URL を更新し、確定​​済みのアセットを更新します。
+*   RC 中: 機能のスクリーンショットをアップロードしてコミットし、URL を更新し、確定​​済みのアセットを更新します。
 
 <!--
 No string changes should happen after RC1, but exceptions are made, for example if something is technically inaccurate.

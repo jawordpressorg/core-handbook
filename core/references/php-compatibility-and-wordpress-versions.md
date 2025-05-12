@@ -67,9 +67,9 @@ Past changes to supported PHP versions have been as follows:
 -->
 
 *   2025年4月: 「例外ありで互換性あり」というラベルの使用は廃止されました。
-*   WordPress 6.7: PHP 8.4 をベータサポート。
+*   WordPress 6.7: PHP 8.4をベータサポート。
 *   WordPress 6.6:
-    *   例外つきでPHP 8.2と互換性のあるレベルに引き上げました。
+    *   例外つきで PHP 8.2と互換性のあるレベルに引き上げました。
     *   [PHP 7.0と7.1のサポートを廃止](https://make.wordpress.org/core/2024/04/08/dropping-support-for-php-7-1/)。
 *   WordPress 6.4: [PHP 8.3をベータサポート](https://wordpress.org/news/2023/10/wordpress-6-4s-php-compatibility/)。
 *   WordPress 6.3:
@@ -86,7 +86,7 @@ Past changes to supported PHP versions have been as follows:
 ### Older WordPress Versions
 -->
 
-### 古いバージョンのWordPress
+### 古いバージョンの WordPress
 
 <!--
 *   In WordPress 6.1: Added beta support for PHP 8.2.

@@ -48,7 +48,7 @@ Some things to know when making your first few commits:
 And finally some other general things to keep in mind as a Core Committer:
 -->
 
-最後に、コアコミッターとして留意すべき一般的な事項をいくつかご紹介します。
+最後に、コアコミッターとして留意すべき一般的な事項をいくつか紹介します。
 
 <!--
 *   When attending contributor day of WordCamps, you are strongly encouraged to commit someone else’s code, ideally, an attendee that is there working on a patch. It’s also good to encourage inactive committers to dip their toes back in at these events.

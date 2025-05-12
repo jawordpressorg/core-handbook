@@ -58,7 +58,7 @@ The 3.7 release cycle brought a [restructuring of the SVN repository](https://ma
 You can still check out just the source code from [https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) to install and test with; however, if you plan on contributing to core, it is recommended that you check out the source code, unit tests, and tools from the new repository to test, fix bugs, and create patches and unit tests with.
 -->
 
-[https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) からソースコードだけをチェックアウトして、インストールしたりテストしたりすることはできます。しかし、もしコアに貢献するつもりなら、新しいリポジトリからソースコード、ユニットテスト、ツールをチェックアウトして、テスト、バグ修正、パッチやユニットテストの作成に利用することをおすすめします。
+[https://core.svn.wordpress.org/trunk/](https://core.svn.wordpress.org/trunk/) からソースコードだけをチェックアウトして、インストールしたりテストしたりできます。しかし、もしコアに貢献するつもりなら、新しいリポジトリからソースコード、ユニットテスト、ツールをチェックアウトして、テスト、バグ修正、パッチやユニットテストの作成に利用することをおすすめします。
 
 
 <!--
@@ -255,7 +255,7 @@ Upon browser refresh you should get the response as described below. These direc
 **If you created your `wp-config.php` file manually**, you will be presented with the standard WordPress installation screen. You will do the famous “5 minute install” – enter your site title, desired username, choice of a password (twice), and your e-mail address, then **click Install WordPress** to complete the installation. **Click Log In** on the Success screen, enter your username and password, and configure the settings for your preferences.
 -->
 
-**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定を行います。**成功の画面でログイン**をクリックし、ユーザー名とパスワードを入力し、お好みの設定を行います。
+**`wp-config.php` ファイルを手動で作成した場合**、WordPress の標準的なインストール画面が表示され、有名な「5分インストール」を行います。サイトのタイトル、希望のユーザー名、パスワード (2回)、メールアドレスを入力し、**WordPress をインストール**をクリックすると、インストールが完了します。インストールが成功した画面で**ログイン**をクリックし、ユーザー名とパスワードを入力し、設定します。**成功の画面でログイン**をクリックし、ユーザー名とパスワードを入力し、お好みの設定を行います。
 
 
 <!--
