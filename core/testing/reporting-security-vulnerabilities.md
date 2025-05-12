@@ -68,7 +68,9 @@ To encourage proactive security assessments, the WordPress community offers mone
 
 WordPress コミュニティは、積極的なセキュリティ評価を促進するため、未公開のセキュリティ脆弱性の報告に対して金銭的な報奨金を提供しています。特に注目すべきは、WordPress のメジャーバージョンのベータ1のリリースから最終リリース候補版 (RC) までの期間は、報奨金が2倍になることです。
 
-<!-- For instance, in the [WordPress 6.5 release cycle](https://make.wordpress.org/core/6-5/), this enhanced bounty period spanned from February 13, 2024 (Beta 1) to March 28, 2024 (final RC). *[source](https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/)* -->
+<!--
+For instance, in the [WordPress 6.5 release cycle](https://make.wordpress.org/core/6-5/), this enhanced bounty period spanned from February 13, 2024 (Beta 1) to March 28, 2024 (final RC). *[source](https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/)*
+-->
 
 たとえば、[WordPress 6.5リリースサイクル](https://make.wordpress.org/core/6-5/)では、この報奨金の強化期間は2024年2月13日 (ベータ1) から2024年3月28日 (最終 RC) まででした。[出典](https://make.wordpress.org/security/2024/02/12/welcoming-2024-with-wordpress-6-5-beta-1/)
 
