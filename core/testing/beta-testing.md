@@ -48,22 +48,15 @@ To get started, install the [**WordPress Beta Tester**](https://wordpress.org/ex
 Once the plugin is installed, navigate to Tools > Beta Testing and review the settings:
 -->
 
-<<<<<<< HEAD
+<!--
 *   **Point release nightlies.** This keeps you on the same major version but provides nightly builds for the next minor version. For example, when the stable version is 6.6.2, selecting this will provide updates being prepared for the unreleased 6.6.3 version. After 6.6.3 is released, this will provide the nightly build of 6.6.4.
 *   **Bleeding edge nightlies.** Selecting this will put you on the track for the next major version and provide nightly builds. These are often unstable and changes will happen frequently.
-=======
-プラグインをインストールしたら、ツール > ベータテストに移動し、設定を確認します:
-
-<!--
-*   **Point release nightlies.** The current release is 5.2.3. Selecting this will put you on the track for 5.2.x development.
-*   **Bleeding edge nightlies.** Selecting this will put you on the track for 5.3 development.
->>>>>>> main
 *   **Beta/RC.** Selecting this will update to the next released beta or RC on whichever branch you are currently running.
 -->
 
-*   **ポイントリリース。** 現在のリリースは5.2.3です。これを選択すると、5.2.x の開発トラックを追跡できます。
-*   **最前線。** これを選択すると、5.3の開発トラックを追跡できます。
-*   **ベータ / RC のみ。** これを選択すると、現在実行しているブランチの次のリリースされたベータ版または RC 版に更新されます。
+*   **ナイトリーポイントリリース。** 同じメジャーバージョンを維持しながら、次のマイナーバージョンのナイトリービルドを提供します。例えば、安定バージョンが 6.6.2 の場合、これを選択すると、リリースされていない 6.6.3 バージョン向けに準備されているアップデートが提供されます。6.6.3 がリリースされた後は、6.6.4 のナイトリービルドが提供されます。
+*   **最前線。** これを選択すると、次のメジャーバージョンに向けて準備がされ、ナイトリービルドが提供されます。これらのバージョンは不安定な場合が多く、頻繁に変更が行われます。
+*   **ベータ / RC のみ。** これを選択すると、現在実行しているブランチの次にリリースされるベータ版または RC 版に更新されます。
 
 <!--
 You can also use WP CLI to directly update your WordPress to trunk version by doing:
