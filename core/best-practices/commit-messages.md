@@ -441,7 +441,7 @@ RC のフェーズでは、コミットされる前に[すべてのパッチは2
         *   変更された行だけをチェックするには、[wp-dev-lib](https://github.com/xwp/wp-dev-lib/) をクローンし、`DIFF_BASE=trunk DEV_LIB_ONLY=phpsyntax,phpcs /path/to/wp-dev-lib/pre-commit` を[実行](https://github.com/xwp/wp-dev-lib/#manually-invoking-pre-commit)します。ローカルブランチが `trunk` 以外である必要があり、変更がコミットされているか、コミット用にステージされている必要があることに注意してください。ステージされていない変更はスキャンされません。
         *   これらのコマンドは、Bash でエイリアスを作成することをおすすめします。
     *   JavaScript
-        *   `npm run grunt jshint` を[実行](https://ja.wordpress.org/team/handbook/core/best-practices/coding-standards/javascript/#jshint)します。これは `npm run grunt precommit` でも自動的に行われます。
+        *   `npm run grunt jshint` を[実行](https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/javascript/#jshint)します。これは `npm run grunt precommit` でも自動的に行われます。
     * HTML、CSS、a11y
         *   これらは手動でチェックする必要があります。
 *   `npm run grunt build && npm run grunt precommit` を実行します。これにより、PHP と JavaScript の自動テストスイートが実行され、CSS や画像などのさまざまなタスクも実行されます。
