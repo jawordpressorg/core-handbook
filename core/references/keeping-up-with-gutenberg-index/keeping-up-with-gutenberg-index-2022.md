@@ -26,7 +26,7 @@ Discussions are in the **[#core-editor](https://make.wordpress.org/core/tag/core
 See *[Explanations](#explanations)* on the bottom.
 -->
 
-下部の「[説明](#explanations)」をご覧ください。
+下部の「[説明](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/keeping-up-with-gutenberg-index-2022/#explanations)」をご覧ください。
 
 * * *
 
