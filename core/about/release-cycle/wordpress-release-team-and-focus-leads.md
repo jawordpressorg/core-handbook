@@ -297,30 +297,6 @@ These are tasks and responsibilities that may be documented for specific roles b
 *   新機能に必要なドキュメントページは、リリース前に作成します。[メジャーバージョンリリース中のドキュメント作成プロセス](https://make.wordpress.org/docs/handbook/workflows/documentation-process-during-a-major-version-release/)を確認し、リリース当日の準備を進めてください。
 
 <!--
-### Documentation Review
--->
-
-### ドキュメントのレビュー
-
-<!--
-**Responsibilities**
--->
-
-**責任**
-
-<!--
-*   Proofread and review dev notes as they are available from the Documentation Wrangling team
-*   Verify code examples
-*   Make suggestions for additional examples
-*   Ensure the developer notes accurately and thoroughly describe the problem, solution, and identify proper usage of the changes
--->
-
-*   ドキュメント調整チームから提供される開発者ノートを校正・レビューする
-*   コード例を確認する
-*   追加の例を提案する
-*   開発者ノートが問題、解決策を正確かつ徹底的に記述し、変更点の適切な使用方法を特定していることを確認する
-
-<!--
 ### MarComms (Marketing and Communications) Lead
 -->
 
