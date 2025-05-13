@@ -154,7 +154,7 @@ Now that you’ve done all of that, it’s on to release day.
 You’ve made it. Release day can be stressful. The best way to survive release day is to *stay calm*. Things will go wrong. It’s okay, just regroup and keep moving forward. Ask for help from folks that have been through this before and have some confidence in yourself. But first, you need your release day team. You should try to get this team aligned one week before the release.
 -->
 
-リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。リリース日に行う必要があることのリストは次のとおりです:
+リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。同じような経験をした人に助けを求め、自分に自信を持つようにしましょう。しかし、まずはリリース当日のチームが必要です。リリースの1週間前までに、チームをまとめるようにしましょう。
 
 <!--
 Often times one person can fill multiple roles. If you’re unsure who can do each of these, welcome to the club. Ask in your release channel or ask an experienced committer and someone should be able to help guide you.
