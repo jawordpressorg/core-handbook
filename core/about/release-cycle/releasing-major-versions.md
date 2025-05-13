@@ -210,6 +210,8 @@ There are no limitations to where you come from. We are a global community, open
 ## Pre Beta 1
 -->
 
+## ベータ1の前に
+
 <!--
 *   A week before Beta 1, **publish a Release Party Schedule post** that includes the planned timing of the Beta, RC, Dry Run, and Final releases along with who’s responsible for various roles for each release (e.g. Emcee, Committer, Security, Mission Control, Marketing & Communications). [Here is an example from the 6.7 release cycle](https://make.wordpress.org/core/2024/09/24/wordpress-6-7-release-party-schedule/).
 *   **[Compile and start to publish Dev notes](https://make.wordpress.org/core/handbook/tutorials/writing-developer-notes/)**. Start compiling and publishing posts that inform developers of breaking changes and major developer-focused updates of the release on [make/core using #dev-notes](https://make.wordpress.org/core/tag/dev-notes/).
