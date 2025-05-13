@@ -26,7 +26,7 @@ Once you’ve either found an existing Trac ticket or created a new ticket for t
 If you want to help, but don’t know which bugs to fix, review the [Finding Bugs to Fix](#finding-bugs-to-fix) section below.
 -->
 
-貢献したいけれど、どのバグを直せばいいのかわからないという方は、以下の[修正すべきバグの発見](#%e4%bf%ae%e6%ad%a3%e3%81%99%e3%81%b9%e3%81%8d%e3%83%90%e3%82%b0%e3%81%ae%e7%99%ba%e8%a6%8b)セクションをご覧ください。
+貢献したいけれど、どのバグを直せばいいのかわからないという方は、以下の[修正すべきバグの発見](https://ja.wordpress.org/team/handbook/core/contribute/fixing-bugs/#finding-bugs-to-fix)セクションをご覧ください。
 
 <!--
 ## Overview
