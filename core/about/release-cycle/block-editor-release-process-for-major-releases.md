@@ -236,9 +236,7 @@ The template will contain the following columns:
 After you have created the project board, make sure to review the project board from the prior release and migrate over all punted issues and PRs. Remove each from the old project board once you have moved everything over.
 -->
 
-<!--
 プロジェクトボードを作成したら、前のリリースのプロジェクトボードを確認し、前のリリースから持ち越された issue やプルリクエストをすべて移行してください。すべてを移行したら、古いプロジェクトボードからそれぞれ削除してください。
--->
 
 [![](https://make.wordpress.org/core/files/2023/08/project-board-1024x541.png)](https://make.wordpress.org/core/files/2023/08/project-board.png)
 
