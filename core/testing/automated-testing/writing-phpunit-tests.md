@@ -56,7 +56,7 @@ The `assertSame()` method accepts two parameters: the *expected value* (in this 
 An [annotated list of common assertions](#using-assertions) can be found below.
 -->
 
-[一般的なアサーションのアノテーション付きリスト](#%e3%82%a2%e3%82%b5%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%bd%bf%e7%94%a8)は以下にあります。
+[一般的なアサーションのアノテーション付きリスト](https://ja.wordpress.org/team/handbook/core/testing/automated-testing/writing-phpunit-tests/#using-assertions)は以下にあります。
 
 <!--
 ### Fixtures and Factories

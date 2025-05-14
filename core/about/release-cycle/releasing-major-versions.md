@@ -128,7 +128,7 @@ There are also a few responsibilities that release leads and deputies have over 
 
 *   **議題の投稿、毎週の開発者チャットの運営、チャットの要約の投稿。** リリースサイクル全体を通して、情報は WordPress 開発者コミュニティ全体に提供されるべきです。すべてのコミュニティメンバーが毎週の開発者チャットに参加できるわけではないので、[議題](https://make.wordpress.org/core/tag/agenda/)と[要約](https://make.wordpress.org/core/tag/summary/)を投稿する必要があります。
 *   **チケットのトリアージとチケットレポートのモニタリング。** リリースには多くの重要な要素があります。リリースリードとサブリードは、新しく提出される trunk チケットを注意深く見守り、関連する[チケットレポート](https://make.wordpress.org/core/reports/)を監視する必要があります。これには、(特に未所有のコンポーネントの) 新しいチケットレポートをトリアージして、ブロックする問題がないかチェックすることも含まれます。
-*   **リリースを予定通りに進める。** [期限を守ること。](https://ja.wordpress.org/team/handbook/core/about/philosophies/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードとサブリードがこのスケジュールに責任を持ちます (上記の「スケジュールについて」を参照してください)。リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
+*   **リリースを予定通りに進める。** [期限を守ること。](https://ja.wordpress.org/about/philosophy/#deadlines-are-not-arbitrary)WordPress のリリースは、スケジュール通りに進むように努力すべきであり、リリースリードとサブリードがこのスケジュールに責任を持ちます (上記の「スケジュールについて」を参照してください)。リリースのスケジュールを維持するには多くの側面があり、その多くはここで責任として挙げられています。
 *   **バグスクラブの開催。** バグスクラブを毎週開催することは、あらゆる種類の貢献者からの貢献を促す有用な活動です。この活動は、リリースリード、サブリード、その他の貢献者によってうまく運営できます。コンポーネントメンテナーもバグスクラブを行うことができます。
 *   **機能に関するアイデアを検討し、対応する。** WordPress の貢献者やユーザーは、リリースサイクル中、特に[ウィッシュリスト](https://make.wordpress.org/core/tag/wishlists/)の投稿に機能のアイデアを投稿します。各機能を開発することはリリースリード (またはそのサブリード) の責任ではありませんが、各機能のアイデアをレビューし、リリースに含める価値があるかどうかを確認する必要があります。これらのアイデアの多くは、[機能に関するプロジェクト](https://make.wordpress.org/core/features/)から出てくるものですが、中には注意が必要なチケットもあるでしょう。
 *   **助けてくれる貢献者を見つける。** すべての技術的な決定、あるいはその大部分を行うことは、リリースリードの責任ではありません。リリースリードは、いつどのように貢献者を探し出し、支援を求めるべきかを知っておくべきです。コアチームは大規模で、リソースの状況もさまざまであるため、リリースリードはさまざまなチケットに対してフィードバックやサポートを提供するために、どの貢献者が最適であるかをよく理解している必要があります。
@@ -209,6 +209,8 @@ There are no limitations to where you come from. We are a global community, open
 <!--
 ## Pre Beta 1
 -->
+
+## ベータ1の前に
 
 <!--
 *   A week before Beta 1, **publish a Release Party Schedule post** that includes the planned timing of the Beta, RC, Dry Run, and Final releases along with who’s responsible for various roles for each release (e.g. Emcee, Committer, Security, Mission Control, Marketing & Communications). [Here is an example from the 6.7 release cycle](https://make.wordpress.org/core/2024/09/24/wordpress-6-7-release-party-schedule/).

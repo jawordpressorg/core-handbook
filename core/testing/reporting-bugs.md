@@ -136,7 +136,7 @@ Trac は WordPress の公式バグトラッカーの名前です。Edgewall Soft
 5.  Click **Submit Ticket** after previewing it.
 -->
 
-1.  [バグを報告する前に](#%e3%83%90%e3%82%b0%e3%82%92%e5%a0%b1%e5%91%8a%e3%81%99%e3%82%8b%e5%89%8d%e3%81%ab)行うべきことについては、上記のセクションを参照してください。
+1.  [バグを報告する前に](https://ja.wordpress.org/team/handbook/core/testing/reporting-bugs/#before-you-report-a-bug)行うべきことについては、上記のセクションを参照してください。
 2.  [サポートフォーラム](https://wordpress.org/support/)のユーザー名とパスワードを使って [WordPress Trac](https://core.trac.wordpress.org/) にログインします。サポートフォーラムのアカウントを持っていない場合は、[登録](https://wordpress.org/support/register.php)してください。
 3.  Trac の [New Ticket](https://core.trac.wordpress.org/newticket) をクリックして、バグレポートページにアクセスします。
 4.  タイトル、概要、その他のフィールドを記入してください。詳しくは [チケットのプロパティ](https://ja.wordpress.org/team/handbook/core/trac/#ticket-properties)を参照してください。

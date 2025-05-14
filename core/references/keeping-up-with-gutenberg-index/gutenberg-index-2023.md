@@ -24,7 +24,7 @@ This page is the one place you can bookmark for Gutenberg\-related team posts of
 📙 [WordPress **6.2** Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.2/) | 📓 [WordPress 6.3 Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.3) | 📘 [WordPress 6.4 Dev Notes](https://make.wordpress.org/core/tag/dev-notes+6.-4)
 -->
 
--   下部の「[説明](#%e8%aa%ac%e6%98%8e)」をご覧ください。
+-   下部の「[説明](https://ja.wordpress.org/team/handbook/core/references/keeping-up-with-gutenberg-index/gutenberg-index-2023/#explanations)」をご覧ください。
 -   議論は **[#core-editor](https://make.wordpress.org/core/tag/core-editor/)** Slack チャンネルで、開発は [Gutenberg GitHub リポジトリ](https://github.com/WordPress/gutenberg/issues) で行われています。
 -   [WordPress における Gutenberg のバージョン](https://developer.wordpress.org/block-editor/contributors/versions-in-wordpress/)
 -   📗 [WordPress 6.2の開発者ノート](https://make.wordpress.org/core/tag/dev-notes+6.2/)

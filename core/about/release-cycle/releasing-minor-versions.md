@@ -154,7 +154,7 @@ Now that you’ve done all of that, it’s on to release day.
 You’ve made it. Release day can be stressful. The best way to survive release day is to *stay calm*. Things will go wrong. It’s okay, just regroup and keep moving forward. Ask for help from folks that have been through this before and have some confidence in yourself. But first, you need your release day team. You should try to get this team aligned one week before the release.
 -->
 
-リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。リリース日に行う必要があることのリストは次のとおりです:
+リリース日はストレスになるかもしれません。リリース日を乗り切る最善の方法は、**冷静さを保つ**ことです。うまくいかないこともあるでしょう。大丈夫です、気を取り直してもう一度進んでみましょう。同じような経験をした人に助けを求め、自分に自信を持つようにしましょう。しかし、まずはリリース当日のチームが必要です。リリースの1週間前までに、チームをまとめるようにしましょう。
 
 <!--
 Often times one person can fill multiple roles. If you’re unsure who can do each of these, welcome to the club. Ask in your release channel or ask an experienced committer and someone should be able to help guide you.
@@ -240,7 +240,7 @@ When it’s time to start the release party, get yourself a glass of water and t
 5.   バージョンアップは関連するすべてのブランチでコミットする必要があります。[これがその例です](https://core.trac.wordpress.org/changeset/44078)。コアコミッターであれば誰でもこのステップを実行できます。最新のブランチでバージョンアップをコミットする際には、version.php と about.php の両方を更新してください。`package.json`、`package-lock.json`、`composer.json` ファイルは現在のブランチですでに更新されているはずですが、それ以前のブランチでは更新する必要があります ([例](https://core.trac.wordpress.org/changeset/39862))。
     *   `package.json`、`package-lock.json`、`composer.json` には `X.Y.Z` への単純なバージョンアップが1つあります (このドキュメントで後述するリリース後のバージョンアップのため、これはおそらくすでに正しいでしょう)。
     *   `version.php` には `X.Y.Z-src` へのバージョンアップが一つあります。接尾辞の `-src` は、develop.svn にコミットする際に常に含める必要があることに注意してください。
-    * `about.php` の見出しである「Maintenance and Security Release(s)」に `Z` という数字を追加し、下部にある既存の文字列を使用して、リリースの変更点を説明する段落を追加する必要があります。これらの文字列はブランチによって異なりますので、必ず正しいバージョンのものを使用してください。他の場所から適切な段落をコピー & ペーストすることが一番簡単です。これがブランチの最初のマイナーリリースである場合、ナビゲ―ションタブの後に追加するラッパー div と前述の `h3` もあります。単一または複数のセキュリティやバグの修正について、考えられる文字列の組み合わせをメモしておきます。違いについては、[より完全な説明](#%e3%82%a2%e3%83%90%e3%82%a6%e3%83%88%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%ae%e6%96%87%e5%ad%97%e5%88%97%e3%82%92%e9%81%b8%e6%8a%9e%e3%81%99%e3%82%8b)をチェックしてください。
+    * `about.php` の見出しである「Maintenance and Security Release(s)」に `Z` という数字を追加し、下部にある既存の文字列を使用して、リリースの変更点を説明する段落を追加する必要があります。これらの文字列はブランチによって異なりますので、必ず正しいバージョンのものを使用してください。他の場所から適切な段落をコピー & ペーストすることが一番簡単です。これがブランチの最初のマイナーリリースである場合、ナビゲ―ションタブの後に追加するラッパー div と前述の `h3` もあります。単一または複数のセキュリティやバグの修正について、考えられる文字列の組み合わせをメモしておきます。違いについては、[より完全な説明](https://ja.wordpress.org/team/handbook/core/about/release-cycle/releasing-minor-versions/#selecting-strings)をチェックしてください。
     *   これらの変更を事前に十分に準備し、レビューを依頼しましょう。そうすることで、リリースプロセスの停滞を避けることができます。バージョンアップとアバウトページは一緒にコミットでき、別々に行う必要はありません。
 6.  もう一度言いますが、すべてのコミットが [https://build.trac.wordpress.org/](https://build.trac.wordpress.org/) に同期されていることを確認してください。同期されていない場合は、システムチームに報告できる担当者を探してください。これにより、リリースが少し遅れる可能性があります。
 7.  すべてのブランチで、リリースには[タグが必要です](https://build.trac.wordpress.org/browser/tags/)。多くの人は SVN からリリースし、そのためにタグに依存しています。タグ付けは以下のコマンドで完了します (関連ブランチとリリースで必ず更新してください): `svn cp https://develop.svn.wordpress.org/branches/5.7 https://develop.svn.wordpress.org/tags/5.7.2 -m "Tag 5.7.2"`

@@ -61,7 +61,7 @@ Inline documentation is considered to be “technical” documentation, so some 
     
 -->
 
-1. [JavaScript ドキュメント規約](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/)をはじめ、[書式ガイドライン](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/php/#formatting-guidelines)や[ドキュメント作成のヒント](https://ja.wordpress.org/team/handbook/core/best-practices/inline-documentation-standards/javascript/#documenting-tips)をよく理解してください。
+1. [JavaScript ドキュメント規約](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/javascript/)をはじめ、[書式ガイドライン](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/php/#formatting-guidelines)や[ドキュメント作成のヒント](https://ja.wordpress.org/team/handbook/coding-standards/inline-documentation-standards/javascript/#documenting-tips)をよく理解してください。
 
 2. [Varying Vagrant Vagrants](https://ja.wordpress.org/team/handbook/core/tutorials/installing-a-local-server/installing-vvv/) (VVV) を使って、WordPress コードベース開発版のローカルコピーをセットアップします。WordPress は バージョン管理に SVN を使用していますが、Git を使うこともできます (その方法は VVV のリンク先にあります)。
 
